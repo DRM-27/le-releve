@@ -231,9 +231,9 @@ def share_bar(a, prefix):
     return (f'<div class="share-bar" aria-label="Partager cet article"><span class="share-label">Partager</span>'
             f'<a class="share x" href="{esc(x)}" target="_blank" rel="noopener">'
             '<svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.8 3h3.1l-6.8 7.7L22 21h-6.2l-4.9-6.4L5.3 21H2.2l7.2-8.3L1.8 3h6.4l4.4 5.8L17.8 3Zm-1.1 16.2h1.7L7.4 4.7H5.5l11.2 14.5Z"/></svg>X</a>'
-            f'<a class="share" href="{esc(li)}" target="_blank" rel="noopener">'
+            f'<a class="share li" href="{esc(li)}" target="_blank" rel="noopener">'
             '<svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.5h4V21H3V9.5Zm6.5 0h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.2c0-1.2 0-2.9-1.8-2.9s-2 1.4-2 2.8V21h-4V9.5Z"/></svg>LinkedIn</a>'
-            f'<button class="share" type="button" data-copy="{esc(link)}" data-copy-msg="Lien copié !">'
+            f'<button class="share copy" type="button" data-copy="{esc(link)}" data-copy-msg="Lien copié !">'
             '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>Copier le lien</button></div>')
 
 

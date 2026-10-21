@@ -310,6 +310,7 @@
     var n = names();
     var text = n[0] + ' face à ' + n[1] + ' : joueurs en ligne, heure par heure, sur Le Relevé 📊';
     xs.href = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text) + '&url=' + encodeURIComponent(location.href);
+    var li = document.getElementById('li-share'); if (li) li.href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(location.href);
   }
   if (xs) { refreshX(); document.getElementById('compare').addEventListener('change', function () { setTimeout(refreshX, 50); }); xs.addEventListener('focus', refreshX); xs.addEventListener('mouseenter', refreshX); }
   if (cp) cp.addEventListener('click', function () {
