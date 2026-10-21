@@ -1,34 +1,34 @@
 {
- "genere": "2026-10-21T18:15:31Z",
+ "genere": "2026-10-21T18:24:03Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/le-releve/",
-   "vues": 27
+   "vues": 28
   },
   {
    "path": "/le-releve/classement/",
-   "vues": 16
+   "vues": 18
   },
   {
    "path": "/le-releve/comparer/",
-   "vues": 11
+   "vues": 12
+  },
+  {
+   "path": "/le-releve/alertes/",
+   "vues": 9
+  },
+  {
+   "path": "/le-releve/explorer/",
+   "vues": 9
   },
   {
    "path": "/le-releve/methode/",
    "vues": 9
   },
   {
-   "path": "/le-releve/alertes/",
-   "vues": 8
-  },
-  {
-   "path": "/le-releve/explorer/",
-   "vues": 6
-  },
-  {
    "path": "/le-releve/tendances/",
-   "vues": 4
+   "vues": 5
   },
   {
    "path": "/le-releve/articles/",
@@ -39,11 +39,27 @@
    "vues": 2
   },
   {
+   "path": "/le-releve/mises-a-jour/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/donnees/",
+   "vues": 2
+  },
+  {
    "path": "/le-releve/jeux/steal-an-egg-10563114921/",
    "vues": 2
   },
   {
-   "path": "/le-releve/mises-a-jour/",
+   "path": "/le-releve/monetisation/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/articles/2026-10-21-jeux-oeufs/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/actus-officielles/",
    "vues": 1
   },
   {
@@ -51,23 +67,7 @@
    "vues": 1
   },
   {
-   "path": "/le-releve/donnees/",
-   "vues": 1
-  },
-  {
    "path": "/le-releve/jeux/steal-a-brainrot-7709344486/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/articles/2026-10-21-jeux-oeufs/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/brouillons/2026-10-21-records-2025/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/brouillons/2026-10-21-jeux-oeufs/",
    "vues": 1
   },
   {
@@ -75,11 +75,11 @@
    "vues": 1
   },
   {
-   "path": "/le-releve/brouillons/2026-10-21-halloween/",
+   "path": "/le-releve/jeux/article-10769149947/",
    "vues": 1
   },
   {
-   "path": "/le-releve/jeux/article-10769149947/",
+   "path": "/le-releve/brouillons/2026-10-21-jeux-oeufs/",
    "vues": 1
   }
  ]
