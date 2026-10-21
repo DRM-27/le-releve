@@ -139,7 +139,7 @@ def load_articles(folder, strict=True):
 
 def article_page(a, prefix="articles"):
     f = load_facts(a["day"])
-    cov = f["couverture"]
+    cov = f["couverture"] if f else None
     sources = sorted({fact_for(d, k).get("src", "").split("#")[0] for d, k in a["used"]} - {""})
     src_list = "".join(f'<li><a href="{esc(s if s.startswith("http") else github_blob(s) if s.endswith(".csv") else github_tree(s))}">{esc(s)}</a></li>' for s in sources)
     d = datetime.fromisoformat(a["day"]).date()
@@ -148,15 +148,15 @@ def article_page(a, prefix="articles"):
 <header class="article-head">
   <h1>{esc(a['title'])}</h1>
   <p class="chapo">{a['chapo_html']}</p>
-  <p class="dateline">{esc(kind)}, données du {esc(fr_date(d))}. Publié le {esc(fr_date(a['pub'].date(), weekday=False))} à {esc(fr_hour(a['pub']))}.</p>
+  <p class="dateline">{esc(kind)}{(", données du " + esc(fr_date(d))) if f else ""}. Publié le {esc(fr_date(a['pub'].date(), weekday=False))} à {esc(fr_hour(a['pub']))}.</p>
 </header>
 <div class="prose">
 {a['html']}
 </div>
 <aside class="provenance" aria-labelledby="prov-{esc(a['slug'])}">
   <h2 id="prov-{esc(a['slug'])}">D’où viennent ces chiffres</h2>
-  <p class="checked"><span class="check" aria-hidden="true"></span>{len(a['used'])} chiffres dans cet article, tous calculés par programme et reliés à leur source. Cliquez sur un chiffre souligné pour ouvrir la ligne exacte du fichier de données.</p>
-  <p>Journée couverte par {cov['releves']} relevés horaires sur {cov['attendus']}. Le texte a été rédigé par une IA à partir de ces chiffres, puis contrôlé avant publication. <a href="{url('methode/')}">Comment nous travaillons</a>.</p>
+  <p class="checked"><span class="check" aria-hidden="true"></span>{len(a['used'])} chiffres dans cet article, tous reliés à leur source. Cliquez sur un chiffre souligné pour ouvrir le document ou la ligne exacte du fichier de données d’où il vient.</p>
+  <p>{f"Journée couverte par {cov['releves']} relevés horaires sur {cov['attendus']}. " if cov else ""}Le texte a été rédigé par une IA à partir de ces chiffres, puis contrôlé avant publication. <a href="{url('methode/')}">Comment nous travaillons</a>.</p>
   <ul class="files">{src_list}</ul>
   <p>Une erreur ? <a href="{url('corrections/')}">Signalez-la</a> : chaque correction est publiée.</p>
 </aside>

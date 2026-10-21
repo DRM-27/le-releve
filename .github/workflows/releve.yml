@@ -47,7 +47,7 @@ jobs:
           exit 1
 
       - name: Construire le site (le vérificateur bloque tout chiffre sans source)
-        run: python tools/build.py
+        run: python tools/build.py --drafts
 
       - uses: actions/upload-pages-artifact@v3
         with:

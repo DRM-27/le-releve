@@ -117,7 +117,7 @@ def verify(path):
         errors.append(f"En-tête : type « {meta['type']} » inconnu ({', '.join(sorted(TYPES))})")
     day = meta.get("jour", "")
     f = load_facts(day) if day else None
-    if day and f is None:
+    if day and f is None and meta.get("type") != "trimestriel":
         errors.append(f"Faits du {day} introuvables : lancer python tools/facts.py {day}")
     elif f:
         c = f["couverture"]

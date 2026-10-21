@@ -1,0 +1,173 @@
+{
+ "jour": "officiel",
+ "genere": "2026-10-21T13:36:35Z",
+ "couverture": {
+  "releves": 24,
+  "attendus": 24
+ },
+ "faits": {
+  "officiel.t2-2026.revenus": {
+   "v": 1469000000.0,
+   "d": "1 469 millions de dollars",
+   "l": "Roblox Corporation, T2-2026 : revenus (publié le 2026-07-30)",
+   "src": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026051059/ex991-robloxq22026earnin.htm"
+  },
+  "officiel.t2-2026.revenus_croissance": {
+   "v": 0.36,
+   "d": "+36 %",
+   "l": "Roblox Corporation, T2-2026 : revenus_croissance (publié le 2026-07-30)",
+   "src": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026051059/ex991-robloxq22026earnin.htm"
+  },
+  "officiel.t2-2025.revenus": {
+   "v": 1081000000.0,
+   "d": "1 081 millions de dollars",
+   "l": "Roblox Corporation, T2-2025 : revenus (publié le 2026-07-30)",
+   "src": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026051059/ex991-robloxq22026earnin.htm"
+  },
+  "officiel.t2-2026.bookings": {
+   "v": 1557000000.0,
+   "d": "1 557 millions de dollars",
+   "l": "Roblox Corporation, T2-2026 : bookings (publié le 2026-07-30)",
+   "src": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026051059/ex991-robloxq22026earnin.htm"
+  },
+  "officiel.t2-2026.bookings_croissance": {
+   "v": 0.08,
+   "d": "+8 %",
+   "l": "Roblox Corporation, T2-2026 : bookings_croissance (publié le 2026-07-30)",
+   "src": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026051059/ex991-robloxq22026earnin.htm"
+  },
+  "officiel.t2-2025.bookings": {
+   "v": 1438000000.0,
+   "d": "1 438 millions de dollars",
+   "l": "Roblox Corporation, T2-2025 : bookings (publié le 2026-07-30)",
+   "src": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026051059/ex991-robloxq22026earnin.htm"
+  },
+  "officiel.t2-2026.dau": {
+   "v": 123000000.0,
+   "d": "123 millions",
+   "l": "Roblox Corporation, T2-2026 : dau (publié le 2026-07-30)",
+   "src": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026051059/ex991-robloxq22026earnin.htm"
+  },
+  "officiel.t2-2026.dau_croissance": {
+   "v": 0.1,
+   "d": "+10 %",
+   "l": "Roblox Corporation, T2-2026 : dau_croissance (publié le 2026-07-30)",
+   "src": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026051059/ex991-robloxq22026earnin.htm"
+  },
+  "officiel.t2-2026.heures": {
+   "v": 29000000000.0,
+   "d": "29 milliards d’heures",
+   "l": "Roblox Corporation, T2-2026 : heures (publié le 2026-07-30)",
+   "src": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026051059/ex991-robloxq22026earnin.htm"
+  },
+  "officiel.t2-2026.heures_croissance": {
+   "v": 0.05,
+   "d": "+5 %",
+   "l": "Roblox Corporation, T2-2026 : heures_croissance (publié le 2026-07-30)",
+   "src": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026051059/ex991-robloxq22026earnin.htm"
+  },
+  "officiel.t2-2026.payeurs_mensuels": {
+   "v": 27000000.0,
+   "d": "27 millions",
+   "l": "Roblox Corporation, T2-2026 : payeurs_mensuels (publié le 2026-07-30)",
+   "src": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026051059/ex991-robloxq22026earnin.htm"
+  },
+  "officiel.t2-2026.payeurs_croissance": {
+   "v": 0.15,
+   "d": "+15 %",
+   "l": "Roblox Corporation, T2-2026 : payeurs_croissance (publié le 2026-07-30)",
+   "src": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026051059/ex991-robloxq22026earnin.htm"
+  },
+  "officiel.t2-2026.perte_nette": {
+   "v": 185000000.0,
+   "d": "185 millions de dollars",
+   "l": "Roblox Corporation, T2-2026 : perte_nette (publié le 2026-07-30)",
+   "src": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026051059/ex991-robloxq22026earnin.htm"
+  },
+  "officiel.t2-2025.perte_nette": {
+   "v": 280000000.0,
+   "d": "280 millions de dollars",
+   "l": "Roblox Corporation, T2-2025 : perte_nette (publié le 2026-07-30)",
+   "src": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026051059/ex991-robloxq22026earnin.htm"
+  },
+  "officiel.t2-2026.flux_tresorerie_libre": {
+   "v": 294000000.0,
+   "d": "294 millions de dollars",
+   "l": "Roblox Corporation, T2-2026 : flux_tresorerie_libre (publié le 2026-07-30)",
+   "src": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026051059/ex991-robloxq22026earnin.htm"
+  },
+  "officiel.t2-2026.flux_tresorerie_libre_croissance": {
+   "v": 0.66,
+   "d": "+66 %",
+   "l": "Roblox Corporation, T2-2026 : flux_tresorerie_libre_croissance (publié le 2026-07-30)",
+   "src": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026051059/ex991-robloxq22026earnin.htm"
+  },
+  "officiel.t2-2026.devex": {
+   "v": 363000000.0,
+   "d": "363 millions de dollars",
+   "l": "Roblox Corporation, T2-2026 : devex (publié le 2026-07-30)",
+   "src": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026051059/ex991-robloxq22026earnin.htm"
+  },
+  "officiel.t2-2026.devex_croissance": {
+   "v": 0.15,
+   "d": "+15 %",
+   "l": "Roblox Corporation, T2-2026 : devex_croissance (publié le 2026-07-30)",
+   "src": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026051059/ex991-robloxq22026earnin.htm"
+  },
+  "officiel.t2-2026.dau_japon_croissance": {
+   "v": 0.67,
+   "d": "+67 %",
+   "l": "Roblox Corporation, T2-2026 : dau_japon_croissance (publié le 2026-07-30)",
+   "src": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026051059/ex991-robloxq22026earnin.htm"
+  },
+  "officiel.t2-2026.dau_inde_croissance": {
+   "v": 0.64,
+   "d": "+64 %",
+   "l": "Roblox Corporation, T2-2026 : dau_inde_croissance (publié le 2026-07-30)",
+   "src": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026051059/ex991-robloxq22026earnin.htm"
+  },
+  "officiel.t2-2026.dau_usa_canada_croissance": {
+   "v": 0.06,
+   "d": "+6 %",
+   "l": "Roblox Corporation, T2-2026 : dau_usa_canada_croissance (publié le 2026-07-30)",
+   "src": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026051059/ex991-robloxq22026earnin.htm"
+  },
+  "officiel.t3-2026.prevision_bookings_bas": {
+   "v": 1576000000.0,
+   "d": "1 576 millions de dollars",
+   "l": "Roblox Corporation, T3-2026 : prevision_bookings_bas (publié le 2026-07-30)",
+   "src": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026051059/ex991-robloxq22026earnin.htm"
+  },
+  "officiel.t3-2026.prevision_bookings_haut": {
+   "v": 1653000000.0,
+   "d": "1 653 millions de dollars",
+   "l": "Roblox Corporation, T3-2026 : prevision_bookings_haut (publié le 2026-07-30)",
+   "src": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026051059/ex991-robloxq22026earnin.htm"
+  },
+  "officiel.t3-2026.prevision_bookings_croissance_bas": {
+   "v": -0.18,
+   "d": "−18 %",
+   "l": "Roblox Corporation, T3-2026 : prevision_bookings_croissance_bas (publié le 2026-07-30)",
+   "src": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026051059/ex991-robloxq22026earnin.htm"
+  },
+  "officiel.t3-2026.prevision_bookings_croissance_haut": {
+   "v": -0.14,
+   "d": "−14 %",
+   "l": "Roblox Corporation, T3-2026 : prevision_bookings_croissance_haut (publié le 2026-07-30)",
+   "src": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026051059/ex991-robloxq22026earnin.htm"
+  },
+  "officiel.t3-2026.prevision_revenus_bas": {
+   "v": 1413000000.0,
+   "d": "1 413 millions de dollars",
+   "l": "Roblox Corporation, T3-2026 : prevision_revenus_bas (publié le 2026-07-30)",
+   "src": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026051059/ex991-robloxq22026earnin.htm"
+  },
+  "officiel.t3-2026.prevision_revenus_haut": {
+   "v": 1490000000.0,
+   "d": "1 490 millions de dollars",
+   "l": "Roblox Corporation, T3-2026 : prevision_revenus_haut (publié le 2026-07-30)",
+   "src": "https://www.sec.gov/Archives/edgar/data/0001315098/000162828026051059/ex991-robloxq22026earnin.htm"
+  }
+ },
+ "graphiques": {}
+}

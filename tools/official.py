@@ -10,7 +10,14 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import DATA, FACTS, fr_big, fr_dec, fr_int, fr_pct, iso, read_csv, utc_now
 
-UNITS = {"usd": lambda v: fr_big(v) + " de dollars", "pct": lambda v: fr_pct(v), "count": fr_big, "hours": lambda v: fr_big(v) + " d’heures",
+def _m(v, unit):
+    """Chiffres officiels : on garde la précision publiée (1 469 millions, 123 millions, 29 milliards)."""
+    if abs(v) >= 1e9 and v % 1e9 == 0:
+        return f"{fr_int(v / 1e9)} milliards{unit}"
+    return f"{fr_int(v / 1e6)} millions{unit}"
+
+
+UNITS = {"usd": lambda v: _m(v, " de dollars"), "pct": lambda v: fr_pct(v, nd=0), "count": lambda v: _m(v, ""), "hours": lambda v: _m(v, " d’heures"),
          "usd_per_user": lambda v: fr_dec(v, 2) + " $"}
 rows = read_csv(DATA / "official" / "roblox-trimestriel.csv")
 F = {}
