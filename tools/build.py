@@ -42,10 +42,21 @@ def abs_url(path=""):
 
 
 # ---------------------------------------------------------------- gabarit
-def page(title, body, desc="", path="", extra_head=""):
+def jsonld(obj):
+    return '<script type="application/ld+json">' + json.dumps(obj, ensure_ascii=False).replace("</", "<\\/") + "</script>"
+
+
+ORG = {"@type": "NewsMediaOrganization", "name": NAME, "url": (BASE_URL or "") + "/", "logo": (BASE_URL or "") + "/assets/icon.svg",
+       "description": CONFIG["description"], "publishingPrinciples": (BASE_URL or "") + "/methode/",
+       "correctionsPolicy": (BASE_URL or "") + "/corrections/"}
+
+
+def page(title, body, desc="", path="", extra_head="", og_type="website", ld=None):
     full = f"{title} | {NAME}" if title != NAME else NAME
     canon = f'<link rel="canonical" href="{esc(abs_url(path))}">' if BASE_URL else ""
     nav = [("", "Articles"), ("classement/", "Classement en direct"), ("alertes/", "Alertes"), ("comparer/", "Comparer"), ("methode/", "Méthode")]
+    v = CONFIG.get("verification", {})
+    verif = "".join(f'<meta name="{n}" content="{esc(v[k])}">' for k, n in (("google", "google-site-verification"), ("bing", "msvalidate.01")) if v.get(k))
     an = CONFIG.get("analytics", {})
     beacon = (f'<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon=\'{{"token": "{esc(an["cloudflareToken"])}"}}\'></script>'
               if an.get("cloudflareToken") else "")
@@ -61,6 +72,11 @@ def page(title, body, desc="", path="", extra_head=""):
 <meta property="og:description" content="{esc(desc or CONFIG['description'])}">
 <meta property="og:site_name" content="{esc(NAME)}">
 <meta property="og:locale" content="fr_FR">
+<meta property="og:type" content="{og_type}">
+<meta property="og:url" content="{esc(abs_url(path))}">
+<meta name="twitter:card" content="summary">
+{verif}
+{jsonld(ld or {"@context": "https://schema.org", **ORG})}
 {canon}
 <link rel="alternate" type="application/rss+xml" title="{esc(NAME)}" href="{url('feed.xml')}">
 <link rel="preload" href="{url('assets/fonts/schibsted-grotesk-latin-wght-normal.woff2')}" as="font" type="font/woff2" crossorigin>
@@ -92,11 +108,16 @@ def page(title, body, desc="", path="", extra_head=""):
 
 
 # ---------------------------------------------------------------- articles
+GAME_PAGES = {g.get("name", u): explore.game_slug(u, g.get("name", u)) for u, g in load_games().items() if g.get("name")}
+
+
 def render_tokens(text, day, linked=True, used=None):
     def sub(m):
         d, key = m.group(1) or day, m.group(2)
         f = fact_for(d, key)
         numeric = isinstance(f["v"], (int, float)) and not isinstance(f["v"], bool)
+        if linked and not numeric and str(f["d"]) in GAME_PAGES:
+            return f'<a class="jeu" href="{url("jeux/" + GAME_PAGES[str(f["d"])] + "/")}">{esc(f["d"])}</a>'
         if not linked or not numeric:
             return esc(f["d"]) if linked else f["d"]
         if used is not None:
@@ -167,7 +188,13 @@ def article_page(a, prefix="articles"):
   <p>Une erreur ? <a href="{url('corrections/')}">Signalez-la</a> : chaque correction est publiée.</p>
 </aside>
 </article>"""
-    return page(a["title"], body, a["chapo"], f"{prefix}/{a['slug']}/")
+    ld = {"@context": "https://schema.org", "@type": "NewsArticle", "headline": a["title"], "description": a["chapo"],
+          "datePublished": a["pub"].isoformat(), "inLanguage": "fr", "isAccessibleForFree": True,
+          "mainEntityOfPage": abs_url(f"{prefix}/{a['slug']}/"), "author": ORG, "publisher": ORG,
+          "isBasedOn": [s if s.startswith("http") else github_blob(s) for s in sources][:20]}
+    return page(a["title"], body, a["chapo"], f"{prefix}/{a['slug']}/", og_type="article", ld=ld,
+                extra_head=f'<meta property="article:published_time" content="{a["pub"].isoformat()}">'
+                           + ('<meta name="robots" content="noindex">' if prefix == "brouillons" else ""))
 
 
 def card(a, lead=False):
@@ -386,7 +413,22 @@ def build(drafts=False):
             + [abs_url("articles/" + a["slug"] + "/") for a in arts] + [abs_url(p) for p in indexable])
     write("sitemap.xml", '<?xml version="1.0" encoding="utf-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
                          + "".join(f"<url><loc>{esc(u)}</loc></url>" for u in urls) + "</urlset>")
-    write("robots.txt", f"User-agent: *\nAllow: /\nDisallow: /brouillons/\nDisallow: /widget/\nSitemap: {abs_url('sitemap.xml')}\n")
+    bots = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "PerplexityBot", "Google-Extended", "Applebot-Extended", "Bingbot", "Googlebot"]
+    write("robots.txt", "".join(f"User-agent: {b}\nAllow: /\nDisallow: /brouillons/\n\n" for b in bots)
+          + f"User-agent: *\nAllow: /\nDisallow: /brouillons/\nDisallow: /widget/\n\nSitemap: {abs_url('sitemap.xml')}\n")
+    top_games = [r for r in recs if r["rang"]][:20]
+    write("llms.txt", f"# {NAME}\n\n> {CONFIG['description']} Média indépendant en français, non affilié à Roblox Corporation.\n\n"
+          "Chaque chiffre publié est calculé par programme à partir de relevés horaires des API publiques de Roblox, "
+          "et relié à la ligne exacte du fichier de données d’où il vient. Les données sont ouvertes (licence ODbL, citation obligatoire).\n\n"
+          "## Pages clés\n\n"
+          f"- [Classement en direct]({abs_url('classement/')}) : les 100 jeux Roblox les plus joués, mis à jour toutes les heures\n"
+          f"- [Alertes]({abs_url('alertes/')}) : les jeux qui décollent, détectés à chaque relevé\n"
+          f"- [Comparer deux jeux]({abs_url('comparer/')})\n"
+          f"- [Méthode]({abs_url('methode/')}) : comment les chiffres sont relevés, calculés et vérifiés\n"
+          f"- [Données ouvertes et API]({abs_url('donnees/')}) : JSON mis à jour toutes les heures\n\n"
+          "## Articles\n\n" + "".join(f"- [{a['title']}]({abs_url('articles/' + a['slug'] + '/')}) : {a['chapo']}\n" for a in arts[:50])
+          + "\n## Jeux les plus suivis\n\n" + "".join(f"- [{r['nom']}]({abs_url('jeux/' + r['slug'] + '/')})\n" for r in top_games)
+          + f"\n## Données\n\n- [Classement JSON]({abs_url('api/classement.json')})\n- [Liste des jeux JSON]({abs_url('api/jeux/index.json')})\n")
     (OUT / ".nojekyll").write_text("")
     print(f"Site construit : {len(arts)} article(s), {len(recs)} pages de jeux ({len(indexable)} indexées), {len(alerts)} alerte(s), classement {'à jour' if live else 'vide'}.")
     for a in arts:

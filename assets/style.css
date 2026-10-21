@@ -345,3 +345,5 @@ pre.embed { background: var(--surface); border: 1px solid var(--rule); border-ra
   .site-head nav a { white-space: nowrap; }
   .site-head nav a.bell { order: 0; }
 }
+.prose a.jeu { color: inherit; font-weight: 650; text-decoration: underline; text-decoration-color: var(--rule); text-underline-offset: 3px; }
+.prose a.jeu:hover { text-decoration-color: var(--fact); }

@@ -103,7 +103,16 @@ def game_page(rec, page, url):
     head = '<meta name="robots" content="noindex">' if noindex else ""
     title = f"{rec['nom']} : joueurs en ligne et statistiques"
     desc = f"Combien de joueurs sur {rec['nom']} ? Joueurs en ligne, pic sur 24 h, visites et courbe horaire, mis à jour toutes les heures."
-    return page(title, body, desc, f"jeux/{rec['slug']}/", extra_head=head), not noindex
+    base = (CONFIG.get("baseUrl") or "").rstrip("/")
+    ld = {"@context": "https://schema.org", "@graph": [
+        {"@type": "VideoGame", "name": rec["nom"], "url": f"https://www.roblox.com/games/{rec['place_id']}" if rec["place_id"] else None,
+         "gamePlatform": "Roblox", "genre": rec["genre"] or None, "author": {"@type": "Organization", "name": rec["createur"]} if rec["createur"] else None,
+         "image": rec["icon"] or None},
+        {"@type": "BreadcrumbList", "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Classement", "item": f"{base}/classement/"},
+            {"@type": "ListItem", "position": 2, "name": rec["nom"], "item": f"{base}/jeux/{rec['slug']}/"}]}]}
+    ld["@graph"][0] = {k: v for k, v in ld["@graph"][0].items() if v is not None}
+    return page(title, body, desc, f"jeux/{rec['slug']}/", extra_head=head, ld=ld), not noindex
 
 
 def compare_page(recs, page, url):
@@ -173,7 +182,13 @@ def data_page(page, url):
             f'<h2>Licence</h2><p>{esc(LICENCE)}</p>'
             f'<h2>Besoin d’autre chose ?</h2><p>Études sur mesure, séries longues, données par genre : '
             f'<a href="{url("partenaires/")}">travaillons ensemble</a>.</p></div>')
-    return page("Données ouvertes et API", body, "Les données du Relevé en accès libre : classement, historique par jeu, alertes.", "donnees/")
+    ld = {"@context": "https://schema.org", "@type": "Dataset", "name": "Relevés horaires des jeux Roblox",
+          "description": "Joueurs en ligne, visites, favoris et votes des jeux Roblox les plus joués, relevés toutes les heures depuis le 21 octobre 2026.",
+          "url": base + "/donnees/", "license": "https://opendatacommons.org/licenses/odbl/1-0/", "isAccessibleForFree": True,
+          "creator": {"@type": "Organization", "name": CONFIG["name"]}, "temporalCoverage": "2026-10-21/..",
+          "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": base + "/api/classement.json"},
+                           {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": f"https://github.com/{CONFIG.get('repo')}/tree/main/data"}]}
+    return page("Données ouvertes et API", body, "Les données du Relevé en accès libre : classement, historique par jeu, alertes.", "donnees/", ld=ld)
 
 
 def embed_code():

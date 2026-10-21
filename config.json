@@ -16,5 +16,9 @@
   "analytics": {
     "cloudflareToken": "aec00ff5876c4206aaa968672751e3b8",
     "cloudflareSiteTag": "b3cc0c251b6e4b25bb90d45007cacf5c"
+  },
+  "verification": {
+    "google": "",
+    "bing": ""
   }
 }
