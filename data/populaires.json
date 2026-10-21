@@ -1,14 +1,14 @@
 {
- "genere": "2026-10-21T18:51:55Z",
+ "genere": "2026-10-21T19:08:48Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/le-releve/",
-   "vues": 32
+   "vues": 34
   },
   {
    "path": "/le-releve/classement/",
-   "vues": 20
+   "vues": 21
   },
   {
    "path": "/le-releve/comparer/",
@@ -20,11 +20,11 @@
   },
   {
    "path": "/le-releve/methode/",
-   "vues": 9
+   "vues": 10
   },
   {
    "path": "/le-releve/explorer/",
-   "vues": 9
+   "vues": 10
   },
   {
    "path": "/le-releve/tendances/",
