@@ -1,21 +1,25 @@
 {
- "genere": "2026-10-21T18:24:03Z",
+ "genere": "2026-10-21T18:32:38Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/le-releve/",
-   "vues": 28
+   "vues": 31
   },
   {
    "path": "/le-releve/classement/",
-   "vues": 18
+   "vues": 20
   },
   {
    "path": "/le-releve/comparer/",
-   "vues": 12
+   "vues": 13
   },
   {
    "path": "/le-releve/alertes/",
+   "vues": 12
+  },
+  {
+   "path": "/le-releve/methode/",
    "vues": 9
   },
   {
@@ -23,15 +27,15 @@
    "vues": 9
   },
   {
-   "path": "/le-releve/methode/",
-   "vues": 9
-  },
-  {
    "path": "/le-releve/tendances/",
-   "vues": 5
+   "vues": 7
   },
   {
    "path": "/le-releve/articles/",
+   "vues": 3
+  },
+  {
+   "path": "/le-releve/jeux/1-speed-keyboard-escape-candy-chocolate-9584852943/",
    "vues": 3
   },
   {
@@ -39,15 +43,7 @@
    "vues": 2
   },
   {
-   "path": "/le-releve/mises-a-jour/",
-   "vues": 2
-  },
-  {
    "path": "/le-releve/donnees/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/jeux/steal-an-egg-10563114921/",
    "vues": 2
   },
   {
@@ -55,23 +51,19 @@
    "vues": 2
   },
   {
-   "path": "/le-releve/articles/2026-10-21-jeux-oeufs/",
-   "vues": 1
+   "path": "/le-releve/mises-a-jour/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/jeux/break-and-steal-an-egg-10765288803/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/jeux/steal-an-egg-10563114921/",
+   "vues": 2
   },
   {
    "path": "/le-releve/actus-officielles/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/brouillons/2026-10-21-age-des-jeux/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/jeux/steal-a-brainrot-7709344486/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/genres/simulation/",
    "vues": 1
   },
   {
@@ -79,7 +71,15 @@
    "vues": 1
   },
   {
-   "path": "/le-releve/brouillons/2026-10-21-jeux-oeufs/",
+   "path": "/le-releve/heures-de-pointe/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/articles/2026-10-21-age-des-jeux/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/brouillons/2026-10-21-age-des-jeux/",
    "vues": 1
   }
  ]
