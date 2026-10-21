@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-21T16:25:41Z",
+ "genere": "2026-10-21T16:29:10Z",
  "periode_jours": 7,
  "pages": [
   {
@@ -8,6 +8,10 @@
   },
   {
    "path": "/le-releve/classement/",
+   "vues": 3
+  },
+  {
+   "path": "/le-releve/articles/",
    "vues": 3
   },
   {
@@ -20,10 +24,6 @@
   },
   {
    "path": "/le-releve/brouillons/2026-10-21-photographie-top100/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/articles/",
    "vues": 2
   },
   {
