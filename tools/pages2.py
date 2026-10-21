@@ -297,21 +297,34 @@ def genres_pages(recs, page, url):
 
 
 # ------------------------------------------------------------------ hub Explorer
+EXPLORER_GROUPS = [
+    ("temps-reel", "Temps réel", "Ce qui bouge sur Roblox, heure par heure.", [
+        ("tendances/", "Tendances", "Ce que Roblox met en avant, et les nouvelles entrées."),
+        ("heures-de-pointe/", "Heures de pointe", "À quelle heure jouent les joueurs, jour par jour."),
+        ("mises-a-jour/", "Mises à jour détectées", "Les mises à jour des jeux, et ce qui s’est passé après."),
+        ("records/", "Records", "Les plus hauts pics relevés et les records battus.")]),
+    ("analyser", "Analyser", "Mettre les jeux, les studios et les genres face à face.", [
+        ("comparer/", "Comparer deux jeux", "Deux courbes superposées, un lien à partager."),
+        ("studios/", "Studios", "Les créateurs qui réunissent le plus de joueurs."),
+        ("genres/", "Genres", "Les jeux les plus joués, genre par genre."),
+        ("monetisation/", "Monétisation", "Le prix des game passes des jeux du top 100.")]),
+    ("donnees", "Données et outils", "Réutiliser nos chiffres, et savoir d’où ils viennent.", [
+        ("methode/", "Méthode", "Comment chaque chiffre est relevé, calculé et relié à sa source."),
+        ("donnees/", "API et données ouvertes", "Tout en JSON et en CSV, gratuitement."),
+        ("widget/", "Widget à intégrer", "Le classement en direct sur votre site, mis à jour toutes les heures."),
+        ("feed.xml", "Flux RSS", "Chaque nouvel article dans votre lecteur de flux."),
+        ("actus-officielles/", "Actualités officielles", "Annonces aux développeurs et documents financiers de Roblox.")]),
+]
+
+
 def explorer_page(page, url, extra=()):
-    tools = [("classement/", "Classement en direct", "Les 100 jeux les plus joués, mis à jour toutes les heures.", ""),
-             ("tendances/", "Tendances", "Ce que Roblox met en avant, et les nouvelles entrées.", ""),
-             ("alertes/", "Alertes", "Les jeux qui décollent, détectés à chaque relevé.", ""),
-             ("heures-de-pointe/", "Heures de pointe", "À quelle heure jouent les joueurs, jour par jour.", ""),
-             ("mises-a-jour/", "Mises à jour détectées", "Les mises à jour des jeux, et ce qui s’est passé après.", ""),
-             ("records/", "Records", "Les plus hauts pics relevés et les records battus.", ""),
-             ("studios/", "Studios", "Les créateurs qui réunissent le plus de joueurs.", ""),
-             ("genres/", "Genres", "Les jeux les plus joués, genre par genre.", ""),
-             ("comparer/", "Comparer deux jeux", "Deux courbes superposées, un lien à partager.", ""),
-             ("donnees/", "Données ouvertes et API", "Tout en JSON et en CSV, gratuitement.", "")] + list(extra)
-    cards = "".join(f'<li class="card"><a href="{url(p)}">' + (f'<span class="tag soon-tag">{esc(b)}</span>' if b else "")
-                    + f'<h3>{esc(t)}</h3><p>{esc(d)}</p></a></li>' for p, t, d, b in tools)
+    groups = ""
+    for gid, title, sub, items in EXPLORER_GROUPS:
+        cards = "".join(f'<li class="card"><a href="{url(p)}"><h3>{esc(t)}</h3><p>{esc(d)}</p></a></li>' for p, t, d in items)
+        groups += (f'<section class="ex-group" aria-labelledby="ex-{gid}"><div class="ex-head"><h2 id="ex-{gid}">{esc(title)}</h2>'
+                   f'<p>{esc(sub)}</p></div><ol class="cards grid-ex n{len(items)}">{cards}</ol></section>')
     return page("Explorer les données de Roblox", f'<div class="wide"><h1>Explorer</h1><p class="lede">Tous les outils du Relevé, calculés à partir de nos relevés horaires.</p>'
-                f'<ol class="cards grid3">{cards}</ol></div>', "Tous les outils du Relevé pour explorer les données de Roblox.", "explorer/")
+                f'{groups}</div>', "Tous les outils du Relevé pour explorer les données de Roblox.", "explorer/")
 
 
 # ------------------------------------------------------------------ monétisation (game passes)

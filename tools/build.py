@@ -56,13 +56,28 @@ ORG = {"@type": "NewsMediaOrganization", "name": NAME, "url": (BASE_URL or "") +
 def page(title, body, desc="", path="", extra_head="", og_type="website", ld=None, og_image="og/site.png"):
     full = f"{title} | {NAME}" if title != NAME else NAME
     canon = f'<link rel="canonical" href="{esc(abs_url(path))}">' if BASE_URL else ""
-    nav = [("", "Articles"), ("classement/", "Classement"), ("tendances/", "Tendances"), ("alertes/", "Alertes"), ("comparer/", "Comparer"), ("explorer/", "Explorer")]
+    nav = [("", "Articles"), ("classement/", "Classement"), ("explorer/", "Explorer"), ("alertes/", "Alertes")]
     v = CONFIG.get("verification", {})
     verif = "".join(f'<meta name="{n}" content="{esc(v[k])}">' for k, n in (("google", "google-site-verification"), ("bing", "msvalidate.01")) if v.get(k))
     an = CONFIG.get("analytics", {})
     beacon = (f'<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon=\'{{"token": "{esc(an["cloudflareToken"])}"}}\'></script>'
               if an.get("cloudflareToken") else "")
-    links = "".join(f'<a href="{url(p)}"{" aria-current=page" if path == p else ""}>{t}</a>' for p, t in nav)
+    bell = ('<svg class="nav-bell" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" '
+            'stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>')
+    cur = {"articles/": ""}.get(path, path)
+    explore_kids = {"tendances/", "heures-de-pointe/", "mises-a-jour/", "records/", "comparer/", "studios/", "genres/", "monetisation/", "methode/", "donnees/", "widget/", "actus-officielles/"}
+    if path in explore_kids or path.startswith("genres/") or path.startswith("studios/"):
+        cur = "explorer/"
+    elif path.startswith("articles/"):
+        cur = ""
+    elif path.startswith("jeux/"):
+        cur = "classement/"
+    FOOT_COLS = "".join(f'<div><h2>{esc(t)}</h2><ul>' + "".join(f'<li><a href="{url(p_)}">{esc(n)}</a></li>' for p_, n, _ in items) + '</ul></div>'
+                        for _, t, _, items in pages2.EXPLORER_GROUPS) + (
+        f'<div><h2>Le média</h2><ul><li><a href="{url("articles/")}">Tous les articles</a></li><li><a href="{url("classement/")}">Classement en direct</a></li>'
+        f'<li><a href="{url("alertes/")}">Alertes</a></li><li><a href="{url("corrections/")}">Corrections</a></li>'
+        f'<li><a href="{url("partenaires/")}">Partenaires</a></li><li><a href="{url("mentions-legales/")}">Mentions légales</a></li></ul></div>')
+    links = "".join(f'<a href="{url(p)}"{" aria-current=page" if cur == p else ""}{" class=nav-alerts" if p == "alertes/" else ""}>{bell if p == "alertes/" else ""}{t}</a>' for p, t in nav)
     return f"""<!doctype html>
 <html lang="fr">
 <head>
@@ -95,7 +110,7 @@ def page(title, body, desc="", path="", extra_head="", og_type="website", ld=Non
 <header class="site-head">
   <a class="wordmark" href="{url()}"><span class="mark" aria-hidden="true"></span>{esc(NAME)}</a>
   <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-main" aria-label="Ouvrir le menu"><span></span><span></span><span></span></button>
-  <nav id="nav-main" aria-label="Navigation principale">{links}<div class="search" data-index="{url('api/jeux/index.json')}" data-base="{url('jeux/')}"><label class="sr" for="q">Rechercher un jeu</label><input id="q" type="search" placeholder="Rechercher un jeu" autocomplete="off"><kbd class="kbd" aria-hidden="true">Ctrl K</kbd><ul class="search-res" hidden></ul></div><a class="bell btn primary" href="{url('alertes/#recevoir')}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>Recevoir les alertes</a></nav>
+  <nav id="nav-main" aria-label="Navigation principale">{links}<div class="search" data-index="{url('api/jeux/index.json')}" data-base="{url('jeux/')}"><label class="sr" for="q">Rechercher un jeu</label><input id="q" type="search" placeholder="Rechercher un jeu" autocomplete="off"><kbd class="kbd" aria-hidden="true">Ctrl K</kbd><ul class="search-res" hidden></ul></div></nav>
 </header>
 {TICKER}
 <main id="contenu">
@@ -108,18 +123,7 @@ def page(title, body, desc="", path="", extra_head="", og_type="website", ld=Non
       <p>{esc(CONFIG['tagline'])}.</p>
       <p class="foot-small">Média indépendant, non affilié à Roblox Corporation. Roblox est une marque de Roblox Corporation. Articles rédigés automatiquement à partir de données publiques, chiffres vérifiés par programme. Mesure d’audience anonyme, sans cookie.</p>
     </div>
-    <div><h2>Explorer</h2><ul>
-      <li><a href="{url('classement/')}">Classement en direct</a></li><li><a href="{url('tendances/')}">Tendances</a></li>
-      <li><a href="{url('records/')}">Records</a></li><li><a href="{url('heures-de-pointe/')}">Heures de pointe</a></li>
-      <li><a href="{url('genres/')}">Genres</a></li><li><a href="{url('studios/')}">Studios</a></li></ul></div>
-    <div><h2>Outils</h2><ul>
-      <li><a href="{url('alertes/')}">Alertes</a></li><li><a href="{url('comparer/')}">Comparer deux jeux</a></li>
-      <li><a href="{url('explorer/')}">Explorer</a></li><li><a href="{url('donnees/')}">Données ouvertes et API</a></li>
-      <li><a href="{url('feed.xml')}">Flux RSS</a></li></ul></div>
-    <div><h2>Le média</h2><ul>
-      <li><a href="{url('articles/')}">Tous les articles</a></li><li><a href="{url('methode/')}">Méthode</a></li>
-      <li><a href="{url('corrections/')}">Corrections</a></li><li><a href="{url('partenaires/')}">Partenaires</a></li>
-      <li><a href="{url('mentions-legales/')}">Mentions légales</a></li></ul></div>
+    {FOOT_COLS}
   </div>
   <div class="foot-bar">{STATUS_HTML}<p class="foot-small">© {datetime.now().year} {esc(NAME)}</p></div>
 </footer>
@@ -532,7 +536,8 @@ def build(drafts=False):
                 'calculé à partir d’une journée complète de relevés. En attendant, le classement, les pages de jeux et les alertes se mettent à jour toutes les heures.</p>'
                 f'<p class="empty-links"><a class="btn" href="{url("classement/")}">Voir le classement en direct</a> <a class="btn ghost" href="{url("comparer/")}">Comparer deux jeux</a></p></div>'
                 f'<ol class="cards skel-list">{skel}</ol>')
-    intro = f'<section class="intro"><h1>{esc(CONFIG["tagline"])}</h1><p>{esc(CONFIG["description"])}</p></section>'
+    intro = (f'<section class="intro"><h1>{esc(CONFIG["tagline"])}</h1><p>{esc(CONFIG["description"])}</p>'
+             f'<a class="trust" href="{url("methode/")}"><span class="check" aria-hidden="true"></span>Chaque chiffre est sourcé <span class="trust-go">Méthode <span aria-hidden="true">→</span></span></a></section>')
     write("index.html", page(NAME, f'<div class="home"><div class="main-col">{intro}<section class="feed" aria-label="Derniers articles">{feed}</section></div><aside class="side-col">{pulse}</aside></div>', path=""))
 
     write("articles/index.html", page("Tous les articles", f'<div class="narrow"><h1>Tous les articles</h1><ol class="cards list">{"".join(card(a) for a in arts)}</ol></div>', path="articles/"))
@@ -575,7 +580,7 @@ def build(drafts=False):
     st_pages, studios_list = pages2.studios_pages(recs, page, url)
     for path_, content in {**st_pages, **pages2.genres_pages(recs, page, url)}.items():
         write(path_, content)
-    write("explorer/index.html", pages2.explorer_page(page, url, EXTRA_TOOLS))
+    write("explorer/index.html", pages2.explorer_page(page, url))
     write("monetisation/index.html", pages2.monetization_page(recs, page, url))
     write("actus-officielles/index.html", pages2.official_page(page, url))
     extra_urls = ["monetisation/", "actus-officielles/", "tendances/", "mises-a-jour/", "heures-de-pointe/", "records/", "studios/", "genres/", "explorer/"] + \
