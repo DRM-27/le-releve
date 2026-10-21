@@ -19,7 +19,7 @@ from datetime import timedelta
 
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
 from common import (CONFIG, DATA, GAME_FIELDS, SNAP_FIELDS, SORT_FIELDS, iso, load_games, parse_iso,
-                    snap_path, utc_now, write_csv)
+                    read_csv, snap_path, utc_now, write_csv)
 
 UA = "LeReleveBot/1.0 (media de donnees; releves horaires publics)"
 EXPLORE = "https://apis.roblox.com/explore-api/v1"
@@ -129,12 +129,16 @@ def main():
             snap.setdefault(str(g["id"]), {}).update(up_votes=g.get("upVotes", ""), down_votes=g.get("downVotes", ""))
         time.sleep(0.4)
 
-    snap_rows = []
+    snap_rows, updates = [], []
     for uid, g in details.items():
         row = {"ts_utc": ts, "universe_id": uid, "playing": g.get("playing", 0), "visits": g.get("visits", ""),
                "favorites": g.get("favoritedCount", ""), **snap.get(uid, {})}
         snap_rows.append(row)
         rec = games[uid]
+        old_upd = rec.get("updated", "")
+        if old_upd and g.get("updated") and g["updated"] != old_upd:
+            updates.append({"ts_utc": ts, "universe_id": uid, "nom": g.get("name", rec.get("name", "")), "avant": old_upd,
+                            "apres": g["updated"], "joueurs": g.get("playing", 0)})
         creator = g.get("creator") or {}
         rec.update(root_place_id=g.get("rootPlaceId", rec.get("root_place_id", "")), name=g.get("name", rec.get("name", "")),
                    creator_name=creator.get("name", ""), creator_type=creator.get("type", ""),
@@ -163,7 +167,14 @@ def main():
         write_csv(snap_path("snapshots", now), SNAP_FIELDS, snap_rows)
     write_csv(DATA / "games.csv", GAME_FIELDS, sorted(games.values(), key=lambda r: int(r["universe_id"])))
 
-    status = {"lastRunAt": ts, "ok": bool(snap_rows) and not errors, "sorts": {k: len(v) for k, v in sorts.items()},
+    if updates:
+        upath = DATA / "mises-a-jour.csv"
+        old = read_csv(upath)
+        write_csv(upath, ["ts_utc", "universe_id", "nom", "avant", "apres", "joueurs"], old + updates)
+    prev_status = json.loads((DATA / "status.json").read_text(encoding="utf-8")) if (DATA / "status.json").exists() else {}
+    fails = 0 if snap_rows else int(prev_status.get("echecsConsecutifs", 0)) + 1
+    status = {"echecsConsecutifs": fails, "dernierSucces": ts if snap_rows else prev_status.get("dernierSucces", prev_status.get("lastRunAt")),
+              "lastRunAt": ts, "ok": bool(snap_rows) and not errors, "sorts": {k: len(v) for k, v in sorts.items()},
               "gamesTracked": len(tracked), "gamesMeasured": len(snap_rows), "errors": errors[:20]}
     (DATA / "status.json").write_text(json.dumps(status, ensure_ascii=False, indent=1), encoding="utf-8")
     print(json.dumps(status, ensure_ascii=False))

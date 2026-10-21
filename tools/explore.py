@@ -7,6 +7,7 @@ import json
 from datetime import timedelta
 
 import charts
+import pages2
 from common import (CONFIG, DATA, TZ, fr_big, fr_date, fr_hour, fr_int, fr_pct, fr_share, github_tree, iso, load_games,
                     parse_iso, read_csv, slugify, snap_path, utc_now)
 from facts import GENRES_FR
@@ -93,7 +94,7 @@ def game_page(rec, page, url):
     dl = "".join(f"<dt>{k}</dt><dd>{v or '—'}</dd>" for k, v in facts)
     body = (f'<div class="wide game"><p class="crumbs"><a href="{url("classement/")}">Classement</a></p>'
             f'<div class="game-title">' + (f'<img class="gicon big" src="{esc(rec["icon"])}" alt="" width="72" height="72">' if rec["icon"] else "") + f'<h1>{esc(rec["nom"])}</h1></div><p class="lede">Joueurs en ligne, pics et visites, relevés toutes les heures depuis les API publiques de Roblox.</p>'
-            f'<div class="stats">{"".join(stats)}</div>{chart}'
+            f'<div class="stats">{"".join(stats)}</div>{chart}{pages2.game_heat(rec)}{pages2.recent_updates_for(rec["universe_id"], url)}'
             f'<div class="game-meta"><dl>{dl}</dl><div class="game-links">'
             + (f'<a class="btn" href="{esc(roblox)}" rel="nofollow">Ouvrir sur Roblox</a>' if roblox else "")
             + f'<a class="btn" href="{url("comparer/?a=" + rec["universe_id"])}">Comparer avec un autre jeu</a>'

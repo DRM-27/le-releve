@@ -18,6 +18,7 @@ import markdown
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import charts
 import explore
+import pages2
 from common import (CONFIG, DATA, FACTS, ROOT, TZ, UTC, fr_date, fr_hour, fr_int, fr_pct, github_blob, github_tree, load_games,
                     parse_iso, read_csv, snap_path, utc_now)
 from facts import GENRES_FR
@@ -54,7 +55,7 @@ ORG = {"@type": "NewsMediaOrganization", "name": NAME, "url": (BASE_URL or "") +
 def page(title, body, desc="", path="", extra_head="", og_type="website", ld=None):
     full = f"{title} | {NAME}" if title != NAME else NAME
     canon = f'<link rel="canonical" href="{esc(abs_url(path))}">' if BASE_URL else ""
-    nav = [("", "Articles"), ("classement/", "Classement en direct"), ("alertes/", "Alertes"), ("comparer/", "Comparer"), ("methode/", "Méthode")]
+    nav = [("", "Articles"), ("classement/", "Classement"), ("tendances/", "Tendances"), ("alertes/", "Alertes"), ("comparer/", "Comparer"), ("explorer/", "Explorer")]
     v = CONFIG.get("verification", {})
     verif = "".join(f'<meta name="{n}" content="{esc(v[k])}">' for k, n in (("google", "google-site-verification"), ("bing", "msvalidate.01")) if v.get(k))
     an = CONFIG.get("analytics", {})
@@ -88,7 +89,7 @@ def page(title, body, desc="", path="", extra_head="", og_type="website", ld=Non
 <a class="skip" href="#contenu">Aller au contenu</a>
 <header class="site-head">
   <a class="wordmark" href="{url()}"><span class="mark" aria-hidden="true"></span>{esc(NAME)}</a>
-  <nav aria-label="Navigation principale">{links}<a class="bell" href="{url('alertes/#recevoir')}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>Recevoir les alertes</a></nav>
+  <nav aria-label="Navigation principale">{links}<div class="search" data-index="{url('api/jeux/index.json')}" data-base="{url('jeux/')}"><label class="sr" for="q">Rechercher un jeu</label><input id="q" type="search" placeholder="Rechercher un jeu" autocomplete="off"><ul class="search-res" hidden></ul></div><a class="bell" href="{url('alertes/#recevoir')}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>Recevoir les alertes</a></nav>
 </header>
 {TICKER}
 <main id="contenu">
@@ -339,6 +340,7 @@ def stamp(live):
     return f"Relevé du {fr_date(t.astimezone(TZ).date(), weekday=False)} à {fr_hour(t)}, heure de Paris"
 
 
+EXTRA_TOOLS = []
 TICKER = ""
 STATUS_HTML = ""
 
@@ -489,6 +491,18 @@ def build(drafts=False):
     write("alertes/index.html", explore.alerts_page(alerts, page, url, live))
     write("alertes.xml", explore.alerts_feed(alerts, abs_url))
     write("donnees/index.html", explore.data_page(page, url))
+    # vague 2 : tendances, mises à jour, heures de pointe, records, studios, genres, hub
+    write("tendances/index.html", pages2.trends_page(recs, page, url))
+    write("mises-a-jour/index.html", pages2.updates_page(recs, page, url))
+    write("heures-de-pointe/index.html", pages2.peak_page(recs, page, url))
+    write("records/index.html", pages2.records_page(recs, page, url))
+    st_pages, studios_list = pages2.studios_pages(recs, page, url)
+    for path_, content in {**st_pages, **pages2.genres_pages(recs, page, url)}.items():
+        write(path_, content)
+    write("explorer/index.html", pages2.explorer_page(page, url, EXTRA_TOOLS))
+    extra_urls = ["tendances/", "mises-a-jour/", "heures-de-pointe/", "records/", "studios/", "genres/", "explorer/"] + \
+                 [p.replace("index.html", "") for p in st_pages if "<meta name=\"robots\"" not in st_pages[p] and p != "studios/index.html"] + \
+                 [p.replace("index.html", "") for p in pages2.genres_pages(recs, page, url) if p != "genres/index.html"]
     write("widget/index.html", explore.widget_page(live, url, abs_url))
     prev_ranks = {r["uid"]: {"var": round(r["var"], 4) if r.get("var") is not None else None, "rang": r.get("rang_avant")} for r in (live["rows"] if live else [])}
     for path_, content in explore.api_files(recs, latest_ts, alerts, prev_ranks).items():
@@ -517,7 +531,7 @@ def build(drafts=False):
                       f"<channel><title>{esc(NAME)}</title><link>{esc(abs_url())}</link><description>{esc(CONFIG['description'])}</description>"
                       f"<language>fr</language>{items}</channel></rss>")
     urls = ([abs_url(p) for p in ("", "classement/", "alertes/", "comparer/", "donnees/", "methode/", "articles/", "partenaires/")]
-            + [abs_url("articles/" + a["slug"] + "/") for a in arts] + [abs_url(p) for p in indexable])
+            + [abs_url("articles/" + a["slug"] + "/") for a in arts] + [abs_url(p) for p in indexable] + [abs_url(p) for p in extra_urls])
     write("sitemap.xml", '<?xml version="1.0" encoding="utf-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
                          + "".join(f"<url><loc>{esc(u)}</loc></url>" for u in urls) + "</urlset>")
     bots = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "PerplexityBot", "Google-Extended", "Applebot-Extended", "Bingbot", "Googlebot"]

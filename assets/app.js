@@ -207,3 +207,30 @@
     tick(); setInterval(tick, 30000);
   }
 })();
+
+/* Recherche de jeux */
+(function () {
+  var box = document.querySelector('.search'); if (!box) return;
+  var input = box.querySelector('input'), list = box.querySelector('.search-res'), data = null, sel = -1;
+  function norm(s) { return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
+  function load() { if (data) return Promise.resolve(data); return fetch(box.dataset.index).then(function (r) { return r.json(); }).then(function (d) { data = d.jeux; return data; }); }
+  function render(q) {
+    if (!q) { list.hidden = true; return; }
+    var n = norm(q), res = data.filter(function (g) { return norm(g.nom).indexOf(n) >= 0; }).slice(0, 8);
+    list.innerHTML = res.length ? res.map(function (g, i) {
+      var a = document.createElement('a'); a.href = box.dataset.base + g.slug + '/'; a.textContent = g.nom;
+      return '<li' + (i === sel ? ' class="on"' : '') + '>' + a.outerHTML + '<span>' + (g.rang ? g.rang + 'e' : '') + '</span></li>';
+    }).join('') : '<li class="none">Aucun jeu suivi ne correspond</li>';
+    list.hidden = false;
+  }
+  input.addEventListener('focus', load);
+  input.addEventListener('input', function () { sel = -1; load().then(function () { render(input.value.trim()); }); });
+  input.addEventListener('keydown', function (e) {
+    var items = list.querySelectorAll('li a');
+    if (e.key === 'ArrowDown') { sel = Math.min(sel + 1, items.length - 1); render(input.value.trim()); e.preventDefault(); }
+    else if (e.key === 'ArrowUp') { sel = Math.max(sel - 1, 0); render(input.value.trim()); e.preventDefault(); }
+    else if (e.key === 'Enter') { var t = items[sel >= 0 ? sel : 0]; if (t) location.href = t.href; }
+    else if (e.key === 'Escape') { list.hidden = true; }
+  });
+  document.addEventListener('click', function (e) { if (!box.contains(e.target)) list.hidden = true; });
+})();
