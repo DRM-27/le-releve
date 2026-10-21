@@ -4,6 +4,7 @@ Tout est calculé à partir des relevés archivés : aucune donnée tierce.
 """
 import html
 import json
+import re
 from datetime import timedelta
 
 import charts
@@ -70,11 +71,35 @@ def build_records():
 
 
 def stat(label, value, note=""):
-    return (f'<div class="stat"><span class="stat-label">{esc(label)}</span><span class="stat-value">{value}</span>'
+    plain = re.sub(r"<[^>]+>", "", str(value))
+    return (f'<div class="stat{" long" if len(plain) > 9 else ""}"><span class="stat-label">{esc(label)}</span><span class="stat-value">{value}</span>'
             + (f'<span class="stat-note">{esc(note)}</span>' if note else "") + "</div>")
 
 
-def game_page(rec, page, url):
+def fr_iso_date(v):
+    try:
+        from datetime import date as _d
+        return esc(fr_date(_d.fromisoformat(v[:10]), weekday=False))
+    except (ValueError, TypeError):
+        return esc(v or "")
+
+
+def related_games(rec, recs, url):
+    ranked = [r for r in recs if r["universe_id"] != rec["universe_id"] and r["rang"]]
+    ranked.sort(key=lambda r: r["rang"])
+    blocks = []
+    for label, key in (("Même studio", "createur"), ("Même genre", "genre")):
+        if not rec.get(key):
+            continue
+        same = [r for r in ranked if r.get(key) == rec[key]][:6]
+        if same:
+            lis = "".join(f'<li><a href="{url("jeux/" + r["slug"] + "/")}">' + (f'<img class="gicon" src="{esc(r["icon"])}" alt="" width="32" height="32" loading="lazy">' if r["icon"] else "")
+                          + f'<span class="rg-name">{esc(r["nom"])}</span><span class="rg-rank">{r["rang"]}<small>e</small></span></a></li>' for r in same)
+            blocks.append(f'<div class="rg-col"><h3>{label} <span class="rg-key">{esc(rec[key])}</span></h3><ul>{lis}</ul></div>')
+    return f'<section class="related-games"><h2>Jeux proches</h2><div class="rg-grid">{"".join(blocks)}</div></section>' if blocks else ""
+
+
+def game_page(rec, page, url, recs=()):
     pts = {"titre": f"{rec['nom']} : joueurs en ligne, relevés horaires", "unite": "joueurs", "points": rec["serie"],
            "csv": f"data/snapshots", "note": f"Depuis le début de notre suivi, le {fr_date(parse_iso(rec['suivi_depuis']).astimezone(TZ).date(), weekday=False)}. Heure de Paris."}
     chart = charts.line("jeu", pts, height=280).replace(
@@ -90,7 +115,7 @@ def game_page(rec, page, url):
         stat("Votes positifs", fr_share(rec["note"]) if rec["note"] is not None else "—"),
     ]
     facts = [("Créateur", esc(rec["createur"]) + (" (vérifié)" if rec["createur_verifie"] else "")), ("Genre", esc(" · ".join(x for x in (rec["genre"], rec["sous_genre"]) if x))),
-             ("Créé le", esc(rec["cree"])), ("Dernière mise à jour", esc(rec["mis_a_jour"]))]
+             ("Créé le", fr_iso_date(rec["cree"])), ("Dernière mise à jour", fr_iso_date(rec["mis_a_jour"]))]
     dl = "".join(f"<dt>{k}</dt><dd>{v or '—'}</dd>" for k, v in facts)
     body = (f'<div class="wide game"><p class="crumbs"><a href="{url("classement/")}">Classement</a></p>'
             f'<div class="game-title">' + (f'<img class="gicon big" src="{esc(rec["icon"])}" alt="" width="72" height="72">' if rec["icon"] else "") + f'<h1>{esc(rec["nom"])}</h1></div><p class="lede">Joueurs en ligne, pics et visites, relevés toutes les heures depuis les API publiques de Roblox.</p>'
@@ -99,6 +124,7 @@ def game_page(rec, page, url):
             + (f'<a class="btn" href="{esc(roblox)}" rel="nofollow">Ouvrir sur Roblox</a>' if roblox else "")
             + f'<a class="btn" href="{url("comparer/?a=" + rec["universe_id"])}">Comparer avec un autre jeu</a>'
             f'<a class="btn ghost" href="{url("api/jeux/" + rec["universe_id"] + ".json")}">Données en JSON</a></div></div>'
+            + related_games(rec, recs, url) +
             f'<section class="embed-box"><h2>Badge « Classé au Relevé »</h2><p>Pour votre site, votre Discord ou la description de votre jeu : '
             f'le badge se met à jour toutes les heures.</p><p><img src="{url("badge/" + rec["universe_id"] + ".svg")}" alt="Badge {esc(rec["nom"])}" height="28"></p>'
             f'<pre class="embed"><code id="badge-code">{esc(badge_code(rec))}</code></pre>'

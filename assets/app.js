@@ -162,7 +162,7 @@
     if (navigator.share && matchMedia('(pointer: coarse)').matches) navigator.share(data).catch(function () {});
     else copy(location.href, 'Lien copié dans le presse-papier !');
   });
-  document.querySelectorAll('[data-copy]').forEach(function (b) { b.addEventListener('click', function () { copy(b.dataset.copy, 'Adresse copiée !'); }); });
+  document.querySelectorAll('[data-copy]').forEach(function (b) { b.addEventListener('click', function () { copy(b.dataset.copy, b.dataset.copyMsg || 'Adresse copiée !'); }); });
   document.querySelectorAll('[data-copy-from]').forEach(function (b) {
     b.addEventListener('click', function () { copy(document.getElementById(b.dataset.copyFrom).textContent, 'Code copié !'); });
   });
@@ -233,4 +233,23 @@
     else if (e.key === 'Escape') { list.hidden = true; }
   });
   document.addEventListener('click', function (e) { if (!box.contains(e.target)) list.hidden = true; });
+})();
+
+(function () {
+  var btn = document.querySelector('.menu-btn'), head = document.querySelector('.site-head');
+  if (!btn || !head) return;
+  function set(open) {
+    head.classList.toggle('open', open); document.body.classList.toggle('menu-open', open);
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    btn.setAttribute('aria-label', open ? 'Fermer le menu' : 'Ouvrir le menu');
+  }
+  btn.addEventListener('click', function () { set(!head.classList.contains('open')); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && head.classList.contains('open')) { set(false); btn.focus(); } });
+  matchMedia('(min-width: 761px)').addEventListener('change', function (m) { if (m.matches) set(false); });
+})();
+(function () {
+  var h = document.querySelector('.site-head');
+  if (!h) return;
+  function upd() { document.documentElement.style.setProperty('--head-h', h.offsetHeight + 'px'); }
+  upd(); addEventListener('resize', upd);
 })();

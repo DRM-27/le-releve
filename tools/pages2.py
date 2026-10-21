@@ -212,7 +212,7 @@ def records_page(recs, page, url):
                       fr_date(when, weekday=False) if when else "")
     body = (f'<div class="wide"><h1>Records</h1><p class="lede">Le plus haut nombre de joueurs simultanés relevé pour chaque jeu depuis le début de notre suivi, '
             f'le {esc(fr_date(start.astimezone(TZ).date(), weekday=False)) if start else "—"}. Ce sont des records de suivi, pas des records historiques des jeux.</p>'
-            f'{weekly}<h2 class="sec-title">Plus hauts pics relevés</h2><div class="table-wrap"><table class="live"><thead><tr><th class="num">#</th><th>Jeu</th>'
+            f'{weekly}<h2 class="sec-title">Plus hauts pics relevés</h2><div class="table-wrap sticky-head"><table class="live"><thead><tr><th class="num">#</th><th>Jeu</th>'
             f'<th class="num">Pic relevé</th><th class="hide-s">Quand</th></tr></thead><tbody>{rows}</tbody></table></div></div>')
     return page("Records de joueurs sur Roblox", body, "Les plus hauts pics de joueurs simultanés relevés sur les jeux Roblox, et les records battus.", "records/")
 
@@ -245,7 +245,7 @@ def studios_pages(recs, page, url):
                   f'<td class="num">{fr_int(s["joueurs"])}</td><td class="num hide-s">{s["top100"]}</td><td class="num hide-s">{len(s["jeux"])}</td></tr>'
                   for i, s in enumerate(st[:100], 1))
     body = (f'<div class="wide"><h1>Classement des studios</h1><p class="lede">Les créateurs (groupes et développeurs) dont les jeux réunissent le plus de joueurs '
-            f'en ce moment, parmi les jeux que nous suivons.</p><div class="table-wrap"><table class="live"><thead><tr><th class="num">#</th><th>Studio</th>'
+            f'en ce moment, parmi les jeux que nous suivons.</p><div class="table-wrap sticky-head"><table class="live"><thead><tr><th class="num">#</th><th>Studio</th>'
             f'<th class="num">Joueurs en ligne</th><th class="num hide-s">Jeux dans le top 100</th><th class="num hide-s">Jeux suivis</th></tr></thead>'
             f'<tbody>{trs}</tbody></table></div><p class="note">Le créateur est celui qu’affiche Roblox pour chaque jeu. Un même studio peut publier sous plusieurs noms.</p></div>')
     pages["studios/index.html"] = page("Classement des studios Roblox", body, "Les studios Roblox dont les jeux réunissent le plus de joueurs en ce moment.", "studios/")

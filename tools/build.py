@@ -94,20 +94,36 @@ def page(title, body, desc="", path="", extra_head="", og_type="website", ld=Non
 <a class="skip" href="#contenu">Aller au contenu</a>
 <header class="site-head">
   <a class="wordmark" href="{url()}"><span class="mark" aria-hidden="true"></span>{esc(NAME)}</a>
-  <nav aria-label="Navigation principale">{links}<div class="search" data-index="{url('api/jeux/index.json')}" data-base="{url('jeux/')}"><label class="sr" for="q">Rechercher un jeu</label><input id="q" type="search" placeholder="Rechercher un jeu" autocomplete="off"><ul class="search-res" hidden></ul></div><a class="bell" href="{url('alertes/#recevoir')}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>Recevoir les alertes</a></nav>
+  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-main" aria-label="Ouvrir le menu"><span></span><span></span><span></span></button>
+  <nav id="nav-main" aria-label="Navigation principale">{links}<div class="search" data-index="{url('api/jeux/index.json')}" data-base="{url('jeux/')}"><label class="sr" for="q">Rechercher un jeu</label><input id="q" type="search" placeholder="Rechercher un jeu" autocomplete="off"><ul class="search-res" hidden></ul></div><a class="bell" href="{url('alertes/#recevoir')}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>Recevoir les alertes</a></nav>
 </header>
 {TICKER}
 <main id="contenu">
 {body}
 </main>
 <footer class="site-foot">
-  <p><strong>{esc(NAME)}</strong> : {esc(CONFIG['tagline'])}.</p>
-  <p>Média indépendant, non affilié à Roblox Corporation. Roblox est une marque de Roblox Corporation.</p>
-  <p>Articles rédigés automatiquement à partir de données publiques, chiffres vérifiés par programme.
-  <a href="{url('methode/')}">Méthode</a>, <a href="{url('corrections/')}">corrections</a>, <a href="{url('mentions-legales/')}">mentions légales</a>, <a href="{url('feed.xml')}">flux RSS</a>, <a href="{url('donnees/')}">données ouvertes et API</a>, <a href="{url('partenaires/')}">partenaires</a>.</p>
-  <p>Mesure d’audience anonyme, sans cookie.</p>
-  {STATUS_HTML}
+  <div class="foot-grid">
+    <div class="foot-about">
+      <a class="wordmark" href="{url()}"><span class="mark" aria-hidden="true"></span>{esc(NAME)}</a>
+      <p>{esc(CONFIG['tagline'])}.</p>
+      <p class="foot-small">Média indépendant, non affilié à Roblox Corporation. Roblox est une marque de Roblox Corporation. Articles rédigés automatiquement à partir de données publiques, chiffres vérifiés par programme. Mesure d’audience anonyme, sans cookie.</p>
+    </div>
+    <div><h2>Explorer</h2><ul>
+      <li><a href="{url('classement/')}">Classement en direct</a></li><li><a href="{url('tendances/')}">Tendances</a></li>
+      <li><a href="{url('records/')}">Records</a></li><li><a href="{url('heures-de-pointe/')}">Heures de pointe</a></li>
+      <li><a href="{url('genres/')}">Genres</a></li><li><a href="{url('studios/')}">Studios</a></li></ul></div>
+    <div><h2>Outils</h2><ul>
+      <li><a href="{url('alertes/')}">Alertes</a></li><li><a href="{url('comparer/')}">Comparer deux jeux</a></li>
+      <li><a href="{url('explorer/')}">Explorer</a></li><li><a href="{url('donnees/')}">Données ouvertes et API</a></li>
+      <li><a href="{url('feed.xml')}">Flux RSS</a></li></ul></div>
+    <div><h2>Le média</h2><ul>
+      <li><a href="{url('articles/')}">Tous les articles</a></li><li><a href="{url('methode/')}">Méthode</a></li>
+      <li><a href="{url('corrections/')}">Corrections</a></li><li><a href="{url('partenaires/')}">Partenaires</a></li>
+      <li><a href="{url('mentions-legales/')}">Mentions légales</a></li></ul></div>
+  </div>
+  <div class="foot-bar">{STATUS_HTML}<p class="foot-small">© {datetime.now().year} {esc(NAME)}</p></div>
 </footer>
+{'' if 'id="toast"' in body else '<div class="toast" id="toast" role="status" aria-live="polite"></div>'}
 <script src="{url('assets/app.js')}" defer></script>
 {beacon}
 </body>
@@ -172,7 +188,7 @@ def load_articles(folder, strict=True):
     return arts
 
 
-def article_page(a, prefix="articles"):
+def article_page(a, prefix="articles", related=()):
     f = load_facts(a["day"])
     cov = f["couverture"] if f else None
     sources = sorted({fact_for(d, k).get("src", "").split("#")[0] for d, k in a["used"]} - {""})
@@ -189,6 +205,7 @@ def article_page(a, prefix="articles"):
 <div class="prose">
 {a['html']}
 </div>
+{share_bar(a, prefix)}
 <aside class="provenance" aria-labelledby="prov-{esc(a['slug'])}">
   <h2 id="prov-{esc(a['slug'])}">D’où viennent ces chiffres</h2>
   <p class="checked"><span class="check" aria-hidden="true"></span>{len(a['used'])} chiffres dans cet article, tous reliés à leur source. Cliquez sur un chiffre souligné pour ouvrir le document ou la ligne exacte du fichier de données d’où il vient.</p>
@@ -196,7 +213,7 @@ def article_page(a, prefix="articles"):
   <ul class="files">{src_list}</ul>
   <p>Une erreur ? <a href="{url('corrections/')}">Signalez-la</a> : chaque correction est publiée.</p>
 </aside>
-</article>"""
+</article>{related_html(related)}"""
     ld = {"@context": "https://schema.org", "@type": "NewsArticle", "headline": a["title"], "description": a["chapo"],
           "datePublished": a["pub"].isoformat(), "inLanguage": "fr", "isAccessibleForFree": True,
           "mainEntityOfPage": abs_url(f"{prefix}/{a['slug']}/"), "author": ORG, "publisher": ORG,
@@ -204,6 +221,33 @@ def article_page(a, prefix="articles"):
     return page(a["title"], body, a["chapo"], f"{prefix}/{a['slug']}/", og_type="article", ld=ld, og_image=f"og/articles/{a['slug']}.png",
                 extra_head=f'<meta property="article:published_time" content="{a["pub"].isoformat()}">'
                            + ('<meta name="robots" content="noindex">' if prefix == "brouillons" else ""))
+
+
+def share_bar(a, prefix):
+    from urllib.parse import quote
+    link = abs_url(f"{prefix}/{a['slug']}/")
+    x = f"https://twitter.com/intent/tweet?text={quote(a['title'])}&url={quote(link)}"
+    li = f"https://www.linkedin.com/sharing/share-offsite/?url={quote(link)}"
+    return (f'<div class="share-bar" aria-label="Partager cet article"><span class="share-label">Partager</span>'
+            f'<a class="share x" href="{esc(x)}" target="_blank" rel="noopener">'
+            '<svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.8 3h3.1l-6.8 7.7L22 21h-6.2l-4.9-6.4L5.3 21H2.2l7.2-8.3L1.8 3h6.4l4.4 5.8L17.8 3Zm-1.1 16.2h1.7L7.4 4.7H5.5l11.2 14.5Z"/></svg>X</a>'
+            f'<a class="share" href="{esc(li)}" target="_blank" rel="noopener">'
+            '<svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.5h4V21H3V9.5Zm6.5 0h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.2c0-1.2 0-2.9-1.8-2.9s-2 1.4-2 2.8V21h-4V9.5Z"/></svg>LinkedIn</a>'
+            f'<button class="share" type="button" data-copy="{esc(link)}" data-copy-msg="Lien copié !">'
+            '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>Copier le lien</button></div>')
+
+
+def related_html(related):
+    if not related:
+        return ""
+    return (f'<section class="related" aria-labelledby="rel-h"><h2 id="rel-h" class="sec-title">À lire aussi</h2>'
+            f'<ol class="cards grid3">{"".join(card(r) for r in related)}</ol></section>')
+
+
+def pick_related(a, arts, n=3):
+    others = [x for x in arts if x["slug"] != a["slug"]]
+    others.sort(key=lambda x: (x["meta"]["type"] != a["meta"]["type"], -x["pub"].timestamp()))
+    return others[:n]
 
 
 BADGES = {"quotidien": "Quotidien", "hebdo": "Hebdo", "mensuel": "Mensuel", "trimestriel": "Résultats", "analyse": "Analyse", "dossier": "Dossier"}
@@ -245,7 +289,7 @@ def card(a, lead=False):
         return (f'<article class="hero-card"><a href="{href}">{cover(a)}<div class="hero-body">{badge(a)}<h2>{esc(a["title"])}</h2>'
                 f'<p>{esc(a["chapo"])}</p><span class="meta">{esc(fr_date(a["pub"].date(), weekday=False))}</span>{byline(a)}</div></a></article>')
     return (f'<li class="card"><a href="{href}">{badge(a)}<h3>{esc(a["title"])}</h3>'
-            f'<p>{esc(a["chapo"])}</p><span class="meta">{esc(fr_date(a["pub"].date(), weekday=False))}</span></a></li>')
+            f'<p>{esc(a["chapo"])}</p><span class="meta">{esc(fr_date(a["pub"].date(), weekday=False))} · {reading_time(a)} min</span></a></li>')
 
 
 # ---------------------------------------------------------------- classement en direct
@@ -334,7 +378,7 @@ def live_table(live, compact_rows=None):
     genres = [g for g, _ in sorted(counts.items(), key=lambda kv: -kv[1]) if g][:6]
     filt = ('<div class="filters" role="group" aria-label="Filtrer par genre"><button type="button" class="chip on" data-filter="">Tous</button>'
             + "".join(f'<button type="button" class="chip" data-filter="{esc(g)}">{esc(g)}</button>' for g in genres) + "</div>") if compact_rows is None else ""
-    return (filt + '<div class="table-wrap"><table class="live sortable"><thead><tr><th scope="col" class="num" data-sort="num">Rang</th>'
+    return (filt + '<div class="table-wrap sticky-head"><table class="live sortable"><thead><tr><th scope="col" class="num" data-sort="num">Rang</th>'
             '<th scope="col">Jeu</th><th scope="col" class="num" data-sort="num">Joueurs en ligne</th>'
             '<th scope="col" class="num hide-s" data-sort="num">Pic sur 24 h</th><th scope="col" class="hide-s">24 dernières heures</th>'
             f'<th scope="col" class="hide-m">Genre</th></tr></thead><tbody>{"".join(trs)}</tbody></table></div>')
@@ -452,7 +496,7 @@ def build(drafts=False):
 
     for a in arts:
         og_article(a)
-        write(f"articles/{a['slug']}/index.html", article_page(a))
+        write(f"articles/{a['slug']}/index.html", article_page(a, related=pick_related(a, arts)))
     if drafts:
         for a in load_articles(ROOT / "drafts", strict=False):
             og_article(a)
@@ -467,10 +511,17 @@ def build(drafts=False):
         pulse = (f'<section class="pulse" aria-labelledby="pulse-h"><h2 id="pulse-h">En ce moment sur Roblox</h2>'
                  f'<p class="stamp">{esc(stamp(live))}. Joueurs en ligne par jeu.</p><ol>{items}</ol>'
                  f'<a class="cta-top" href="{url("classement/")}">Voir tout le top 100 <span aria-hidden="true">→</span></a></section>')
+    pulse_m = ""
+    if live:
+        items_m = "".join(f'<li><span class="p-rank">{r["rang"]}</span>{icon_html(r, 24)}<a class="p-name" href="{url("jeux/" + r["slug"] + "/")}">{esc(r["nom"])}</a>'
+                          f'<span class="p-val">{fr_int(r["maintenant"])}</span></li>' for r in live["rows"][:3])
+        pulse_m = (f'<section class="pulse-m mobile-only" aria-label="En ce moment sur Roblox"><div class="pm-head"><span class="live-dot" aria-hidden="true"></span>En ce moment'
+                   f'<span class="pm-stamp">{esc(stamp(live))}</span></div><ol>{items_m}</ol>'
+                   f'<a class="cta-top" href="{url("classement/")}">Tout le top 100 <span aria-hidden="true">→</span></a></section>')
     if arts:
         lead, _ = headline_pick(arts)
         rest = [a for a in arts if a is not lead]
-        feed = (card(lead, lead=True) + f'<ol class="cards grid2">{"".join(card(a) for a in rest[:4])}</ol>'
+        feed = (card(lead, lead=True) + pulse_m + f'<ol class="cards grid2">{"".join(card(a) for a in rest[:4])}</ol>'
                 + (f'<h2 class="sec-title">Plus d’articles</h2><ol class="cards list">{"".join(card(a) for a in rest[4:14])}</ol>' if len(rest) > 4 else "")
                 + (f'<p class="more"><a href="{url("articles/")}">Tous les articles</a></p>' if len(rest) > 14 else ""))
     else:
@@ -505,7 +556,7 @@ def build(drafts=False):
             og.game_card(OUT / "og" / "jeux" / f"{rec['universe_id']}.png", rec["nom"], rec["icon"], rec["joueurs"], rec["rang"],
                          [v for _, v in rec["serie"]], None)
         (OUT / "badge" / f"{rec['universe_id']}.svg").write_text(og.badge_svg(rec["rang"], rec["joueurs"], rec["nom"]), encoding="utf-8")
-        html_, ok = explore.game_page(rec, page, url)
+        html_, ok = explore.game_page(rec, page, url, recs)
         write(f"jeux/{rec['slug']}/index.html", html_)
         if ok:
             indexable.append(f"jeux/{rec['slug']}/")
