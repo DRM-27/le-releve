@@ -69,6 +69,9 @@ jobs:
       - name: Construire le site (le vérificateur bloque tout chiffre sans source)
         run: python tools/build.py --drafts
 
+      - name: Contrôle qualité (liens, images, titres)
+        run: python tools/qa.py || true
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

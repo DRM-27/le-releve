@@ -6,6 +6,7 @@ Ce fichier fait autorité pour tous les agents qui écrivent ou relisent un arti
 
 - Tous les chiffres viennent du fichier de faits du jour (`facts/AAAA-MM-JJ.md` pour la liste lisible, `.json` pour le détail).
 - On les écrit avec leur jeton : `{{top.1.pic}}`. Pour un autre jour : `{{2026-10-19:top.1.pic}}`.
+- Autres fichiers de faits : instantané d’un relevé (`{{2026-10-21-17h:clé}}`, produit par `tools/instantane.py`), semaine (`{{2026-11-01-sem:clé}}`, produit chaque lundi par `tools/hebdo.py`, pour l’article hebdo), chiffres officiels (`{{officiel.…}}`) et chiffres de presse datés (`{{ext.…}}`, saisis dans `data/sources/externes.csv` avec leur lien).
 - Le titre et le chapô suivent la même règle.
 - Seules exceptions tolérées : années, dates en toutes lettres (« 20 octobre »), et les repères de méthode « top 10 », « 7 jours », « 24 h ».
 - Pas de nombres en lettres pour contourner la règle (« trois jeux », « deux fois plus »). Si un calcul manque, on ne l’écrit pas : on le note dans le rapport pour qu’il soit ajouté au programme.
