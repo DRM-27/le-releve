@@ -19,8 +19,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import FACTS, ROOT
 
-TOKEN = re.compile(r"\{\{\s*(?:(\d{4}-\d{2}-\d{2}(?:-\d{2}h)?):)?([a-z0-9_.\-]+)\s*\}\}")
-GRAPH = re.compile(r"\{\{\s*graphique:(?:(\d{4}-\d{2}-\d{2}(?:-\d{2}h)?):)?([a-z0-9\-]+)\s*\}\}")
+TOKEN = re.compile(r"\{\{\s*(?:(\d{4}-\d{2}-\d{2}(?:-\d{2}h|-sem)?):)?([a-z0-9_.\-]+)\s*\}\}")
+GRAPH = re.compile(r"\{\{\s*graphique:(?:(\d{4}-\d{2}-\d{2}(?:-\d{2}h|-sem)?):)?([a-z0-9\-]+)\s*\}\}")
 MOIS = "janvier|février|fevrier|mars|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre"
 ALLOWED = [
     re.compile(r"\bT[1-4]\b"),                                                # trimestres

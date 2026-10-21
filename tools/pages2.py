@@ -312,3 +312,64 @@ def explorer_page(page, url, extra=()):
                     + f'<h3>{esc(t)}</h3><p>{esc(d)}</p></a></li>' for p, t, d, b in tools)
     return page("Explorer les données de Roblox", f'<div class="wide"><h1>Explorer</h1><p class="lede">Tous les outils du Relevé, calculés à partir de nos relevés horaires.</p>'
                 f'<ol class="cards grid3">{cards}</ol></div>', "Tous les outils du Relevé pour explorer les données de Roblox.", "explorer/")
+
+
+# ------------------------------------------------------------------ monétisation (game passes)
+def monetization_page(recs, page, url):
+    import pathlib
+    from statistics import median
+    files = sorted(glob.glob(str(DATA / "passes/*.csv")))
+    head = ('<div class="wide"><h1>Monétisation : le prix des game passes</h1><p class="lede">Combien coûtent les game passes des jeux les plus joués ? '
+            'Relevé une fois par jour, en Robux, à partir de l’API publique de Roblox. Les passes retirés de la vente ne sont pas comptés dans les prix.</p>')
+    if not files:
+        return page("Prix des game passes sur Roblox", head + soon("Premier relevé des game passes", "Les prix des passes du top 100 sont relevés une fois par jour. "
+                    "Le premier relevé arrive dans les prochaines heures.") + "</div>", "Le prix des game passes des jeux Roblox les plus joués.", "monetisation/")
+    rows = read_csv(pathlib.Path(files[-1]))
+    day = rows[0]["date"] if rows else ""
+    by = {}
+    for r in rows:
+        by.setdefault(r["universe_id"], []).append(r)
+    by_uid = {r["universe_id"]: r for r in recs}
+    prices_all = [int(r["prix"]) for r in rows if r["en_vente"] == "1" and r["prix"]]
+    games = []
+    for uid, ps in by.items():
+        pr = [int(p["prix"]) for p in ps if p["en_vente"] == "1" and p["prix"]]
+        rec = by_uid.get(uid)
+        if rec and pr:
+            games.append((rec, len(pr), median(pr), min(pr), max(pr)))
+    games.sort(key=lambda x: x[0]["rang"] or 999)
+    bands = [(0, 99, "Moins de 100"), (100, 499, "100 à 499"), (500, 999, "500 à 999"), (1000, 4999, "1 000 à 4 999"), (5000, 10**9, "5 000 et plus")]
+    band_rows = [{"nom": lab, "valeur": round(sum(1 for p in prices_all if lo <= p <= hi) / len(prices_all), 4)} for lo, hi, lab in bands] if prices_all else []
+    chart = charts.bars("prix", {"titre": "Répartition des prix des game passes en vente (Robux)", "unite": "%", "rows": band_rows,
+                                 "csv": f"data/passes/{day}.csv"}) if band_rows else ""
+    stats = (f'<div class="stats"><div class="stat"><span class="stat-label">Passes en vente relevés</span><span class="stat-value">{fr_int(len(prices_all))}</span></div>'
+             f'<div class="stat"><span class="stat-label">Prix médian</span><span class="stat-value">{fr_int(median(prices_all)) if prices_all else "—"} R$</span></div>'
+             f'<div class="stat"><span class="stat-label">Jeux avec passes</span><span class="stat-value">{len(games)}</span></div></div>')
+    trs = "".join(f'<tr data-href="{url("jeux/" + g.get("slug") + "/")}"><td class="num">{g["rang"]}</td><td class="game"><div class="gcell">{icon(g, 36)}<div>{game_link(url, g)}'
+                  f'<span class="sub">{esc(g["genre"])}</span></div></div></td><td class="num">{n}</td><td class="num">{fr_int(med)} R$</td>'
+                  f'<td class="num hide-s">{fr_int(lo)} – {fr_int(hi)} R$</td></tr>' for g, n, med, lo, hi in games)
+    body = (head + f'<p class="note">Relevé du {esc(fr_date(__import__("datetime").date.fromisoformat(day), weekday=False))}. Source : <a href="{esc(github_tree("data/passes"))}">data/passes</a>.</p>'
+            + stats + chart + f'<div class="table-wrap"><table class="live"><thead><tr><th class="num">Rang</th><th>Jeu</th><th class="num">Passes en vente</th>'
+            f'<th class="num">Prix médian</th><th class="num hide-s">Fourchette</th></tr></thead><tbody>{trs}</tbody></table></div></div>')
+    return page("Prix des game passes sur Roblox", body, "Combien coûtent les game passes des jeux Roblox les plus joués ? Prix médians, fourchettes et répartition.", "monetisation/")
+
+
+# ------------------------------------------------------------------ actualités officielles
+def official_page(page, url):
+    ann = read_csv(DATA / "officiel" / "annonces.csv")[:30]
+    sec = read_csv(DATA / "officiel" / "sec.csv")[:15]
+    def d(s):
+        try:
+            t = parse_iso(s if s.endswith("Z") else s + "T00:00:00Z")
+            return fr_date(t.astimezone(TZ).date(), weekday=False)
+        except Exception:
+            return s
+    a_html = "".join(f'<li><time>{esc(d(a["date"]))}</time><a href="{esc(a["lien"])}" rel="noopener">{esc(a["titre"])}</a></li>' for a in ann)
+    s_html = "".join(f'<li><time>{esc(d(s["date"]))}</time><a href="{esc(s["lien"])}" rel="noopener">{esc(s["type"])}'
+                     + (f' : {esc(s["description"])}' if s["description"] and s["description"] not in s["type"] else "") + "</a></li>" for s in sec)
+    body = ('<div class="narrow"><h1>Actualités officielles</h1><p class="lede">Les annonces de Roblox aux développeurs et les documents déposés par '
+            'Roblox Corporation auprès du régulateur boursier américain (SEC). Titres et liens d’origine uniquement, relevés une fois par jour.</p>'
+            + (f'<h2 class="sec-title">Annonces aux développeurs</h2><ol class="news">{a_html}</ol>' if a_html else soon("Annonces aux développeurs", "Premier relevé dans les prochaines heures."))
+            + (f'<h2 class="sec-title">Documents financiers (SEC)</h2><ol class="news">{s_html}</ol>' if s_html else soon("Documents financiers", "Premier relevé dans les prochaines heures."))
+            + '</div>')
+    return page("Actualités officielles de Roblox", body, "Les annonces officielles de Roblox aux développeurs et les documents financiers de Roblox Corporation.", "actus-officielles/")

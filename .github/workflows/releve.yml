@@ -38,6 +38,12 @@ jobs:
         continue-on-error: true
         run: python tools/collect.py
 
+      - name: Relevés quotidiens (game passes, annonces officielles, SEC)
+        run: python tools/daily.py || true
+
+      - name: Faits de la semaine (si une semaine complète vient de se terminer)
+        run: python tools/hebdo.py || true
+
       - name: Alertes (mouvements forts sur une heure)
         run: python tools/alerts.py || true
 

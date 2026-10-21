@@ -345,7 +345,10 @@ def stamp(live):
     return f"Relevé du {fr_date(t.astimezone(TZ).date(), weekday=False)} à {fr_hour(t)}, heure de Paris"
 
 
-EXTRA_TOOLS = []
+EXTRA_TOOLS = [("monetisation/", "Monétisation", "Le prix des game passes des jeux du top 100.", ""),
+               ("actus-officielles/", "Actualités officielles", "Annonces aux développeurs et documents financiers de Roblox.", ""),
+               ("explorer/#action", "Action Roblox (RBLX)", "Le cours de l’action, sourcé et commenté.", "Bientôt"),
+               ("articles/", "Rapport de la semaine", "Chaque lundi, la tendance de la semaine écoulée.", "Dès le 2 novembre")]
 TICKER = ""
 STATUS_HTML = ""
 
@@ -522,7 +525,9 @@ def build(drafts=False):
     for path_, content in {**st_pages, **pages2.genres_pages(recs, page, url)}.items():
         write(path_, content)
     write("explorer/index.html", pages2.explorer_page(page, url, EXTRA_TOOLS))
-    extra_urls = ["tendances/", "mises-a-jour/", "heures-de-pointe/", "records/", "studios/", "genres/", "explorer/"] + \
+    write("monetisation/index.html", pages2.monetization_page(recs, page, url))
+    write("actus-officielles/index.html", pages2.official_page(page, url))
+    extra_urls = ["monetisation/", "actus-officielles/", "tendances/", "mises-a-jour/", "heures-de-pointe/", "records/", "studios/", "genres/", "explorer/"] + \
                  [p.replace("index.html", "") for p in st_pages if "<meta name=\"robots\"" not in st_pages[p] and p != "studios/index.html"] + \
                  [p.replace("index.html", "") for p in pages2.genres_pages(recs, page, url) if p != "genres/index.html"]
     write("widget/index.html", explore.widget_page(live, url, abs_url))
