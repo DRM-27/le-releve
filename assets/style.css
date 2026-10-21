@@ -770,3 +770,126 @@ button.btn { font-size: .92rem; padding: .55rem .9rem; } button.btn.share { font
 .line-plot .crosshair .tip { top: .2rem; transform: translate(-50%, 0); z-index: 3; }
 .line-plot .crosshair .tip.flip-l { transform: translate(calc(-100% - 10px), 0); }
 .line-plot .crosshair .tip.flip-r { transform: translate(10px, 0); }
+
+/* =====================================================================
+   Système de design : monochrome sombre, accents mesurés
+   Un seul bouton fort par écran (blanc), le reste en secondaire/ghost.
+   ===================================================================== */
+:root {
+  --ds-line: rgba(255, 255, 255, .08);
+  --ds-line-2: rgba(255, 255, 255, .12);
+  --ds-line-3: rgba(255, 255, 255, .25);
+  --ds-fill: rgba(255, 255, 255, .04);
+  --ds-fill-2: rgba(255, 255, 255, .08);
+  --ds-text: #f1f5f9;
+  --ds-text-2: #94a3b8;
+  --ds-mono: ui-monospace, "SF Mono", SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace;
+  --ds-ease: cubic-bezier(.2, .7, .2, 1);
+}
+
+/* ---- boutons ---- */
+.btn, button.btn, a.btn, .btn.share, button.btn.share, .btn.ghost, button.btn.ghost, .btn.ghost.x-share, .share, .cta-top {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  font: inherit; font-size: 13px; font-weight: 500; letter-spacing: .005em; line-height: 1.2;
+  padding: 8px 16px; border-radius: 6px; cursor: pointer; text-decoration: none;
+  background: var(--ds-fill); color: var(--ds-text); border: 1px solid var(--ds-line-2); box-shadow: none; filter: none;
+  transition: background .15s ease, border-color .15s ease, color .15s ease, transform .15s ease, box-shadow .15s ease;
+}
+.btn:hover, button.btn:hover, .btn.share:hover, .btn.ghost.x-share:hover, .share:hover, .cta-top:hover {
+  background: var(--ds-fill-2); border-color: var(--ds-line-3); color: #fff; filter: none;
+}
+.btn.ghost, button.btn.ghost, a.btn.ghost { background: transparent; border-color: transparent; color: var(--ds-text-2); padding-left: 12px; padding-right: 12px; }
+.btn.ghost:hover, button.btn.ghost:hover { background: rgba(255, 255, 255, .05); border-color: transparent; color: #f8fafc; }
+.btn.primary, .site-head nav a.bell.btn.primary {
+  background: linear-gradient(#ffffff, #f1f5f9); color: #0f172a; font-weight: 600; border: 1px solid rgba(255, 255, 255, .8);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .4), inset 0 1px 0 #fff; padding: 8px 14px;
+}
+.btn.primary:hover, .site-head nav a.bell.btn.primary:hover { background: #f1f5f9; color: #0f172a; border-color: rgba(255, 255, 255, .8); transform: translateY(-1px); }
+.btn.primary svg { stroke: #0f172a; }
+.btn.disabled, .btn.disabled:hover { background: transparent; color: #64748b; border: 1px dashed var(--ds-line-2); cursor: not-allowed; transform: none; }
+.btn:active, .share:active { transform: translateY(0) scale(.985); }
+.btn.ghost.x-share svg, .share svg { opacity: .85; }
+.share:hover, .btn.ghost.x-share:hover { transform: scale(1.02); }
+.share-row { display: flex; flex-wrap: wrap; gap: 8px; }
+
+/* lien « voir tout » : secondaire, pleine largeur */
+.cta-top { display: flex; width: 100%; color: var(--ds-text); }
+.cta-top span { color: var(--ds-text-2); }
+.cta-top:hover span { color: #fff; }
+
+/* ---- en-tête : recherche avec raccourci ---- */
+.search { display: flex; align-items: center; }
+.search input { background: var(--ds-fill); border: 1px solid var(--ds-line); border-radius: 6px; font-size: 13px; padding: 7px 52px 7px 30px; width: 220px;
+  color: var(--ds-text); transition: border-color .15s ease, background .15s ease, width .2s var(--ds-ease);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2.2' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='m20 20-3.5-3.5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: 10px 50%; }
+.search input::placeholder { color: #64748b; }
+.search input:hover { border-color: var(--ds-line-2); }
+.search input:focus { border-color: var(--ds-line-3); background-color: rgba(255, 255, 255, .06); outline: none; box-shadow: 0 0 0 3px rgba(255, 255, 255, .05); }
+.search input::-webkit-search-cancel-button { display: none; }
+.kbd { position: absolute; right: 7px; top: 50%; transform: translateY(-50%); font-family: var(--ds-mono); font-size: 10.5px; color: #94a3b8; background: rgba(255, 255, 255, .06);
+  border: 1px solid var(--ds-line-2); border-bottom-width: 2px; border-radius: 4px; padding: 1px 5px; pointer-events: none; line-height: 1.4; }
+.search input:focus + .kbd { opacity: 0; }
+.search-res { background: #10151e; border: 1px solid var(--ds-line-2); border-radius: 8px; box-shadow: 0 16px 40px rgba(0, 0, 0, .5); }
+.site-head nav a:not(.btn) { font-size: 14px; }
+@media (max-width: 760px) { .kbd { display: none; } .site-head.open nav .search input { padding-right: .8rem; } }
+
+/* ---- filtres : contrôle segmenté ---- */
+.filters { display: inline-flex; flex-wrap: wrap; gap: 2px; background: rgba(255, 255, 255, .03); padding: 4px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, .06); }
+.chip, .chip:hover { font-size: 13px; font-weight: 500; color: #8b949e; background: transparent; border: 1px solid transparent; border-radius: 6px; padding: 6px 12px; transition: color .15s ease, background .15s ease; }
+.chip:hover { color: #f1f5f9; background: rgba(255, 255, 255, .04); }
+.chip.on, .chip.on:hover { background: #21262d; color: #fff; border-color: rgba(255, 255, 255, .06); box-shadow: 0 1px 3px rgba(0, 0, 0, .3); }
+@media (max-width: 760px) {
+  .filters { display: flex; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; max-width: 100%; }
+  .filters::-webkit-scrollbar { display: none; }
+  .chip { white-space: nowrap; flex: none; }
+}
+.seg { background: rgba(255, 255, 255, .03); border-color: rgba(255, 255, 255, .06); }
+.seg button { font-weight: 500; color: #8b949e; }
+.seg button[aria-pressed="true"] { background: #21262d; color: #fff; box-shadow: 0 1px 3px rgba(0, 0, 0, .3); }
+
+/* ---- badges de variation ---- */
+.pill { font-family: var(--ds-mono); font-size: 11px; font-weight: 600; letter-spacing: -.01em; padding: 2px 6px; border-radius: 4px; line-height: 1.45; border: 1px solid transparent; word-spacing: 0; }
+.pill.up { color: #34d399; background: rgba(16, 185, 129, .1); border-color: rgba(16, 185, 129, .2); }
+.pill.down { color: #f87171; background: rgba(239, 68, 68, .1); border-color: rgba(239, 68, 68, .2); }
+.pill.flat { color: #94a3b8; background: rgba(148, 163, 184, .08); border-color: rgba(148, 163, 184, .16); }
+.lh-main .pill { font-size: 12px; }
+.mv { font-family: var(--ds-mono); font-size: 10.5px; }
+
+/* ---- étiquettes de rubrique : neutres ---- */
+.tag { background: rgba(255, 255, 255, .05); color: #cbd5e1; border: 1px solid var(--ds-line); font-family: var(--ds-mono); font-size: 10.5px; font-weight: 600; letter-spacing: .06em; border-radius: 4px; padding: 2px 7px; }
+.tag.new { color: #34d399; background: rgba(16, 185, 129, .1); border-color: rgba(16, 185, 129, .2); }
+
+/* ---- cartes : verre ---- */
+.card, .cards.grid2 .card, .cards.list .card, .cards.grid3 .card, .hero-card {
+  background: rgba(21, 29, 42, .55); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, .07); border-radius: 12px;
+  transition: border-color .2s var(--ds-ease), transform .2s var(--ds-ease), box-shadow .2s var(--ds-ease), background .2s var(--ds-ease);
+}
+.card:hover, .cards.grid2 .card:hover, .cards.list .card:hover, .cards.grid3 .card:hover, .hero-card:hover {
+  border-color: rgba(255, 255, 255, .2); transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0, 0, 0, .3); background: rgba(24, 33, 48, .6);
+}
+.card.skel:hover { transform: none; box-shadow: none; }
+.hero-card:hover h2, .card:hover h3 { color: #fff; }
+.chart, .pulse, .pulse-m, .rg-col, .stats, .provenance, .embed-box, .table-wrap, .follow { border-color: var(--ds-line); }
+.ytick { border-top-color: rgba(148, 163, 184, .1); }
+
+/* ---- mini-courbes : même style que les grandes ---- */
+.spark { color: #10b981; overflow: visible; }
+.spark.down { color: #ef4444; }
+.spark .sp-line { fill: none; stroke: currentColor; stroke-width: 1.75px; stroke-linejoin: round; stroke-linecap: round;
+  filter: drop-shadow(0 0 3px color-mix(in srgb, currentColor 45%, transparent)); }
+.spark .sp-area { stroke: none; }
+.spark .sp-dot { fill: none; stroke: currentColor; stroke-width: 5px; stroke-linecap: round; }
+
+/* ---- comparateur : même style que les grandes courbes ---- */
+.cmp-plot .ytick { border-top: 1px dashed rgba(148, 163, 184, .13); }
+.cmp-plot .ytick:first-child { border-top: 1px solid rgba(148, 163, 184, .28); }
+.cmp-plot .ytick span { color: #64748b; font-size: .72rem; }
+.cmp-plot g.s1 { color: #3b82f6; stroke: none; }
+.cmp-plot g.s2 { color: #f97316; stroke: none; }
+.cmp-plot path.area { stroke: none; }
+.cmp-plot path.stroke { fill: none; stroke: currentColor; stroke-width: 2.25px; filter: drop-shadow(0 0 6px color-mix(in srgb, currentColor 45%, transparent)); }
+.cmp-plot .end-dot { position: absolute; width: 10px; height: 10px; margin: -5px 0 0 -5px; border-radius: 50%; box-shadow: 0 0 0 3px #151d2a; }
+.cmp-plot svg { animation: reveal 1s cubic-bezier(.3,.7,.2,1) both; }
+@media (prefers-reduced-motion: reduce) { .cmp-plot svg { animation: none; } .card:hover, .hero-card:hover, .btn.primary:hover { transform: none; } }

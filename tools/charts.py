@@ -188,18 +188,21 @@ def render(gid, g):
 
 
 def sparkline(values, w=120, h=28, trend=None):
+    """Mini-courbe au même style que les grandes : lissée, couleur selon la tendance, dégradé, point final."""
     if len(values) < 2:
         return ""
-    vmax = max(values) or 1
-    vmin = min(values)
+    vmax, vmin = max(values), min(values)
     rng = (vmax - vmin) or 1
     step = w / (len(values) - 1)
-    xy = [(i * step, h - 2 - (v - vmin) / rng * (h - 4)) for i, v in enumerate(values)]
-    pts = " ".join(f"{x:.1f},{y:.1f}" for x, y in xy)
+    pad = 3
+    xy = [(i * step, h - pad - (v - vmin) / rng * (h - 2 * pad)) for i, v in enumerate(values)]
+    d = smooth_path(xy)
     trend = trend or ("down" if values[-1] < values[0] else "up")
-    gid = f"sg{abs(hash(pts)) % 10**8}"
+    gid = f"sg{abs(hash(d)) % 10**8}"
+    ex, ey = xy[-1]
     return (f'<svg class="spark {trend}" viewBox="0 0 {w} {h}" width="{w}" height="{h}" preserveAspectRatio="none" aria-hidden="true">'
-            f'<defs><linearGradient id="{gid}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="currentColor" stop-opacity=".28"/>'
+            f'<defs><linearGradient id="{gid}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="currentColor" stop-opacity=".32"/>'
             f'<stop offset="1" stop-color="currentColor" stop-opacity="0"/></linearGradient></defs>'
-            f'<polygon points="0,{h} {pts} {w},{h}" fill="url(#{gid})"/>'
-            f'<polyline points="{pts}" vector-effect="non-scaling-stroke"/></svg>')
+            f'<path class="sp-area" d="{d} L{w},{h} L0,{h} Z" style="fill:url(#{gid})"/>'
+            f'<path class="sp-line" d="{d}" vector-effect="non-scaling-stroke"/>'
+            f'<path class="sp-dot" d="M{ex:.1f},{ey:.1f} h0" vector-effect="non-scaling-stroke"/></svg>')

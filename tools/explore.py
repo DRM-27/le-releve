@@ -175,7 +175,7 @@ def game_widget(rec, abs_url):
 body{{margin:0;background:#151d2a;color:#f8fafc;font:14px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif}}
 .w{{border:1px solid #222f43;border-radius:12px;padding:14px 16px}} .top{{display:flex;align-items:center;gap:10px}}
 img{{width:36px;height:36px;border-radius:8px;object-fit:cover;background:#1e293b}} h1{{font-size:15px;margin:0}} .n{{font-size:26px;font-weight:800;margin:8px 0 2px}}
-.m{{color:#94a3b8;font-size:12px}} svg{{width:100%;height:110px;display:block;margin-top:8px;color:#3b82f6}} svg polyline{{fill:none;stroke:currentColor;stroke-width:2}}
+.m{{color:#94a3b8;font-size:12px}} svg{{width:100%;height:110px;display:block;margin-top:8px;color:#10b981;overflow:visible}} svg.down{{color:#ef4444}} .sp-line{{fill:none;stroke:currentColor;stroke-width:2}} .sp-dot{{stroke:currentColor;stroke-width:7;stroke-linecap:round}}
 a{{color:#60a5fa}}
 </style></head><body><div class="w"><div class="top">{f'<img src="{esc(rec["icon"])}" alt="">' if rec["icon"] else ""}<h1>{esc(rec['nom'])}</h1></div>
 <div class="n">{fr_int(rec['joueurs'])}</div><div class="m">joueurs en ligne au relevé de {esc(when)} (heure de Paris)</div>{sp}
@@ -257,7 +257,7 @@ def alerts_page(alerts, page, url, live=None):
             + f'<section class="follow" id="recevoir"><h2>Recevoir les alertes</h2>'
             f'<p>Abonnez-vous au flux des alertes dans votre lecteur RSS (Feedly, Inoreader, NetNewsWire…) : vous êtes prévenu dès qu’un jeu décolle.</p>'
             f'<p><a class="btn" href="{url("alertes.xml")}">S’abonner au flux des alertes</a> '
-            f'<button class="btn ghost" type="button" data-copy="{esc((CONFIG.get("baseUrl") or "") + "/alertes.xml")}">Copier l’adresse du flux</button></p>'
+            f'<button class="btn ghost" type="button" data-copy="{esc((CONFIG.get("baseUrl") or "") + "/alertes.xml")}"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg>Copier l’adresse du flux</button></p>'
             f'<p><span class="btn disabled" aria-disabled="true">Bot Telegram : ouverture prochaine</span></p>'
             f'<p class="note">Les alertes sur Telegram arrivent bientôt. Abonnez-vous au flux ci-dessus pour ne rien manquer d’ici là.</p></section>'
             f'<div class="toast" id="toast" role="status" aria-live="polite"></div>'
