@@ -1,18 +1,18 @@
 {
- "genere": "2026-10-21T17:45:05Z",
+ "genere": "2026-10-21T18:06:51Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/le-releve/",
-   "vues": 24
+   "vues": 26
   },
   {
    "path": "/le-releve/classement/",
-   "vues": 11
+   "vues": 14
   },
   {
    "path": "/le-releve/comparer/",
-   "vues": 9
+   "vues": 11
   },
   {
    "path": "/le-releve/methode/",
@@ -20,18 +20,26 @@
   },
   {
    "path": "/le-releve/alertes/",
-   "vues": 7
+   "vues": 8
+  },
+  {
+   "path": "/le-releve/explorer/",
+   "vues": 6
   },
   {
    "path": "/le-releve/articles/",
    "vues": 3
   },
   {
-   "path": "/le-releve/jeux/steal-an-egg-10563114921/",
-   "vues": 2
+   "path": "/le-releve/tendances/",
+   "vues": 3
   },
   {
    "path": "/le-releve/brouillons/2026-10-21-photographie-top100/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/jeux/steal-an-egg-10563114921/",
    "vues": 2
   },
   {
@@ -39,11 +47,11 @@
    "vues": 1
   },
   {
-   "path": "/le-releve/brouillons/2026-10-21-halloween/",
+   "path": "/le-releve/genres/",
    "vues": 1
   },
   {
-   "path": "/le-releve/brouillons/2026-10-21-records-2025/",
+   "path": "/le-releve/articles/2026-10-21-jeux-oeufs/",
    "vues": 1
   },
   {
@@ -51,7 +59,27 @@
    "vues": 1
   },
   {
-   "path": "/le-releve/articles/2026-10-21-jeux-oeufs/",
+   "path": "/le-releve/donnees/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/genres/simulation/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/mises-a-jour/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/jeux/article-10769149947/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/monetisation/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/brouillons/2026-10-21-records-2025/",
    "vues": 1
   }
  ]
