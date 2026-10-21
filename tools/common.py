@@ -96,36 +96,65 @@ def rel(path):
     return str(Path(path).resolve().relative_to(ROOT)) if str(path).startswith(str(ROOT)) else str(path)
 
 
-# ---------- mise en forme française ----------
+# ---------- mise en forme (français par défaut, autres langues via i18n.CUR) ----------
 MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre",
         "octobre", "novembre", "décembre"]
 JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
+MONTHS = {"en": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+          "es": ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"],
+          "pt-br": ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"]}
+DAYS = {"en": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "es": ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"],
+        "pt-br": ["segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado", "domingo"]}
+# séparateur de milliers, séparateur décimal, espace avant %
+NUM = {"fr": (NNBSP, ",", NNBSP), "en": (",", ".", ""), "es": (".", ",", NNBSP), "pt-br": (".", ",", "")}
+
+
+def _lang():
+    try:
+        import i18n
+        return i18n.CUR
+    except ImportError:
+        return "fr"
+
+
+def _group(n, sep):
+    return f"{n:,}".replace(",", sep)
 
 
 def fr_int(n):
     n = int(round(n))
-    s = f"{abs(n):,}".replace(",", NNBSP)
+    th = NUM[_lang()][0]
+    # en espagnol, pas de séparateur pour les nombres à quatre chiffres (norme RAE)
+    s = str(abs(n)) if _lang() == "es" and abs(n) < 10000 else _group(abs(n), th)
     return ("-" if n < 0 else "") + s
 
 
 def fr_dec(x, nd=1):
-    s = f"{abs(x):,.{nd}f}".replace(",", " ").replace(".", ",").replace(" ", NNBSP)
+    th, dec, _ = NUM[_lang()]
+    s = f"{abs(x):,.{nd}f}".replace(",", "\x00").replace(".", dec).replace("\x00", th)
     return ("-" if x < 0 else "") + s
 
 
 def _trim(s):
-    return s.rstrip("0").rstrip(",") if "," in s else s
+    dec = NUM[_lang()][1]
+    return s.rstrip("0").rstrip(dec) if dec in s else s
+
+
+BIG = {"fr": (("milliard", "milliards"), ("million", "millions")), "en": (("billion", "billion"), ("million", "million")),
+       "es": (("mil millones", "mil millones"), ("millón", "millones")), "pt-br": (("bilhão", "bilhões"), ("milhão", "milhões"))}
 
 
 def fr_big(n):
     """121 176 / 1,2 million / 65,3 milliards / 32,69 millions (deux décimales au plus, zéros inutiles retirés)."""
     a = abs(n)
-    if a >= 1e9:
-        v = n / 1e9
-        return f"{_trim(fr_dec(v, 2))} milliard" + ("s" if abs(v) >= 2 else "")
-    if a >= 1e6:
-        v = n / 1e6
-        return f"{_trim(fr_dec(v, 2))} million" + ("s" if abs(v) >= 2 else "")
+    L = _lang()
+    (b1, b2), (m1, m2) = BIG[L]
+    for unit, (one, many) in ((1e9, (b1, b2)), (1e6, (m1, m2))):
+        if a >= unit:
+            v = n / unit
+            plural = abs(v) >= 2 if L in ("fr", "pt-br") else abs(v) != 1
+            return f"{_trim(fr_dec(v, 2))} " + (many if plural else one)
     return fr_int(n)
 
 
@@ -133,25 +162,55 @@ def fr_pct(x, signed=True, nd=1):
     """x en fraction (0,123 -> +12,3 %)."""
     v = x * 100
     sign = "+" if signed and v > 0 else ("−" if v < 0 else "")
-    return f"{sign}{fr_dec(abs(v), nd)}{NNBSP}%"
+    return f"{sign}{fr_dec(abs(v), nd)}{NUM[_lang()][2]}%"
 
 
 def fr_share(x, nd=1):
-    return f"{fr_dec(x * 100, nd)}{NNBSP}%"
+    return f"{fr_dec(x * 100, nd)}{NUM[_lang()][2]}%"
 
 
 def fr_date(d, weekday=True):
+    L = _lang()
+    if L == "en":
+        s = f"{MONTHS['en'][d.month - 1]} {d.day}, {d.year}"
+        return f"{DAYS['en'][d.weekday()]}, {s}" if weekday else s
+    if L in ("es", "pt-br"):
+        s = f"{d.day} de {MONTHS[L][d.month - 1]} de {d.year}"
+        return f"{DAYS[L][d.weekday()]}, {s}" if weekday else s
     s = f"{d.day}{'er' if d.day == 1 else ''} {MOIS[d.month - 1]} {d.year}"
     return f"{JOURS[d.weekday()]} {s}" if weekday else s
 
 
 def fr_hour(dt):
     t = dt.astimezone(TZ)
+    L = _lang()
+    if L == "en":
+        h = t.hour % 12 or 12
+        return f"{h}:{t.minute:02d}{NNBSP}{'a.m.' if t.hour < 12 else 'p.m.'}"
+    if L == "es":
+        return f"{t.hour}:{t.minute:02d}"
+    if L == "pt-br":
+        return f"{t.hour}h{t.minute:02d}"
     return f"{t.hour}{NNBSP}h" if t.minute == 0 else f"{t.hour}{NNBSP}h{NNBSP}{t.minute:02d}"
 
 
 def fr_rank(n):
+    L = _lang()
+    if L == "en":
+        suf = "th" if 10 <= n % 100 <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th")
+        return f"{n}{suf}"
+    if L in ("es", "pt-br"):
+        return f"{n}.º" if L == "es" else f"{n}º"
     return "1er" if n == 1 else f"{n}e"
+
+
+def rank_html(n):
+    """Rang avec exposant (« 2<sup>e</sup> », « 2<sup>nd</sup> »)."""
+    if not n:
+        return "—"
+    r = fr_rank(n)
+    num = str(n)
+    return f"{num}<small>{r[len(num):]}</small>" if r[len(num):] else num
 
 
 def slugify(s):

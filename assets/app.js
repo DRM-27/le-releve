@@ -1,6 +1,15 @@
+/* Langue de la page : traductions de l'interface et formats (le français est la langue source). */
+var LR = (function () {
+  var l = (document.documentElement.lang || 'fr').toLowerCase(), k = l.indexOf('pt') === 0 ? 'pt' : l.slice(0, 2);
+  var D = {"en": {"Source : ": "Source: ", "24 h": "24h", "7 j": "7d", "30 j": "30d", "Tout": "All", "Pic ": "Peak ", "Creux ": "Low ", "sur la période": "over the period", "Période": "Period", " face à ": " vs ", "joueurs au dernier relevé, pic sur 24 h : ": "players at the latest reading, 24h peak: ", "Données indisponibles pour ce jeu. Choisissez-en un autre.": "No data for this game. Pick another one.", "Lien copié dans le presse-papier !": "Link copied to clipboard!", "Adresse copiée !": "Address copied!", "Code copié !": "Code copied!", " : joueurs en ligne, heure par heure, sur Le Relevé 📊": ": players online, hour by hour, on Le Relevé 📊", "Prochain relevé dans ": "Next reading in ", "Prochain relevé imminent": "Next reading imminent", "Aucun jeu suivi ne correspond": "No tracked game matches", "Fermer le menu": "Close menu", "Ouvrir le menu": "Open menu"}, "es": {"Source : ": "Fuente: ", "24 h": "24 h", "7 j": "7 d", "30 j": "30 d", "Tout": "Todo", "Pic ": "Pico ", "Creux ": "Mínimo ", "sur la période": "en el periodo", "Période": "Periodo", " face à ": " frente a ", "joueurs au dernier relevé, pic sur 24 h : ": "jugadores en la última medición, pico en 24 h: ", "Données indisponibles pour ce jeu. Choisissez-en un autre.": "No hay datos para este juego. Elige otro.", "Lien copié dans le presse-papier !": "¡Enlace copiado al portapapeles!", "Adresse copiée !": "¡Dirección copiada!", "Code copié !": "¡Código copiado!", " : joueurs en ligne, heure par heure, sur Le Relevé 📊": ": jugadores en línea, hora a hora, en Le Relevé 📊", "Prochain relevé dans ": "Próxima medición en ", "Prochain relevé imminent": "Próxima medición inminente", "Aucun jeu suivi ne correspond": "Ningún juego seguido coincide", "Fermer le menu": "Cerrar el menú", "Ouvrir le menu": "Abrir el menú"}, "pt": {"Source : ": "Fonte: ", "24 h": "24 h", "7 j": "7 d", "30 j": "30 d", "Tout": "Tudo", "Pic ": "Pico ", "Creux ": "Mínimo ", "sur la période": "no período", "Période": "Período", " face à ": " contra ", "joueurs au dernier relevé, pic sur 24 h : ": "jogadores na última medição, pico em 24 h: ", "Données indisponibles pour ce jeu. Choisissez-en un autre.": "Sem dados para este jogo. Escolha outro.", "Lien copié dans le presse-papier !": "Link copiado para a área de transferência!", "Adresse copiée !": "Endereço copiado!", "Code copié !": "Código copiado!", " : joueurs en ligne, heure par heure, sur Le Relevé 📊": ": jogadores online, hora a hora, no Le Relevé 📊", "Prochain relevé dans ": "Próxima medição em ", "Prochain relevé imminent": "Próxima medição iminente", "Aucun jeu suivi ne correspond": "Nenhum jogo acompanhado corresponde", "Fermer le menu": "Fechar o menu", "Ouvrir le menu": "Abrir o menu"}};
+  var loc = { fr: 'fr-FR', en: 'en-US', es: 'es-ES', pt: 'pt-BR' }[k] || 'fr-FR';
+  function ord(n) { if (k === 'fr') return n + 'e'; if (k === 'en') { var m = n % 100; return n + ((m > 10 && m < 14) ? 'th' : ({ 1: 'st', 2: 'nd', 3: 'rd' }[n % 10] || 'th')); } return n + 'º'; }
+  return { k: k, loc: loc, t: function (s) { return (D[k] && D[k][s]) || s; }, ord: ord };
+})();
+
 /* Le Relevé : sources des chiffres, infobulles, curseur des courbes, tri des tableaux. */
 (function () {
-  var nf = new Intl.NumberFormat('fr-FR');
+  var nf = new Intl.NumberFormat(LR.loc);
 
   // Fiche source au survol ou au focus d'un chiffre
   var pop = null;
@@ -10,7 +19,7 @@
     pop.className = 'fact-pop';
     pop.setAttribute('role', 'tooltip');
     var b = document.createElement('b'); b.textContent = a.dataset.fact;
-    var s = document.createElement('span'); s.textContent = 'Source : ' + a.dataset.where;
+    var s = document.createElement('span'); s.textContent = LR.t('Source : ') + a.dataset.where;
     pop.appendChild(b); pop.appendChild(s);
     document.body.appendChild(pop);
     var r = a.getBoundingClientRect();
@@ -42,14 +51,14 @@
   });
 
   // Courbes : rendu interactif (périodes, pic, curseur)
-  var df = new Intl.DateTimeFormat('fr-FR', { weekday: 'short', day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit', timeZone: 'Europe/Paris' });
-  var dHour = new Intl.DateTimeFormat('fr-FR', { hour: 'numeric', timeZone: 'Europe/Paris' });
-  var dDay = new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'numeric', timeZone: 'Europe/Paris' });
-  var pf = new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 1, signDisplay: 'always' });
+  var df = new Intl.DateTimeFormat(LR.loc, { weekday: 'short', day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit', timeZone: 'Europe/Paris' });
+  var dHour = new Intl.DateTimeFormat(LR.loc, { hour: 'numeric', timeZone: 'Europe/Paris' });
+  var dDay = new Intl.DateTimeFormat(LR.loc, { day: 'numeric', month: 'numeric', timeZone: 'Europe/Paris' });
+  var pf = new Intl.NumberFormat(LR.loc, { maximumFractionDigits: 1, signDisplay: 'always' });
   function compactN(n) {
     var a = Math.abs(n);
-    if (a >= 1e6) return (n / 1e6).toLocaleString('fr-FR', { maximumFractionDigits: 1 }) + ' M';
-    if (a >= 1e3) return Math.round(n / 1e3).toLocaleString('fr-FR') + ' k';
+    if (a >= 1e6) return (n / 1e6).toLocaleString(LR.loc, { maximumFractionDigits: 1 }) + ' M';
+    if (a >= 1e3) return Math.round(n / 1e3).toLocaleString(LR.loc) + ' k';
     return nf.format(n);
   }
   function niceRange(vmin, vmax, n) {
@@ -83,7 +92,7 @@
     return d;
   }
   window.__chart = { smooth: smooth, niceRange: niceRange, compact: compactN };
-  var RANGES = [['24 h', 86400], ['7 j', 7 * 86400], ['30 j', 30 * 86400], ['Tout', 0]];
+  var RANGES = [[LR.t('24 h'), 86400], [LR.t('7 j'), 7 * 86400], [LR.t('30 j'), 30 * 86400], [LR.t('Tout'), 0]];
   var reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
   document.querySelectorAll('.line-plot').forEach(function (plot, k) {
     var all = JSON.parse(plot.dataset.points), unit = plot.dataset.unit;
@@ -132,8 +141,8 @@
         '<path class="area" d="' + da + '" style="fill:url(#' + gidc + ')"/><path class="stroke" d="' + dl + '" vector-effect="non-scaling-stroke"/></svg>';
       var ip = vals.indexOf(vmax), im = vals.indexOf(vmin);
       var pk = xy(pts[ip]), mn = xy(pts[im]), le = xy(pts[pts.length - 1]);
-      if (ip !== pts.length - 1) html += '<span class="peak' + (pk[0] / W > .8 ? ' left' : '') + '" style="left:' + (pk[0] / W * 100).toFixed(2) + '%;top:' + (pk[1] / H * 100).toFixed(2) + '%"><i></i><b>Pic ' + nf.format(vmax) + '</b></span>';
-      if (im !== pts.length - 1 && im !== 0 && vmax !== vmin) html += '<span class="peak low' + (mn[0] / W > .8 ? ' left' : '') + '" style="left:' + (mn[0] / W * 100).toFixed(2) + '%;top:' + (mn[1] / H * 100).toFixed(2) + '%"><i></i><b>Creux ' + nf.format(vmin) + '</b></span>';
+      if (ip !== pts.length - 1) html += '<span class="peak' + (pk[0] / W > .8 ? ' left' : '') + '" style="left:' + (pk[0] / W * 100).toFixed(2) + '%;top:' + (pk[1] / H * 100).toFixed(2) + '%"><i></i><b>' + LR.t('Pic ') + nf.format(vmax) + '</b></span>';
+      if (im !== pts.length - 1 && im !== 0 && vmax !== vmin) html += '<span class="peak low' + (mn[0] / W > .8 ? ' left' : '') + '" style="left:' + (mn[0] / W * 100).toFixed(2) + '%;top:' + (mn[1] / H * 100).toFixed(2) + '%"><i></i><b>' + LR.t('Creux ') + nf.format(vmin) + '</b></span>';
       html += '<span class="end-dot" style="left:' + (le[0] / W * 100).toFixed(2) + '%;top:' + (le[1] / H * 100).toFixed(2) + '%"></span>' +
         '<span class="end-label" style="top:' + (le[1] / H * 100).toFixed(2) + '%">' + compactN(last) + '</span>' +
         '<div class="crosshair" hidden><span class="hline"></span><span class="cdot"></span><span class="tip"></span></div>';
@@ -145,10 +154,10 @@
         var btns = RANGES.filter(function (r) { return !r[1] || r[1] < fullSpan; });
         head.hidden = false;
         head.innerHTML = '<div class="lh-main"><span class="lh-val">' + nf.format(last) + '</span><span class="lh-unit">' + unit + '</span>' +
-          '<span class="pill ' + (ch >= 0 ? 'up' : 'down') + '">' + pf.format(ch).replace('-', '\u2212') + ' %</span>' +
-          '<span class="lh-range">sur la période</span></div>' +
-          '<div class="lh-side"><span>Pic <b>' + nf.format(vmax) + '</b></span><span>Creux <b>' + nf.format(vmin) + '</b></span></div>' +
-          (btns.length > 1 ? '<div class="seg" role="group" aria-label="Période">' + btns.map(function (r) {
+          '<span class="pill ' + (ch >= 0 ? 'up' : 'down') + '">' + pf.format(ch).replace('-', '\u2212') + (LR.k === 'en' ? '%' : ' %') + '</span>' +
+          '<span class="lh-range">' + LR.t('sur la période') + '</span></div>' +
+          '<div class="lh-side"><span>' + LR.t('Pic ') + '<b>' + nf.format(vmax) + '</b></span><span>' + LR.t('Creux ') + '<b>' + nf.format(vmin) + '</b></span></div>' +
+          (btns.length > 1 ? '<div class="seg" role="group" aria-label="' + LR.t('Période') + '">' + btns.map(function (r) {
             return '<button type="button" data-r="' + r[1] + '"' + (r[1] === cur ? ' aria-pressed="true"' : ' aria-pressed="false"') + '>' + r[0] + '</button>';
           }).join('') + '</div>' : '');
         head.querySelectorAll('.seg button').forEach(function (b) { b.addEventListener('click', function () { draw(+b.dataset.r, true); }); });
@@ -204,7 +213,7 @@
   var fig = document.getElementById('compare-chart'), api = fig.dataset.api;
   var plot = document.getElementById('compare-plot'), legend = document.getElementById('compare-legend');
   var title = document.getElementById('compare-title'), stats = document.getElementById('compare-stats');
-  var nf = new Intl.NumberFormat('fr-FR'), cache = {};
+  var nf = new Intl.NumberFormat(LR.loc), cache = {};
   var q = new URLSearchParams(location.search);
   var a = form.elements.a, b = form.elements.b;
   a.value = q.get('a') || form.dataset.a || a.value;
@@ -236,13 +245,13 @@
     });
     var grid = ticks.map(function (v) { return '<div class="ytick" style="bottom:' + ((v - lo) / (hi - lo) * 100).toFixed(2) + '%"><span>' + C.compact(v) + '</span></div>'; }).join('');
     plot.innerHTML = grid + '<svg viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="none" aria-hidden="true"><defs>' + defs + '</defs>' + svg + '</svg>' + dots;
-    var dfx = new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit', timeZone: 'Europe/Paris' });
+    var dfx = new Intl.DateTimeFormat(LR.loc, { day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit', timeZone: 'Europe/Paris' });
     document.getElementById('compare-x').innerHTML = '<span>' + dfx.format(new Date(t0)) + '</span><span>' + dfx.format(new Date(t1)) + '</span>';
     legend.innerHTML = series.map(function (g, i) { return '<li><i class="s' + (i + 1) + '"></i>' + esc(g.nom) + '</li>'; }).join('');
-    title.textContent = ga.nom + ' face à ' + gb.nom;
+    title.textContent = ga.nom + LR.t(' face à ') + gb.nom;
     stats.innerHTML = series.map(function (g, i) {
       return '<div class="stat c' + (i + 1) + '"><span class="stat-label">' + esc(g.nom) + '</span><span class="stat-value">' + nf.format(g.joueurs) +
-        '</span><span class="stat-note">joueurs au dernier relevé, pic sur 24 h : ' + (g.pic_24h != null ? nf.format(g.pic_24h) : '—') + '</span></div>';
+        '</span><span class="stat-note">' + LR.t('joueurs au dernier relevé, pic sur 24 h : ') + (g.pic_24h != null ? nf.format(g.pic_24h) : '—') + '</span></div>';
     }).join('');
   }
   function update() {
@@ -250,7 +259,7 @@
     history.replaceState(null, '', '?' + p.toString());
     title.textContent = 'Chargement…';
     Promise.all([get(a.value), get(b.value)]).then(function (r) { draw(r[0], r[1]); })
-      .catch(function () { title.textContent = 'Données indisponibles pour ce jeu. Choisissez-en un autre.'; });
+      .catch(function () { title.textContent = LR.t('Données indisponibles pour ce jeu. Choisissez-en un autre.'); });
   }
   a.addEventListener('change', update); b.addEventListener('change', update);
   update();
@@ -280,11 +289,11 @@
   if (share) share.addEventListener('click', function () {
     var data = { title: document.title, url: location.href };
     if (navigator.share && matchMedia('(pointer: coarse)').matches) navigator.share(data).catch(function () {});
-    else copy(location.href, 'Lien copié dans le presse-papier !');
+    else copy(location.href, LR.t('Lien copié dans le presse-papier !'));
   });
-  document.querySelectorAll('[data-copy]').forEach(function (b) { b.addEventListener('click', function () { copy(b.dataset.copy, b.dataset.copyMsg || 'Adresse copiée !'); }); });
+  document.querySelectorAll('[data-copy]').forEach(function (b) { b.addEventListener('click', function () { copy(b.dataset.copy, b.dataset.copyMsg || LR.t('Adresse copiée !')); }); });
   document.querySelectorAll('[data-copy-from]').forEach(function (b) {
-    b.addEventListener('click', function () { copy(document.getElementById(b.dataset.copyFrom).textContent, 'Code copié !'); });
+    b.addEventListener('click', function () { copy(document.getElementById(b.dataset.copyFrom).textContent, LR.t('Code copié !')); });
   });
 })();
 
@@ -308,14 +317,14 @@
   function refreshX() {
     if (!xs) return;
     var n = names();
-    var text = n[0] + ' face à ' + n[1] + ' : joueurs en ligne, heure par heure, sur Le Relevé 📊';
+    var text = n[0] + LR.t(' face à ') + n[1] + LR.t(' : joueurs en ligne, heure par heure, sur Le Relevé 📊');
     xs.href = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text) + '&url=' + encodeURIComponent(location.href);
     var li = document.getElementById('li-share'); if (li) li.href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(location.href);
   }
   if (xs) { refreshX(); document.getElementById('compare').addEventListener('change', function () { setTimeout(refreshX, 50); }); xs.addEventListener('focus', refreshX); xs.addEventListener('mouseenter', refreshX); }
   if (cp) cp.addEventListener('click', function () {
     var t = document.getElementById('toast');
-    var done = function () { if (t) { t.textContent = 'Lien copié dans le presse-papier !'; t.classList.add('show'); setTimeout(function () { t.classList.remove('show'); }, 2200); } };
+    var done = function () { if (t) { t.textContent = LR.t('Lien copié dans le presse-papier !'); t.classList.add('show'); setTimeout(function () { t.classList.remove('show'); }, 2200); } };
     if (navigator.clipboard) navigator.clipboard.writeText(location.href).then(done, done); else done();
   });
   var fs = document.querySelector('.feed-status');
@@ -323,7 +332,7 @@
     var last = Date.parse(fs.dataset.last), next = fs.querySelector('.fs-next');
     var tick = function () {
       var m = Math.round((last + 3600e3 - Date.now()) / 60000);
-      next.innerHTML = ' <span class="sep">•</span> ' + (m > 0 ? 'Prochain relevé dans ' + m + ' min' : 'Prochain relevé imminent');
+      next.innerHTML = ' <span class="sep">•</span> ' + (m > 0 ? LR.t('Prochain relevé dans ') + m + ' min' : LR.t('Prochain relevé imminent'));
     };
     tick(); setInterval(tick, 30000);
   }
@@ -340,8 +349,8 @@
     var n = norm(q), res = data.filter(function (g) { return norm(g.nom).indexOf(n) >= 0; }).slice(0, 8);
     list.innerHTML = res.length ? res.map(function (g, i) {
       var a = document.createElement('a'); a.href = box.dataset.base + g.slug + '/'; a.textContent = g.nom;
-      return '<li' + (i === sel ? ' class="on"' : '') + '>' + a.outerHTML + '<span>' + (g.rang ? g.rang + 'e' : '') + '</span></li>';
-    }).join('') : '<li class="none">Aucun jeu suivi ne correspond</li>';
+      return '<li' + (i === sel ? ' class="on"' : '') + '>' + a.outerHTML + '<span>' + (g.rang ? LR.ord(g.rang) : '') + '</span></li>';
+    }).join('') : '<li class="none">' + LR.t('Aucun jeu suivi ne correspond') + '</li>';
     list.hidden = false;
   }
   input.addEventListener('focus', load);
@@ -362,7 +371,7 @@
   function set(open) {
     head.classList.toggle('open', open); document.body.classList.toggle('menu-open', open);
     btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-    btn.setAttribute('aria-label', open ? 'Fermer le menu' : 'Ouvrir le menu');
+    btn.setAttribute('aria-label', open ? LR.t('Fermer le menu') : LR.t('Ouvrir le menu'));
   }
   btn.addEventListener('click', function () { set(!head.classList.contains('open')); });
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && head.classList.contains('open')) { set(false); btn.focus(); } });

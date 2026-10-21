@@ -21,11 +21,21 @@ from common import FACTS, ROOT
 
 TOKEN = re.compile(r"\{\{\s*(?:(\d{4}-\d{2}-\d{2}(?:-\d{2}h|-sem)?):)?([a-z0-9_.\-]+)\s*\}\}")
 GRAPH = re.compile(r"\{\{\s*graphique:(?:(\d{4}-\d{2}-\d{2}(?:-\d{2}h|-sem)?):)?([a-z0-9\-]+)\s*\}\}")
-MOIS = "janvier|février|fevrier|mars|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre"
+MOIS = ("janvier|février|fevrier|mars|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre"
+        # traductions (anglais, espagnol, portugais)
+        "|january|february|march|april|may|june|july|august|september|october|november|december"
+        "|enero|febrero|marzo|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre"
+        "|janeiro|fevereiro|março|maio|junho|julho|setembro|outubro|novembro|dezembro")
 ALLOWED = [
     re.compile(r"\bT[1-4]\b"),                                                # trimestres
     re.compile(r"\b\d{1,2}(?:er)?\s+(?:" + MOIS + r")(?:\s+20\d\d)?\b", re.I),  # 20 octobre (2026)
     re.compile(r"\b(?:" + MOIS + r")\s+20\d\d\b", re.I),                    # octobre 2026
+    re.compile(r"\b(?:" + MOIS + r")\s+\d{1,2}(?:st|nd|rd|th)?\b", re.I),     # October 21
+    re.compile(r"\b\d{1,2}\s+de\s+(?:" + MOIS + r")(?:\s+de\s+20\d\d)?\b", re.I),  # 21 de octubre (de 2026)
+    re.compile(r"\b(?:7|14|30|90)\s(?:days|días|dias|last days)\b", re.I),
+    re.compile(r"\b24\s?(?:hours|horas|hrs)\b", re.I),
+    re.compile(r"\b(?:no\.|n\.º|nº|n\.o)\s?1\b", re.I),
+    re.compile(r"\bQ[1-4]\b"),
     re.compile(r"(?<![\d,.])(?<!\d[   ])\b20\d\d\b(?![   ]?\d)(?!\s?%)(?!\s(?:joueurs|visites|jeux|joueur)\b)"),  # années
     re.compile(r"\btop\s(?:3|5|10|20|50|100)\b", re.I),
     re.compile(r"\b(?:7|14|30|90)\s(?:jours|derniers jours)\b"),

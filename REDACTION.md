@@ -69,3 +69,13 @@ Pour les articles trimestriels : saisir chaque chiffre dans `data/official/roblo
 - **X** : un post de 280 caractères au plus par article, dans `social/x/AAAA-MM-JJ-mots-cles.txt`, écrit lui aussi avec des jetons. Le fait principal, puis le lien de l’article. Un hashtag au plus. `python tools/render.py AAAA-MM-JJ social/x/<fichier>.txt` vérifie le post et donne le texte final à publier.
 - **Newsletter** : alimentée par le flux RSS du site.
 - **Vidéos courtes** : selon la méthode fournie par l’éditeur (à venir).
+
+## Traductions (anglais, espagnol, portugais du Brésil)
+
+Chaque article publié en français a sa traduction dans `content/i18n/<langue>/articles/` (langues : `en`, `es`, `pt-br`), sous **le même nom de fichier**, ce qui relie les versions entre elles (balises hreflang, sélecteur de langue).
+
+- Traduire le texte seulement : les jetons `{{…}}` et `{{graphique:…}}` restent identiques. Les chiffres, dates et classements s'affichent automatiquement au format de chaque langue.
+- Mêmes règles qu'en français : aucun chiffre tapé à la main (le vérificateur s'applique aussi aux traductions), pas de signe en double devant une variation (écrire « revenue {{x_croissance}} », pas « up {{x_croissance}} », car la valeur porte déjà son signe).
+- Adapter, pas calquer : « cet été » devient « this summer » en anglais mais peut devenir « neste ano » pour le Brésil (hémisphère sud).
+- Un article sans traduction n'apparaît simplement pas dans cette langue : rien ne casse.
+- Vérifier : `python tools/verify.py content/i18n/*/articles/<fichier>.md`.

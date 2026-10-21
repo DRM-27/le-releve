@@ -45,6 +45,7 @@ Chaque jeu suivi a sa page, avec sa courbe horaire et ses chiffres clés. Une pa
 2. Une IA rédige l’article à partir de ce fichier. Elle n’écrit aucun chiffre elle-même : elle les appelle depuis le fichier.
 3. Un vérificateur automatique bloque la publication si un chiffre ne provient pas des données, ou si une formulation laisse croire à un lien officiel avec Roblox.
 4. Un agent relecteur contrôle le sens des phrases. Pendant les premières semaines, chaque article est aussi relu par l’éditeur avant publication.
+5. Les articles en anglais, en espagnol et en portugais sont traduits de l’original français par une IA ; les chiffres sont les mêmes, appelés depuis les mêmes fichiers.
 
 Dans chaque article, les chiffres soulignés sont des liens : ils ouvrent la ligne exacte du fichier de données dont ils proviennent.
 

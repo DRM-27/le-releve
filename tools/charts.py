@@ -7,6 +7,7 @@ import json
 from datetime import timedelta
 
 from common import TZ, fr_dec, fr_int, fr_pct, fr_share, github_blob, parse_iso, NNBSP
+from i18n import t as tr
 
 esc = html.escape
 
@@ -33,14 +34,15 @@ def nice_ticks(vmax, n=4):
     return [step * i for i in range(int(round(top / step)) + 1)]
 
 
-def frame(gid, title, body, csv, table, note="", source="Relevés horaires des API publiques de Roblox"):
+def frame(gid, title, body, csv, table, note="", source=None):
+    source = source or tr("Relevés horaires des API publiques de Roblox")
     return (f'<figure class="chart" id="graphique-{esc(gid)}">'
             f'<figcaption><span class="chart-title">{esc(title)}</span>'
             f'{f"<span class=chart-note>{esc(note)}</span>" if note else ""}</figcaption>'
             f'{body}'
-            f'<div class="chart-foot"><span>Source : {esc(source)}.</span> '
-            f'<a href="{esc(github_blob(csv))}">Données du graphique (CSV)</a></div>'
-            f'<details class="chart-table"><summary>Voir les valeurs</summary>{table}</details>'
+            f'<div class="chart-foot"><span>{tr("Source :")} {esc(source)}.</span> '
+            f'<a href="{esc(github_blob(csv))}">{tr("Données du graphique (CSV)")}</a></div>'
+            f'<details class="chart-table"><summary>{tr("Voir les valeurs")}</summary>{table}</details>'
             f'</figure>')
 
 
@@ -55,7 +57,7 @@ def bars(gid, g):
                      f'<span class="bar-label">{esc(r["nom"])}</span>'
                      f'<span class="bar-track"><span class="bar" style="width:{w:.2f}%"></span>'
                      f'<span class="bar-value">{val}</span></span></li>')
-    table = "<table><thead><tr><th>Jeu</th><th>Joueurs</th></tr></thead><tbody>" + "".join(
+    table = f"<table><thead><tr><th>{tr('Jeu')}</th><th>{tr('Joueurs')}</th></tr></thead><tbody>" + "".join(
         f"<tr><td>{esc(r['nom'])}</td><td class=num>{fr_share(r['valeur']) if g.get('unite') == '%' else fr_int(r['valeur'])}</td></tr>" for r in rows) + "</tbody></table>"
     return frame(gid, g["titre"], f'<ol class="bars">{"".join(items)}</ol>', g["csv"], table)
 
@@ -72,8 +74,8 @@ def diverging(gid, g):
                      f'<span class="bar-label">{esc(r["nom"])}</span>'
                      f'<span class="div-track"><span class="bar" style="width:{w:.2f}%"></span>'
                      f'<span class="bar-value" style="--w:{w:.2f}%">{fr_pct(v)}</span></span></li>')
-    note = f"Moyenne de joueurs du jour comparée à {g.get('reference', 'la période précédente')}."
-    table = "<table><thead><tr><th>Jeu</th><th>Variation</th></tr></thead><tbody>" + "".join(
+    note = tr("Moyenne de joueurs du jour comparée à {ref}.", ref=tr(g.get('reference', 'la période précédente')))
+    table = f"<table><thead><tr><th>{tr('Jeu')}</th><th>{tr('Variation')}</th></tr></thead><tbody>" + "".join(
         f"<tr><td>{esc(r['nom'])}</td><td class=num>{fr_pct(r['valeur'])}</td></tr>" for r in rows) + "</tbody></table>"
     return frame(gid, g["titre"], f'<ol class="diverging">{"".join(items)}</ol>', g["csv"], table, note)
 
@@ -154,7 +156,7 @@ def line(gid, g, height=260):
     lx, ly = xy(*pts[-1])
     ip = max(range(len(pts)), key=lambda i: vals[i])
     px, py = xy(*pts[ip])
-    peak = (f'<span class="peak" style="left:{px / W * 100:.2f}%;top:{py / H * 100:.2f}%"><i></i><b>Pic {fr_int(vals[ip])}</b></span>'
+    peak = (f'<span class="peak" style="left:{px / W * 100:.2f}%;top:{py / H * 100:.2f}%"><i></i><b>{tr("Pic")} {fr_int(vals[ip])}</b></span>'
             if ip != len(pts) - 1 else "")
     data = json.dumps([[int(t.timestamp()), v] for t, v in pts], separators=(",", ":"))
     gidc = f"lg-{esc(gid)}"
@@ -171,10 +173,10 @@ def line(gid, g, height=260):
     byday = {}
     for t, v in pts:
         byday.setdefault(t.astimezone(TZ).date(), []).append(v)
-    table = ("<table><thead><tr><th>Jour</th><th>Max.</th><th>Min.</th><th>Relevés</th></tr></thead><tbody>" +
+    table = (f"<table><thead><tr><th>{tr('Jour')}</th><th>{tr('Max.')}</th><th>{tr('Min.')}</th><th>{tr('Relevés')}</th></tr></thead><tbody>" +
              "".join(f"<tr><td>{k.day}/{k.month:02d}</td><td class=num>{fr_int(max(v))}</td><td class=num>{fr_int(min(v))}</td>"
                      f"<td class=num>{len(v)}</td></tr>" for k, v in sorted(byday.items())) + "</tbody></table>")
-    return frame(gid, g["titre"], body, g["csv"], table, g.get("note", "Heure de Paris. Un point par relevé horaire."))
+    return frame(gid, g["titre"], body, g["csv"], table, g.get("note", tr("Heure de Paris. Un point par relevé horaire.")))
 
 
 def render(gid, g):
