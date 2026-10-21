@@ -139,7 +139,7 @@ def render(gid, g):
     return line(gid, g)
 
 
-def sparkline(values, w=120, h=28):
+def sparkline(values, w=120, h=28, trend=None):
     if len(values) < 2:
         return ""
     vmax = max(values) or 1
@@ -148,7 +148,7 @@ def sparkline(values, w=120, h=28):
     step = w / (len(values) - 1)
     xy = [(i * step, h - 2 - (v - vmin) / rng * (h - 4)) for i, v in enumerate(values)]
     pts = " ".join(f"{x:.1f},{y:.1f}" for x, y in xy)
-    trend = "down" if values[-1] < values[0] else "up"
+    trend = trend or ("down" if values[-1] < values[0] else "up")
     gid = f"sg{abs(hash(pts)) % 10**8}"
     return (f'<svg class="spark {trend}" viewBox="0 0 {w} {h}" width="{w}" height="{h}" preserveAspectRatio="none" aria-hidden="true">'
             f'<defs><linearGradient id="{gid}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="currentColor" stop-opacity=".28"/>'

@@ -100,6 +100,7 @@ def page(title, body, desc="", path="", extra_head="", og_type="website", ld=Non
   <p>Articles rédigés automatiquement à partir de données publiques, chiffres vérifiés par programme.
   <a href="{url('methode/')}">Méthode</a>, <a href="{url('corrections/')}">corrections</a>, <a href="{url('mentions-legales/')}">mentions légales</a>, <a href="{url('feed.xml')}">flux RSS</a>, <a href="{url('donnees/')}">données ouvertes et API</a>, <a href="{url('partenaires/')}">partenaires</a>.</p>
   <p>Mesure d’audience anonyme, sans cookie.</p>
+  {STATUS_HTML}
 </footer>
 <script src="{url('assets/app.js')}" defer></script>
 {beacon}
@@ -176,6 +177,7 @@ def article_page(a, prefix="articles"):
 <header class="article-head">
   <h1>{esc(a['title'])}</h1>
   <p class="chapo">{a['chapo_html']}</p>
+  {byline(a)}
   <p class="dateline">{esc(kind)}{(", relevé du " + esc(fr_date(d)) + " à " + esc(f["faits"]["releve.heure"]["d"]) if f and f["couverture"].get("instantane") else (", données du " + esc(fr_date(d))) if f else "")}. Publié le {esc(fr_date(a['pub'].date(), weekday=False))} à {esc(fr_hour(a['pub']))}.</p>
 </header>
 <div class="prose">
@@ -202,6 +204,17 @@ BADGES = {"quotidien": "Quotidien", "hebdo": "Hebdo", "mensuel": "Mensuel", "tri
 ICONS_BY_SLUG = {}
 
 
+def reading_time(a):
+    words = len(re.sub(r"<[^>]+>", " ", a["html"]).split())
+    return max(1, round(words / 220))
+
+
+def byline(a):
+    return (f'<span class="byline"><span class="rt"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">'
+            f'<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>{reading_time(a)} min de lecture</span>'
+            f'<span class="auto">Rédaction automatisée, chiffres vérifiés par programme</span></span>')
+
+
 def badge(a):
     return f'<span class="tag">{esc(BADGES.get(a["meta"]["type"], "Article"))}</span>'
 
@@ -224,7 +237,7 @@ def card(a, lead=False):
     href = url("articles/" + a["slug"] + "/")
     if lead:
         return (f'<article class="hero-card"><a href="{href}">{cover(a)}<div class="hero-body">{badge(a)}<h2>{esc(a["title"])}</h2>'
-                f'<p>{esc(a["chapo"])}</p><span class="meta">{esc(fr_date(a["pub"].date(), weekday=False))}</span></div></a></article>')
+                f'<p>{esc(a["chapo"])}</p><span class="meta">{esc(fr_date(a["pub"].date(), weekday=False))}</span>{byline(a)}</div></a></article>')
     return (f'<li class="card"><a href="{href}">{badge(a)}<h3>{esc(a["title"])}</h3>'
             f'<p>{esc(a["chapo"])}</p><span class="meta">{esc(fr_date(a["pub"].date(), weekday=False))}</span></a></li>')
 
@@ -287,6 +300,11 @@ def var_html(r):
     return f'<span class="pill {cls}" title="Variation sur une heure">{esc(fr_pct(v))}</span>'
 
 
+def trend_of(r):
+    v = r.get("var")
+    return None if v is None else ("down" if v < 0 else "up")
+
+
 def icon_html(r, size=36):
     if not r.get("icon"):
         return f'<span class="gicon ph" style="width:{size}px;height:{size}px" aria-hidden="true"></span>'
@@ -299,12 +317,18 @@ def live_table(live, compact_rows=None):
     for r in rows:
         href = url("jeux/" + r["slug"] + "/")
         name = f'<a href="{href}">{esc(r["nom"])}</a>'
-        trs.append(f'<tr data-href="{href}"><td class="num rank">{r["rang"]}{move_html(r)}</td><td class="game"><div class="gcell">{icon_html(r)}<div>{name}<span class="sub">{esc(r["createur"])}</span></div></div></td>'
-                   f'<td class="num" data-v="{r["maintenant"]}">{fr_int(r["maintenant"])}{var_html(r)}</td>'
+        trs.append(f'<tr data-href="{href}" data-genre="{esc(r["genre"])}"><td class="num rank">{r["rang"]}{move_html(r)}</td><td class="game"><div class="gcell">{icon_html(r)}<div>{name}<span class="sub">{esc(r["createur"])}</span></div></div></td>'
+                   f'<td class="num{" hot" if (r.get("var") or 0) > 0.10 else ""}" data-v="{r["maintenant"]}">{fr_int(r["maintenant"])}{var_html(r)}</td>'
                    f'<td class="num hide-s" data-v="{r["pic24"]}">{fr_int(r["pic24"])}</td>'
-                   f'<td class="spark-cell hide-s">{charts.sparkline(r["serie"])}</td>'
+                   f'<td class="spark-cell hide-s">{charts.sparkline(r["serie"], trend=trend_of(r))}</td>'
                    f'<td class="hide-m">{esc(r["genre"])}</td></tr>')
-    return ('<div class="table-wrap"><table class="live sortable"><thead><tr><th scope="col" class="num" data-sort="num">Rang</th>'
+    counts = {}
+    for r in rows:
+        counts[r["genre"]] = counts.get(r["genre"], 0) + 1
+    genres = [g for g, _ in sorted(counts.items(), key=lambda kv: -kv[1]) if g][:6]
+    filt = ('<div class="filters" role="group" aria-label="Filtrer par genre"><button type="button" class="chip on" data-filter="">Tous</button>'
+            + "".join(f'<button type="button" class="chip" data-filter="{esc(g)}">{esc(g)}</button>' for g in genres) + "</div>") if compact_rows is None else ""
+    return (filt + '<div class="table-wrap"><table class="live sortable"><thead><tr><th scope="col" class="num" data-sort="num">Rang</th>'
             '<th scope="col">Jeu</th><th scope="col" class="num" data-sort="num">Joueurs en ligne</th>'
             '<th scope="col" class="num hide-s" data-sort="num">Pic sur 24 h</th><th scope="col" class="hide-s">24 dernières heures</th>'
             f'<th scope="col" class="hide-m">Genre</th></tr></thead><tbody>{"".join(trs)}</tbody></table></div>')
@@ -316,6 +340,20 @@ def stamp(live):
 
 
 TICKER = ""
+STATUS_HTML = ""
+
+
+def status_html(status):
+    last = status.get("lastRunAt")
+    if not last:
+        return ""
+    t = parse_iso(last)
+    late = (utc_now() - t).total_seconds() > 2.5 * 3600
+    ok = status.get("ok") and not late
+    label = "Opérationnel" if ok else ("Retard" if late else "Incident")
+    return (f'<p class="feed-status {"ok" if ok else "ko"}" data-last="{last}"><span class="fs-dot" aria-hidden="true"></span>'
+            f'État des relevés Roblox : <strong>{label}</strong>. Dernier relevé à {esc(fr_hour(t))} '
+            f'({fr_int(status.get("gamesMeasured", 0))} jeux)<span class="fs-next"></span>.</p>')
 
 
 def ticker_html(arts, live, alerts):
@@ -382,7 +420,8 @@ def build(drafts=False):
     arts = load_articles(CONTENT / "articles")
     live = live_data()
     status = json.loads((DATA / "status.json").read_text()) if (DATA / "status.json").exists() else {}
-    global TICKER
+    global TICKER, STATUS_HTML
+    STATUS_HTML = status_html(status)
     ICONS_BY_SLUG.update({explore.game_slug(u, g.get("name", u)): g.get("icon", "") for u, g in load_games().items()})
     TICKER = ticker_html(arts, live, list(reversed(read_csv(DATA / "alertes.csv"))))
 
@@ -402,10 +441,10 @@ def build(drafts=False):
     if live:
         top = live["rows"][:5]
         items = "".join(f'<li><span class="p-rank">{r["rang"]}{move_html(r)}</span><span class="p-id">{icon_html(r, 28)}<a class="p-name" href="{url("jeux/" + r["slug"] + "/")}">{esc(r["nom"])}</a></span>'
-                        f'<span class="p-val">{fr_int(r["maintenant"])}{var_html(r)}</span>{charts.sparkline(r["serie"], 96, 24)}</li>' for r in top)
+                        f'<span class="p-val">{fr_int(r["maintenant"])}{var_html(r)}</span>{charts.sparkline(r["serie"], 96, 24, trend_of(r))}</li>' for r in top)
         pulse = (f'<section class="pulse" aria-labelledby="pulse-h"><h2 id="pulse-h">En ce moment sur Roblox</h2>'
                  f'<p class="stamp">{esc(stamp(live))}. Joueurs en ligne par jeu.</p><ol>{items}</ol>'
-                 f'<a class="more" href="{url("classement/")}">Voir le classement des 100 premiers</a></section>')
+                 f'<a class="cta-top" href="{url("classement/")}">Voir tout le top 100 <span aria-hidden="true">→</span></a></section>')
     if arts:
         lead, _ = headline_pick(arts)
         rest = [a for a in arts if a is not lead]
@@ -443,6 +482,7 @@ def build(drafts=False):
         write(f"jeux/{rec['slug']}/index.html", html_)
         if ok:
             indexable.append(f"jeux/{rec['slug']}/")
+        write(f"widget/jeu/{rec['universe_id']}/index.html", explore.game_widget(rec, abs_url))
     if recs:
         write("comparer/index.html", explore.compare_page(recs, page, url))
     alerts = list(reversed(read_csv(DATA / "alertes.csv")))

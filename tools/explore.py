@@ -98,6 +98,12 @@ def game_page(rec, page, url):
             + (f'<a class="btn" href="{esc(roblox)}" rel="nofollow">Ouvrir sur Roblox</a>' if roblox else "")
             + f'<a class="btn" href="{url("comparer/?a=" + rec["universe_id"])}">Comparer avec un autre jeu</a>'
             f'<a class="btn ghost" href="{url("api/jeux/" + rec["universe_id"] + ".json")}">Données en JSON</a></div></div>'
+            f'<section class="embed-box"><h2>Intégrer ce graphique sur votre site</h2>'
+            f'<p>Courbe mise à jour toutes les heures, gratuite, avec un lien vers cette page. À coller dans un article, un wiki ou une page de créateur :</p>'
+            f'<pre class="embed"><code id="embed-code">{esc(game_embed(rec))}</code></pre>'
+            f'<p><button class="btn" type="button" data-copy-from="embed-code">Copier le code</button> '
+            f'<a class="btn ghost" href="{url("widget/jeu/" + rec["universe_id"] + "/")}">Voir le widget</a></p></section>'
+            f'<div class="toast" id="toast" role="status" aria-live="polite"></div>'
             f'<p class="note">{esc(LICENCE)} Les visites et votes sont ceux affichés par Roblox au dernier relevé.</p></div>')
     noindex = rec["jours_suivis"] < INDEX_AFTER_DAYS
     head = '<meta name="robots" content="noindex">' if noindex else ""
@@ -115,6 +121,29 @@ def game_page(rec, page, url):
     return page(title, body, desc, f"jeux/{rec['slug']}/", extra_head=head, ld=ld), not noindex
 
 
+def game_embed(rec):
+    base = (CONFIG.get("baseUrl") or "").rstrip("/")
+    return (f'<iframe src="{base}/widget/jeu/{rec["universe_id"]}/" title="{esc(rec["nom"])} : joueurs en ligne, par Le Relevé" '
+            f'width="100%" height="260" style="border:0;max-width:560px" loading="lazy"></iframe>')
+
+
+def game_widget(rec, abs_url):
+    pts = [v for _, v in rec["serie"]][-168:]
+    sp = charts.sparkline(pts, 520, 120) if len(pts) > 1 else ""
+    when = fr_hour(parse_iso(rec["releve"]))
+    return f"""<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{esc(rec['nom'])} | {esc(CONFIG['name'])}</title><meta name="robots" content="noindex">
+<style>
+body{{margin:0;background:#151d2a;color:#f8fafc;font:14px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif}}
+.w{{border:1px solid #222f43;border-radius:12px;padding:14px 16px}} .top{{display:flex;align-items:center;gap:10px}}
+img{{width:36px;height:36px;border-radius:8px;object-fit:cover;background:#1e293b}} h1{{font-size:15px;margin:0}} .n{{font-size:26px;font-weight:800;margin:8px 0 2px}}
+.m{{color:#94a3b8;font-size:12px}} svg{{width:100%;height:110px;display:block;margin-top:8px;color:#3b82f6}} svg polyline{{fill:none;stroke:currentColor;stroke-width:2}}
+a{{color:#60a5fa}}
+</style></head><body><div class="w"><div class="top">{f'<img src="{esc(rec["icon"])}" alt="">' if rec["icon"] else ""}<h1>{esc(rec['nom'])}</h1></div>
+<div class="n">{fr_int(rec['joueurs'])}</div><div class="m">joueurs en ligne au relevé de {esc(when)} (heure de Paris)</div>{sp}
+<div class="m">Données : <a href="{esc(abs_url('jeux/' + rec['slug'] + '/'))}" target="_blank" rel="noopener">{esc(CONFIG['name'])}</a>, relevés horaires vérifiables</div></div></body></html>"""
+
+
 def compare_page(recs, page, url):
     opts = "".join(f'<option value="{r["universe_id"]}">{esc(r["nom"])}</option>' for r in sorted(recs, key=lambda r: r["nom"].lower()))
     ranked = [r for r in recs if r["rang"]]
@@ -128,9 +157,28 @@ def compare_page(recs, page, url):
             f'<ul class="legend" id="compare-legend"></ul><div class="cmp-plot" id="compare-plot"></div><div class="cmp-x" id="compare-x"></div>'
             f'<div class="chart-foot"><span>Source : relevés horaires des API publiques de Roblox.</span></div></figure>'
             f'<div class="stats cmp-stats" id="compare-stats"></div>'
-            f'<p class="share-row"><button class="btn share" type="button" id="share-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>Partager cette comparaison</button></p></div>'
+            f'<p class="share-row"><button class="btn share" type="button" id="share-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>Partager cette comparaison</button>'
+            f'<button class="btn ghost" type="button" id="copy-btn">Copier le lien</button>'
+            f'<a class="btn ghost x-share" id="x-share" href="https://twitter.com/intent/tweet" target="_blank" rel="noopener">'
+            f'<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.75 3h3.07l-6.7 7.66L22 21h-6.17l-4.83-6.32L5.47 21H2.4l7.17-8.2L2 3h6.33l4.37 5.77L17.75 3Zm-1.08 16.17h1.7L7.4 4.73H5.58l11.09 14.44Z"/></svg>Partager sur X</a></p></div>'
             f'<div class="toast" id="toast" role="status" aria-live="polite"></div>')
     return page("Comparer deux jeux Roblox", body, "Comparez la courbe de joueurs en ligne de deux jeux Roblox, heure par heure.", "comparer/")
+
+
+def recent_moves(live, url):
+    """Sans alerte récente : les plus forts mouvements de l'heure, sous les seuils, pour montrer que la détection tourne."""
+    if not live:
+        return ""
+    moves = sorted([r for r in live["rows"] if r.get("var") is not None and r["maintenant"] >= 1000], key=lambda r: -abs(r["var"]))[:3]
+    if not moves:
+        return ""
+    li = "".join(f'<li class="alert-item move"><span class="al-kind">{"Hausse sous le seuil" if r["var"] > 0 else "Baisse"}</span>'
+                 f'<span class="pill {"up" if r["var"] > 0 else "down"}">{esc(fr_pct(r["var"]))}</span>'
+                 f'<p><a href="{url("jeux/" + r["slug"] + "/")}">{esc(r["nom"])}</a> : {fr_int(r["maintenant"])} joueurs en ligne au dernier relevé.</p></li>'
+                 for r in moves)
+    return (f'<h2 class="sec-title">Plus forts mouvements de la dernière heure</h2>'
+            f'<p class="note">Aucun jeu n’a franchi les seuils d’alerte sur les dernières 24 heures. Voici les plus fortes variations de l’heure, parmi les jeux qui comptent au moins 1 000 joueurs.</p>'
+            f'<ol class="alerts">{li}</ol>')
 
 
 def scan_status(alerts, live):
@@ -148,6 +196,7 @@ def scan_status(alerts, live):
 
 def alerts_page(alerts, page, url, live=None):
     labels = {"forte_hausse": "Forte hausse", "entree_top10": "Entrée dans le top 10"}
+    recent24 = bool(live) and any((live["ts"] - parse_iso(a["ts_utc"])).total_seconds() <= 86400 for a in alerts)
     items = []
     for a in alerts[:100]:
         t = parse_iso(a["ts_utc"])
@@ -164,12 +213,14 @@ def alerts_page(alerts, page, url, live=None):
             f'Seuils : une hausse d’au moins 50 % en une heure pour un jeu qui compte au moins 2 000 joueurs, ou une entrée dans le top 10 '
             f'depuis l’extérieur du top 20.</p>'
             + scan_status(alerts, live)
-            + (f'<ol class="alerts">{"".join(items)}</ol>' if items else "")
+            + (f'<h2 class="sec-title">Alertes</h2><ol class="alerts">{"".join(items[:3] if recent24 else items)}</ol>' if items else "")
+            + ("" if recent24 else recent_moves(live, url))
             + f'<section class="follow" id="recevoir"><h2>Recevoir les alertes</h2>'
             f'<p>Abonnez-vous au flux des alertes dans votre lecteur RSS (Feedly, Inoreader, NetNewsWire…) : vous êtes prévenu dès qu’un jeu décolle.</p>'
             f'<p><a class="btn" href="{url("alertes.xml")}">S’abonner au flux des alertes</a> '
             f'<button class="btn ghost" type="button" data-copy="{esc((CONFIG.get("baseUrl") or "") + "/alertes.xml")}">Copier l’adresse du flux</button></p>'
-            f'<p class="note">Un canal Telegram arrive bientôt.</p></section>'
+            f'<p><span class="btn disabled" aria-disabled="true">Bot Telegram : ouverture prochaine</span></p>'
+            f'<p class="note">Les alertes sur Telegram arrivent bientôt. Abonnez-vous au flux ci-dessus pour ne rien manquer d’ici là.</p></section>'
             f'<div class="toast" id="toast" role="status" aria-live="polite"></div>'
             + f'<p class="note">Flux RSS des alertes : <a href="{url("alertes.xml")}">alertes.xml</a>. Archive complète : '
             f'<a href="{esc(github_tree("data"))}">data/alertes.csv</a>.</p></div>')

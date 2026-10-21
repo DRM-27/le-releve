@@ -167,3 +167,43 @@
     b.addEventListener('click', function () { copy(document.getElementById(b.dataset.copyFrom).textContent, 'Code copié !'); });
   });
 })();
+
+/* Filtres par genre, partage X, état des relevés */
+(function () {
+  document.querySelectorAll('.filters').forEach(function (bar) {
+    var table = bar.nextElementSibling && bar.nextElementSibling.querySelector('table');
+    if (!table) return;
+    bar.addEventListener('click', function (e) {
+      var b = e.target.closest('[data-filter]'); if (!b) return;
+      bar.querySelectorAll('.chip').forEach(function (c) { c.classList.toggle('on', c === b); c.setAttribute('aria-pressed', c === b); });
+      var g = b.dataset.filter;
+      table.querySelectorAll('tbody tr').forEach(function (tr) { tr.hidden = !!g && tr.dataset.genre !== g; });
+    });
+  });
+  var xs = document.getElementById('x-share'), cp = document.getElementById('copy-btn');
+  function names() {
+    var f = document.getElementById('compare'); if (!f) return ['', ''];
+    return [f.elements.a.selectedOptions[0].text, f.elements.b.selectedOptions[0].text];
+  }
+  function refreshX() {
+    if (!xs) return;
+    var n = names();
+    var text = n[0] + ' face à ' + n[1] + ' : joueurs en ligne, heure par heure, sur Le Relevé 📊';
+    xs.href = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text) + '&url=' + encodeURIComponent(location.href);
+  }
+  if (xs) { refreshX(); document.getElementById('compare').addEventListener('change', function () { setTimeout(refreshX, 50); }); xs.addEventListener('focus', refreshX); xs.addEventListener('mouseenter', refreshX); }
+  if (cp) cp.addEventListener('click', function () {
+    var t = document.getElementById('toast');
+    var done = function () { if (t) { t.textContent = 'Lien copié !'; t.classList.add('show'); setTimeout(function () { t.classList.remove('show'); }, 2200); } };
+    if (navigator.clipboard) navigator.clipboard.writeText(location.href).then(done, done); else done();
+  });
+  var fs = document.querySelector('.feed-status');
+  if (fs) {
+    var last = Date.parse(fs.dataset.last), next = fs.querySelector('.fs-next');
+    var tick = function () {
+      var m = Math.round((last + 3600e3 - Date.now()) / 60000);
+      next.textContent = m > 0 ? ', prochain relevé dans ' + m + ' min environ' : ', prochain relevé imminent';
+    };
+    tick(); setInterval(tick, 30000);
+  }
+})();
