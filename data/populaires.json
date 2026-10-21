@@ -1,9 +1,13 @@
 {
- "genere": "2026-10-21T15:46:34Z",
+ "genere": "2026-10-21T16:25:41Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/le-releve/",
+   "vues": 4
+  },
+  {
+   "path": "/le-releve/classement/",
    "vues": 3
   },
   {
@@ -15,7 +19,23 @@
    "vues": 2
   },
   {
+   "path": "/le-releve/brouillons/2026-10-21-photographie-top100/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/articles/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/brouillons/2026-10-21-jeux-oeufs/",
+   "vues": 1
+  },
+  {
    "path": "/le-releve/alertes/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/brouillons/2026-10-21-halloween/",
    "vues": 1
   },
   {
@@ -23,7 +43,11 @@
    "vues": 1
   },
   {
-   "path": "/le-releve/classement/",
+   "path": "/le-releve/brouillons/2026-10-21-records-2025/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/brouillons/2026-10-21-age-des-jeux/",
    "vues": 1
   }
  ]

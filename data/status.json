@@ -1,14 +1,14 @@
 {
- "lastRunAt": "2026-10-21T15:46:24Z",
+ "lastRunAt": "2026-10-21T16:25:28Z",
  "ok": true,
  "sorts": {
   "top-trending": 93,
   "up-and-coming": 94,
   "top-playing-now": 97,
   "fun-with-friends": 85,
-  "top-revisited": 89
+  "top-revisited": 90
  },
- "gamesTracked": 325,
- "gamesMeasured": 325,
+ "gamesTracked": 335,
+ "gamesMeasured": 335,
  "errors": []
 }
