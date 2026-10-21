@@ -40,6 +40,10 @@ jobs:
         continue-on-error: true
         run: python tools/collect.py
 
+      - name: Collecte Fortnite (îles, classements par genre ; archivage seul, rien n'est publié)
+        timeout-minutes: 12
+        run: python tools/fortnite.py || true
+
       - name: Relevés quotidiens (game passes, annonces officielles, SEC)
         run: python tools/daily.py || true
 
