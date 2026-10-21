@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-21",
- "genere": "2026-10-21T22:35:48Z",
+ "genere": "2026-10-21T23:34:42Z",
  "couverture": {
   "releves": 9,
   "attendus": 24
@@ -3087,57 +3087,57 @@
    "src": "data/jours/2026-10-21.csv#L47"
   },
   "g.10768284407.nom": {
-   "v": "🚨[AI COPS] Bike Universe",
-   "d": "🚨[AI COPS] Bike Universe",
-   "l": "🚨[AI COPS] Bike Universe : nom",
+   "v": "🎃[UPD] Bike Universe",
+   "d": "🎃[UPD] Bike Universe",
+   "l": "🎃[UPD] Bike Universe : nom",
    "src": "data/jours/2026-10-21.csv#L48"
   },
   "g.10768284407.rang": {
    "v": 47,
    "d": "47e",
-   "l": "🚨[AI COPS] Bike Universe : rang au pic du jour",
+   "l": "🎃[UPD] Bike Universe : rang au pic du jour",
    "src": "data/jours/2026-10-21.csv#L48"
   },
   "g.10768284407.pic": {
    "v": 31819,
    "d": "31 819",
-   "l": "🚨[AI COPS] Bike Universe : pic de joueurs simultanés relevé",
+   "l": "🎃[UPD] Bike Universe : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-21.csv#L48"
   },
   "g.10768284407.heure_pic": {
    "v": "19:44",
    "d": "19 h 44",
-   "l": "🚨[AI COPS] Bike Universe : heure (Paris) du pic relevé",
+   "l": "🎃[UPD] Bike Universe : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-21.csv#L48"
   },
   "g.10768284407.moy": {
    "v": 29549,
    "d": "29 549",
-   "l": "🚨[AI COPS] Bike Universe : moyenne des joueurs simultanés sur la journée",
+   "l": "🎃[UPD] Bike Universe : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-21.csv#L48"
   },
   "g.10768284407.createur": {
    "v": "Bike Universe",
    "d": "Bike Universe",
-   "l": "🚨[AI COPS] Bike Universe : créateur",
+   "l": "🎃[UPD] Bike Universe : créateur",
    "src": "data/jours/2026-10-21.csv#L48"
   },
   "g.10768284407.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "🚨[AI COPS] Bike Universe : genre",
+   "l": "🎃[UPD] Bike Universe : genre",
    "src": "data/jours/2026-10-21.csv#L48"
   },
   "g.10768284407.visites_total": {
    "v": 7088476,
    "d": "7,09 millions",
-   "l": "🚨[AI COPS] Bike Universe : visites cumulées depuis la création",
+   "l": "🎃[UPD] Bike Universe : visites cumulées depuis la création",
    "src": "data/jours/2026-10-21.csv#L48"
   },
   "g.10768284407.note": {
    "v": 0.8359,
    "d": "83,6 %",
-   "l": "🚨[AI COPS] Bike Universe : part de votes positifs",
+   "l": "🎃[UPD] Bike Universe : part de votes positifs",
    "src": "data/jours/2026-10-21.csv#L48"
   },
   "g.4839802560.nom": {
@@ -4383,57 +4383,57 @@
    "src": "data/jours/2026-10-21.csv#L71"
   },
   "g.10769384180.nom": {
-   "v": "[NOW] Fake an Egg",
-   "d": "[NOW] Fake an Egg",
-   "l": "[NOW] Fake an Egg : nom",
+   "v": "Fake an Egg",
+   "d": "Fake an Egg",
+   "l": "Fake an Egg : nom",
    "src": "data/jours/2026-10-21.csv#L72"
   },
   "g.10769384180.rang": {
    "v": 71,
    "d": "71e",
-   "l": "[NOW] Fake an Egg : rang au pic du jour",
+   "l": "Fake an Egg : rang au pic du jour",
    "src": "data/jours/2026-10-21.csv#L72"
   },
   "g.10769384180.pic": {
    "v": 20677,
    "d": "20 677",
-   "l": "[NOW] Fake an Egg : pic de joueurs simultanés relevé",
+   "l": "Fake an Egg : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-21.csv#L72"
   },
   "g.10769384180.heure_pic": {
    "v": "15:36",
    "d": "15 h 36",
-   "l": "[NOW] Fake an Egg : heure (Paris) du pic relevé",
+   "l": "Fake an Egg : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-21.csv#L72"
   },
   "g.10769384180.moy": {
    "v": 17437,
    "d": "17 437",
-   "l": "[NOW] Fake an Egg : moyenne des joueurs simultanés sur la journée",
+   "l": "Fake an Egg : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-21.csv#L72"
   },
   "g.10769384180.createur": {
    "v": "Slime Time Studios",
    "d": "Slime Time Studios",
-   "l": "[NOW] Fake an Egg : créateur",
+   "l": "Fake an Egg : créateur",
    "src": "data/jours/2026-10-21.csv#L72"
   },
   "g.10769384180.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[NOW] Fake an Egg : genre",
+   "l": "Fake an Egg : genre",
    "src": "data/jours/2026-10-21.csv#L72"
   },
   "g.10769384180.visites_total": {
    "v": 9040064,
    "d": "9,04 millions",
-   "l": "[NOW] Fake an Egg : visites cumulées depuis la création",
+   "l": "Fake an Egg : visites cumulées depuis la création",
    "src": "data/jours/2026-10-21.csv#L72"
   },
   "g.10769384180.note": {
    "v": 0.8887,
    "d": "88,9 %",
-   "l": "[NOW] Fake an Egg : part de votes positifs",
+   "l": "Fake an Egg : part de votes positifs",
    "src": "data/jours/2026-10-21.csv#L72"
   },
   "g.6765805766.nom": {
