@@ -15,7 +15,7 @@ from datetime import timedelta
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from common import DATA, TZ, iso, parse_iso, read_csv, snap_path, utc_now, write_csv
+from common import CONFIG, DATA, TZ, iso, parse_iso, read_csv, snap_path, utc_now, write_csv
 import glob
 
 UA = "LeReleveBot/1.0 (media de donnees; https://github.com/DRM-27/le-releve)"
@@ -80,7 +80,11 @@ def announcements():
 
 
 def sec():
-    d = get_json("https://data.sec.gov/submissions/CIK0001315098.json")
+    contact = CONFIG.get("contact")
+    if not contact:
+        print("SEC : adresse de contact requise dans config.json (règle d'accès de la SEC).")
+        return 0
+    d = get_json("https://data.sec.gov/submissions/CIK0001315098.json", {"User-Agent": f"Le Releve {contact}"})
     if not d:
         return 0
     rec = d.get("filings", {}).get("recent", {})

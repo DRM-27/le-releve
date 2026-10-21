@@ -370,6 +370,6 @@ def official_page(page, url):
     body = ('<div class="narrow"><h1>Actualités officielles</h1><p class="lede">Les annonces de Roblox aux développeurs et les documents déposés par '
             'Roblox Corporation auprès du régulateur boursier américain (SEC). Titres et liens d’origine uniquement, relevés une fois par jour.</p>'
             + (f'<h2 class="sec-title">Annonces aux développeurs</h2><ol class="news">{a_html}</ol>' if a_html else soon("Annonces aux développeurs", "Premier relevé dans les prochaines heures."))
-            + (f'<h2 class="sec-title">Documents financiers (SEC)</h2><ol class="news">{s_html}</ol>' if s_html else soon("Documents financiers", "Premier relevé dans les prochaines heures."))
+            + (f'<h2 class="sec-title">Documents financiers (SEC)</h2><ol class="news">{s_html}</ol>' if s_html else soon("Documents financiers", "La SEC exige une adresse de contact pour accéder à ses données : ce relevé s’activera dès que l’adresse du média sera renseignée."))
             + '</div>')
     return page("Actualités officielles de Roblox", body, "Les annonces officielles de Roblox aux développeurs et les documents financiers de Roblox Corporation.", "actus-officielles/")
