@@ -317,7 +317,7 @@ def live_table(live, compact_rows=None):
     for r in rows:
         href = url("jeux/" + r["slug"] + "/")
         name = f'<a href="{href}">{esc(r["nom"])}</a>'
-        trs.append(f'<tr data-href="{href}" data-genre="{esc(r["genre"])}"><td class="num rank">{r["rang"]}{move_html(r)}</td><td class="game"><div class="gcell">{icon_html(r)}<div>{name}<span class="sub">{esc(r["createur"])}</span></div></div></td>'
+        trs.append(f'<tr data-href="{href}" data-genre="{esc(r["genre"])}"><td class="num rank"><div class="rk">{r["rang"]}{move_html(r)}</div></td><td class="game"><div class="gcell">{icon_html(r)}<div>{name}<span class="sub">{esc(r["createur"])}</span></div></div></td>'
                    f'<td class="num{" hot" if (r.get("var") or 0) > 0.10 else ""}" data-v="{r["maintenant"]}">{fr_int(r["maintenant"])}{var_html(r)}</td>'
                    f'<td class="num hide-s" data-v="{r["pic24"]}">{fr_int(r["pic24"])}</td>'
                    f'<td class="spark-cell hide-s">{charts.sparkline(r["serie"], trend=trend_of(r))}</td>'
@@ -352,8 +352,8 @@ def status_html(status):
     ok = status.get("ok") and not late
     label = "Opérationnel" if ok else ("Retard" if late else "Incident")
     return (f'<p class="feed-status {"ok" if ok else "ko"}" data-last="{last}"><span class="fs-dot" aria-hidden="true"></span>'
-            f'État des relevés Roblox : <strong>{label}</strong>. Dernier relevé à {esc(fr_hour(t))} '
-            f'({fr_int(status.get("gamesMeasured", 0))} jeux)<span class="fs-next"></span>.</p>')
+            f'État des relevés Roblox : <strong>{label}</strong> <span class="sep">•</span> Dernier relevé à {esc(fr_hour(t))} '
+            f'({fr_int(status.get("gamesMeasured", 0))} jeux)<span class="fs-next"></span></p>')
 
 
 def ticker_html(arts, live, alerts):

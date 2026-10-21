@@ -520,3 +520,24 @@ button.btn { font-size: .92rem; padding: .55rem .9rem; } button.btn.share { font
 .feed-status.ko .fs-dot { background: #f59e0b; box-shadow: 0 0 0 3px rgba(245, 158, 11, .2); }
 .feed-status strong { color: #10b981; }
 .feed-status.ko strong { color: #f59e0b; }
+
+/* ---------- finitions ---------- */
+.ticker { padding: 8px 0; -webkit-mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent);
+  mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent); }
+.tk-row { padding: 0 1.1rem; }
+.cta-top { background: transparent; border: 1px solid #334155; color: #60a5fa; }
+.cta-top:hover { background: #1e293b; border-color: #3b82f6; color: #93c5fd; }
+.tag { letter-spacing: .05em; border-radius: 4px; }
+.chip { background: #1e293b; cursor: pointer; }
+.chip:hover { background: #334155; border-color: #334155; }
+.chip.on, .chip.on:hover { background: #3b82f6; border-color: #3b82f6; }
+.live td.rank { width: 4.2rem; }
+.rk { display: flex; align-items: center; justify-content: flex-end; gap: 6px; white-space: nowrap; }
+.rk .mv { display: inline; font-size: .72rem; }
+.mv-line { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
+.gicon.sm { width: 24px; height: 24px; border-radius: 6px; display: inline-block; }
+.toast { left: auto; right: 1.5rem; bottom: 1.5rem; transform: translateY(1rem); background: #064e3b; color: #d1fae5; border: 1px solid #10b981;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .4); }
+.toast.show { transform: translateY(0); }
+.feed-status .sep { color: #475569; }
+@media (max-width: 560px) { .toast { right: 1rem; left: 1rem; text-align: center; } }

@@ -174,7 +174,8 @@ def recent_moves(live, url):
         return ""
     li = "".join(f'<li class="alert-item move"><span class="al-kind">{"Hausse sous le seuil" if r["var"] > 0 else "Baisse"}</span>'
                  f'<span class="pill {"up" if r["var"] > 0 else "down"}">{esc(fr_pct(r["var"]))}</span>'
-                 f'<p><a href="{url("jeux/" + r["slug"] + "/")}">{esc(r["nom"])}</a> : {fr_int(r["maintenant"])} joueurs en ligne au dernier relevé.</p></li>'
+                 f'<p class="mv-line">' + (f'<img class="gicon sm" src="{esc(r["icon"])}" alt="" width="24" height="24" loading="lazy">' if r.get("icon") else '<span class="gicon sm"></span>')
+                 + f'<a href="{url("jeux/" + r["slug"] + "/")}">{esc(r["nom"])}</a> : {fr_int(r["maintenant"])} joueurs en ligne au dernier relevé.</p></li>'
                  for r in moves)
     return (f'<h2 class="sec-title">Plus forts mouvements de la dernière heure</h2>'
             f'<p class="note">Aucun jeu n’a franchi les seuils d’alerte sur les dernières 24 heures. Voici les plus fortes variations de l’heure, parmi les jeux qui comptent au moins 1 000 joueurs.</p>'

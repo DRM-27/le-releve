@@ -160,7 +160,7 @@
   if (share) share.addEventListener('click', function () {
     var data = { title: document.title, url: location.href };
     if (navigator.share && matchMedia('(pointer: coarse)').matches) navigator.share(data).catch(function () {});
-    else copy(location.href, 'Lien copié !');
+    else copy(location.href, 'Lien copié dans le presse-papier !');
   });
   document.querySelectorAll('[data-copy]').forEach(function (b) { b.addEventListener('click', function () { copy(b.dataset.copy, 'Adresse copiée !'); }); });
   document.querySelectorAll('[data-copy-from]').forEach(function (b) {
@@ -194,7 +194,7 @@
   if (xs) { refreshX(); document.getElementById('compare').addEventListener('change', function () { setTimeout(refreshX, 50); }); xs.addEventListener('focus', refreshX); xs.addEventListener('mouseenter', refreshX); }
   if (cp) cp.addEventListener('click', function () {
     var t = document.getElementById('toast');
-    var done = function () { if (t) { t.textContent = 'Lien copié !'; t.classList.add('show'); setTimeout(function () { t.classList.remove('show'); }, 2200); } };
+    var done = function () { if (t) { t.textContent = 'Lien copié dans le presse-papier !'; t.classList.add('show'); setTimeout(function () { t.classList.remove('show'); }, 2200); } };
     if (navigator.clipboard) navigator.clipboard.writeText(location.href).then(done, done); else done();
   });
   var fs = document.querySelector('.feed-status');
@@ -202,7 +202,7 @@
     var last = Date.parse(fs.dataset.last), next = fs.querySelector('.fs-next');
     var tick = function () {
       var m = Math.round((last + 3600e3 - Date.now()) / 60000);
-      next.textContent = m > 0 ? ', prochain relevé dans ' + m + ' min environ' : ', prochain relevé imminent';
+      next.innerHTML = ' <span class="sep">•</span> ' + (m > 0 ? 'Prochain relevé dans ' + m + ' min' : 'Prochain relevé imminent');
     };
     tick(); setInterval(tick, 30000);
   }
