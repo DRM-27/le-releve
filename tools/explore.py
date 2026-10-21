@@ -99,6 +99,10 @@ def game_page(rec, page, url):
             + (f'<a class="btn" href="{esc(roblox)}" rel="nofollow">Ouvrir sur Roblox</a>' if roblox else "")
             + f'<a class="btn" href="{url("comparer/?a=" + rec["universe_id"])}">Comparer avec un autre jeu</a>'
             f'<a class="btn ghost" href="{url("api/jeux/" + rec["universe_id"] + ".json")}">Données en JSON</a></div></div>'
+            f'<section class="embed-box"><h2>Badge « Classé au Relevé »</h2><p>Pour votre site, votre Discord ou la description de votre jeu : '
+            f'le badge se met à jour toutes les heures.</p><p><img src="{url("badge/" + rec["universe_id"] + ".svg")}" alt="Badge {esc(rec["nom"])}" height="28"></p>'
+            f'<pre class="embed"><code id="badge-code">{esc(badge_code(rec))}</code></pre>'
+            f'<p><button class="btn" type="button" data-copy-from="badge-code">Copier le code du badge</button></p></section>'
             f'<section class="embed-box"><h2>Intégrer ce graphique sur votre site</h2>'
             f'<p>Courbe mise à jour toutes les heures, gratuite, avec un lien vers cette page. À coller dans un article, un wiki ou une page de créateur :</p>'
             f'<pre class="embed"><code id="embed-code">{esc(game_embed(rec))}</code></pre>'
@@ -119,7 +123,14 @@ def game_page(rec, page, url):
             {"@type": "ListItem", "position": 1, "name": "Classement", "item": f"{base}/classement/"},
             {"@type": "ListItem", "position": 2, "name": rec["nom"], "item": f"{base}/jeux/{rec['slug']}/"}]}]}
     ld["@graph"][0] = {k: v for k, v in ld["@graph"][0].items() if v is not None}
-    return page(title, body, desc, f"jeux/{rec['slug']}/", extra_head=head, ld=ld), not noindex
+    ogi = f"og/jeux/{rec['universe_id']}.png" if rec["rang"] and rec["rang"] <= 100 else "og/site.png"
+    return page(title, body, desc, f"jeux/{rec['slug']}/", extra_head=head, ld=ld, og_image=ogi), not noindex
+
+
+def badge_code(rec):
+    base = (CONFIG.get("baseUrl") or "").rstrip("/")
+    return (f'<a href="{base}/jeux/{rec["slug"]}/"><img src="{base}/badge/{rec["universe_id"]}.svg" '
+            f'alt="{esc(rec["nom"])} au classement du Relevé" height="28"></a>')
 
 
 def game_embed(rec):

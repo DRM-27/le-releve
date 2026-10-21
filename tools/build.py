@@ -19,6 +19,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import charts
 import explore
 import pages2
+import og
 from common import (CONFIG, DATA, FACTS, ROOT, TZ, UTC, fr_date, fr_hour, fr_int, fr_pct, github_blob, github_tree, load_games,
                     parse_iso, read_csv, snap_path, utc_now)
 from facts import GENRES_FR
@@ -52,7 +53,7 @@ ORG = {"@type": "NewsMediaOrganization", "name": NAME, "url": (BASE_URL or "") +
        "correctionsPolicy": (BASE_URL or "") + "/corrections/"}
 
 
-def page(title, body, desc="", path="", extra_head="", og_type="website", ld=None):
+def page(title, body, desc="", path="", extra_head="", og_type="website", ld=None, og_image="og/site.png"):
     full = f"{title} | {NAME}" if title != NAME else NAME
     canon = f'<link rel="canonical" href="{esc(abs_url(path))}">' if BASE_URL else ""
     nav = [("", "Articles"), ("classement/", "Classement"), ("tendances/", "Tendances"), ("alertes/", "Alertes"), ("comparer/", "Comparer"), ("explorer/", "Explorer")]
@@ -75,7 +76,11 @@ def page(title, body, desc="", path="", extra_head="", og_type="website", ld=Non
 <meta property="og:locale" content="fr_FR">
 <meta property="og:type" content="{og_type}">
 <meta property="og:url" content="{esc(abs_url(path))}">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="{esc(abs_url(og_image))}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{esc(abs_url(og_image))}">
 {verif}
 {jsonld(ld or {"@context": "https://schema.org", **ORG})}
 {canon}
@@ -196,7 +201,7 @@ def article_page(a, prefix="articles"):
           "datePublished": a["pub"].isoformat(), "inLanguage": "fr", "isAccessibleForFree": True,
           "mainEntityOfPage": abs_url(f"{prefix}/{a['slug']}/"), "author": ORG, "publisher": ORG,
           "isBasedOn": [s if s.startswith("http") else github_blob(s) for s in sources][:20]}
-    return page(a["title"], body, a["chapo"], f"{prefix}/{a['slug']}/", og_type="article", ld=ld,
+    return page(a["title"], body, a["chapo"], f"{prefix}/{a['slug']}/", og_type="article", ld=ld, og_image=f"og/articles/{a['slug']}.png",
                 extra_head=f'<meta property="article:published_time" content="{a["pub"].isoformat()}">'
                            + ('<meta name="robots" content="noindex">' if prefix == "brouillons" else ""))
 
@@ -432,10 +437,22 @@ def build(drafts=False):
         p.parent.mkdir(parents=True, exist_ok=True)
         p.write_text(content, encoding="utf-8")
 
+    (OUT / "og" / "articles").mkdir(parents=True, exist_ok=True)
+    (OUT / "og" / "jeux").mkdir(parents=True, exist_ok=True)
+    og.site_card(OUT / "og" / "site.png", CONFIG["tagline"])
+
+    def og_article(a):
+        slugs = [m.group(1) for m in re.finditer(r'jeux/([^/"]+)/', a["html"])]
+        icons = [ICONS_BY_SLUG.get(sl) for sl in dict.fromkeys(slugs) if ICONS_BY_SLUG.get(sl)]
+        og.article_card(OUT / "og" / "articles" / f"{a['slug']}.png", BADGES.get(a["meta"]["type"], "Article"), a["title"],
+                        fr_date(a["pub"].date(), weekday=False), icons)
+
     for a in arts:
+        og_article(a)
         write(f"articles/{a['slug']}/index.html", article_page(a))
     if drafts:
         for a in load_articles(ROOT / "drafts", strict=False):
+            og_article(a)
             write(f"brouillons/{a['slug']}/index.html", article_page(a, "brouillons"))
 
     # accueil
@@ -479,7 +496,12 @@ def build(drafts=False):
     # exploration : pages par jeu, comparateur, alertes, API
     recs, latest_ts = explore.build_records()
     indexable = []
+    (OUT / "badge").mkdir(parents=True, exist_ok=True)
     for rec in recs:
+        if rec["rang"] and rec["rang"] <= 100:
+            og.game_card(OUT / "og" / "jeux" / f"{rec['universe_id']}.png", rec["nom"], rec["icon"], rec["joueurs"], rec["rang"],
+                         [v for _, v in rec["serie"]], None)
+        (OUT / "badge" / f"{rec['universe_id']}.svg").write_text(og.badge_svg(rec["rang"], rec["joueurs"], rec["nom"]), encoding="utf-8")
         html_, ok = explore.game_page(rec, page, url)
         write(f"jeux/{rec['slug']}/index.html", html_)
         if ok:
