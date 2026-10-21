@@ -146,6 +146,12 @@ def sparkline(values, w=120, h=28):
     vmin = min(values)
     rng = (vmax - vmin) or 1
     step = w / (len(values) - 1)
-    pts = " ".join(f"{i * step:.1f},{h - 2 - (v - vmin) / rng * (h - 4):.1f}" for i, v in enumerate(values))
-    return (f'<svg class="spark" viewBox="0 0 {w} {h}" width="{w}" height="{h}" preserveAspectRatio="none" aria-hidden="true">'
+    xy = [(i * step, h - 2 - (v - vmin) / rng * (h - 4)) for i, v in enumerate(values)]
+    pts = " ".join(f"{x:.1f},{y:.1f}" for x, y in xy)
+    trend = "down" if values[-1] < values[0] else "up"
+    gid = f"sg{abs(hash(pts)) % 10**8}"
+    return (f'<svg class="spark {trend}" viewBox="0 0 {w} {h}" width="{w}" height="{h}" preserveAspectRatio="none" aria-hidden="true">'
+            f'<defs><linearGradient id="{gid}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="currentColor" stop-opacity=".28"/>'
+            f'<stop offset="1" stop-color="currentColor" stop-opacity="0"/></linearGradient></defs>'
+            f'<polygon points="0,{h} {pts} {w},{h}" fill="url(#{gid})"/>'
             f'<polyline points="{pts}" vector-effect="non-scaling-stroke"/></svg>')

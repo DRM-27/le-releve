@@ -128,12 +128,25 @@ def compare_page(recs, page, url):
             f'<ul class="legend" id="compare-legend"></ul><div class="cmp-plot" id="compare-plot"></div><div class="cmp-x" id="compare-x"></div>'
             f'<div class="chart-foot"><span>Source : relevés horaires des API publiques de Roblox.</span></div></figure>'
             f'<div class="stats cmp-stats" id="compare-stats"></div>'
-            f'<p class="share-row"><button class="btn" type="button" id="share-btn">📋 Partager cette comparaison</button></p></div>'
+            f'<p class="share-row"><button class="btn share" type="button" id="share-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>Partager cette comparaison</button></p></div>'
             f'<div class="toast" id="toast" role="status" aria-live="polite"></div>')
     return page("Comparer deux jeux Roblox", body, "Comparez la courbe de joueurs en ligne de deux jeux Roblox, heure par heure.", "comparer/")
 
 
-def alerts_page(alerts, page, url):
+def scan_status(alerts, live):
+    """Module « détection active » : dernier passage, jeux analysés, anomalies de la dernière heure."""
+    if not live:
+        return ""
+    ts = live["ts"]
+    recent = [a for a in alerts if (ts - parse_iso(a["ts_utc"])).total_seconds() <= 3600]
+    n = len(recent)
+    return (f'<div class="scan" role="status"><span class="scan-dot" aria-hidden="true"></span><div><p class="scan-title">Système de détection actif</p>'
+            f'<p class="scan-text">Dernière analyse : {esc(fr_date(ts.astimezone(TZ).date(), weekday=False))} à {esc(fr_hour(ts))}, '
+            f'{fr_int(live["n"])} jeux analysés. {"Aucune anomalie détectée" if n == 0 else f"{n} anomalie(s) détectée(s)"} sur la dernière heure.</p></div>'
+            f'<div class="scan-bars" aria-hidden="true">{"".join("<i></i>" for _ in range(12))}</div></div>')
+
+
+def alerts_page(alerts, page, url, live=None):
     labels = {"forte_hausse": "Forte hausse", "entree_top10": "Entrée dans le top 10"}
     items = []
     for a in alerts[:100]:
@@ -150,7 +163,8 @@ def alerts_page(alerts, page, url):
     body = (f'<div class="narrow"><h1>Alertes</h1><p class="lede">Les mouvements les plus brusques, détectés automatiquement à chaque relevé horaire. '
             f'Seuils : une hausse d’au moins 50 % en une heure pour un jeu qui compte au moins 2 000 joueurs, ou une entrée dans le top 10 '
             f'depuis l’extérieur du top 20.</p>'
-            + (f'<ol class="alerts">{"".join(items)}</ol>' if items else '<p class="empty-note">Aucune alerte pour l’instant : elles apparaissent ici dès qu’un jeu décolle.</p>')
+            + scan_status(alerts, live)
+            + (f'<ol class="alerts">{"".join(items)}</ol>' if items else "")
             + f'<section class="follow" id="recevoir"><h2>Recevoir les alertes</h2>'
             f'<p>Abonnez-vous au flux des alertes dans votre lecteur RSS (Feedly, Inoreader, NetNewsWire…) : vous êtes prévenu dès qu’un jeu décolle.</p>'
             f'<p><a class="btn" href="{url("alertes.xml")}">S’abonner au flux des alertes</a> '

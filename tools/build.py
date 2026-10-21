@@ -88,8 +88,9 @@ def page(title, body, desc="", path="", extra_head="", og_type="website", ld=Non
 <a class="skip" href="#contenu">Aller au contenu</a>
 <header class="site-head">
   <a class="wordmark" href="{url()}"><span class="mark" aria-hidden="true"></span>{esc(NAME)}</a>
-  <nav aria-label="Navigation principale">{links}<a class="bell" href="{url('alertes/#recevoir')}">🔔 Recevoir les alertes</a></nav>
+  <nav aria-label="Navigation principale">{links}<a class="bell" href="{url('alertes/#recevoir')}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>Recevoir les alertes</a></nav>
 </header>
+{TICKER}
 <main id="contenu">
 {body}
 </main>
@@ -197,12 +198,35 @@ def article_page(a, prefix="articles"):
                            + ('<meta name="robots" content="noindex">' if prefix == "brouillons" else ""))
 
 
+BADGES = {"quotidien": "Quotidien", "hebdo": "Hebdo", "mensuel": "Mensuel", "trimestriel": "Résultats", "analyse": "Analyse", "dossier": "Dossier"}
+ICONS_BY_SLUG = {}
+
+
+def badge(a):
+    return f'<span class="tag">{esc(BADGES.get(a["meta"]["type"], "Article"))}</span>'
+
+
+def cover(a):
+    """Couverture 16:9 : l'image de l'en-tête si elle existe, sinon une composition des icônes des jeux cités."""
+    if a["meta"].get("image"):
+        return f'<div class="cover"><img src="{esc(a["meta"]["image"])}" alt="" loading="lazy"></div>'
+    slugs = []
+    for m in re.finditer(r'jeux/([^/"]+)/', a["html"]):
+        if m.group(1) not in slugs and ICONS_BY_SLUG.get(m.group(1)):
+            slugs.append(m.group(1))
+    icons = "".join(f'<img src="{esc(ICONS_BY_SLUG[sl])}" alt="" loading="lazy">' for sl in slugs[:5])
+    return (f'<div class="cover gen{" has-icons" if icons else ""}" aria-hidden="true"><span class="cover-grid"></span>'
+            f'<span class="cover-icons">{icons}</span><span class="cover-mark"><span class="mark"></span>{esc(NAME)}</span></div>')
+
+
 def card(a, lead=False):
     d = datetime.fromisoformat(a["day"][:10]).date()
-    cls = "card lead" if lead else "card"
-    return (f'<li class="{cls}"><a href="{url("articles/" + a["slug"] + "/")}"><h2>{esc(a["title"])}</h2>'
-            f'<p>{esc(a["chapo"])}</p><span class="meta">{esc(TYPES.get(a["meta"]["type"], "Article"))}, '
-            f'{esc(fr_date(d))}</span></a></li>')
+    href = url("articles/" + a["slug"] + "/")
+    if lead:
+        return (f'<article class="hero-card"><a href="{href}">{cover(a)}<div class="hero-body">{badge(a)}<h2>{esc(a["title"])}</h2>'
+                f'<p>{esc(a["chapo"])}</p><span class="meta">{esc(fr_date(a["pub"].date(), weekday=False))}</span></div></a></article>')
+    return (f'<li class="card"><a href="{href}">{badge(a)}<h3>{esc(a["title"])}</h3>'
+            f'<p>{esc(a["chapo"])}</p><span class="meta">{esc(fr_date(a["pub"].date(), weekday=False))}</span></a></li>')
 
 
 # ---------------------------------------------------------------- classement en direct
@@ -239,7 +263,7 @@ def live_data(limit=100):
                      "slug": explore.game_slug(u, g.get("name", u)), "icon": g.get("icon", ""),
                      "var": (int(r["playing"] or 0) / int(prev[u]["playing"]) - 1) if prev and u in prev and int(prev[u]["playing"] or 0) > 0 else None,
                      "rang_avant": prev_rank.get(u) if prev else None, "has_prev": bool(prev)})
-    return {"ts": ts, "rows": rows, "file": str(snap_path("snapshots", ts).relative_to(DATA.parent)) if str(DATA).startswith(str(ROOT)) else "data/snapshots"}
+    return {"ts": ts, "rows": rows, "n": len(last), "file": str(snap_path("snapshots", ts).relative_to(DATA.parent)) if str(DATA).startswith(str(ROOT)) else "data/snapshots"}
 
 
 def move_html(r):
@@ -291,6 +315,44 @@ def stamp(live):
     return f"Relevé du {fr_date(t.astimezone(TZ).date(), weekday=False)} à {fr_hour(t)}, heure de Paris"
 
 
+TICKER = ""
+
+
+def ticker_html(arts, live, alerts):
+    items = []
+    if arts:
+        pick, label = headline_pick(arts)
+        items.append(f'<a class="tk-item tk-une" href="{url("articles/" + pick["slug"] + "/")}"><span class="tk-label">{label}</span>{esc(pick["title"])}</a>')
+    if live:
+        moves = [r for r in live["rows"][:50] if r.get("var") is not None]
+        ups = sorted(moves, key=lambda r: -r["var"])[:3]
+        downs = sorted(moves, key=lambda r: r["var"])[:2]
+        for r in ups + downs:
+            items.append(f'<a class="tk-item" href="{url("jeux/" + r["slug"] + "/")}">{esc(r["nom"])} <b>{fr_int(r["maintenant"])}</b>{var_html(r)}</a>')
+    for a in alerts[:2]:
+        items.append(f'<a class="tk-item tk-alert" href="{url("alertes/")}"><span class="tk-label">Alerte</span>{esc(a["nom"])}</a>')
+    if not items:
+        return ""
+    row = "".join(items)
+    return (f'<div class="ticker" role="region" aria-label="Fil d’actualité"><div class="tk-track">'
+            f'<div class="tk-row">{row}</div><div class="tk-row" aria-hidden="true">{row}</div></div></div>')
+
+
+def headline_pick(arts):
+    pick, label = arts[0], "Dernier article"
+    pop = DATA / "populaires.json"
+    if pop.exists():
+        try:
+            paths = [x["path"] for x in json.loads(pop.read_text(encoding="utf-8")).get("pages", [])]
+            by_path = {url("articles/" + a["slug"] + "/"): a for a in arts}
+            for pth in paths:
+                if pth in by_path:
+                    return by_path[pth], "Le plus lu"
+        except (ValueError, KeyError):
+            pass
+    return pick, label
+
+
 def headline(arts):
     """Bannière « À la une » : l'article le plus lu des 7 derniers jours si la mesure d'audience est branchée, sinon le dernier."""
     if not arts:
@@ -320,6 +382,9 @@ def build(drafts=False):
     arts = load_articles(CONTENT / "articles")
     live = live_data()
     status = json.loads((DATA / "status.json").read_text()) if (DATA / "status.json").exists() else {}
+    global TICKER
+    ICONS_BY_SLUG.update({explore.game_slug(u, g.get("name", u)): g.get("icon", "") for u, g in load_games().items()})
+    TICKER = ticker_html(arts, live, list(reversed(read_csv(DATA / "alertes.csv"))))
 
     def write(path, content):
         p = OUT / path
@@ -342,8 +407,11 @@ def build(drafts=False):
                  f'<p class="stamp">{esc(stamp(live))}. Joueurs en ligne par jeu.</p><ol>{items}</ol>'
                  f'<a class="more" href="{url("classement/")}">Voir le classement des 100 premiers</a></section>')
     if arts:
-        feed = (f'<ol class="cards">{card(arts[0], lead=True)}{"".join(card(a) for a in arts[1:12])}</ol>'
-                + (f'<p class="more"><a href="{url("articles/")}">Tous les articles</a></p>' if len(arts) > 12 else ""))
+        lead, _ = headline_pick(arts)
+        rest = [a for a in arts if a is not lead]
+        feed = (card(lead, lead=True) + f'<ol class="cards grid2">{"".join(card(a) for a in rest[:4])}</ol>'
+                + (f'<h2 class="sec-title">Plus d’articles</h2><ol class="cards list">{"".join(card(a) for a in rest[4:14])}</ol>' if len(rest) > 4 else "")
+                + (f'<p class="more"><a href="{url("articles/")}">Tous les articles</a></p>' if len(rest) > 14 else ""))
     else:
         since = status.get("lastRunAt", "")
         skel = "".join('<li class="card skel" aria-hidden="true"><span class="sk sk-t"></span><span class="sk sk-t short"></span>'
@@ -352,14 +420,13 @@ def build(drafts=False):
                 'calculé à partir d’une journée complète de relevés. En attendant, le classement, les pages de jeux et les alertes se mettent à jour toutes les heures.</p>'
                 f'<p class="empty-links"><a class="btn" href="{url("classement/")}">Voir le classement en direct</a> <a class="btn ghost" href="{url("comparer/")}">Comparer deux jeux</a></p></div>'
                 f'<ol class="cards skel-list">{skel}</ol>')
-    une = headline(arts)
-    intro = une + (f'<section class="intro"><h1>{esc(CONFIG["tagline"])}</h1><p>{esc(CONFIG["description"])}</p></section>')
-    write("index.html", page(NAME, f'<div class="home">{intro}{pulse}<section class="feed" aria-label="Derniers articles">{feed}</section></div>', path=""))
+    intro = f'<section class="intro"><h1>{esc(CONFIG["tagline"])}</h1><p>{esc(CONFIG["description"])}</p></section>'
+    write("index.html", page(NAME, f'<div class="home"><div class="main-col">{intro}<section class="feed" aria-label="Derniers articles">{feed}</section></div><aside class="side-col">{pulse}</aside></div>', path=""))
 
-    write("articles/index.html", page("Tous les articles", f'<div class="narrow"><h1>Tous les articles</h1><ol class="cards">{"".join(card(a) for a in arts)}</ol></div>', path="articles/"))
+    write("articles/index.html", page("Tous les articles", f'<div class="narrow"><h1>Tous les articles</h1><ol class="cards list">{"".join(card(a) for a in arts)}</ol></div>', path="articles/"))
 
     if live:
-        body = headline(arts) + (f'<div class="wide"><h1>Classement en direct</h1><p class="lede">Les 100 jeux Roblox qui comptent le plus de joueurs '
+        body = (f'<div class="wide"><h1>Classement en direct</h1><p class="lede">Les 100 jeux Roblox qui comptent le plus de joueurs '
                 f'en ligne. {esc(stamp(live))}, mis à jour toutes les heures.</p>{live_table(live)}'
                 f'<p class="note">Source : API web publiques de Roblox, <a href="{esc(github_tree("data/snapshots"))}">relevés horaires archivés</a>. '
                 f'Le pic sur 24 h est le plus haut des relevés horaires : le pic réel peut être un peu plus élevé. Jeux sponsorisés exclus des classements.</p></div>')
@@ -379,7 +446,7 @@ def build(drafts=False):
     if recs:
         write("comparer/index.html", explore.compare_page(recs, page, url))
     alerts = list(reversed(read_csv(DATA / "alertes.csv")))
-    write("alertes/index.html", explore.alerts_page(alerts, page, url))
+    write("alertes/index.html", explore.alerts_page(alerts, page, url, live))
     write("alertes.xml", explore.alerts_feed(alerts, abs_url))
     write("donnees/index.html", explore.data_page(page, url))
     write("widget/index.html", explore.widget_page(live, url, abs_url))
