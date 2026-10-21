@@ -41,24 +41,136 @@
     el.addEventListener('mouseleave', function () { if (tip) { tip.remove(); tip = null; } });
   });
 
-  // Curseur des courbes
-  var df = new Intl.DateTimeFormat('fr-FR', { weekday: 'short', day: 'numeric', month: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'Europe/Paris' });
-  document.querySelectorAll('.line-plot').forEach(function (plot) {
-    var pts = JSON.parse(plot.dataset.points), unit = plot.dataset.unit;
-    var t0 = pts[0][0], t1 = pts[pts.length - 1][0];
-    var ch = plot.querySelector('.crosshair'), tp = ch.querySelector('.tip');
+  // Courbes : rendu interactif (périodes, pic, curseur)
+  var df = new Intl.DateTimeFormat('fr-FR', { weekday: 'short', day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit', timeZone: 'Europe/Paris' });
+  var dHour = new Intl.DateTimeFormat('fr-FR', { hour: 'numeric', timeZone: 'Europe/Paris' });
+  var dDay = new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'numeric', timeZone: 'Europe/Paris' });
+  var pf = new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 1, signDisplay: 'always' });
+  function compactN(n) {
+    var a = Math.abs(n);
+    if (a >= 1e6) return (n / 1e6).toLocaleString('fr-FR', { maximumFractionDigits: 1 }) + ' M';
+    if (a >= 1e3) return Math.round(n / 1e3).toLocaleString('fr-FR') + ' k';
+    return nf.format(n);
+  }
+  function niceRange(vmin, vmax, n) {
+    if (vmax <= vmin) { var e = Math.max(1, Math.abs(vmax) * .05); vmax += e; vmin = Math.max(0, vmin - e); }
+    var pad = (vmax - vmin) * .12, lo = Math.max(0, vmin - pad), hi = vmax + pad, raw = (hi - lo) / n;
+    var mag = Math.pow(10, Math.floor(Math.log10(Math.max(raw, 1)))), step = mag;
+    var ms = [1, 2, 2.5, 5, 10];
+    for (var i = 0; i < ms.length; i++) { step = ms[i] * mag; if (step >= raw) break; }
+    lo = step * Math.floor(lo / step); hi = step * Math.ceil(hi / step);
+    var out = []; for (var v = lo; v <= hi + step / 2; v += step) out.push(v);
+    return out;
+  }
+  function smooth(p) {
+    var n = p.length, i;
+    if (n < 3) return 'M' + p.map(function (q) { return q[0].toFixed(1) + ',' + q[1].toFixed(1); }).join(' L');
+    var dx = [], sl = [], m = [];
+    for (i = 0; i < n - 1; i++) { dx.push(p[i + 1][0] - p[i][0] || 1e-6); sl.push((p[i + 1][1] - p[i][1]) / dx[i]); }
+    m.push(sl[0]);
+    for (i = 1; i < n - 1; i++) m.push(sl[i - 1] * sl[i] <= 0 ? 0 : (sl[i - 1] + sl[i]) / 2);
+    m.push(sl[n - 2]);
+    for (i = 0; i < n - 1; i++) {
+      if (sl[i] === 0) { m[i] = m[i + 1] = 0; continue; }
+      var a = m[i] / sl[i], b = m[i + 1] / sl[i], h = a * a + b * b;
+      if (h > 9) { var t = 3 / Math.sqrt(h); m[i] = t * a * sl[i]; m[i + 1] = t * b * sl[i]; }
+    }
+    var d = 'M' + p[0][0].toFixed(1) + ',' + p[0][1].toFixed(1);
+    for (i = 0; i < n - 1; i++) {
+      d += ' C' + (p[i][0] + dx[i] / 3).toFixed(1) + ',' + (p[i][1] + m[i] * dx[i] / 3).toFixed(1) + ' ' +
+        (p[i + 1][0] - dx[i] / 3).toFixed(1) + ',' + (p[i + 1][1] - m[i + 1] * dx[i] / 3).toFixed(1) + ' ' + p[i + 1][0].toFixed(1) + ',' + p[i + 1][1].toFixed(1);
+    }
+    return d;
+  }
+  var RANGES = [['24 h', 86400], ['7 j', 7 * 86400], ['30 j', 30 * 86400], ['Tout', 0]];
+  var reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.line-plot').forEach(function (plot, k) {
+    var all = JSON.parse(plot.dataset.points), unit = plot.dataset.unit;
+    var head = plot.previousElementSibling && plot.previousElementSibling.classList.contains('line-head') ? plot.previousElementSibling : null;
+    var fullSpan = all[all.length - 1][0] - all[0][0];
+    var cur = 0, pts = all;
+    function draw(range, animate) {
+      cur = range;
+      var tEnd = all[all.length - 1][0];
+      pts = range ? all.filter(function (q) { return q[0] >= tEnd - range; }) : all;
+      if (pts.length < 2) pts = all.slice(-2);
+      var t0 = pts[0][0], t1 = pts[pts.length - 1][0], span = (t1 - t0) || 1;
+      var vals = pts.map(function (q) { return q[1]; });
+      var vmax = Math.max.apply(null, vals), vmin = Math.min.apply(null, vals);
+      var ticks = niceRange(vmin, vmax, 4), lo = ticks[0], hi = ticks[ticks.length - 1];
+      var W = 1000, H = 300, first = vals[0], last = vals[vals.length - 1];
+      var trend = last < first ? 'down' : 'up';
+      function xy(q) { return [(q[0] - t0) / span * W, H - (q[1] - lo) / (hi - lo) * H]; }
+      var segs = [], seg = [], prev = null;
+      pts.forEach(function (q) { if (prev && q[0] - prev > 3 * 3600) { segs.push(seg); seg = []; } seg.push(xy(q)); prev = q[0]; });
+      segs.push(seg);
+      var dl = segs.filter(function (s) { return s.length; }).map(smooth).join(' ');
+      var da = segs.filter(function (s) { return s.length > 1; }).map(function (s) { return smooth(s) + ' L' + s[s.length - 1][0].toFixed(1) + ',' + H + ' L' + s[0][0].toFixed(1) + ',' + H + ' Z'; }).join(' ');
+      var html = ticks.map(function (v) { return '<div class="ytick" style="bottom:' + ((v - lo) / (hi - lo) * 100).toFixed(2) + '%"><span>' + compactN(v) + '</span></div>'; }).join('');
+      // repères horizontaux : heures si période courte, jours sinon
+      var stepH = span <= 36 * 3600 ? (span <= 14 * 3600 ? 2 : 4) * 3600 : 0;
+      if (stepH) {
+        for (var t = Math.ceil(t0 / stepH) * stepH; t < t1; t += stepH) {
+          var lft = (t - t0) / span * 100;
+          if (lft < 4 || lft > 96) continue;
+          var hr = dHour.format(new Date(t * 1000));
+          var isMid = /^0?0/.test(hr);
+          html += '<div class="xtick' + (isMid ? ' day' : '') + '" style="left:' + lft.toFixed(2) + '%"><span>' + (isMid ? dDay.format(new Date(t * 1000)) : hr) + '</span></div>';
+        }
+      } else {
+        var every = span > 20 * 86400 ? 5 : span > 8 * 86400 ? 2 : 1, n = 0;
+        var d0 = new Date(t0 * 1000); d0.setHours(24, 0, 0, 0);
+        for (var dd = d0.getTime() / 1000; dd < t1; dd += 86400, n++) {
+          if (n % every) continue;
+          html += '<div class="xtick day" style="left:' + ((dd - t0) / span * 100).toFixed(2) + '%"><span>' + dDay.format(new Date(dd * 1000)) + '</span></div>';
+        }
+      }
+      var gidc = 'lgj' + k;
+      html += '<svg viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="none" aria-hidden="true"' + (animate && !reduced ? ' class="reveal"' : '') + '><defs><linearGradient id="' + gidc + '" x1="0" y1="0" x2="0" y2="1">' +
+        '<stop offset="0" stop-color="currentColor" stop-opacity=".35"/><stop offset=".7" stop-color="currentColor" stop-opacity=".06"/><stop offset="1" stop-color="currentColor" stop-opacity="0"/></linearGradient></defs>' +
+        '<path class="area" d="' + da + '" style="fill:url(#' + gidc + ')"/><path class="stroke" d="' + dl + '" vector-effect="non-scaling-stroke"/></svg>';
+      var ip = vals.indexOf(vmax), im = vals.indexOf(vmin);
+      var pk = xy(pts[ip]), mn = xy(pts[im]), le = xy(pts[pts.length - 1]);
+      if (ip !== pts.length - 1) html += '<span class="peak' + (pk[0] / W > .8 ? ' left' : '') + '" style="left:' + (pk[0] / W * 100).toFixed(2) + '%;top:' + (pk[1] / H * 100).toFixed(2) + '%"><i></i><b>Pic ' + nf.format(vmax) + '</b></span>';
+      if (im !== pts.length - 1 && im !== 0 && vmax !== vmin) html += '<span class="peak low' + (mn[0] / W > .8 ? ' left' : '') + '" style="left:' + (mn[0] / W * 100).toFixed(2) + '%;top:' + (mn[1] / H * 100).toFixed(2) + '%"><i></i><b>Creux ' + nf.format(vmin) + '</b></span>';
+      html += '<span class="end-dot" style="left:' + (le[0] / W * 100).toFixed(2) + '%;top:' + (le[1] / H * 100).toFixed(2) + '%"></span>' +
+        '<span class="end-label" style="top:' + (le[1] / H * 100).toFixed(2) + '%">' + compactN(last) + '</span>' +
+        '<div class="crosshair" hidden><span class="hline"></span><span class="cdot"></span><span class="tip"></span></div>';
+      plot.innerHTML = html;
+      plot.classList.remove('up', 'down'); plot.classList.add(trend);
+      plot._geo = { t0: t0, span: span, lo: lo, hi: hi };
+      if (head) {
+        var ch = first ? (last / first - 1) * 100 : 0;
+        var btns = RANGES.filter(function (r) { return !r[1] || r[1] < fullSpan; });
+        head.hidden = false;
+        head.innerHTML = '<div class="lh-main"><span class="lh-val">' + nf.format(last) + '</span><span class="lh-unit">' + unit + '</span>' +
+          '<span class="pill ' + (ch >= 0 ? 'up' : 'down') + '">' + pf.format(ch).replace('-', '\u2212') + ' %</span>' +
+          '<span class="lh-range">sur la période</span></div>' +
+          '<div class="lh-side"><span>Pic <b>' + nf.format(vmax) + '</b></span><span>Creux <b>' + nf.format(vmin) + '</b></span></div>' +
+          (btns.length > 1 ? '<div class="seg" role="group" aria-label="Période">' + btns.map(function (r) {
+            return '<button type="button" data-r="' + r[1] + '"' + (r[1] === cur ? ' aria-pressed="true"' : ' aria-pressed="false"') + '>' + r[0] + '</button>';
+          }).join('') + '</div>' : '');
+        head.querySelectorAll('.seg button').forEach(function (b) { b.addEventListener('click', function () { draw(+b.dataset.r, true); }); });
+      }
+    }
+    draw(0, true);
     function move(clientX) {
-      var r = plot.getBoundingClientRect();
+      var g = plot._geo, r = plot.getBoundingClientRect();
       var x = Math.min(Math.max(0, clientX - r.left), r.width);
-      var t = t0 + (t1 - t0) * x / r.width, best = pts[0];
+      var t = g.t0 + g.span * x / r.width, best = pts[0];
       for (var i = 1; i < pts.length; i++) if (Math.abs(pts[i][0] - t) < Math.abs(best[0] - t)) best = pts[i];
+      var ch = plot.querySelector('.crosshair'), tp = ch.querySelector('.tip');
+      var yp = (1 - (best[1] - g.lo) / (g.hi - g.lo)) * 100, xp = (best[0] - g.t0) / g.span * 100;
       ch.hidden = false;
-      ch.style.left = ((best[0] - t0) / (t1 - t0) * 100) + '%';
-      tp.textContent = df.format(new Date(best[0] * 1000)) + ' : ' + nf.format(best[1]) + ' ' + unit;
+      ch.style.left = xp + '%';
+      ch.querySelector('.cdot').style.top = yp + '%';
+      ch.querySelector('.hline').style.top = yp + '%';
+      tp.innerHTML = '<b>' + nf.format(best[1]) + '</b> ' + unit + '<br><span>' + df.format(new Date(best[0] * 1000)) + '</span>';
+      tp.classList.toggle('flip-l', xp > 82); tp.classList.toggle('flip-r', xp < 18);
     }
     plot.addEventListener('mousemove', function (e) { move(e.clientX); });
     plot.addEventListener('touchmove', function (e) { move(e.touches[0].clientX); }, { passive: true });
-    plot.addEventListener('mouseleave', function () { ch.hidden = true; });
+    plot.addEventListener('mouseleave', function () { var c = plot.querySelector('.crosshair'); if (c) c.hidden = true; });
   });
 
   // Tri des tableaux

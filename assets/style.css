@@ -711,3 +711,62 @@ button.btn { font-size: .92rem; padding: .55rem .9rem; } button.btn.share { font
   .live th:first-child { font-size: 0; }
   .live th:first-child::after { content: "#"; font-size: 12px; }
 }
+
+/* ---------- courbes, version enrichie ---------- */
+.line-head { display: flex; flex-wrap: wrap; align-items: flex-end; gap: .6rem 1.4rem; margin: 0 0 .4rem; }
+.lh-main { display: flex; align-items: baseline; flex-wrap: wrap; gap: .2rem .55rem; }
+.lh-val { font-size: 1.9rem; font-weight: 800; letter-spacing: -.02em; font-variant-numeric: tabular-nums; word-spacing: .12em; line-height: 1; }
+.lh-unit { color: var(--muted); font-size: .9rem; }
+.lh-main .pill { font-size: .82rem; }
+.lh-range { color: var(--muted); font-size: .78rem; }
+.lh-side { display: flex; gap: 1rem; color: var(--muted); font-size: .82rem; }
+.lh-side b { color: var(--ink); font-weight: 650; font-variant-numeric: tabular-nums; word-spacing: .12em; }
+.seg { display: inline-flex; margin-left: auto; background: #0e131c; border: 1px solid #222f43; border-radius: 8px; padding: 3px; gap: 2px; }
+.seg button { font: inherit; font-size: .8rem; font-weight: 600; color: var(--muted); background: none; border: 0; border-radius: 6px; padding: .3rem .65rem; cursor: pointer; }
+.seg button:hover { color: var(--ink); }
+.seg button[aria-pressed="true"] { background: #1e293b; color: var(--ink); box-shadow: 0 1px 0 rgba(255,255,255,.04) inset; }
+
+.line-plot { margin: 1.4rem 4.4rem 2rem 2.8rem; --c: #3b82f6; color: var(--c); }
+.line-plot.up { --c: #10b981; }
+.line-plot.down { --c: #ef4444; }
+.line-plot svg .area { stroke: none; }
+.line-plot .stroke { stroke: var(--c); stroke-width: 2.25px; filter: drop-shadow(0 0 6px color-mix(in srgb, var(--c) 55%, transparent)); }
+.line-plot svg.reveal { animation: reveal 1s cubic-bezier(.3,.7,.2,1) both; }
+@keyframes reveal { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+.line-plot .ytick { border-top: 1px dashed rgba(148, 163, 184, .13); }
+.line-plot .ytick:first-child { border-top: 1px solid rgba(148, 163, 184, .28); }
+.line-plot .ytick span { color: #64748b; font-size: .72rem; }
+.line-plot .xtick { border-left-color: rgba(148, 163, 184, .28); }
+.line-plot .xtick.day::before { content: ""; position: absolute; left: -1px; bottom: 6px; height: var(--plot-h, 280px); border-left: 1px dashed rgba(148, 163, 184, .12); }
+.line-plot .xtick span { color: #64748b; font-size: .72rem; }
+.line-plot .end-dot { background: var(--c); box-shadow: 0 0 0 3px #151d2a, 0 0 0 6px color-mix(in srgb, var(--c) 30%, transparent); animation: pulse-dot 2.4s ease-out infinite; }
+@keyframes pulse-dot { 0%, 100% { box-shadow: 0 0 0 3px #151d2a, 0 0 0 6px color-mix(in srgb, var(--c) 30%, transparent); }
+  50% { box-shadow: 0 0 0 3px #151d2a, 0 0 0 10px color-mix(in srgb, var(--c) 0%, transparent); } }
+.line-plot .end-label { color: #0b0e14; background: var(--c); font-size: .78rem; padding: .15rem .45rem; border-radius: 5px; left: calc(100% + .5rem); }
+.line-plot .end-label::before { content: ""; position: absolute; left: -4px; top: 50%; margin-top: -4px; border: 4px solid transparent; border-left: 0; border-right-color: var(--c); }
+.peak { position: absolute; width: 0; height: 0; pointer-events: none; }
+.peak i { position: absolute; width: 7px; height: 7px; margin: -3.5px 0 0 -3.5px; border-radius: 50%; background: #151d2a; border: 2px solid var(--ink-2); }
+.peak b { position: absolute; bottom: 8px; left: 0; transform: translateX(-50%); font-size: .72rem; font-weight: 650; color: var(--ink-2); white-space: nowrap; word-spacing: .12em;
+  background: rgba(21, 29, 42, .85); padding: .05rem .35rem; border-radius: 4px; }
+.peak.low b { bottom: auto; top: 8px; }
+.peak.left b { transform: translateX(-100%); }
+.line-plot .crosshair { border-left: 1px dashed rgba(226, 232, 240, .45); }
+.crosshair .hline { position: absolute; left: -100vw; width: 200vw; border-top: 1px dashed rgba(226, 232, 240, .18); pointer-events: none; }
+.line-plot { overflow: visible; }
+.chart:has(.line-plot) { overflow: hidden; }
+.crosshair .cdot { position: absolute; left: -6px; width: 12px; height: 12px; margin-top: -6px; border-radius: 50%; background: var(--c); border: 2px solid #0b0e14; box-shadow: 0 0 10px var(--c); }
+.line-plot .crosshair .tip { top: -.6rem; text-align: center; line-height: 1.35; padding: .4rem .6rem; border: 1px solid #334155; box-shadow: 0 8px 20px rgba(0,0,0,.4); }
+.line-plot .crosshair .tip b { font-size: .95rem; color: var(--c); }
+.line-plot .crosshair .tip span { color: var(--muted); font-size: .74rem; }
+.line-plot .crosshair .tip.flip-l { transform: translate(-100%, -100%); }
+.line-plot .crosshair .tip.flip-r { transform: translate(0, -100%); }
+@media (max-width: 560px) {
+  .line-plot { margin: 1.2rem 3.4rem 1.8rem 2.4rem; }
+  .lh-val { font-size: 1.5rem; }
+  .seg { margin-left: 0; }
+  .peak b { font-size: .66rem; }
+}
+@media (prefers-reduced-motion: reduce) { .line-plot .end-dot { animation: none; } }
+.line-plot .crosshair .tip { top: .2rem; transform: translate(-50%, 0); z-index: 3; }
+.line-plot .crosshair .tip.flip-l { transform: translate(calc(-100% - 10px), 0); }
+.line-plot .crosshair .tip.flip-r { transform: translate(10px, 0); }

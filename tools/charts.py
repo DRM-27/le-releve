@@ -78,20 +78,63 @@ def diverging(gid, g):
     return frame(gid, g["titre"], f'<ol class="diverging">{"".join(items)}</ol>', g["csv"], table, note)
 
 
+def nice_range(vmin, vmax, n=4):
+    """Bornes « rondes » autour des données (axe non nul : courbe de série temporelle, pas des barres)."""
+    if vmax <= vmin:
+        vmax, vmin = vmax + max(1, abs(vmax) * .05), max(0, vmin - max(1, abs(vmin) * .05))
+    pad = (vmax - vmin) * .12
+    lo, hi = max(0, vmin - pad), vmax + pad
+    raw = (hi - lo) / n
+    mag = 10 ** (len(str(int(raw))) - 1) if raw >= 1 else 1
+    step = mag
+    for m in (1, 2, 2.5, 5, 10):
+        step = m * mag
+        if step >= raw:
+            break
+    lo = step * int(lo // step)
+    hi = step * (int(hi // step) + (1 if hi % step else 0))
+    return [lo + step * i for i in range(int(round((hi - lo) / step)) + 1)]
+
+
+def smooth_path(pts):
+    """Courbe monotone (Fritsch-Carlson) : lisse sans dépasser les valeurs relevées."""
+    n = len(pts)
+    if n < 3:
+        return "M" + " L".join(f"{x:.1f},{y:.1f}" for x, y in pts)
+    dx = [pts[i + 1][0] - pts[i][0] or 1e-6 for i in range(n - 1)]
+    sl = [(pts[i + 1][1] - pts[i][1]) / dx[i] for i in range(n - 1)]
+    m = [sl[0]] + [0 if sl[i - 1] * sl[i] <= 0 else (sl[i - 1] + sl[i]) / 2 for i in range(1, n - 1)] + [sl[-1]]
+    for i in range(n - 1):
+        if sl[i] == 0:
+            m[i] = m[i + 1] = 0
+            continue
+        a, b = m[i] / sl[i], m[i + 1] / sl[i]
+        h = a * a + b * b
+        if h > 9:
+            t = 3 / h ** .5
+            m[i], m[i + 1] = t * a * sl[i], t * b * sl[i]
+    d = f"M{pts[0][0]:.1f},{pts[0][1]:.1f}"
+    for i in range(n - 1):
+        (x0, y0), (x1, y1) = pts[i], pts[i + 1]
+        d += (f" C{x0 + dx[i] / 3:.1f},{y0 + m[i] * dx[i] / 3:.1f} {x1 - dx[i] / 3:.1f},{y1 - m[i + 1] * dx[i] / 3:.1f} {x1:.1f},{y1:.1f}")
+    return d
+
+
 def line(gid, g, height=260):
     pts = [(parse_iso(t), v) for t, v in g["points"]]
     if len(pts) < 2:
         return ""
     t0, t1 = pts[0][0], pts[-1][0]
     span = (t1 - t0).total_seconds() or 1
-    ticks = nice_ticks(max(v for _, v in pts))
-    top = ticks[-1]
+    vals = [v for _, v in pts]
+    ticks = nice_range(min(vals), max(vals))
+    lo, hi = ticks[0], ticks[-1]
     W, H = 1000, 300
+    trend = "down" if vals[-1] < vals[0] else "up"
 
     def xy(t, v):
-        return (t - t0).total_seconds() / span * W, H - v / top * H
+        return (t - t0).total_seconds() / span * W, H - (v - lo) / (hi - lo) * H
 
-    # coupe la ligne quand il manque plus de 2 relevés d'affilée
     segs, cur, prev = [], [], None
     for t, v in pts:
         if prev and (t - prev).total_seconds() > 3 * 3600:
@@ -100,26 +143,31 @@ def line(gid, g, height=260):
         cur.append(xy(t, v))
         prev = t
     segs.append(cur)
-    d_line = " ".join("M" + " L".join(f"{x:.1f},{y:.1f}" for x, y in s) for s in segs if s)
-    d_area = " ".join(f"M{s[0][0]:.1f},{H} L" + " L".join(f"{x:.1f},{y:.1f}" for x, y in s) + f" L{s[-1][0]:.1f},{H} Z"
-                      for s in segs if len(s) > 1)
-    grid = "".join(f'<div class="ytick" style="bottom:{v / top * 100:.2f}%"><span>{compact(v)}</span></div>' for v in ticks)
-    # repères de jours (minuit à Paris)
+    d_line = " ".join(smooth_path(s) for s in segs if s)
+    d_area = " ".join(smooth_path(s) + f" L{s[-1][0]:.1f},{H} L{s[0][0]:.1f},{H} Z" for s in segs if len(s) > 1)
+    grid = "".join(f'<div class="ytick" style="bottom:{(v - lo) / (hi - lo) * 100:.2f}%"><span>{compact(v)}</span></div>' for v in ticks)
     days, d = [], t0.astimezone(TZ).replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(days=1)
     while d < t1:
         left = (d - t0).total_seconds() / span * 100
-        days.append(f'<div class="xtick" style="left:{left:.2f}%"><span>{d.day}/{d.month:02d}</span></div>')
+        days.append(f'<div class="xtick day" style="left:{left:.2f}%"><span>{d.day}/{d.month:02d}</span></div>')
         d += timedelta(days=1)
     lx, ly = xy(*pts[-1])
+    ip = max(range(len(pts)), key=lambda i: vals[i])
+    px, py = xy(*pts[ip])
+    peak = (f'<span class="peak" style="left:{px / W * 100:.2f}%;top:{py / H * 100:.2f}%"><i></i><b>Pic {fr_int(vals[ip])}</b></span>'
+            if ip != len(pts) - 1 else "")
     data = json.dumps([[int(t.timestamp()), v] for t, v in pts], separators=(",", ":"))
-    body = (f'<div class="line-plot" style="height:{height}px" data-points=\'{data}\' data-unit="{esc(g["unite"])}">'
+    gidc = f"lg-{esc(gid)}"
+    body = (f'<div class="line-head" hidden></div>'
+            f'<div class="line-plot {trend}" style="height:{height}px;--plot-h:{height}px" data-points=\'{data}\' data-unit="{esc(g["unite"])}">'
             f'{grid}{"".join(days)}'
-            f'<svg viewBox="0 0 {W} {H}" preserveAspectRatio="none" aria-hidden="true">'
-            f'<path class="area" d="{d_area}"/><path class="stroke" d="{d_line}" vector-effect="non-scaling-stroke"/></svg>'
-            f'<span class="end-dot" style="left:{lx / W * 100:.2f}%;top:{ly / H * 100:.2f}%"></span>'
-            f'<span class="end-label" style="top:{ly / H * 100:.2f}%">{fr_int(pts[-1][1])}</span>'
-            f'<div class="crosshair" hidden><span class="tip"></span></div></div>')
-    # vue tableau : maximum, minimum et moyenne par jour
+            f'<svg viewBox="0 0 {W} {H}" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="{gidc}" x1="0" y1="0" x2="0" y2="1">'
+            f'<stop offset="0" stop-color="currentColor" stop-opacity=".35"/><stop offset=".7" stop-color="currentColor" stop-opacity=".06"/>'
+            f'<stop offset="1" stop-color="currentColor" stop-opacity="0"/></linearGradient></defs>'
+            f'<path class="area" d="{d_area}" style="fill:url(#{gidc})"/><path class="stroke" d="{d_line}" vector-effect="non-scaling-stroke"/></svg>'
+            f'{peak}<span class="end-dot" style="left:{lx / W * 100:.2f}%;top:{ly / H * 100:.2f}%"></span>'
+            f'<span class="end-label" style="top:{ly / H * 100:.2f}%">{compact(vals[-1])}</span>'
+            f'<div class="crosshair" hidden><span class="hline"></span><span class="cdot"></span><span class="tip"></span></div></div>')
     byday = {}
     for t, v in pts:
         byday.setdefault(t.astimezone(TZ).date(), []).append(v)
