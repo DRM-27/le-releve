@@ -3,7 +3,7 @@ titre: Le top 100 de Roblox en un relevé : le numéro un pèse {{concentration.
 chapo: Concentration, genres, poids des nouveautés : ce que montre une heure de jeu sur les {{n.top100}} jeux les plus joués de Roblox.
 jour: 2026-10-21-17h
 type: analyse
-publie: 2026-10-21T19:00
+publie: 2026-10-21T18:31
 ---
 Le {{releve.date}} à {{releve.heure}}, les {{n.top100}} jeux les plus joués parmi ceux que nous suivons réunissaient **{{top100.joueurs}} joueurs en ligne**. Voici comment ils se répartissaient.
 

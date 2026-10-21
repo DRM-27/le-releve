@@ -3,7 +3,7 @@ titre: Halloween sur Roblox : {{theme.halloween.nb}} jeux du top 100 affichent d
 chapo: À l’approche du 31 octobre, les jeux les plus joués se mettent à l’heure d’Halloween jusque dans leur nom. Ils réunissent {{theme.halloween.part}} des joueurs du top 100.
 jour: 2026-10-21-17h
 type: analyse
-publie: 2026-10-21T19:00
+publie: 2026-10-21T18:33
 ---
 Sur Roblox, les mises à jour saisonnières se voient d’abord dans les titres. Au relevé du {{releve.date}} à {{releve.heure}}, **{{theme.halloween.nb}} des {{n.top100}} jeux** les plus joués parmi ceux que nous suivons affichaient Halloween dans leur nom : une citrouille 🎃, le mot « Halloween » ou l’abréviation « HLWN ».
 

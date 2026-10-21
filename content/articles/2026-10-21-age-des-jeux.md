@@ -3,7 +3,7 @@ titre: {{age.2026.nb}} jeux du top 100 de Roblox ont moins d’un an
 chapo: Les jeux créés en 2026 rassemblent {{age.2026.part}} des joueurs du top 100. Mais quelques doyens, nés dès 2014, tiennent toujours le haut du classement.
 jour: 2026-10-21-17h
 type: analyse
-publie: 2026-10-21T19:00
+publie: 2026-10-21T18:32
 ---
 Sur Roblox, le classement se renouvelle vite. Au relevé du {{releve.date}} à {{releve.heure}}, **{{age.2026.nb}} des {{n.top100}} jeux** les plus joués parmi ceux que nous suivons ont été créés en 2026. Ils réunissent {{age.2026.part}} des joueurs du top 100.
 
