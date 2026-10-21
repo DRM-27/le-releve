@@ -197,7 +197,7 @@ def live_data(limit=100):
         return None
     games = load_games()
     ts, last = snaps[-1]
-    prev = snaps[-2][1] if len(snaps) > 1 and 1800 <= (ts - snaps[-2][0]).total_seconds() <= 3 * 3600 else None
+    prev = next((sn for t, sn in reversed(snaps[:-1]) if 1800 <= (ts - t).total_seconds() <= 3 * 3600), None)
     prev_rank = {u: i + 1 for i, u in enumerate(sorted(prev, key=lambda u: -int(prev[u]["playing"] or 0)))} if prev else {}
     window = [s for s in snaps if (ts - s[0]).total_seconds() <= 24 * 3600]
     ranked = sorted(last.values(), key=lambda r: -int(r["playing"] or 0))[:limit]

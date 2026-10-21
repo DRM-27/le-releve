@@ -26,8 +26,10 @@ def last_two():
         rows = read_csv(p)
         if rows:
             found.append((parse_iso(rows[0]["ts_utc"]), {r["universe_id"]: r for r in rows}, p))
-        if len(found) == 2:
+        if len(found) >= 2 and (found[0][0] - found[-1][0]).total_seconds() >= 1800:
             break
+    if len(found) > 2:
+        found = [found[0], found[-1]]
     return found
 
 
