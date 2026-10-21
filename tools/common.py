@@ -113,15 +113,19 @@ def fr_dec(x, nd=1):
     return ("-" if x < 0 else "") + s
 
 
+def _trim(s):
+    return s.rstrip("0").rstrip(",") if "," in s else s
+
+
 def fr_big(n):
-    """121 176 / 1,2 million / 65,3 milliards."""
+    """121 176 / 1,2 million / 65,3 milliards / 32,69 millions (deux décimales au plus, zéros inutiles retirés)."""
     a = abs(n)
     if a >= 1e9:
         v = n / 1e9
-        return f"{fr_dec(v, 1)} milliard" + ("s" if abs(v) >= 2 else "")
+        return f"{_trim(fr_dec(v, 2))} milliard" + ("s" if abs(v) >= 2 else "")
     if a >= 1e6:
         v = n / 1e6
-        return f"{fr_dec(v, 1)} million" + ("s" if abs(v) >= 2 else "")
+        return f"{_trim(fr_dec(v, 2))} million" + ("s" if abs(v) >= 2 else "")
     return fr_int(n)
 
 

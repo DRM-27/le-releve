@@ -6,7 +6,7 @@ import html
 import json
 from datetime import timedelta
 
-from common import TZ, fr_dec, fr_int, fr_pct, github_blob, parse_iso, NNBSP
+from common import TZ, fr_dec, fr_int, fr_pct, fr_share, github_blob, parse_iso, NNBSP
 
 esc = html.escape
 
@@ -50,13 +50,13 @@ def bars(gid, g):
     items = []
     for r in rows:
         w = r["valeur"] / vmax * 100
-        val = fr_int(r["valeur"])
-        items.append(f'<li class="bar-row" data-tip="{esc(r["nom"])} : {val} {esc(g["unite"])}">'
+        val = fr_share(r["valeur"]) if g.get("unite") == "%" else fr_int(r["valeur"])
+        items.append(f'<li class="bar-row" data-tip="{esc(r["nom"])} : {val}{"" if g.get("unite") == "%" else " " + esc(g["unite"])}">'
                      f'<span class="bar-label">{esc(r["nom"])}</span>'
                      f'<span class="bar-track"><span class="bar" style="width:{w:.2f}%"></span>'
                      f'<span class="bar-value">{val}</span></span></li>')
     table = "<table><thead><tr><th>Jeu</th><th>Joueurs</th></tr></thead><tbody>" + "".join(
-        f"<tr><td>{esc(r['nom'])}</td><td class=num>{fr_int(r['valeur'])}</td></tr>" for r in rows) + "</tbody></table>"
+        f"<tr><td>{esc(r['nom'])}</td><td class=num>{fr_share(r['valeur']) if g.get('unite') == '%' else fr_int(r['valeur'])}</td></tr>" for r in rows) + "</tbody></table>"
     return frame(gid, g["titre"], f'<ol class="bars">{"".join(items)}</ol>', g["csv"], table)
 
 
@@ -130,6 +130,8 @@ def line(gid, g, height=260):
 
 
 def render(gid, g):
+    if g.get("source"):
+        pass
     if gid == "variations":
         return diverging(gid, g)
     if "rows" in g:

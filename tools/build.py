@@ -30,7 +30,7 @@ NAME = CONFIG["name"]
 BASE_URL = (CONFIG.get("baseUrl") or "").rstrip("/")
 BASE = (urlparse(BASE_URL).path.rstrip("/") + "/") if BASE_URL else "/"
 TYPES = {"quotidien": "Relevé quotidien", "hebdo": "La semaine", "mensuel": "Le mois", "trimestriel": "Résultats trimestriels",
-         "analyse": "Analyse"}
+         "analyse": "Analyse", "dossier": "Dossier"}
 
 
 def url(path=""):
@@ -130,11 +130,11 @@ def load_articles(folder, strict=True):
             return charts.render(gid, load_facts(d)["graphiques"][gid])
         body_html = re.sub(r"<p>\s*(\{\{\s*graphique:[^}]+\}\})\s*</p>", lambda m: GRAPH.sub(graph, m.group(1)), body_html)
         body_html = GRAPH.sub(graph, body_html)
-        pub = meta.get("publie") or f"{day}T08:00"
+        pub = meta.get("publie") or f"{day[:10]}T08:00"
         try:
             pub_dt = datetime.fromisoformat(pub).replace(tzinfo=TZ) if "Z" not in pub else parse_iso(pub)
         except ValueError:
-            pub_dt = datetime.fromisoformat(day).replace(tzinfo=TZ)
+            pub_dt = datetime.fromisoformat(day[:10]).replace(tzinfo=TZ)
         arts.append({"slug": slug, "meta": meta, "day": day, "pub": pub_dt, "html": body_html, "used": used,
                      "title": render_tokens(meta["titre"], day, linked=False),
                      "chapo": render_tokens(meta["chapo"], day, linked=False),
@@ -148,13 +148,13 @@ def article_page(a, prefix="articles"):
     cov = f["couverture"] if f else None
     sources = sorted({fact_for(d, k).get("src", "").split("#")[0] for d, k in a["used"]} - {""})
     src_list = "".join(f'<li><a href="{esc(s if s.startswith("http") else github_blob(s) if s.endswith(".csv") else github_tree(s))}">{esc(s)}</a></li>' for s in sources)
-    d = datetime.fromisoformat(a["day"]).date()
+    d = datetime.fromisoformat(a["day"][:10]).date()
     kind = TYPES.get(a["meta"]["type"], "Article")
     body = f"""<article class="article">
 <header class="article-head">
   <h1>{esc(a['title'])}</h1>
   <p class="chapo">{a['chapo_html']}</p>
-  <p class="dateline">{esc(kind)}{(", données du " + esc(fr_date(d))) if f else ""}. Publié le {esc(fr_date(a['pub'].date(), weekday=False))} à {esc(fr_hour(a['pub']))}.</p>
+  <p class="dateline">{esc(kind)}{(", relevé du " + esc(fr_date(d)) + " à " + esc(f["faits"]["releve.heure"]["d"]) if f and f["couverture"].get("instantane") else (", données du " + esc(fr_date(d))) if f else "")}. Publié le {esc(fr_date(a['pub'].date(), weekday=False))} à {esc(fr_hour(a['pub']))}.</p>
 </header>
 <div class="prose">
 {a['html']}
@@ -162,7 +162,7 @@ def article_page(a, prefix="articles"):
 <aside class="provenance" aria-labelledby="prov-{esc(a['slug'])}">
   <h2 id="prov-{esc(a['slug'])}">D’où viennent ces chiffres</h2>
   <p class="checked"><span class="check" aria-hidden="true"></span>{len(a['used'])} chiffres dans cet article, tous reliés à leur source. Cliquez sur un chiffre souligné pour ouvrir le document ou la ligne exacte du fichier de données d’où il vient.</p>
-  <p>{f"Journée couverte par {cov['releves']} relevés horaires sur {cov['attendus']}. " if cov else ""}Le texte a été rédigé par une IA à partir de ces chiffres, puis contrôlé avant publication. <a href="{url('methode/')}">Comment nous travaillons</a>.</p>
+  <p>{f"Journée couverte par {cov['releves']} relevés horaires sur {cov['attendus']}. " if cov and not cov.get("instantane") else ""}Le texte a été rédigé par une IA à partir de ces chiffres, puis contrôlé avant publication. <a href="{url('methode/')}">Comment nous travaillons</a>.</p>
   <ul class="files">{src_list}</ul>
   <p>Une erreur ? <a href="{url('corrections/')}">Signalez-la</a> : chaque correction est publiée.</p>
 </aside>
@@ -171,7 +171,7 @@ def article_page(a, prefix="articles"):
 
 
 def card(a, lead=False):
-    d = datetime.fromisoformat(a["day"]).date()
+    d = datetime.fromisoformat(a["day"][:10]).date()
     cls = "card lead" if lead else "card"
     return (f'<li class="{cls}"><a href="{url("articles/" + a["slug"] + "/")}"><h2>{esc(a["title"])}</h2>'
             f'<p>{esc(a["chapo"])}</p><span class="meta">{esc(TYPES.get(a["meta"]["type"], "Article"))}, '

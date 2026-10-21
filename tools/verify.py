@@ -19,8 +19,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import FACTS, ROOT
 
-TOKEN = re.compile(r"\{\{\s*(?:(\d{4}-\d{2}-\d{2}):)?([a-z0-9_.\-]+)\s*\}\}")
-GRAPH = re.compile(r"\{\{\s*graphique:(?:(\d{4}-\d{2}-\d{2}):)?([a-z0-9\-]+)\s*\}\}")
+TOKEN = re.compile(r"\{\{\s*(?:(\d{4}-\d{2}-\d{2}(?:-\d{2}h)?):)?([a-z0-9_.\-]+)\s*\}\}")
+GRAPH = re.compile(r"\{\{\s*graphique:(?:(\d{4}-\d{2}-\d{2}(?:-\d{2}h)?):)?([a-z0-9\-]+)\s*\}\}")
 MOIS = "janvier|février|fevrier|mars|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre"
 ALLOWED = [
     re.compile(r"\bT[1-4]\b"),                                                # trimestres
@@ -38,7 +38,7 @@ WORDS = re.compile(r"\b(deux|trois|quatre|cinq|six|sept|huit|neuf|dix|onze|douze
 BANNED = [re.compile(p, re.I) for p in (r"partenaire (?:officiel )?de roblox", r"en partenariat avec roblox",
                                          r"média officiel", r"officiellement soutenu par roblox", r"approuvé par roblox")]
 REQUIRED = ("titre", "chapo", "jour", "type")
-TYPES = {"quotidien", "hebdo", "mensuel", "trimestriel", "analyse"}
+TYPES = {"quotidien", "hebdo", "mensuel", "trimestriel", "analyse", "dossier"}
 
 
 def parse(text):
@@ -62,7 +62,8 @@ def load_facts(day, cache={}):
 
 def fact_for(day, key):
     """Le fait désigné par un jeton : faits du jour, ou chiffres officiels (officiel.*)."""
-    f = load_facts("officiel" if key.startswith("officiel.") else day)
+    src = "officiel" if key.startswith("officiel.") else ("externe" if key.startswith("ext.") else day)
+    f = load_facts(src)
     return None if f is None else f["faits"].get(key)
 
 
@@ -84,7 +85,7 @@ def context(text, i, w=40):
 def verify_text(text, day, where, errors, warnings):
     for m in TOKEN.finditer(text):
         d, key = m.group(1) or day, m.group(2)
-        src = "officiel" if key.startswith("officiel.") else d
+        src = "officiel" if key.startswith("officiel.") else ("externe" if key.startswith("ext.") else d)
         if load_facts(src) is None:
             errors.append(f"{where} : faits « {src} » introuvables (jeton {{{{{key}}}}})")
         elif fact_for(d, key) is None:
@@ -117,11 +118,11 @@ def verify(path):
         errors.append(f"En-tête : type « {meta['type']} » inconnu ({', '.join(sorted(TYPES))})")
     day = meta.get("jour", "")
     f = load_facts(day) if day else None
-    if day and f is None and meta.get("type") != "trimestriel":
+    if day and f is None and meta.get("type") not in ("trimestriel", "dossier"):
         errors.append(f"Faits du {day} introuvables : lancer python tools/facts.py {day}")
     elif f:
         c = f["couverture"]
-        if c["releves"] < 18:
+        if c["releves"] < 18 and not c.get("instantane"):
             warnings.append(f"Journée incomplète : {c['releves']} relevés sur {c['attendus']}. Le dire dans l'article.")
     for field in ("titre", "chapo"):
         verify_text(meta.get(field, ""), day, field.capitalize(), errors, warnings)

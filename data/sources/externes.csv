@@ -1,0 +1,16 @@
+cle,valeur,unite,libelle,source_nom,source_url,date_source
+egg.retrait_ccu,500000,int,"Steal An Egg : joueurs simultanés dépassés avant son retrait temporaire (« had passed 500,000 »)",EGamers.io,https://egamers.io/robloxs-no-1-game-steal-an-egg-was-pulled-hours-after-reaching-the-top/,2026-08-25
+egg.sept_ccu,1300000,count,"Steal An Egg : environ 1,3 million de joueurs simultanés le 9 septembre 2026, selon GGAID",Player.One,https://www.player.one/robloxs-steal-egg-beating-some-platforms-biggest-games-164086,2026-09-09
+egg.record_rolimons,9900000,count,"Steal An Egg : pic historique « approchant » 9,9 millions selon Rolimon's",Player.One,https://www.player.one/robloxs-steal-egg-beating-some-platforms-biggest-games-164086,2026-09-09
+gag.ccu_mai,5000000,count,"Grow a Garden : environ 5 millions de joueurs simultanés le 18 mai 2025",Wikipédia (d'après PCGamesN),https://en.wikipedia.org/wiki/Grow_a_Garden,2025-05-21
+gag.ccu_juin,21300000,count,"Grow a Garden : 21,3 millions de joueurs simultanés le 21 juin 2025",Wikipédia (d'après IGN),https://en.wikipedia.org/wiki/Grow_a_Garden,2025-06-21
+gag.ccu_aout,22300000,count,"Grow a Garden : au moins 22,3 millions de joueurs simultanés le 23 août 2025",Wikipédia (d'après IGN et PocketGamer.biz),https://en.wikipedia.org/wiki/Grow_a_Garden,2025-08-26
+gag.ccu_avril,1000,int,"Grow a Garden : environ 1 000 joueurs simultanés en avril 2025, lors de l'entrée de Splitting Point Studios",Wikipédia,https://en.wikipedia.org/wiki/Grow_a_Garden,2025-04-30
+gag.jours_milliard,33,int,"Grow a Garden : jours pour atteindre un milliard de visites",Wikipédia,https://en.wikipedia.org/wiki/Grow_a_Garden,2026-05-01
+gag.visites_mai26,35300000000,count,"Grow a Garden : plus de 35,3 milliards de visites en mai 2026",Wikipédia (d'après la page Roblox du jeu),https://en.wikipedia.org/wiki/Grow_a_Garden,2026-05-01
+gag.age_createur,16,int,"Grow a Garden : âge du créateur anonyme BMWLux",Wikipédia,https://en.wikipedia.org/wiki/Grow_a_Garden,2025-06-01
+sab.ccu_record,25400000,count,"Steal a Brainrot : record de 25,4 millions de joueurs simultanés en octobre 2025",Wikipédia (d'après PocketGamer.biz),https://en.wikipedia.org/wiki/Steal_a_Brainrot,2025-10-07
+sab.ccu_sept,24000000,count,"Steal a Brainrot : 24 millions de joueurs simultanés le 13 septembre 2025",Wikipédia (d'après Gaming News),https://en.wikipedia.org/wiki/Steal_a_Brainrot,2025-09-15
+sab.visites_juil,7000000000,count,"Steal a Brainrot : 7 milliards de visites en juillet 2025",Wikipédia (d'après Massively Overpowered),https://en.wikipedia.org/wiki/Steal_a_Brainrot,2025-07-28
+roblox.ccu_aout25,47400000,count,"Roblox : record de 47,4 millions de joueurs simultanés sur la plateforme, le 23 août 2025",Wikipédia (d'après Tubefilter),https://en.wikipedia.org/wiki/Steal_a_Brainrot,2025-08-25
+roblox.ccu_juil25,32690000,count,"Roblox : record précédent de 32,69 millions de joueurs simultanés en juillet 2025",Wikipédia (d'après Tubefilter),https://en.wikipedia.org/wiki/Steal_a_Brainrot,2025-08-25
