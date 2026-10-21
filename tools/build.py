@@ -76,7 +76,7 @@ def page(title, body, desc="", path="", extra_head="", og_type="website", ld=Non
                         for _, t, _, items in pages2.EXPLORER_GROUPS) + (
         f'<div><h2>Le média</h2><ul><li><a href="{url("articles/")}">Tous les articles</a></li><li><a href="{url("classement/")}">Classement en direct</a></li>'
         f'<li><a href="{url("alertes/")}">Alertes</a></li><li><a href="{url("corrections/")}">Corrections</a></li>'
-        f'<li><a href="{url("partenaires/")}">Partenaires</a></li><li><a href="{url("mentions-legales/")}">Mentions légales</a></li></ul></div>')
+        f'<li><a href="{url("partenaires/")}">Partenaires</a></li><li><a href="{url("mentions-legales/")}">Mentions légales</a></li><li><a href="{url("confidentialite/")}">Confidentialité</a></li></ul></div>')
     links = "".join(f'<a href="{url(p)}"{" aria-current=page" if cur == p else ""}{" class=nav-alerts" if p == "alertes/" else ""}>{bell if p == "alertes/" else ""}{t}</a>' for p, t in nav)
     return f"""<!doctype html>
 <html lang="fr">
@@ -400,6 +400,36 @@ EXTRA_TOOLS = [("monetisation/", "Monétisation", "Le prix des game passes des j
 TICKER = ""
 STATUS_HTML = ""
 
+RAPPORT_SOMMAIRE = ["Ce qu’il faut retenir : les chiffres du mois en sept points", "Roblox Corporation : derniers résultats, utilisateurs, prévisions",
+                    "Le top 100 : qui capte l’audience, et dans quelles proportions", "Genres et studios : la carte du marché",
+                    "L’âge des jeux : renouvellement et doyens", "Monétisation : le prix des game passes",
+                    "Le mois heure par heure : pointes, records, plus fortes hausses et baisses", "Les records historiques, sources à l’appui"]
+
+
+def rapport_page():
+    nl = CONFIG.get("newsletter", {})
+    first = CONFIG.get("rapport", {}).get("premiereEdition", "")
+    when = fr_date(datetime.fromisoformat(first).date(), weekday=False) if first else ""
+    som = "".join(f"<li>{esc(t)}</li>" for t in RAPPORT_SOMMAIRE)
+    if nl.get("beehiivEmbedUrl"):
+        cta = (f'<div class="rp-form"><h2>Recevoir le rapport</h2><p>Indiquez votre adresse : le rapport arrive dans votre boîte, puis chaque nouvelle édition le mois suivant. '
+               f'Désinscription en un clic.</p><iframe src="{esc(nl["beehiivEmbedUrl"])}" title="Inscription au rapport" loading="lazy" '
+               f'style="width:100%;height:180px;border:0;background:transparent"></iframe>'
+               f'<p class="small">Vos données : <a href="{url("confidentialite/")}">politique de confidentialité</a>.</p></div>')
+        robots = ""
+    else:
+        cta = (f'<div class="rp-form soon-box"><span class="tag">Bientôt</span><h2>Première édition le {esc(when)}</h2>'
+               f'<p>Le rapport sera envoyé gratuitement aux inscrits. L’inscription ouvre avec la première édition.</p>'
+               f'<p><a class="btn" href="{url("alertes.xml")}">En attendant, suivre les alertes (RSS)</a></p></div>')
+        robots = '<meta name="robots" content="noindex">'
+    body = (f'<div class="wide rapport"><div class="rp-hero"><div><p class="kicker">Baromètre mensuel · gratuit</p><h1>État de Roblox</h1>'
+            f'<p class="lede">Chaque mois, un rapport PDF d’une dizaine de pages sur l’économie de Roblox : ce que jouent vraiment les joueurs, qui capte l’audience, '
+            f'comment les jeux se monétisent. Chaque chiffre est cliquable et renvoie à sa source.</p>'
+            f'<ul class="rp-points"><li>Calculé sur des milliers de relevés horaires des API publiques de Roblox</li>'
+            f'<li>Croisé avec les résultats officiels de Roblox Corporation</li><li>Pensé pour les studios, les marques et les investisseurs</li></ul></div>{cta}</div>'
+            f'<h2 class="sec-title">Au sommaire</h2><ol class="rp-som">{som}</ol></div>')
+    return page("Rapport « État de Roblox »", body, "Le baromètre mensuel gratuit de l’économie de Roblox, en PDF, chaque chiffre sourcé.", "rapport/", extra_head=robots)
+
 
 def status_html(status):
     last = status.get("lastRunAt")
@@ -594,12 +624,26 @@ def build(drafts=False):
     for name, title, desc in (("methode", "Méthode", "Comment nous relevons, calculons et vérifions chaque chiffre."),
                               ("partenaires", "Partenaires", "Annoncer auprès des pros de Roblox, études et données sur mesure."),
                               ("corrections", "Corrections", "Les erreurs signalées et leur correction."),
-                              ("mentions-legales", "Mentions légales", "Éditeur, hébergeur et données personnelles.")):
+                              ("mentions-legales", "Mentions légales", "Éditeur, hébergeur et données personnelles."),
+                              ("confidentialite", "Politique de confidentialité", "Quelles données nous collectons, pourquoi, et comment exercer vos droits.")):
         src = CONTENT / f"{name}.md"
         text = src.read_text(encoding="utf-8") if src.exists() else ""
         text = text.replace("{{depot}}", github_tree("")).replace("{{donnees}}", github_tree("data")).replace("{{nom}}", NAME).replace(
             "{{contact}}", f"[{CONFIG['contact']}](mailto:{CONFIG['contact']})" if CONFIG.get("contact") else "L’adresse de contact arrive très bientôt.")
         write(f"{name}/index.html", page(title, f'<div class="narrow prose page">{markdown.markdown(text, extensions=["extra"])}</div>', desc, f"{name}/"))
+
+    write("rapport/index.html", rapport_page())
+    try:
+        import cartes
+        import rapport as rapport_mod
+        made = cartes.make(rapport_mod.collect(*cartes.latest_month()), OUT / "cartes")
+        figs = "".join(f'<figure class="carte"><a href="{url("cartes/" + f)}" download><img src="{url("cartes/" + f)}" alt="{esc(t)}" loading="lazy" width="1080" height="1350"></a>'
+                       f'<figcaption>{esc(t)} · <a href="{url("cartes/" + f)}" download>Télécharger</a></figcaption></figure>' for f, t in made)
+        write("cartes/index.html", page("Cartes à partager", f'<div class="wide"><h1>Cartes à partager</h1><p class="lede">Les chiffres clés de Roblox en images (1080 × 1350), '
+                                        f'régénérées à chaque relevé horaire. Libres de reprise en citant Le Relevé.</p><div class="cartes">{figs}</div></div>',
+                                        "Les chiffres clés de Roblox en images à partager.", "cartes/", extra_head='<meta name="robots" content="noindex">'))
+    except Exception as e:
+        print("Cartes non générées :", e)
 
     write("404.html", page("Page introuvable", f'<div class="narrow"><h1>Cette page n’existe pas</h1><p><a href="{url()}">Revenir à l’accueil</a>.</p></div>'))
 

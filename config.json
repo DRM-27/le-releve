@@ -20,5 +20,12 @@
   "verification": {
     "google": "",
     "bing": ""
+  },
+  "newsletter": {
+    "beehiivEmbedUrl": "",
+    "_aide": "Coller ici l'URL d'intégration du formulaire beehiiv (Grow > Subscribe forms > Embed). Vide = page /rapport/ en mode « bientôt »."
+  },
+  "rapport": {
+    "premiereEdition": "2026-11-01"
   }
 }

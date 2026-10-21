@@ -982,3 +982,21 @@ button.btn { font-size: .92rem; padding: .55rem .9rem; } button.btn.share { font
 @media (min-width: 1000px) { .cards.grid-ex.n5 { grid-template-columns: repeat(5, minmax(0, 1fr)); } .cards.grid-ex.n4 { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
 @media (max-width: 760px) { .site-head.open nav .search input { padding: .7rem .8rem .7rem 34px; background-position: 12px 50%; } }
 .cards.grid-ex .card p { display: block; -webkit-line-clamp: unset; overflow: visible; }
+
+/* ---------- page rapport ---------- */
+.rp-hero { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 2.5rem; align-items: start; margin-bottom: 2rem; }
+.rapport .kicker { font-size: .78rem; text-transform: uppercase; letter-spacing: .12em; color: var(--hi); font-weight: 700; margin-bottom: .4rem; }
+.rapport h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); letter-spacing: -.03em; margin-bottom: .6rem; }
+.rp-points { list-style: none; padding: 0; margin: 1.2rem 0 0; display: grid; gap: .55rem; }
+.rp-points li { padding-left: 1.6rem; position: relative; color: var(--ink-2); }
+.rp-points li::before { content: ""; position: absolute; left: 0; top: .45em; width: .7rem; height: .7rem; border-radius: 50%; background: rgba(16,185,129,.2); box-shadow: inset 0 0 0 3px #10b981; }
+.rp-form { background: rgba(21, 29, 42, .7); border: 1px solid var(--ds-line-2); border-radius: 14px; padding: 1.4rem; }
+.rp-form h2 { font-size: 1.25rem; margin: .6rem 0 .5rem; }
+.rp-form p { color: var(--ink-2); font-size: .95rem; }
+.rp-som { counter-reset: s; list-style: none; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .6rem 1.5rem; }
+.rp-som li { counter-increment: s; padding: .75rem .9rem .75rem 3rem; position: relative; border: 1px solid var(--ds-line); border-radius: 10px; background: rgba(21,29,42,.45); }
+.rp-som li::before { content: counter(s, decimal-leading-zero); position: absolute; left: .9rem; top: .75rem; font-family: var(--ds-mono); color: var(--hi); font-weight: 700; font-size: .85rem; }
+@media (max-width: 760px) { .rp-hero, .rp-som { grid-template-columns: 1fr; } }
+.cartes { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1.2rem; margin-top: 1.5rem; }
+.carte img { width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--ds-line); display: block; }
+.carte figcaption { font-size: .85rem; color: var(--ds-text-2); margin-top: .5rem; }
