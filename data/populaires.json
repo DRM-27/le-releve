@@ -1,14 +1,14 @@
 {
- "genere": "2026-10-21T18:06:51Z",
+ "genere": "2026-10-21T18:15:31Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/le-releve/",
-   "vues": 26
+   "vues": 27
   },
   {
    "path": "/le-releve/classement/",
-   "vues": 14
+   "vues": 16
   },
   {
    "path": "/le-releve/comparer/",
@@ -27,11 +27,11 @@
    "vues": 6
   },
   {
-   "path": "/le-releve/articles/",
-   "vues": 3
+   "path": "/le-releve/tendances/",
+   "vues": 4
   },
   {
-   "path": "/le-releve/tendances/",
+   "path": "/le-releve/articles/",
    "vues": 3
   },
   {
@@ -43,15 +43,7 @@
    "vues": 2
   },
   {
-   "path": "/le-releve/brouillons/2026-10-21-jeux-oeufs/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/genres/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/articles/2026-10-21-jeux-oeufs/",
+   "path": "/le-releve/mises-a-jour/",
    "vues": 1
   },
   {
@@ -63,23 +55,31 @@
    "vues": 1
   },
   {
-   "path": "/le-releve/genres/simulation/",
+   "path": "/le-releve/jeux/steal-a-brainrot-7709344486/",
    "vues": 1
   },
   {
-   "path": "/le-releve/mises-a-jour/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/jeux/article-10769149947/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/monetisation/",
+   "path": "/le-releve/articles/2026-10-21-jeux-oeufs/",
    "vues": 1
   },
   {
    "path": "/le-releve/brouillons/2026-10-21-records-2025/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/brouillons/2026-10-21-jeux-oeufs/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/genres/simulation/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/brouillons/2026-10-21-halloween/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/jeux/article-10769149947/",
    "vues": 1
   }
  ]
