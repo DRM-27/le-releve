@@ -1,0 +1,15 @@
+{
+  "name": "Le Relevé",
+  "tagline": "L’économie de Roblox, en chiffres vérifiables",
+  "description": "Média de données indépendant sur Roblox : classements, tendances et analyses calculés à partir de relevés publics, avec chaque chiffre relié à sa source.",
+  "baseUrl": "https://drm-27.github.io/le-releve",
+  "repo": "DRM-27/le-releve",
+  "lang": "fr",
+  "tz": "Europe/Paris",
+  "validationUntil": "2026-11-06",
+  "tracking": {
+    "maxGames": 1500,
+    "keepDaysAfterSort": 14,
+    "moversMinAvg": 1000
+  }
+}
