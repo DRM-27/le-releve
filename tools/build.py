@@ -17,7 +17,8 @@ import markdown
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import charts
-from common import (CONFIG, DATA, FACTS, ROOT, TZ, UTC, fr_date, fr_hour, fr_int, github_blob, github_tree, load_games,
+import explore
+from common import (CONFIG, DATA, FACTS, ROOT, TZ, UTC, fr_date, fr_hour, fr_int, fr_pct, github_blob, github_tree, load_games,
                     parse_iso, read_csv, snap_path, utc_now)
 from facts import GENRES_FR
 from verify import GRAPH, TOKEN, fact_for, load_facts, parse, verify
@@ -44,7 +45,10 @@ def abs_url(path=""):
 def page(title, body, desc="", path="", extra_head=""):
     full = f"{title} | {NAME}" if title != NAME else NAME
     canon = f'<link rel="canonical" href="{esc(abs_url(path))}">' if BASE_URL else ""
-    nav = [("", "Articles"), ("classement/", "Classement en direct"), ("methode/", "Méthode")]
+    nav = [("", "Articles"), ("classement/", "Classement en direct"), ("alertes/", "Alertes"), ("comparer/", "Comparer"), ("methode/", "Méthode")]
+    an = CONFIG.get("analytics", {})
+    beacon = (f'<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon=\'{{"token": "{esc(an["cloudflareToken"])}"}}\'></script>'
+              if an.get("cloudflareToken") else "")
     links = "".join(f'<a href="{url(p)}"{" aria-current=page" if path == p else ""}>{t}</a>' for p, t in nav)
     return f"""<!doctype html>
 <html lang="fr">
@@ -77,9 +81,11 @@ def page(title, body, desc="", path="", extra_head=""):
   <p><strong>{esc(NAME)}</strong> : {esc(CONFIG['tagline'])}.</p>
   <p>Média indépendant, non affilié à Roblox Corporation. Roblox est une marque de Roblox Corporation.</p>
   <p>Articles rédigés automatiquement à partir de données publiques, chiffres vérifiés par programme.
-  <a href="{url('methode/')}">Méthode</a>, <a href="{url('corrections/')}">corrections</a>, <a href="{url('mentions-legales/')}">mentions légales</a>, <a href="{url('feed.xml')}">flux RSS</a>, <a href="{esc(github_tree('data'))}">données ouvertes</a>.</p>
+  <a href="{url('methode/')}">Méthode</a>, <a href="{url('corrections/')}">corrections</a>, <a href="{url('mentions-legales/')}">mentions légales</a>, <a href="{url('feed.xml')}">flux RSS</a>, <a href="{url('donnees/')}">données ouvertes et API</a>, <a href="{url('partenaires/')}">partenaires</a>.</p>
+  <p>Mesure d’audience anonyme, sans cookie.</p>
 </footer>
 <script src="{url('assets/app.js')}" defer></script>
+{beacon}
 </body>
 </html>
 """
@@ -191,6 +197,8 @@ def live_data(limit=100):
         return None
     games = load_games()
     ts, last = snaps[-1]
+    prev = snaps[-2][1] if len(snaps) > 1 and 1800 <= (ts - snaps[-2][0]).total_seconds() <= 3 * 3600 else None
+    prev_rank = {u: i + 1 for i, u in enumerate(sorted(prev, key=lambda u: -int(prev[u]["playing"] or 0)))} if prev else {}
     window = [s for s in snaps if (ts - s[0]).total_seconds() <= 24 * 3600]
     ranked = sorted(last.values(), key=lambda r: -int(r["playing"] or 0))[:limit]
     rows = []
@@ -200,18 +208,41 @@ def live_data(limit=100):
         g = games.get(u, {})
         rows.append({"rang": i, "uid": u, "nom": g.get("name", u), "createur": g.get("creator_name", ""),
                      "genre": GENRES_FR.get(g.get("genre_l1", ""), g.get("genre_l1", "")), "place": g.get("root_place_id", ""),
-                     "maintenant": int(r["playing"] or 0), "pic24": max(series) if series else 0, "serie": series})
+                     "maintenant": int(r["playing"] or 0), "pic24": max(series) if series else 0, "serie": series,
+                     "slug": explore.game_slug(u, g.get("name", u)),
+                     "var": (int(r["playing"] or 0) / int(prev[u]["playing"]) - 1) if prev and u in prev and int(prev[u]["playing"] or 0) > 0 else None,
+                     "rang_avant": prev_rank.get(u) if prev else None, "has_prev": bool(prev)})
     return {"ts": ts, "rows": rows, "file": str(snap_path("snapshots", ts).relative_to(DATA.parent)) if str(DATA).startswith(str(ROOT)) else "data/snapshots"}
+
+
+def move_html(r):
+    if not r.get("has_prev"):
+        return ""
+    if r["rang_avant"] is None or r["rang_avant"] > 100:
+        return '<span class="mv new" title="Nouveau dans le top 100">nouveau</span>'
+    d = r["rang_avant"] - r["rang"]
+    if d > 0:
+        return f'<span class="mv up" title="Gagne {d} place(s) en une heure">↑{d}</span>'
+    if d < 0:
+        return f'<span class="mv down" title="Perd {-d} place(s) en une heure">↓{-d}</span>'
+    return ""
+
+
+def var_html(r):
+    v = r.get("var")
+    if v is None:
+        return ""
+    cls = "up" if v >= 0.005 else ("down" if v <= -0.005 else "flat")
+    return f'<span class="var {cls}" title="Variation sur une heure">{esc(fr_pct(v))}</span>'
 
 
 def live_table(live, compact_rows=None):
     rows = live["rows"][:compact_rows] if compact_rows else live["rows"]
     trs = []
     for r in rows:
-        link = f"https://www.roblox.com/games/{r['place']}" if r["place"] else ""
-        name = f'<a href="{esc(link)}" rel="nofollow">{esc(r["nom"])}</a>' if link else esc(r["nom"])
-        trs.append(f'<tr><td class="num rank">{r["rang"]}</td><td class="game">{name}<span class="sub">{esc(r["createur"])}</span></td>'
-                   f'<td class="num" data-v="{r["maintenant"]}">{fr_int(r["maintenant"])}</td>'
+        name = f'<a href="{url("jeux/" + r["slug"] + "/")}">{esc(r["nom"])}</a>'
+        trs.append(f'<tr><td class="num rank">{r["rang"]}{move_html(r)}</td><td class="game">{name}<span class="sub">{esc(r["createur"])}</span></td>'
+                   f'<td class="num" data-v="{r["maintenant"]}">{fr_int(r["maintenant"])}{var_html(r)}</td>'
                    f'<td class="num hide-s" data-v="{r["pic24"]}">{fr_int(r["pic24"])}</td>'
                    f'<td class="spark-cell hide-s">{charts.sparkline(r["serie"])}</td>'
                    f'<td class="hide-m">{esc(r["genre"])}</td></tr>')
@@ -224,6 +255,26 @@ def live_table(live, compact_rows=None):
 def stamp(live):
     t = live["ts"]
     return f"Relevé du {fr_date(t.astimezone(TZ).date(), weekday=False)} à {fr_hour(t)}, heure de Paris"
+
+
+def headline(arts):
+    """Bannière « À la une » : l'article le plus lu des 7 derniers jours si la mesure d'audience est branchée, sinon le dernier."""
+    if not arts:
+        return ""
+    pick, label = arts[0], "Dernier article"
+    pop = DATA / "populaires.json"
+    if pop.exists():
+        try:
+            paths = [x["path"] for x in json.loads(pop.read_text(encoding="utf-8")).get("pages", [])]
+            by_path = {url("articles/" + a["slug"] + "/"): a for a in arts}
+            for pth in paths:
+                if pth in by_path:
+                    pick, label = by_path[pth], "Le plus lu cette semaine"
+                    break
+        except (ValueError, KeyError):
+            pass
+    return (f'<a class="une" href="{url("articles/" + pick["slug"] + "/")}"><span class="une-label">{label}</span>'
+            f'<span class="une-title">{esc(pick["title"])}</span></a>')
 
 
 # ---------------------------------------------------------------- pages
@@ -251,7 +302,7 @@ def build(drafts=False):
     pulse = ""
     if live:
         top = live["rows"][:5]
-        items = "".join(f'<li><span class="p-rank">{r["rang"]}</span><span class="p-name">{esc(r["nom"])}</span>'
+        items = "".join(f'<li><span class="p-rank">{r["rang"]}</span><a class="p-name" href="{url("jeux/" + r["slug"] + "/")}">{esc(r["nom"])}</a>'
                         f'<span class="p-val">{fr_int(r["maintenant"])}</span>{charts.sparkline(r["serie"], 96, 24)}</li>' for r in top)
         pulse = (f'<section class="pulse" aria-labelledby="pulse-h"><h2 id="pulse-h">En ce moment sur Roblox</h2>'
                  f'<p class="stamp">{esc(stamp(live))}. Joueurs en ligne par jeu.</p><ol>{items}</ol>'
@@ -263,13 +314,14 @@ def build(drafts=False):
         since = status.get("lastRunAt", "")
         feed = ('<div class="empty"><h2>Les premiers relevés sont en cours</h2><p>Un article paraît chaque matin dès qu’une '
                 'journée complète de relevés est disponible. En attendant, le classement se met à jour toutes les heures.</p></div>')
-    intro = (f'<section class="intro"><h1>{esc(CONFIG["tagline"])}</h1><p>{esc(CONFIG["description"])}</p></section>')
+    une = headline(arts)
+    intro = une + (f'<section class="intro"><h1>{esc(CONFIG["tagline"])}</h1><p>{esc(CONFIG["description"])}</p></section>')
     write("index.html", page(NAME, f'<div class="home">{intro}{pulse}<section class="feed" aria-label="Derniers articles">{feed}</section></div>', path=""))
 
     write("articles/index.html", page("Tous les articles", f'<div class="narrow"><h1>Tous les articles</h1><ol class="cards">{"".join(card(a) for a in arts)}</ol></div>', path="articles/"))
 
     if live:
-        body = (f'<div class="wide"><h1>Classement en direct</h1><p class="lede">Les 100 jeux Roblox qui comptent le plus de joueurs '
+        body = headline(arts) + (f'<div class="wide"><h1>Classement en direct</h1><p class="lede">Les 100 jeux Roblox qui comptent le plus de joueurs '
                 f'en ligne. {esc(stamp(live))}, mis à jour toutes les heures.</p>{live_table(live)}'
                 f'<p class="note">Source : API web publiques de Roblox, <a href="{esc(github_tree("data/snapshots"))}">relevés horaires archivés</a>. '
                 f'Le pic sur 24 h est le plus haut des relevés horaires : le pic réel peut être un peu plus élevé. Jeux sponsorisés exclus des classements.</p></div>')
@@ -278,12 +330,32 @@ def build(drafts=False):
     write("classement/index.html", page("Classement en direct des jeux Roblox", body,
                                         "Les 100 jeux Roblox les plus joués en ce moment, mis à jour toutes les heures.", "classement/"))
 
+    # exploration : pages par jeu, comparateur, alertes, API
+    recs, latest_ts = explore.build_records()
+    indexable = []
+    for rec in recs:
+        html_, ok = explore.game_page(rec, page, url)
+        write(f"jeux/{rec['slug']}/index.html", html_)
+        if ok:
+            indexable.append(f"jeux/{rec['slug']}/")
+    if recs:
+        write("comparer/index.html", explore.compare_page(recs, page, url))
+    alerts = list(reversed(read_csv(DATA / "alertes.csv")))
+    write("alertes/index.html", explore.alerts_page(alerts, page, url))
+    write("alertes.xml", explore.alerts_feed(alerts, abs_url))
+    write("donnees/index.html", explore.data_page(page, url))
+    prev_ranks = {r["uid"]: {"var": round(r["var"], 4) if r.get("var") is not None else None, "rang": r.get("rang_avant")} for r in (live["rows"] if live else [])}
+    for path_, content in explore.api_files(recs, latest_ts, alerts, prev_ranks).items():
+        write(path_, content)
+
     for name, title, desc in (("methode", "Méthode", "Comment nous relevons, calculons et vérifions chaque chiffre."),
+                              ("partenaires", "Partenaires", "Annoncer auprès des pros de Roblox, études et données sur mesure."),
                               ("corrections", "Corrections", "Les erreurs signalées et leur correction."),
                               ("mentions-legales", "Mentions légales", "Éditeur, hébergeur et données personnelles.")):
         src = CONTENT / f"{name}.md"
         text = src.read_text(encoding="utf-8") if src.exists() else ""
-        text = text.replace("{{depot}}", github_tree("")).replace("{{donnees}}", github_tree("data")).replace("{{nom}}", NAME)
+        text = text.replace("{{depot}}", github_tree("")).replace("{{donnees}}", github_tree("data")).replace("{{nom}}", NAME).replace(
+            "{{contact}}", f"[{CONFIG['contact']}](mailto:{CONFIG['contact']})" if CONFIG.get("contact") else "L’adresse de contact arrive très bientôt.")
         write(f"{name}/index.html", page(title, f'<div class="narrow prose page">{markdown.markdown(text, extensions=["extra"])}</div>', desc, f"{name}/"))
 
     write("404.html", page("Page introuvable", f'<div class="narrow"><h1>Cette page n’existe pas</h1><p><a href="{url()}">Revenir à l’accueil</a>.</p></div>'))
@@ -298,12 +370,13 @@ def build(drafts=False):
     write("feed.xml", f'<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">'
                       f"<channel><title>{esc(NAME)}</title><link>{esc(abs_url())}</link><description>{esc(CONFIG['description'])}</description>"
                       f"<language>fr</language>{items}</channel></rss>")
-    urls = [abs_url(p) for p in ("", "classement/", "methode/", "articles/")] + [abs_url("articles/" + a["slug"] + "/") for a in arts]
+    urls = ([abs_url(p) for p in ("", "classement/", "alertes/", "comparer/", "donnees/", "methode/", "articles/", "partenaires/")]
+            + [abs_url("articles/" + a["slug"] + "/") for a in arts] + [abs_url(p) for p in indexable])
     write("sitemap.xml", '<?xml version="1.0" encoding="utf-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
                          + "".join(f"<url><loc>{esc(u)}</loc></url>" for u in urls) + "</urlset>")
     write("robots.txt", f"User-agent: *\nAllow: /\nDisallow: /brouillons/\nSitemap: {abs_url('sitemap.xml')}\n")
     (OUT / ".nojekyll").write_text("")
-    print(f"Site construit : {len(arts)} article(s), classement {'à jour' if live else 'vide'}.")
+    print(f"Site construit : {len(arts)} article(s), {len(recs)} pages de jeux ({len(indexable)} indexées), {len(alerts)} alerte(s), classement {'à jour' if live else 'vide'}.")
     for a in arts:
         for w in a["warnings"]:
             print(f"  ⚠ {a['slug']} : {w}")

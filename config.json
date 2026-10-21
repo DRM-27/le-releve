@@ -11,5 +11,10 @@
     "maxGames": 1500,
     "keepDaysAfterSort": 14,
     "moversMinAvg": 1000
+  },
+  "contact": "",
+  "analytics": {
+    "cloudflareToken": "",
+    "cloudflareSiteTag": ""
   }
 }

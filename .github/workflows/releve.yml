@@ -33,6 +33,15 @@ jobs:
         continue-on-error: true
         run: python tools/collect.py
 
+      - name: Alertes (mouvements forts sur une heure)
+        run: python tools/alerts.py || true
+
+      - name: Pages les plus lues (si la mesure d'audience est branchée)
+        env:
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+        run: python tools/analytics.py || true
+
       - name: Faits de la veille (heure de Paris)
         run: python tools/facts.py || echo "Pas encore de journée complète."
 

@@ -12,7 +12,7 @@ GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis
 
 ## Données personnelles et cookies
 
-Ce site ne dépose aucun cookie et ne mesure pas l’audience. Il ne collecte aucune donnée personnelle.
+Ce site ne dépose aucun cookie et ne collecte aucune donnée personnelle. La mesure d’audience, quand elle est active, passe par Cloudflare Web Analytics : sans cookie, sans identifiant persistant et sans suivi d’un site à l’autre. Elle ne compte que des pages vues, de façon agrégée.
 
 ## Contenus
 

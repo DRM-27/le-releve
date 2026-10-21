@@ -83,3 +83,55 @@
     });
   });
 })();
+
+/* Comparateur de deux jeux */
+(function () {
+  var form = document.getElementById('compare');
+  if (!form) return;
+  var fig = document.getElementById('compare-chart'), api = fig.dataset.api;
+  var plot = document.getElementById('compare-plot'), legend = document.getElementById('compare-legend');
+  var title = document.getElementById('compare-title'), stats = document.getElementById('compare-stats');
+  var nf = new Intl.NumberFormat('fr-FR'), cache = {};
+  var q = new URLSearchParams(location.search);
+  var a = form.elements.a, b = form.elements.b;
+  a.value = q.get('a') || form.dataset.a || a.value;
+  b.value = q.get('b') || (form.dataset.b !== a.value ? form.dataset.b : form.dataset.a) || b.value;
+  function get(id) { return cache[id] ? Promise.resolve(cache[id]) : fetch(api + id + '.json').then(function (r) { return r.json(); }).then(function (d) { cache[id] = d; return d; }); }
+  function esc(s) { var d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+  function draw(ga, gb) {
+    var series = [ga, gb], all = [];
+    series.forEach(function (g) { g.serie.forEach(function (p) { all.push([Date.parse(p[0]), p[1]]); }); });
+    var t0 = Math.min.apply(null, all.map(function (p) { return p[0]; })), t1 = Math.max.apply(null, all.map(function (p) { return p[0]; }));
+    var vmax = Math.max.apply(null, all.map(function (p) { return p[1]; })) || 1;
+    var mag = Math.pow(10, Math.floor(Math.log10(vmax))), top = Math.ceil(vmax / mag) * mag;
+    var W = 1000, H = 300, span = (t1 - t0) || 1, svg = '';
+    series.forEach(function (g, i) {
+      var d = '', prev = null;
+      g.serie.forEach(function (p) {
+        var t = Date.parse(p[0]), x = (t - t0) / span * W, y = H - p[1] / top * H;
+        d += (prev && t - prev <= 3 * 3600e3 ? ' L' : ' M') + x.toFixed(1) + ',' + y.toFixed(1); prev = t;
+      });
+      svg += '<path class="s' + (i + 1) + '" d="' + d + '" vector-effect="non-scaling-stroke"/>';
+    });
+    var grid = '';
+    for (var k = 0; k <= 4; k++) { var v = top * k / 4; grid += '<div class="ytick" style="bottom:' + (k * 25) + '%"><span>' + (v >= 1e6 ? (v / 1e6).toLocaleString('fr-FR') + ' M' : v >= 1e3 ? Math.round(v / 1e3) + ' k' : v) + '</span></div>'; }
+    plot.innerHTML = grid + '<svg viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="none" aria-hidden="true">' + svg + '</svg>';
+    var dfx = new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit', timeZone: 'Europe/Paris' });
+    document.getElementById('compare-x').innerHTML = '<span>' + dfx.format(new Date(t0)) + '</span><span>' + dfx.format(new Date(t1)) + '</span>';
+    legend.innerHTML = series.map(function (g, i) { return '<li><i class="s' + (i + 1) + '"></i>' + esc(g.nom) + '</li>'; }).join('');
+    title.textContent = ga.nom + ' face à ' + gb.nom;
+    stats.innerHTML = series.map(function (g) {
+      return '<div class="stat"><span class="stat-label">' + esc(g.nom) + '</span><span class="stat-value">' + nf.format(g.joueurs) +
+        '</span><span class="stat-note">joueurs au dernier relevé, pic sur 24 h : ' + (g.pic_24h != null ? nf.format(g.pic_24h) : '—') + '</span></div>';
+    }).join('');
+  }
+  function update() {
+    var p = new URLSearchParams({ a: a.value, b: b.value });
+    history.replaceState(null, '', '?' + p.toString());
+    title.textContent = 'Chargement…';
+    Promise.all([get(a.value), get(b.value)]).then(function (r) { draw(r[0], r[1]); })
+      .catch(function () { title.textContent = 'Données indisponibles pour ce jeu. Choisissez-en un autre.'; });
+  }
+  a.addEventListener('change', update); b.addEventListener('change', update);
+  update();
+})();

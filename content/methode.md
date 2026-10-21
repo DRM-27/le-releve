@@ -25,6 +25,14 @@ Tous les chiffres sont calculés par un programme, jamais à la main ni par une 
 
 Un jeu n’est classé que s’il est présent dans au moins la moitié des relevés de la journée. Quand des relevés manquent, l’article l’indique.
 
+## Alertes
+
+À chaque relevé, un programme compare chaque jeu au relevé précédent. Il publie une alerte quand un jeu qui compte au moins 2 000 joueurs gagne 50 % ou plus en une heure, ou quand un jeu entre dans le top 10 depuis l’extérieur du top 20. Un même jeu ne déclenche pas deux fois la même alerte en moins de six heures.
+
+## Pages par jeu et données ouvertes
+
+Chaque jeu suivi a sa page, avec sa courbe horaire et ses chiffres clés. Une page n’est proposée aux moteurs de recherche qu’après sept jours d’historique. Toutes les données sont accessibles librement en JSON et en CSV (voir [Données ouvertes](../donnees/)).
+
 ## Ce que ces chiffres ne disent pas
 
 - Roblox ne publie pas en temps réel le nombre total de joueurs connectés. Le total que nous affichons ne porte que sur les jeux que nous suivons.
