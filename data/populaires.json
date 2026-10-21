@@ -1,17 +1,17 @@
 {
- "genere": "2026-10-21T15:24:17Z",
+ "genere": "2026-10-21T15:46:34Z",
  "periode_jours": 7,
  "pages": [
+  {
+   "path": "/le-releve/",
+   "vues": 3
+  },
   {
    "path": "/le-releve/jeux/steal-an-egg-10563114921/",
    "vues": 2
   },
   {
    "path": "/le-releve/comparer/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/",
    "vues": 2
   },
   {
