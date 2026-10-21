@@ -1,13 +1,17 @@
 {
- "genere": "2026-10-21T16:38:02Z",
+ "genere": "2026-10-21T16:44:08Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/le-releve/",
-   "vues": 5
+   "vues": 6
   },
   {
    "path": "/le-releve/classement/",
+   "vues": 4
+  },
+  {
+   "path": "/le-releve/comparer/",
    "vues": 3
   },
   {
@@ -15,11 +19,15 @@
    "vues": 3
   },
   {
+   "path": "/le-releve/alertes/",
+   "vues": 2
+  },
+  {
    "path": "/le-releve/jeux/steal-an-egg-10563114921/",
    "vues": 2
   },
   {
-   "path": "/le-releve/comparer/",
+   "path": "/le-releve/methode/",
    "vues": 2
   },
   {
@@ -31,15 +39,7 @@
    "vues": 1
   },
   {
-   "path": "/le-releve/alertes/",
-   "vues": 1
-  },
-  {
    "path": "/le-releve/brouillons/2026-10-21-halloween/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/methode/",
    "vues": 1
   },
   {
