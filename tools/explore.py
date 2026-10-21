@@ -46,7 +46,7 @@ def game_record(uid, series, g, rank_now):
     return {"universe_id": uid, "nom": g.get("name", uid), "slug": game_slug(uid, g.get("name", uid)),
             "createur": g.get("creator_name", ""), "createur_verifie": g.get("creator_verified") == "1",
             "genre": GENRES_FR.get(g.get("genre_l1", ""), g.get("genre_l1", "")), "sous_genre": g.get("genre_l2", ""),
-            "place_id": g.get("root_place_id", ""), "cree": g.get("created", "")[:10], "mis_a_jour": g.get("updated", "")[:10],
+            "place_id": g.get("root_place_id", ""), "icon": g.get("icon", ""), "cree": g.get("created", "")[:10], "mis_a_jour": g.get("updated", "")[:10],
             "joueurs": pts[-1][1], "rang": rank_now.get(uid), "releve": iso(ts_last),
             "pic_24h": max(day) if day else None, "moyenne_24h": round(sum(day) / len(day)) if day else None,
             "pic_suivi": best[1], "pic_suivi_date": iso(best[0]), "suivi_depuis": iso(pts[0][0]), "jours_suivis": round(span_days, 1),
@@ -92,7 +92,7 @@ def game_page(rec, page, url):
              ("Créé le", esc(rec["cree"])), ("Dernière mise à jour", esc(rec["mis_a_jour"]))]
     dl = "".join(f"<dt>{k}</dt><dd>{v or '—'}</dd>" for k, v in facts)
     body = (f'<div class="wide game"><p class="crumbs"><a href="{url("classement/")}">Classement</a></p>'
-            f'<h1>{esc(rec["nom"])}</h1><p class="lede">Joueurs en ligne, pics et visites, relevés toutes les heures depuis les API publiques de Roblox.</p>'
+            f'<div class="game-title">' + (f'<img class="gicon big" src="{esc(rec["icon"])}" alt="" width="72" height="72">' if rec["icon"] else "") + f'<h1>{esc(rec["nom"])}</h1></div><p class="lede">Joueurs en ligne, pics et visites, relevés toutes les heures depuis les API publiques de Roblox.</p>'
             f'<div class="stats">{"".join(stats)}</div>{chart}'
             f'<div class="game-meta"><dl>{dl}</dl><div class="game-links">'
             + (f'<a class="btn" href="{esc(roblox)}" rel="nofollow">Ouvrir sur Roblox</a>' if roblox else "")
@@ -118,7 +118,9 @@ def compare_page(recs, page, url):
             f'<span class="chart-note">Joueurs en ligne, relevés horaires, heure de Paris.</span></figcaption>'
             f'<ul class="legend" id="compare-legend"></ul><div class="cmp-plot" id="compare-plot"></div><div class="cmp-x" id="compare-x"></div>'
             f'<div class="chart-foot"><span>Source : relevés horaires des API publiques de Roblox.</span></div></figure>'
-            f'<div class="stats cmp-stats" id="compare-stats"></div></div>')
+            f'<div class="stats cmp-stats" id="compare-stats"></div>'
+            f'<p class="share-row"><button class="btn" type="button" id="share-btn">📋 Partager cette comparaison</button></p></div>'
+            f'<div class="toast" id="toast" role="status" aria-live="polite"></div>')
     return page("Comparer deux jeux Roblox", body, "Comparez la courbe de joueurs en ligne de deux jeux Roblox, heure par heure.", "comparer/")
 
 
@@ -140,6 +142,12 @@ def alerts_page(alerts, page, url):
             f'Seuils : une hausse d’au moins 50 % en une heure pour un jeu qui compte au moins 2 000 joueurs, ou une entrée dans le top 10 '
             f'depuis l’extérieur du top 20.</p>'
             + (f'<ol class="alerts">{"".join(items)}</ol>' if items else '<p class="empty-note">Aucune alerte pour l’instant : elles apparaissent ici dès qu’un jeu décolle.</p>')
+            + f'<section class="follow" id="recevoir"><h2>Recevoir les alertes</h2>'
+            f'<p>Abonnez-vous au flux des alertes dans votre lecteur RSS (Feedly, Inoreader, NetNewsWire…) : vous êtes prévenu dès qu’un jeu décolle.</p>'
+            f'<p><a class="btn" href="{url("alertes.xml")}">S’abonner au flux des alertes</a> '
+            f'<button class="btn ghost" type="button" data-copy="{esc((CONFIG.get("baseUrl") or "") + "/alertes.xml")}">Copier l’adresse du flux</button></p>'
+            f'<p class="note">Un canal Telegram arrive bientôt.</p></section>'
+            f'<div class="toast" id="toast" role="status" aria-live="polite"></div>'
             + f'<p class="note">Flux RSS des alertes : <a href="{url("alertes.xml")}">alertes.xml</a>. Archive complète : '
             f'<a href="{esc(github_tree("data"))}">data/alertes.csv</a>.</p></div>')
     return page("Alertes : les jeux Roblox qui décollent", body, "Les jeux Roblox qui décollent, détectés automatiquement à chaque relevé horaire.", "alertes/")
@@ -158,10 +166,44 @@ def data_page(page, url):
             f'<div class="table-wrap"><table><thead><tr><th>Contenu</th><th>Adresse</th></tr></thead><tbody>{trs}</tbody></table></div>'
             f'<h2>Archives complètes</h2><p>Chaque relevé horaire est archivé en CSV depuis le 21 octobre 2026 dans notre '
             f'<a href="{esc(github_tree("data"))}">dépôt public</a>.</p>'
+            f'<h2>Intégrer le classement sur votre site</h2><p>Un widget gratuit, mis à jour toutes les heures. Copiez ce code dans votre page :</p>'
+            f'<pre class="embed"><code id="embed-code">{esc(embed_code())}</code></pre>'
+            f'<p><button class="btn" type="button" data-copy-from="embed-code">Copier le code</button> <a class="btn ghost" href="{url("widget/")}">Voir le widget</a></p>'
+            f'<div class="toast" id="toast" role="status" aria-live="polite"></div>'
             f'<h2>Licence</h2><p>{esc(LICENCE)}</p>'
             f'<h2>Besoin d’autre chose ?</h2><p>Études sur mesure, séries longues, données par genre : '
             f'<a href="{url("partenaires/")}">travaillons ensemble</a>.</p></div>')
     return page("Données ouvertes et API", body, "Les données du Relevé en accès libre : classement, historique par jeu, alertes.", "donnees/")
+
+
+def embed_code():
+    base = (CONFIG.get("baseUrl") or "").rstrip("/")
+    return (f'<iframe src="{base}/widget/" title="Classement en direct des jeux Roblox, par Le Relevé" '
+            f'width="100%" height="520" style="border:0;max-width:420px" loading="lazy"></iframe>')
+
+
+def widget_page(live, url, abs_url):
+    """Page autonome, sans en-tête, faite pour être intégrée dans une iframe."""
+    rows = live["rows"][:10] if live else []
+    items = "".join(
+        f'<li><span class="w-rank">{r["rang"]}</span>'
+        + (f'<img src="{esc(r["icon"])}" alt="" width="28" height="28" loading="lazy">' if r.get("icon") else '<span class="w-ph"></span>')
+        + f'<a href="{esc(abs_url("jeux/" + r["slug"] + "/"))}" target="_blank" rel="noopener">{esc(r["nom"])}</a>'
+        f'<span class="w-val">{fr_int(r["maintenant"])}</span></li>' for r in rows)
+    when = f"Relevé du {fr_date(live['ts'].astimezone(TZ).date(), weekday=False)} à {fr_hour(live['ts'])}" if live else ""
+    return f"""<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Classement en direct des jeux Roblox | {esc(CONFIG['name'])}</title><meta name="robots" content="noindex">
+<style>
+:root{{color-scheme:light dark;--bg:#fff;--ink:#1b2a41;--mut:#6f7c8b;--rule:#e6ebef;--acc:#1d4fc4}}
+@media (prefers-color-scheme:dark){{:root{{--bg:#16202c;--ink:#e6ecf2;--mut:#8592a1;--rule:#2a3747;--acc:#86a9ff}}}}
+body{{margin:0;background:var(--bg);color:var(--ink);font:14px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif}}
+.w{{border:1px solid var(--rule);border-radius:10px;padding:12px 14px}} h1{{font-size:15px;margin:0 0 2px}} p{{margin:0 0 8px;color:var(--mut);font-size:12px}}
+ol{{list-style:none;margin:0;padding:0}} li{{display:grid;grid-template-columns:20px 28px 1fr auto;gap:8px;align-items:center;padding:6px 0;border-top:1px solid var(--rule)}}
+img,.w-ph{{border-radius:6px;width:28px;height:28px;background:var(--rule)}} a{{color:inherit;text-decoration:none;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}}
+a:hover{{text-decoration:underline}} .w-rank{{color:var(--mut)}} .w-val{{font-weight:700;font-variant-numeric:tabular-nums}}
+.foot{{margin-top:8px;font-size:12px}} .foot a{{color:var(--acc)}}
+</style></head><body><div class="w"><h1>Jeux Roblox les plus joués</h1><p>{esc(when)}, joueurs en ligne</p><ol>{items}</ol>
+<div class="foot">Classement : <a href="{esc(abs_url('classement/'))}" target="_blank" rel="noopener">{esc(CONFIG['name'])}</a>, données vérifiables</div></div></body></html>"""
 
 
 def api_files(recs, latest_ts, alerts, prev_ranks):

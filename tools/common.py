@@ -18,7 +18,7 @@ NNBSP = " "  # espace fine insécable : séparateur de milliers et avant % en 
 SNAP_FIELDS = ["ts_utc", "universe_id", "playing", "visits", "favorites", "up_votes", "down_votes"]
 SORT_FIELDS = ["ts_utc", "sort_id", "position", "universe_id", "player_count", "is_sponsored"]
 GAME_FIELDS = ["universe_id", "root_place_id", "name", "creator_name", "creator_type", "creator_verified",
-               "genre_l1", "genre_l2", "created", "updated", "max_players", "first_seen", "last_in_sort"]
+               "genre_l1", "genre_l2", "created", "updated", "max_players", "first_seen", "last_in_sort", "icon"]
 
 
 # ---------- temps ----------

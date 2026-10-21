@@ -120,8 +120,8 @@
     document.getElementById('compare-x').innerHTML = '<span>' + dfx.format(new Date(t0)) + '</span><span>' + dfx.format(new Date(t1)) + '</span>';
     legend.innerHTML = series.map(function (g, i) { return '<li><i class="s' + (i + 1) + '"></i>' + esc(g.nom) + '</li>'; }).join('');
     title.textContent = ga.nom + ' face à ' + gb.nom;
-    stats.innerHTML = series.map(function (g) {
-      return '<div class="stat"><span class="stat-label">' + esc(g.nom) + '</span><span class="stat-value">' + nf.format(g.joueurs) +
+    stats.innerHTML = series.map(function (g, i) {
+      return '<div class="stat c' + (i + 1) + '"><span class="stat-label">' + esc(g.nom) + '</span><span class="stat-value">' + nf.format(g.joueurs) +
         '</span><span class="stat-note">joueurs au dernier relevé, pic sur 24 h : ' + (g.pic_24h != null ? nf.format(g.pic_24h) : '—') + '</span></div>';
     }).join('');
   }
@@ -134,4 +134,36 @@
   }
   a.addEventListener('change', update); b.addEventListener('change', update);
   update();
+})();
+
+/* Lignes cliquables, copie de liens, notifications */
+(function () {
+  document.querySelectorAll('tr[data-href]').forEach(function (tr) {
+    tr.addEventListener('click', function (e) { if (e.target.closest('a,button')) return; location.href = tr.dataset.href; });
+  });
+  var toast = document.getElementById('toast');
+  function notify(msg) {
+    if (!toast) return;
+    toast.textContent = msg; toast.classList.add('show');
+    clearTimeout(notify.t); notify.t = setTimeout(function () { toast.classList.remove('show'); }, 2200);
+  }
+  function copy(text, ok) {
+    var done = function () { notify(ok); };
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done, function () { fallback(text); done(); });
+    else { fallback(text); done(); }
+  }
+  function fallback(text) {
+    var ta = document.createElement('textarea'); ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta); ta.select(); try { document.execCommand('copy'); } catch (e) {} ta.remove();
+  }
+  var share = document.getElementById('share-btn');
+  if (share) share.addEventListener('click', function () {
+    var data = { title: document.title, url: location.href };
+    if (navigator.share && matchMedia('(pointer: coarse)').matches) navigator.share(data).catch(function () {});
+    else copy(location.href, 'Lien copié !');
+  });
+  document.querySelectorAll('[data-copy]').forEach(function (b) { b.addEventListener('click', function () { copy(b.dataset.copy, 'Adresse copiée !'); }); });
+  document.querySelectorAll('[data-copy-from]').forEach(function (b) {
+    b.addEventListener('click', function () { copy(document.getElementById(b.dataset.copyFrom).textContent, 'Code copié !'); });
+  });
 })();

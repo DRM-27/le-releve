@@ -24,6 +24,7 @@ from common import (CONFIG, DATA, GAME_FIELDS, SNAP_FIELDS, SORT_FIELDS, iso, lo
 UA = "LeReleveBot/1.0 (media de donnees; releves horaires publics)"
 EXPLORE = "https://apis.roblox.com/explore-api/v1"
 GAMES = "https://games.roblox.com/v1/games"
+ICONS = "https://thumbnails.roblox.com/v1/games/icons"
 BATCH = 50
 errors = []
 
@@ -140,6 +141,14 @@ def main():
                    creator_verified=int(bool(creator.get("hasVerifiedBadge"))),
                    genre_l1=g.get("genre_l1", ""), genre_l2=g.get("genre_l2", ""),
                    created=g.get("created", ""), updated=g.get("updated", ""), max_players=g.get("maxPlayers", ""))
+
+    # Icône officielle de chaque jeu (adresse sur le CDN de Roblox)
+    for part in chunks(list(details), BATCH):
+        ic = get_json(f"{ICONS}?universeIds={','.join(part)}&returnPolicy=PlaceHolder&size=150x150&format=Png&isCircular=false") or {}
+        for x in ic.get("data") or []:
+            if x.get("state") == "Completed" and x.get("imageUrl", "").startswith("https://"):
+                games[str(x["targetId"])]["icon"] = x["imageUrl"]
+        time.sleep(0.3)
 
     # Limite de taille : on garde les jeux les plus joués si la liste déborde
     if len(games) > max_games:

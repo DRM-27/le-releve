@@ -72,7 +72,7 @@ def page(title, body, desc="", path="", extra_head=""):
 <a class="skip" href="#contenu">Aller au contenu</a>
 <header class="site-head">
   <a class="wordmark" href="{url()}"><span class="mark" aria-hidden="true"></span>{esc(NAME)}</a>
-  <nav aria-label="Navigation principale">{links}</nav>
+  <nav aria-label="Navigation principale">{links}<a class="bell" href="{url('alertes/#recevoir')}">🔔 Recevoir les alertes</a></nav>
 </header>
 <main id="contenu">
 {body}
@@ -209,7 +209,7 @@ def live_data(limit=100):
         rows.append({"rang": i, "uid": u, "nom": g.get("name", u), "createur": g.get("creator_name", ""),
                      "genre": GENRES_FR.get(g.get("genre_l1", ""), g.get("genre_l1", "")), "place": g.get("root_place_id", ""),
                      "maintenant": int(r["playing"] or 0), "pic24": max(series) if series else 0, "serie": series,
-                     "slug": explore.game_slug(u, g.get("name", u)),
+                     "slug": explore.game_slug(u, g.get("name", u)), "icon": g.get("icon", ""),
                      "var": (int(r["playing"] or 0) / int(prev[u]["playing"]) - 1) if prev and u in prev and int(prev[u]["playing"] or 0) > 0 else None,
                      "rang_avant": prev_rank.get(u) if prev else None, "has_prev": bool(prev)})
     return {"ts": ts, "rows": rows, "file": str(snap_path("snapshots", ts).relative_to(DATA.parent)) if str(DATA).startswith(str(ROOT)) else "data/snapshots"}
@@ -233,15 +233,22 @@ def var_html(r):
     if v is None:
         return ""
     cls = "up" if v >= 0.005 else ("down" if v <= -0.005 else "flat")
-    return f'<span class="var {cls}" title="Variation sur une heure">{esc(fr_pct(v))}</span>'
+    return f'<span class="pill {cls}" title="Variation sur une heure">{esc(fr_pct(v))}</span>'
+
+
+def icon_html(r, size=36):
+    if not r.get("icon"):
+        return f'<span class="gicon ph" style="width:{size}px;height:{size}px" aria-hidden="true"></span>'
+    return f'<img class="gicon" src="{esc(r["icon"])}" alt="" width="{size}" height="{size}" loading="lazy" decoding="async">'
 
 
 def live_table(live, compact_rows=None):
     rows = live["rows"][:compact_rows] if compact_rows else live["rows"]
     trs = []
     for r in rows:
-        name = f'<a href="{url("jeux/" + r["slug"] + "/")}">{esc(r["nom"])}</a>'
-        trs.append(f'<tr><td class="num rank">{r["rang"]}{move_html(r)}</td><td class="game">{name}<span class="sub">{esc(r["createur"])}</span></td>'
+        href = url("jeux/" + r["slug"] + "/")
+        name = f'<a href="{href}">{esc(r["nom"])}</a>'
+        trs.append(f'<tr data-href="{href}"><td class="num rank">{r["rang"]}{move_html(r)}</td><td class="game"><div class="gcell">{icon_html(r)}<div>{name}<span class="sub">{esc(r["createur"])}</span></div></div></td>'
                    f'<td class="num" data-v="{r["maintenant"]}">{fr_int(r["maintenant"])}{var_html(r)}</td>'
                    f'<td class="num hide-s" data-v="{r["pic24"]}">{fr_int(r["pic24"])}</td>'
                    f'<td class="spark-cell hide-s">{charts.sparkline(r["serie"])}</td>'
@@ -302,8 +309,8 @@ def build(drafts=False):
     pulse = ""
     if live:
         top = live["rows"][:5]
-        items = "".join(f'<li><span class="p-rank">{r["rang"]}</span><a class="p-name" href="{url("jeux/" + r["slug"] + "/")}">{esc(r["nom"])}</a>'
-                        f'<span class="p-val">{fr_int(r["maintenant"])}</span>{charts.sparkline(r["serie"], 96, 24)}</li>' for r in top)
+        items = "".join(f'<li><span class="p-rank">{r["rang"]}{move_html(r)}</span><span class="p-id">{icon_html(r, 28)}<a class="p-name" href="{url("jeux/" + r["slug"] + "/")}">{esc(r["nom"])}</a></span>'
+                        f'<span class="p-val">{fr_int(r["maintenant"])}{var_html(r)}</span>{charts.sparkline(r["serie"], 96, 24)}</li>' for r in top)
         pulse = (f'<section class="pulse" aria-labelledby="pulse-h"><h2 id="pulse-h">En ce moment sur Roblox</h2>'
                  f'<p class="stamp">{esc(stamp(live))}. Joueurs en ligne par jeu.</p><ol>{items}</ol>'
                  f'<a class="more" href="{url("classement/")}">Voir le classement des 100 premiers</a></section>')
@@ -312,8 +319,12 @@ def build(drafts=False):
                 + (f'<p class="more"><a href="{url("articles/")}">Tous les articles</a></p>' if len(arts) > 12 else ""))
     else:
         since = status.get("lastRunAt", "")
-        feed = ('<div class="empty"><h2>Les premiers relevés sont en cours</h2><p>Un article paraît chaque matin dès qu’une '
-                'journée complète de relevés est disponible. En attendant, le classement se met à jour toutes les heures.</p></div>')
+        skel = "".join('<li class="card skel" aria-hidden="true"><span class="sk sk-t"></span><span class="sk sk-t short"></span>'
+                       '<span class="sk sk-p"></span><span class="sk sk-p"></span><span class="sk sk-m"></span></li>' for _ in range(3))
+        feed = ('<div class="empty"><h2>Le premier relevé quotidien arrive vendredi matin</h2><p>Chaque matin, un article sur la veille, '
+                'calculé à partir d’une journée complète de relevés. En attendant, le classement, les pages de jeux et les alertes se mettent à jour toutes les heures.</p>'
+                f'<p class="empty-links"><a class="btn" href="{url("classement/")}">Voir le classement en direct</a> <a class="btn ghost" href="{url("comparer/")}">Comparer deux jeux</a></p></div>'
+                f'<ol class="cards skel-list">{skel}</ol>')
     une = headline(arts)
     intro = une + (f'<section class="intro"><h1>{esc(CONFIG["tagline"])}</h1><p>{esc(CONFIG["description"])}</p></section>')
     write("index.html", page(NAME, f'<div class="home">{intro}{pulse}<section class="feed" aria-label="Derniers articles">{feed}</section></div>', path=""))
@@ -344,6 +355,7 @@ def build(drafts=False):
     write("alertes/index.html", explore.alerts_page(alerts, page, url))
     write("alertes.xml", explore.alerts_feed(alerts, abs_url))
     write("donnees/index.html", explore.data_page(page, url))
+    write("widget/index.html", explore.widget_page(live, url, abs_url))
     prev_ranks = {r["uid"]: {"var": round(r["var"], 4) if r.get("var") is not None else None, "rang": r.get("rang_avant")} for r in (live["rows"] if live else [])}
     for path_, content in explore.api_files(recs, latest_ts, alerts, prev_ranks).items():
         write(path_, content)
@@ -374,7 +386,7 @@ def build(drafts=False):
             + [abs_url("articles/" + a["slug"] + "/") for a in arts] + [abs_url(p) for p in indexable])
     write("sitemap.xml", '<?xml version="1.0" encoding="utf-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
                          + "".join(f"<url><loc>{esc(u)}</loc></url>" for u in urls) + "</urlset>")
-    write("robots.txt", f"User-agent: *\nAllow: /\nDisallow: /brouillons/\nSitemap: {abs_url('sitemap.xml')}\n")
+    write("robots.txt", f"User-agent: *\nAllow: /\nDisallow: /brouillons/\nDisallow: /widget/\nSitemap: {abs_url('sitemap.xml')}\n")
     (OUT / ".nojekyll").write_text("")
     print(f"Site construit : {len(arts)} article(s), {len(recs)} pages de jeux ({len(indexable)} indexées), {len(alerts)} alerte(s), classement {'à jour' if live else 'vide'}.")
     for a in arts:
