@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-21",
- "genere": "2026-10-22T20:35:19Z",
+ "genere": "2026-10-22T21:34:51Z",
  "couverture": {
   "releves": 9,
   "attendus": 24
@@ -4383,57 +4383,57 @@
    "src": "data/jours/2026-10-21.csv#L71"
   },
   "g.10769384180.nom": {
-   "v": "Fake an Egg",
-   "d": "Fake an Egg",
-   "l": "Fake an Egg : nom",
+   "v": "[30 MIN] Fake an Egg",
+   "d": "[30 MIN] Fake an Egg",
+   "l": "[30 MIN] Fake an Egg : nom",
    "src": "data/jours/2026-10-21.csv#L72"
   },
   "g.10769384180.rang": {
    "v": 71,
    "d": "71e",
-   "l": "Fake an Egg : rang au pic du jour",
+   "l": "[30 MIN] Fake an Egg : rang au pic du jour",
    "src": "data/jours/2026-10-21.csv#L72"
   },
   "g.10769384180.pic": {
    "v": 20677,
    "d": "20 677",
-   "l": "Fake an Egg : pic de joueurs simultanés relevé",
+   "l": "[30 MIN] Fake an Egg : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-21.csv#L72"
   },
   "g.10769384180.heure_pic": {
    "v": "15:36",
    "d": "15 h 36",
-   "l": "Fake an Egg : heure (Paris) du pic relevé",
+   "l": "[30 MIN] Fake an Egg : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-21.csv#L72"
   },
   "g.10769384180.moy": {
    "v": 17437,
    "d": "17 437",
-   "l": "Fake an Egg : moyenne des joueurs simultanés sur la journée",
+   "l": "[30 MIN] Fake an Egg : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-21.csv#L72"
   },
   "g.10769384180.createur": {
    "v": "Slime Time Studios",
    "d": "Slime Time Studios",
-   "l": "Fake an Egg : créateur",
+   "l": "[30 MIN] Fake an Egg : créateur",
    "src": "data/jours/2026-10-21.csv#L72"
   },
   "g.10769384180.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "Fake an Egg : genre",
+   "l": "[30 MIN] Fake an Egg : genre",
    "src": "data/jours/2026-10-21.csv#L72"
   },
   "g.10769384180.visites_total": {
    "v": 9040064,
    "d": "9,04 millions",
-   "l": "Fake an Egg : visites cumulées depuis la création",
+   "l": "[30 MIN] Fake an Egg : visites cumulées depuis la création",
    "src": "data/jours/2026-10-21.csv#L72"
   },
   "g.10769384180.note": {
    "v": 0.8887,
    "d": "88,9 %",
-   "l": "Fake an Egg : part de votes positifs",
+   "l": "[30 MIN] Fake an Egg : part de votes positifs",
    "src": "data/jours/2026-10-21.csv#L72"
   },
   "g.6765805766.nom": {
