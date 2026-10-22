@@ -1,86 +1,54 @@
 {
- "genere": "2026-10-22T01:40:23Z",
+ "genere": "2026-10-22T02:00:10Z",
  "periode_jours": 7,
  "pages": [
   {
-   "path": "/le-releve/",
-   "vues": 37
+   "path": "/le-releve/methode/",
+   "vues": 30
   },
   {
-   "path": "/le-releve/classement/",
-   "vues": 21
+   "path": "/le-releve/",
+   "vues": 30
+  },
+  {
+   "path": "/le-releve/mises-a-jour/",
+   "vues": 10
   },
   {
    "path": "/le-releve/alertes/",
-   "vues": 14
+   "vues": 10
   },
   {
-   "path": "/le-releve/comparer/",
-   "vues": 13
+   "path": "/le-releve/jeux/steal-an-egg-10563114921/",
+   "vues": 10
   },
   {
    "path": "/le-releve/explorer/",
    "vues": 10
   },
   {
-   "path": "/le-releve/methode/",
+   "path": "/le-releve/comparer/",
+   "vues": 10
+  },
+  {
+   "path": "/le-releve/jeux/steal-a-brainrot-7709344486/",
+   "vues": 10
+  },
+  {
+   "path": "/le-releve/classement/",
+   "vues": 10
+  },
+  {
+   "path": "/le-releve/actus-officielles/",
    "vues": 10
   },
   {
    "path": "/le-releve/tendances/",
-   "vues": 7
+   "vues": 10
   },
   {
-   "path": "/le-releve/jeux/1-speed-keyboard-escape-candy-chocolate-9584852943/",
-   "vues": 4
-  },
-  {
-   "path": "/le-releve/articles/",
-   "vues": 3
-  },
-  {
-   "path": "/le-releve/monetisation/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/en/comparer/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/brouillons/2026-10-21-photographie-top100/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/donnees/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/en/alertes/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/mises-a-jour/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/jeux/break-and-steal-an-egg-10765288803/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/articles/2026-10-21-age-des-jeux/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/jeux/steal-an-egg-10563114921/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/brouillons/2026-10-21-age-des-jeux/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/actus-officielles/",
-   "vues": 1
+   "path": "/le-releve/en/",
+   "vues": 10
   }
  ]
 }
