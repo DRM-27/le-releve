@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-21",
- "genere": "2026-10-22T19:38:04Z",
+ "genere": "2026-10-22T20:35:19Z",
  "couverture": {
   "releves": 9,
   "attendus": 24
@@ -4923,57 +4923,57 @@
    "src": "data/jours/2026-10-21.csv#L81"
   },
   "g.9167377564.nom": {
-   "v": "100 Days At Sea",
-   "d": "100 Days At Sea",
-   "l": "100 Days At Sea : nom",
+   "v": "100 Days at Sea",
+   "d": "100 Days at Sea",
+   "l": "100 Days at Sea : nom",
    "src": "data/jours/2026-10-21.csv#L82"
   },
   "g.9167377564.rang": {
    "v": 81,
    "d": "81e",
-   "l": "100 Days At Sea : rang au pic du jour",
+   "l": "100 Days at Sea : rang au pic du jour",
    "src": "data/jours/2026-10-21.csv#L82"
   },
   "g.9167377564.pic": {
    "v": 18951,
    "d": "18 951",
-   "l": "100 Days At Sea : pic de joueurs simultanés relevé",
+   "l": "100 Days at Sea : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-21.csv#L82"
   },
   "g.9167377564.heure_pic": {
    "v": "15:36",
    "d": "15 h 36",
-   "l": "100 Days At Sea : heure (Paris) du pic relevé",
+   "l": "100 Days at Sea : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-21.csv#L82"
   },
   "g.9167377564.moy": {
    "v": 14606,
    "d": "14 606",
-   "l": "100 Days At Sea : moyenne des joueurs simultanés sur la journée",
+   "l": "100 Days at Sea : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-21.csv#L82"
   },
   "g.9167377564.createur": {
    "v": "Stranded Devs",
    "d": "Stranded Devs",
-   "l": "100 Days At Sea : créateur",
+   "l": "100 Days at Sea : créateur",
    "src": "data/jours/2026-10-21.csv#L82"
   },
   "g.9167377564.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "100 Days At Sea : genre",
+   "l": "100 Days at Sea : genre",
    "src": "data/jours/2026-10-21.csv#L82"
   },
   "g.9167377564.visites_total": {
    "v": 402190350,
    "d": "402,19 millions",
-   "l": "100 Days At Sea : visites cumulées depuis la création",
+   "l": "100 Days at Sea : visites cumulées depuis la création",
    "src": "data/jours/2026-10-21.csv#L82"
   },
   "g.9167377564.note": {
    "v": 0.971,
    "d": "97,1 %",
-   "l": "100 Days At Sea : part de votes positifs",
+   "l": "100 Days at Sea : part de votes positifs",
    "src": "data/jours/2026-10-21.csv#L82"
   },
   "g.2619619496.nom": {
