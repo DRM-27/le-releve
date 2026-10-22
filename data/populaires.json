@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-22T08:43:06Z",
+ "genere": "2026-10-22T09:39:07Z",
  "periode_jours": 7,
  "pages": [
   {
@@ -19,24 +19,24 @@
    "vues": 13
   },
   {
+   "path": "/le-releve/methode/",
+   "vues": 10
+  },
+  {
    "path": "/le-releve/explorer/",
    "vues": 10
   },
   {
-   "path": "/le-releve/methode/",
-   "vues": 10
+   "path": "/le-releve/en/",
+   "vues": 7
   },
   {
    "path": "/le-releve/tendances/",
    "vues": 7
   },
   {
-   "path": "/le-releve/en/",
-   "vues": 5
-  },
-  {
    "path": "/le-releve/en/articles/2026-10-21-age-des-jeux/",
-   "vues": 5
+   "vues": 6
   },
   {
    "path": "/le-releve/en/alertes/",
@@ -53,6 +53,10 @@
   {
    "path": "/le-releve/en/articles/2026-10-21-jeux-oeufs/",
    "vues": 3
+  },
+  {
+   "path": "/le-releve/en/source/",
+   "vues": 2
   },
   {
    "path": "/le-releve/en/comparer/",
@@ -72,10 +76,6 @@
   },
   {
    "path": "/le-releve/mises-a-jour/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/articles/2026-10-21-age-des-jeux/",
    "vues": 2
   },
   {
