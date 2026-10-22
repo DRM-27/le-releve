@@ -24,7 +24,8 @@
   "newsletter": {
     "beehiivFormId": "ac29609e-7871-4ae3-94d5-94ed1b5e1349",
     "beehiivPublicationId": "d3ee8680-0b58-44e5-b177-73d8cfa5e133",
-    "_aide": "Formulaire beehiiv intégré en iframe (sans script ni cookie sur le site). Vide = formulaires masqués."
+    "frameHeight": 84,
+    "_aide": "Formulaire beehiiv intégré en iframe (sans script ni cookie sur le site). Vide = formulaires masqués. frameHeight = hauteur du cadre en px : augmente si le bouton est coupé, diminue s'il reste du vide."
   },
   "rapport": {
     "premiereEdition": "2026-11-01"
