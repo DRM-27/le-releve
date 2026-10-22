@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-22T01:31:26Z",
+ "genere": "2026-10-22T01:39:05Z",
  "periode_jours": 7,
  "pages": [
   {
@@ -19,11 +19,11 @@
    "vues": 13
   },
   {
-   "path": "/le-releve/methode/",
+   "path": "/le-releve/explorer/",
    "vues": 10
   },
   {
-   "path": "/le-releve/explorer/",
+   "path": "/le-releve/methode/",
    "vues": 10
   },
   {
@@ -43,26 +43,6 @@
    "vues": 2
   },
   {
-   "path": "/le-releve/donnees/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/articles/2026-10-21-age-des-jeux/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/mises-a-jour/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/jeux/steal-an-egg-10563114921/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/jeux/break-and-steal-an-egg-10765288803/",
-   "vues": 2
-  },
-  {
    "path": "/le-releve/en/comparer/",
    "vues": 2
   },
@@ -71,11 +51,31 @@
    "vues": 2
   },
   {
-   "path": "/le-releve/brouillons/2026-10-21-age-des-jeux/",
-   "vues": 1
+   "path": "/le-releve/donnees/",
+   "vues": 2
   },
   {
-   "path": "/le-releve/pt-br/",
+   "path": "/le-releve/en/alertes/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/mises-a-jour/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/jeux/break-and-steal-an-egg-10765288803/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/articles/2026-10-21-age-des-jeux/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/jeux/steal-an-egg-10563114921/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/brouillons/2026-10-21-age-des-jeux/",
    "vues": 1
   },
   {

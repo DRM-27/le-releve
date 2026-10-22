@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-21",
- "genere": "2026-10-22T01:31:27Z",
+ "genere": "2026-10-22T01:39:06Z",
  "couverture": {
   "releves": 9,
   "attendus": 24
@@ -3249,57 +3249,57 @@
    "src": "data/jours/2026-10-21.csv#L50"
   },
   "g.5995470825.nom": {
-   "v": "[🔥NEW MYTHIC!] Hypershot",
-   "d": "[🔥NEW MYTHIC!] Hypershot",
-   "l": "[🔥NEW MYTHIC!] Hypershot : nom",
+   "v": "🔥Hypershot",
+   "d": "🔥Hypershot",
+   "l": "🔥Hypershot : nom",
    "src": "data/jours/2026-10-21.csv#L51"
   },
   "g.5995470825.rang": {
    "v": 50,
    "d": "50e",
-   "l": "[🔥NEW MYTHIC!] Hypershot : rang au pic du jour",
+   "l": "🔥Hypershot : rang au pic du jour",
    "src": "data/jours/2026-10-21.csv#L51"
   },
   "g.5995470825.pic": {
    "v": 28035,
    "d": "28 035",
-   "l": "[🔥NEW MYTHIC!] Hypershot : pic de joueurs simultanés relevé",
+   "l": "🔥Hypershot : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-21.csv#L51"
   },
   "g.5995470825.heure_pic": {
    "v": "17:46",
    "d": "17 h 46",
-   "l": "[🔥NEW MYTHIC!] Hypershot : heure (Paris) du pic relevé",
+   "l": "🔥Hypershot : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-21.csv#L51"
   },
   "g.5995470825.moy": {
    "v": 24021,
    "d": "24 021",
-   "l": "[🔥NEW MYTHIC!] Hypershot : moyenne des joueurs simultanés sur la journée",
+   "l": "🔥Hypershot : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-21.csv#L51"
   },
   "g.5995470825.createur": {
    "v": "Frosted Studio",
    "d": "Frosted Studio",
-   "l": "[🔥NEW MYTHIC!] Hypershot : créateur",
+   "l": "🔥Hypershot : créateur",
    "src": "data/jours/2026-10-21.csv#L51"
   },
   "g.5995470825.genre": {
    "v": "Shooter",
    "d": "Tir",
-   "l": "[🔥NEW MYTHIC!] Hypershot : genre",
+   "l": "🔥Hypershot : genre",
    "src": "data/jours/2026-10-21.csv#L51"
   },
   "g.5995470825.visites_total": {
    "v": 1372949630,
    "d": "1,37 milliard",
-   "l": "[🔥NEW MYTHIC!] Hypershot : visites cumulées depuis la création",
+   "l": "🔥Hypershot : visites cumulées depuis la création",
    "src": "data/jours/2026-10-21.csv#L51"
   },
   "g.5995470825.note": {
    "v": 0.9442,
    "d": "94,4 %",
-   "l": "[🔥NEW MYTHIC!] Hypershot : part de votes positifs",
+   "l": "🔥Hypershot : part de votes positifs",
    "src": "data/jours/2026-10-21.csv#L51"
   },
   "g.10766620257.nom": {
