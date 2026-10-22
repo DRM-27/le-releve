@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-22",
- "genere": "2026-10-22T22:34:24Z",
+ "genere": "2026-10-22T23:34:20Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -1509,63 +1509,63 @@
    "src": "data/jours/2026-10-22.csv#L15"
   },
   "g.9584852943.nom": {
-   "v": "[🎃] +1 Speed Keyboard Escape | Candy & Chocolate",
-   "d": "[🎃] +1 Speed Keyboard Escape | Candy & Chocolate",
-   "l": "[🎃] +1 Speed Keyboard Escape | Candy & Chocolate : nom",
+   "v": "[X50] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "d": "[X50] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "l": "[X50] +1 Speed Keyboard Escape | Candy & Chocolate : nom",
    "src": "data/jours/2026-10-22.csv#L16"
   },
   "g.9584852943.rang": {
    "v": 15,
    "d": "15e",
-   "l": "[🎃] +1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
+   "l": "[X50] +1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
    "src": "data/jours/2026-10-22.csv#L16"
   },
   "g.9584852943.pic": {
    "v": 82209,
    "d": "82 209",
-   "l": "[🎃] +1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
+   "l": "[X50] +1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-22.csv#L16"
   },
   "g.9584852943.heure_pic": {
    "v": "18:39",
    "d": "18 h 39",
-   "l": "[🎃] +1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
+   "l": "[X50] +1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-22.csv#L16"
   },
   "g.9584852943.moy": {
    "v": 48632,
    "d": "48 632",
-   "l": "[🎃] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
+   "l": "[X50] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-22.csv#L16"
   },
   "g.9584852943.createur": {
    "v": "SecretVerse Studio",
    "d": "SecretVerse Studio",
-   "l": "[🎃] +1 Speed Keyboard Escape | Candy & Chocolate : créateur",
+   "l": "[X50] +1 Speed Keyboard Escape | Candy & Chocolate : créateur",
    "src": "data/jours/2026-10-22.csv#L16"
   },
   "g.9584852943.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🎃] +1 Speed Keyboard Escape | Candy & Chocolate : genre",
+   "l": "[X50] +1 Speed Keyboard Escape | Candy & Chocolate : genre",
    "src": "data/jours/2026-10-22.csv#L16"
   },
   "g.9584852943.visites_24h": {
    "v": 8300555,
    "d": "8,3 millions",
-   "l": "[🎃] +1 Speed Keyboard Escape | Candy & Chocolate : visites gagnées en 24 h",
+   "l": "[X50] +1 Speed Keyboard Escape | Candy & Chocolate : visites gagnées en 24 h",
    "src": "data/jours/2026-10-22.csv#L16"
   },
   "g.9584852943.visites_total": {
    "v": 6541632011,
    "d": "6,54 milliards",
-   "l": "[🎃] +1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
+   "l": "[X50] +1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
    "src": "data/jours/2026-10-22.csv#L16"
   },
   "g.9584852943.note": {
    "v": 0.968,
    "d": "96,8 %",
-   "l": "[🎃] +1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
+   "l": "[X50] +1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
    "src": "data/jours/2026-10-22.csv#L16"
   },
   "g.10708913337.nom": {
@@ -4383,63 +4383,63 @@
    "src": "data/jours/2026-10-22.csv#L63"
   },
   "g.10769384180.nom": {
-   "v": "[NOW] Fake an Egg",
-   "d": "[NOW] Fake an Egg",
-   "l": "[NOW] Fake an Egg : nom",
+   "v": "Fake an Egg",
+   "d": "Fake an Egg",
+   "l": "Fake an Egg : nom",
    "src": "data/jours/2026-10-22.csv#L64"
   },
   "g.10769384180.rang": {
    "v": 63,
    "d": "63e",
-   "l": "[NOW] Fake an Egg : rang au pic du jour",
+   "l": "Fake an Egg : rang au pic du jour",
    "src": "data/jours/2026-10-22.csv#L64"
   },
   "g.10769384180.pic": {
    "v": 24770,
    "d": "24 770",
-   "l": "[NOW] Fake an Egg : pic de joueurs simultanés relevé",
+   "l": "Fake an Egg : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-22.csv#L64"
   },
   "g.10769384180.heure_pic": {
    "v": "00:35",
    "d": "0 h 35",
-   "l": "[NOW] Fake an Egg : heure (Paris) du pic relevé",
+   "l": "Fake an Egg : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-22.csv#L64"
   },
   "g.10769384180.moy": {
    "v": 17240,
    "d": "17 240",
-   "l": "[NOW] Fake an Egg : moyenne des joueurs simultanés sur la journée",
+   "l": "Fake an Egg : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-22.csv#L64"
   },
   "g.10769384180.createur": {
    "v": "Slime Time Studios",
    "d": "Slime Time Studios",
-   "l": "[NOW] Fake an Egg : créateur",
+   "l": "Fake an Egg : créateur",
    "src": "data/jours/2026-10-22.csv#L64"
   },
   "g.10769384180.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[NOW] Fake an Egg : genre",
+   "l": "Fake an Egg : genre",
    "src": "data/jours/2026-10-22.csv#L64"
   },
   "g.10769384180.visites_24h": {
    "v": 2197954,
    "d": "2,2 millions",
-   "l": "[NOW] Fake an Egg : visites gagnées en 24 h",
+   "l": "Fake an Egg : visites gagnées en 24 h",
    "src": "data/jours/2026-10-22.csv#L64"
   },
   "g.10769384180.visites_total": {
    "v": 11238018,
    "d": "11,24 millions",
-   "l": "[NOW] Fake an Egg : visites cumulées depuis la création",
+   "l": "Fake an Egg : visites cumulées depuis la création",
    "src": "data/jours/2026-10-22.csv#L64"
   },
   "g.10769384180.note": {
    "v": 0.8901,
    "d": "89,0 %",
-   "l": "[NOW] Fake an Egg : part de votes positifs",
+   "l": "Fake an Egg : part de votes positifs",
    "src": "data/jours/2026-10-22.csv#L64"
   },
   "g.7633926880.nom": {

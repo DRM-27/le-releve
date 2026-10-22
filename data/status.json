@@ -1,14 +1,14 @@
 {
  "echecsConsecutifs": 0,
- "dernierSucces": "2026-10-22T22:34:09Z",
- "lastRunAt": "2026-10-22T22:34:09Z",
+ "dernierSucces": "2026-10-22T23:34:04Z",
+ "lastRunAt": "2026-10-22T23:34:04Z",
  "ok": true,
  "sorts": {
   "top-trending": 94,
   "up-and-coming": 94,
-  "top-playing-now": 96,
-  "fun-with-friends": 85,
-  "top-revisited": 90
+  "top-playing-now": 97,
+  "fun-with-friends": 86,
+  "top-revisited": 91
  },
  "gamesTracked": 391,
  "gamesMeasured": 391,
