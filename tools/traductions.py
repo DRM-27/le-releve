@@ -17,6 +17,20 @@ TR = {
     "alertes": ("alerts", "alertas", "alertas"),
     "Alerte": ("Alert", "Alerta", "Alerta"),
     "Langue": ("Language", "Idioma", "Idioma"),
+    # ---- visionneuse de source (/source/)
+    "Source d’un chiffre": ("Where a number comes from", "De dónde sale una cifra", "De onde vem um número"),
+    "Cette page affiche le fichier de données exact d’où provient un chiffre publié, avec la ligne citée surlignée.":
+        ("This page shows the exact data file a published number comes from, with the cited line highlighted.",
+         "Esta página muestra el archivo de datos exacto del que procede una cifra publicada, con la línea citada resaltada.",
+         "Esta página mostra o arquivo de dados exato de onde vem um número publicado, com a linha citada destacada."),
+    "Chargement du fichier…": ("Loading the file…", "Cargando el archivo…", "Carregando o arquivo…"),
+    "Impossible de charger le fichier. Vous pouvez l’ouvrir directement sur GitHub.":
+        ("Couldn’t load the file. You can open it directly on GitHub.",
+         "No se pudo cargar el archivo. Puedes abrirlo directamente en GitHub.",
+         "Não foi possível carregar o arquivo. Você pode abri-lo diretamente no GitHub."),
+    "Aucun fichier indiqué.": ("No file specified.", "Ningún archivo indicado.", "Nenhum arquivo indicado."),
+    "Ligne {n}": ("Line {n}", "Línea {n}", "Linha {n}"),
+    "Voir le fichier sur GitHub": ("View the file on GitHub", "Ver el archivo en GitHub", "Ver o arquivo no GitHub"),
     "Aller au contenu": ("Skip to content", "Ir al contenido", "Ir para o conteúdo"),
     "Ouvrir le menu": ("Open menu", "Abrir el menú", "Abrir o menu"),
     "Fermer le menu": ("Close menu", "Cerrar el menú", "Fechar o menu"),

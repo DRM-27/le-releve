@@ -1046,3 +1046,18 @@ html:not([lang="fr"]) * { font-variant-numeric: normal !important; }
 .rp-form .nl-box { margin: .8rem 0 0; padding: 0; border: 0; background: none; }
 @media (min-width: 1000px) { .cards.grid-ex.n6 { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 .nl-frame { overflow: hidden; border-radius: 10px; background: transparent; }
+
+/* ---------- visionneuse de source (/source/) ---------- */
+.src-view .src-head { display: flex; gap: .6rem; align-items: center; flex-wrap: wrap; margin: .2rem 0 1rem; }
+.src-path { font-family: var(--mono, ui-monospace, SFMono-Regular, Menlo, monospace); font-size: .85rem; color: var(--ink-2);
+  background: rgba(21, 29, 42, .6); border: 1px solid rgba(96, 165, 250, .2); padding: .25rem .5rem; border-radius: 8px; overflow-wrap: anywhere; }
+.src-status { color: var(--muted); }
+.src-table-wrap { overflow-x: auto; border: 1px solid rgba(96, 165, 250, .18); border-radius: 12px; margin: 0; }
+.src-cap { padding: .5rem .75rem; color: var(--ink-2); font-size: .85rem; border-bottom: 1px solid rgba(96, 165, 250, .15); }
+.src-table { border-collapse: collapse; width: 100%; font-size: .82rem; font-variant-numeric: tabular-nums; }
+.src-table th, .src-table td { padding: .35rem .6rem; text-align: left; white-space: nowrap; border-bottom: 1px solid rgba(148, 163, 184, .12); }
+.src-table thead th { position: sticky; top: 0; background: rgba(15, 21, 32, .97); color: var(--ink-2); font-weight: 600; }
+.src-table .src-ln { color: var(--muted); text-align: right; user-select: none; }
+.src-table tbody tr:hover { background: rgba(96, 165, 250, .06); }
+.src-table tr.is-cited { background: rgba(37, 99, 235, .22); }
+.src-table tr.is-cited td, .src-table tr.is-cited th { color: var(--ink, #f1f5f9); }

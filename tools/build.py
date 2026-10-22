@@ -515,6 +515,75 @@ RAPPORT_SOMMAIRE = ["Ce qu’il faut retenir : les chiffres du mois en sept poin
                     "Le mois heure par heure : pointes, records, plus fortes hausses et baisses", "Les records historiques, sources à l’appui"]
 
 
+SOURCE_VIEWER_JS = """<script>
+(function(){
+  var app=document.getElementById('src-app'); if(!app) return;
+  var repo=app.dataset.repo, branch=app.dataset.branch||'main';
+  var params=new URLSearchParams(location.search);
+  var f=params.get('f')||'';
+  var hm=(location.hash.match(/^#L(\\d+)/)||[])[1]||params.get('l');
+  var line=hm?parseInt(hm,10):0;
+  var pathEl=document.getElementById('src-path');
+  var statusEl=document.getElementById('src-status');
+  var rawLink=document.getElementById('src-raw');
+  var table=document.getElementById('src-table');
+  var cap=document.getElementById('src-cap');
+  function show(msg){statusEl.textContent=msg;statusEl.hidden=false;}
+  if(!f){show(app.dataset.nofile);rawLink.style.display='none';return;}
+  pathEl.textContent=f;
+  rawLink.href='https://github.com/'+repo+'/blob/'+branch+'/'+f+(line?'#L'+line:'');
+  var raw='https://raw.githubusercontent.com/'+repo+'/'+branch+'/'+encodeURI(f);
+  function parse(s){var out=[],cur='',q=false;for(var i=0;i<s.length;i++){var c=s[i];
+    if(q){if(c==='\"'){if(s[i+1]==='\"'){cur+='\"';i++;}else q=false;}else cur+=c;}
+    else{if(c===','){out.push(cur);cur='';}else if(c==='\"'){q=true;}else cur+=c;}}
+    out.push(cur);return out;}
+  fetch(raw).then(function(r){if(!r.ok)throw 0;return r.text();}).then(function(txt){
+    var rows=txt.replace(/\\r/g,'').split('\\n');
+    while(rows.length&&rows[rows.length-1]==='')rows.pop();
+    if(!rows.length)throw 0;
+    var thead=table.querySelector('thead'),tbody=table.querySelector('tbody');
+    var trh=document.createElement('tr');
+    var thn=document.createElement('th');thn.className='src-ln';thn.textContent='#';trh.appendChild(thn);
+    parse(rows[0]).forEach(function(h){var th=document.createElement('th');th.textContent=h;trh.appendChild(th);});
+    if(line===1)trh.className='is-cited';
+    thead.appendChild(trh);
+    var cited=line===1?trh:null;
+    for(var i=1;i<rows.length;i++){
+      var tr=document.createElement('tr'),fileLine=i+1;
+      var td0=document.createElement('td');td0.className='src-ln';td0.textContent=fileLine;tr.appendChild(td0);
+      parse(rows[i]).forEach(function(v){var td=document.createElement('td');td.textContent=v;tr.appendChild(td);});
+      if(line&&fileLine===line){tr.className='is-cited';cited=tr;}
+      tbody.appendChild(tr);
+    }
+    statusEl.hidden=true;table.hidden=false;
+    if(line){cap.hidden=false;cap.textContent=app.dataset.lineLabel.replace('{n}',line);}
+    if(cited)cited.scrollIntoView({block:'center'});
+  }).catch(function(){show(app.dataset.error);});
+})();
+</script>"""
+
+
+def source_viewer_page():
+    """Visionneuse interne : affiche le fichier de données exact d'où provient un chiffre, ligne surlignée."""
+    repo = CONFIG.get("repo") or "OWNER/REPO"
+    title = t("Source d’un chiffre")
+    intro = t("Cette page affiche le fichier de données exact d’où provient un chiffre publié, avec la ligne citée surlignée.")
+    line_label = t("Ligne {n}")
+    err = t("Impossible de charger le fichier. Vous pouvez l’ouvrir directement sur GitHub.")
+    nofile = t("Aucun fichier indiqué.")
+    body = (
+        f'<div class="narrow src-view" id="src-app" data-repo="{esc(repo)}" data-branch="main" '
+        f'data-line-label="{esc(line_label)}" data-error="{esc(err)}" data-nofile="{esc(nofile)}">'
+        f'<h1>{esc(title)}</h1><p class="lede">{esc(intro)}</p>'
+        f'<div class="src-head"><code class="src-path" id="src-path"></code>'
+        f'<a class="btn ghost" id="src-raw" target="_blank" rel="noopener">{esc(t("Voir le fichier sur GitHub"))}</a></div>'
+        f'<p class="src-status" id="src-status">{esc(t("Chargement du fichier…"))}</p>'
+        f'<figure class="src-table-wrap"><figcaption class="src-cap" id="src-cap" hidden></figcaption>'
+        f'<table class="src-table" id="src-table" hidden><thead></thead><tbody></tbody></table></figure>'
+        f'</div>' + SOURCE_VIEWER_JS)
+    return page(title, body, intro, path="source/", extra_head='<meta name="robots" content="noindex">')
+
+
 def newsletter_box(variant="article"):
     """Formulaire d'inscription beehiiv, en iframe : aucun script tiers ni cookie déposé sur le site."""
     fid = CONFIG.get("newsletter", {}).get("beehiivFormId")
@@ -731,6 +800,7 @@ def build(drafts=False):
         write("alertes/index.html", explore.alerts_page(alerts, page, url, live))
         write("alertes.xml", explore.alerts_feed(alerts, abs_url))
         write("donnees/index.html", explore.data_page(page, url))
+        write("source/index.html", source_viewer_page())
         write("tendances/index.html", pages2.trends_page(recs, page, url))
         write("mises-a-jour/index.html", pages2.updates_page(recs, page, url))
         write("heures-de-pointe/index.html", pages2.peak_page(recs, page, url))

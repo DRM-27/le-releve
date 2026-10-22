@@ -224,8 +224,18 @@ def slugify(s):
 
 
 def github_blob(path):
-    repo = CONFIG.get("repo") or "OWNER/REPO"
-    return f"https://github.com/{repo}/blob/main/{path}"
+    # Lien vers la visionneuse interne /source/ : le lecteur reste sur le site,
+    # le fichier est chargé et la ligne citée surlignée. Garde l'ancre #L<ligne>.
+    from urllib.parse import quote
+    import i18n
+    p, _, anchor = path.partition("#")
+    base = (CONFIG.get("baseUrl") or "").rstrip("/")
+    try:
+        pref = i18n.META[i18n.CUR]["prefix"]
+    except Exception:
+        pref = ""
+    u = f"{base}/{pref}source/?f={quote(p)}"
+    return u + (f"#{anchor}" if anchor else "")
 
 
 def github_tree(path):
