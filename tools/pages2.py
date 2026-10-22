@@ -9,6 +9,7 @@ from datetime import timedelta
 from statistics import mean
 
 import charts
+import resumes
 from common import (CONFIG, DATA, TZ, fr_date, fr_hour, fr_int, fr_pct, github_tree, parse_iso, read_csv, slugify, utc_now)
 import i18n
 from i18n import t
@@ -263,6 +264,7 @@ def studios_pages(recs, page, url):
              f'<div class="stats"><div class="stat"><span class="stat-label">{t("Joueurs en ligne")}</span><span class="stat-value">{fr_int(s["joueurs"])}</span></div>'
              f'<div class="stat"><span class="stat-label">{t("Jeux dans le top 100")}</span><span class="stat-value">{s["top100"]}</span></div>'
              f'<div class="stat"><span class="stat-label">{t("Jeux suivis")}</span><span class="stat-value">{len(s["jeux"])}</span></div></div>'
+             + resumes.studio_summary_html(s) +
              f'<div class="table-wrap"><table class="live"><thead><tr><th>{t("Jeu")}</th><th class="num">{t("Joueurs en ligne")}</th><th class="num">{t("Rang")}</th></tr></thead>'
              f'<tbody>{rows}</tbody></table></div></div>')
         noindex = '<meta name="robots" content="noindex">' if s["top100"] == 0 else ""
@@ -291,6 +293,7 @@ def genres_pages(recs, page, url):
         gn = gl.lower() if i18n.CUR != "en" else gl
         b = (f'<div class="wide"><p class="crumbs"><a href="{url("genres/")}">{t("Genres")}</a></p><h1>{t("Les jeux Roblox de {genre} les plus joués", genre=esc(gn))}</h1>'
              f'<p class="lede">{t("{n} jeux suivis dans ce genre, {total} joueurs en ligne au dernier relevé. Genre attribué par Roblox, mis à jour toutes les heures.", n=len(games), total=fr_int(tot))}</p>'
+             + resumes.genre_summary_html(gn, games, recs) +
              f'<div class="table-wrap"><table class="live"><thead><tr><th class="num">#</th><th>{t("Jeu")}</th><th class="num">{t("Joueurs en ligne")}</th>'
              f'<th class="num hide-s">{t("Rang général")}</th></tr></thead><tbody>{rows}</tbody></table></div></div>')
         pages[f"genres/{sl}/index.html"] = page(t("Jeux Roblox de {genre} : les plus joués en ce moment", genre=gn), b,
@@ -308,7 +311,9 @@ EXPLORER_GROUPS = [
         ("tendances/", "Tendances", "Ce que Roblox met en avant, et les nouvelles entrées."),
         ("heures-de-pointe/", "Heures de pointe", "À quelle heure jouent les joueurs, jour par jour."),
         ("mises-a-jour/", "Mises à jour détectées", "Les mises à jour des jeux, et ce qui s’est passé après."),
-        ("records/", "Records", "Les plus hauts pics relevés et les records battus.")]),
+        ("records/", "Records", "Les plus hauts pics relevés et les records battus."),
+        ("joueurs-roblox-en-ce-moment/", "Joueurs en ce moment", "Combien de joueurs sur Roblox, relevé toutes les heures."),
+        ("jeux-roblox-les-plus-joues/", "Jeux les plus joués", "Le top du moment et la moyenne de la semaine.")]),
     ("analyser", "Analyser", "Mettre les jeux, les studios et les genres face à face.", [
         ("comparer/", "Comparer deux jeux", "Deux courbes superposées, un lien à partager."),
         ("studios/", "Studios", "Les créateurs qui réunissent le plus de joueurs."),

@@ -721,6 +721,10 @@ def build(drafts=False):
         write("mises-a-jour/index.html", pages2.updates_page(recs, page, url))
         write("heures-de-pointe/index.html", pages2.peak_page(recs, page, url))
         write("records/index.html", pages2.records_page(recs, page, url))
+        if recs:
+            import resumes
+            write("joueurs-roblox-en-ce-moment/index.html", resumes.players_now_page(page, url, recs, latest_ts, loc_fact, github_blob, charts))
+            write("jeux-roblox-les-plus-joues/index.html", resumes.most_played_page(page, url, recs, latest_ts))
         st_pages, _ = pages2.studios_pages(recs, page, url)
         g_pages = pages2.genres_pages(recs, page, url)
         for path_, content in {**st_pages, **g_pages}.items():
@@ -752,7 +756,7 @@ def build(drafts=False):
                           f"<channel><title>{esc(NAME)}</title><link>{esc(abs_url())}</link><description>{esc(description())}</description>"
                           f"<language>{META[lang]['html']}</language>{items}</channel></rss>")
 
-        extra = ["monetisation/", "actus-officielles/", "tendances/", "mises-a-jour/", "heures-de-pointe/", "records/", "studios/", "genres/", "explorer/"] + \
+        extra = ["joueurs-roblox-en-ce-moment/", "jeux-roblox-les-plus-joues/", "monetisation/", "actus-officielles/", "tendances/", "mises-a-jour/", "heures-de-pointe/", "records/", "studios/", "genres/", "explorer/"] + \
                 [p.replace("index.html", "") for p in st_pages if '<meta name="robots"' not in st_pages[p] and p != "studios/index.html"] + \
                 [p.replace("index.html", "") for p in g_pages if p != "genres/index.html"]
         paths = ["", "classement/", "alertes/", "comparer/", "donnees/", "methode/", "articles/", "partenaires/"] + indexable + extra

@@ -9,6 +9,7 @@ from datetime import timedelta
 
 import charts
 import pages2
+import resumes
 from common import (CONFIG, DATA, TZ, fr_big, fr_date, fr_hour, fr_int, fr_pct, fr_rank, fr_share, github_tree, iso, load_games,
                     parse_iso, read_csv, slugify, snap_path, utc_now)
 from facts import GENRES_FR
@@ -127,7 +128,7 @@ def game_page(rec, page, url, recs=()):
     dl = "".join(f"<dt>{k}</dt><dd>{v or '—'}</dd>" for k, v in facts)
     body = (f'<div class="wide game"><p class="crumbs"><a href="{url("classement/")}">{t("Classement")}</a></p>'
             f'<div class="game-title">' + (f'<img class="gicon big" src="{esc(rec["icon"])}" alt="" width="72" height="72">' if rec["icon"] else "") + f'<h1>{esc(rec["nom"])}</h1></div><p class="lede">{t("Joueurs en ligne, pics et visites, relevés toutes les heures depuis les API publiques de Roblox.")}</p>'
-            f'<div class="stats">{"".join(stats)}</div>{chart}{pages2.game_heat(rec)}{pages2.recent_updates_for(rec["universe_id"], url)}'
+            f'<div class="stats">{"".join(stats)}</div>{resumes.game_summary_html(rec, recs)}{chart}{pages2.game_heat(rec)}{pages2.recent_updates_for(rec["universe_id"], url)}'
             f'<div class="game-meta"><dl>{dl}</dl><div class="game-links">'
             + (f'<a class="btn roblox" href="{esc(roblox)}" rel="nofollow">{t("Ouvrir sur Roblox")}</a>' if roblox else "")
             + f'<a class="btn" href="{url("comparer/?a=" + rec["universe_id"])}">{t("Comparer avec un autre jeu")}</a>'
@@ -143,6 +144,7 @@ def game_page(rec, page, url, recs=()):
             f'<p><button class="btn" type="button" data-copy-from="embed-code">{t("Copier le code")}</button> '
             f'<a class="btn ghost" href="{url("widget/jeu/" + rec["universe_id"] + "/")}">{t("Voir le widget")}</a></p></section>'
             f'<div class="toast" id="toast" role="status" aria-live="polite"></div>'
+            + resumes.faq_html(resumes.game_faq(rec)) +
             f'<p class="note">{esc(lic())} {t("Les visites et votes sont ceux affichés par Roblox au dernier relevé.")}</p></div>')
     noindex = rec["jours_suivis"] < INDEX_AFTER_DAYS
     head = '<meta name="robots" content="noindex">' if noindex else ""
@@ -155,7 +157,8 @@ def game_page(rec, page, url, recs=()):
          "image": rec["icon"] or None},
         {"@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": t("Classement"), "item": f"{base}/classement/"},
-            {"@type": "ListItem", "position": 2, "name": rec["nom"], "item": f"{base}/jeux/{rec['slug']}/"}]}]}
+            {"@type": "ListItem", "position": 2, "name": rec["nom"], "item": f"{base}/jeux/{rec['slug']}/"}]},
+        resumes.faq_ld(resumes.game_faq(rec))]}
     ld["@graph"][0] = {k: v for k, v in ld["@graph"][0].items() if v is not None}
     ogi = f"og/jeux/{rec['universe_id']}.png" if rec["rang"] and rec["rang"] <= 100 else "og/site.png"
     return page(title, body, desc, f"jeux/{rec['slug']}/", extra_head=head, ld=ld, og_image=ogi), not noindex
