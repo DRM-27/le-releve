@@ -148,3 +148,30 @@ def badge_svg(rank, players, name):
             f'<g fill="#3b82f6"><rect x="10" y="15" width="3" height="6" rx="1"/><rect x="15" y="8" width="3" height="13" rx="1"/><rect x="20" y="11" width="3" height="10" rx="1"/></g>'
             f'<g font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="12" font-weight="700">'
             f'<text x="29" y="18.5" fill="#f8fafc">{esc(left)}</text><text x="{lw + 8}" y="18.5" fill="#cbd5e1">{esc(right)}</text></g></svg>')
+
+
+def waiting_pdf(path, name, date_txt):
+    """PDF d'une page (A4) affiché tant que la première édition du rapport n'est pas sortie."""
+    w, h = 1240, 1754
+    im = Image.new("RGB", (w, h), BG)
+    d = ImageDraw.Draw(im)
+    for x in range(0, w, 60):
+        d.line([(x, 0), (x, h)], fill="#0f1520")
+    for y in range(0, h, 60):
+        d.line([(0, y), (w, y)], fill="#0f1520")
+    for i, hh in enumerate((20, 44, 32)):
+        d.rounded_rectangle((110 + i * 17, 170 - hh, 122 + i * 17, 170), radius=3, fill=BLUE)
+    d.text((180, 122), name, font=font(44, "ExtraBold"), fill=INK)
+    d.text((110, 560), "RAPPORT MENSUEL", font=font(30, "Bold"), fill="#60a5fa")
+    d.text((110, 610), "État de Roblox", font=font(110, "ExtraBold"), fill=INK)
+    y = 790
+    for line in wrap(d, f"La première édition sort le {date_txt}.", font(46, "Bold"), w - 220, 3):
+        d.text((110, y), line, font=font(46, "Bold"), fill=INK)
+        y += 62
+    y += 30
+    for line in wrap(d, "Merci de votre inscription : vous la recevrez par e-mail dès sa sortie, puis chaque nouvelle édition. "
+                        "Ce lien affichera toujours la dernière édition.", font(34, "Medium"), w - 220, 6):
+        d.text((110, y), line, font=font(34, "Medium"), fill=MUTED)
+        y += 48
+    d.text((110, h - 150), "Chaque chiffre relié à sa source · données publiques de Roblox", font=font(28, "Medium"), fill="#64748b")
+    im.save(path, "PDF", resolution=150)

@@ -786,6 +786,10 @@ def build(drafts=False):
                 for p_ in pdfs:
                     shutil.copy(p_, OUT / "rapport" / "pdf" / p_.name)
                 shutil.copy(pdfs[-1], OUT / "rapport" / "pdf" / "derniere-edition.pdf")
+            else:   # avant la première édition : une page d'attente, pour que le lien de l'e-mail de bienvenue ne soit jamais cassé
+                (OUT / "rapport" / "pdf").mkdir(parents=True, exist_ok=True)
+                og.waiting_pdf(OUT / "rapport" / "pdf" / "derniere-edition.pdf", NAME,
+                               fr_date(datetime.fromisoformat(CONFIG.get("rapport", {}).get("premiereEdition", "2026-11-01")).date(), weekday=False))
             try:
                 import cartes
                 import rapport as rapport_mod
