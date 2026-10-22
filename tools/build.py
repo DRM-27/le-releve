@@ -526,7 +526,8 @@ def newsletter_box(variant="article"):
             "rapport": t("Inscrivez-vous : vous recevrez chaque édition dès sa sortie, puis la newsletter hebdomadaire. Gratuit, désinscription en un clic.")}[variant]
     src = f"https://subscribe-forms.beehiiv.com/v3/forms/{fid}"
     return (f'<section class="nl-box nl-{variant}"><h2>{esc(title)}</h2><p>{esc(text)}</p>'
-            f'<iframe class="nl-frame" src="{esc(src)}" title="{esc(t("Inscription à la newsletter"))}" loading="lazy"></iframe>'
+            f'<iframe class="nl-frame" src="{esc(src)}" title="{esc(t("Inscription à la newsletter"))}" loading="lazy" scrolling="no" '
+            f'allowtransparency="true" style="height:{int(CONFIG.get("newsletter", {}).get("frameHeight", 230))}px"></iframe>'
             f'<p class="nl-legal">{t("Envoi par beehiiv. Vos données :")} <a href="{url("confidentialite/")}">{t("politique de confidentialité")}</a>.</p></section>')
 
 
