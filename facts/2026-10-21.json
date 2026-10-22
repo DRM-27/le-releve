@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-21",
- "genere": "2026-10-22T11:38:09Z",
+ "genere": "2026-10-22T12:45:09Z",
  "couverture": {
   "releves": 9,
   "attendus": 24
@@ -4869,57 +4869,57 @@
    "src": "data/jours/2026-10-21.csv#L80"
   },
   "g.88070565.nom": {
-   "v": "[🦇] Welcome to Bloxburg ",
-   "d": "[🦇] Welcome to Bloxburg ",
-   "l": "[🦇] Welcome to Bloxburg  : nom",
+   "v": "[🏚️] Welcome to Bloxburg ",
+   "d": "[🏚️] Welcome to Bloxburg ",
+   "l": "[🏚️] Welcome to Bloxburg  : nom",
    "src": "data/jours/2026-10-21.csv#L81"
   },
   "g.88070565.rang": {
    "v": 80,
    "d": "80e",
-   "l": "[🦇] Welcome to Bloxburg  : rang au pic du jour",
+   "l": "[🏚️] Welcome to Bloxburg  : rang au pic du jour",
    "src": "data/jours/2026-10-21.csv#L81"
   },
   "g.88070565.pic": {
    "v": 19277,
    "d": "19 277",
-   "l": "[🦇] Welcome to Bloxburg  : pic de joueurs simultanés relevé",
+   "l": "[🏚️] Welcome to Bloxburg  : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-21.csv#L81"
   },
   "g.88070565.heure_pic": {
    "v": "23:36",
    "d": "23 h 36",
-   "l": "[🦇] Welcome to Bloxburg  : heure (Paris) du pic relevé",
+   "l": "[🏚️] Welcome to Bloxburg  : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-21.csv#L81"
   },
   "g.88070565.moy": {
    "v": 17149,
    "d": "17 149",
-   "l": "[🦇] Welcome to Bloxburg  : moyenne des joueurs simultanés sur la journée",
+   "l": "[🏚️] Welcome to Bloxburg  : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-21.csv#L81"
   },
   "g.88070565.createur": {
    "v": "Bloxburg Development",
    "d": "Bloxburg Development",
-   "l": "[🦇] Welcome to Bloxburg  : créateur",
+   "l": "[🏚️] Welcome to Bloxburg  : créateur",
    "src": "data/jours/2026-10-21.csv#L81"
   },
   "g.88070565.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "[🦇] Welcome to Bloxburg  : genre",
+   "l": "[🏚️] Welcome to Bloxburg  : genre",
    "src": "data/jours/2026-10-21.csv#L81"
   },
   "g.88070565.visites_total": {
    "v": 10140108492,
    "d": "10,14 milliards",
-   "l": "[🦇] Welcome to Bloxburg  : visites cumulées depuis la création",
+   "l": "[🏚️] Welcome to Bloxburg  : visites cumulées depuis la création",
    "src": "data/jours/2026-10-21.csv#L81"
   },
   "g.88070565.note": {
    "v": 0.8849,
    "d": "88,5 %",
-   "l": "[🦇] Welcome to Bloxburg  : part de votes positifs",
+   "l": "[🏚️] Welcome to Bloxburg  : part de votes positifs",
    "src": "data/jours/2026-10-21.csv#L81"
   },
   "g.9167377564.nom": {
