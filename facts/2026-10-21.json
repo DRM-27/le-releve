@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-21",
- "genere": "2026-10-21T23:34:42Z",
+ "genere": "2026-10-22T00:49:07Z",
  "couverture": {
   "releves": 9,
   "attendus": 24
@@ -3087,57 +3087,57 @@
    "src": "data/jours/2026-10-21.csv#L47"
   },
   "g.10768284407.nom": {
-   "v": "🎃[UPD] Bike Universe",
-   "d": "🎃[UPD] Bike Universe",
-   "l": "🎃[UPD] Bike Universe : nom",
+   "v": "[🎃] Bike Universe",
+   "d": "[🎃] Bike Universe",
+   "l": "[🎃] Bike Universe : nom",
    "src": "data/jours/2026-10-21.csv#L48"
   },
   "g.10768284407.rang": {
    "v": 47,
    "d": "47e",
-   "l": "🎃[UPD] Bike Universe : rang au pic du jour",
+   "l": "[🎃] Bike Universe : rang au pic du jour",
    "src": "data/jours/2026-10-21.csv#L48"
   },
   "g.10768284407.pic": {
    "v": 31819,
    "d": "31 819",
-   "l": "🎃[UPD] Bike Universe : pic de joueurs simultanés relevé",
+   "l": "[🎃] Bike Universe : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-21.csv#L48"
   },
   "g.10768284407.heure_pic": {
    "v": "19:44",
    "d": "19 h 44",
-   "l": "🎃[UPD] Bike Universe : heure (Paris) du pic relevé",
+   "l": "[🎃] Bike Universe : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-21.csv#L48"
   },
   "g.10768284407.moy": {
    "v": 29549,
    "d": "29 549",
-   "l": "🎃[UPD] Bike Universe : moyenne des joueurs simultanés sur la journée",
+   "l": "[🎃] Bike Universe : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-21.csv#L48"
   },
   "g.10768284407.createur": {
    "v": "Bike Universe",
    "d": "Bike Universe",
-   "l": "🎃[UPD] Bike Universe : créateur",
+   "l": "[🎃] Bike Universe : créateur",
    "src": "data/jours/2026-10-21.csv#L48"
   },
   "g.10768284407.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "🎃[UPD] Bike Universe : genre",
+   "l": "[🎃] Bike Universe : genre",
    "src": "data/jours/2026-10-21.csv#L48"
   },
   "g.10768284407.visites_total": {
    "v": 7088476,
    "d": "7,09 millions",
-   "l": "🎃[UPD] Bike Universe : visites cumulées depuis la création",
+   "l": "[🎃] Bike Universe : visites cumulées depuis la création",
    "src": "data/jours/2026-10-21.csv#L48"
   },
   "g.10768284407.note": {
    "v": 0.8359,
    "d": "83,6 %",
-   "l": "🎃[UPD] Bike Universe : part de votes positifs",
+   "l": "[🎃] Bike Universe : part de votes positifs",
    "src": "data/jours/2026-10-21.csv#L48"
   },
   "g.4839802560.nom": {

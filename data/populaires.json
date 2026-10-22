@@ -1,22 +1,22 @@
 {
- "genere": "2026-10-21T23:34:41Z",
+ "genere": "2026-10-22T00:49:06Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/le-releve/",
-   "vues": 34
+   "vues": 35
   },
   {
    "path": "/le-releve/classement/",
    "vues": 21
   },
   {
-   "path": "/le-releve/comparer/",
+   "path": "/le-releve/alertes/",
    "vues": 13
   },
   {
-   "path": "/le-releve/alertes/",
-   "vues": 12
+   "path": "/le-releve/comparer/",
+   "vues": 13
   },
   {
    "path": "/le-releve/methode/",
@@ -31,11 +31,11 @@
    "vues": 7
   },
   {
-   "path": "/le-releve/articles/",
-   "vues": 3
+   "path": "/le-releve/jeux/1-speed-keyboard-escape-candy-chocolate-9584852943/",
+   "vues": 4
   },
   {
-   "path": "/le-releve/jeux/1-speed-keyboard-escape-candy-chocolate-9584852943/",
+   "path": "/le-releve/articles/",
    "vues": 3
   },
   {
@@ -59,6 +59,10 @@
    "vues": 2
   },
   {
+   "path": "/le-releve/articles/2026-10-21-age-des-jeux/",
+   "vues": 2
+  },
+  {
    "path": "/le-releve/jeux/steal-an-egg-10563114921/",
    "vues": 2
   },
@@ -67,19 +71,15 @@
    "vues": 1
   },
   {
+   "path": "/le-releve/articles/2026-10-21-jeux-oeufs/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/heures-de-pointe/",
+   "vues": 1
+  },
+  {
    "path": "/le-releve/jeux/article-10769149947/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/genres/simulation/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/articles/2026-10-21-age-des-jeux/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/brouillons/2026-10-21-age-des-jeux/",
    "vues": 1
   }
  ]
