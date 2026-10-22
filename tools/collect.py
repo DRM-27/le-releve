@@ -21,7 +21,7 @@ sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
 from common import (CONFIG, DATA, GAME_FIELDS, SNAP_FIELDS, SORT_FIELDS, iso, load_games, parse_iso,
                     read_csv, snap_path, utc_now, write_csv)
 
-UA = "LeReleveBot/1.0 (media de donnees; releves horaires publics)"
+UA = "PlayLedgerBot/1.0 (media de donnees; releves horaires publics)"
 EXPLORE = "https://apis.roblox.com/explore-api/v1"
 GAMES = "https://games.roblox.com/v1/games"
 ICONS = "https://thumbnails.roblox.com/v1/games/icons"

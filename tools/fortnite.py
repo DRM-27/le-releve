@@ -27,7 +27,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import DATA, read_csv, write_csv
 
 BASE = "https://api.fortnite.com/ecosystem/v1"
-UA = "LeReleveBot/1.0 (media de donnees; https://github.com/DRM-27/le-releve)"
+UA = "PlayLedgerBot/1.0 (media de donnees; https://github.com/DRM-27/le-releve)"
 FN = DATA / "fortnite"
 TOP_PER_GENRE = 50
 WORKERS = 6

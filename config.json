@@ -1,5 +1,5 @@
 {
-  "name": "Le Relevé",
+  "name": "PlayLedger",
   "tagline": "L’économie de Roblox, en chiffres vérifiables",
   "description": "Média de données indépendant sur Roblox : classements, tendances et analyses calculés à partir de relevés publics, avec chaque chiffre relié à sa source.",
   "baseUrl": "https://drm-27.github.io/le-releve",
@@ -22,8 +22,9 @@
     "bing": ""
   },
   "newsletter": {
-    "beehiivEmbedUrl": "",
-    "_aide": "Coller ici l'URL d'intégration du formulaire beehiiv (Grow > Subscribe forms > Embed). Vide = page /rapport/ en mode « bientôt »."
+    "beehiivFormId": "ac29609e-7871-4ae3-94d5-94ed1b5e1349",
+    "beehiivPublicationId": "d3ee8680-0b58-44e5-b177-73d8cfa5e133",
+    "_aide": "Formulaire beehiiv intégré en iframe (sans script ni cookie sur le site). Vide = formulaires masqués."
   },
   "rapport": {
     "premiereEdition": "2026-11-01"

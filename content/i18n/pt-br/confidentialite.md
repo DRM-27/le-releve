@@ -11,7 +11,7 @@ Contato para qualquer dúvida sobre seus dados: {{contact}}
 
 **Ao visitar o site**: nada que identifique você. Nenhum cookie é usado. A medição de audiência usa o Cloudflare Web Analytics, sem cookies nem identificador persistente: ela conta visualizações de página, de forma agregada.
 
-**Ao se inscrever na newsletter ou no relatório**: seu endereço de e-mail e as informações técnicas ligadas ao envio (data de inscrição, aberturas de e-mails e cliques em links, de forma agregada, para medir o que interessa aos leitores).
+**Ao se inscrever na newsletter ou no relatório** (formulário exibido pelo beehiiv, que pode usar seus próprios cookies técnicos dentro do formulário; nenhum script ou cookie de rastreamento é adicionado ao resto do site): seu endereço de e-mail e as informações técnicas ligadas ao envio (data de inscrição, aberturas de e-mails e cliques em links, de forma agregada, para medir o que interessa aos leitores).
 
 Não coletamos nenhum outro dado, e nunca vendemos nem alugamos seu endereço.
 

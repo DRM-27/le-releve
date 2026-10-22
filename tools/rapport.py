@@ -219,7 +219,7 @@ def ext(D, key):
 
 def page(n, total, D, body, cls=""):
     mois = f"{MOIS[D['m'] - 1]} {D['y']}"
-    return (f'<section class="page {cls}">{body}<footer class="pf"><span><b>Le Relevé</b> · État de Roblox, {mois}</span>'
+    return (f'<section class="page {cls}">{body}<footer class="pf"><span><b>PlayLedger</b> · État de Roblox, {mois}</span>'
             f'<span>{n} / {total}</span></footer></section>')
 
 
@@ -236,7 +236,7 @@ def render(D):
            (a(fr_share(D["part_top10"]), D["src_url"]), "des joueurs du top 100 sont sur les 10 premiers jeux"),
            (off(D, "officiel.t2-2026.dau"), "d’utilisateurs actifs chaque jour (T2 2026, Roblox Corporation)"),
            (a(fr_share(D["recents"]["part"]), D["games_url"]), "des joueurs du top 100 sur des jeux créés il y a moins de 90 jours")]
-    pages.append(("cover", f'''<div class="cv-top"><span class="logo"><i></i><i></i><i></i></span><span class="brand">Le Relevé</span><span class="cv-tag">Baromètre mensuel</span></div>
+    pages.append(("cover", f'''<div class="cv-top"><span class="logo"><i></i><i></i><i></i></span><span class="brand">PlayLedger</span><span class="cv-tag">Baromètre mensuel</span></div>
 <div class="cv-main"><p class="cv-kicker">Rapport · {esc(mois_cap)}</p><h1>État de Roblox</h1>
 <p class="cv-sub">Ce que jouent vraiment les joueurs, qui capte l’audience et comment les jeux se monétisent. Chaque chiffre de ce rapport est relié à sa source.</p></div>
 <div class="cv-kpis">{"".join(f'<div class="cv-k"><b>{v}</b><span>{esc(l)}</span></div>' for v, l in kpi)}</div>
@@ -359,11 +359,11 @@ def render(D):
 
     # 10. méthode
     pages.append(("", f'''<p class="kicker">Méthode</p><h2>Comment ce rapport est fait</h2>
-<div class="two"><div><h3>Les données</h3><p>Le Relevé interroge chaque heure les API publiques de Roblox : nombre de joueurs en ligne, visites et votes de {fr_int(D["n_suivis"])} jeux (les classements mis en avant par Roblox et les jeux qui y sont passés). Les game passes du top 100 sont relevés une fois par jour.</p>
+<div class="two"><div><h3>Les données</h3><p>PlayLedger interroge chaque heure les API publiques de Roblox : nombre de joueurs en ligne, visites et votes de {fr_int(D["n_suivis"])} jeux (les classements mis en avant par Roblox et les jeux qui y sont passés). Les game passes du top 100 sont relevés une fois par jour.</p>
 <p>Les résultats de Roblox Corporation viennent de ses communiqués officiels. Les records antérieurs à notre suivi viennent de sources de presse, citées à chaque fois.</p></div>
 <div><h3>Les vérifications</h3><p>Aucun chiffre n’est saisi à la main dans le texte : chacun est calculé par programme à partir des fichiers publiés, et renvoie par un lien à sa source exacte.</p>
-<p>Toutes les données sont ouvertes (CSV et JSON) et réutilisables en citant Le Relevé. Une erreur ? Elle est corrigée et la correction est publiée.</p></div></div>
-<div class="end"><p class="kicker">Le Relevé</p><p class="big">L’économie de Roblox, en chiffres vérifiables.</p>
+<p>Toutes les données sont ouvertes (CSV et JSON) et réutilisables en citant PlayLedger. Une erreur ? Elle est corrigée et la correction est publiée.</p></div></div>
+<div class="end"><p class="kicker">PlayLedger</p><p class="big">L’économie de Roblox, en chiffres vérifiables.</p>
 <p>Classement en direct, alertes, analyses et données ouvertes : <a href="{esc(CONFIG.get("baseUrl", ""))}">{esc(CONFIG.get("baseUrl", "").replace("https://", ""))}</a></p>
 <p class="small">Média indépendant, non affilié à Roblox Corporation. Roblox est une marque de Roblox Corporation. Méthode détaillée : <a href="{esc(CONFIG.get("baseUrl", "") + "/methode/")}">page Méthode</a>.</p></div>'''))
 
@@ -371,7 +371,7 @@ def render(D):
     body = "".join(page(i + 1, total, D, b, cls) for i, (cls, b) in enumerate(pages))
     font = (ROOT / "assets" / "fonts" / "schibsted-grotesk-latin-wght-normal.woff2").as_uri()
     font2 = (ROOT / "assets" / "fonts" / "schibsted-grotesk-latin-ext-wght-normal.woff2").as_uri()
-    return f"""<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>État de Roblox, {esc(MOIS[D['m'] - 1])} {D['y']} | Le Relevé</title>
+    return f"""<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>État de Roblox, {esc(MOIS[D['m'] - 1])} {D['y']} | PlayLedger</title>
 <style>
 @font-face {{ font-family: "Schibsted"; src: url("{font}") format("woff2"); font-weight: 400 900; }}
 @font-face {{ font-family: "Schibsted"; src: url("{font2}") format("woff2"); font-weight: 400 900; unicode-range: U+0100-024F, U+1E00-1EFF; }}

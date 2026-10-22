@@ -72,6 +72,11 @@ jobs:
           for i in 1 2 3; do git pull -q --rebase -X theirs && git push -q && exit 0; git rebase --abort 2>/dev/null; sleep 5; done
           exit 1
 
+      - name: Rapport mensuel « État de Roblox » (PDF du mois écoulé, dès le 1er du mois)
+        run: |
+          MOIS=$(date -u -d "$(date -u +%Y-%m-01) -1 day" +%Y-%m)
+          python tools/rapport.py --mois "$MOIS" --out out/rapport || echo "Pas de rapport pour $MOIS."
+
       - name: Construire le site (le vérificateur bloque tout chiffre sans source)
         run: python tools/build.py --drafts
 

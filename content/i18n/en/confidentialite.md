@@ -11,7 +11,7 @@ Contact for any question about your data: {{contact}}
 
 **When you visit the site**: nothing that identifies you. No cookies are set. Audience measurement uses Cloudflare Web Analytics, without cookies or persistent identifiers: it counts page views, in aggregate.
 
-**When you sign up for the newsletter or the report**: your email address, and technical information related to sending (sign-up date, email opens and link clicks, in aggregate, to measure what interests readers).
+**When you sign up for the newsletter or the report** (form served by beehiiv, which may set its own technical cookies inside the form; no tracking script or cookie is added to the rest of the site): your email address, and technical information related to sending (sign-up date, email opens and link clicks, in aggregate, to measure what interests readers).
 
 We collect no other data, and we never sell or rent your address.
 

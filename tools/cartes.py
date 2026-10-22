@@ -43,7 +43,7 @@ def canvas(kicker, title):
     d = ImageDraw.Draw(im)
     for i, h in enumerate((16, 34, 25)):
         d.rounded_rectangle((M + i * 13, 98 - h, M + 9 + i * 13, 98), radius=2, fill=BLUE)
-    d.text((M + 52, 64), "Le Relevé", font=font(34, "ExtraBold"), fill=INK)
+    d.text((M + 52, 64), "PlayLedger", font=font(34, "ExtraBold"), fill=INK)
     d.text((W - M, 72), "Données Roblox vérifiables", font=font(22, "Medium"), fill=MUTED, anchor="ra")
     d.text((M, 170), kicker.upper(), font=font(24, "Bold"), fill="#60a5fa")
     y = 210
@@ -57,7 +57,7 @@ def foot(d, D, source):
     when = D["ts"]
     d.line([(M, H - 120), (W - M, H - 120)], fill=LINE, width=2)
     d.text((M, H - 98), f"Source : {source}", font=font(22, "Medium"), fill=MUTED)
-    d.text((M, H - 64), f"Relevé du {fr_date(when.astimezone(TZ).date(), weekday=False)} à {fr_hour(when)} (Paris). Chaque chiffre sourcé sur Le Relevé.",
+    d.text((M, H - 64), f"Relevé du {fr_date(when.astimezone(TZ).date(), weekday=False)} à {fr_hour(when)} (Paris). Chaque chiffre sourcé sur PlayLedger.",
            font=font(22, "Medium"), fill="#64748b")
 
 

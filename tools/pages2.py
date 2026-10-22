@@ -320,6 +320,7 @@ EXPLORER_GROUPS = [
         ("genres/", "Genres", "Les jeux les plus joués, genre par genre."),
         ("monetisation/", "Monétisation", "Le prix des game passes des jeux du top 100.")]),
     ("donnees", "Données et outils", "Réutiliser nos chiffres, et savoir d’où ils viennent.", [
+        ("rapport/", "Rapport mensuel", "« État de Roblox » : le baromètre PDF gratuit, chaque mois."),
         ("methode/", "Méthode", "Comment chaque chiffre est relevé, calculé et relié à sa source."),
         ("donnees/", "API et données ouvertes", "Tout en JSON et en CSV, gratuitement."),
         ("widget/", "Widget à intégrer", "Le classement en direct sur votre site, mis à jour toutes les heures."),
@@ -334,8 +335,8 @@ def explorer_page(page, url, extra=()):
         cards = "".join(f'<li class="card"><a href="{url(p)}"><h3>{esc(t(x))}</h3><p>{esc(t(d))}</p></a></li>' for p, x, d in items)
         groups += (f'<section class="ex-group" aria-labelledby="ex-{gid}"><div class="ex-head"><h2 id="ex-{gid}">{esc(t(title))}</h2>'
                    f'<p>{esc(t(sub))}</p></div><ol class="cards grid-ex n{len(items)}">{cards}</ol></section>')
-    return page(t("Explorer les données de Roblox"), f'<div class="wide"><h1>{t("Explorer")}</h1><p class="lede">{t("Tous les outils du Relevé, calculés à partir de nos relevés horaires.")}</p>'
-                f'{groups}</div>', t("Tous les outils du Relevé pour explorer les données de Roblox."), "explorer/")
+    return page(t("Explorer les données de Roblox"), f'<div class="wide"><h1>{t("Explorer")}</h1><p class="lede">{t("Tous les outils de PlayLedger, calculés à partir de nos relevés horaires.")}</p>'
+                f'{groups}</div>', t("Tous les outils de PlayLedger pour explorer les données de Roblox."), "explorer/")
 
 
 # ------------------------------------------------------------------ monétisation (game passes)

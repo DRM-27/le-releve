@@ -18,7 +18,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import CONFIG, DATA, TZ, iso, parse_iso, read_csv, snap_path, utc_now, write_csv
 import glob
 
-UA = "LeReleveBot/1.0 (media de donnees; https://github.com/DRM-27/le-releve)"
+UA = "PlayLedgerBot/1.0 (media de donnees; https://github.com/DRM-27/le-releve)"
 STATUS = DATA / "daily_status.json"
 
 

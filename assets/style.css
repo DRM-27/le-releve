@@ -1034,3 +1034,14 @@ html:not([lang="fr"]) * { font-variant-numeric: normal !important; }
 .qa-two { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
 .qa-two .table-wrap { margin-top: .5rem; }
 @media (max-width: 760px) { .qa-two { grid-template-columns: 1fr; } .qa .answer { font-size: 1.05rem; } }
+
+/* ---------- newsletter (iframe beehiiv) ---------- */
+.nl-box { margin: 2rem 0; padding: 1.3rem 1.4rem 1rem; border-radius: 14px; border: 1px solid rgba(96, 165, 250, .25);
+  background: radial-gradient(circle at 100% 0, rgba(37, 99, 235, .18), transparent 55%), rgba(21, 29, 42, .6); }
+.nl-box h2 { font-size: 1.15rem; margin: 0 0 .35rem; }
+.nl-box p { color: var(--ink-2); font-size: .95rem; margin: 0 0 .6rem; }
+.nl-frame { width: 100%; height: 230px; border: 0; background: transparent; color-scheme: normal; display: block; }
+.nl-legal { font-size: .78rem !important; color: var(--muted) !important; margin: .3rem 0 0 !important; }
+.nl-home { margin-top: 1rem; }
+.rp-form .nl-box { margin: .8rem 0 0; padding: 0; border: 0; background: none; }
+@media (min-width: 1000px) { .cards.grid-ex.n6 { grid-template-columns: repeat(3, minmax(0, 1fr)); } }

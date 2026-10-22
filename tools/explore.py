@@ -20,7 +20,7 @@ from common import rank_html
 esc = html.escape
 HISTORY_DAYS = 30
 INDEX_AFTER_DAYS = 7  # une page de jeu n'est proposée à Google qu'avec 7 jours d'historique
-LICENCE = "Données sous licence ODbL : réutilisation libre, y compris commerciale, en citant « Le Relevé » avec un lien."
+LICENCE = "Données sous licence ODbL : réutilisation libre, y compris commerciale, en citant « PlayLedger » avec un lien."
 
 
 def lic():
@@ -134,7 +134,7 @@ def game_page(rec, page, url, recs=()):
             + f'<a class="btn" href="{url("comparer/?a=" + rec["universe_id"])}">{t("Comparer avec un autre jeu")}</a>'
             f'<a class="btn ghost" href="{url("api/jeux/" + rec["universe_id"] + ".json")}">{t("Données en JSON")}</a></div></div>'
             + related_games(rec, recs, url) +
-            f'<section class="embed-box"><h2>{t("Badge « Classé au Relevé »")}</h2><p>{t("Pour votre site, votre Discord ou la description de votre jeu : le badge se met à jour toutes les heures.")}</p>'
+            f'<section class="embed-box"><h2>{t("Badge « Classé sur PlayLedger »")}</h2><p>{t("Pour votre site, votre Discord ou la description de votre jeu : le badge se met à jour toutes les heures.")}</p>'
             f'<p><img src="{url("badge/" + rec["universe_id"] + ".svg")}" alt="Badge {esc(rec["nom"])}" height="28"></p>'
             f'<pre class="embed"><code id="badge-code">{esc(badge_code(rec))}</code></pre>'
             f'<p><button class="btn" type="button" data-copy-from="badge-code">{t("Copier le code du badge")}</button></p></section>'
@@ -168,12 +168,12 @@ def badge_code(rec):
     root = (CONFIG.get("baseUrl") or "").rstrip("/")
     base = root + ("/" + i18n.prefix().rstrip("/") if i18n.prefix() else "")
     return (f'<a href="{base}/jeux/{rec["slug"]}/"><img src="{root}/badge/{rec["universe_id"]}.svg" '
-            f'alt="{esc(t("{nom} au classement du Relevé", nom=rec["nom"]))}" height="28"></a>')
+            f'alt="{esc(t("{nom} au classement PlayLedger", nom=rec["nom"]))}" height="28"></a>')
 
 
 def game_embed(rec):
     base = (CONFIG.get("baseUrl") or "").rstrip("/") + ("/" + i18n.prefix().rstrip("/") if i18n.prefix() else "")
-    return (f'<iframe src="{base}/widget/jeu/{rec["universe_id"]}/" title="{esc(t("{nom} : joueurs en ligne, par Le Relevé", nom=rec["nom"]))}" '
+    return (f'<iframe src="{base}/widget/jeu/{rec["universe_id"]}/" title="{esc(t("{nom} : joueurs en ligne, par PlayLedger", nom=rec["nom"]))}" '
             f'width="100%" height="260" style="border:0;max-width:560px" loading="lazy"></iframe>')
 
 
@@ -303,12 +303,12 @@ def data_page(page, url):
           "creator": {"@type": "Organization", "name": CONFIG["name"]}, "temporalCoverage": "2026-10-21/..",
           "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": base + "/api/classement.json"},
                            {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": f"https://github.com/{CONFIG.get('repo')}/tree/main/data"}]}
-    return page(t("Données ouvertes et API"), body, t("Les données du Relevé en accès libre : classement, historique par jeu, alertes."), "donnees/", ld=ld)
+    return page(t("Données ouvertes et API"), body, t("Les données de PlayLedger en accès libre : classement, historique par jeu, alertes."), "donnees/", ld=ld)
 
 
 def embed_code():
     base = (CONFIG.get("baseUrl") or "").rstrip("/") + ("/" + i18n.prefix().rstrip("/") if i18n.prefix() else "")
-    return (f'<iframe src="{base}/widget/" title="{esc(t("Classement en direct des jeux Roblox, par Le Relevé"))}" '
+    return (f'<iframe src="{base}/widget/" title="{esc(t("Classement en direct des jeux Roblox, par PlayLedger"))}" '
             f'width="100%" height="520" style="border:0;max-width:420px" loading="lazy"></iframe>')
 
 
@@ -337,7 +337,7 @@ a:hover{{text-decoration:underline}} .w-rank{{color:var(--mut)}} .w-val{{font-we
 
 
 def api_files(recs, latest_ts, alerts, prev_ranks):
-    meta = {"source": "Le Relevé, relevés horaires des API publiques de Roblox", "licence": LICENCE,
+    meta = {"source": "PlayLedger, relevés horaires des API publiques de Roblox", "licence": LICENCE,
             "site": CONFIG.get("baseUrl", ""), "genere": iso(utc_now())}
     top = [r for r in recs if r["rang"]][:100]
     classement = {**meta, "releve": iso(latest_ts) if latest_ts else None, "jeux": [

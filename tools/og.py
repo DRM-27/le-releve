@@ -1,4 +1,4 @@
-"""Images de partage (Open Graph, 1200 × 630) et badges SVG « Classé au Relevé ».
+"""Images de partage (Open Graph, 1200 × 630) et badges SVG « Classé sur PlayLedger ».
 
 Les images sont générées à chaque construction, sans être archivées dans le dépôt. Les icônes des jeux sont
 téléchargées depuis le CDN de Roblox et gardées en cache ; si le téléchargement échoue, l'image se passe d'icône.
@@ -33,7 +33,7 @@ def get_icon(url, size):
     p = CACHE / (hashlib.sha1(url.encode()).hexdigest() + ".png")
     if not p.exists():
         try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "LeReleveBot/1.0"}), timeout=6) as r:
+            with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "PlayLedgerBot/1.0"}), timeout=6) as r:
                 p.write_bytes(r.read())
         except Exception:
             return None
@@ -57,7 +57,7 @@ def base():
     # marque
     for i, h in enumerate((14, 30, 22)):
         d.rounded_rectangle((60 + i * 12, 70 - h, 69 + i * 12, 70), radius=2, fill=BLUE)
-    d.text((104, 40), "Le Relevé", font=font(30, "ExtraBold"), fill=INK)
+    d.text((104, 40), "PlayLedger", font=font(30, "ExtraBold"), fill=INK)
     d.text((W - 60, 46), "Chiffres vérifiables", font=font(22, "Medium"), fill=MUTED, anchor="ra")
     return im, d
 
@@ -117,7 +117,7 @@ def game_card(path, name, icon_url, players, rank, values, var=None):
     for i, line in enumerate(wrap(d, name, font(54, "ExtraBold"), W - tx - 60, 2)):
         d.text((tx, 135 + i * 62), line, font=font(54, "ExtraBold"), fill=INK)
     d.text((60, 330), f"{players:,}".replace(",", " "), font=font(96, "ExtraBold"), fill=INK)
-    d.text((60, 440), "joueurs en ligne" + (f"  ·  {rank}e au classement du Relevé" if rank and rank > 1 else ("  ·  n° 1 au classement du Relevé" if rank == 1 else "")),
+    d.text((60, 440), "joueurs en ligne" + (f"  ·  {rank}e au classement PlayLedger" if rank and rank > 1 else ("  ·  n° 1 au classement PlayLedger" if rank == 1 else "")),
            font=font(28, "Medium"), fill=MUTED)
     color = BLUE if var is None else (GREEN if var >= 0 else RED)
     spark(d, values[-48:], (640, 330, W - 60, 470), color)
@@ -137,12 +137,12 @@ def site_card(path, tagline):
 
 def badge_svg(rank, players, name):
     rk = "n° 1" if rank == 1 else (f"{rank}e" if rank else "suivi")
-    left, right = "Le Relevé", f"{rk} du classement · {players:,} joueurs".replace(",", " ")
-    lw, rw = 92, 14 + int(len(right) * 7.1)
+    left, right = "PlayLedger", f"{rk} du classement · {players:,} joueurs".replace(",", " ")
+    lw, rw = 29 + int(len(left) * 7.4) + 10, 14 + int(len(right) * 7.1)
     w = lw + rw
     esc = lambda s: s.replace("&", "&amp;").replace("<", "&lt;").replace('"', "&quot;")
-    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="28" role="img" aria-label="{esc(name)} : {esc(right)}, selon Le Relevé">'
-            f'<title>{esc(name)} : {esc(right)}, selon Le Relevé</title>'
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="28" role="img" aria-label="{esc(name)} : {esc(right)}, selon PlayLedger">'
+            f'<title>{esc(name)} : {esc(right)}, selon PlayLedger</title>'
             f'<rect width="{w}" height="28" rx="6" fill="#151d2a"/><rect width="{lw}" height="28" rx="6" fill="#1e293b"/>'
             f'<rect x="{lw - 6}" width="6" height="28" fill="#1e293b"/>'
             f'<g fill="#3b82f6"><rect x="10" y="15" width="3" height="6" rx="1"/><rect x="15" y="8" width="3" height="13" rx="1"/><rect x="20" y="11" width="3" height="10" rx="1"/></g>'

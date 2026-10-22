@@ -322,6 +322,7 @@ def article_page(a, prefix="articles", related=()):
 {a['html']}
 </div>
 {share_bar(a, prefix)}
+{newsletter_box('article') if prefix == 'articles' else ''}
 <aside class="provenance" aria-labelledby="prov-{esc(a['slug'])}">
   <h2 id="prov-{esc(a['slug'])}">{t("D’où viennent ces chiffres")}</h2>
   <p class="checked"><span class="check" aria-hidden="true"></span>{t("{n} chiffres dans cet article, tous reliés à leur source. Cliquez sur un chiffre souligné pour ouvrir le document ou la ligne exacte du fichier de données d’où il vient.", n=len(a['used']))}</p>
@@ -514,16 +515,28 @@ RAPPORT_SOMMAIRE = ["Ce qu’il faut retenir : les chiffres du mois en sept poin
                     "Le mois heure par heure : pointes, records, plus fortes hausses et baisses", "Les records historiques, sources à l’appui"]
 
 
+def newsletter_box(variant="article"):
+    """Formulaire d'inscription beehiiv, en iframe : aucun script tiers ni cookie déposé sur le site."""
+    fid = CONFIG.get("newsletter", {}).get("beehiivFormId")
+    if not fid:
+        return ""
+    title = {"article": t("Recevoir PlayLedger par e-mail"), "home": t("La newsletter"), "rapport": t("Recevoir le rapport")}[variant]
+    text = {"article": t("Les chiffres clés de Roblox, une fois par semaine, et le rapport mensuel « État de Roblox » en PDF. Gratuit, désinscription en un clic."),
+            "home": t("Les chiffres clés de la semaine et le rapport mensuel, dans votre boîte. Gratuit."),
+            "rapport": t("Inscrivez-vous : vous recevrez chaque édition dès sa sortie, puis la newsletter hebdomadaire. Gratuit, désinscription en un clic.")}[variant]
+    src = f"https://subscribe-forms.beehiiv.com/v3/forms/{fid}"
+    return (f'<section class="nl-box nl-{variant}"><h2>{esc(title)}</h2><p>{esc(text)}</p>'
+            f'<iframe class="nl-frame" src="{esc(src)}" title="{esc(t("Inscription à la newsletter"))}" loading="lazy"></iframe>'
+            f'<p class="nl-legal">{t("Envoi par beehiiv. Vos données :")} <a href="{url("confidentialite/")}">{t("politique de confidentialité")}</a>.</p></section>')
+
+
 def rapport_page():
     nl = CONFIG.get("newsletter", {})
     first = CONFIG.get("rapport", {}).get("premiereEdition", "")
     when = fr_date(datetime.fromisoformat(first).date(), weekday=False) if first else ""
     som = "".join(f"<li>{esc(x)}</li>" for x in RAPPORT_SOMMAIRE)
-    if nl.get("beehiivEmbedUrl"):
-        cta = (f'<div class="rp-form"><h2>Recevoir le rapport</h2><p>Indiquez votre adresse : le rapport arrive dans votre boîte, puis chaque nouvelle édition le mois suivant. '
-               f'Désinscription en un clic.</p><iframe src="{esc(nl["beehiivEmbedUrl"])}" title="Inscription au rapport" loading="lazy" '
-               f'style="width:100%;height:180px;border:0;background:transparent"></iframe>'
-               f'<p class="small">Vos données : <a href="{url("confidentialite/")}">politique de confidentialité</a>.</p></div>')
+    if nl.get("beehiivFormId"):
+        cta = (f'<div class="rp-form"><span class="tag">{esc("Première édition le " + when)}</span>' + newsletter_box("rapport") + '</div>')
         robots = ""
     else:
         cta = (f'<div class="rp-form soon-box"><span class="tag">Bientôt</span><h2>Première édition le {esc(when)}</h2>'
@@ -692,7 +705,7 @@ def build(drafts=False):
                     f'<p class="empty-links"><a class="btn" href="{url("classement/")}">{t("Voir le classement en direct")}</a> <a class="btn ghost" href="{url("comparer/")}">{t("Comparer deux jeux")}</a></p></div>')
         intro = (f'<section class="intro"><h1>{esc(tagline())}</h1><p>{esc(description())}</p>'
                  f'<a class="trust" href="{url("methode/")}"><span class="check" aria-hidden="true"></span>{t("Chaque chiffre est sourcé")} <span class="trust-go">{t("Méthode")} <span aria-hidden="true">→</span></span></a></section>')
-        write("index.html", page(NAME, f'<div class="home"><div class="main-col">{intro}<section class="feed" aria-label="{t("Derniers articles")}">{feed}</section></div><aside class="side-col">{pulse}</aside></div>', path=""))
+        write("index.html", page(NAME, f'<div class="home"><div class="main-col">{intro}<section class="feed" aria-label="{t("Derniers articles")}">{feed}</section></div><aside class="side-col">{pulse}{newsletter_box("home")}</aside></div>', path=""))
         write("articles/index.html", page(t("Tous les articles"), f'<div class="narrow"><h1>{t("Tous les articles")}</h1><ol class="cards list">{"".join(card(a) for a in arts)}</ol></div>', path="articles/"))
 
         if live:
@@ -756,7 +769,7 @@ def build(drafts=False):
                           f"<channel><title>{esc(NAME)}</title><link>{esc(abs_url())}</link><description>{esc(description())}</description>"
                           f"<language>{META[lang]['html']}</language>{items}</channel></rss>")
 
-        extra = ["joueurs-roblox-en-ce-moment/", "jeux-roblox-les-plus-joues/", "monetisation/", "actus-officielles/", "tendances/", "mises-a-jour/", "heures-de-pointe/", "records/", "studios/", "genres/", "explorer/"] + \
+        extra = (["rapport/"] if CONFIG.get("newsletter", {}).get("beehiivFormId") and lang == "fr" else []) + ["joueurs-roblox-en-ce-moment/", "jeux-roblox-les-plus-joues/", "monetisation/", "actus-officielles/", "tendances/", "mises-a-jour/", "heures-de-pointe/", "records/", "studios/", "genres/", "explorer/"] + \
                 [p.replace("index.html", "") for p in st_pages if '<meta name="robots"' not in st_pages[p] and p != "studios/index.html"] + \
                 [p.replace("index.html", "") for p in g_pages if p != "genres/index.html"]
         paths = ["", "classement/", "alertes/", "comparer/", "donnees/", "methode/", "articles/", "partenaires/"] + indexable + extra
@@ -766,6 +779,13 @@ def build(drafts=False):
 
         if lang == "fr":
             write("rapport/index.html", rapport_page(), shared=True)
+            # PDF du rapport (généré par tools/rapport.py dans out/rapport/) : lien envoyé par e-mail, non listé ni indexé
+            pdfs = sorted((ROOT / "out" / "rapport").glob("etat-de-roblox-*.pdf"))
+            if pdfs:
+                (OUT / "rapport" / "pdf").mkdir(parents=True, exist_ok=True)
+                for p_ in pdfs:
+                    shutil.copy(p_, OUT / "rapport" / "pdf" / p_.name)
+                shutil.copy(pdfs[-1], OUT / "rapport" / "pdf" / "derniere-edition.pdf")
             try:
                 import cartes
                 import rapport as rapport_mod
@@ -773,7 +793,7 @@ def build(drafts=False):
                 figs = "".join(f'<figure class="carte"><a href="{url("cartes/" + f)}" download><img src="{url("cartes/" + f)}" alt="{esc(x)}" loading="lazy" width="1080" height="1350"></a>'
                                f'<figcaption>{esc(x)} · <a href="{url("cartes/" + f)}" download>Télécharger</a></figcaption></figure>' for f, x in made)
                 write("cartes/index.html", page("Cartes à partager", f'<div class="wide"><h1>Cartes à partager</h1><p class="lede">Les chiffres clés de Roblox en images (1080 × 1350), '
-                                                f'régénérées à chaque relevé horaire. Libres de reprise en citant Le Relevé.</p><div class="cartes">{figs}</div></div>',
+                                                f'régénérées à chaque relevé horaire. Libres de reprise en citant PlayLedger.</p><div class="cartes">{figs}</div></div>',
                                                 "Les chiffres clés de Roblox en images à partager.", "cartes/", extra_head='<meta name="robots" content="noindex">', alts=["fr"]),
                       shared=True)
             except Exception as e:
@@ -791,7 +811,7 @@ def build(drafts=False):
                          + "".join(urls) + "</urlset>", shared=True)
     bots = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "PerplexityBot", "Google-Extended", "Applebot-Extended", "Bingbot", "Googlebot"]
     write("robots.txt", "".join(f"User-agent: {b}\nAllow: /\nDisallow: /brouillons/\n\n" for b in bots)
-          + f"User-agent: *\nAllow: /\nDisallow: /brouillons/\nDisallow: /widget/\n\nSitemap: {abs_url('sitemap.xml')}\n", shared=True)
+          + f"User-agent: *\nAllow: /\nDisallow: /brouillons/\nDisallow: /widget/\nDisallow: /rapport/pdf/\n\nSitemap: {abs_url('sitemap.xml')}\n", shared=True)
     top_games = [r for r in recs if r["rang"]][:20]
     write("llms.txt", f"# {NAME}\n\n> {CONFIG['description']} Média indépendant, non affilié à Roblox Corporation. "
           f"Disponible en français, en anglais ({abs_url('', 'en')}), en espagnol ({abs_url('', 'es')}) et en portugais du Brésil ({abs_url('', 'pt-br')}).\n\n"

@@ -11,7 +11,7 @@ Contacto para cualquier pregunta sobre tus datos: {{contact}}
 
 **Al visitar el sitio**: nada que te identifique. No se instala ninguna cookie. La medición de audiencia utiliza Cloudflare Web Analytics, sin cookies ni identificador persistente: cuenta páginas vistas, de forma agregada.
 
-**Al suscribirte a la newsletter o al informe**: tu dirección de correo electrónico y la información técnica ligada al envío (fecha de suscripción, aperturas de correos y clics en los enlaces, de forma agregada, para medir lo que interesa a los lectores).
+**Al suscribirte a la newsletter o al informe** (formulario servido por beehiiv, que puede instalar sus propias cookies técnicas dentro del formulario; no se añade ningún script ni cookie de seguimiento al resto del sitio): tu dirección de correo electrónico y la información técnica ligada al envío (fecha de suscripción, aperturas de correos y clics en los enlaces, de forma agregada, para medir lo que interesa a los lectores).
 
 No recopilamos ningún otro dato, y nunca vendemos ni alquilamos tu dirección.
 
