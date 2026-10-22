@@ -1,10 +1,10 @@
 {
- "genere": "2026-10-22T00:53:14Z",
+ "genere": "2026-10-22T01:22:44Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/le-releve/",
-   "vues": 35
+   "vues": 37
   },
   {
    "path": "/le-releve/classement/",
@@ -12,7 +12,7 @@
   },
   {
    "path": "/le-releve/alertes/",
-   "vues": 13
+   "vues": 14
   },
   {
    "path": "/le-releve/comparer/",
@@ -39,7 +39,7 @@
    "vues": 3
   },
   {
-   "path": "/le-releve/brouillons/2026-10-21-photographie-top100/",
+   "path": "/le-releve/monetisation/",
    "vues": 2
   },
   {
@@ -47,7 +47,7 @@
    "vues": 2
   },
   {
-   "path": "/le-releve/monetisation/",
+   "path": "/le-releve/articles/2026-10-21-age-des-jeux/",
    "vues": 2
   },
   {
@@ -55,31 +55,31 @@
    "vues": 2
   },
   {
-   "path": "/le-releve/jeux/break-and-steal-an-egg-10765288803/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/articles/2026-10-21-age-des-jeux/",
-   "vues": 2
-  },
-  {
    "path": "/le-releve/jeux/steal-an-egg-10563114921/",
    "vues": 2
   },
   {
+   "path": "/le-releve/jeux/break-and-steal-an-egg-10765288803/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/en/comparer/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/brouillons/2026-10-21-photographie-top100/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/brouillons/2026-10-21-age-des-jeux/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/pt-br/",
+   "vues": 1
+  },
+  {
    "path": "/le-releve/actus-officielles/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/articles/2026-10-21-jeux-oeufs/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/jeux/article-10769149947/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/genres/simulation/",
    "vues": 1
   }
  ]
