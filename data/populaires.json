@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-22T12:45:07Z",
+ "genere": "2026-10-22T13:49:25Z",
  "periode_jours": 7,
  "pages": [
   {
@@ -19,11 +19,11 @@
    "vues": 13
   },
   {
-   "path": "/le-releve/methode/",
+   "path": "/le-releve/explorer/",
    "vues": 10
   },
   {
-   "path": "/le-releve/explorer/",
+   "path": "/le-releve/methode/",
    "vues": 10
   },
   {
@@ -55,10 +55,6 @@
    "vues": 3
   },
   {
-   "path": "/le-releve/en/source/",
-   "vues": 2
-  },
-  {
    "path": "/le-releve/en/comparer/",
    "vues": 2
   },
@@ -79,7 +75,11 @@
    "vues": 2
   },
   {
-   "path": "/le-releve/jeux/steal-an-egg-10563114921/",
+   "path": "/le-releve/jeux/break-and-steal-an-egg-10765288803/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/en/source/",
    "vues": 2
   }
  ]
