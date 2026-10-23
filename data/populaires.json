@@ -1,18 +1,18 @@
 {
- "genere": "2026-10-23T14:42:45Z",
+ "genere": "2026-10-23T15:40:31Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/le-releve/",
-   "vues": 42
+   "vues": 47
   },
   {
    "path": "/le-releve/classement/",
-   "vues": 23
+   "vues": 25
   },
   {
    "path": "/le-releve/alertes/",
-   "vues": 14
+   "vues": 15
   },
   {
    "path": "/le-releve/comparer/",
@@ -20,7 +20,7 @@
   },
   {
    "path": "/le-releve/explorer/",
-   "vues": 12
+   "vues": 13
   },
   {
    "path": "/le-releve/methode/",
@@ -51,6 +51,10 @@
    "vues": 4
   },
   {
+   "path": "/le-releve/articles/2026-10-21-age-des-jeux/",
+   "vues": 3
+  },
+  {
    "path": "/le-releve/articles/",
    "vues": 3
   },
@@ -59,11 +63,7 @@
    "vues": 3
   },
   {
-   "path": "/le-releve/en/comparer/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/brouillons/2026-10-21-photographie-top100/",
+   "path": "/le-releve/en/source/",
    "vues": 2
   },
   {
@@ -75,11 +75,11 @@
    "vues": 2
   },
   {
-   "path": "/le-releve/en/source/",
+   "path": "/le-releve/articles/2026-10-21-jeux-oeufs/",
    "vues": 2
   },
   {
-   "path": "/le-releve/articles/2026-10-21-age-des-jeux/",
+   "path": "/le-releve/brouillons/2026-10-21-photographie-top100/",
    "vues": 2
   }
  ]
