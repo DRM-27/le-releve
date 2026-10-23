@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-22",
- "genere": "2026-10-23T11:38:16Z",
+ "genere": "2026-10-23T12:42:09Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -249,8 +249,8 @@
    "src": "data/jours/2026-10-22.csv#L4"
   },
   "top.4.nom": {
-   "v": "[4H⏳] Adopt Me!",
-   "d": "[4H⏳] Adopt Me!",
+   "v": "[3H⏳] Adopt Me!",
+   "d": "[3H⏳] Adopt Me!",
    "l": "N° 4 du jour : nom",
    "src": "data/jours/2026-10-22.csv#L5"
   },
@@ -849,63 +849,63 @@
    "src": "data/jours/2026-10-22.csv#L4"
   },
   "g.383310974.nom": {
-   "v": "[4H⏳] Adopt Me!",
-   "d": "[4H⏳] Adopt Me!",
-   "l": "[4H⏳] Adopt Me! : nom",
+   "v": "[3H⏳] Adopt Me!",
+   "d": "[3H⏳] Adopt Me!",
+   "l": "[3H⏳] Adopt Me! : nom",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.rang": {
    "v": 4,
    "d": "4e",
-   "l": "[4H⏳] Adopt Me! : rang au pic du jour",
+   "l": "[3H⏳] Adopt Me! : rang au pic du jour",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.pic": {
    "v": 209951,
    "d": "209 951",
-   "l": "[4H⏳] Adopt Me! : pic de joueurs simultanés relevé",
+   "l": "[3H⏳] Adopt Me! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.heure_pic": {
    "v": "20:40",
    "d": "20 h 40",
-   "l": "[4H⏳] Adopt Me! : heure (Paris) du pic relevé",
+   "l": "[3H⏳] Adopt Me! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.moy": {
    "v": 153628,
    "d": "153 628",
-   "l": "[4H⏳] Adopt Me! : moyenne des joueurs simultanés sur la journée",
+   "l": "[3H⏳] Adopt Me! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.createur": {
    "v": "Uplift Games",
    "d": "Uplift Games",
-   "l": "[4H⏳] Adopt Me! : créateur",
+   "l": "[3H⏳] Adopt Me! : créateur",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "[4H⏳] Adopt Me! : genre",
+   "l": "[3H⏳] Adopt Me! : genre",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.visites_24h": {
    "v": 8940048,
    "d": "8,94 millions",
-   "l": "[4H⏳] Adopt Me! : visites gagnées en 24 h",
+   "l": "[3H⏳] Adopt Me! : visites gagnées en 24 h",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.visites_total": {
    "v": 45172734000,
    "d": "45,17 milliards",
-   "l": "[4H⏳] Adopt Me! : visites cumulées depuis la création",
+   "l": "[3H⏳] Adopt Me! : visites cumulées depuis la création",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.note": {
    "v": 0.8635,
    "d": "86,4 %",
-   "l": "[4H⏳] Adopt Me! : part de votes positifs",
+   "l": "[3H⏳] Adopt Me! : part de votes positifs",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.6035872082.nom": {
@@ -6807,7 +6807,7 @@
      "valeur": 383595
     },
     {
-     "nom": "[4H⏳] Adopt Me!",
+     "nom": "[3H⏳] Adopt Me!",
      "valeur": 209951
     },
     {
