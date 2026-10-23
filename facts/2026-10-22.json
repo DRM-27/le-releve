@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-22",
- "genere": "2026-10-23T08:39:21Z",
+ "genere": "2026-10-23T09:37:50Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -249,8 +249,8 @@
    "src": "data/jours/2026-10-22.csv#L4"
   },
   "top.4.nom": {
-   "v": "[8H⏳] Adopt Me!",
-   "d": "[8H⏳] Adopt Me!",
+   "v": "[6H⏳] Adopt Me!",
+   "d": "[6H⏳] Adopt Me!",
    "l": "N° 4 du jour : nom",
    "src": "data/jours/2026-10-22.csv#L5"
   },
@@ -849,63 +849,63 @@
    "src": "data/jours/2026-10-22.csv#L4"
   },
   "g.383310974.nom": {
-   "v": "[8H⏳] Adopt Me!",
-   "d": "[8H⏳] Adopt Me!",
-   "l": "[8H⏳] Adopt Me! : nom",
+   "v": "[6H⏳] Adopt Me!",
+   "d": "[6H⏳] Adopt Me!",
+   "l": "[6H⏳] Adopt Me! : nom",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.rang": {
    "v": 4,
    "d": "4e",
-   "l": "[8H⏳] Adopt Me! : rang au pic du jour",
+   "l": "[6H⏳] Adopt Me! : rang au pic du jour",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.pic": {
    "v": 209951,
    "d": "209 951",
-   "l": "[8H⏳] Adopt Me! : pic de joueurs simultanés relevé",
+   "l": "[6H⏳] Adopt Me! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.heure_pic": {
    "v": "20:40",
    "d": "20 h 40",
-   "l": "[8H⏳] Adopt Me! : heure (Paris) du pic relevé",
+   "l": "[6H⏳] Adopt Me! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.moy": {
    "v": 153628,
    "d": "153 628",
-   "l": "[8H⏳] Adopt Me! : moyenne des joueurs simultanés sur la journée",
+   "l": "[6H⏳] Adopt Me! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.createur": {
    "v": "Uplift Games",
    "d": "Uplift Games",
-   "l": "[8H⏳] Adopt Me! : créateur",
+   "l": "[6H⏳] Adopt Me! : créateur",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "[8H⏳] Adopt Me! : genre",
+   "l": "[6H⏳] Adopt Me! : genre",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.visites_24h": {
    "v": 8940048,
    "d": "8,94 millions",
-   "l": "[8H⏳] Adopt Me! : visites gagnées en 24 h",
+   "l": "[6H⏳] Adopt Me! : visites gagnées en 24 h",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.visites_total": {
    "v": 45172734000,
    "d": "45,17 milliards",
-   "l": "[8H⏳] Adopt Me! : visites cumulées depuis la création",
+   "l": "[6H⏳] Adopt Me! : visites cumulées depuis la création",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.note": {
    "v": 0.8635,
    "d": "86,4 %",
-   "l": "[8H⏳] Adopt Me! : part de votes positifs",
+   "l": "[6H⏳] Adopt Me! : part de votes positifs",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.6035872082.nom": {
@@ -5283,63 +5283,63 @@
    "src": "data/jours/2026-10-22.csv#L78"
   },
   "g.10381189313.nom": {
-   "v": "[🎨] Catch the Artist!",
-   "d": "[🎨] Catch the Artist!",
-   "l": "[🎨] Catch the Artist! : nom",
+   "v": "[🎃] Catch the Artist!",
+   "d": "[🎃] Catch the Artist!",
+   "l": "[🎃] Catch the Artist! : nom",
    "src": "data/jours/2026-10-22.csv#L79"
   },
   "g.10381189313.rang": {
    "v": 78,
    "d": "78e",
-   "l": "[🎨] Catch the Artist! : rang au pic du jour",
+   "l": "[🎃] Catch the Artist! : rang au pic du jour",
    "src": "data/jours/2026-10-22.csv#L79"
   },
   "g.10381189313.pic": {
    "v": 21168,
    "d": "21 168",
-   "l": "[🎨] Catch the Artist! : pic de joueurs simultanés relevé",
+   "l": "[🎃] Catch the Artist! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-22.csv#L79"
   },
   "g.10381189313.heure_pic": {
    "v": "01:34",
    "d": "1 h 34",
-   "l": "[🎨] Catch the Artist! : heure (Paris) du pic relevé",
+   "l": "[🎃] Catch the Artist! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-22.csv#L79"
   },
   "g.10381189313.moy": {
    "v": 11411,
    "d": "11 411",
-   "l": "[🎨] Catch the Artist! : moyenne des joueurs simultanés sur la journée",
+   "l": "[🎃] Catch the Artist! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-22.csv#L79"
   },
   "g.10381189313.createur": {
    "v": "Catch the Artist!",
    "d": "Catch the Artist!",
-   "l": "[🎨] Catch the Artist! : créateur",
+   "l": "[🎃] Catch the Artist! : créateur",
    "src": "data/jours/2026-10-22.csv#L79"
   },
   "g.10381189313.genre": {
    "v": "Party & Casual",
    "d": "Party games",
-   "l": "[🎨] Catch the Artist! : genre",
+   "l": "[🎃] Catch the Artist! : genre",
    "src": "data/jours/2026-10-22.csv#L79"
   },
   "g.10381189313.visites_24h": {
    "v": 2434727,
    "d": "2,43 millions",
-   "l": "[🎨] Catch the Artist! : visites gagnées en 24 h",
+   "l": "[🎃] Catch the Artist! : visites gagnées en 24 h",
    "src": "data/jours/2026-10-22.csv#L79"
   },
   "g.10381189313.visites_total": {
    "v": 30379490,
    "d": "30,38 millions",
-   "l": "[🎨] Catch the Artist! : visites cumulées depuis la création",
+   "l": "[🎃] Catch the Artist! : visites cumulées depuis la création",
    "src": "data/jours/2026-10-22.csv#L79"
   },
   "g.10381189313.note": {
    "v": 0.8215,
    "d": "82,2 %",
-   "l": "[🎨] Catch the Artist! : part de votes positifs",
+   "l": "[🎃] Catch the Artist! : part de votes positifs",
    "src": "data/jours/2026-10-22.csv#L79"
   },
   "g.10766506199.nom": {
@@ -6807,7 +6807,7 @@
      "valeur": 383595
     },
     {
-     "nom": "[8H⏳] Adopt Me!",
+     "nom": "[6H⏳] Adopt Me!",
      "valeur": 209951
     },
     {
