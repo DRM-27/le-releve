@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-22",
- "genere": "2026-10-23T06:43:42Z",
+ "genere": "2026-10-23T07:46:48Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -249,8 +249,8 @@
    "src": "data/jours/2026-10-22.csv#L4"
   },
   "top.4.nom": {
-   "v": "[12H⏳] Adopt Me!",
-   "d": "[12H⏳] Adopt Me!",
+   "v": "[8H⏳] Adopt Me!",
+   "d": "[8H⏳] Adopt Me!",
    "l": "N° 4 du jour : nom",
    "src": "data/jours/2026-10-22.csv#L5"
   },
@@ -849,63 +849,63 @@
    "src": "data/jours/2026-10-22.csv#L4"
   },
   "g.383310974.nom": {
-   "v": "[12H⏳] Adopt Me!",
-   "d": "[12H⏳] Adopt Me!",
-   "l": "[12H⏳] Adopt Me! : nom",
+   "v": "[8H⏳] Adopt Me!",
+   "d": "[8H⏳] Adopt Me!",
+   "l": "[8H⏳] Adopt Me! : nom",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.rang": {
    "v": 4,
    "d": "4e",
-   "l": "[12H⏳] Adopt Me! : rang au pic du jour",
+   "l": "[8H⏳] Adopt Me! : rang au pic du jour",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.pic": {
    "v": 209951,
    "d": "209 951",
-   "l": "[12H⏳] Adopt Me! : pic de joueurs simultanés relevé",
+   "l": "[8H⏳] Adopt Me! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.heure_pic": {
    "v": "20:40",
    "d": "20 h 40",
-   "l": "[12H⏳] Adopt Me! : heure (Paris) du pic relevé",
+   "l": "[8H⏳] Adopt Me! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.moy": {
    "v": 153628,
    "d": "153 628",
-   "l": "[12H⏳] Adopt Me! : moyenne des joueurs simultanés sur la journée",
+   "l": "[8H⏳] Adopt Me! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.createur": {
    "v": "Uplift Games",
    "d": "Uplift Games",
-   "l": "[12H⏳] Adopt Me! : créateur",
+   "l": "[8H⏳] Adopt Me! : créateur",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "[12H⏳] Adopt Me! : genre",
+   "l": "[8H⏳] Adopt Me! : genre",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.visites_24h": {
    "v": 8940048,
    "d": "8,94 millions",
-   "l": "[12H⏳] Adopt Me! : visites gagnées en 24 h",
+   "l": "[8H⏳] Adopt Me! : visites gagnées en 24 h",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.visites_total": {
    "v": 45172734000,
    "d": "45,17 milliards",
-   "l": "[12H⏳] Adopt Me! : visites cumulées depuis la création",
+   "l": "[8H⏳] Adopt Me! : visites cumulées depuis la création",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.note": {
    "v": 0.8635,
    "d": "86,4 %",
-   "l": "[12H⏳] Adopt Me! : part de votes positifs",
+   "l": "[8H⏳] Adopt Me! : part de votes positifs",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.6035872082.nom": {
@@ -3723,63 +3723,63 @@
    "src": "data/jours/2026-10-22.csv#L52"
   },
   "g.10747719434.nom": {
-   "v": "[V3] Feed A Mosquito",
-   "d": "[V3] Feed A Mosquito",
-   "l": "[V3] Feed A Mosquito : nom",
+   "v": "[🎃V3] Feed A Mosquito",
+   "d": "[🎃V3] Feed A Mosquito",
+   "l": "[🎃V3] Feed A Mosquito : nom",
    "src": "data/jours/2026-10-22.csv#L53"
   },
   "g.10747719434.rang": {
    "v": 52,
    "d": "52e",
-   "l": "[V3] Feed A Mosquito : rang au pic du jour",
+   "l": "[🎃V3] Feed A Mosquito : rang au pic du jour",
    "src": "data/jours/2026-10-22.csv#L53"
   },
   "g.10747719434.pic": {
    "v": 30451,
    "d": "30 451",
-   "l": "[V3] Feed A Mosquito : pic de joueurs simultanés relevé",
+   "l": "[🎃V3] Feed A Mosquito : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-22.csv#L53"
   },
   "g.10747719434.heure_pic": {
    "v": "15:48",
    "d": "15 h 48",
-   "l": "[V3] Feed A Mosquito : heure (Paris) du pic relevé",
+   "l": "[🎃V3] Feed A Mosquito : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-22.csv#L53"
   },
   "g.10747719434.moy": {
    "v": 22155,
    "d": "22 155",
-   "l": "[V3] Feed A Mosquito : moyenne des joueurs simultanés sur la journée",
+   "l": "[🎃V3] Feed A Mosquito : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-22.csv#L53"
   },
   "g.10747719434.createur": {
    "v": "Be Diao VIII",
    "d": "Be Diao VIII",
-   "l": "[V3] Feed A Mosquito : créateur",
+   "l": "[🎃V3] Feed A Mosquito : créateur",
    "src": "data/jours/2026-10-22.csv#L53"
   },
   "g.10747719434.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[V3] Feed A Mosquito : genre",
+   "l": "[🎃V3] Feed A Mosquito : genre",
    "src": "data/jours/2026-10-22.csv#L53"
   },
   "g.10747719434.visites_24h": {
    "v": 1959520,
    "d": "1,96 million",
-   "l": "[V3] Feed A Mosquito : visites gagnées en 24 h",
+   "l": "[🎃V3] Feed A Mosquito : visites gagnées en 24 h",
    "src": "data/jours/2026-10-22.csv#L53"
   },
   "g.10747719434.visites_total": {
    "v": 12967891,
    "d": "12,97 millions",
-   "l": "[V3] Feed A Mosquito : visites cumulées depuis la création",
+   "l": "[🎃V3] Feed A Mosquito : visites cumulées depuis la création",
    "src": "data/jours/2026-10-22.csv#L53"
   },
   "g.10747719434.note": {
    "v": 0.7985,
    "d": "79,8 %",
-   "l": "[V3] Feed A Mosquito : part de votes positifs",
+   "l": "[🎃V3] Feed A Mosquito : part de votes positifs",
    "src": "data/jours/2026-10-22.csv#L53"
   },
   "g.10035204815.nom": {
@@ -6807,7 +6807,7 @@
      "valeur": 383595
     },
     {
-     "nom": "[12H⏳] Adopt Me!",
+     "nom": "[8H⏳] Adopt Me!",
      "valeur": 209951
     },
     {
