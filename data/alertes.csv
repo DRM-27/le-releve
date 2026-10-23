@@ -32,3 +32,4 @@ ts_utc,type,universe_id,nom,avant,maintenant,variation,rang,rang_avant,releve
 2026-10-23T00:48:10Z,forte_hausse,10769169567,Secure The Hospital,1589,2688,0.6916,258,308,data/snapshots/2026/10/23/00.csv
 2026-10-23T02:36:02Z,forte_hausse,7709344486,[💀] Steal a Brainrot,22,106990,4862.1818,9,392,data/snapshots/2026/10/23/02.csv
 2026-10-23T02:36:02Z,entree_top10,7709344486,[💀] Steal a Brainrot,22,106990,4862.1818,9,392,data/snapshots/2026/10/23/02.csv
+2026-10-23T05:35:06Z,forte_hausse,2992873140,Emergency Hamburg,2268,3545,0.5631,203,253,data/snapshots/2026/10/23/05.csv
