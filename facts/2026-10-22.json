@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-22",
- "genere": "2026-10-23T10:36:31Z",
+ "genere": "2026-10-23T11:38:16Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -249,8 +249,8 @@
    "src": "data/jours/2026-10-22.csv#L4"
   },
   "top.4.nom": {
-   "v": "[6H⏳] Adopt Me!",
-   "d": "[6H⏳] Adopt Me!",
+   "v": "[4H⏳] Adopt Me!",
+   "d": "[4H⏳] Adopt Me!",
    "l": "N° 4 du jour : nom",
    "src": "data/jours/2026-10-22.csv#L5"
   },
@@ -849,63 +849,63 @@
    "src": "data/jours/2026-10-22.csv#L4"
   },
   "g.383310974.nom": {
-   "v": "[6H⏳] Adopt Me!",
-   "d": "[6H⏳] Adopt Me!",
-   "l": "[6H⏳] Adopt Me! : nom",
+   "v": "[4H⏳] Adopt Me!",
+   "d": "[4H⏳] Adopt Me!",
+   "l": "[4H⏳] Adopt Me! : nom",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.rang": {
    "v": 4,
    "d": "4e",
-   "l": "[6H⏳] Adopt Me! : rang au pic du jour",
+   "l": "[4H⏳] Adopt Me! : rang au pic du jour",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.pic": {
    "v": 209951,
    "d": "209 951",
-   "l": "[6H⏳] Adopt Me! : pic de joueurs simultanés relevé",
+   "l": "[4H⏳] Adopt Me! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.heure_pic": {
    "v": "20:40",
    "d": "20 h 40",
-   "l": "[6H⏳] Adopt Me! : heure (Paris) du pic relevé",
+   "l": "[4H⏳] Adopt Me! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.moy": {
    "v": 153628,
    "d": "153 628",
-   "l": "[6H⏳] Adopt Me! : moyenne des joueurs simultanés sur la journée",
+   "l": "[4H⏳] Adopt Me! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.createur": {
    "v": "Uplift Games",
    "d": "Uplift Games",
-   "l": "[6H⏳] Adopt Me! : créateur",
+   "l": "[4H⏳] Adopt Me! : créateur",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "[6H⏳] Adopt Me! : genre",
+   "l": "[4H⏳] Adopt Me! : genre",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.visites_24h": {
    "v": 8940048,
    "d": "8,94 millions",
-   "l": "[6H⏳] Adopt Me! : visites gagnées en 24 h",
+   "l": "[4H⏳] Adopt Me! : visites gagnées en 24 h",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.visites_total": {
    "v": 45172734000,
    "d": "45,17 milliards",
-   "l": "[6H⏳] Adopt Me! : visites cumulées depuis la création",
+   "l": "[4H⏳] Adopt Me! : visites cumulées depuis la création",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.383310974.note": {
    "v": 0.8635,
    "d": "86,4 %",
-   "l": "[6H⏳] Adopt Me! : part de votes positifs",
+   "l": "[4H⏳] Adopt Me! : part de votes positifs",
    "src": "data/jours/2026-10-22.csv#L5"
   },
   "g.6035872082.nom": {
@@ -2889,63 +2889,63 @@
    "src": "data/jours/2026-10-22.csv#L38"
   },
   "g.10762636904.nom": {
-   "v": "[🎃UPD] Cameraman Tower Defense",
-   "d": "[🎃UPD] Cameraman Tower Defense",
-   "l": "[🎃UPD] Cameraman Tower Defense : nom",
+   "v": "[💰X2] Cameraman Tower Defense",
+   "d": "[💰X2] Cameraman Tower Defense",
+   "l": "[💰X2] Cameraman Tower Defense : nom",
    "src": "data/jours/2026-10-22.csv#L39"
   },
   "g.10762636904.rang": {
    "v": 38,
    "d": "38e",
-   "l": "[🎃UPD] Cameraman Tower Defense : rang au pic du jour",
+   "l": "[💰X2] Cameraman Tower Defense : rang au pic du jour",
    "src": "data/jours/2026-10-22.csv#L39"
   },
   "g.10762636904.pic": {
    "v": 41190,
    "d": "41 190",
-   "l": "[🎃UPD] Cameraman Tower Defense : pic de joueurs simultanés relevé",
+   "l": "[💰X2] Cameraman Tower Defense : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-22.csv#L39"
   },
   "g.10762636904.heure_pic": {
    "v": "15:48",
    "d": "15 h 48",
-   "l": "[🎃UPD] Cameraman Tower Defense : heure (Paris) du pic relevé",
+   "l": "[💰X2] Cameraman Tower Defense : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-22.csv#L39"
   },
   "g.10762636904.moy": {
    "v": 26241,
    "d": "26 241",
-   "l": "[🎃UPD] Cameraman Tower Defense : moyenne des joueurs simultanés sur la journée",
+   "l": "[💰X2] Cameraman Tower Defense : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-22.csv#L39"
   },
   "g.10762636904.createur": {
    "v": "Aligators Games",
    "d": "Aligators Games",
-   "l": "[🎃UPD] Cameraman Tower Defense : créateur",
+   "l": "[💰X2] Cameraman Tower Defense : créateur",
    "src": "data/jours/2026-10-22.csv#L39"
   },
   "g.10762636904.genre": {
    "v": "Strategy",
    "d": "Stratégie",
-   "l": "[🎃UPD] Cameraman Tower Defense : genre",
+   "l": "[💰X2] Cameraman Tower Defense : genre",
    "src": "data/jours/2026-10-22.csv#L39"
   },
   "g.10762636904.visites_24h": {
    "v": 3471504,
    "d": "3,47 millions",
-   "l": "[🎃UPD] Cameraman Tower Defense : visites gagnées en 24 h",
+   "l": "[💰X2] Cameraman Tower Defense : visites gagnées en 24 h",
    "src": "data/jours/2026-10-22.csv#L39"
   },
   "g.10762636904.visites_total": {
    "v": 33957999,
    "d": "33,96 millions",
-   "l": "[🎃UPD] Cameraman Tower Defense : visites cumulées depuis la création",
+   "l": "[💰X2] Cameraman Tower Defense : visites cumulées depuis la création",
    "src": "data/jours/2026-10-22.csv#L39"
   },
   "g.10762636904.note": {
    "v": 0.9891,
    "d": "98,9 %",
-   "l": "[🎃UPD] Cameraman Tower Defense : part de votes positifs",
+   "l": "[💰X2] Cameraman Tower Defense : part de votes positifs",
    "src": "data/jours/2026-10-22.csv#L39"
   },
   "g.703124385.nom": {
@@ -6807,7 +6807,7 @@
      "valeur": 383595
     },
     {
-     "nom": "[6H⏳] Adopt Me!",
+     "nom": "[4H⏳] Adopt Me!",
      "valeur": 209951
     },
     {
