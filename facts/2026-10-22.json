@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-22",
- "genere": "2026-10-23T07:46:48Z",
+ "genere": "2026-10-23T08:39:21Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -3903,63 +3903,63 @@
    "src": "data/jours/2026-10-22.csv#L55"
   },
   "g.10771421858.nom": {
-   "v": "[UPD 🎃] DONT SPLASH ",
-   "d": "[UPD 🎃] DONT SPLASH ",
-   "l": "[UPD 🎃] DONT SPLASH  : nom",
+   "v": "[NEW STAGES]  DONT SPLASH 🎃",
+   "d": "[NEW STAGES]  DONT SPLASH 🎃",
+   "l": "[NEW STAGES]  DONT SPLASH 🎃 : nom",
    "src": "data/jours/2026-10-22.csv#L56"
   },
   "g.10771421858.rang": {
    "v": 55,
    "d": "55e",
-   "l": "[UPD 🎃] DONT SPLASH  : rang au pic du jour",
+   "l": "[NEW STAGES]  DONT SPLASH 🎃 : rang au pic du jour",
    "src": "data/jours/2026-10-22.csv#L56"
   },
   "g.10771421858.pic": {
    "v": 28867,
    "d": "28 867",
-   "l": "[UPD 🎃] DONT SPLASH  : pic de joueurs simultanés relevé",
+   "l": "[NEW STAGES]  DONT SPLASH 🎃 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-22.csv#L56"
   },
   "g.10771421858.heure_pic": {
    "v": "22:35",
    "d": "22 h 35",
-   "l": "[UPD 🎃] DONT SPLASH  : heure (Paris) du pic relevé",
+   "l": "[NEW STAGES]  DONT SPLASH 🎃 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-22.csv#L56"
   },
   "g.10771421858.moy": {
    "v": 21547,
    "d": "21 547",
-   "l": "[UPD 🎃] DONT SPLASH  : moyenne des joueurs simultanés sur la journée",
+   "l": "[NEW STAGES]  DONT SPLASH 🎃 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-22.csv#L56"
   },
   "g.10771421858.createur": {
    "v": "slo7th",
    "d": "slo7th",
-   "l": "[UPD 🎃] DONT SPLASH  : créateur",
+   "l": "[NEW STAGES]  DONT SPLASH 🎃 : créateur",
    "src": "data/jours/2026-10-22.csv#L56"
   },
   "g.10771421858.genre": {
    "v": "Obby & Platformer",
    "d": "Obby et plateforme",
-   "l": "[UPD 🎃] DONT SPLASH  : genre",
+   "l": "[NEW STAGES]  DONT SPLASH 🎃 : genre",
    "src": "data/jours/2026-10-22.csv#L56"
   },
   "g.10771421858.visites_24h": {
    "v": 4350378,
    "d": "4,35 millions",
-   "l": "[UPD 🎃] DONT SPLASH  : visites gagnées en 24 h",
+   "l": "[NEW STAGES]  DONT SPLASH 🎃 : visites gagnées en 24 h",
    "src": "data/jours/2026-10-22.csv#L56"
   },
   "g.10771421858.visites_total": {
    "v": 7607895,
    "d": "7,61 millions",
-   "l": "[UPD 🎃] DONT SPLASH  : visites cumulées depuis la création",
+   "l": "[NEW STAGES]  DONT SPLASH 🎃 : visites cumulées depuis la création",
    "src": "data/jours/2026-10-22.csv#L56"
   },
   "g.10771421858.note": {
    "v": 0.9017,
    "d": "90,2 %",
-   "l": "[UPD 🎃] DONT SPLASH  : part de votes positifs",
+   "l": "[NEW STAGES]  DONT SPLASH 🎃 : part de votes positifs",
    "src": "data/jours/2026-10-22.csv#L56"
   },
   "g.10767012496.nom": {
