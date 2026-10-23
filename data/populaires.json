@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-23T13:44:23Z",
+ "genere": "2026-10-23T14:42:45Z",
  "periode_jours": 7,
  "pages": [
   {
@@ -35,6 +35,10 @@
    "vues": 7
   },
   {
+   "path": "/le-releve/brouillons/2026-10-22-steal-an-egg-quotidien/",
+   "vues": 7
+  },
+  {
    "path": "/le-releve/en/articles/2026-10-21-age-des-jeux/",
    "vues": 6
   },
@@ -47,20 +51,12 @@
    "vues": 4
   },
   {
-   "path": "/le-releve/brouillons/2026-10-22-steal-an-egg-quotidien/",
-   "vues": 4
-  },
-  {
    "path": "/le-releve/articles/",
    "vues": 3
   },
   {
    "path": "/le-releve/en/articles/2026-10-21-jeux-oeufs/",
    "vues": 3
-  },
-  {
-   "path": "/le-releve/en/source/",
-   "vues": 2
   },
   {
    "path": "/le-releve/en/comparer/",
@@ -76,6 +72,10 @@
   },
   {
    "path": "/le-releve/monetisation/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/en/source/",
    "vues": 2
   },
   {
