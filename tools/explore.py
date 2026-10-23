@@ -5,6 +5,7 @@ Tout est calculé à partir des relevés archivés : aucune donnée tierce.
 import html
 import json
 import re
+import unicodedata
 from datetime import timedelta
 
 import charts
@@ -27,8 +28,29 @@ def lic():
     return t(LICENCE)
 
 
-def game_slug(uid, name):
+def legacy_game_slug(uid, name):
+    """Ancien format d'adresse (avant le 23/10/2026) : conservé pour écrire les redirections."""
     return f"{slugify(name)[:60]}-{uid}"
+
+
+def game_slug(uid, name):
+    """Adresse stable d'une page jeu : les étiquettes entre crochets ([🎃], [UPD 2]…) que les studios
+    changent sans cesse sont ignorées, pour que l'adresse ne bouge pas à chaque renommage.
+    Un nom sans aucune lettre latine donne « jeu-<id> »."""
+    base = re.sub(r"\[[^\]]*\]", " ", str(name or ""))
+    if not any(c.isascii() and c.isalnum() for c in unicodedata.normalize("NFD", base)):
+        return f"jeu-{uid}"
+    return f"{slugify(base)[:60]}-{uid}"
+
+
+def old_slugs(uid, names, current):
+    """Toutes les adresses qu'une page jeu a pu avoir, sauf l'actuelle : à rediriger."""
+    out = set()
+    for n in names:
+        out.add(legacy_game_slug(uid, n))
+        out.add(game_slug(uid, n))
+    out.discard(current)
+    return sorted(out)
 
 
 def load_history(days=HISTORY_DAYS):
