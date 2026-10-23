@@ -6,6 +6,7 @@ est présente dans content/i18n/<langue>/articles/.
 
 Usage : python tools/build.py [--drafts]   (--drafts : construit aussi les brouillons dans /brouillons/, pour relecture locale)
 """
+import csv
 import html
 import json
 import os
@@ -173,7 +174,51 @@ def page(title, body, desc="", path="", extra_head="", og_type="website", ld=Non
 
 
 # ---------------------------------------------------------------- articles
-GAME_PAGES = {g.get("name", u): explore.game_slug(u, g.get("name", u)) for u, g in load_games().items() if g.get("name")}
+_GAMES = load_games()
+GAME_PAGES = {g["name"].strip(): explore.game_slug(u, g["name"]) for u, g in _GAMES.items() if g.get("name", "").strip()}
+UID_PAGES = {u: explore.game_slug(u, g.get("name") or u) for u, g in _GAMES.items()}
+_SRC_ROWS = {}
+
+
+NOMS = json.loads((DATA / "noms.json").read_text(encoding="utf-8")) if (DATA / "noms.json").exists() else {}
+
+
+def redirect_html(rel, absolute):
+    """Ancienne adresse d'une page jeu (renommage) : redirection immédiate, non indexée."""
+    a = html.escape(absolute, quote=True)
+    return (f'<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>Page déplacée</title>'
+            f'<link rel="canonical" href="{a}"><meta name="robots" content="noindex">'
+            f'<meta http-equiv="refresh" content="0; url={html.escape(rel, quote=True)}"></head>'
+            f'<body><p><a href="{html.escape(rel, quote=True)}">{a}</a></p></body></html>')
+
+
+def uid_from_src(src):
+    """Identifiant du jeu sur la ligne de relevé citée par un fait (« data/snapshots/…csv#L12 »).
+    Sert à relier un nom à sa page même après un renommage ([🎃] → [🏚️]…)."""
+    if not src or src.startswith("http") or "#L" not in src or not src.startswith("data/"):
+        return None
+    path, line = src.split("#L", 1)
+    if path not in _SRC_ROWS:
+        f = DATA / path[len("data/"):]
+        try:
+            with f.open(encoding="utf-8", newline="") as fh:
+                _SRC_ROWS[path] = list(csv.reader(fh))
+        except OSError:
+            _SRC_ROWS[path] = []
+    rows = _SRC_ROWS[path]
+    try:
+        row = dict(zip(rows[0], rows[int(line) - 1]))
+    except (IndexError, ValueError):
+        return None
+    return row.get("universe_id")
+
+
+def game_link_slug(key, f):
+    if key.endswith(".nom"):
+        uid = uid_from_src(f.get("src", ""))
+        if uid and uid in UID_PAGES:
+            return UID_PAGES[uid]
+    return GAME_PAGES.get(str(f["d"]).strip())
 
 
 def money(v):
@@ -226,8 +271,11 @@ def render_tokens(text, day, linked=True, used=None):
         f = fact_for(d, key)
         shown = loc_fact(key, f)
         numeric = isinstance(f["v"], (int, float)) and not isinstance(f["v"], bool)
-        if linked and not numeric and str(f["d"]) in GAME_PAGES:
-            return f'<a class="jeu" href="{url("jeux/" + GAME_PAGES[str(f["d"])] + "/")}">{esc(shown)}</a>'
+        if isinstance(shown, str):
+            shown = shown.strip()  # « Welcome to Bloxburg␣ » cassait le gras Markdown (« **…Bloxburg ** »)
+        slug = game_link_slug(key, f) if linked and not numeric else None
+        if slug:
+            return f'<a class="jeu" href="{url("jeux/" + slug + "/")}">{esc(shown)}</a>'
         if not linked or not numeric:
             return esc(shown) if linked else shown
         if used is not None:
@@ -789,9 +837,14 @@ def build(drafts=False):
                                             t("Les 100 jeux Roblox les plus joués en ce moment, mis à jour toutes les heures."), "classement/"))
 
         indexable = []
+        all_slugs = {r["slug"] for r in recs}
         for rec in recs:
             html_, ok = explore.game_page(rec, page, url, recs)
             write(f"jeux/{rec['slug']}/index.html", html_)
+            uid = str(rec["universe_id"])
+            for old in explore.old_slugs(uid, NOMS.get(uid, []) + [rec.get("nom", "")], rec["slug"]):
+                if old not in all_slugs:  # ne jamais écraser la page d'un autre jeu
+                    write(f"jeux/{old}/index.html", redirect_html(url("jeux/" + rec["slug"] + "/"), abs_url("jeux/" + rec["slug"] + "/")))
             if ok:
                 indexable.append(f"jeux/{rec['slug']}/")
             write(f"widget/jeu/{rec['universe_id']}/index.html", explore.game_widget(rec, abs_url))
