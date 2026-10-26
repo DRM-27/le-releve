@@ -47,3 +47,9 @@ ts_utc,type,universe_id,nom,avant,maintenant,variation,rang,rang_avant,releve
 2026-10-26T19:44:45Z,forte_hausse,9908641400,Football Fusion 3,1545,2343,0.5165,325,365,data/snapshots/2026/10/26/19.csv
 2026-10-26T20:38:15Z,forte_hausse,10770728771,The Hollow,25327,49425,0.9515,22,48,data/snapshots/2026/10/26/20.csv
 2026-10-26T20:38:15Z,forte_hausse,10766921988,[🎃] Ragdoll Football,1530,2348,0.5346,329,373,data/snapshots/2026/10/26/20.csv
+2026-10-26T22:38:04Z,entree_top10,10770728771,The Hollow,55123,203023,2.6831,6,21,data/snapshots/2026/10/26/22.csv
+2026-10-26T22:38:04Z,forte_hausse,10769384180,[🎃] Fake an Egg,24870,46535,0.8711,24,42,data/snapshots/2026/10/26/22.csv
+2026-10-26T22:38:04Z,forte_hausse,10069043526,Keyboard Bridge Wars! 🧱,4615,8593,0.862,140,223,data/snapshots/2026/10/26/22.csv
+2026-10-26T22:38:04Z,forte_hausse,9363735110,[🌊] Escape Tsunami For Brainrots!,4172,7721,0.8507,161,240,data/snapshots/2026/10/26/22.csv
+2026-10-26T22:38:04Z,forte_hausse,8836568224,[SEASON 3] Kayak and Surf  🌊,3075,6434,1.0924,180,278,data/snapshots/2026/10/26/22.csv
+2026-10-26T22:38:04Z,forte_hausse,7089588429,(WHEELIE STYLE x BIG UPDATE) Drag Drive Simulator,1683,3477,1.066,262,364,data/snapshots/2026/10/26/22.csv
