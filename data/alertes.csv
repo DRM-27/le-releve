@@ -45,3 +45,5 @@ ts_utc,type,universe_id,nom,avant,maintenant,variation,rang,rang_avant,releve
 2026-10-26T18:49:57Z,forte_hausse,7320026403,[🎃]AOONI Nightmare,3093,4921,0.591,217,286,data/snapshots/2026/10/26/18.csv
 2026-10-26T19:44:45Z,forte_hausse,184199275,[🎃EVENT] NFL Universe Football,5311,8182,0.5406,161,215,data/snapshots/2026/10/26/19.csv
 2026-10-26T19:44:45Z,forte_hausse,9908641400,Football Fusion 3,1545,2343,0.5165,325,365,data/snapshots/2026/10/26/19.csv
+2026-10-26T20:38:15Z,forte_hausse,10770728771,The Hollow,25327,49425,0.9515,22,48,data/snapshots/2026/10/26/20.csv
+2026-10-26T20:38:15Z,forte_hausse,10766921988,[🎃] Ragdoll Football,1530,2348,0.5346,329,373,data/snapshots/2026/10/26/20.csv
