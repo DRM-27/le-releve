@@ -123,7 +123,8 @@ def main():
         ids = ",".join(part)
         d = get_json(f"{GAMES}?universeIds={ids}") or {}
         for g in d.get("data") or []:
-            details[str(g["id"])] = g
+            if str(g.get("id")) in games:  # l'API renvoie parfois une entrée fantôme (id 0) : on l'ignore
+                details[str(g["id"])] = g
         v = get_json(f"{GAMES}/votes?universeIds={ids}") or {}
         for g in v.get("data") or []:
             snap.setdefault(str(g["id"]), {}).update(up_votes=g.get("upVotes", ""), down_votes=g.get("downVotes", ""))
@@ -150,7 +151,7 @@ def main():
     for part in chunks(list(details), BATCH):
         ic = get_json(f"{ICONS}?universeIds={','.join(part)}&returnPolicy=PlaceHolder&size=150x150&format=Png&isCircular=false") or {}
         for x in ic.get("data") or []:
-            if x.get("state") == "Completed" and x.get("imageUrl", "").startswith("https://"):
+            if str(x.get("targetId")) in games and x.get("state") == "Completed" and x.get("imageUrl", "").startswith("https://"):
                 games[str(x["targetId"])]["icon"] = x["imageUrl"]
         time.sleep(0.3)
 
