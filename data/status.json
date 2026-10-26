@@ -1,23 +1,16 @@
 {
- "echecsConsecutifs": 1,
- "dernierSucces": "2026-10-23T12:41:52Z",
- "lastRunAt": "2026-10-26T08:22:24Z",
- "ok": false,
+ "echecsConsecutifs": 0,
+ "dernierSucces": "2026-10-26T08:23:32Z",
+ "lastRunAt": "2026-10-26T08:23:32Z",
+ "ok": true,
  "sorts": {
   "top-trending": 94,
   "up-and-coming": 94,
-  "top-playing-now": 100,
-  "fun-with-friends": 86,
-  "top-revisited": 91
+  "top-playing-now": 99,
+  "fun-with-friends": 91,
+  "top-revisited": 93
  },
- "gamesTracked": 401,
- "gamesMeasured": 401,
- "errors": [
-  "  File \"/home/runner/work/le-releve/le-releve/tools/collect.py\", line 187, in <module>",
-  "    main()",
-  "  File \"/home/runner/work/le-releve/le-releve/tools/collect.py\", line 137, in main",
-  "    rec = games[uid]",
-  "          ~~~~~^^^^^",
-  "KeyError: '0'"
- ]
+ "gamesTracked": 465,
+ "gamesMeasured": 462,
+ "errors": []
 }
