@@ -183,4 +183,16 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except SystemExit:
+        raise
+    except Exception:  # on garde la trace dans status.json pour diagnostiquer l'échec depuis le dépôt
+        import traceback
+        tb = traceback.format_exc()
+        print(tb)
+        prev = json.loads((DATA / "status.json").read_text(encoding="utf-8")) if (DATA / "status.json").exists() else {}
+        prev.update(ok=False, lastRunAt=iso(utc_now()), echecsConsecutifs=int(prev.get("echecsConsecutifs", 0)) + 1,
+                    errors=(errors + tb.strip().splitlines()[-6:])[:20])
+        (DATA / "status.json").write_text(json.dumps(prev, ensure_ascii=False, indent=1), encoding="utf-8")
+        sys.exit(1)
