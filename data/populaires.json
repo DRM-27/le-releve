@@ -1,14 +1,14 @@
 {
- "genere": "2026-10-26T16:51:57Z",
+ "genere": "2026-10-26T17:41:36Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/le-releve/",
-   "vues": 49
+   "vues": 50
   },
   {
    "path": "/le-releve/classement/",
-   "vues": 25
+   "vues": 26
   },
   {
    "path": "/le-releve/alertes/",
