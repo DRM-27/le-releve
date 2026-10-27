@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-26",
- "genere": "2026-10-27T04:36:45Z",
+ "genere": "2026-10-27T05:37:34Z",
  "couverture": {
   "releves": 12,
   "attendus": 24
@@ -5355,57 +5355,57 @@
    "src": "data/jours/2026-10-26.csv#L89"
   },
   "g.10222476236.nom": {
-   "v": "🎃Catalog Avatar Runway",
-   "d": "🎃Catalog Avatar Runway",
-   "l": "🎃Catalog Avatar Runway : nom",
+   "v": "🎃 Avatar Runway",
+   "d": "🎃 Avatar Runway",
+   "l": "🎃 Avatar Runway : nom",
    "src": "data/jours/2026-10-26.csv#L90"
   },
   "g.10222476236.rang": {
    "v": 89,
    "d": "89e",
-   "l": "🎃Catalog Avatar Runway : rang au pic du jour",
+   "l": "🎃 Avatar Runway : rang au pic du jour",
    "src": "data/jours/2026-10-26.csv#L90"
   },
   "g.10222476236.pic": {
    "v": 18731,
    "d": "18 731",
-   "l": "🎃Catalog Avatar Runway : pic de joueurs simultanés relevé",
+   "l": "🎃 Avatar Runway : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-26.csv#L90"
   },
   "g.10222476236.heure_pic": {
    "v": "12:45",
    "d": "12 h 45",
-   "l": "🎃Catalog Avatar Runway : heure (Paris) du pic relevé",
+   "l": "🎃 Avatar Runway : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-26.csv#L90"
   },
   "g.10222476236.moy": {
    "v": 16542,
    "d": "16 542",
-   "l": "🎃Catalog Avatar Runway : moyenne des joueurs simultanés sur la journée",
+   "l": "🎃 Avatar Runway : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-26.csv#L90"
   },
   "g.10222476236.createur": {
    "v": "Context Works",
    "d": "Context Works",
-   "l": "🎃Catalog Avatar Runway : créateur",
+   "l": "🎃 Avatar Runway : créateur",
    "src": "data/jours/2026-10-26.csv#L90"
   },
   "g.10222476236.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "🎃Catalog Avatar Runway : genre",
+   "l": "🎃 Avatar Runway : genre",
    "src": "data/jours/2026-10-26.csv#L90"
   },
   "g.10222476236.visites_total": {
    "v": 60138854,
    "d": "60,14 millions",
-   "l": "🎃Catalog Avatar Runway : visites cumulées depuis la création",
+   "l": "🎃 Avatar Runway : visites cumulées depuis la création",
    "src": "data/jours/2026-10-26.csv#L90"
   },
   "g.10222476236.note": {
    "v": 0.9287,
    "d": "92,9 %",
-   "l": "🎃Catalog Avatar Runway : part de votes positifs",
+   "l": "🎃 Avatar Runway : part de votes positifs",
    "src": "data/jours/2026-10-26.csv#L90"
   },
   "g.10725799494.nom": {
