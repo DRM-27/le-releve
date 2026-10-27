@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-26",
- "genere": "2026-10-27T14:51:24Z",
+ "genere": "2026-10-27T15:48:34Z",
  "couverture": {
   "releves": 12,
   "attendus": 24
@@ -291,8 +291,8 @@
    "src": "data/jours/2026-10-26.csv#L5"
   },
   "top.5.nom": {
-   "v": "[🎃] Adopt Me!",
-   "d": "[🎃] Adopt Me!",
+   "v": "[✏️2D TUESDAY] Adopt Me!",
+   "d": "[✏️2D TUESDAY] Adopt Me!",
    "l": "N° 5 du jour : nom",
    "src": "data/jours/2026-10-26.csv#L6"
   },
@@ -831,57 +831,57 @@
    "src": "data/jours/2026-10-26.csv#L5"
   },
   "g.383310974.nom": {
-   "v": "[🎃] Adopt Me!",
-   "d": "[🎃] Adopt Me!",
-   "l": "[🎃] Adopt Me! : nom",
+   "v": "[✏️2D TUESDAY] Adopt Me!",
+   "d": "[✏️2D TUESDAY] Adopt Me!",
+   "l": "[✏️2D TUESDAY] Adopt Me! : nom",
    "src": "data/jours/2026-10-26.csv#L6"
   },
   "g.383310974.rang": {
    "v": 5,
    "d": "5e",
-   "l": "[🎃] Adopt Me! : rang au pic du jour",
+   "l": "[✏️2D TUESDAY] Adopt Me! : rang au pic du jour",
    "src": "data/jours/2026-10-26.csv#L6"
   },
   "g.383310974.pic": {
    "v": 242626,
    "d": "242 626",
-   "l": "[🎃] Adopt Me! : pic de joueurs simultanés relevé",
+   "l": "[✏️2D TUESDAY] Adopt Me! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-26.csv#L6"
   },
   "g.383310974.heure_pic": {
    "v": "19:49",
    "d": "19 h 49",
-   "l": "[🎃] Adopt Me! : heure (Paris) du pic relevé",
+   "l": "[✏️2D TUESDAY] Adopt Me! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-26.csv#L6"
   },
   "g.383310974.moy": {
    "v": 222717,
    "d": "222 717",
-   "l": "[🎃] Adopt Me! : moyenne des joueurs simultanés sur la journée",
+   "l": "[✏️2D TUESDAY] Adopt Me! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-26.csv#L6"
   },
   "g.383310974.createur": {
    "v": "Uplift Games",
    "d": "Uplift Games",
-   "l": "[🎃] Adopt Me! : créateur",
+   "l": "[✏️2D TUESDAY] Adopt Me! : créateur",
    "src": "data/jours/2026-10-26.csv#L6"
   },
   "g.383310974.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "[🎃] Adopt Me! : genre",
+   "l": "[✏️2D TUESDAY] Adopt Me! : genre",
    "src": "data/jours/2026-10-26.csv#L6"
   },
   "g.383310974.visites_total": {
    "v": 45225362044,
    "d": "45,23 milliards",
-   "l": "[🎃] Adopt Me! : visites cumulées depuis la création",
+   "l": "[✏️2D TUESDAY] Adopt Me! : visites cumulées depuis la création",
    "src": "data/jours/2026-10-26.csv#L6"
   },
   "g.383310974.note": {
    "v": 0.8636,
    "d": "86,4 %",
-   "l": "[🎃] Adopt Me! : part de votes positifs",
+   "l": "[✏️2D TUESDAY] Adopt Me! : part de votes positifs",
    "src": "data/jours/2026-10-26.csv#L6"
   },
   "g.7326934954.nom": {
@@ -1911,57 +1911,57 @@
    "src": "data/jours/2026-10-26.csv#L25"
   },
   "g.9584852943.nom": {
-   "v": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate",
-   "d": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : nom",
+   "v": "+1 Speed Keyboard Escape | Candy & Chocolate",
+   "d": "+1 Speed Keyboard Escape | Candy & Chocolate",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : nom",
    "src": "data/jours/2026-10-26.csv#L26"
   },
   "g.9584852943.rang": {
    "v": 25,
    "d": "25e",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
    "src": "data/jours/2026-10-26.csv#L26"
   },
   "g.9584852943.pic": {
    "v": 58657,
    "d": "58 657",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-26.csv#L26"
   },
   "g.9584852943.heure_pic": {
    "v": "15:48",
    "d": "15 h 48",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-26.csv#L26"
   },
   "g.9584852943.moy": {
    "v": 40386,
    "d": "40 386",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-26.csv#L26"
   },
   "g.9584852943.createur": {
    "v": "SecretVerse Studio",
    "d": "SecretVerse Studio",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : créateur",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : créateur",
    "src": "data/jours/2026-10-26.csv#L26"
   },
   "g.9584852943.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : genre",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : genre",
    "src": "data/jours/2026-10-26.csv#L26"
   },
   "g.9584852943.visites_total": {
    "v": 6596164442,
    "d": "6,6 milliards",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
    "src": "data/jours/2026-10-26.csv#L26"
   },
   "g.9584852943.note": {
    "v": 0.9674,
    "d": "96,7 %",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
    "src": "data/jours/2026-10-26.csv#L26"
   },
   "g.10762636904.nom": {
@@ -6157,7 +6157,7 @@
      "valeur": 290785
     },
     {
-     "nom": "[🎃] Adopt Me!",
+     "nom": "[✏️2D TUESDAY] Adopt Me!",
      "valeur": 242626
     },
     {
