@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-26",
- "genere": "2026-10-27T13:54:22Z",
+ "genere": "2026-10-27T14:51:24Z",
  "couverture": {
   "releves": 12,
   "attendus": 24
@@ -5199,57 +5199,57 @@
    "src": "data/jours/2026-10-26.csv#L86"
   },
   "g.10740316645.nom": {
-   "v": "[🪄UPD] ⛏️ My Anime Mine",
-   "d": "[🪄UPD] ⛏️ My Anime Mine",
-   "l": "[🪄UPD] ⛏️ My Anime Mine : nom",
+   "v": "⛏️ My Anime Mine",
+   "d": "⛏️ My Anime Mine",
+   "l": "⛏️ My Anime Mine : nom",
    "src": "data/jours/2026-10-26.csv#L87"
   },
   "g.10740316645.rang": {
    "v": 86,
    "d": "86e",
-   "l": "[🪄UPD] ⛏️ My Anime Mine : rang au pic du jour",
+   "l": "⛏️ My Anime Mine : rang au pic du jour",
    "src": "data/jours/2026-10-26.csv#L87"
   },
   "g.10740316645.pic": {
    "v": 18969,
    "d": "18 969",
-   "l": "[🪄UPD] ⛏️ My Anime Mine : pic de joueurs simultanés relevé",
+   "l": "⛏️ My Anime Mine : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-26.csv#L87"
   },
   "g.10740316645.heure_pic": {
    "v": "15:48",
    "d": "15 h 48",
-   "l": "[🪄UPD] ⛏️ My Anime Mine : heure (Paris) du pic relevé",
+   "l": "⛏️ My Anime Mine : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-26.csv#L87"
   },
   "g.10740316645.moy": {
    "v": 16644,
    "d": "16 644",
-   "l": "[🪄UPD] ⛏️ My Anime Mine : moyenne des joueurs simultanés sur la journée",
+   "l": "⛏️ My Anime Mine : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-26.csv#L87"
   },
   "g.10740316645.createur": {
    "v": "Curseddd Games",
    "d": "Curseddd Games",
-   "l": "[🪄UPD] ⛏️ My Anime Mine : créateur",
+   "l": "⛏️ My Anime Mine : créateur",
    "src": "data/jours/2026-10-26.csv#L87"
   },
   "g.10740316645.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🪄UPD] ⛏️ My Anime Mine : genre",
+   "l": "⛏️ My Anime Mine : genre",
    "src": "data/jours/2026-10-26.csv#L87"
   },
   "g.10740316645.visites_total": {
    "v": 19237150,
    "d": "19,24 millions",
-   "l": "[🪄UPD] ⛏️ My Anime Mine : visites cumulées depuis la création",
+   "l": "⛏️ My Anime Mine : visites cumulées depuis la création",
    "src": "data/jours/2026-10-26.csv#L87"
   },
   "g.10740316645.note": {
    "v": 0.9894,
    "d": "98,9 %",
-   "l": "[🪄UPD] ⛏️ My Anime Mine : part de votes positifs",
+   "l": "⛏️ My Anime Mine : part de votes positifs",
    "src": "data/jours/2026-10-26.csv#L87"
   },
   "g.7554119808.nom": {
