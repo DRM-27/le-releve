@@ -1,0 +1,121 @@
+Traceback (most recent call last):
+  File "/home/runner/work/le-releve/le-releve/sonde/sonde.py", line 16, in section
+    try: fn()
+         ^^^^
+  File "/home/runner/work/le-releve/le-releve/sonde/sonde.py", line 42, in boamp
+    s, d, t = ods(base, "boamp", limit=1, order_by="dateparution desc")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/le-releve/le-releve/sonde/sonde.py", line 30, in ods
+    return J(f"{base}/api/explore/v2.1/catalog/datasets/{ds}/records?{q}")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/le-releve/le-releve/sonde/sonde.py", line 13, in J
+    s, b, t = get(url); return s, (json.loads(b) if s == 200 else b.decode("utf-8", "replace")), t
+                                   ^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/__init__.py", line 341, in loads
+    s = s.decode(detect_encoding(s), 'surrogatepass')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x8b in position 1: invalid start byte
+
+######## OpenRouter
+rankings-daily sans clé : 401 b'{"error":{"message":"No cookie auth credentials found","code":401}}'
+models : 200 464
+page rankings : 200 2618698 octets
+
+######## BOAMP
+champs BOAMP : ['idweb', 'id', 'contractfolderid', 'objet', 'filename', 'famille', 'code_departement', 'code_departement_prestation', 'famille_libelle', 'dateparution', 'datefindiffusion', 'datelimitereponse', 'nomacheteur', 'titulaire', 'perimetre', 'type_procedure', 'soustype_procedure', 'procedure_libelle', 'procedure_categorise', 'nature', 'sousnature', 'nature_libelle', 'sousnature_libelle', 'nature_categorise', 'nature_categorise_libelle', 'criteres', 'marche_public_simplifie', 'marche_public_simplifie_label', 'etat', 'descripteur_code', 'dc', 'descripteur_libelle', 'type_marche', 'type_marche_facette', 'type_avis', 'annonce_lie', 'annonces_anterieures', 'source_schema', 'gestion', 'donnees', 'url_avis']
+BOAMP avis par jour (14 j) : 200 [{"dateparution": "2026-10-13T00:00:00+00:00", "n": 384}, {"dateparution": "2026-10-14T00:00:00+00:00", "n": 503}, {"dateparution": "2026-10-15T00:00:00+00:00", "n": 584}, {"dateparution": "2026-10-16T00:00:00+00:00", "n": 562}, {"dateparution": "2026-10-17T00:00:00+00:00", "n": 157}, {"dateparution": "2026-10-18T00:00:00+00:00", "n": 382}, {"dateparution": "2026-10-19T00:00:00+00:00", "n": 215}, {"dateparution": "2026-10-20T00:00:00+00:00", "n": 386}, {"dateparution": "2026-10-21T00:00:00+00:00", "n": 463}, {"dateparution": "2026-10-22T00:00:00+00:00", "n": 460}, {"dateparution": "2026-10-23T00:00:00+00:00", "n": 477}, {"dateparution": "2026-10-24T00:00:00+00:00", "n": 138}, {"dateparution": "2026-10-25T00:00:00+00:00", "n": 393}, {"dateparution": "2026-10-26T00:00:00+00:00", "n": 214}, {"dateparution": "2026-10-27T00:00:00+00:00", "n": 137}]
+BOAMP par nature (14 j) : 200 [{"nature_libelle": "Avis de marché", "n": 3915}, {"nature_libelle": "Résultat de marché", "n": 1280}, {"nature_libelle": "Rectificatif", "n": 239}, {"nature_libelle": "Avis en cas de transparence ex ante volontaire", "n": 6}, {"nature_libelle": "Avis informatif", "n": 5}, {"nature_libelle": "Modification", "n": 5}, {"nature_libelle": "Avis d'annulation", "n": 4}, {"nature_libelle": "Qualification", "n": 1}]
+
+######## BODACC
+champs BODACC : ['id', 'publicationavis', 'parution', 'dateparution', 'numeroannonce', 'typeavis', 'typeavis_lib', 'familleavis', 'familleavis_lib', 'numerodepartement', 'departement_nom_officiel', 'region_code', 'region_nom_officiel', 'tribunal', 'commercant', 'ville', 'registre', 'cp', 'pdf_parution_subfolder', 'ispdf_unitaire', 'listepersonnes', 'listeetablissements', 'jugement', 'acte', 'modificationsgenerales', 'radiationaurcs', 'depot', 'listeprecedentexploitant', 'listeprecedentproprietaire', 'divers', 'parutionavisprecedent', 'url_complete']
+BODACC par jour et famille (14 j) : 200 [{"dateparution": "2026-10-13T00:00:00+00:00", "familleavis_lib": "Créations", "n": 4751}, {"dateparution": "2026-10-13T00:00:00+00:00", "familleavis_lib": "Dépôts des comptes", "n": 13087}, {"dateparution": "2026-10-13T00:00:00+00:00", "familleavis_lib": "Immatriculations", "n": 464}, {"dateparution": "2026-10-13T00:00:00+00:00", "familleavis_lib": "Modifications diverses", "n": 4244}, {"dateparution": "2026-10-13T00:00:00+00:00", "familleavis_lib": "Procédures collectives", "n": 1261}, {"dateparution": "2026-10-13T00:00:00+00:00", "familleavis_lib": "Procédures de conciliation", "n": 2}, {"dateparution": "2026-10-13T00:00:00+00:00", "familleavis_lib": "Procédures de rétablissement professionnel", "n": 1}, {"dateparution": "2026-10-13T00:00:00+00:00", "familleavis_lib": "Radiations", "n": 3102}, {"dateparution": "2026-10-13T00:00:00+00:00", "familleavis_lib": "Ventes et cessions", "n": 313}, {"dateparution": "2026-10-14T00:00:00+00:00", "familleavis_lib": "Créations", "n": 1415}, {"dateparution": "2026-10-14T00:00:00+00:00", "familleavis_lib": "Dépôts des comptes", "n": 2306}, {"dateparution": "2026-10-14T00:00:00+00:00", "familleavis_lib": "Immatriculations", "n": 118}, {"dateparution": "2026-10-14T00:00:00+00:00", "familleavis_lib": "Modifications diverses", "n": 1193}, {"dateparution": "2026-10-14T00:00:00+00:00", "familleavis_lib": "Procédures collectives", "n": 323}, {"dateparution": "2026-10-14T00:00:00+00:00", "familleavis_lib": "Radiations", "n": 500}, {"dateparution": "2026-10-14T00:00:00+00:00", "familleavis_lib": "Ventes et cessions", "n": 65}, {"dateparution": "2026-10-15T00:00:00+00:00", "familleavis_lib": "Créations", "n": 2512}, {"dateparution": "2026-10-15T00:00:00+00:00", "familleavis_lib": "Dépôts des comptes", "n": 13745}, {"dateparution": "2026-10-15T00:00:00+00:00", "familleavis_lib": "Immatriculations", "n": 261}, {"dateparution": "2026-10-15T00:00:00+00:00", "familleavis_lib": "Modifications diverses", "n": 2315}, {"dateparution": "2026-10-15T00:00:00+00:00", "familleavis_lib": "Procédures collectives", "n": 954}, {"dateparution": "2026-10-15T00:00:00+00:00", "familleavis_lib": "Procédures de rétablissement professionnel", "n": 1}, {"dateparution": "2026-10-15T00:00:00+00:00", "familleavis_lib": "Radiations", "n": 1538}, {"dateparution": "2026-10-15T00:00:00+00:00", "familleavis_lib": "Ventes et cessions", "n": 156}, {"dateparution": "2026-10-16T00:00:00+00:00", "familleavis_lib": "Créations", "n": 2251}, {"dateparution": "2026-10-16T00:00:00+00:00", "familleavis_lib": "Dépôts des comptes", "n": 6179}, {"dateparution": "2026-10-16T00:00:00+00:00", "familleavis_lib": "Immatriculations", "n": 236}, {"dateparution": "2026-10-16T00:00:00+00:00", "familleavis_lib": "Modifications diverses", "n": 2158}, {"dateparution": "2026-10-16T00:00:00+00:00", "familleavis_lib": "Procédures collectives", "n": 1794}, {"dateparution": "2026-10-16T00:00:00+00:00", "familleavis_lib": "Procédures de conciliation", "n": 9}, {"dateparution": "2026-10-16T00:00:00+00:00", "familleavis_lib": "Radiations", "n": 1950}, {"dateparution": "2026-10-16T00:00:00+00:00", "familleavis_lib": "Ventes et cessions", "n": 187}, {"dateparution": "2026-10-18T00:00:00+00:00", "familleavis_lib": "Créations", "n": 2178}, {"dateparution": "2026-10-18T00:00:00+00:00", "familleavis_lib": "Dépôts des comptes", "n": 8385}, {"dateparution": "2026-10-18T00:00:00+00:00", "familleavis_lib": "Immatriculations", "n": 195}, {"dateparution": "2026-10-18T00:00:00+00:00", "familleavis_lib": "Modifications diverses", "n": 1988}, {"dateparution": "2026-10-18T00:00:00+00:00", "familleavis_lib": "Procédures collectives", "n": 790}, {"dateparution": "2026-10-18T00:00:00+00:00", "familleavis_lib": "Procédures de conciliation", "n": 1}, {"dateparution": "2026-10-18T00:00:00+00:00", "familleavis_lib": "Radiations", "n": 1416}, {"dateparution": "2026-10-18T00:00:00+00:00", "familleavis_lib": "Ventes et cessions", "n": 191}, {"dateparution": "2026-10-20T00:00:00+00:00", "familleavis_lib": "Créations", "n": 6813}, {"dateparution": "2026-10-20T00:00:00+00:00", "familleavis_lib": "Dépôts des comptes", "n": 15310}, {"dateparution": "2026-10-20T00:00:00+00:00", "familleavis_lib": "Immatriculations", "n": 475}, {"dateparution": "2026-10-20T00:00:00+00:00", "familleavis_lib": "Modifications diverses", "n": 5363}, {"dateparution": "2026-10-20T00:00:00+00:00", "familleavis_lib": "Procédures collectives", "n": 937}, {"dateparution": "2026-10-20T00:00:00+00:00", "familleavis_lib": "Procédures de conciliation", "n": 1}, {"dateparution": "2026-10-20T00:00:00+00:00", "familleavis_lib": "Radiations", "n": 3104}, {"dateparution": "2026-10-20T00:00:00+00:00", "familleavis_lib": "Ventes et cessions", "n": 370}, {"dateparution": "2026-10-21T00:00:00+00:00", "familleavis_lib": "Créations", "n": 986}, {"dateparution": "2026-10-21T00:00:00+00:00", "familleavis_lib": "Dépôts des comptes", "n": 1921}, {"dateparution": "2026-10-21T00:00:00+00:00", "familleavis_lib": "Immatriculations", "n": 71}, {"dateparution": "2026-10-21T00:00:00+00:00", "familleavis_lib": "Modifications diverses", "n": 961}, {"dateparution": "2026-10-21T00:00:00+00:00", "familleavis_lib": "Procédures collectives", "n": 467}, {"dateparution": "2026-10-21T00:00:00+00:00", "familleavis_lib": "Radiations", "n": 393}, {"dateparution": "2026-10-21T00:00:00+00:00", "familleavis_lib": "Ventes et cessions", "n": 91}, {"dateparution": "2026-10-22T00:00:00+00:00", "familleavis_lib": "Créations", "n": 3807}, {"dateparution": "2026-10-22T00:00:00+00:00", "familleavis_lib": "Dépôts des comptes", "n": 14229}, {"dateparution": "2026-10-22T00:00:00+00:00", "familleavis_lib": "Immatriculations", "n": 351}, {"dateparution": "2026-10-22T00:00:00+00:00", "familleavis_lib": "Modifications diverses", "n": 2428}, {"dateparution": "2026-10-22T00:00:00+00:00", "familleavis_lib": "Procédures collectives", "n": 853}, {"dateparution": "2026-10-22T00:00:00+00:00", "familleavis_lib": "Procédures de conciliation", "n": 1}, {"dateparution": "2026-10-22T00:00:00+00:00", "familleavis_lib": "Procédures de rétablissement professionnel", "n": 1}, {"dateparution": "2026-10-22T00:00:00+00:00", "familleavis_lib": "Radiations", "n": 1339}, {"dateparution": "2026-10-22T00:00:00+00:00", "familleavis_lib": "Ventes et cessions", "n": 268}, {"dateparution": "2026-10-23T00:00:00+00:00", "familleavis_lib": "Créations", "n": 1297}, {"dateparution": "2026-10-23T00:00:00+00:00", "familleavis_lib": "Dépôts des comptes", "n": 5109}, {"dateparution": "2026-10-23T00:00:00+00:00", "familleavis_lib": "Immatriculations", "n": 124}, {"dateparution": "2026-10-23T00:00:00+00:00", "familleavis_lib": "Modifications diverses", "n": 2559}, {"dateparution": "2026-10-23T00:00:00+00:00", "familleavis_lib": "Procédures collectives", "n": 1701}, {"dateparution": "2026-10-23T00:00:00+00:00", "familleavis_lib": "Radiations", "n": 1203}, {"dateparution": "2026-10-23T00:00:00+00:00", "familleavis_lib": "Ventes et cessions", "n": 123}, {"dateparution": "2026-10-25T00:00:00+00:00", "familleavis_lib": "Créations", "n": 2181}, {"dateparution": "2026-10-25T00:00:00+00:00", "familleavis_lib": "Dépôts des comptes", "n": 7620}, {"dateparution": "2026-10-25T00:00:00+00:00", "familleavis_lib": "Immatriculations", "n": 174}, {"dateparution": "2026-10-25T00:00:00+00:00", "familleavis_lib": "Modifications diverses", "n": 2055}, {"dateparution": "2026-10-25T00:00:00+00:00", "familleavis_lib": "Procédures collectives", "n": 590}, {"dateparution": "2026-10-25T00:00:00+00:00", "familleavis_lib": "Procédures de rétablissement professionnel", "n": 2}, {"dateparution": "2026-10-25T00:00:00+00:00", "familleavis_lib": "Radiations", "n": 1358}, {"dateparution": "2026-10-25T00:00:00+00:00", "familleavis_lib": "Ventes et cessions", "n": 177}]
+2025 : familleavis = 'collective' -> 200 [{'n': 197601}]
+2025 : familleavis = 'collective' and jugement like '*ouverture*' -> 200 [{'n': 77257}]
+2025 : familleavis = 'collective' and search(jugement, 'ouverture') -> 200 [{'n': 77257}]
+exemple procédure : {"id": "A202602052536", "publicationavis": "A", "parution": "20260205", "dateparution": "2026-10-25", "numeroannonce": "2536", "typeavis": "annonce", "typeavis_lib": "Avis initial", "familleavis": "collective", "familleavis_lib": "Procédures collectives", "numerodepartement": "06", "departement_nom_officiel": "Alpes-Maritimes", "region_code": "93", "region_nom_officiel": "Provence-Alpes-Côte d'Azur", "tribunal": "Greffe du Tribunal de Commerce de Cannes", "commercant": "KAOLY", "ville": "Cannes", "registre": "['905030433', '905 030 433']", "cp": "06400", "pdf_parution_subfolder": "1", "ispdf_unitaire": "oui", "listepersonnes": "{\"personne\": {\"typePersonne\": \"pm\", \"numeroImmatriculation\": {\"numeroIdentification\": \"905 030 433\", \"codeRCS\": \"RCS\", \"nomGreffeImmat\": \"Cannes\"}, \"denomination\": \"KAOLY\", \"activite\": \"restauration rapide avec vente sur place ou à emporter, rôtisserie, snack, Sandwicherie, Saladerie, pizzeria, vent", "listeetablissements": null, "jugement": "{\"type\": \"initial\", \"famille\": \"Jugement prononçant\", \"nature\": \"Jugement de conversion en liquidation judiciaire\", \"date\": \"2026-10-13\", \"complementJugement\": \"Jugement prononçant la liquidation judiciaire désignant liquidateur Me Cardon Didier 15 Impasse de l'Horloge 06117 Le Cannet, et mettant fi", "acte": null, "modificationsgenerales": null, "radiationaurcs": null, "depot": null, "listeprecedentexploitant": null, "listeprecedentproprietaire": null, "divers": null, "parutionavisprecedent": null, "url_complete": "https://www.bodacc.fr/pages/annonces-commerciales-detail/?q.id=id:A202602052536"}
+exemple procédure : {"id": "A202602052665", "publicationavis": "A", "parution": "20260205", "dateparution": "2026-10-25", "numeroannonce": "2665", "typeavis": "annonce", "typeavis_lib": "Avis initial", "familleavis": "collective", "familleavis_lib": "Procédures collectives", "numerodepartement": "31", "departement_nom_officiel": "Haute-Garonne", "region_code": "76", "region_nom_officiel": "Occitanie", "tribunal": "Greffe du Tribunal de Commerce de Toulouse", "commercant": "L'ESPRIT DU SUD-OUEST", "ville": "Cornebarrieu", "registre": "['509856076', '509 856 076']", "cp": "31700", "pdf_parution_subfolder": "1", "ispdf_unitaire": "oui", "listepersonnes": "{\"personne\": {\"typePersonne\": \"pm\", \"numeroImmatriculation\": {\"numeroIdentification\": \"509 856 076\", \"codeRCS\": \"RCS\", \"nomGreffeImmat\": \"Toulouse\"}, \"denomination\": \"L'ESPRIT DU SUD-OUEST\", \"activite\": \"Restauration, restauration traditionnelle, gastronomique, rapide. Vente à emporter, traiteur, ba", "listeetablissements": null, "jugement": "{\"type\": \"initial\", \"famille\": \"Extrait de jugement\", \"nature\": \"Jugement prononçant la résolution du plan de redressement et la liquidation judiciaire\", \"date\": \"2026-10-08\", \"complementJugement\": \"Jugement prononçant la résolution du plan de redressement et la liquidation judiciaire, date de cessa", "acte": null, "modificationsgenerales": null, "radiationaurcs": null, "depot": null, "listeprecedentexploitant": null, "listeprecedentproprietaire": null, "divers": null, "parutionavisprecedent": null, "url_complete": "https://www.bodacc.fr/pages/annonces-commerciales-detail/?q.id=id:A202602052665"}
+types d'avis collectifs (14 j) : 200 [{'typeavis_lib': 'Avis d’annulation', 'n': 5}, {'typeavis_lib': 'Avis initial', 'n': 9641}, {'typeavis_lib': 'Avis rectificatif', 'n': 24}]
+
+######## Sirene
+recherche-entreprises 429 Too Many Requests.
+API Sirene Insee sans clé : 401
+
+######## DECP
+téléchargement parquet : 16 s, 250 Mo
+colonnes : ['uid', 'id', 'nature', 'acheteur_id', 'acheteur_nom', 'titulaire_id', 'titulaire_typeIdentifiant', 'titulaire_nom', 'objet', 'montant', 'type', 'codeCPV', 'procedure', 'techniques', 'dureeMois', 'dureeRestanteMois', 'offresRecues', 'dateNotification', 'datePublicationDonnees', 'formePrix', 'typesPrix', 'attributionAvance', 'tauxAvance', 'marcheInnovant', 'modalitesExecution', 'considerationsSociales', 'considerationsEnvironnementales', 'ccag', 'sousTraitanceDeclaree', 'typeGroupementOperateurs', 'origineUE', 'origineFrance', 'lieuExecution_code', 'lieuExecution_typeCode', 'idAccordCadre', 'titulaire_distance', 'acheteur_categorie', 'acheteur_labels', 'acheteur_commune_code', 'acheteur_commune_nom', 'acheteur_departement_code', 'acheteur_departement_nom', 'acheteur_region_code', 'acheteur_region_nom', 'acheteur_latitude', 'acheteur_longitude', 'acheteur_population', 'titulaire_categorie', 'titulaire_labels', 'titulaire_activite_code', 'titulaire_activite_libelle', 'titulaire_commune_code', 'titulaire_commune_nom', 'titulaire_departement_code', 'titulaire_departement_nom', 'titulaire_region_code', 'titulaire_region_nom', 'titulaire_latitude', 'titulaire_longitude', 'modification_id', 'donneesActuelles', 'montant_rationalise', 'montant_anomalie', 'montant_anomalie_raisons', 'sourceDataset', 'sourceFile']
+lignes : 3325879
+marchés distincts (uid, données actuelles) : 1840388
+
+par datePublicationDonnees, 21 derniers jours (marchés distincts, montant total) :
+  (datetime.date(2026, 10, 6), 1538, 4251.9)
+  (datetime.date(2026, 10, 7), 1359, 6033.0)
+  (datetime.date(2026, 10, 8), 1508, 4085.0)
+  (datetime.date(2026, 10, 9), 1580, 3405.8)
+  (datetime.date(2026, 10, 10), 54, 19.8)
+  (datetime.date(2026, 10, 11), 407, 1499.0)
+  (datetime.date(2026, 10, 12), 1359, 8588.4)
+  (datetime.date(2026, 10, 13), 1518, 14381.2)
+  (datetime.date(2026, 10, 14), 1371, 3129.6)
+  (datetime.date(2026, 10, 15), 1524, 3317.1)
+  (datetime.date(2026, 10, 16), 1488, 3057.5)
+  (datetime.date(2026, 10, 17), 83, 236.7)
+  (datetime.date(2026, 10, 18), 522, 250.3)
+  (datetime.date(2026, 10, 19), 1450, 4766.5)
+  (datetime.date(2026, 10, 20), 1620, 9206.9)
+  (datetime.date(2026, 10, 21), 1422, 7878.0)
+  (datetime.date(2026, 10, 22), 1316, 6614.7)
+  (datetime.date(2026, 10, 23), 1434, 7459.0)
+  (datetime.date(2026, 10, 24), 69, 39.0)
+  (datetime.date(2026, 10, 25), 484, 356.0)
+  (datetime.date(2026, 10, 26), 3908, 16780.2)
+  (datetime.date(2026, 10, 27), 936, 2461.2)
+ par année (datePublicationDonnees) : [(2026, 291754), (2025, 342895), (2024, 370486), (2023, 186289), (2022, 193339), (2021, 174645)]
+
+par dateNotification, 21 derniers jours (marchés distincts, montant total) :
+  (datetime.date(2026, 10, 6), 1259, 3370.4)
+  (datetime.date(2026, 10, 7), 979, 4514.7)
+  (datetime.date(2026, 10, 8), 1090, 2310.3)
+  (datetime.date(2026, 10, 9), 1052, 2633.4)
+  (datetime.date(2026, 10, 10), 10, 2.4)
+  (datetime.date(2026, 10, 11), 10, 3.5)
+  (datetime.date(2026, 10, 12), 1129, 6425.2)
+  (datetime.date(2026, 10, 13), 1050, 1795.5)
+  (datetime.date(2026, 10, 14), 968, 2601.3)
+  (datetime.date(2026, 10, 15), 950, 1727.0)
+  (datetime.date(2026, 10, 16), 1176, 3187.2)
+  (datetime.date(2026, 10, 17), 12, 222.5)
+  (datetime.date(2026, 10, 18), 5, 8.4)
+  (datetime.date(2026, 10, 19), 1051, 2421.7)
+  (datetime.date(2026, 10, 20), 976, 8641.2)
+  (datetime.date(2026, 10, 21), 780, 6316.2)
+  (datetime.date(2026, 10, 22), 843, 5333.0)
+  (datetime.date(2026, 10, 23), 723, 6344.4)
+  (datetime.date(2026, 10, 24), 2, 2.5)
+  (datetime.date(2026, 10, 25), 2, 0.2)
+  (datetime.date(2026, 10, 26), 77, 88.1)
+ par année (dateNotification) : [(2026, 234106), (2025, 291738), (2024, 284105), (2023, 255438), (2022, 247987), (2021, 229451)]
+montants : nuls/0 : 64748 | > 1 Md€ : 936 | médiane : 122520.0
+champs titulaire : ['titulaire_id', 'titulaire_typeIdentifiant', 'titulaire_nom', 'titulaire_distance', 'titulaire_categorie', 'titulaire_labels', 'titulaire_activite_code', 'titulaire_activite_libelle', 'titulaire_commune_code', 'titulaire_commune_nom', 'titulaire_departement_code', 'titulaire_departement_nom', 'titulaire_region_code', 'titulaire_region_nom', 'titulaire_latitude', 'titulaire_longitude']
+titulaire_typeIdentifiant [('SIRET', 2051321), (None, 61531), ('TVA', 4179), ('HORS_UE', 3966), ('HORS-UE', 2919), ('TVA_INTRACOMMUNAUTAIRE', 917)]
+distincts acheteur_id (notifiés en 2025) : 16083
+distincts titulaire_id (notifiés en 2025) : 83722
+[('PME', 1176500), ('ETI', 436914), ('GE', 363630), (None, 148970)]
+
+exemple ligne :                                                                                                                                                                      0
+uid                                                                                                                                       4450426250005000013_45112710
+id                                                                                                                                                               00013
+nature                                                                                                                                                          Marché
+acheteur_id                                                                                                                                             44504262500050
+acheteur_nom                                                                                                                                             TERRE ET TOIT
+titulaire_id                                                                                                                                                419244322F
+titulaire_typeIdentifiant                                                                                                                                        SIRET
+titulaire_nom                                                                                                                                                     None
+objet                            TRAVAUX D’AMENAGEMENT DE LA TRANCHE N°3 DE LA ZAC CHENE ROME A SAINT AUBIN D’AUBIGNE - Aménagements paysagers, mobilier et maçonnerie
+montant                                                                                                                                                       299943.5
+type                                                                                                                                                           Travaux
+codeCPV                                                                                                                                                       45112710
+procedure                                                                                                                                            Procédure adaptée
+techniques                                                                                                                                                  Sans objet
+dureeMois                                                                                                                                                          404
+dureeRestanteMois                                                                                                                                                403.6
+offresRecues                                                                                                                                                     
