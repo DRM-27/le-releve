@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-26",
- "genere": "2026-10-27T21:39:22Z",
+ "genere": "2026-10-27T22:39:49Z",
  "couverture": {
   "releves": 12,
   "attendus": 24
@@ -2559,57 +2559,57 @@
    "src": "data/jours/2026-10-26.csv#L37"
   },
   "g.10764627709.nom": {
-   "v": "[Pt. 3 🎃] Huss Valley",
-   "d": "[Pt. 3 🎃] Huss Valley",
-   "l": "[Pt. 3 🎃] Huss Valley : nom",
+   "v": "[Pt. 4 🎃] Huss Valley",
+   "d": "[Pt. 4 🎃] Huss Valley",
+   "l": "[Pt. 4 🎃] Huss Valley : nom",
    "src": "data/jours/2026-10-26.csv#L38"
   },
   "g.10764627709.rang": {
    "v": 37,
    "d": "37e",
-   "l": "[Pt. 3 🎃] Huss Valley : rang au pic du jour",
+   "l": "[Pt. 4 🎃] Huss Valley : rang au pic du jour",
    "src": "data/jours/2026-10-26.csv#L38"
   },
   "g.10764627709.pic": {
    "v": 46014,
    "d": "46 014",
-   "l": "[Pt. 3 🎃] Huss Valley : pic de joueurs simultanés relevé",
+   "l": "[Pt. 4 🎃] Huss Valley : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-26.csv#L38"
   },
   "g.10764627709.heure_pic": {
    "v": "21:38",
    "d": "21 h 38",
-   "l": "[Pt. 3 🎃] Huss Valley : heure (Paris) du pic relevé",
+   "l": "[Pt. 4 🎃] Huss Valley : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-26.csv#L38"
   },
   "g.10764627709.moy": {
    "v": 41195,
    "d": "41 195",
-   "l": "[Pt. 3 🎃] Huss Valley : moyenne des joueurs simultanés sur la journée",
+   "l": "[Pt. 4 🎃] Huss Valley : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-26.csv#L38"
   },
   "g.10764627709.createur": {
    "v": "Huss Valley Official",
    "d": "Huss Valley Official",
-   "l": "[Pt. 3 🎃] Huss Valley : créateur",
+   "l": "[Pt. 4 🎃] Huss Valley : créateur",
    "src": "data/jours/2026-10-26.csv#L38"
   },
   "g.10764627709.genre": {
    "v": "Action",
    "d": "Action",
-   "l": "[Pt. 3 🎃] Huss Valley : genre",
+   "l": "[Pt. 4 🎃] Huss Valley : genre",
    "src": "data/jours/2026-10-26.csv#L38"
   },
   "g.10764627709.visites_total": {
    "v": 202433051,
    "d": "202,43 millions",
-   "l": "[Pt. 3 🎃] Huss Valley : visites cumulées depuis la création",
+   "l": "[Pt. 4 🎃] Huss Valley : visites cumulées depuis la création",
    "src": "data/jours/2026-10-26.csv#L38"
   },
   "g.10764627709.note": {
    "v": 0.8774,
    "d": "87,7 %",
-   "l": "[Pt. 3 🎃] Huss Valley : part de votes positifs",
+   "l": "[Pt. 4 🎃] Huss Valley : part de votes positifs",
    "src": "data/jours/2026-10-26.csv#L38"
   },
   "g.703124385.nom": {
