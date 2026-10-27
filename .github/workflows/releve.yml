@@ -10,6 +10,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
   pages: write
   id-token: write
 
@@ -62,7 +63,7 @@ jobs:
       - name: Faits de la veille (heure de Paris)
         run: python tools/facts.py || echo "Pas encore de journée complète."
 
-      - name: Brouillon du quotidien (si la journée est complète)
+      - name: Brouillon du quotidien (si la veille compte au moins 20 relevés)
         run: python tools/quotidien.py || true
 
       - name: Archiver les relevés dans le dépôt
@@ -74,6 +75,22 @@ jobs:
           git commit -q -m "Relevé $(date -u +%Y-%m-%dT%H:%MZ)"
           for i in 1 2 3; do git pull -q --rebase -X theirs && git push -q && exit 0; git rebase --abort 2>/dev/null; sleep 5; done
           exit 1
+
+      - name: Prévenir par un ticket GitHub (e-mail) si la collecte échoue 3 fois de suite
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          FAILS=$(python -c "import json;print(json.load(open('data/status.json')).get('echecsConsecutifs',0))" 2>/dev/null || echo 0)
+          OPEN=$(gh issue list --label collecte-en-panne --state open --json number --jq '.[0].number' 2>/dev/null || true)
+          if [ "$FAILS" -ge 3 ] && [ -z "$OPEN" ]; then
+            gh label create collecte-en-panne --color B60205 --description "Alerte automatique du relevé horaire" 2>/dev/null || true
+            gh issue create --label collecte-en-panne \
+              --title "Collecte Roblox en panne ($FAILS échecs de suite)" \
+              --body "Le relevé horaire échoue depuis $FAILS passages. Dernier succès : $(python -c "import json;print(json.load(open('data/status.json')).get('dernierSucces'))"). Détail dans data/status.json et dans l'onglet Actions. Ce ticket se ferme tout seul quand la collecte repart." || true
+          elif [ "$FAILS" -eq 0 ] && [ -n "$OPEN" ]; then
+            gh issue close "$OPEN" --comment "La collecte est repartie ($(date -u +%Y-%m-%dT%H:%MZ))." || true
+          fi
 
       - name: Rapport mensuel « État de Roblox » (PDF du mois écoulé, dès le 1er du mois)
         run: |

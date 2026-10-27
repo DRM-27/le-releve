@@ -1,11 +1,11 @@
 ---
-titre: {{top.1.nom}} garde la tête avec {{top.1.pic}} joueurs, la simulation pèse {{genre.1.part}} du top 100
-chapo: Le {{jour.date_courte}}, le n° 1 a réuni {{concentration.top1}} des joueurs moyens du top 100 ; la simulation en regroupe {{genre.1.part}}.
+titre: {{top.1.nom}} en tête avec {{top.1.pic}} joueurs, le genre {{genre.1.nom}} pèse {{genre.1.part}} du top 100
+chapo: Le {{jour.date_courte}}, le n° 1 a réuni {{concentration.top1}} des joueurs moyens du top 100 ; le genre {{genre.1.nom}} en regroupe {{genre.1.part}}.
 jour: @JOUR@
 type: quotidien
 publie: @PUBLIE@
 ---
-Journée complète : {{releves.nb}} relevés sur {{releves.attendus}}, pour {{jeux.nb}} jeux suivis. Sur les jeux que nous suivons, le total des joueurs en ligne a atteint {{cumul.pic}} au relevé le plus haut, à {{cumul.pic_heure}}, pour une moyenne de {{cumul.moy}} sur la journée.
+Relevés : {{releves.nb}} sur {{releves.attendus}} ({{releves.manquants}}), pour {{jeux.nb}} jeux suivis. Sur les jeux que nous suivons, le total des joueurs en ligne a atteint {{cumul.pic}} au relevé le plus haut, à {{cumul.pic_heure}}, pour une moyenne de {{cumul.moy}} sur la journée.
 
 ## Le n° 1
 
@@ -19,11 +19,11 @@ Journée complète : {{releves.nb}} relevés sur {{releves.attendus}}, pour {{je
 
 ## Le moment du pic
 
-Le total des jeux suivis culmine à {{cumul.pic_heure}} (heure de Paris), au moment où {{top.1.nom}} atteint aussi son pic.
+Le total des jeux suivis culmine à {{cumul.pic_heure}} (heure de Paris). {{top.1.nom}} avait atteint son propre pic à {{top.1.heure_pic}}.
 
 {{graphique:cumul}}
 
-## La simulation domine
+## Les genres
 
 Par genre, **{{genre.1.nom}}** réunit {{genre.1.jeux}} jeux et {{genre.1.part}} des joueurs moyens du top {{n.top100}}, devant **{{genre.2.nom}}** ({{genre.2.jeux}} jeux, {{genre.2.part}}) et **{{genre.3.nom}}** ({{genre.3.jeux}} jeux, {{genre.3.part}}). {{recents.nb}} jeux du top {{n.top100}} ont été créés il y a {{n.recents_jours}} jours ou moins ; le mieux classé est {{recent.1.nom}}, {{recent.1.rang}}, créé le {{recent.1.cree}}.
 

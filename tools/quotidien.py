@@ -1,6 +1,6 @@
 """Prépare le brouillon du quotidien à partir du modèle tools/modeles/quotidien.md.
 
-À lancer après tools/facts.py. Ne fait rien si la journée est incomplète, si le brouillon existe déjà
+À lancer après tools/facts.py. Ne fait rien si la journée compte moins de MIN_RELEVES relevés, si le brouillon existe déjà
 ou si l'article est déjà publié. Le brouillon est vérifié par tools/verify.py ; s'il échoue, il est supprimé.
 
 Usage : python tools/quotidien.py [AAAA-MM-JJ]   (par défaut : hier, heure de Paris)
@@ -15,6 +15,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import FACTS, ROOT, TZ, slugify, utc_now
 
 MODELE = ROOT / "tools" / "modeles" / "quotidien.md"
+MIN_RELEVES = 20   # relevés minimum sur la journée ; GitHub saute parfois des heures planifiées
 
 
 def main():
@@ -25,7 +26,7 @@ def main():
         return 0
     faits = json.loads(f.read_text(encoding="utf-8"))
     cov = faits.get("couverture", {})
-    if not cov or cov.get("releves", 0) < cov.get("attendus", 24):
+    if not cov or cov.get("releves", 0) < min(MIN_RELEVES, cov.get("attendus", 24)):
         print(f"Journée incomplète ({cov.get('releves')}/{cov.get('attendus')}) : rien à faire.")
         return 0
     top = faits["faits"].get("top.1.nom", {}).get("v")

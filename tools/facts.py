@@ -110,7 +110,13 @@ def build(d):
     add("jour.date", d.isoformat(), fr_date(d), "Jour étudié (heure de Paris)")
     add("jour.date_courte", d.isoformat(), fr_date(d, weekday=False), "Jour étudié")
     add("releves.nb", n, fr_int(n), "Relevés horaires disponibles ce jour-là", snaps_dir)
-    add("releves.attendus", 24, "24", "Relevés horaires attendus par jour", snaps_dir)
+    heures = list(hours_of_day(d))
+    add("releves.attendus", len(heures), fr_int(len(heures)), "Relevés horaires attendus ce jour-là (23 ou 25 les jours de changement d'heure)", snaps_dir)
+    presentes = {ts.replace(minute=0, second=0, microsecond=0) for ts, _ in snaps}
+    manquantes = [h for h in heures if h not in presentes]
+    txt = ("aucune heure manquante" if not manquantes else
+           ("heure manquante : " if len(manquantes) == 1 else "heures manquantes : ") + ", ".join(fr_hour(h) for h in manquantes))
+    add("releves.manquants", len(manquantes), txt, "Heures (Paris) sans relevé ce jour-là", snaps_dir)
     add("jeux.nb", len(ranked), fr_int(len(ranked)), "Jeux suivis et classés ce jour-là")
     add("n.top", 10, "10", "Taille du classement principal")
     add("n.top100", 100, "100", "Taille du classement élargi")
