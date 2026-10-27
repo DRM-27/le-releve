@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-26",
- "genere": "2026-10-27T17:48:58Z",
+ "genere": "2026-10-27T18:47:00Z",
  "couverture": {
   "releves": 12,
   "attendus": 24
@@ -1401,8 +1401,8 @@
    "src": "data/jours/2026-10-26.csv#L16"
   },
   "g.10771421858.createur": {
-   "v": "slo7th",
-   "d": "slo7th",
+   "v": "Bacon Theory",
+   "d": "Bacon Theory",
    "l": "[NEW STAGES]  DONT SPLASH : créateur",
    "src": "data/jours/2026-10-26.csv#L16"
   },
@@ -1965,57 +1965,57 @@
    "src": "data/jours/2026-10-26.csv#L26"
   },
   "g.10762636904.nom": {
-   "v": "[🌟X2 EXP] Cameraman Tower Defense",
-   "d": "[🌟X2 EXP] Cameraman Tower Defense",
-   "l": "[🌟X2 EXP] Cameraman Tower Defense : nom",
+   "v": "[🎃] Cameraman Tower Defense",
+   "d": "[🎃] Cameraman Tower Defense",
+   "l": "[🎃] Cameraman Tower Defense : nom",
    "src": "data/jours/2026-10-26.csv#L27"
   },
   "g.10762636904.rang": {
    "v": 26,
    "d": "26e",
-   "l": "[🌟X2 EXP] Cameraman Tower Defense : rang au pic du jour",
+   "l": "[🎃] Cameraman Tower Defense : rang au pic du jour",
    "src": "data/jours/2026-10-26.csv#L27"
   },
   "g.10762636904.pic": {
    "v": 52805,
    "d": "52 805",
-   "l": "[🌟X2 EXP] Cameraman Tower Defense : pic de joueurs simultanés relevé",
+   "l": "[🎃] Cameraman Tower Defense : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-26.csv#L27"
   },
   "g.10762636904.heure_pic": {
    "v": "12:45",
    "d": "12 h 45",
-   "l": "[🌟X2 EXP] Cameraman Tower Defense : heure (Paris) du pic relevé",
+   "l": "[🎃] Cameraman Tower Defense : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-26.csv#L27"
   },
   "g.10762636904.moy": {
    "v": 31854,
    "d": "31 854",
-   "l": "[🌟X2 EXP] Cameraman Tower Defense : moyenne des joueurs simultanés sur la journée",
+   "l": "[🎃] Cameraman Tower Defense : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-26.csv#L27"
   },
   "g.10762636904.createur": {
    "v": "Aligators Games",
    "d": "Aligators Games",
-   "l": "[🌟X2 EXP] Cameraman Tower Defense : créateur",
+   "l": "[🎃] Cameraman Tower Defense : créateur",
    "src": "data/jours/2026-10-26.csv#L27"
   },
   "g.10762636904.genre": {
    "v": "Strategy",
    "d": "Stratégie",
-   "l": "[🌟X2 EXP] Cameraman Tower Defense : genre",
+   "l": "[🎃] Cameraman Tower Defense : genre",
    "src": "data/jours/2026-10-26.csv#L27"
   },
   "g.10762636904.visites_total": {
    "v": 51421017,
    "d": "51,42 millions",
-   "l": "[🌟X2 EXP] Cameraman Tower Defense : visites cumulées depuis la création",
+   "l": "[🎃] Cameraman Tower Defense : visites cumulées depuis la création",
    "src": "data/jours/2026-10-26.csv#L27"
   },
   "g.10762636904.note": {
    "v": 0.9877,
    "d": "98,8 %",
-   "l": "[🌟X2 EXP] Cameraman Tower Defense : part de votes positifs",
+   "l": "[🎃] Cameraman Tower Defense : part de votes positifs",
    "src": "data/jours/2026-10-26.csv#L27"
   },
   "g.3183403065.nom": {
