@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-26",
- "genere": "2026-10-27T00:54:17Z",
+ "genere": "2026-10-27T01:46:18Z",
  "couverture": {
   "releves": 12,
   "attendus": 24
@@ -3957,57 +3957,57 @@
    "src": "data/jours/2026-10-26.csv#L63"
   },
   "g.10770593871.nom": {
-   "v": "[UPD] Realistic Ragdoll Engine 🩸",
-   "d": "[UPD] Realistic Ragdoll Engine 🩸",
-   "l": "[UPD] Realistic Ragdoll Engine 🩸 : nom",
+   "v": "Realistic Ragdoll Engine 🩸",
+   "d": "Realistic Ragdoll Engine 🩸",
+   "l": "Realistic Ragdoll Engine 🩸 : nom",
    "src": "data/jours/2026-10-26.csv#L64"
   },
   "g.10770593871.rang": {
    "v": 63,
    "d": "63e",
-   "l": "[UPD] Realistic Ragdoll Engine 🩸 : rang au pic du jour",
+   "l": "Realistic Ragdoll Engine 🩸 : rang au pic du jour",
    "src": "data/jours/2026-10-26.csv#L64"
   },
   "g.10770593871.pic": {
    "v": 24255,
    "d": "24 255",
-   "l": "[UPD] Realistic Ragdoll Engine 🩸 : pic de joueurs simultanés relevé",
+   "l": "Realistic Ragdoll Engine 🩸 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-26.csv#L64"
   },
   "g.10770593871.heure_pic": {
    "v": "23:38",
    "d": "23 h 38",
-   "l": "[UPD] Realistic Ragdoll Engine 🩸 : heure (Paris) du pic relevé",
+   "l": "Realistic Ragdoll Engine 🩸 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-26.csv#L64"
   },
   "g.10770593871.moy": {
    "v": 17571,
    "d": "17 571",
-   "l": "[UPD] Realistic Ragdoll Engine 🩸 : moyenne des joueurs simultanés sur la journée",
+   "l": "Realistic Ragdoll Engine 🩸 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-26.csv#L64"
   },
   "g.10770593871.createur": {
    "v": "No Knees!",
    "d": "No Knees!",
-   "l": "[UPD] Realistic Ragdoll Engine 🩸 : créateur",
+   "l": "Realistic Ragdoll Engine 🩸 : créateur",
    "src": "data/jours/2026-10-26.csv#L64"
   },
   "g.10770593871.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[UPD] Realistic Ragdoll Engine 🩸 : genre",
+   "l": "Realistic Ragdoll Engine 🩸 : genre",
    "src": "data/jours/2026-10-26.csv#L64"
   },
   "g.10770593871.visites_total": {
    "v": 4505658,
    "d": "4,51 millions",
-   "l": "[UPD] Realistic Ragdoll Engine 🩸 : visites cumulées depuis la création",
+   "l": "Realistic Ragdoll Engine 🩸 : visites cumulées depuis la création",
    "src": "data/jours/2026-10-26.csv#L64"
   },
   "g.10770593871.note": {
    "v": 0.8787,
    "d": "87,9 %",
-   "l": "[UPD] Realistic Ragdoll Engine 🩸 : part de votes positifs",
+   "l": "Realistic Ragdoll Engine 🩸 : part de votes positifs",
    "src": "data/jours/2026-10-26.csv#L64"
   },
   "g.7633926880.nom": {
