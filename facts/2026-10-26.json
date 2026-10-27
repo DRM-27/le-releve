@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-26",
- "genere": "2026-10-27T20:40:29Z",
+ "genere": "2026-10-27T21:39:22Z",
  "couverture": {
   "releves": 12,
   "attendus": 24
@@ -1371,57 +1371,57 @@
    "src": "data/jours/2026-10-26.csv#L15"
   },
   "g.10771421858.nom": {
-   "v": "[NEW STAGES]  DONT SPLASH",
-   "d": "[NEW STAGES]  DONT SPLASH",
-   "l": "[NEW STAGES]  DONT SPLASH : nom",
+   "v": "DONT SPLASH",
+   "d": "DONT SPLASH",
+   "l": "DONT SPLASH : nom",
    "src": "data/jours/2026-10-26.csv#L16"
   },
   "g.10771421858.rang": {
    "v": 15,
    "d": "15e",
-   "l": "[NEW STAGES]  DONT SPLASH : rang au pic du jour",
+   "l": "DONT SPLASH : rang au pic du jour",
    "src": "data/jours/2026-10-26.csv#L16"
   },
   "g.10771421858.pic": {
    "v": 89994,
    "d": "89 994",
-   "l": "[NEW STAGES]  DONT SPLASH : pic de joueurs simultanés relevé",
+   "l": "DONT SPLASH : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-26.csv#L16"
   },
   "g.10771421858.heure_pic": {
    "v": "15:48",
    "d": "15 h 48",
-   "l": "[NEW STAGES]  DONT SPLASH : heure (Paris) du pic relevé",
+   "l": "DONT SPLASH : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-26.csv#L16"
   },
   "g.10771421858.moy": {
    "v": 76829,
    "d": "76 829",
-   "l": "[NEW STAGES]  DONT SPLASH : moyenne des joueurs simultanés sur la journée",
+   "l": "DONT SPLASH : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-26.csv#L16"
   },
   "g.10771421858.createur": {
    "v": "Bacon Theory",
    "d": "Bacon Theory",
-   "l": "[NEW STAGES]  DONT SPLASH : créateur",
+   "l": "DONT SPLASH : créateur",
    "src": "data/jours/2026-10-26.csv#L16"
   },
   "g.10771421858.genre": {
    "v": "Obby & Platformer",
    "d": "Obby et plateforme",
-   "l": "[NEW STAGES]  DONT SPLASH : genre",
+   "l": "DONT SPLASH : genre",
    "src": "data/jours/2026-10-26.csv#L16"
   },
   "g.10771421858.visites_total": {
    "v": 49276374,
    "d": "49,28 millions",
-   "l": "[NEW STAGES]  DONT SPLASH : visites cumulées depuis la création",
+   "l": "DONT SPLASH : visites cumulées depuis la création",
    "src": "data/jours/2026-10-26.csv#L16"
   },
   "g.10771421858.note": {
    "v": 0.8886,
    "d": "88,9 %",
-   "l": "[NEW STAGES]  DONT SPLASH : part de votes positifs",
+   "l": "DONT SPLASH : part de votes positifs",
    "src": "data/jours/2026-10-26.csv#L16"
   },
   "g.10708913337.nom": {
