@@ -3,7 +3,7 @@ on:
   push:
     branches: [sonde-sources]
 permissions:
-  contents: read
+  contents: write
 jobs:
   sonde:
     runs-on: ubuntu-latest
@@ -14,4 +14,10 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install duckdb==1.1.3 pandas
-      - run: python sonde/sonde.py
+      - run: python sonde/sonde.py > sonde/resultat.txt 2>&1 || true
+      - run: |
+          git config user.name "releve-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sonde/resultat.txt
+          git commit -m "Résultat de la sonde [skip ci]"
+          git push
