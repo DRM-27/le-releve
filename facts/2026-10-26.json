@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-26",
- "genere": "2026-10-27T00:50:22Z",
+ "genere": "2026-10-27T00:54:17Z",
  "couverture": {
   "releves": 12,
   "attendus": 24
@@ -29,7 +29,13 @@
   "releves.attendus": {
    "v": 24,
    "d": "24",
-   "l": "Relevés horaires attendus par jour",
+   "l": "Relevés horaires attendus ce jour-là (23 ou 25 les jours de changement d'heure)",
+   "src": "data/snapshots/2026/10"
+  },
+  "releves.manquants": {
+   "v": 12,
+   "d": "heures manquantes : 0 h, 1 h, 2 h, 3 h, 4 h, 5 h, 6 h, 7 h, 8 h, 13 h, 14 h, 16 h",
+   "l": "Heures (Paris) sans relevé ce jour-là",
    "src": "data/snapshots/2026/10"
   },
   "jeux.nb": {
