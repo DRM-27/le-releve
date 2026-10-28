@@ -1,34 +1,30 @@
 {
- "genere": "2026-10-28T14:57:37Z",
+ "genere": "2026-10-28T15:55:13Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/le-releve/",
-   "vues": 51
+   "vues": 47
   },
   {
    "path": "/le-releve/classement/",
-   "vues": 26
+   "vues": 23
   },
   {
    "path": "/le-releve/alertes/",
-   "vues": 15
-  },
-  {
-   "path": "/le-releve/comparer/",
-   "vues": 13
+   "vues": 14
   },
   {
    "path": "/le-releve/explorer/",
    "vues": 13
   },
   {
-   "path": "/le-releve/methode/",
-   "vues": 10
+   "path": "/le-releve/comparer/",
+   "vues": 11
   },
   {
-   "path": "/le-releve/tendances/",
-   "vues": 7
+   "path": "/le-releve/methode/",
+   "vues": 9
   },
   {
    "path": "/le-releve/brouillons/2026-10-22-steal-an-egg-quotidien/",
@@ -39,16 +35,24 @@
    "vues": 7
   },
   {
+   "path": "/le-releve/tendances/",
+   "vues": 7
+  },
+  {
    "path": "/le-releve/en/articles/2026-10-21-age-des-jeux/",
    "vues": 6
+  },
+  {
+   "path": "/le-releve/jeux/1-speed-keyboard-escape-candy-chocolate-9584852943/",
+   "vues": 4
   },
   {
    "path": "/le-releve/en/alertes/",
    "vues": 4
   },
   {
-   "path": "/le-releve/jeux/1-speed-keyboard-escape-candy-chocolate-9584852943/",
-   "vues": 4
+   "path": "/le-releve/articles/",
+   "vues": 3
   },
   {
    "path": "/le-releve/en/articles/2026-10-21-jeux-oeufs/",
@@ -59,27 +63,23 @@
    "vues": 3
   },
   {
-   "path": "/le-releve/articles/",
-   "vues": 3
+   "path": "/le-releve/monetisation/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/pt-br/explorer/",
+   "vues": 2
   },
   {
    "path": "/le-releve/donnees/",
    "vues": 2
   },
   {
+   "path": "/le-releve/es/explorer/",
+   "vues": 2
+  },
+  {
    "path": "/le-releve/articles/2026-10-21-jeux-oeufs/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/en/source/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/brouillons/2026-10-21-photographie-top100/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/en/comparer/",
    "vues": 2
   }
  ]
