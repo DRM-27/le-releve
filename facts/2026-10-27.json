@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-27",
- "genere": "2026-10-28T05:45:36Z",
+ "genere": "2026-10-28T06:55:25Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -4143,63 +4143,63 @@
    "src": "data/jours/2026-10-27.csv#L59"
   },
   "g.5995470825.nom": {
-   "v": "[🔥ZOMBIES] Hypershot",
-   "d": "[🔥ZOMBIES] Hypershot",
-   "l": "[🔥ZOMBIES] Hypershot : nom",
+   "v": "🔥Hypershot",
+   "d": "🔥Hypershot",
+   "l": "🔥Hypershot : nom",
    "src": "data/jours/2026-10-27.csv#L60"
   },
   "g.5995470825.rang": {
    "v": 59,
    "d": "59e",
-   "l": "[🔥ZOMBIES] Hypershot : rang au pic du jour",
+   "l": "🔥Hypershot : rang au pic du jour",
    "src": "data/jours/2026-10-27.csv#L60"
   },
   "g.5995470825.pic": {
    "v": 25662,
    "d": "25 662",
-   "l": "[🔥ZOMBIES] Hypershot : pic de joueurs simultanés relevé",
+   "l": "🔥Hypershot : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-27.csv#L60"
   },
   "g.5995470825.heure_pic": {
    "v": "16:48",
    "d": "16 h 48",
-   "l": "[🔥ZOMBIES] Hypershot : heure (Paris) du pic relevé",
+   "l": "🔥Hypershot : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-27.csv#L60"
   },
   "g.5995470825.moy": {
    "v": 21364,
    "d": "21 364",
-   "l": "[🔥ZOMBIES] Hypershot : moyenne des joueurs simultanés sur la journée",
+   "l": "🔥Hypershot : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-27.csv#L60"
   },
   "g.5995470825.createur": {
    "v": "Frosted Studio",
    "d": "Frosted Studio",
-   "l": "[🔥ZOMBIES] Hypershot : créateur",
+   "l": "🔥Hypershot : créateur",
    "src": "data/jours/2026-10-27.csv#L60"
   },
   "g.5995470825.genre": {
    "v": "Shooter",
    "d": "Tir",
-   "l": "[🔥ZOMBIES] Hypershot : genre",
+   "l": "🔥Hypershot : genre",
    "src": "data/jours/2026-10-27.csv#L60"
   },
   "g.5995470825.visites_24h": {
    "v": 2308479,
    "d": "2,31 millions",
-   "l": "[🔥ZOMBIES] Hypershot : visites gagnées en 24 h",
+   "l": "🔥Hypershot : visites gagnées en 24 h",
    "src": "data/jours/2026-10-27.csv#L60"
   },
   "g.5995470825.visites_total": {
    "v": 1390016982,
    "d": "1,39 milliard",
-   "l": "[🔥ZOMBIES] Hypershot : visites cumulées depuis la création",
+   "l": "🔥Hypershot : visites cumulées depuis la création",
    "src": "data/jours/2026-10-27.csv#L60"
   },
   "g.5995470825.note": {
    "v": 0.9441,
    "d": "94,4 %",
-   "l": "[🔥ZOMBIES] Hypershot : part de votes positifs",
+   "l": "🔥Hypershot : part de votes positifs",
    "src": "data/jours/2026-10-27.csv#L60"
   },
   "g.4949420752.nom": {
