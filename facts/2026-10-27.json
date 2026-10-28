@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-27",
- "genere": "2026-10-27T23:36:29Z",
+ "genere": "2026-10-28T01:00:16Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -315,8 +315,8 @@
    "src": "data/jours/2026-10-27.csv#L5"
   },
   "top.5.nom": {
-   "v": "[✏️2D TUESDAY] Adopt Me!",
-   "d": "[✏️2D TUESDAY] Adopt Me!",
+   "v": "[🎃] Adopt Me!",
+   "d": "[🎃] Adopt Me!",
    "l": "N° 5 du jour : nom",
    "src": "data/jours/2026-10-27.csv#L6"
   },
@@ -915,63 +915,63 @@
    "src": "data/jours/2026-10-27.csv#L5"
   },
   "g.383310974.nom": {
-   "v": "[✏️2D TUESDAY] Adopt Me!",
-   "d": "[✏️2D TUESDAY] Adopt Me!",
-   "l": "[✏️2D TUESDAY] Adopt Me! : nom",
+   "v": "[🎃] Adopt Me!",
+   "d": "[🎃] Adopt Me!",
+   "l": "[🎃] Adopt Me! : nom",
    "src": "data/jours/2026-10-27.csv#L6"
   },
   "g.383310974.rang": {
    "v": 5,
    "d": "5e",
-   "l": "[✏️2D TUESDAY] Adopt Me! : rang au pic du jour",
+   "l": "[🎃] Adopt Me! : rang au pic du jour",
    "src": "data/jours/2026-10-27.csv#L6"
   },
   "g.383310974.pic": {
    "v": 219143,
    "d": "219 143",
-   "l": "[✏️2D TUESDAY] Adopt Me! : pic de joueurs simultanés relevé",
+   "l": "[🎃] Adopt Me! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-27.csv#L6"
   },
   "g.383310974.heure_pic": {
    "v": "16:48",
    "d": "16 h 48",
-   "l": "[✏️2D TUESDAY] Adopt Me! : heure (Paris) du pic relevé",
+   "l": "[🎃] Adopt Me! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-27.csv#L6"
   },
   "g.383310974.moy": {
    "v": 189707,
    "d": "189 707",
-   "l": "[✏️2D TUESDAY] Adopt Me! : moyenne des joueurs simultanés sur la journée",
+   "l": "[🎃] Adopt Me! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-27.csv#L6"
   },
   "g.383310974.createur": {
    "v": "Uplift Games",
    "d": "Uplift Games",
-   "l": "[✏️2D TUESDAY] Adopt Me! : créateur",
+   "l": "[🎃] Adopt Me! : créateur",
    "src": "data/jours/2026-10-27.csv#L6"
   },
   "g.383310974.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "[✏️2D TUESDAY] Adopt Me! : genre",
+   "l": "[🎃] Adopt Me! : genre",
    "src": "data/jours/2026-10-27.csv#L6"
   },
   "g.383310974.visites_24h": {
    "v": 10231194,
    "d": "10,23 millions",
-   "l": "[✏️2D TUESDAY] Adopt Me! : visites gagnées en 24 h",
+   "l": "[🎃] Adopt Me! : visites gagnées en 24 h",
    "src": "data/jours/2026-10-27.csv#L6"
   },
   "g.383310974.visites_total": {
    "v": 45235593238,
    "d": "45,24 milliards",
-   "l": "[✏️2D TUESDAY] Adopt Me! : visites cumulées depuis la création",
+   "l": "[🎃] Adopt Me! : visites cumulées depuis la création",
    "src": "data/jours/2026-10-27.csv#L6"
   },
   "g.383310974.note": {
    "v": 0.8636,
    "d": "86,4 %",
-   "l": "[✏️2D TUESDAY] Adopt Me! : part de votes positifs",
+   "l": "[🎃] Adopt Me! : part de votes positifs",
    "src": "data/jours/2026-10-27.csv#L6"
   },
   "g.7326934954.nom": {
@@ -6805,7 +6805,7 @@
      "valeur": 375180
     },
     {
-     "nom": "[✏️2D TUESDAY] Adopt Me!",
+     "nom": "[🎃] Adopt Me!",
      "valeur": 219143
     },
     {
