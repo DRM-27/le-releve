@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-28T12:55:55Z",
+ "genere": "2026-10-28T14:01:46Z",
  "periode_jours": 7,
  "pages": [
   {
@@ -27,10 +27,6 @@
    "vues": 10
   },
   {
-   "path": "/le-releve/en/",
-   "vues": 7
-  },
-  {
    "path": "/le-releve/tendances/",
    "vues": 7
   },
@@ -39,16 +35,24 @@
    "vues": 7
   },
   {
+   "path": "/le-releve/en/",
+   "vues": 7
+  },
+  {
    "path": "/le-releve/en/articles/2026-10-21-age-des-jeux/",
    "vues": 6
+  },
+  {
+   "path": "/le-releve/en/alertes/",
+   "vues": 4
   },
   {
    "path": "/le-releve/jeux/1-speed-keyboard-escape-candy-chocolate-9584852943/",
    "vues": 4
   },
   {
-   "path": "/le-releve/en/alertes/",
-   "vues": 4
+   "path": "/le-releve/en/articles/2026-10-21-jeux-oeufs/",
+   "vues": 3
   },
   {
    "path": "/le-releve/articles/2026-10-21-age-des-jeux/",
@@ -59,19 +63,7 @@
    "vues": 3
   },
   {
-   "path": "/le-releve/en/articles/2026-10-21-jeux-oeufs/",
-   "vues": 3
-  },
-  {
-   "path": "/le-releve/en/source/",
-   "vues": 2
-  },
-  {
    "path": "/le-releve/donnees/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/monetisation/",
    "vues": 2
   },
   {
@@ -79,7 +71,15 @@
    "vues": 2
   },
   {
+   "path": "/le-releve/en/source/",
+   "vues": 2
+  },
+  {
    "path": "/le-releve/brouillons/2026-10-21-photographie-top100/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/en/comparer/",
    "vues": 2
   }
  ]
