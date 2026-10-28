@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-27",
- "genere": "2026-10-28T08:00:25Z",
+ "genere": "2026-10-28T08:54:22Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -5703,57 +5703,57 @@
    "src": "data/jours/2026-10-27.csv#L85"
   },
   "g.10772253152.nom": {
-   "v": "Durian Garden 🍈 [Tester]",
-   "d": "Durian Garden 🍈 [Tester]",
-   "l": "Durian Garden 🍈 [Tester] : nom",
+   "v": "Durian Garden 🍈",
+   "d": "Durian Garden 🍈",
+   "l": "Durian Garden 🍈 : nom",
    "src": "data/jours/2026-10-27.csv#L86"
   },
   "g.10772253152.rang": {
    "v": 85,
    "d": "85e",
-   "l": "Durian Garden 🍈 [Tester] : rang au pic du jour",
+   "l": "Durian Garden 🍈 : rang au pic du jour",
    "src": "data/jours/2026-10-27.csv#L86"
   },
   "g.10772253152.pic": {
    "v": 20052,
    "d": "20 052",
-   "l": "Durian Garden 🍈 [Tester] : pic de joueurs simultanés relevé",
+   "l": "Durian Garden 🍈 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-27.csv#L86"
   },
   "g.10772253152.heure_pic": {
    "v": "14:53",
    "d": "14 h 53",
-   "l": "Durian Garden 🍈 [Tester] : heure (Paris) du pic relevé",
+   "l": "Durian Garden 🍈 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-27.csv#L86"
   },
   "g.10772253152.moy": {
    "v": 9575,
    "d": "9 575",
-   "l": "Durian Garden 🍈 [Tester] : moyenne des joueurs simultanés sur la journée",
+   "l": "Durian Garden 🍈 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-27.csv#L86"
   },
   "g.10772253152.createur": {
    "v": "Mini Richy In Game Groups",
    "d": "Mini Richy In Game Groups",
-   "l": "Durian Garden 🍈 [Tester] : créateur",
+   "l": "Durian Garden 🍈 : créateur",
    "src": "data/jours/2026-10-27.csv#L86"
   },
   "g.10772253152.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "Durian Garden 🍈 [Tester] : genre",
+   "l": "Durian Garden 🍈 : genre",
    "src": "data/jours/2026-10-27.csv#L86"
   },
   "g.10772253152.visites_total": {
    "v": 2640289,
    "d": "2,64 millions",
-   "l": "Durian Garden 🍈 [Tester] : visites cumulées depuis la création",
+   "l": "Durian Garden 🍈 : visites cumulées depuis la création",
    "src": "data/jours/2026-10-27.csv#L86"
   },
   "g.10772253152.note": {
    "v": 0.9562,
    "d": "95,6 %",
-   "l": "Durian Garden 🍈 [Tester] : part de votes positifs",
+   "l": "Durian Garden 🍈 : part de votes positifs",
    "src": "data/jours/2026-10-27.csv#L86"
   },
   "g.5578556129.nom": {
