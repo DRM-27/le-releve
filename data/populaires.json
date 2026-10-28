@@ -1,10 +1,10 @@
 {
- "genere": "2026-10-28T18:50:37Z",
+ "genere": "2026-10-28T19:50:19Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/le-releve/",
-   "vues": 19
+   "vues": 17
   },
   {
    "path": "/le-releve/en/",
@@ -20,14 +20,10 @@
   },
   {
    "path": "/le-releve/classement/",
-   "vues": 6
+   "vues": 5
   },
   {
    "path": "/le-releve/en/alertes/",
-   "vues": 4
-  },
-  {
-   "path": "/le-releve/explorer/",
    "vues": 4
   },
   {
@@ -36,6 +32,10 @@
   },
   {
    "path": "/le-releve/alertes/",
+   "vues": 3
+  },
+  {
+   "path": "/le-releve/explorer/",
    "vues": 3
   },
   {
@@ -59,10 +59,6 @@
    "vues": 2
   },
   {
-   "path": "/le-releve/en/methode/",
-   "vues": 1
-  },
-  {
    "path": "/le-releve/en/confidentialite/",
    "vues": 1
   },
@@ -80,6 +76,10 @@
   },
   {
    "path": "/le-releve/en/jeux/hush-they-can-hear-beta-10767946926/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/en/jeux/upd-fish-it-6701277882/",
    "vues": 1
   }
  ]
