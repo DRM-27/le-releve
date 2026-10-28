@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-28T11:45:29Z",
+ "genere": "2026-10-28T12:55:55Z",
  "periode_jours": 7,
  "pages": [
   {
@@ -15,11 +15,11 @@
    "vues": 15
   },
   {
-   "path": "/le-releve/explorer/",
+   "path": "/le-releve/comparer/",
    "vues": 13
   },
   {
-   "path": "/le-releve/comparer/",
+   "path": "/le-releve/explorer/",
    "vues": 13
   },
   {
@@ -63,10 +63,6 @@
    "vues": 3
   },
   {
-   "path": "/le-releve/monetisation/",
-   "vues": 2
-  },
-  {
    "path": "/le-releve/en/source/",
    "vues": 2
   },
@@ -75,11 +71,15 @@
    "vues": 2
   },
   {
+   "path": "/le-releve/monetisation/",
+   "vues": 2
+  },
+  {
    "path": "/le-releve/articles/2026-10-21-jeux-oeufs/",
    "vues": 2
   },
   {
-   "path": "/le-releve/en/comparer/",
+   "path": "/le-releve/brouillons/2026-10-21-photographie-top100/",
    "vues": 2
   }
  ]
