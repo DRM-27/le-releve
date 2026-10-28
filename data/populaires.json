@@ -1,30 +1,22 @@
 {
- "genere": "2026-10-28T15:55:13Z",
+ "genere": "2026-10-28T16:54:18Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/le-releve/",
-   "vues": 47
+   "vues": 32
   },
   {
    "path": "/le-releve/classement/",
-   "vues": 23
-  },
-  {
-   "path": "/le-releve/alertes/",
-   "vues": 14
+   "vues": 18
   },
   {
    "path": "/le-releve/explorer/",
    "vues": 13
   },
   {
-   "path": "/le-releve/comparer/",
-   "vues": 11
-  },
-  {
-   "path": "/le-releve/methode/",
-   "vues": 9
+   "path": "/le-releve/alertes/",
+   "vues": 10
   },
   {
    "path": "/le-releve/brouillons/2026-10-22-steal-an-egg-quotidien/",
@@ -39,6 +31,10 @@
    "vues": 7
   },
   {
+   "path": "/le-releve/comparer/",
+   "vues": 6
+  },
+  {
    "path": "/le-releve/en/articles/2026-10-21-age-des-jeux/",
    "vues": 6
   },
@@ -51,8 +47,8 @@
    "vues": 4
   },
   {
-   "path": "/le-releve/articles/",
-   "vues": 3
+   "path": "/le-releve/methode/",
+   "vues": 4
   },
   {
    "path": "/le-releve/en/articles/2026-10-21-jeux-oeufs/",
@@ -63,7 +59,7 @@
    "vues": 3
   },
   {
-   "path": "/le-releve/monetisation/",
+   "path": "/le-releve/en/source/",
    "vues": 2
   },
   {
@@ -71,11 +67,15 @@
    "vues": 2
   },
   {
+   "path": "/le-releve/es/explorer/",
+   "vues": 2
+  },
+  {
    "path": "/le-releve/donnees/",
    "vues": 2
   },
   {
-   "path": "/le-releve/es/explorer/",
+   "path": "/le-releve/monetisation/",
    "vues": 2
   },
   {
