@@ -1,14 +1,14 @@
 {
- "genere": "2026-10-28T16:54:18Z",
+ "genere": "2026-10-28T17:49:22Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/le-releve/",
-   "vues": 32
+   "vues": 26
   },
   {
    "path": "/le-releve/classement/",
-   "vues": 18
+   "vues": 15
   },
   {
    "path": "/le-releve/explorer/",
@@ -16,7 +16,7 @@
   },
   {
    "path": "/le-releve/alertes/",
-   "vues": 10
+   "vues": 8
   },
   {
    "path": "/le-releve/brouillons/2026-10-22-steal-an-egg-quotidien/",
@@ -31,10 +31,6 @@
    "vues": 7
   },
   {
-   "path": "/le-releve/comparer/",
-   "vues": 6
-  },
-  {
    "path": "/le-releve/en/articles/2026-10-21-age-des-jeux/",
    "vues": 6
   },
@@ -47,7 +43,7 @@
    "vues": 4
   },
   {
-   "path": "/le-releve/methode/",
+   "path": "/le-releve/comparer/",
    "vues": 4
   },
   {
@@ -63,11 +59,7 @@
    "vues": 2
   },
   {
-   "path": "/le-releve/pt-br/explorer/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/es/explorer/",
+   "path": "/le-releve/en/comparer/",
    "vues": 2
   },
   {
@@ -79,7 +71,15 @@
    "vues": 2
   },
   {
-   "path": "/le-releve/articles/2026-10-21-jeux-oeufs/",
+   "path": "/le-releve/es/explorer/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/mises-a-jour/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/pt-br/explorer/",
    "vues": 2
   }
  ]
