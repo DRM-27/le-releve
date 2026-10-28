@@ -1,33 +1,17 @@
 {
- "genere": "2026-10-28T17:49:22Z",
+ "genere": "2026-10-28T18:50:37Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/le-releve/",
-   "vues": 26
-  },
-  {
-   "path": "/le-releve/classement/",
-   "vues": 15
-  },
-  {
-   "path": "/le-releve/explorer/",
-   "vues": 13
-  },
-  {
-   "path": "/le-releve/alertes/",
-   "vues": 8
-  },
-  {
-   "path": "/le-releve/brouillons/2026-10-22-steal-an-egg-quotidien/",
-   "vues": 7
+   "vues": 19
   },
   {
    "path": "/le-releve/en/",
    "vues": 7
   },
   {
-   "path": "/le-releve/tendances/",
+   "path": "/le-releve/brouillons/2026-10-22-steal-an-egg-quotidien/",
    "vues": 7
   },
   {
@@ -35,15 +19,15 @@
    "vues": 6
   },
   {
-   "path": "/le-releve/jeux/1-speed-keyboard-escape-candy-chocolate-9584852943/",
-   "vues": 4
+   "path": "/le-releve/classement/",
+   "vues": 6
   },
   {
    "path": "/le-releve/en/alertes/",
    "vues": 4
   },
   {
-   "path": "/le-releve/comparer/",
+   "path": "/le-releve/explorer/",
    "vues": 4
   },
   {
@@ -51,23 +35,11 @@
    "vues": 3
   },
   {
-   "path": "/le-releve/articles/2026-10-21-age-des-jeux/",
+   "path": "/le-releve/alertes/",
    "vues": 3
   },
   {
-   "path": "/le-releve/en/source/",
-   "vues": 2
-  },
-  {
    "path": "/le-releve/en/comparer/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/donnees/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/monetisation/",
    "vues": 2
   },
   {
@@ -75,12 +47,40 @@
    "vues": 2
   },
   {
-   "path": "/le-releve/mises-a-jour/",
+   "path": "/le-releve/pt-br/explorer/",
    "vues": 2
   },
   {
-   "path": "/le-releve/pt-br/explorer/",
+   "path": "/le-releve/articles/2026-10-21-age-des-jeux/",
    "vues": 2
+  },
+  {
+   "path": "/le-releve/en/source/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/en/methode/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/en/confidentialite/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/en/explorer/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/pt-br/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/en/classement/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/en/jeux/hush-they-can-hear-beta-10767946926/",
+   "vues": 1
   }
  ]
 }
