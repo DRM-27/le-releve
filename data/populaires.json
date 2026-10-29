@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-29T01:58:13Z",
+ "genere": "2026-10-29T02:51:19Z",
  "periode_jours": 7,
  "pages": [
   {
@@ -11,16 +11,8 @@
    "vues": 7
   },
   {
-   "path": "/le-releve/en/",
-   "vues": 6
-  },
-  {
    "path": "/le-releve/classement/",
    "vues": 5
-  },
-  {
-   "path": "/le-releve/en/articles/2026-10-21-age-des-jeux/",
-   "vues": 4
   },
   {
    "path": "/le-releve/explorer/",
@@ -35,35 +27,43 @@
    "vues": 2
   },
   {
+   "path": "/le-releve/en/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/articles/2026-10-21-records-2025/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/articles/2026-10-21-photographie-top100/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/alertes/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/jeux/murder-mystery-2-66654135/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/en/articles/2026-10-21-age-des-jeux/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/articles/2026-10-21-age-des-jeux/",
+   "vues": 1
+  },
+  {
    "path": "/le-releve/en/source/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/en/articles/2026-10-21-jeux-oeufs/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/en/jeux/upd-fish-it-6701277882/",
    "vues": 1
   },
   {
-   "path": "/le-releve/brouillons/2026-10-27-steal-an-egg-quotidien/",
+   "path": "/le-releve/jeux/99-nights-in-the-forest-7326934954/",
    "vues": 1
   },
   {
-   "path": "/le-releve/articles/2026-10-21-jeux-oeufs/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/en/jeux/hush-they-can-hear-beta-10767946926/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/en/explorer/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/en/alertes/",
+   "path": "/le-releve/jeux/berry-avenue-rp-3240075297/",
    "vues": 1
   },
   {
@@ -71,15 +71,15 @@
    "vues": 1
   },
   {
-   "path": "/le-releve/en/confidentialite/",
+   "path": "/le-releve/en/explorer/",
    "vues": 1
   },
   {
-   "path": "/le-releve/en/jeux/climb-for-animals-eggs-10765490774/",
+   "path": "/le-releve/articles/2026-10-21-jeux-oeufs/",
    "vues": 1
   },
   {
-   "path": "/le-releve/alertes/",
+   "path": "/le-releve/brouillons/2026-10-27-steal-an-egg-quotidien/",
    "vues": 1
   }
  ]

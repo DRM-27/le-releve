@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-28",
- "genere": "2026-10-29T01:58:14Z",
+ "genere": "2026-10-29T02:51:20Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -6153,81 +6153,81 @@
    "src": "data/jours/2026-10-28.csv#L69"
   },
   "g.2936053166.nom": {
-   "v": "[🦑] Squid Game X",
-   "d": "[🦑] Squid Game X",
-   "l": "[🦑] Squid Game X : nom",
+   "v": "[🎃] Squid Game X",
+   "d": "[🎃] Squid Game X",
+   "l": "[🎃] Squid Game X : nom",
    "src": "data/jours/2026-10-28.csv#L70"
   },
   "g.2936053166.rang": {
    "v": 69,
    "d": "69e",
-   "l": "[🦑] Squid Game X : rang au pic du jour",
+   "l": "[🎃] Squid Game X : rang au pic du jour",
    "src": "data/jours/2026-10-28.csv#L70"
   },
   "g.2936053166.pic": {
    "v": 22206,
    "d": "22 206",
-   "l": "[🦑] Squid Game X : pic de joueurs simultanés relevé",
+   "l": "[🎃] Squid Game X : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-28.csv#L70"
   },
   "g.2936053166.heure_pic": {
    "v": "17:54",
    "d": "17 h 54",
-   "l": "[🦑] Squid Game X : heure (Paris) du pic relevé",
+   "l": "[🎃] Squid Game X : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-28.csv#L70"
   },
   "g.2936053166.moy": {
    "v": 17525,
    "d": "17 525",
-   "l": "[🦑] Squid Game X : moyenne des joueurs simultanés sur la journée",
+   "l": "[🎃] Squid Game X : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-28.csv#L70"
   },
   "g.2936053166.createur": {
    "v": "redifi",
    "d": "redifi",
-   "l": "[🦑] Squid Game X : créateur",
+   "l": "[🎃] Squid Game X : créateur",
    "src": "data/jours/2026-10-28.csv#L70"
   },
   "g.2936053166.genre": {
    "v": "Party & Casual",
    "d": "Party games",
-   "l": "[🦑] Squid Game X : genre",
+   "l": "[🎃] Squid Game X : genre",
    "src": "data/jours/2026-10-28.csv#L70"
   },
   "g.2936053166.var_veille": {
    "v": 0.0241,
    "d": "+2,4 %",
-   "l": "[🦑] Squid Game X : variation de la moyenne par rapport à la veille",
+   "l": "[🎃] Squid Game X : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-28.csv#L70"
   },
   "g.2936053166.moy_veille": {
    "v": 17113,
    "d": "17 113",
-   "l": "[🦑] Squid Game X : moyenne de la veille",
+   "l": "[🎃] Squid Game X : moyenne de la veille",
    "src": "data/jours/2026-10-28.csv#L70"
   },
   "g.2936053166.visites_24h": {
    "v": 2887610,
    "d": "2,89 millions",
-   "l": "[🦑] Squid Game X : visites gagnées en 24 h",
+   "l": "[🎃] Squid Game X : visites gagnées en 24 h",
    "src": "data/jours/2026-10-28.csv#L70"
   },
   "g.2936053166.visites_total": {
    "v": 2331369335,
    "d": "2,33 milliards",
-   "l": "[🦑] Squid Game X : visites cumulées depuis la création",
+   "l": "[🎃] Squid Game X : visites cumulées depuis la création",
    "src": "data/jours/2026-10-28.csv#L70"
   },
   "g.2936053166.note": {
    "v": 0.9373,
    "d": "93,7 %",
-   "l": "[🦑] Squid Game X : part de votes positifs",
+   "l": "[🎃] Squid Game X : part de votes positifs",
    "src": "data/jours/2026-10-28.csv#L70"
   },
   "g.2936053166.rang_veille": {
    "v": 75,
    "d": "75e",
-   "l": "[🦑] Squid Game X : rang la veille",
+   "l": "[🎃] Squid Game X : rang la veille",
    "src": "data/jours/2026-10-28.csv#L70"
   },
   "g.10673920146.nom": {
