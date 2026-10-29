@@ -1,10 +1,10 @@
 {
- "genere": "2026-10-29T14:05:08Z",
+ "genere": "2026-10-29T15:00:03Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/le-releve/",
-   "vues": 14
+   "vues": 11
   },
   {
    "path": "/le-releve/brouillons/2026-10-22-steal-an-egg-quotidien/",
@@ -12,7 +12,7 @@
   },
   {
    "path": "/le-releve/classement/",
-   "vues": 5
+   "vues": 4
   },
   {
    "path": "/le-releve/explorer/",
@@ -48,10 +48,6 @@
   },
   {
    "path": "/le-releve/jeux/99-nights-in-the-forest-7326934954/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/jeux/berry-avenue-rp-3240075297/",
    "vues": 1
   },
   {
