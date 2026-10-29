@@ -1,17 +1,17 @@
 {
- "genere": "2026-10-28T23:40:11Z",
+ "genere": "2026-10-29T00:59:55Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/le-releve/",
-   "vues": 17
-  },
-  {
-   "path": "/le-releve/en/",
-   "vues": 7
+   "vues": 16
   },
   {
    "path": "/le-releve/brouillons/2026-10-22-steal-an-egg-quotidien/",
+   "vues": 7
+  },
+  {
+   "path": "/le-releve/en/",
    "vues": 7
   },
   {
@@ -31,15 +31,15 @@
    "vues": 3
   },
   {
-   "path": "/le-releve/alertes/",
-   "vues": 3
-  },
-  {
    "path": "/le-releve/explorer/",
    "vues": 3
   },
   {
-   "path": "/le-releve/en/comparer/",
+   "path": "/le-releve/pt-br/explorer/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/alertes/",
    "vues": 2
   },
   {
@@ -47,11 +47,7 @@
    "vues": 2
   },
   {
-   "path": "/le-releve/pt-br/explorer/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/articles/2026-10-21-age-des-jeux/",
+   "path": "/le-releve/en/comparer/",
    "vues": 2
   },
   {
@@ -63,7 +59,15 @@
    "vues": 1
   },
   {
+   "path": "/le-releve/brouillons/2026-10-27-steal-an-egg-quotidien/",
+   "vues": 1
+  },
+  {
    "path": "/le-releve/en/explorer/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/en/jeux/hush-they-can-hear-beta-10767946926/",
    "vues": 1
   },
   {
@@ -75,11 +79,7 @@
    "vues": 1
   },
   {
-   "path": "/le-releve/en/jeux/hush-they-can-hear-beta-10767946926/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/en/jeux/upd-fish-it-6701277882/",
+   "path": "/le-releve/articles/2026-10-21-jeux-oeufs/",
    "vues": 1
   }
  ]

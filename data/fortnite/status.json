@@ -1,13 +1,16 @@
 {
- "dailyAt": "2026-10-28T00:57Z",
- "lastRunAt": "2026-10-28T23:40Z",
+ "dailyAt": "2026-10-29T00:56Z",
+ "lastRunAt": "2026-10-29T00:56Z",
  "dernier": {
   "ecosysteme_nouvelles_heures": 1,
   "genres": 13,
   "classements_ecrits": 1,
-  "nouvelles_iles": 0
+  "nouvelles_iles": 8,
+  "jours_ecrits": 1
  },
- "erreurs": [],
- "nbErreurs": 0,
- "ilesSuivies": 2366
+ "erreurs": [
+  "429 /islands/8144-9733-4847/metrics/hour/peak-ccu"
+ ],
+ "nbErreurs": 1,
+ "ilesSuivies": 2374
 }
