@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-28",
- "genere": "2026-10-29T00:59:56Z",
+ "genere": "2026-10-29T01:58:14Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -4599,81 +4599,81 @@
    "src": "data/jours/2026-10-28.csv#L49"
   },
   "g.10770593871.nom": {
-   "v": "Realistic Ragdoll Engine 🩸",
-   "d": "Realistic Ragdoll Engine 🩸",
-   "l": "Realistic Ragdoll Engine 🩸 : nom",
+   "v": "[🎃] Realistic Ragdoll Engine 🩸",
+   "d": "[🎃] Realistic Ragdoll Engine 🩸",
+   "l": "[🎃] Realistic Ragdoll Engine 🩸 : nom",
    "src": "data/jours/2026-10-28.csv#L50"
   },
   "g.10770593871.rang": {
    "v": 49,
    "d": "49e",
-   "l": "Realistic Ragdoll Engine 🩸 : rang au pic du jour",
+   "l": "[🎃] Realistic Ragdoll Engine 🩸 : rang au pic du jour",
    "src": "data/jours/2026-10-28.csv#L50"
   },
   "g.10770593871.pic": {
    "v": 35287,
    "d": "35 287",
-   "l": "Realistic Ragdoll Engine 🩸 : pic de joueurs simultanés relevé",
+   "l": "[🎃] Realistic Ragdoll Engine 🩸 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-28.csv#L50"
   },
   "g.10770593871.heure_pic": {
    "v": "00:36",
    "d": "0 h 36",
-   "l": "Realistic Ragdoll Engine 🩸 : heure (Paris) du pic relevé",
+   "l": "[🎃] Realistic Ragdoll Engine 🩸 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-28.csv#L50"
   },
   "g.10770593871.moy": {
    "v": 23594,
    "d": "23 594",
-   "l": "Realistic Ragdoll Engine 🩸 : moyenne des joueurs simultanés sur la journée",
+   "l": "[🎃] Realistic Ragdoll Engine 🩸 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-28.csv#L50"
   },
   "g.10770593871.createur": {
    "v": "No Knees!",
    "d": "No Knees!",
-   "l": "Realistic Ragdoll Engine 🩸 : créateur",
+   "l": "[🎃] Realistic Ragdoll Engine 🩸 : créateur",
    "src": "data/jours/2026-10-28.csv#L50"
   },
   "g.10770593871.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "Realistic Ragdoll Engine 🩸 : genre",
+   "l": "[🎃] Realistic Ragdoll Engine 🩸 : genre",
    "src": "data/jours/2026-10-28.csv#L50"
   },
   "g.10770593871.var_veille": {
    "v": 0.1532,
    "d": "+15,3 %",
-   "l": "Realistic Ragdoll Engine 🩸 : variation de la moyenne par rapport à la veille",
+   "l": "[🎃] Realistic Ragdoll Engine 🩸 : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-28.csv#L50"
   },
   "g.10770593871.moy_veille": {
    "v": 20460,
    "d": "20 460",
-   "l": "Realistic Ragdoll Engine 🩸 : moyenne de la veille",
+   "l": "[🎃] Realistic Ragdoll Engine 🩸 : moyenne de la veille",
    "src": "data/jours/2026-10-28.csv#L50"
   },
   "g.10770593871.visites_24h": {
    "v": 2503039,
    "d": "2,5 millions",
-   "l": "Realistic Ragdoll Engine 🩸 : visites gagnées en 24 h",
+   "l": "[🎃] Realistic Ragdoll Engine 🩸 : visites gagnées en 24 h",
    "src": "data/jours/2026-10-28.csv#L50"
   },
   "g.10770593871.visites_total": {
    "v": 9137481,
    "d": "9,14 millions",
-   "l": "Realistic Ragdoll Engine 🩸 : visites cumulées depuis la création",
+   "l": "[🎃] Realistic Ragdoll Engine 🩸 : visites cumulées depuis la création",
    "src": "data/jours/2026-10-28.csv#L50"
   },
   "g.10770593871.note": {
    "v": 0.8717,
    "d": "87,2 %",
-   "l": "Realistic Ragdoll Engine 🩸 : part de votes positifs",
+   "l": "[🎃] Realistic Ragdoll Engine 🩸 : part de votes positifs",
    "src": "data/jours/2026-10-28.csv#L50"
   },
   "g.10770593871.rang_veille": {
    "v": 45,
    "d": "45e",
-   "l": "Realistic Ragdoll Engine 🩸 : rang la veille",
+   "l": "[🎃] Realistic Ragdoll Engine 🩸 : rang la veille",
    "src": "data/jours/2026-10-28.csv#L50"
   },
   "g.10766620257.nom": {

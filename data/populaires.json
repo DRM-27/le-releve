@@ -1,10 +1,10 @@
 {
- "genere": "2026-10-29T00:59:55Z",
+ "genere": "2026-10-29T01:58:13Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/le-releve/",
-   "vues": 16
+   "vues": 14
   },
   {
    "path": "/le-releve/brouillons/2026-10-22-steal-an-egg-quotidien/",
@@ -12,10 +12,6 @@
   },
   {
    "path": "/le-releve/en/",
-   "vues": 7
-  },
-  {
-   "path": "/le-releve/en/articles/2026-10-21-age-des-jeux/",
    "vues": 6
   },
   {
@@ -23,31 +19,19 @@
    "vues": 5
   },
   {
-   "path": "/le-releve/en/alertes/",
+   "path": "/le-releve/en/articles/2026-10-21-age-des-jeux/",
    "vues": 4
-  },
-  {
-   "path": "/le-releve/en/articles/2026-10-21-jeux-oeufs/",
-   "vues": 3
   },
   {
    "path": "/le-releve/explorer/",
    "vues": 3
   },
   {
-   "path": "/le-releve/pt-br/explorer/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/alertes/",
-   "vues": 2
-  },
-  {
    "path": "/le-releve/es/explorer/",
    "vues": 2
   },
   {
-   "path": "/le-releve/en/comparer/",
+   "path": "/le-releve/pt-br/explorer/",
    "vues": 2
   },
   {
@@ -55,7 +39,11 @@
    "vues": 2
   },
   {
-   "path": "/le-releve/en/confidentialite/",
+   "path": "/le-releve/en/articles/2026-10-21-jeux-oeufs/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/en/jeux/upd-fish-it-6701277882/",
    "vues": 1
   },
   {
@@ -63,7 +51,7 @@
    "vues": 1
   },
   {
-   "path": "/le-releve/en/explorer/",
+   "path": "/le-releve/articles/2026-10-21-jeux-oeufs/",
    "vues": 1
   },
   {
@@ -71,15 +59,27 @@
    "vues": 1
   },
   {
-   "path": "/le-releve/pt-br/",
+   "path": "/le-releve/en/explorer/",
    "vues": 1
   },
   {
-   "path": "/le-releve/en/classement/",
+   "path": "/le-releve/en/alertes/",
    "vues": 1
   },
   {
-   "path": "/le-releve/articles/2026-10-21-jeux-oeufs/",
+   "path": "/le-releve/source/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/en/confidentialite/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/en/jeux/climb-for-animals-eggs-10765490774/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/alertes/",
    "vues": 1
   }
  ]
