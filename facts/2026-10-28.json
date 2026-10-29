@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-28",
- "genere": "2026-10-29T16:56:50Z",
+ "genere": "2026-10-29T17:52:08Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -5841,159 +5841,159 @@
    "src": "data/jours/2026-10-28.csv#L65"
   },
   "g.1202096104.nom": {
-   "v": "Driving Empire [🎃SPOOKFEST EVENT🎃]",
-   "d": "Driving Empire [🎃SPOOKFEST EVENT🎃]",
-   "l": "Driving Empire [🎃SPOOKFEST EVENT🎃] : nom",
+   "v": "Driving Empire [🎃HALLOWEEN EVENT🎃]",
+   "d": "Driving Empire [🎃HALLOWEEN EVENT🎃]",
+   "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : nom",
    "src": "data/jours/2026-10-28.csv#L66"
   },
   "g.1202096104.rang": {
    "v": 65,
    "d": "65e",
-   "l": "Driving Empire [🎃SPOOKFEST EVENT🎃] : rang au pic du jour",
+   "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : rang au pic du jour",
    "src": "data/jours/2026-10-28.csv#L66"
   },
   "g.1202096104.pic": {
    "v": 23597,
    "d": "23 597",
-   "l": "Driving Empire [🎃SPOOKFEST EVENT🎃] : pic de joueurs simultanés relevé",
+   "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-28.csv#L66"
   },
   "g.1202096104.heure_pic": {
    "v": "13:55",
    "d": "13 h 55",
-   "l": "Driving Empire [🎃SPOOKFEST EVENT🎃] : heure (Paris) du pic relevé",
+   "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-28.csv#L66"
   },
   "g.1202096104.moy": {
    "v": 19569,
    "d": "19 569",
-   "l": "Driving Empire [🎃SPOOKFEST EVENT🎃] : moyenne des joueurs simultanés sur la journée",
+   "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-28.csv#L66"
   },
   "g.1202096104.createur": {
    "v": "Driving Empire by Voldex",
    "d": "Driving Empire by Voldex",
-   "l": "Driving Empire [🎃SPOOKFEST EVENT🎃] : créateur",
+   "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : créateur",
    "src": "data/jours/2026-10-28.csv#L66"
   },
   "g.1202096104.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "Driving Empire [🎃SPOOKFEST EVENT🎃] : genre",
+   "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : genre",
    "src": "data/jours/2026-10-28.csv#L66"
   },
   "g.1202096104.var_veille": {
    "v": -0.0314,
    "d": "−3,1 %",
-   "l": "Driving Empire [🎃SPOOKFEST EVENT🎃] : variation de la moyenne par rapport à la veille",
+   "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-28.csv#L66"
   },
   "g.1202096104.moy_veille": {
    "v": 20204,
    "d": "20 204",
-   "l": "Driving Empire [🎃SPOOKFEST EVENT🎃] : moyenne de la veille",
+   "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : moyenne de la veille",
    "src": "data/jours/2026-10-28.csv#L66"
   },
   "g.1202096104.visites_24h": {
    "v": 1951570,
    "d": "1,95 million",
-   "l": "Driving Empire [🎃SPOOKFEST EVENT🎃] : visites gagnées en 24 h",
+   "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : visites gagnées en 24 h",
    "src": "data/jours/2026-10-28.csv#L66"
   },
   "g.1202096104.visites_total": {
    "v": 3394307251,
    "d": "3,39 milliards",
-   "l": "Driving Empire [🎃SPOOKFEST EVENT🎃] : visites cumulées depuis la création",
+   "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : visites cumulées depuis la création",
    "src": "data/jours/2026-10-28.csv#L66"
   },
   "g.1202096104.note": {
    "v": 0.9299,
    "d": "93,0 %",
-   "l": "Driving Empire [🎃SPOOKFEST EVENT🎃] : part de votes positifs",
+   "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : part de votes positifs",
    "src": "data/jours/2026-10-28.csv#L66"
   },
   "g.1202096104.rang_veille": {
    "v": 63,
    "d": "63e",
-   "l": "Driving Empire [🎃SPOOKFEST EVENT🎃] : rang la veille",
+   "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : rang la veille",
    "src": "data/jours/2026-10-28.csv#L66"
   },
   "g.10685282333.nom": {
-   "v": "[RANKED] Ball VS Ball",
-   "d": "[RANKED] Ball VS Ball",
-   "l": "[RANKED] Ball VS Ball : nom",
+   "v": "Ball VS Ball [RANKED]",
+   "d": "Ball VS Ball [RANKED]",
+   "l": "Ball VS Ball [RANKED] : nom",
    "src": "data/jours/2026-10-28.csv#L67"
   },
   "g.10685282333.rang": {
    "v": 66,
    "d": "66e",
-   "l": "[RANKED] Ball VS Ball : rang au pic du jour",
+   "l": "Ball VS Ball [RANKED] : rang au pic du jour",
    "src": "data/jours/2026-10-28.csv#L67"
   },
   "g.10685282333.pic": {
    "v": 22590,
    "d": "22 590",
-   "l": "[RANKED] Ball VS Ball : pic de joueurs simultanés relevé",
+   "l": "Ball VS Ball [RANKED] : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-28.csv#L67"
   },
   "g.10685282333.heure_pic": {
    "v": "13:55",
    "d": "13 h 55",
-   "l": "[RANKED] Ball VS Ball : heure (Paris) du pic relevé",
+   "l": "Ball VS Ball [RANKED] : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-28.csv#L67"
   },
   "g.10685282333.moy": {
    "v": 15240,
    "d": "15 240",
-   "l": "[RANKED] Ball VS Ball : moyenne des joueurs simultanés sur la journée",
+   "l": "Ball VS Ball [RANKED] : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-28.csv#L67"
   },
   "g.10685282333.createur": {
    "v": "ATYS 3",
    "d": "ATYS 3",
-   "l": "[RANKED] Ball VS Ball : créateur",
+   "l": "Ball VS Ball [RANKED] : créateur",
    "src": "data/jours/2026-10-28.csv#L67"
   },
   "g.10685282333.genre": {
    "v": "Party & Casual",
    "d": "Party games",
-   "l": "[RANKED] Ball VS Ball : genre",
+   "l": "Ball VS Ball [RANKED] : genre",
    "src": "data/jours/2026-10-28.csv#L67"
   },
   "g.10685282333.var_veille": {
    "v": -0.0913,
    "d": "−9,1 %",
-   "l": "[RANKED] Ball VS Ball : variation de la moyenne par rapport à la veille",
+   "l": "Ball VS Ball [RANKED] : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-28.csv#L67"
   },
   "g.10685282333.moy_veille": {
    "v": 16771,
    "d": "16 771",
-   "l": "[RANKED] Ball VS Ball : moyenne de la veille",
+   "l": "Ball VS Ball [RANKED] : moyenne de la veille",
    "src": "data/jours/2026-10-28.csv#L67"
   },
   "g.10685282333.visites_24h": {
    "v": 2158446,
    "d": "2,16 millions",
-   "l": "[RANKED] Ball VS Ball : visites gagnées en 24 h",
+   "l": "Ball VS Ball [RANKED] : visites gagnées en 24 h",
    "src": "data/jours/2026-10-28.csv#L67"
   },
   "g.10685282333.visites_total": {
    "v": 170168372,
    "d": "170,17 millions",
-   "l": "[RANKED] Ball VS Ball : visites cumulées depuis la création",
+   "l": "Ball VS Ball [RANKED] : visites cumulées depuis la création",
    "src": "data/jours/2026-10-28.csv#L67"
   },
   "g.10685282333.note": {
    "v": 0.8875,
    "d": "88,8 %",
-   "l": "[RANKED] Ball VS Ball : part de votes positifs",
+   "l": "Ball VS Ball [RANKED] : part de votes positifs",
    "src": "data/jours/2026-10-28.csv#L67"
   },
   "g.10685282333.rang_veille": {
    "v": 65,
    "d": "65e",
-   "l": "[RANKED] Ball VS Ball : rang la veille",
+   "l": "Ball VS Ball [RANKED] : rang la veille",
    "src": "data/jours/2026-10-28.csv#L67"
   },
   "g.10768172922.nom": {
