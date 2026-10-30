@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-29",
- "genere": "2026-10-30T08:57:21Z",
+ "genere": "2026-10-30T09:54:17Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -465,8 +465,8 @@
    "src": "data/jours/2026-10-29.csv#L6"
   },
   "top.6.nom": {
-   "v": "[8H⏳] Adopt Me!",
-   "d": "[8H⏳] Adopt Me!",
+   "v": "[6H⏳] Adopt Me!",
+   "d": "[6H⏳] Adopt Me!",
    "l": "N° 6 du jour : nom",
    "src": "data/jours/2026-10-29.csv#L7"
   },
@@ -1239,81 +1239,81 @@
    "src": "data/jours/2026-10-29.csv#L6"
   },
   "g.383310974.nom": {
-   "v": "[8H⏳] Adopt Me!",
-   "d": "[8H⏳] Adopt Me!",
-   "l": "[8H⏳] Adopt Me! : nom",
+   "v": "[6H⏳] Adopt Me!",
+   "d": "[6H⏳] Adopt Me!",
+   "l": "[6H⏳] Adopt Me! : nom",
    "src": "data/jours/2026-10-29.csv#L7"
   },
   "g.383310974.rang": {
    "v": 6,
    "d": "6e",
-   "l": "[8H⏳] Adopt Me! : rang au pic du jour",
+   "l": "[6H⏳] Adopt Me! : rang au pic du jour",
    "src": "data/jours/2026-10-29.csv#L7"
   },
   "g.383310974.pic": {
    "v": 226538,
    "d": "226 538",
-   "l": "[8H⏳] Adopt Me! : pic de joueurs simultanés relevé",
+   "l": "[6H⏳] Adopt Me! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-29.csv#L7"
   },
   "g.383310974.heure_pic": {
    "v": "23:44",
    "d": "23 h 44",
-   "l": "[8H⏳] Adopt Me! : heure (Paris) du pic relevé",
+   "l": "[6H⏳] Adopt Me! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-29.csv#L7"
   },
   "g.383310974.moy": {
    "v": 193942,
    "d": "193 942",
-   "l": "[8H⏳] Adopt Me! : moyenne des joueurs simultanés sur la journée",
+   "l": "[6H⏳] Adopt Me! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-29.csv#L7"
   },
   "g.383310974.createur": {
    "v": "Uplift Games",
    "d": "Uplift Games",
-   "l": "[8H⏳] Adopt Me! : créateur",
+   "l": "[6H⏳] Adopt Me! : créateur",
    "src": "data/jours/2026-10-29.csv#L7"
   },
   "g.383310974.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "[8H⏳] Adopt Me! : genre",
+   "l": "[6H⏳] Adopt Me! : genre",
    "src": "data/jours/2026-10-29.csv#L7"
   },
   "g.383310974.var_veille": {
    "v": -0.0382,
    "d": "−3,8 %",
-   "l": "[8H⏳] Adopt Me! : variation de la moyenne par rapport à la veille",
+   "l": "[6H⏳] Adopt Me! : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-29.csv#L7"
   },
   "g.383310974.moy_veille": {
    "v": 201634,
    "d": "201 634",
-   "l": "[8H⏳] Adopt Me! : moyenne de la veille",
+   "l": "[6H⏳] Adopt Me! : moyenne de la veille",
    "src": "data/jours/2026-10-29.csv#L7"
   },
   "g.383310974.visites_24h": {
    "v": 9990512,
    "d": "9,99 millions",
-   "l": "[8H⏳] Adopt Me! : visites gagnées en 24 h",
+   "l": "[6H⏳] Adopt Me! : visites gagnées en 24 h",
    "src": "data/jours/2026-10-29.csv#L7"
   },
   "g.383310974.visites_total": {
    "v": 45255673292,
    "d": "45,26 milliards",
-   "l": "[8H⏳] Adopt Me! : visites cumulées depuis la création",
+   "l": "[6H⏳] Adopt Me! : visites cumulées depuis la création",
    "src": "data/jours/2026-10-29.csv#L7"
   },
   "g.383310974.note": {
    "v": 0.8637,
    "d": "86,4 %",
-   "l": "[8H⏳] Adopt Me! : part de votes positifs",
+   "l": "[6H⏳] Adopt Me! : part de votes positifs",
    "src": "data/jours/2026-10-29.csv#L7"
   },
   "g.383310974.rang_veille": {
    "v": 5,
    "d": "5e",
-   "l": "[8H⏳] Adopt Me! : rang la veille",
+   "l": "[6H⏳] Adopt Me! : rang la veille",
    "src": "data/jours/2026-10-29.csv#L7"
   },
   "g.10770728771.nom": {
@@ -8229,81 +8229,81 @@
    "src": "data/jours/2026-10-29.csv#L96"
   },
   "g.10765618402.nom": {
-   "v": "Steel Fighters",
-   "d": "Steel Fighters",
-   "l": "Steel Fighters : nom",
+   "v": "[x2💵] Steel Fighters",
+   "d": "[x2💵] Steel Fighters",
+   "l": "[x2💵] Steel Fighters : nom",
    "src": "data/jours/2026-10-29.csv#L97"
   },
   "g.10765618402.rang": {
    "v": 96,
    "d": "96e",
-   "l": "Steel Fighters : rang au pic du jour",
+   "l": "[x2💵] Steel Fighters : rang au pic du jour",
    "src": "data/jours/2026-10-29.csv#L97"
   },
   "g.10765618402.pic": {
    "v": 17733,
    "d": "17 733",
-   "l": "Steel Fighters : pic de joueurs simultanés relevé",
+   "l": "[x2💵] Steel Fighters : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-29.csv#L97"
   },
   "g.10765618402.heure_pic": {
    "v": "13:57",
    "d": "13 h 57",
-   "l": "Steel Fighters : heure (Paris) du pic relevé",
+   "l": "[x2💵] Steel Fighters : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-29.csv#L97"
   },
   "g.10765618402.moy": {
    "v": 13506,
    "d": "13 506",
-   "l": "Steel Fighters : moyenne des joueurs simultanés sur la journée",
+   "l": "[x2💵] Steel Fighters : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-29.csv#L97"
   },
   "g.10765618402.createur": {
    "v": "WeShowProjects",
    "d": "WeShowProjects",
-   "l": "Steel Fighters : créateur",
+   "l": "[x2💵] Steel Fighters : créateur",
    "src": "data/jours/2026-10-29.csv#L97"
   },
   "g.10765618402.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "Steel Fighters : genre",
+   "l": "[x2💵] Steel Fighters : genre",
    "src": "data/jours/2026-10-29.csv#L97"
   },
   "g.10765618402.var_veille": {
    "v": -0.0821,
    "d": "−8,2 %",
-   "l": "Steel Fighters : variation de la moyenne par rapport à la veille",
+   "l": "[x2💵] Steel Fighters : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-29.csv#L97"
   },
   "g.10765618402.moy_veille": {
    "v": 14714,
    "d": "14 714",
-   "l": "Steel Fighters : moyenne de la veille",
+   "l": "[x2💵] Steel Fighters : moyenne de la veille",
    "src": "data/jours/2026-10-29.csv#L97"
   },
   "g.10765618402.visites_24h": {
    "v": 990907,
    "d": "990 907",
-   "l": "Steel Fighters : visites gagnées en 24 h",
+   "l": "[x2💵] Steel Fighters : visites gagnées en 24 h",
    "src": "data/jours/2026-10-29.csv#L97"
   },
   "g.10765618402.visites_total": {
    "v": 14503648,
    "d": "14,5 millions",
-   "l": "Steel Fighters : visites cumulées depuis la création",
+   "l": "[x2💵] Steel Fighters : visites cumulées depuis la création",
    "src": "data/jours/2026-10-29.csv#L97"
   },
   "g.10765618402.note": {
    "v": 0.9071,
    "d": "90,7 %",
-   "l": "Steel Fighters : part de votes positifs",
+   "l": "[x2💵] Steel Fighters : part de votes positifs",
    "src": "data/jours/2026-10-29.csv#L97"
   },
   "g.10765618402.rang_veille": {
    "v": 86,
    "d": "86e",
-   "l": "Steel Fighters : rang la veille",
+   "l": "[x2💵] Steel Fighters : rang la veille",
    "src": "data/jours/2026-10-29.csv#L97"
   },
   "g.10769851460.nom": {
@@ -9125,7 +9125,7 @@
      "valeur": 267865
     },
     {
-     "nom": "[8H⏳] Adopt Me!",
+     "nom": "[6H⏳] Adopt Me!",
      "valeur": 226538
     },
     {
