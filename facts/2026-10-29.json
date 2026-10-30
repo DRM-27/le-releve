@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-29",
- "genere": "2026-10-30T15:53:50Z",
+ "genere": "2026-10-30T16:51:06Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -7065,81 +7065,81 @@
    "src": "data/jours/2026-10-29.csv#L81"
   },
   "g.9534705677.nom": {
-   "v": "[🎃Event] Sniper Arena",
-   "d": "[🎃Event] Sniper Arena",
-   "l": "[🎃Event] Sniper Arena : nom",
+   "v": "[🔥New Secret] Sniper Arena",
+   "d": "[🔥New Secret] Sniper Arena",
+   "l": "[🔥New Secret] Sniper Arena : nom",
    "src": "data/jours/2026-10-29.csv#L82"
   },
   "g.9534705677.rang": {
    "v": 81,
    "d": "81e",
-   "l": "[🎃Event] Sniper Arena : rang au pic du jour",
+   "l": "[🔥New Secret] Sniper Arena : rang au pic du jour",
    "src": "data/jours/2026-10-29.csv#L82"
   },
   "g.9534705677.pic": {
    "v": 21173,
    "d": "21 173",
-   "l": "[🎃Event] Sniper Arena : pic de joueurs simultanés relevé",
+   "l": "[🔥New Secret] Sniper Arena : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-29.csv#L82"
   },
   "g.9534705677.heure_pic": {
    "v": "13:57",
    "d": "13 h 57",
-   "l": "[🎃Event] Sniper Arena : heure (Paris) du pic relevé",
+   "l": "[🔥New Secret] Sniper Arena : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-29.csv#L82"
   },
   "g.9534705677.moy": {
    "v": 15008,
    "d": "15 008",
-   "l": "[🎃Event] Sniper Arena : moyenne des joueurs simultanés sur la journée",
+   "l": "[🔥New Secret] Sniper Arena : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-29.csv#L82"
   },
   "g.9534705677.createur": {
    "v": "9D GAME CLUB",
    "d": "9D GAME CLUB",
-   "l": "[🎃Event] Sniper Arena : créateur",
+   "l": "[🔥New Secret] Sniper Arena : créateur",
    "src": "data/jours/2026-10-29.csv#L82"
   },
   "g.9534705677.genre": {
    "v": "Shooter",
    "d": "Tir",
-   "l": "[🎃Event] Sniper Arena : genre",
+   "l": "[🔥New Secret] Sniper Arena : genre",
    "src": "data/jours/2026-10-29.csv#L82"
   },
   "g.9534705677.var_veille": {
    "v": 0.0286,
    "d": "+2,9 %",
-   "l": "[🎃Event] Sniper Arena : variation de la moyenne par rapport à la veille",
+   "l": "[🔥New Secret] Sniper Arena : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-29.csv#L82"
   },
   "g.9534705677.moy_veille": {
    "v": 14591,
    "d": "14 591",
-   "l": "[🎃Event] Sniper Arena : moyenne de la veille",
+   "l": "[🔥New Secret] Sniper Arena : moyenne de la veille",
    "src": "data/jours/2026-10-29.csv#L82"
   },
   "g.9534705677.visites_24h": {
    "v": 1621069,
    "d": "1,62 million",
-   "l": "[🎃Event] Sniper Arena : visites gagnées en 24 h",
+   "l": "[🔥New Secret] Sniper Arena : visites gagnées en 24 h",
    "src": "data/jours/2026-10-29.csv#L82"
   },
   "g.9534705677.visites_total": {
    "v": 348049498,
    "d": "348,05 millions",
-   "l": "[🎃Event] Sniper Arena : visites cumulées depuis la création",
+   "l": "[🔥New Secret] Sniper Arena : visites cumulées depuis la création",
    "src": "data/jours/2026-10-29.csv#L82"
   },
   "g.9534705677.note": {
    "v": 0.9178,
    "d": "91,8 %",
-   "l": "[🎃Event] Sniper Arena : part de votes positifs",
+   "l": "[🔥New Secret] Sniper Arena : part de votes positifs",
    "src": "data/jours/2026-10-29.csv#L82"
   },
   "g.9534705677.rang_veille": {
    "v": 83,
    "d": "83e",
-   "l": "[🎃Event] Sniper Arena : rang la veille",
+   "l": "[🔥New Secret] Sniper Arena : rang la veille",
    "src": "data/jours/2026-10-29.csv#L82"
   },
   "g.10769957062.nom": {
