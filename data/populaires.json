@@ -1,30 +1,14 @@
 {
- "genere": "2026-10-30T12:56:47Z",
+ "genere": "2026-10-30T14:02:56Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/le-releve/",
-   "vues": 11
-  },
-  {
-   "path": "/le-releve/brouillons/2026-10-22-steal-an-egg-quotidien/",
-   "vues": 7
+   "vues": 9
   },
   {
    "path": "/le-releve/classement/",
-   "vues": 4
-  },
-  {
-   "path": "/le-releve/explorer/",
    "vues": 3
-  },
-  {
-   "path": "/le-releve/es/explorer/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/pt-br/explorer/",
-   "vues": 2
   },
   {
    "path": "/le-releve/articles/2026-10-21-records-2025/",
@@ -39,23 +23,11 @@
    "vues": 1
   },
   {
-   "path": "/le-releve/jeux/murder-mystery-2-66654135/",
-   "vues": 1
-  },
-  {
    "path": "/le-releve/articles/2026-10-21-age-des-jeux/",
    "vues": 1
   },
   {
-   "path": "/le-releve/jeux/99-nights-in-the-forest-7326934954/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/source/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/en/explorer/",
+   "path": "/le-releve/explorer/",
    "vues": 1
   },
   {
