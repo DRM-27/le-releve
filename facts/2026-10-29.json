@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-29",
- "genere": "2026-10-30T21:42:18Z",
+ "genere": "2026-10-30T22:43:17Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -5427,81 +5427,81 @@
    "src": "data/jours/2026-10-29.csv#L60"
   },
   "g.184199275.nom": {
-   "v": "[🎃EVENT] NFL Universe Football",
-   "d": "[🎃EVENT] NFL Universe Football",
-   "l": "[🎃EVENT] NFL Universe Football : nom",
+   "v": "[🥇SEASONS] NFL Universe Football",
+   "d": "[🥇SEASONS] NFL Universe Football",
+   "l": "[🥇SEASONS] NFL Universe Football : nom",
    "src": "data/jours/2026-10-29.csv#L61"
   },
   "g.184199275.rang": {
    "v": 60,
    "d": "60e",
-   "l": "[🎃EVENT] NFL Universe Football : rang au pic du jour",
+   "l": "[🥇SEASONS] NFL Universe Football : rang au pic du jour",
    "src": "data/jours/2026-10-29.csv#L61"
   },
   "g.184199275.pic": {
    "v": 24731,
    "d": "24 731",
-   "l": "[🎃EVENT] NFL Universe Football : pic de joueurs simultanés relevé",
+   "l": "[🥇SEASONS] NFL Universe Football : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-29.csv#L61"
   },
   "g.184199275.heure_pic": {
    "v": "01:56",
    "d": "1 h 56",
-   "l": "[🎃EVENT] NFL Universe Football : heure (Paris) du pic relevé",
+   "l": "[🥇SEASONS] NFL Universe Football : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-29.csv#L61"
   },
   "g.184199275.moy": {
    "v": 8226,
    "d": "8 226",
-   "l": "[🎃EVENT] NFL Universe Football : moyenne des joueurs simultanés sur la journée",
+   "l": "[🥇SEASONS] NFL Universe Football : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-29.csv#L61"
   },
   "g.184199275.createur": {
    "v": "NFL Universe Football by Voldex",
    "d": "NFL Universe Football by Voldex",
-   "l": "[🎃EVENT] NFL Universe Football : créateur",
+   "l": "[🥇SEASONS] NFL Universe Football : créateur",
    "src": "data/jours/2026-10-29.csv#L61"
   },
   "g.184199275.genre": {
    "v": "Sports & Racing",
    "d": "Sport et course",
-   "l": "[🎃EVENT] NFL Universe Football : genre",
+   "l": "[🥇SEASONS] NFL Universe Football : genre",
    "src": "data/jours/2026-10-29.csv#L61"
   },
   "g.184199275.var_veille": {
    "v": -0.0604,
    "d": "−6,0 %",
-   "l": "[🎃EVENT] NFL Universe Football : variation de la moyenne par rapport à la veille",
+   "l": "[🥇SEASONS] NFL Universe Football : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-29.csv#L61"
   },
   "g.184199275.moy_veille": {
    "v": 8754,
    "d": "8 754",
-   "l": "[🎃EVENT] NFL Universe Football : moyenne de la veille",
+   "l": "[🥇SEASONS] NFL Universe Football : moyenne de la veille",
    "src": "data/jours/2026-10-29.csv#L61"
   },
   "g.184199275.visites_24h": {
    "v": 620427,
    "d": "620 427",
-   "l": "[🎃EVENT] NFL Universe Football : visites gagnées en 24 h",
+   "l": "[🥇SEASONS] NFL Universe Football : visites gagnées en 24 h",
    "src": "data/jours/2026-10-29.csv#L61"
   },
   "g.184199275.visites_total": {
    "v": 1013974177,
    "d": "1,01 milliard",
-   "l": "[🎃EVENT] NFL Universe Football : visites cumulées depuis la création",
+   "l": "[🥇SEASONS] NFL Universe Football : visites cumulées depuis la création",
    "src": "data/jours/2026-10-29.csv#L61"
   },
   "g.184199275.note": {
    "v": 0.9033,
    "d": "90,3 %",
-   "l": "[🎃EVENT] NFL Universe Football : part de votes positifs",
+   "l": "[🥇SEASONS] NFL Universe Football : part de votes positifs",
    "src": "data/jours/2026-10-29.csv#L61"
   },
   "g.184199275.rang_veille": {
    "v": 59,
    "d": "59e",
-   "l": "[🎃EVENT] NFL Universe Football : rang la veille",
+   "l": "[🥇SEASONS] NFL Universe Football : rang la veille",
    "src": "data/jours/2026-10-29.csv#L61"
   },
   "g.6765805766.nom": {
@@ -5583,81 +5583,81 @@
    "src": "data/jours/2026-10-29.csv#L62"
   },
   "g.2619619496.nom": {
-   "v": "[⌛SOON] BedWars",
-   "d": "[⌛SOON] BedWars",
-   "l": "[⌛SOON] BedWars : nom",
+   "v": "[👻Rereleases] BedWars",
+   "d": "[👻Rereleases] BedWars",
+   "l": "[👻Rereleases] BedWars : nom",
    "src": "data/jours/2026-10-29.csv#L63"
   },
   "g.2619619496.rang": {
    "v": 62,
    "d": "62e",
-   "l": "[⌛SOON] BedWars : rang au pic du jour",
+   "l": "[👻Rereleases] BedWars : rang au pic du jour",
    "src": "data/jours/2026-10-29.csv#L63"
   },
   "g.2619619496.pic": {
    "v": 23796,
    "d": "23 796",
-   "l": "[⌛SOON] BedWars : pic de joueurs simultanés relevé",
+   "l": "[👻Rereleases] BedWars : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-29.csv#L63"
   },
   "g.2619619496.heure_pic": {
    "v": "00:39",
    "d": "0 h 39",
-   "l": "[⌛SOON] BedWars : heure (Paris) du pic relevé",
+   "l": "[👻Rereleases] BedWars : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-29.csv#L63"
   },
   "g.2619619496.moy": {
    "v": 18516,
    "d": "18 516",
-   "l": "[⌛SOON] BedWars : moyenne des joueurs simultanés sur la journée",
+   "l": "[👻Rereleases] BedWars : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-29.csv#L63"
   },
   "g.2619619496.createur": {
    "v": "Easy.gg",
    "d": "Easy.gg",
-   "l": "[⌛SOON] BedWars : créateur",
+   "l": "[👻Rereleases] BedWars : créateur",
    "src": "data/jours/2026-10-29.csv#L63"
   },
   "g.2619619496.genre": {
    "v": "Action",
    "d": "Action",
-   "l": "[⌛SOON] BedWars : genre",
+   "l": "[👻Rereleases] BedWars : genre",
    "src": "data/jours/2026-10-29.csv#L63"
   },
   "g.2619619496.var_veille": {
    "v": -0.0144,
    "d": "−1,4 %",
-   "l": "[⌛SOON] BedWars : variation de la moyenne par rapport à la veille",
+   "l": "[👻Rereleases] BedWars : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-29.csv#L63"
   },
   "g.2619619496.moy_veille": {
    "v": 18787,
    "d": "18 787",
-   "l": "[⌛SOON] BedWars : moyenne de la veille",
+   "l": "[👻Rereleases] BedWars : moyenne de la veille",
    "src": "data/jours/2026-10-29.csv#L63"
   },
   "g.2619619496.visites_24h": {
    "v": 1899124,
    "d": "1,9 million",
-   "l": "[⌛SOON] BedWars : visites gagnées en 24 h",
+   "l": "[👻Rereleases] BedWars : visites gagnées en 24 h",
    "src": "data/jours/2026-10-29.csv#L63"
   },
   "g.2619619496.visites_total": {
    "v": 11810566146,
    "d": "11,81 milliards",
-   "l": "[⌛SOON] BedWars : visites cumulées depuis la création",
+   "l": "[👻Rereleases] BedWars : visites cumulées depuis la création",
    "src": "data/jours/2026-10-29.csv#L63"
   },
   "g.2619619496.note": {
    "v": 0.823,
    "d": "82,3 %",
-   "l": "[⌛SOON] BedWars : part de votes positifs",
+   "l": "[👻Rereleases] BedWars : part de votes positifs",
    "src": "data/jours/2026-10-29.csv#L63"
   },
   "g.2619619496.rang_veille": {
    "v": 60,
    "d": "60e",
-   "l": "[⌛SOON] BedWars : rang la veille",
+   "l": "[👻Rereleases] BedWars : rang la veille",
    "src": "data/jours/2026-10-29.csv#L63"
   },
   "g.10767012496.nom": {

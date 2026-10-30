@@ -58,9 +58,9 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 57,2992873140,Emergency Hamburg,Emergency Hamburg,Roleplay & Avatar Sim,27750,19:52,14261,22,14544,-0.0195,,,1395900,1471215034,0.8589,56
 58,5995470825,🔥Hypershot,Frosted Studio,Shooter,25231,15:59,20814,22,20292,0.0257,,,2232042,1394407846,0.9441,62
 59,7633926880,[ZOMBIES!] BloxStrike,BloxStrike,Shooter,24860,18:51,15521,22,14652,0.0593,,,1686970,321157343,0.9467,63
-60,184199275,[🎃EVENT] NFL Universe Football,NFL Universe Football by Voldex,Sports & Racing,24731,01:56,8226,22,8754,-0.0604,,,620427,1013974177,0.9033,59
+60,184199275,[🥇SEASONS] NFL Universe Football,NFL Universe Football by Voldex,Sports & Racing,24731,01:56,8226,22,8754,-0.0604,,,620427,1013974177,0.9033,59
 61,6765805766,BlockSpin 🔪 [HALLOWEEN UPDATE!],Cinnamon Go!,Action,24323,22:44,20943,22,18542,0.1295,,,1605666,1319013423,0.7875,72
-62,2619619496,[⌛SOON] BedWars,Easy.gg,Action,23796,00:39,18516,22,18787,-0.0144,,,1899124,11810566146,0.823,60
+62,2619619496,[👻Rereleases] BedWars,Easy.gg,Action,23796,00:39,18516,22,18787,-0.0144,,,1899124,11810566146,0.823,60
 63,10767012496,[🎃] Turbo Soccer : Beta 1.0,Turbo Soccer,Sports & Racing,23640,21:46,15518,22,15153,0.0241,,,4751009,117602555,0.9242,68
 64,4949420752,Realistic Street Soccer,The Builder's Legion,Sports & Racing,23472,00:39,16621,22,16288,0.0204,,,2268044,1753100662,0.8453,64
 65,10685282333,Ball VS Ball [RANKED],ATYS 3,Party & Casual,23381,12:45,14983,22,15240,-0.0169,,,2266908,172435280,0.8874,66
@@ -99,7 +99,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 98,10766044605,Paint and Hide! 🎨,blocksinsandals,Party & Casual,17527,17:56,12650,14,,,,,,5359447,0.7688,
 99,10740316645,⛏️ My Anime Mine,Curseddd Games,Simulation,17520,15:59,15062,22,15488,-0.0275,,,876993,21898723,0.9895,92
 100,9561553764,[🎃] Murder Duels,Breakfast,Shooter,17508,19:52,13412,22,,,,,2740448,311072554,0.932,
-101,10769484703,What If Disasters,random named group i hvent named yet,Survival,17506,18:51,14394,22,13389,0.0751,,,1338386,10807677,0.9081,99
+101,10769484703,[👽] What If Disasters,random named group i hvent named yet,Survival,17506,18:51,14394,22,13389,0.0751,,,1338386,10807677,0.9081,99
 102,4777817887,Blade Ball,Wiggity.,Action,17003,18:51,13818,22,13808,0.0007,,,1669509,6514808449,0.9346,95
 103,1489026993,🔪Survive the Killer!,Slyce Entertainment,Survival,16837,13:57,14262,22,,,,,1591268,2704319237,0.9026,
 104,9167377564,100 Days at Sea [Halloween🎃],Stranded Devs,Survival,16756,13:57,11550,22,11393,0.0137,,,1126015,414171231,0.9707,101
@@ -143,7 +143,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 142,1016936714,🎃 Your Bizarre Adventure 🎃,Bizarre Studios®,RPG,12948,17:56,9080,22,9120,-0.0044,,,1269547,2296860115,0.8884,140
 143,7671049560,🎃 The Forge [Guilds],The Forge Community,RPG,12619,16:56,9862,22,9539,0.0339,,,534907,1038876012,0.9444,147
 144,10648820673,[🍲] Karinderya!,SILOG,Simulation,12476,13:57,5880,22,5927,-0.008,,,426433,87849277,0.9746,153
-145,10634461028,[UPD] Drive A Kukirin!,Gogos Games Studios,Simulation,12469,19:52,6298,22,6842,-0.0795,,,919902,109752279,0.8923,129
+145,10634461028,Drive A Kukirin!,Gogos Games Studios,Simulation,12469,19:52,6298,22,6842,-0.0795,,,919902,109752279,0.8923,129
 146,4730278139,[AKUMA] untitled boxing game🥊,drowningsome,Action,12415,13:57,9415,22,9367,0.0051,,,1086550,1487531756,0.8706,145
 147,10769249409,[🎃] Drive a Cart Downhill!,MakriGameDevelopment,Obby & Platformer,12100,20:51,9559,22,9063,0.0547,,,1416642,7621235,0.8189,152
 148,10766212164,+1 Money Per Click 💸,SimpleSim,Simulation,12090,13:57,9159,22,10926,-0.1617,,,950598,13218632,0.8853,116
@@ -383,7 +383,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 382,9940812243,[PT.2🎃] Anime RNG Defense,Mera.,Simulation,2481,12:45,2381,22,2520,-0.0551,,,91837,17750852,0.9689,378
 383,4938220315,[HALLOWEEN PT2] Skibi Defense,Archkos Studios,Strategy,2460,13:57,1594,22,1611,-0.0109,,,228132,486818906,0.9229,383
 384,1053132402,Obby Creator,Whirlpool Studio,Simulation,2450,13:57,1741,14,,,,,,575962403,0.8069,
-385,9169166771,Tiny Universe RP [BIG UPDATE!!],Tiny Universe Studios,Roleplay & Avatar Sim,2429,00:39,1138,22,889,0.2806,,,160085,75316604,0.7937,420
+385,9169166771,Tiny Universe RP [SCP🎃!!],Tiny Universe Studios,Roleplay & Avatar Sim,2429,00:39,1138,22,889,0.2806,,,160085,75316604,0.7937,420
 386,10769288862,[300] Kill Your Friend!,Maximise Games,Puzzle,2413,12:45,1674,22,2279,-0.2654,,,200816,6692974,0.828,343
 387,8836568224,[SEASON 3] Kayak and Surf  🌊,Climb and Banana Studio,Simulation,2399,00:39,1391,22,2008,-0.3072,,,128609,135708083,0.9778,269
 388,10764885410,[🎃JUGGERNAUT] Kontra,blackcatsisreal,Shooter,2294,18:51,1283,22,1280,0.0021,,,145477,3110723,0.7861,392
@@ -405,7 +405,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 404,10768468695,🪨CONCRETE🔥Bricklayer,TB Software,Simulation,1926,20:51,1232,22,1383,-0.1089,,,129679,7723707,0.7077,397
 405,1157126388,BEAR (Alpha),Cheedaman,Survival,1916,23:44,1365,22,1193,0.1441,,,148843,355808995,0.8964,412
 406,10769879410,[🔥UPDATE] Wheelie a Kukirin: Escooter Simulator,Paragon Interactive Studio,Simulation,1905,19:52,1172,22,1128,0.0387,,,166085,1715698,0.8305,411
-407,10768645719,[UPDATE🎃] Farming Incremental,Winrz,Simulation,1846,20:51,1074,21,,,,,,223085,0.7829,
+407,10768645719,[🎃] Farming Incremental,Winrz,Simulation,1846,20:51,1074,21,,,,,,223085,0.7829,
 408,3168615253,[🎃] Ability Wars,Ability Wars,Action,1823,22:44,1447,22,1570,-0.0782,,,136697,550589301,0.7978,402
 409,3706757136,British Railway,Fourth Rail,Simulation,1804,15:59,1039,22,1129,-0.0798,,,71131,40347021,0.8756,414
 410,4260784961,Napoleonic Wars,NapoIeonic Wars,Action,1801,20:51,259,22,255,0.0157,,,14469,24399475,0.8464,424
@@ -522,7 +522,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 521,5585505825,LEGIONES [HALLOWEEN EVENT!],Project Legiones,Action,257,02:57,207,22,200,0.0341,,,17160,301281,0.9136,517
 522,9865604662,VEF,[VEF] Virtual European Football,Sports & Racing,251,23:44,136,22,124,0.0966,,,13832,3805437,0.8518,519
 523,4150150482,[ERROR666] TBSOBR,"uh, the uhh, the.. the uh.",Action,227,13:57,182,22,241,-0.2436,,,25728,15572007,0.7949,508
-524,6818297884,[🎃UPDATE] Sans AUs Fighter 2,yuika shenanigans,Action,214,01:56,169,22,137,0.2324,,,10811,8298596,0.9181,524
+524,6818297884,[x5 EXP + 🎃UPDATE] Sans AUs Fighter 2,yuika shenanigans,Action,214,01:56,169,22,137,0.2324,,,10811,8298596,0.9181,524
 525,6457637847,🎃 [HALLOWEEN] Inazuma Strikers,N9NTY Studio,Sports & Racing,200,15:59,145,14,,,,,,19908824,0.9469,
 526,7386897403,Heroes: Online World,HEROES: Unlimited,Action,194,22:44,117,22,123,-0.047,,,16003,7871437,0.7756,522
 527,2381513268,[🎃] Free Sans Morph 2,RevertedTS,Action,194,15:59,172,14,,,,,,12763970,0.8483,
