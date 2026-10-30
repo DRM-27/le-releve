@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-29",
- "genere": "2026-10-30T08:04:03Z",
+ "genere": "2026-10-30T08:57:21Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -1623,81 +1623,81 @@
    "src": "data/jours/2026-10-29.csv#L11"
   },
   "g.3508322461.nom": {
-   "v": "[HIRED KILLER] Jujutsu Shenanigans",
-   "d": "[HIRED KILLER] Jujutsu Shenanigans",
-   "l": "[HIRED KILLER] Jujutsu Shenanigans : nom",
+   "v": "[🎃] Jujutsu Shenanigans",
+   "d": "[🎃] Jujutsu Shenanigans",
+   "l": "[🎃] Jujutsu Shenanigans : nom",
    "src": "data/jours/2026-10-29.csv#L12"
   },
   "g.3508322461.rang": {
    "v": 11,
    "d": "11e",
-   "l": "[HIRED KILLER] Jujutsu Shenanigans : rang au pic du jour",
+   "l": "[🎃] Jujutsu Shenanigans : rang au pic du jour",
    "src": "data/jours/2026-10-29.csv#L12"
   },
   "g.3508322461.pic": {
    "v": 141479,
    "d": "141 479",
-   "l": "[HIRED KILLER] Jujutsu Shenanigans : pic de joueurs simultanés relevé",
+   "l": "[🎃] Jujutsu Shenanigans : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-29.csv#L12"
   },
   "g.3508322461.heure_pic": {
    "v": "23:44",
    "d": "23 h 44",
-   "l": "[HIRED KILLER] Jujutsu Shenanigans : heure (Paris) du pic relevé",
+   "l": "[🎃] Jujutsu Shenanigans : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-29.csv#L12"
   },
   "g.3508322461.moy": {
    "v": 106124,
    "d": "106 124",
-   "l": "[HIRED KILLER] Jujutsu Shenanigans : moyenne des joueurs simultanés sur la journée",
+   "l": "[🎃] Jujutsu Shenanigans : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-29.csv#L12"
   },
   "g.3508322461.createur": {
    "v": "Tze's Shenanigans",
    "d": "Tze's Shenanigans",
-   "l": "[HIRED KILLER] Jujutsu Shenanigans : créateur",
+   "l": "[🎃] Jujutsu Shenanigans : créateur",
    "src": "data/jours/2026-10-29.csv#L12"
   },
   "g.3508322461.genre": {
    "v": "Action",
    "d": "Action",
-   "l": "[HIRED KILLER] Jujutsu Shenanigans : genre",
+   "l": "[🎃] Jujutsu Shenanigans : genre",
    "src": "data/jours/2026-10-29.csv#L12"
   },
   "g.3508322461.var_veille": {
    "v": 0.0082,
    "d": "+0,8 %",
-   "l": "[HIRED KILLER] Jujutsu Shenanigans : variation de la moyenne par rapport à la veille",
+   "l": "[🎃] Jujutsu Shenanigans : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-29.csv#L12"
   },
   "g.3508322461.moy_veille": {
    "v": 105262,
    "d": "105 262",
-   "l": "[HIRED KILLER] Jujutsu Shenanigans : moyenne de la veille",
+   "l": "[🎃] Jujutsu Shenanigans : moyenne de la veille",
    "src": "data/jours/2026-10-29.csv#L12"
   },
   "g.3508322461.visites_24h": {
    "v": 10292077,
    "d": "10,29 millions",
-   "l": "[HIRED KILLER] Jujutsu Shenanigans : visites gagnées en 24 h",
+   "l": "[🎃] Jujutsu Shenanigans : visites gagnées en 24 h",
    "src": "data/jours/2026-10-29.csv#L12"
   },
   "g.3508322461.visites_total": {
    "v": 7810277249,
    "d": "7,81 milliards",
-   "l": "[HIRED KILLER] Jujutsu Shenanigans : visites cumulées depuis la création",
+   "l": "[🎃] Jujutsu Shenanigans : visites cumulées depuis la création",
    "src": "data/jours/2026-10-29.csv#L12"
   },
   "g.3508322461.note": {
    "v": 0.8632,
    "d": "86,3 %",
-   "l": "[HIRED KILLER] Jujutsu Shenanigans : part de votes positifs",
+   "l": "[🎃] Jujutsu Shenanigans : part de votes positifs",
    "src": "data/jours/2026-10-29.csv#L12"
   },
   "g.3508322461.rang_veille": {
    "v": 11,
    "d": "11e",
-   "l": "[HIRED KILLER] Jujutsu Shenanigans : rang la veille",
+   "l": "[🎃] Jujutsu Shenanigans : rang la veille",
    "src": "data/jours/2026-10-29.csv#L12"
   },
   "g.10766972131.nom": {
