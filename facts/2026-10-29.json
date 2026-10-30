@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-29",
- "genere": "2026-10-30T16:51:06Z",
+ "genere": "2026-10-30T17:45:23Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -8859,8 +8859,8 @@
    "src": "data/jours/2026-10-29.csv#L176"
   },
   "baisse.5.nom": {
-   "v": "[⌛ 3H] Pets Universe! 👻",
-   "d": "[⌛ 3H] Pets Universe! 👻",
+   "v": "[ADMIN ABUSE] Pets Universe! 👻",
+   "d": "[ADMIN ABUSE] Pets Universe! 👻",
    "l": "Baisse n° 5 : nom",
    "src": "data/jours/2026-10-29.csv#L328"
   },
@@ -9173,7 +9173,7 @@
      "valeur": 0.673
     },
     {
-     "nom": "[⌛ 3H] Pets Universe! 👻",
+     "nom": "[ADMIN ABUSE] Pets Universe! 👻",
      "valeur": -0.3373
     },
     {
