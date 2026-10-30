@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-29",
- "genere": "2026-10-30T01:01:21Z",
+ "genere": "2026-10-30T01:59:27Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -2559,81 +2559,81 @@
    "src": "data/jours/2026-10-29.csv#L23"
   },
   "g.5750914919.nom": {
-   "v": "Fisch 👻 [HORSEMAN]",
-   "d": "Fisch 👻 [HORSEMAN]",
-   "l": "Fisch 👻 [HORSEMAN] : nom",
+   "v": "Fisch 🎃",
+   "d": "Fisch 🎃",
+   "l": "Fisch 🎃 : nom",
    "src": "data/jours/2026-10-29.csv#L24"
   },
   "g.5750914919.rang": {
    "v": 23,
    "d": "23e",
-   "l": "Fisch 👻 [HORSEMAN] : rang au pic du jour",
+   "l": "Fisch 🎃 : rang au pic du jour",
    "src": "data/jours/2026-10-29.csv#L24"
   },
   "g.5750914919.pic": {
    "v": 64527,
    "d": "64 527",
-   "l": "Fisch 👻 [HORSEMAN] : pic de joueurs simultanés relevé",
+   "l": "Fisch 🎃 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-29.csv#L24"
   },
   "g.5750914919.heure_pic": {
    "v": "13:57",
    "d": "13 h 57",
-   "l": "Fisch 👻 [HORSEMAN] : heure (Paris) du pic relevé",
+   "l": "Fisch 🎃 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-29.csv#L24"
   },
   "g.5750914919.moy": {
    "v": 53238,
    "d": "53 238",
-   "l": "Fisch 👻 [HORSEMAN] : moyenne des joueurs simultanés sur la journée",
+   "l": "Fisch 🎃 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-29.csv#L24"
   },
   "g.5750914919.createur": {
    "v": "Fisching",
    "d": "Fisching",
-   "l": "Fisch 👻 [HORSEMAN] : créateur",
+   "l": "Fisch 🎃 : créateur",
    "src": "data/jours/2026-10-29.csv#L24"
   },
   "g.5750914919.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "Fisch 👻 [HORSEMAN] : genre",
+   "l": "Fisch 🎃 : genre",
    "src": "data/jours/2026-10-29.csv#L24"
   },
   "g.5750914919.var_veille": {
    "v": -0.0358,
    "d": "−3,6 %",
-   "l": "Fisch 👻 [HORSEMAN] : variation de la moyenne par rapport à la veille",
+   "l": "Fisch 🎃 : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-29.csv#L24"
   },
   "g.5750914919.moy_veille": {
    "v": 55217,
    "d": "55 217",
-   "l": "Fisch 👻 [HORSEMAN] : moyenne de la veille",
+   "l": "Fisch 🎃 : moyenne de la veille",
    "src": "data/jours/2026-10-29.csv#L24"
   },
   "g.5750914919.visites_24h": {
    "v": 2789312,
    "d": "2,79 millions",
-   "l": "Fisch 👻 [HORSEMAN] : visites gagnées en 24 h",
+   "l": "Fisch 🎃 : visites gagnées en 24 h",
    "src": "data/jours/2026-10-29.csv#L24"
   },
   "g.5750914919.visites_total": {
    "v": 5077913537,
    "d": "5,08 milliards",
-   "l": "Fisch 👻 [HORSEMAN] : visites cumulées depuis la création",
+   "l": "Fisch 🎃 : visites cumulées depuis la création",
    "src": "data/jours/2026-10-29.csv#L24"
   },
   "g.5750914919.note": {
    "v": 0.9081,
    "d": "90,8 %",
-   "l": "Fisch 👻 [HORSEMAN] : part de votes positifs",
+   "l": "Fisch 🎃 : part de votes positifs",
    "src": "data/jours/2026-10-29.csv#L24"
   },
   "g.5750914919.rang_veille": {
    "v": 23,
    "d": "23e",
-   "l": "Fisch 👻 [HORSEMAN] : rang la veille",
+   "l": "Fisch 🎃 : rang la veille",
    "src": "data/jours/2026-10-29.csv#L24"
   },
   "g.10769464063.nom": {
