@@ -1,29 +1,13 @@
 {
- "genere": "2026-10-30T14:58:57Z",
+ "genere": "2026-10-30T15:53:49Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/le-releve/",
-   "vues": 8
+   "vues": 4
   },
   {
    "path": "/le-releve/classement/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/articles/2026-10-21-records-2025/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/articles/2026-10-21-photographie-top100/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/articles/2026-10-21-age-des-jeux/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/articles/2026-10-21-jeux-oeufs/",
    "vues": 1
   },
   {
