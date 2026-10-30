@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-29",
- "genere": "2026-10-30T18:49:10Z",
+ "genere": "2026-10-30T19:50:03Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -4347,81 +4347,81 @@
    "src": "data/jours/2026-10-29.csv#L46"
   },
   "g.10762636904.nom": {
-   "v": "[❗FIXING] Cameraman Tower Defense",
-   "d": "[❗FIXING] Cameraman Tower Defense",
-   "l": "[❗FIXING] Cameraman Tower Defense : nom",
+   "v": "[💰X2] Cameraman Tower Defense",
+   "d": "[💰X2] Cameraman Tower Defense",
+   "l": "[💰X2] Cameraman Tower Defense : nom",
    "src": "data/jours/2026-10-29.csv#L47"
   },
   "g.10762636904.rang": {
    "v": 46,
    "d": "46e",
-   "l": "[❗FIXING] Cameraman Tower Defense : rang au pic du jour",
+   "l": "[💰X2] Cameraman Tower Defense : rang au pic du jour",
    "src": "data/jours/2026-10-29.csv#L47"
   },
   "g.10762636904.pic": {
    "v": 37396,
    "d": "37 396",
-   "l": "[❗FIXING] Cameraman Tower Defense : pic de joueurs simultanés relevé",
+   "l": "[💰X2] Cameraman Tower Defense : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-29.csv#L47"
   },
   "g.10762636904.heure_pic": {
    "v": "12:45",
    "d": "12 h 45",
-   "l": "[❗FIXING] Cameraman Tower Defense : heure (Paris) du pic relevé",
+   "l": "[💰X2] Cameraman Tower Defense : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-29.csv#L47"
   },
   "g.10762636904.moy": {
    "v": 17692,
    "d": "17 692",
-   "l": "[❗FIXING] Cameraman Tower Defense : moyenne des joueurs simultanés sur la journée",
+   "l": "[💰X2] Cameraman Tower Defense : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-29.csv#L47"
   },
   "g.10762636904.createur": {
    "v": "Aligators Games",
    "d": "Aligators Games",
-   "l": "[❗FIXING] Cameraman Tower Defense : créateur",
+   "l": "[💰X2] Cameraman Tower Defense : créateur",
    "src": "data/jours/2026-10-29.csv#L47"
   },
   "g.10762636904.genre": {
    "v": "Strategy",
    "d": "Stratégie",
-   "l": "[❗FIXING] Cameraman Tower Defense : genre",
+   "l": "[💰X2] Cameraman Tower Defense : genre",
    "src": "data/jours/2026-10-29.csv#L47"
   },
   "g.10762636904.var_veille": {
    "v": -0.3446,
    "d": "−34,5 %",
-   "l": "[❗FIXING] Cameraman Tower Defense : variation de la moyenne par rapport à la veille",
+   "l": "[💰X2] Cameraman Tower Defense : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-29.csv#L47"
   },
   "g.10762636904.moy_veille": {
    "v": 26996,
    "d": "26 996",
-   "l": "[❗FIXING] Cameraman Tower Defense : moyenne de la veille",
+   "l": "[💰X2] Cameraman Tower Defense : moyenne de la veille",
    "src": "data/jours/2026-10-29.csv#L47"
   },
   "g.10762636904.visites_24h": {
    "v": 3265447,
    "d": "3,27 millions",
-   "l": "[❗FIXING] Cameraman Tower Defense : visites gagnées en 24 h",
+   "l": "[💰X2] Cameraman Tower Defense : visites gagnées en 24 h",
    "src": "data/jours/2026-10-29.csv#L47"
   },
   "g.10762636904.visites_total": {
    "v": 62330877,
    "d": "62,33 millions",
-   "l": "[❗FIXING] Cameraman Tower Defense : visites cumulées depuis la création",
+   "l": "[💰X2] Cameraman Tower Defense : visites cumulées depuis la création",
    "src": "data/jours/2026-10-29.csv#L47"
   },
   "g.10762636904.note": {
    "v": 0.9862,
    "d": "98,6 %",
-   "l": "[❗FIXING] Cameraman Tower Defense : part de votes positifs",
+   "l": "[💰X2] Cameraman Tower Defense : part de votes positifs",
    "src": "data/jours/2026-10-29.csv#L47"
   },
   "g.10762636904.rang_veille": {
    "v": 44,
    "d": "44e",
-   "l": "[❗FIXING] Cameraman Tower Defense : rang la veille",
+   "l": "[💰X2] Cameraman Tower Defense : rang la veille",
    "src": "data/jours/2026-10-29.csv#L47"
   },
   "g.10770593871.nom": {
@@ -5583,81 +5583,81 @@
    "src": "data/jours/2026-10-29.csv#L62"
   },
   "g.2619619496.nom": {
-   "v": "[🎃PART 2] BedWars",
-   "d": "[🎃PART 2] BedWars",
-   "l": "[🎃PART 2] BedWars : nom",
+   "v": "[⌛SOON] BedWars",
+   "d": "[⌛SOON] BedWars",
+   "l": "[⌛SOON] BedWars : nom",
    "src": "data/jours/2026-10-29.csv#L63"
   },
   "g.2619619496.rang": {
    "v": 62,
    "d": "62e",
-   "l": "[🎃PART 2] BedWars : rang au pic du jour",
+   "l": "[⌛SOON] BedWars : rang au pic du jour",
    "src": "data/jours/2026-10-29.csv#L63"
   },
   "g.2619619496.pic": {
    "v": 23796,
    "d": "23 796",
-   "l": "[🎃PART 2] BedWars : pic de joueurs simultanés relevé",
+   "l": "[⌛SOON] BedWars : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-29.csv#L63"
   },
   "g.2619619496.heure_pic": {
    "v": "00:39",
    "d": "0 h 39",
-   "l": "[🎃PART 2] BedWars : heure (Paris) du pic relevé",
+   "l": "[⌛SOON] BedWars : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-29.csv#L63"
   },
   "g.2619619496.moy": {
    "v": 18516,
    "d": "18 516",
-   "l": "[🎃PART 2] BedWars : moyenne des joueurs simultanés sur la journée",
+   "l": "[⌛SOON] BedWars : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-29.csv#L63"
   },
   "g.2619619496.createur": {
    "v": "Easy.gg",
    "d": "Easy.gg",
-   "l": "[🎃PART 2] BedWars : créateur",
+   "l": "[⌛SOON] BedWars : créateur",
    "src": "data/jours/2026-10-29.csv#L63"
   },
   "g.2619619496.genre": {
    "v": "Action",
    "d": "Action",
-   "l": "[🎃PART 2] BedWars : genre",
+   "l": "[⌛SOON] BedWars : genre",
    "src": "data/jours/2026-10-29.csv#L63"
   },
   "g.2619619496.var_veille": {
    "v": -0.0144,
    "d": "−1,4 %",
-   "l": "[🎃PART 2] BedWars : variation de la moyenne par rapport à la veille",
+   "l": "[⌛SOON] BedWars : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-29.csv#L63"
   },
   "g.2619619496.moy_veille": {
    "v": 18787,
    "d": "18 787",
-   "l": "[🎃PART 2] BedWars : moyenne de la veille",
+   "l": "[⌛SOON] BedWars : moyenne de la veille",
    "src": "data/jours/2026-10-29.csv#L63"
   },
   "g.2619619496.visites_24h": {
    "v": 1899124,
    "d": "1,9 million",
-   "l": "[🎃PART 2] BedWars : visites gagnées en 24 h",
+   "l": "[⌛SOON] BedWars : visites gagnées en 24 h",
    "src": "data/jours/2026-10-29.csv#L63"
   },
   "g.2619619496.visites_total": {
    "v": 11810566146,
    "d": "11,81 milliards",
-   "l": "[🎃PART 2] BedWars : visites cumulées depuis la création",
+   "l": "[⌛SOON] BedWars : visites cumulées depuis la création",
    "src": "data/jours/2026-10-29.csv#L63"
   },
   "g.2619619496.note": {
    "v": 0.823,
    "d": "82,3 %",
-   "l": "[🎃PART 2] BedWars : part de votes positifs",
+   "l": "[⌛SOON] BedWars : part de votes positifs",
    "src": "data/jours/2026-10-29.csv#L63"
   },
   "g.2619619496.rang_veille": {
    "v": 60,
    "d": "60e",
-   "l": "[🎃PART 2] BedWars : rang la veille",
+   "l": "[⌛SOON] BedWars : rang la veille",
    "src": "data/jours/2026-10-29.csv#L63"
   },
   "g.10767012496.nom": {
@@ -8619,8 +8619,8 @@
    "src": "data/jours/2026-10-29.csv#L39"
   },
   "hausse.2.nom": {
-   "v": "🎃HALLOWEEN | Tower Defense X: BETA",
-   "d": "🎃HALLOWEEN | Tower Defense X: BETA",
+   "v": "🎃2x | Tower Defense X: BETA",
+   "d": "🎃2x | Tower Defense X: BETA",
    "l": "Hausse n° 2 : nom",
    "src": "data/jours/2026-10-29.csv#L171"
   },
@@ -8799,8 +8799,8 @@
    "src": "data/jours/2026-10-29.csv#L240"
   },
   "baisse.3.nom": {
-   "v": "[❗FIXING] Cameraman Tower Defense",
-   "d": "[❗FIXING] Cameraman Tower Defense",
+   "v": "[💰X2] Cameraman Tower Defense",
+   "d": "[💰X2] Cameraman Tower Defense",
    "l": "Baisse n° 3 : nom",
    "src": "data/jours/2026-10-29.csv#L47"
   },
@@ -9157,7 +9157,7 @@
      "valeur": 5.6491
     },
     {
-     "nom": "🎃HALLOWEEN | Tower Defense X: BETA",
+     "nom": "🎃2x | Tower Defense X: BETA",
      "valeur": 1.2997
     },
     {
@@ -9181,7 +9181,7 @@
      "valeur": -0.3434
     },
     {
-     "nom": "[❗FIXING] Cameraman Tower Defense",
+     "nom": "[💰X2] Cameraman Tower Defense",
      "valeur": -0.3446
     },
     {
