@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-29",
- "genere": "2026-10-30T02:51:01Z",
+ "genere": "2026-10-30T03:50:40Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -465,8 +465,8 @@
    "src": "data/jours/2026-10-29.csv#L6"
   },
   "top.6.nom": {
-   "v": "[🎃] Adopt Me!",
-   "d": "[🎃] Adopt Me!",
+   "v": "[12H⏳] Adopt Me!",
+   "d": "[12H⏳] Adopt Me!",
    "l": "N° 6 du jour : nom",
    "src": "data/jours/2026-10-29.csv#L7"
   },
@@ -1239,81 +1239,81 @@
    "src": "data/jours/2026-10-29.csv#L6"
   },
   "g.383310974.nom": {
-   "v": "[🎃] Adopt Me!",
-   "d": "[🎃] Adopt Me!",
-   "l": "[🎃] Adopt Me! : nom",
+   "v": "[12H⏳] Adopt Me!",
+   "d": "[12H⏳] Adopt Me!",
+   "l": "[12H⏳] Adopt Me! : nom",
    "src": "data/jours/2026-10-29.csv#L7"
   },
   "g.383310974.rang": {
    "v": 6,
    "d": "6e",
-   "l": "[🎃] Adopt Me! : rang au pic du jour",
+   "l": "[12H⏳] Adopt Me! : rang au pic du jour",
    "src": "data/jours/2026-10-29.csv#L7"
   },
   "g.383310974.pic": {
    "v": 226538,
    "d": "226 538",
-   "l": "[🎃] Adopt Me! : pic de joueurs simultanés relevé",
+   "l": "[12H⏳] Adopt Me! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-29.csv#L7"
   },
   "g.383310974.heure_pic": {
    "v": "23:44",
    "d": "23 h 44",
-   "l": "[🎃] Adopt Me! : heure (Paris) du pic relevé",
+   "l": "[12H⏳] Adopt Me! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-29.csv#L7"
   },
   "g.383310974.moy": {
    "v": 193942,
    "d": "193 942",
-   "l": "[🎃] Adopt Me! : moyenne des joueurs simultanés sur la journée",
+   "l": "[12H⏳] Adopt Me! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-29.csv#L7"
   },
   "g.383310974.createur": {
    "v": "Uplift Games",
    "d": "Uplift Games",
-   "l": "[🎃] Adopt Me! : créateur",
+   "l": "[12H⏳] Adopt Me! : créateur",
    "src": "data/jours/2026-10-29.csv#L7"
   },
   "g.383310974.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "[🎃] Adopt Me! : genre",
+   "l": "[12H⏳] Adopt Me! : genre",
    "src": "data/jours/2026-10-29.csv#L7"
   },
   "g.383310974.var_veille": {
    "v": -0.0382,
    "d": "−3,8 %",
-   "l": "[🎃] Adopt Me! : variation de la moyenne par rapport à la veille",
+   "l": "[12H⏳] Adopt Me! : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-29.csv#L7"
   },
   "g.383310974.moy_veille": {
    "v": 201634,
    "d": "201 634",
-   "l": "[🎃] Adopt Me! : moyenne de la veille",
+   "l": "[12H⏳] Adopt Me! : moyenne de la veille",
    "src": "data/jours/2026-10-29.csv#L7"
   },
   "g.383310974.visites_24h": {
    "v": 9990512,
    "d": "9,99 millions",
-   "l": "[🎃] Adopt Me! : visites gagnées en 24 h",
+   "l": "[12H⏳] Adopt Me! : visites gagnées en 24 h",
    "src": "data/jours/2026-10-29.csv#L7"
   },
   "g.383310974.visites_total": {
    "v": 45255673292,
    "d": "45,26 milliards",
-   "l": "[🎃] Adopt Me! : visites cumulées depuis la création",
+   "l": "[12H⏳] Adopt Me! : visites cumulées depuis la création",
    "src": "data/jours/2026-10-29.csv#L7"
   },
   "g.383310974.note": {
    "v": 0.8637,
    "d": "86,4 %",
-   "l": "[🎃] Adopt Me! : part de votes positifs",
+   "l": "[12H⏳] Adopt Me! : part de votes positifs",
    "src": "data/jours/2026-10-29.csv#L7"
   },
   "g.383310974.rang_veille": {
    "v": 5,
    "d": "5e",
-   "l": "[🎃] Adopt Me! : rang la veille",
+   "l": "[12H⏳] Adopt Me! : rang la veille",
    "src": "data/jours/2026-10-29.csv#L7"
   },
   "g.10770728771.nom": {
@@ -8709,8 +8709,8 @@
    "src": "data/jours/2026-10-29.csv#L70"
   },
   "hausse.5.nom": {
-   "v": "[NEW CARS] Teach Your Sister How To Drive! 🎙️",
-   "d": "[NEW CARS] Teach Your Sister How To Drive! 🎙️",
+   "v": "[🚸UPD] Teach Your Sister How To Drive! 🎙️",
+   "d": "[🚸UPD] Teach Your Sister How To Drive! 🎙️",
    "l": "Hausse n° 5 : nom",
    "src": "data/jours/2026-10-29.csv#L117"
   },
@@ -9125,7 +9125,7 @@
      "valeur": 267865
     },
     {
-     "nom": "[🎃] Adopt Me!",
+     "nom": "[12H⏳] Adopt Me!",
      "valeur": 226538
     },
     {
@@ -9169,7 +9169,7 @@
      "valeur": 0.792
     },
     {
-     "nom": "[NEW CARS] Teach Your Sister How To Drive! 🎙️",
+     "nom": "[🚸UPD] Teach Your Sister How To Drive! 🎙️",
      "valeur": 0.673
     },
     {
