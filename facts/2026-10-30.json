@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-30",
- "genere": "2026-10-31T14:39:58Z",
+ "genere": "2026-10-31T15:39:17Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -387,8 +387,8 @@
    "src": "data/jours/2026-10-30.csv#L5"
   },
   "top.5.nom": {
-   "v": "[2H🎉] Adopt Me!",
-   "d": "[2H🎉] Adopt Me!",
+   "v": "[SOON!🎉] Adopt Me!",
+   "d": "[SOON!🎉] Adopt Me!",
    "l": "N° 5 du jour : nom",
    "src": "data/jours/2026-10-30.csv#L6"
   },
@@ -1167,81 +1167,81 @@
    "src": "data/jours/2026-10-30.csv#L5"
   },
   "g.383310974.nom": {
-   "v": "[2H🎉] Adopt Me!",
-   "d": "[2H🎉] Adopt Me!",
-   "l": "[2H🎉] Adopt Me! : nom",
+   "v": "[SOON!🎉] Adopt Me!",
+   "d": "[SOON!🎉] Adopt Me!",
+   "l": "[SOON!🎉] Adopt Me! : nom",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.rang": {
    "v": 5,
    "d": "5e",
-   "l": "[2H🎉] Adopt Me! : rang au pic du jour",
+   "l": "[SOON!🎉] Adopt Me! : rang au pic du jour",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.pic": {
    "v": 318123,
    "d": "318 123",
-   "l": "[2H🎉] Adopt Me! : pic de joueurs simultanés relevé",
+   "l": "[SOON!🎉] Adopt Me! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.heure_pic": {
    "v": "16:53",
    "d": "16 h 53",
-   "l": "[2H🎉] Adopt Me! : heure (Paris) du pic relevé",
+   "l": "[SOON!🎉] Adopt Me! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.moy": {
    "v": 246392,
    "d": "246 392",
-   "l": "[2H🎉] Adopt Me! : moyenne des joueurs simultanés sur la journée",
+   "l": "[SOON!🎉] Adopt Me! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.createur": {
    "v": "Uplift Games",
    "d": "Uplift Games",
-   "l": "[2H🎉] Adopt Me! : créateur",
+   "l": "[SOON!🎉] Adopt Me! : créateur",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "[2H🎉] Adopt Me! : genre",
+   "l": "[SOON!🎉] Adopt Me! : genre",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.var_veille": {
    "v": 0.2704,
    "d": "+27,0 %",
-   "l": "[2H🎉] Adopt Me! : variation de la moyenne par rapport à la veille",
+   "l": "[SOON!🎉] Adopt Me! : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.moy_veille": {
    "v": 193942,
    "d": "193 942",
-   "l": "[2H🎉] Adopt Me! : moyenne de la veille",
+   "l": "[SOON!🎉] Adopt Me! : moyenne de la veille",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.visites_24h": {
    "v": 11012452,
    "d": "11,01 millions",
-   "l": "[2H🎉] Adopt Me! : visites gagnées en 24 h",
+   "l": "[SOON!🎉] Adopt Me! : visites gagnées en 24 h",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.visites_total": {
    "v": 45266685744,
    "d": "45,27 milliards",
-   "l": "[2H🎉] Adopt Me! : visites cumulées depuis la création",
+   "l": "[SOON!🎉] Adopt Me! : visites cumulées depuis la création",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.note": {
    "v": 0.8637,
    "d": "86,4 %",
-   "l": "[2H🎉] Adopt Me! : part de votes positifs",
+   "l": "[SOON!🎉] Adopt Me! : part de votes positifs",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.rang_veille": {
    "v": 6,
    "d": "6e",
-   "l": "[2H🎉] Adopt Me! : rang la veille",
+   "l": "[SOON!🎉] Adopt Me! : rang la veille",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.7326934954.nom": {
@@ -2415,81 +2415,81 @@
    "src": "data/jours/2026-10-30.csv#L21"
   },
   "g.5750914919.nom": {
-   "v": "Fisch 🎃 [SOON]",
-   "d": "Fisch 🎃 [SOON]",
-   "l": "Fisch 🎃 [SOON] : nom",
+   "v": "Fisch 🎃 [NOW]",
+   "d": "Fisch 🎃 [NOW]",
+   "l": "Fisch 🎃 [NOW] : nom",
    "src": "data/jours/2026-10-30.csv#L22"
   },
   "g.5750914919.rang": {
    "v": 21,
    "d": "21e",
-   "l": "Fisch 🎃 [SOON] : rang au pic du jour",
+   "l": "Fisch 🎃 [NOW] : rang au pic du jour",
    "src": "data/jours/2026-10-30.csv#L22"
   },
   "g.5750914919.pic": {
    "v": 73563,
    "d": "73 563",
-   "l": "Fisch 🎃 [SOON] : pic de joueurs simultanés relevé",
+   "l": "Fisch 🎃 [NOW] : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-30.csv#L22"
   },
   "g.5750914919.heure_pic": {
    "v": "15:58",
    "d": "15 h 58",
-   "l": "Fisch 🎃 [SOON] : heure (Paris) du pic relevé",
+   "l": "Fisch 🎃 [NOW] : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-30.csv#L22"
   },
   "g.5750914919.moy": {
    "v": 57966,
    "d": "57 966",
-   "l": "Fisch 🎃 [SOON] : moyenne des joueurs simultanés sur la journée",
+   "l": "Fisch 🎃 [NOW] : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-30.csv#L22"
   },
   "g.5750914919.createur": {
    "v": "Fisching",
    "d": "Fisching",
-   "l": "Fisch 🎃 [SOON] : créateur",
+   "l": "Fisch 🎃 [NOW] : créateur",
    "src": "data/jours/2026-10-30.csv#L22"
   },
   "g.5750914919.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "Fisch 🎃 [SOON] : genre",
+   "l": "Fisch 🎃 [NOW] : genre",
    "src": "data/jours/2026-10-30.csv#L22"
   },
   "g.5750914919.var_veille": {
    "v": 0.0888,
    "d": "+8,9 %",
-   "l": "Fisch 🎃 [SOON] : variation de la moyenne par rapport à la veille",
+   "l": "Fisch 🎃 [NOW] : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-30.csv#L22"
   },
   "g.5750914919.moy_veille": {
    "v": 53238,
    "d": "53 238",
-   "l": "Fisch 🎃 [SOON] : moyenne de la veille",
+   "l": "Fisch 🎃 [NOW] : moyenne de la veille",
    "src": "data/jours/2026-10-30.csv#L22"
   },
   "g.5750914919.visites_24h": {
    "v": 3033490,
    "d": "3,03 millions",
-   "l": "Fisch 🎃 [SOON] : visites gagnées en 24 h",
+   "l": "Fisch 🎃 [NOW] : visites gagnées en 24 h",
    "src": "data/jours/2026-10-30.csv#L22"
   },
   "g.5750914919.visites_total": {
    "v": 5080947027,
    "d": "5,08 milliards",
-   "l": "Fisch 🎃 [SOON] : visites cumulées depuis la création",
+   "l": "Fisch 🎃 [NOW] : visites cumulées depuis la création",
    "src": "data/jours/2026-10-30.csv#L22"
   },
   "g.5750914919.note": {
    "v": 0.9081,
    "d": "90,8 %",
-   "l": "Fisch 🎃 [SOON] : part de votes positifs",
+   "l": "Fisch 🎃 [NOW] : part de votes positifs",
    "src": "data/jours/2026-10-30.csv#L22"
   },
   "g.5750914919.rang_veille": {
    "v": 23,
    "d": "23e",
-   "l": "Fisch 🎃 [SOON] : rang la veille",
+   "l": "Fisch 🎃 [NOW] : rang la veille",
    "src": "data/jours/2026-10-30.csv#L22"
   },
   "g.3647333358.nom": {
@@ -9205,7 +9205,7 @@
      "valeur": 325364
     },
     {
-     "nom": "[2H🎉] Adopt Me!",
+     "nom": "[SOON!🎉] Adopt Me!",
      "valeur": 318123
     },
     {
