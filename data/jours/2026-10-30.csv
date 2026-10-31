@@ -11,7 +11,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 10,10766972131,[🎃] Throw Food For Animals,Goofy Chupacabra,Simulation,131930,13:56,73457,22,49532,0.483,,,5457418,16055539,0.9356,12
 11,5569032992,🎃 Dandy's World [ALPHA],BlushCrunch Studio,Survival,121964,20:49,86345,22,68516,0.2602,,,9644510,7829874872,0.8792,14
 12,10765288803,Break and Steal an Egg,ILGames x Eggs,Simulation,116282,13:56,80887,22,89370,-0.0949,,,8049882,295887897,0.9729,5
-13,10767138232,[🎃] Kukirin Life [Testing],Mukbang Lovers,Simulation,112738,20:49,34027,22,24187,0.4068,,,3631058,64512624,0.855,42
+13,10767138232,Kukirin Life [Testing],Mukbang Lovers,Simulation,112738,20:49,34027,22,24187,0.4068,,,3631058,64512624,0.855,42
 14,5203828273,[🎃 NEW QUEST] Dress To Impress,Dress To Impress Group,Roleplay & Avatar Sim,92898,21:42,68334,22,64163,0.065,,,5996515,11271660683,0.9057,13
 15,3808081382,The Strongest Battlegrounds,Yielding Arts,Action,84841,15:58,66123,22,57232,0.1553,,,8997037,19535364565,0.8374,18
 16,6739698191,[BUTCHER x 🎃] Violence District,VIOLENCE DISTRICT,Survival,82502,15:58,55272,22,52268,0.0575,,,5357433,1656898883,0.9298,15
@@ -166,8 +166,8 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 165,10648820673,[🍲] Karinderya!,SILOG,Simulation,11793,13:56,6298,22,5880,0.0712,,,438219,88287496,0.9746,144
 166,10770355219,[✊] Escape The Walls,Grow the CCU,Simulation,11638,15:58,7473,16,7158,0.0439,,,,3307558,0.7784,173
 167,7094518649,[🍬] Restaurant Tycoon 3,Ultraw,Simulation,11480,16:53,7552,22,6929,0.0899,,,446244,387119027,0.953,190
-168,10701622575,Steal an Anime Pack,Anime Tuff Games,Simulation,11356,13:56,7038,22,5759,0.222,,,656499,3557383,0.9529,196
-169,10767494536,Hike For Eggs,Hike for...,Simulation,11286,23:42,6973,22,6763,0.031,,,546603,6462474,0.9658,156
+168,10701622575,[⌛] Steal an Anime Pack,Anime Tuff Games,Simulation,11356,13:56,7038,22,5759,0.222,,,656499,3557383,0.9529,196
+169,10767494536,[🎃] Hike For Eggs,Hike for...,Simulation,11286,23:42,6973,22,6763,0.031,,,546603,6462474,0.9658,156
 170,1235188606,[🎃] Dragon Adventures 🐉,Sonar Studios,RPG,11229,21:42,6748,22,7175,-0.0596,,,512699,1745522847,0.934,204
 171,10732236937,[ MechaGodzilla2021 Remodel! ] Kaiju Alpha,SULU OPPA,Action,11201,01:57,8233,22,7644,0.0771,,,709578,57009985,0.9235,153
 172,10744310825,🎃 Paint to Get Rich 🎨,Toasty Works,Simulation,10960,15:58,7949,22,6955,0.143,,,853893,57591136,0.7516,177
@@ -317,7 +317,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 316,10769548496,[🎃FINALE] Fix My Phone!,Doubloons,Simulation,4028,16:53,2856,22,2837,0.0066,,,310091,10635093,0.9057,317
 317,9931749389,[2x EXP] Dungeon Quest Reborn,Delta Quarters OG,RPG,4024,22:41,3155,22,3186,-0.0097,,,359007,165589027,0.9646,310
 318,2027832238,[💻해커] 한국 머더,한국머더,Survival,4017,12:42,941,22,769,0.2232,,,125646,209249868,0.7712,316
-319,10768941680,[⏳6H] Build A Striker ⚽,Wild Card.,Sports & Racing,4009,20:49,2919,22,2532,0.1528,,,246166,1484271,0.9524,338
+319,10768941680,[⏳5H] Build A Striker ⚽,Wild Card.,Sports & Racing,4009,20:49,2919,22,2532,0.1528,,,246166,1484271,0.9524,338
 320,10768044367,WorldFront ⚔️,Conquer The Land,Strategy,3996,20:49,2432,22,2009,0.2104,,,336428,8820391,0.7172,326
 321,10768046082,My Chiikawa Restaurant! 🎃,My Chiikawa Restaurant,Simulation,3967,16:53,3407,22,3364,0.013,,,230594,3902069,0.9573,314
 322,10768302381,📱 Fix a Phone!,§_§,Simulation,3950,18:44,2771,22,2119,0.3073,,,315864,2153237,0.8183,339
@@ -494,7 +494,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 493,10768650470,[🎃] Lanterns [SOON!],Lanterns HQ,RPG,568,18:44,407,22,411,-0.0099,,,49451,2745354,0.9251,483
 494,8824087733,RF Fan Leagues,Real Sports Interactive,Sports & Racing,563,20:49,318,22,279,0.1399,,,31456,14328775,0.8676,496
 495,7931158824,⚽ Pure Soccer,Pure Sports,Sports & Racing,562,21:42,347,18,,,,,,44473275,0.8111,
-496,9229146348,JUST ONE MORE ASYM [Maintenance],FourSquare Creations,Survival,554,01:57,384,22,343,0.1202,,,26875,11217348,0.8035,501
+496,9229146348,JUST ONE MORE ASYM [October's End],FourSquare Creations,Survival,554,01:57,384,22,343,0.1202,,,26875,11217348,0.8035,501
 497,10769146204,[🎃] Scooter Empire,Scooter Empire,Simulation,547,21:42,331,22,364,-0.0908,,,65406,8034831,0.9183,492
 498,7211699445,🎃 BlockyTubbies,Real_Reard,Roleplay & Avatar Sim,542,01:57,422,22,405,0.0416,,,28131,15304193,0.8488,494
 499,3825332406,[🎃] Elemental Dungeons,Malt Games,RPG,536,16:53,441,22,434,0.0161,,,109424,257759631,0.9363,498

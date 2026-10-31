@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-30",
- "genere": "2026-10-31T07:54:58Z",
+ "genere": "2026-10-31T08:46:51Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -1791,81 +1791,81 @@
    "src": "data/jours/2026-10-30.csv#L13"
   },
   "g.10767138232.nom": {
-   "v": "[🎃] Kukirin Life [Testing]",
-   "d": "[🎃] Kukirin Life [Testing]",
-   "l": "[🎃] Kukirin Life [Testing] : nom",
+   "v": "Kukirin Life [Testing]",
+   "d": "Kukirin Life [Testing]",
+   "l": "Kukirin Life [Testing] : nom",
    "src": "data/jours/2026-10-30.csv#L14"
   },
   "g.10767138232.rang": {
    "v": 13,
    "d": "13e",
-   "l": "[🎃] Kukirin Life [Testing] : rang au pic du jour",
+   "l": "Kukirin Life [Testing] : rang au pic du jour",
    "src": "data/jours/2026-10-30.csv#L14"
   },
   "g.10767138232.pic": {
    "v": 112738,
    "d": "112 738",
-   "l": "[🎃] Kukirin Life [Testing] : pic de joueurs simultanés relevé",
+   "l": "Kukirin Life [Testing] : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-30.csv#L14"
   },
   "g.10767138232.heure_pic": {
    "v": "20:49",
    "d": "20 h 49",
-   "l": "[🎃] Kukirin Life [Testing] : heure (Paris) du pic relevé",
+   "l": "Kukirin Life [Testing] : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-30.csv#L14"
   },
   "g.10767138232.moy": {
    "v": 34027,
    "d": "34 027",
-   "l": "[🎃] Kukirin Life [Testing] : moyenne des joueurs simultanés sur la journée",
+   "l": "Kukirin Life [Testing] : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-30.csv#L14"
   },
   "g.10767138232.createur": {
    "v": "Mukbang Lovers",
    "d": "Mukbang Lovers",
-   "l": "[🎃] Kukirin Life [Testing] : créateur",
+   "l": "Kukirin Life [Testing] : créateur",
    "src": "data/jours/2026-10-30.csv#L14"
   },
   "g.10767138232.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🎃] Kukirin Life [Testing] : genre",
+   "l": "Kukirin Life [Testing] : genre",
    "src": "data/jours/2026-10-30.csv#L14"
   },
   "g.10767138232.var_veille": {
    "v": 0.4068,
    "d": "+40,7 %",
-   "l": "[🎃] Kukirin Life [Testing] : variation de la moyenne par rapport à la veille",
+   "l": "Kukirin Life [Testing] : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-30.csv#L14"
   },
   "g.10767138232.moy_veille": {
    "v": 24187,
    "d": "24 187",
-   "l": "[🎃] Kukirin Life [Testing] : moyenne de la veille",
+   "l": "Kukirin Life [Testing] : moyenne de la veille",
    "src": "data/jours/2026-10-30.csv#L14"
   },
   "g.10767138232.visites_24h": {
    "v": 3631058,
    "d": "3,63 millions",
-   "l": "[🎃] Kukirin Life [Testing] : visites gagnées en 24 h",
+   "l": "Kukirin Life [Testing] : visites gagnées en 24 h",
    "src": "data/jours/2026-10-30.csv#L14"
   },
   "g.10767138232.visites_total": {
    "v": 64512624,
    "d": "64,51 millions",
-   "l": "[🎃] Kukirin Life [Testing] : visites cumulées depuis la création",
+   "l": "Kukirin Life [Testing] : visites cumulées depuis la création",
    "src": "data/jours/2026-10-30.csv#L14"
   },
   "g.10767138232.note": {
    "v": 0.855,
    "d": "85,5 %",
-   "l": "[🎃] Kukirin Life [Testing] : part de votes positifs",
+   "l": "Kukirin Life [Testing] : part de votes positifs",
    "src": "data/jours/2026-10-30.csv#L14"
   },
   "g.10767138232.rang_veille": {
    "v": 42,
    "d": "42e",
-   "l": "[🎃] Kukirin Life [Testing] : rang la veille",
+   "l": "Kukirin Life [Testing] : rang la veille",
    "src": "data/jours/2026-10-30.csv#L14"
   },
   "g.5203828273.nom": {
