@@ -37,7 +37,8 @@ jobs:
             echo "::warning::Branche non fusionnée : elle touche autre chose que des articles, brouillons ou posts."
             exit 0
           fi
-          COMMITS=$(git rev-list --reverse "$BASE"..HEAD)
+          COMMITS=$(git cherry origin/main HEAD | awk '/^\+/{print $2}')
+          [ -z "$COMMITS" ] && { echo "Déjà sur main."; exit 0; }
           git checkout -q -B main origin/main
           for c in $COMMITS; do git cherry-pick -X theirs "$c" || { git cherry-pick --abort; echo "::error::Conflit sur $c"; exit 1; }; done
           for i in 1 2 3; do git pull -q --rebase -X theirs origin main && git push -q origin main && break; sleep 5; done
