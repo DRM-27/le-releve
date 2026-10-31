@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-30",
- "genere": "2026-10-31T08:46:51Z",
+ "genere": "2026-10-31T09:42:25Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -4905,81 +4905,81 @@
    "src": "data/jours/2026-10-30.csv#L53"
   },
   "g.5361032378.nom": {
-   "v": "Sol's RNG [ Radiant Forest🌙]",
-   "d": "Sol's RNG [ Radiant Forest🌙]",
-   "l": "Sol's RNG [ Radiant Forest🌙] : nom",
+   "v": "Sol's RNG [ Halloween Event 🎃]",
+   "d": "Sol's RNG [ Halloween Event 🎃]",
+   "l": "Sol's RNG [ Halloween Event 🎃] : nom",
    "src": "data/jours/2026-10-30.csv#L54"
   },
   "g.5361032378.rang": {
    "v": 53,
    "d": "53e",
-   "l": "Sol's RNG [ Radiant Forest🌙] : rang au pic du jour",
+   "l": "Sol's RNG [ Halloween Event 🎃] : rang au pic du jour",
    "src": "data/jours/2026-10-30.csv#L54"
   },
   "g.5361032378.pic": {
    "v": 32932,
    "d": "32 932",
-   "l": "Sol's RNG [ Radiant Forest🌙] : pic de joueurs simultanés relevé",
+   "l": "Sol's RNG [ Halloween Event 🎃] : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-30.csv#L54"
   },
   "g.5361032378.heure_pic": {
    "v": "10:53",
    "d": "10 h 53",
-   "l": "Sol's RNG [ Radiant Forest🌙] : heure (Paris) du pic relevé",
+   "l": "Sol's RNG [ Halloween Event 🎃] : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-30.csv#L54"
   },
   "g.5361032378.moy": {
    "v": 31054,
    "d": "31 054",
-   "l": "Sol's RNG [ Radiant Forest🌙] : moyenne des joueurs simultanés sur la journée",
+   "l": "Sol's RNG [ Halloween Event 🎃] : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-30.csv#L54"
   },
   "g.5361032378.createur": {
    "v": "Sol's Studio",
    "d": "Sol's Studio",
-   "l": "Sol's RNG [ Radiant Forest🌙] : créateur",
+   "l": "Sol's RNG [ Halloween Event 🎃] : créateur",
    "src": "data/jours/2026-10-30.csv#L54"
   },
   "g.5361032378.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "Sol's RNG [ Radiant Forest🌙] : genre",
+   "l": "Sol's RNG [ Halloween Event 🎃] : genre",
    "src": "data/jours/2026-10-30.csv#L54"
   },
   "g.5361032378.var_veille": {
    "v": -0.0027,
    "d": "−0,3 %",
-   "l": "Sol's RNG [ Radiant Forest🌙] : variation de la moyenne par rapport à la veille",
+   "l": "Sol's RNG [ Halloween Event 🎃] : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-30.csv#L54"
   },
   "g.5361032378.moy_veille": {
    "v": 31139,
    "d": "31 139",
-   "l": "Sol's RNG [ Radiant Forest🌙] : moyenne de la veille",
+   "l": "Sol's RNG [ Halloween Event 🎃] : moyenne de la veille",
    "src": "data/jours/2026-10-30.csv#L54"
   },
   "g.5361032378.visites_24h": {
    "v": 2226832,
    "d": "2,23 millions",
-   "l": "Sol's RNG [ Radiant Forest🌙] : visites gagnées en 24 h",
+   "l": "Sol's RNG [ Halloween Event 🎃] : visites gagnées en 24 h",
    "src": "data/jours/2026-10-30.csv#L54"
   },
   "g.5361032378.visites_total": {
    "v": 2260455653,
    "d": "2,26 milliards",
-   "l": "Sol's RNG [ Radiant Forest🌙] : visites cumulées depuis la création",
+   "l": "Sol's RNG [ Halloween Event 🎃] : visites cumulées depuis la création",
    "src": "data/jours/2026-10-30.csv#L54"
   },
   "g.5361032378.note": {
    "v": 0.9142,
    "d": "91,4 %",
-   "l": "Sol's RNG [ Radiant Forest🌙] : part de votes positifs",
+   "l": "Sol's RNG [ Halloween Event 🎃] : part de votes positifs",
    "src": "data/jours/2026-10-30.csv#L54"
   },
   "g.5361032378.rang_veille": {
    "v": 52,
    "d": "52e",
-   "l": "Sol's RNG [ Radiant Forest🌙] : rang la veille",
+   "l": "Sol's RNG [ Halloween Event 🎃] : rang la veille",
    "src": "data/jours/2026-10-30.csv#L54"
   },
   "g.10762636904.nom": {
