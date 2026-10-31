@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-30",
- "genere": "2026-10-31T13:48:03Z",
+ "genere": "2026-10-31T14:39:58Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -387,8 +387,8 @@
    "src": "data/jours/2026-10-30.csv#L5"
   },
   "top.5.nom": {
-   "v": "[3H🎉] Adopt Me!",
-   "d": "[3H🎉] Adopt Me!",
+   "v": "[2H🎉] Adopt Me!",
+   "d": "[2H🎉] Adopt Me!",
    "l": "N° 5 du jour : nom",
    "src": "data/jours/2026-10-30.csv#L6"
   },
@@ -621,8 +621,8 @@
    "src": "data/jours/2026-10-30.csv#L8"
   },
   "top.8.nom": {
-   "v": "Blox Fruits",
-   "d": "Blox Fruits",
+   "v": "[🎃] Blox Fruits",
+   "d": "[🎃] Blox Fruits",
    "l": "N° 8 du jour : nom",
    "src": "data/jours/2026-10-30.csv#L9"
   },
@@ -1167,81 +1167,81 @@
    "src": "data/jours/2026-10-30.csv#L5"
   },
   "g.383310974.nom": {
-   "v": "[3H🎉] Adopt Me!",
-   "d": "[3H🎉] Adopt Me!",
-   "l": "[3H🎉] Adopt Me! : nom",
+   "v": "[2H🎉] Adopt Me!",
+   "d": "[2H🎉] Adopt Me!",
+   "l": "[2H🎉] Adopt Me! : nom",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.rang": {
    "v": 5,
    "d": "5e",
-   "l": "[3H🎉] Adopt Me! : rang au pic du jour",
+   "l": "[2H🎉] Adopt Me! : rang au pic du jour",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.pic": {
    "v": 318123,
    "d": "318 123",
-   "l": "[3H🎉] Adopt Me! : pic de joueurs simultanés relevé",
+   "l": "[2H🎉] Adopt Me! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.heure_pic": {
    "v": "16:53",
    "d": "16 h 53",
-   "l": "[3H🎉] Adopt Me! : heure (Paris) du pic relevé",
+   "l": "[2H🎉] Adopt Me! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.moy": {
    "v": 246392,
    "d": "246 392",
-   "l": "[3H🎉] Adopt Me! : moyenne des joueurs simultanés sur la journée",
+   "l": "[2H🎉] Adopt Me! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.createur": {
    "v": "Uplift Games",
    "d": "Uplift Games",
-   "l": "[3H🎉] Adopt Me! : créateur",
+   "l": "[2H🎉] Adopt Me! : créateur",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "[3H🎉] Adopt Me! : genre",
+   "l": "[2H🎉] Adopt Me! : genre",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.var_veille": {
    "v": 0.2704,
    "d": "+27,0 %",
-   "l": "[3H🎉] Adopt Me! : variation de la moyenne par rapport à la veille",
+   "l": "[2H🎉] Adopt Me! : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.moy_veille": {
    "v": 193942,
    "d": "193 942",
-   "l": "[3H🎉] Adopt Me! : moyenne de la veille",
+   "l": "[2H🎉] Adopt Me! : moyenne de la veille",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.visites_24h": {
    "v": 11012452,
    "d": "11,01 millions",
-   "l": "[3H🎉] Adopt Me! : visites gagnées en 24 h",
+   "l": "[2H🎉] Adopt Me! : visites gagnées en 24 h",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.visites_total": {
    "v": 45266685744,
    "d": "45,27 milliards",
-   "l": "[3H🎉] Adopt Me! : visites cumulées depuis la création",
+   "l": "[2H🎉] Adopt Me! : visites cumulées depuis la création",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.note": {
    "v": 0.8637,
    "d": "86,4 %",
-   "l": "[3H🎉] Adopt Me! : part de votes positifs",
+   "l": "[2H🎉] Adopt Me! : part de votes positifs",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.rang_veille": {
    "v": 6,
    "d": "6e",
-   "l": "[3H🎉] Adopt Me! : rang la veille",
+   "l": "[2H🎉] Adopt Me! : rang la veille",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.7326934954.nom": {
@@ -1401,81 +1401,81 @@
    "src": "data/jours/2026-10-30.csv#L8"
   },
   "g.994732206.nom": {
-   "v": "Blox Fruits",
-   "d": "Blox Fruits",
-   "l": "Blox Fruits : nom",
+   "v": "[🎃] Blox Fruits",
+   "d": "[🎃] Blox Fruits",
+   "l": "[🎃] Blox Fruits : nom",
    "src": "data/jours/2026-10-30.csv#L9"
   },
   "g.994732206.rang": {
    "v": 8,
    "d": "8e",
-   "l": "Blox Fruits : rang au pic du jour",
+   "l": "[🎃] Blox Fruits : rang au pic du jour",
    "src": "data/jours/2026-10-30.csv#L9"
   },
   "g.994732206.pic": {
    "v": 208114,
    "d": "208 114",
-   "l": "Blox Fruits : pic de joueurs simultanés relevé",
+   "l": "[🎃] Blox Fruits : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-30.csv#L9"
   },
   "g.994732206.heure_pic": {
    "v": "15:58",
    "d": "15 h 58",
-   "l": "Blox Fruits : heure (Paris) du pic relevé",
+   "l": "[🎃] Blox Fruits : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-30.csv#L9"
   },
   "g.994732206.moy": {
    "v": 149300,
    "d": "149 300",
-   "l": "Blox Fruits : moyenne des joueurs simultanés sur la journée",
+   "l": "[🎃] Blox Fruits : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-30.csv#L9"
   },
   "g.994732206.createur": {
    "v": "Gamer Robot Inc",
    "d": "Gamer Robot Inc",
-   "l": "Blox Fruits : créateur",
+   "l": "[🎃] Blox Fruits : créateur",
    "src": "data/jours/2026-10-30.csv#L9"
   },
   "g.994732206.genre": {
    "v": "RPG",
    "d": "RPG",
-   "l": "Blox Fruits : genre",
+   "l": "[🎃] Blox Fruits : genre",
    "src": "data/jours/2026-10-30.csv#L9"
   },
   "g.994732206.var_veille": {
    "v": 0.0987,
    "d": "+9,9 %",
-   "l": "Blox Fruits : variation de la moyenne par rapport à la veille",
+   "l": "[🎃] Blox Fruits : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-30.csv#L9"
   },
   "g.994732206.moy_veille": {
    "v": 135888,
    "d": "135 888",
-   "l": "Blox Fruits : moyenne de la veille",
+   "l": "[🎃] Blox Fruits : moyenne de la veille",
    "src": "data/jours/2026-10-30.csv#L9"
   },
   "g.994732206.visites_24h": {
    "v": 11852460,
    "d": "11,85 millions",
-   "l": "Blox Fruits : visites gagnées en 24 h",
+   "l": "[🎃] Blox Fruits : visites gagnées en 24 h",
    "src": "data/jours/2026-10-30.csv#L9"
   },
   "g.994732206.visites_total": {
    "v": 65156461773,
    "d": "65,16 milliards",
-   "l": "Blox Fruits : visites cumulées depuis la création",
+   "l": "[🎃] Blox Fruits : visites cumulées depuis la création",
    "src": "data/jours/2026-10-30.csv#L9"
   },
   "g.994732206.note": {
    "v": 0.9229,
    "d": "92,3 %",
-   "l": "Blox Fruits : part de votes positifs",
+   "l": "[🎃] Blox Fruits : part de votes positifs",
    "src": "data/jours/2026-10-30.csv#L9"
   },
   "g.994732206.rang_veille": {
    "v": 9,
    "d": "9e",
-   "l": "Blox Fruits : rang la veille",
+   "l": "[🎃] Blox Fruits : rang la veille",
    "src": "data/jours/2026-10-30.csv#L9"
   },
   "g.3508322461.nom": {
@@ -3897,81 +3897,81 @@
    "src": "data/jours/2026-10-30.csv#L40"
   },
   "g.10768284407.nom": {
-   "v": "[🎃] Bike Universe",
-   "d": "[🎃] Bike Universe",
-   "l": "[🎃] Bike Universe : nom",
+   "v": "🛡️[S1] Bike Universe",
+   "d": "🛡️[S1] Bike Universe",
+   "l": "🛡️[S1] Bike Universe : nom",
    "src": "data/jours/2026-10-30.csv#L41"
   },
   "g.10768284407.rang": {
    "v": 40,
    "d": "40e",
-   "l": "[🎃] Bike Universe : rang au pic du jour",
+   "l": "🛡️[S1] Bike Universe : rang au pic du jour",
    "src": "data/jours/2026-10-30.csv#L41"
   },
   "g.10768284407.pic": {
    "v": 45260,
    "d": "45 260",
-   "l": "[🎃] Bike Universe : pic de joueurs simultanés relevé",
+   "l": "🛡️[S1] Bike Universe : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-30.csv#L41"
   },
   "g.10768284407.heure_pic": {
    "v": "18:44",
    "d": "18 h 44",
-   "l": "[🎃] Bike Universe : heure (Paris) du pic relevé",
+   "l": "🛡️[S1] Bike Universe : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-30.csv#L41"
   },
   "g.10768284407.moy": {
    "v": 34770,
    "d": "34 770",
-   "l": "[🎃] Bike Universe : moyenne des joueurs simultanés sur la journée",
+   "l": "🛡️[S1] Bike Universe : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-30.csv#L41"
   },
   "g.10768284407.createur": {
    "v": "Bike Universe",
    "d": "Bike Universe",
-   "l": "[🎃] Bike Universe : créateur",
+   "l": "🛡️[S1] Bike Universe : créateur",
    "src": "data/jours/2026-10-30.csv#L41"
   },
   "g.10768284407.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🎃] Bike Universe : genre",
+   "l": "🛡️[S1] Bike Universe : genre",
    "src": "data/jours/2026-10-30.csv#L41"
   },
   "g.10768284407.var_veille": {
    "v": 0.094,
    "d": "+9,4 %",
-   "l": "[🎃] Bike Universe : variation de la moyenne par rapport à la veille",
+   "l": "🛡️[S1] Bike Universe : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-30.csv#L41"
   },
   "g.10768284407.moy_veille": {
    "v": 31781,
    "d": "31 781",
-   "l": "[🎃] Bike Universe : moyenne de la veille",
+   "l": "🛡️[S1] Bike Universe : moyenne de la veille",
    "src": "data/jours/2026-10-30.csv#L41"
   },
   "g.10768284407.visites_24h": {
    "v": 4230691,
    "d": "4,23 millions",
-   "l": "[🎃] Bike Universe : visites gagnées en 24 h",
+   "l": "🛡️[S1] Bike Universe : visites gagnées en 24 h",
    "src": "data/jours/2026-10-30.csv#L41"
   },
   "g.10768284407.visites_total": {
    "v": 48227743,
    "d": "48,23 millions",
-   "l": "[🎃] Bike Universe : visites cumulées depuis la création",
+   "l": "🛡️[S1] Bike Universe : visites cumulées depuis la création",
    "src": "data/jours/2026-10-30.csv#L41"
   },
   "g.10768284407.note": {
    "v": 0.8778,
    "d": "87,8 %",
-   "l": "[🎃] Bike Universe : part de votes positifs",
+   "l": "🛡️[S1] Bike Universe : part de votes positifs",
    "src": "data/jours/2026-10-30.csv#L41"
   },
   "g.10768284407.rang_veille": {
    "v": 43,
    "d": "43e",
-   "l": "[🎃] Bike Universe : rang la veille",
+   "l": "🛡️[S1] Bike Universe : rang la veille",
    "src": "data/jours/2026-10-30.csv#L41"
   },
   "g.10767380385.nom": {
@@ -9205,7 +9205,7 @@
      "valeur": 325364
     },
     {
-     "nom": "[3H🎉] Adopt Me!",
+     "nom": "[2H🎉] Adopt Me!",
      "valeur": 318123
     },
     {
@@ -9217,7 +9217,7 @@
      "valeur": 224391
     },
     {
-     "nom": "Blox Fruits",
+     "nom": "[🎃] Blox Fruits",
      "valeur": 208114
     },
     {
