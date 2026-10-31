@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-30",
- "genere": "2026-10-31T01:58:44Z",
+ "genere": "2026-10-31T02:50:57Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -5217,81 +5217,81 @@
    "src": "data/jours/2026-10-30.csv#L57"
   },
   "g.5995470825.nom": {
-   "v": "🔥Hypershot",
-   "d": "🔥Hypershot",
-   "l": "🔥Hypershot : nom",
+   "v": "[🔥UPD] Hypershot",
+   "d": "[🔥UPD] Hypershot",
+   "l": "[🔥UPD] Hypershot : nom",
    "src": "data/jours/2026-10-30.csv#L58"
   },
   "g.5995470825.rang": {
    "v": 57,
    "d": "57e",
-   "l": "🔥Hypershot : rang au pic du jour",
+   "l": "[🔥UPD] Hypershot : rang au pic du jour",
    "src": "data/jours/2026-10-30.csv#L58"
   },
   "g.5995470825.pic": {
    "v": 29789,
    "d": "29 789",
-   "l": "🔥Hypershot : pic de joueurs simultanés relevé",
+   "l": "[🔥UPD] Hypershot : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-30.csv#L58"
   },
   "g.5995470825.heure_pic": {
    "v": "15:58",
    "d": "15 h 58",
-   "l": "🔥Hypershot : heure (Paris) du pic relevé",
+   "l": "[🔥UPD] Hypershot : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-30.csv#L58"
   },
   "g.5995470825.moy": {
    "v": 23232,
    "d": "23 232",
-   "l": "🔥Hypershot : moyenne des joueurs simultanés sur la journée",
+   "l": "[🔥UPD] Hypershot : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-30.csv#L58"
   },
   "g.5995470825.createur": {
    "v": "Frosted Studio",
    "d": "Frosted Studio",
-   "l": "🔥Hypershot : créateur",
+   "l": "[🔥UPD] Hypershot : créateur",
    "src": "data/jours/2026-10-30.csv#L58"
   },
   "g.5995470825.genre": {
    "v": "Shooter",
    "d": "Tir",
-   "l": "🔥Hypershot : genre",
+   "l": "[🔥UPD] Hypershot : genre",
    "src": "data/jours/2026-10-30.csv#L58"
   },
   "g.5995470825.var_veille": {
    "v": 0.1162,
    "d": "+11,6 %",
-   "l": "🔥Hypershot : variation de la moyenne par rapport à la veille",
+   "l": "[🔥UPD] Hypershot : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-30.csv#L58"
   },
   "g.5995470825.moy_veille": {
    "v": 20814,
    "d": "20 814",
-   "l": "🔥Hypershot : moyenne de la veille",
+   "l": "[🔥UPD] Hypershot : moyenne de la veille",
    "src": "data/jours/2026-10-30.csv#L58"
   },
   "g.5995470825.visites_24h": {
    "v": 2489841,
    "d": "2,49 millions",
-   "l": "🔥Hypershot : visites gagnées en 24 h",
+   "l": "[🔥UPD] Hypershot : visites gagnées en 24 h",
    "src": "data/jours/2026-10-30.csv#L58"
   },
   "g.5995470825.visites_total": {
    "v": 1396897687,
    "d": "1,4 milliard",
-   "l": "🔥Hypershot : visites cumulées depuis la création",
+   "l": "[🔥UPD] Hypershot : visites cumulées depuis la création",
    "src": "data/jours/2026-10-30.csv#L58"
   },
   "g.5995470825.note": {
    "v": 0.944,
    "d": "94,4 %",
-   "l": "🔥Hypershot : part de votes positifs",
+   "l": "[🔥UPD] Hypershot : part de votes positifs",
    "src": "data/jours/2026-10-30.csv#L58"
   },
   "g.5995470825.rang_veille": {
    "v": 58,
    "d": "58e",
-   "l": "🔥Hypershot : rang la veille",
+   "l": "[🔥UPD] Hypershot : rang la veille",
    "src": "data/jours/2026-10-30.csv#L58"
   },
   "g.10768383600.nom": {
