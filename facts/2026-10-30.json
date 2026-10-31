@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-30",
- "genere": "2026-10-31T15:39:17Z",
+ "genere": "2026-10-31T16:40:57Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -387,8 +387,8 @@
    "src": "data/jours/2026-10-30.csv#L5"
   },
   "top.5.nom": {
-   "v": "[SOON!🎉] Adopt Me!",
-   "d": "[SOON!🎉] Adopt Me!",
+   "v": "[2X!🎉] Adopt Me!",
+   "d": "[2X!🎉] Adopt Me!",
    "l": "N° 5 du jour : nom",
    "src": "data/jours/2026-10-30.csv#L6"
   },
@@ -1167,81 +1167,81 @@
    "src": "data/jours/2026-10-30.csv#L5"
   },
   "g.383310974.nom": {
-   "v": "[SOON!🎉] Adopt Me!",
-   "d": "[SOON!🎉] Adopt Me!",
-   "l": "[SOON!🎉] Adopt Me! : nom",
+   "v": "[2X!🎉] Adopt Me!",
+   "d": "[2X!🎉] Adopt Me!",
+   "l": "[2X!🎉] Adopt Me! : nom",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.rang": {
    "v": 5,
    "d": "5e",
-   "l": "[SOON!🎉] Adopt Me! : rang au pic du jour",
+   "l": "[2X!🎉] Adopt Me! : rang au pic du jour",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.pic": {
    "v": 318123,
    "d": "318 123",
-   "l": "[SOON!🎉] Adopt Me! : pic de joueurs simultanés relevé",
+   "l": "[2X!🎉] Adopt Me! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.heure_pic": {
    "v": "16:53",
    "d": "16 h 53",
-   "l": "[SOON!🎉] Adopt Me! : heure (Paris) du pic relevé",
+   "l": "[2X!🎉] Adopt Me! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.moy": {
    "v": 246392,
    "d": "246 392",
-   "l": "[SOON!🎉] Adopt Me! : moyenne des joueurs simultanés sur la journée",
+   "l": "[2X!🎉] Adopt Me! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.createur": {
    "v": "Uplift Games",
    "d": "Uplift Games",
-   "l": "[SOON!🎉] Adopt Me! : créateur",
+   "l": "[2X!🎉] Adopt Me! : créateur",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "[SOON!🎉] Adopt Me! : genre",
+   "l": "[2X!🎉] Adopt Me! : genre",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.var_veille": {
    "v": 0.2704,
    "d": "+27,0 %",
-   "l": "[SOON!🎉] Adopt Me! : variation de la moyenne par rapport à la veille",
+   "l": "[2X!🎉] Adopt Me! : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.moy_veille": {
    "v": 193942,
    "d": "193 942",
-   "l": "[SOON!🎉] Adopt Me! : moyenne de la veille",
+   "l": "[2X!🎉] Adopt Me! : moyenne de la veille",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.visites_24h": {
    "v": 11012452,
    "d": "11,01 millions",
-   "l": "[SOON!🎉] Adopt Me! : visites gagnées en 24 h",
+   "l": "[2X!🎉] Adopt Me! : visites gagnées en 24 h",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.visites_total": {
    "v": 45266685744,
    "d": "45,27 milliards",
-   "l": "[SOON!🎉] Adopt Me! : visites cumulées depuis la création",
+   "l": "[2X!🎉] Adopt Me! : visites cumulées depuis la création",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.note": {
    "v": 0.8637,
    "d": "86,4 %",
-   "l": "[SOON!🎉] Adopt Me! : part de votes positifs",
+   "l": "[2X!🎉] Adopt Me! : part de votes positifs",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.383310974.rang_veille": {
    "v": 6,
    "d": "6e",
-   "l": "[SOON!🎉] Adopt Me! : rang la veille",
+   "l": "[2X!🎉] Adopt Me! : rang la veille",
    "src": "data/jours/2026-10-30.csv#L6"
   },
   "g.7326934954.nom": {
@@ -2259,81 +2259,81 @@
    "src": "data/jours/2026-10-30.csv#L19"
   },
   "g.3317771874.nom": {
-   "v": "🎉 [PSX] Pet Simulator 99! 🐾",
-   "d": "🎉 [PSX] Pet Simulator 99! 🐾",
-   "l": "🎉 [PSX] Pet Simulator 99! 🐾 : nom",
+   "v": "🎃 [MINIGAMES] Pet Simulator 99! 👻",
+   "d": "🎃 [MINIGAMES] Pet Simulator 99! 👻",
+   "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : nom",
    "src": "data/jours/2026-10-30.csv#L20"
   },
   "g.3317771874.rang": {
    "v": 19,
    "d": "19e",
-   "l": "🎉 [PSX] Pet Simulator 99! 🐾 : rang au pic du jour",
+   "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : rang au pic du jour",
    "src": "data/jours/2026-10-30.csv#L20"
   },
   "g.3317771874.pic": {
    "v": 77358,
    "d": "77 358",
-   "l": "🎉 [PSX] Pet Simulator 99! 🐾 : pic de joueurs simultanés relevé",
+   "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-30.csv#L20"
   },
   "g.3317771874.heure_pic": {
    "v": "16:53",
    "d": "16 h 53",
-   "l": "🎉 [PSX] Pet Simulator 99! 🐾 : heure (Paris) du pic relevé",
+   "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-30.csv#L20"
   },
   "g.3317771874.moy": {
    "v": 65745,
    "d": "65 745",
-   "l": "🎉 [PSX] Pet Simulator 99! 🐾 : moyenne des joueurs simultanés sur la journée",
+   "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-30.csv#L20"
   },
   "g.3317771874.createur": {
    "v": "BIG Games Pets",
    "d": "BIG Games Pets",
-   "l": "🎉 [PSX] Pet Simulator 99! 🐾 : créateur",
+   "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : créateur",
    "src": "data/jours/2026-10-30.csv#L20"
   },
   "g.3317771874.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "🎉 [PSX] Pet Simulator 99! 🐾 : genre",
+   "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : genre",
    "src": "data/jours/2026-10-30.csv#L20"
   },
   "g.3317771874.var_veille": {
    "v": 0.0454,
    "d": "+4,5 %",
-   "l": "🎉 [PSX] Pet Simulator 99! 🐾 : variation de la moyenne par rapport à la veille",
+   "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-30.csv#L20"
   },
   "g.3317771874.moy_veille": {
    "v": 62888,
    "d": "62 888",
-   "l": "🎉 [PSX] Pet Simulator 99! 🐾 : moyenne de la veille",
+   "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : moyenne de la veille",
    "src": "data/jours/2026-10-30.csv#L20"
   },
   "g.3317771874.visites_24h": {
    "v": 1284160,
    "d": "1,28 million",
-   "l": "🎉 [PSX] Pet Simulator 99! 🐾 : visites gagnées en 24 h",
+   "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : visites gagnées en 24 h",
    "src": "data/jours/2026-10-30.csv#L20"
   },
   "g.3317771874.visites_total": {
    "v": 2688083000,
    "d": "2,69 milliards",
-   "l": "🎉 [PSX] Pet Simulator 99! 🐾 : visites cumulées depuis la création",
+   "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : visites cumulées depuis la création",
    "src": "data/jours/2026-10-30.csv#L20"
   },
   "g.3317771874.note": {
    "v": 0.9474,
    "d": "94,7 %",
-   "l": "🎉 [PSX] Pet Simulator 99! 🐾 : part de votes positifs",
+   "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : part de votes positifs",
    "src": "data/jours/2026-10-30.csv#L20"
   },
   "g.3317771874.rang_veille": {
    "v": 16,
    "d": "16e",
-   "l": "🎉 [PSX] Pet Simulator 99! 🐾 : rang la veille",
+   "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : rang la veille",
    "src": "data/jours/2026-10-30.csv#L20"
   },
   "g.2711375305.nom": {
@@ -9205,7 +9205,7 @@
      "valeur": 325364
     },
     {
-     "nom": "[SOON!🎉] Adopt Me!",
+     "nom": "[2X!🎉] Adopt Me!",
      "valeur": 318123
     },
     {
