@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-30",
- "genere": "2026-10-31T17:37:44Z",
+ "genere": "2026-10-31T18:46:21Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -2493,81 +2493,81 @@
    "src": "data/jours/2026-10-30.csv#L22"
   },
   "g.3647333358.nom": {
-   "v": "[SOON 🎃HLWN] Evade ",
-   "d": "[SOON 🎃HLWN] Evade ",
-   "l": "[SOON 🎃HLWN] Evade  : nom",
+   "v": "[🎃THE HOLLOW🎃] Evade ",
+   "d": "[🎃THE HOLLOW🎃] Evade ",
+   "l": "[🎃THE HOLLOW🎃] Evade  : nom",
    "src": "data/jours/2026-10-30.csv#L23"
   },
   "g.3647333358.rang": {
    "v": 22,
    "d": "22e",
-   "l": "[SOON 🎃HLWN] Evade  : rang au pic du jour",
+   "l": "[🎃THE HOLLOW🎃] Evade  : rang au pic du jour",
    "src": "data/jours/2026-10-30.csv#L23"
   },
   "g.3647333358.pic": {
    "v": 69270,
    "d": "69 270",
-   "l": "[SOON 🎃HLWN] Evade  : pic de joueurs simultanés relevé",
+   "l": "[🎃THE HOLLOW🎃] Evade  : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-30.csv#L23"
   },
   "g.3647333358.heure_pic": {
    "v": "13:56",
    "d": "13 h 56",
-   "l": "[SOON 🎃HLWN] Evade  : heure (Paris) du pic relevé",
+   "l": "[🎃THE HOLLOW🎃] Evade  : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-30.csv#L23"
   },
   "g.3647333358.moy": {
    "v": 46580,
    "d": "46 580",
-   "l": "[SOON 🎃HLWN] Evade  : moyenne des joueurs simultanés sur la journée",
+   "l": "[🎃THE HOLLOW🎃] Evade  : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-30.csv#L23"
   },
   "g.3647333358.createur": {
    "v": "Hexagon Development Community",
    "d": "Hexagon Development Community",
-   "l": "[SOON 🎃HLWN] Evade  : créateur",
+   "l": "[🎃THE HOLLOW🎃] Evade  : créateur",
    "src": "data/jours/2026-10-30.csv#L23"
   },
   "g.3647333358.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "[SOON 🎃HLWN] Evade  : genre",
+   "l": "[🎃THE HOLLOW🎃] Evade  : genre",
    "src": "data/jours/2026-10-30.csv#L23"
   },
   "g.3647333358.var_veille": {
    "v": 0.1066,
    "d": "+10,7 %",
-   "l": "[SOON 🎃HLWN] Evade  : variation de la moyenne par rapport à la veille",
+   "l": "[🎃THE HOLLOW🎃] Evade  : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-30.csv#L23"
   },
   "g.3647333358.moy_veille": {
    "v": 42094,
    "d": "42 094",
-   "l": "[SOON 🎃HLWN] Evade  : moyenne de la veille",
+   "l": "[🎃THE HOLLOW🎃] Evade  : moyenne de la veille",
    "src": "data/jours/2026-10-30.csv#L23"
   },
   "g.3647333358.visites_24h": {
    "v": 5443408,
    "d": "5,44 millions",
-   "l": "[SOON 🎃HLWN] Evade  : visites gagnées en 24 h",
+   "l": "[🎃THE HOLLOW🎃] Evade  : visites gagnées en 24 h",
    "src": "data/jours/2026-10-30.csv#L23"
   },
   "g.3647333358.visites_total": {
    "v": 9407001686,
    "d": "9,41 milliards",
-   "l": "[SOON 🎃HLWN] Evade  : visites cumulées depuis la création",
+   "l": "[🎃THE HOLLOW🎃] Evade  : visites cumulées depuis la création",
    "src": "data/jours/2026-10-30.csv#L23"
   },
   "g.3647333358.note": {
    "v": 0.939,
    "d": "93,9 %",
-   "l": "[SOON 🎃HLWN] Evade  : part de votes positifs",
+   "l": "[🎃THE HOLLOW🎃] Evade  : part de votes positifs",
    "src": "data/jours/2026-10-30.csv#L23"
   },
   "g.3647333358.rang_veille": {
    "v": 22,
    "d": "22e",
-   "l": "[SOON 🎃HLWN] Evade  : rang la veille",
+   "l": "[🎃THE HOLLOW🎃] Evade  : rang la veille",
    "src": "data/jours/2026-10-30.csv#L23"
   },
   "g.10708913337.nom": {
@@ -2883,81 +2883,81 @@
    "src": "data/jours/2026-10-30.csv#L27"
   },
   "g.9584852943.nom": {
-   "v": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate",
-   "d": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : nom",
+   "v": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "d": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "l": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate : nom",
    "src": "data/jours/2026-10-30.csv#L28"
   },
   "g.9584852943.rang": {
    "v": 27,
    "d": "27e",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
+   "l": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
    "src": "data/jours/2026-10-30.csv#L28"
   },
   "g.9584852943.pic": {
    "v": 56629,
    "d": "56 629",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
+   "l": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-30.csv#L28"
   },
   "g.9584852943.heure_pic": {
    "v": "16:53",
    "d": "16 h 53",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
+   "l": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-30.csv#L28"
   },
   "g.9584852943.moy": {
    "v": 34505,
    "d": "34 505",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
+   "l": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-30.csv#L28"
   },
   "g.9584852943.createur": {
    "v": "SecretVerse Studio",
    "d": "SecretVerse Studio",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : créateur",
+   "l": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate : créateur",
    "src": "data/jours/2026-10-30.csv#L28"
   },
   "g.9584852943.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : genre",
+   "l": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate : genre",
    "src": "data/jours/2026-10-30.csv#L28"
   },
   "g.9584852943.var_veille": {
    "v": 0.1073,
    "d": "+10,7 %",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport à la veille",
+   "l": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-30.csv#L28"
   },
   "g.9584852943.moy_veille": {
    "v": 31160,
    "d": "31 160",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne de la veille",
+   "l": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne de la veille",
    "src": "data/jours/2026-10-30.csv#L28"
   },
   "g.9584852943.visites_24h": {
    "v": 6486802,
    "d": "6,49 millions",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : visites gagnées en 24 h",
+   "l": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate : visites gagnées en 24 h",
    "src": "data/jours/2026-10-30.csv#L28"
   },
   "g.9584852943.visites_total": {
    "v": 6620649436,
    "d": "6,62 milliards",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
+   "l": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
    "src": "data/jours/2026-10-30.csv#L28"
   },
   "g.9584852943.note": {
    "v": 0.9673,
    "d": "96,7 %",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
+   "l": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
    "src": "data/jours/2026-10-30.csv#L28"
   },
   "g.9584852943.rang_veille": {
    "v": 30,
    "d": "30e",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : rang la veille",
+   "l": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate : rang la veille",
    "src": "data/jours/2026-10-30.csv#L28"
   },
   "g.6931042565.nom": {
@@ -3429,81 +3429,81 @@
    "src": "data/jours/2026-10-30.csv#L34"
   },
   "g.10764627709.nom": {
-   "v": "[Pt. 4 🎃] Huss Valley",
-   "d": "[Pt. 4 🎃] Huss Valley",
-   "l": "[Pt. 4 🎃] Huss Valley : nom",
+   "v": "[BOSS🎃] Huss Valley",
+   "d": "[BOSS🎃] Huss Valley",
+   "l": "[BOSS🎃] Huss Valley : nom",
    "src": "data/jours/2026-10-30.csv#L35"
   },
   "g.10764627709.rang": {
    "v": 34,
    "d": "34e",
-   "l": "[Pt. 4 🎃] Huss Valley : rang au pic du jour",
+   "l": "[BOSS🎃] Huss Valley : rang au pic du jour",
    "src": "data/jours/2026-10-30.csv#L35"
   },
   "g.10764627709.pic": {
    "v": 50725,
    "d": "50 725",
-   "l": "[Pt. 4 🎃] Huss Valley : pic de joueurs simultanés relevé",
+   "l": "[BOSS🎃] Huss Valley : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-30.csv#L35"
   },
   "g.10764627709.heure_pic": {
    "v": "21:42",
    "d": "21 h 42",
-   "l": "[Pt. 4 🎃] Huss Valley : heure (Paris) du pic relevé",
+   "l": "[BOSS🎃] Huss Valley : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-30.csv#L35"
   },
   "g.10764627709.moy": {
    "v": 37632,
    "d": "37 632",
-   "l": "[Pt. 4 🎃] Huss Valley : moyenne des joueurs simultanés sur la journée",
+   "l": "[BOSS🎃] Huss Valley : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-30.csv#L35"
   },
   "g.10764627709.createur": {
    "v": "Huss Valley Official",
    "d": "Huss Valley Official",
-   "l": "[Pt. 4 🎃] Huss Valley : créateur",
+   "l": "[BOSS🎃] Huss Valley : créateur",
    "src": "data/jours/2026-10-30.csv#L35"
   },
   "g.10764627709.genre": {
    "v": "Action",
    "d": "Action",
-   "l": "[Pt. 4 🎃] Huss Valley : genre",
+   "l": "[BOSS🎃] Huss Valley : genre",
    "src": "data/jours/2026-10-30.csv#L35"
   },
   "g.10764627709.var_veille": {
    "v": 0.1015,
    "d": "+10,2 %",
-   "l": "[Pt. 4 🎃] Huss Valley : variation de la moyenne par rapport à la veille",
+   "l": "[BOSS🎃] Huss Valley : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-30.csv#L35"
   },
   "g.10764627709.moy_veille": {
    "v": 34165,
    "d": "34 165",
-   "l": "[Pt. 4 🎃] Huss Valley : moyenne de la veille",
+   "l": "[BOSS🎃] Huss Valley : moyenne de la veille",
    "src": "data/jours/2026-10-30.csv#L35"
   },
   "g.10764627709.visites_24h": {
    "v": 4650173,
    "d": "4,65 millions",
-   "l": "[Pt. 4 🎃] Huss Valley : visites gagnées en 24 h",
+   "l": "[BOSS🎃] Huss Valley : visites gagnées en 24 h",
    "src": "data/jours/2026-10-30.csv#L35"
   },
   "g.10764627709.visites_total": {
    "v": 220315917,
    "d": "220,32 millions",
-   "l": "[Pt. 4 🎃] Huss Valley : visites cumulées depuis la création",
+   "l": "[BOSS🎃] Huss Valley : visites cumulées depuis la création",
    "src": "data/jours/2026-10-30.csv#L35"
   },
   "g.10764627709.note": {
    "v": 0.8771,
    "d": "87,7 %",
-   "l": "[Pt. 4 🎃] Huss Valley : part de votes positifs",
+   "l": "[BOSS🎃] Huss Valley : part de votes positifs",
    "src": "data/jours/2026-10-30.csv#L35"
   },
   "g.10764627709.rang_veille": {
    "v": 37,
    "d": "37e",
-   "l": "[Pt. 4 🎃] Huss Valley : rang la veille",
+   "l": "[BOSS🎃] Huss Valley : rang la veille",
    "src": "data/jours/2026-10-30.csv#L35"
   },
   "g.3240075297.nom": {
