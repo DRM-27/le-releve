@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-30",
- "genere": "2026-10-31T03:48:21Z",
+ "genere": "2026-10-31T04:47:17Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -4131,81 +4131,81 @@
    "src": "data/jours/2026-10-30.csv#L43"
   },
   "g.10148749921.nom": {
-   "v": "[🎃] Animal Hospital (Anomaly) 🧪",
-   "d": "[🎃] Animal Hospital (Anomaly) 🧪",
-   "l": "[🎃] Animal Hospital (Anomaly) 🧪 : nom",
+   "v": "[x2 🏆] Animal Hospital (Anomaly) 🧪",
+   "d": "[x2 🏆] Animal Hospital (Anomaly) 🧪",
+   "l": "[x2 🏆] Animal Hospital (Anomaly) 🧪 : nom",
    "src": "data/jours/2026-10-30.csv#L44"
   },
   "g.10148749921.rang": {
    "v": 43,
    "d": "43e",
-   "l": "[🎃] Animal Hospital (Anomaly) 🧪 : rang au pic du jour",
+   "l": "[x2 🏆] Animal Hospital (Anomaly) 🧪 : rang au pic du jour",
    "src": "data/jours/2026-10-30.csv#L44"
   },
   "g.10148749921.pic": {
    "v": 43147,
    "d": "43 147",
-   "l": "[🎃] Animal Hospital (Anomaly) 🧪 : pic de joueurs simultanés relevé",
+   "l": "[x2 🏆] Animal Hospital (Anomaly) 🧪 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-30.csv#L44"
   },
   "g.10148749921.heure_pic": {
    "v": "15:58",
    "d": "15 h 58",
-   "l": "[🎃] Animal Hospital (Anomaly) 🧪 : heure (Paris) du pic relevé",
+   "l": "[x2 🏆] Animal Hospital (Anomaly) 🧪 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-30.csv#L44"
   },
   "g.10148749921.moy": {
    "v": 32395,
    "d": "32 395",
-   "l": "[🎃] Animal Hospital (Anomaly) 🧪 : moyenne des joueurs simultanés sur la journée",
+   "l": "[x2 🏆] Animal Hospital (Anomaly) 🧪 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-30.csv#L44"
   },
   "g.10148749921.createur": {
    "v": "Animal Anomaly",
    "d": "Animal Anomaly",
-   "l": "[🎃] Animal Hospital (Anomaly) 🧪 : créateur",
+   "l": "[x2 🏆] Animal Hospital (Anomaly) 🧪 : créateur",
    "src": "data/jours/2026-10-30.csv#L44"
   },
   "g.10148749921.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "[🎃] Animal Hospital (Anomaly) 🧪 : genre",
+   "l": "[x2 🏆] Animal Hospital (Anomaly) 🧪 : genre",
    "src": "data/jours/2026-10-30.csv#L44"
   },
   "g.10148749921.var_veille": {
    "v": 0.0206,
    "d": "+2,1 %",
-   "l": "[🎃] Animal Hospital (Anomaly) 🧪 : variation de la moyenne par rapport à la veille",
+   "l": "[x2 🏆] Animal Hospital (Anomaly) 🧪 : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-30.csv#L44"
   },
   "g.10148749921.moy_veille": {
    "v": 31740,
    "d": "31 740",
-   "l": "[🎃] Animal Hospital (Anomaly) 🧪 : moyenne de la veille",
+   "l": "[x2 🏆] Animal Hospital (Anomaly) 🧪 : moyenne de la veille",
    "src": "data/jours/2026-10-30.csv#L44"
   },
   "g.10148749921.visites_24h": {
    "v": 3679947,
    "d": "3,68 millions",
-   "l": "[🎃] Animal Hospital (Anomaly) 🧪 : visites gagnées en 24 h",
+   "l": "[x2 🏆] Animal Hospital (Anomaly) 🧪 : visites gagnées en 24 h",
    "src": "data/jours/2026-10-30.csv#L44"
   },
   "g.10148749921.visites_total": {
    "v": 2489160478,
    "d": "2,49 milliards",
-   "l": "[🎃] Animal Hospital (Anomaly) 🧪 : visites cumulées depuis la création",
+   "l": "[x2 🏆] Animal Hospital (Anomaly) 🧪 : visites cumulées depuis la création",
    "src": "data/jours/2026-10-30.csv#L44"
   },
   "g.10148749921.note": {
    "v": 0.9313,
    "d": "93,1 %",
-   "l": "[🎃] Animal Hospital (Anomaly) 🧪 : part de votes positifs",
+   "l": "[x2 🏆] Animal Hospital (Anomaly) 🧪 : part de votes positifs",
    "src": "data/jours/2026-10-30.csv#L44"
   },
   "g.10148749921.rang_veille": {
    "v": 41,
    "d": "41e",
-   "l": "[🎃] Animal Hospital (Anomaly) 🧪 : rang la veille",
+   "l": "[x2 🏆] Animal Hospital (Anomaly) 🧪 : rang la veille",
    "src": "data/jours/2026-10-30.csv#L44"
   },
   "g.1831550657.nom": {
