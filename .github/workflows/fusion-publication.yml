@@ -1,0 +1,44 @@
+name: Fusion des publications (branches claude/*)
+
+# Les tâches planifiées de Claude ne peuvent pousser que sur leur propre branche claude/…
+# Ce workflow ramène sur main les commits qui ne touchent QUE des articles, brouillons ou posts,
+# puis relance la construction du site. Tout autre changement reste sur sa branche.
+on:
+  push:
+    branches: ["claude/**"]
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: releve
+  cancel-in-progress: false
+
+jobs:
+  fusion:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Vérifier que seuls des contenus ont changé, puis fusionner
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "releve-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch -q origin main
+          BASE=$(git merge-base origin/main HEAD)
+          FILES=$(git diff --name-only "$BASE" HEAD)
+          [ -z "$FILES" ] && { echo "Rien à fusionner."; exit 0; }
+          echo "$FILES"
+          if echo "$FILES" | grep -qvE '^(content/articles/|content/i18n/[a-z-]+/articles/|drafts/|social/)'; then
+            echo "::warning::Branche non fusionnée : elle touche autre chose que des articles, brouillons ou posts."
+            exit 0
+          fi
+          COMMITS=$(git rev-list --reverse "$BASE"..HEAD)
+          git checkout -q -B main origin/main
+          for c in $COMMITS; do git cherry-pick -X theirs "$c" || { git cherry-pick --abort; echo "::error::Conflit sur $c"; exit 1; }; done
+          for i in 1 2 3; do git pull -q --rebase -X theirs origin main && git push -q origin main && break; sleep 5; done
+          gh workflow run releve.yml --ref main
