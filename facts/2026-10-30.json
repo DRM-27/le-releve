@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-30",
- "genere": "2026-10-31T13:28:09Z",
+ "genere": "2026-10-31T13:48:03Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -2415,81 +2415,81 @@
    "src": "data/jours/2026-10-30.csv#L21"
   },
   "g.5750914919.nom": {
-   "v": "Fisch 🎃",
-   "d": "Fisch 🎃",
-   "l": "Fisch 🎃 : nom",
+   "v": "Fisch 🎃 [SOON]",
+   "d": "Fisch 🎃 [SOON]",
+   "l": "Fisch 🎃 [SOON] : nom",
    "src": "data/jours/2026-10-30.csv#L22"
   },
   "g.5750914919.rang": {
    "v": 21,
    "d": "21e",
-   "l": "Fisch 🎃 : rang au pic du jour",
+   "l": "Fisch 🎃 [SOON] : rang au pic du jour",
    "src": "data/jours/2026-10-30.csv#L22"
   },
   "g.5750914919.pic": {
    "v": 73563,
    "d": "73 563",
-   "l": "Fisch 🎃 : pic de joueurs simultanés relevé",
+   "l": "Fisch 🎃 [SOON] : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-30.csv#L22"
   },
   "g.5750914919.heure_pic": {
    "v": "15:58",
    "d": "15 h 58",
-   "l": "Fisch 🎃 : heure (Paris) du pic relevé",
+   "l": "Fisch 🎃 [SOON] : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-30.csv#L22"
   },
   "g.5750914919.moy": {
    "v": 57966,
    "d": "57 966",
-   "l": "Fisch 🎃 : moyenne des joueurs simultanés sur la journée",
+   "l": "Fisch 🎃 [SOON] : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-30.csv#L22"
   },
   "g.5750914919.createur": {
    "v": "Fisching",
    "d": "Fisching",
-   "l": "Fisch 🎃 : créateur",
+   "l": "Fisch 🎃 [SOON] : créateur",
    "src": "data/jours/2026-10-30.csv#L22"
   },
   "g.5750914919.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "Fisch 🎃 : genre",
+   "l": "Fisch 🎃 [SOON] : genre",
    "src": "data/jours/2026-10-30.csv#L22"
   },
   "g.5750914919.var_veille": {
    "v": 0.0888,
    "d": "+8,9 %",
-   "l": "Fisch 🎃 : variation de la moyenne par rapport à la veille",
+   "l": "Fisch 🎃 [SOON] : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-30.csv#L22"
   },
   "g.5750914919.moy_veille": {
    "v": 53238,
    "d": "53 238",
-   "l": "Fisch 🎃 : moyenne de la veille",
+   "l": "Fisch 🎃 [SOON] : moyenne de la veille",
    "src": "data/jours/2026-10-30.csv#L22"
   },
   "g.5750914919.visites_24h": {
    "v": 3033490,
    "d": "3,03 millions",
-   "l": "Fisch 🎃 : visites gagnées en 24 h",
+   "l": "Fisch 🎃 [SOON] : visites gagnées en 24 h",
    "src": "data/jours/2026-10-30.csv#L22"
   },
   "g.5750914919.visites_total": {
    "v": 5080947027,
    "d": "5,08 milliards",
-   "l": "Fisch 🎃 : visites cumulées depuis la création",
+   "l": "Fisch 🎃 [SOON] : visites cumulées depuis la création",
    "src": "data/jours/2026-10-30.csv#L22"
   },
   "g.5750914919.note": {
    "v": 0.9081,
    "d": "90,8 %",
-   "l": "Fisch 🎃 : part de votes positifs",
+   "l": "Fisch 🎃 [SOON] : part de votes positifs",
    "src": "data/jours/2026-10-30.csv#L22"
   },
   "g.5750914919.rang_veille": {
    "v": 23,
    "d": "23e",
-   "l": "Fisch 🎃 : rang la veille",
+   "l": "Fisch 🎃 [SOON] : rang la veille",
    "src": "data/jours/2026-10-30.csv#L22"
   },
   "g.3647333358.nom": {
