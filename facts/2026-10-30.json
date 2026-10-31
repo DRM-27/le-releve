@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-30",
- "genere": "2026-10-31T19:41:16Z",
+ "genere": "2026-10-31T20:40:10Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -2649,81 +2649,81 @@
    "src": "data/jours/2026-10-30.csv#L24"
   },
   "g.6701277882.nom": {
-   "v": "[6 HRS] Fish It! 🐟",
-   "d": "[6 HRS] Fish It! 🐟",
-   "l": "[6 HRS] Fish It! 🐟 : nom",
+   "v": "[5 HRS] Fish It! 🐟",
+   "d": "[5 HRS] Fish It! 🐟",
+   "l": "[5 HRS] Fish It! 🐟 : nom",
    "src": "data/jours/2026-10-30.csv#L25"
   },
   "g.6701277882.rang": {
    "v": 24,
    "d": "24e",
-   "l": "[6 HRS] Fish It! 🐟 : rang au pic du jour",
+   "l": "[5 HRS] Fish It! 🐟 : rang au pic du jour",
    "src": "data/jours/2026-10-30.csv#L25"
   },
   "g.6701277882.pic": {
    "v": 66827,
    "d": "66 827",
-   "l": "[6 HRS] Fish It! 🐟 : pic de joueurs simultanés relevé",
+   "l": "[5 HRS] Fish It! 🐟 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-30.csv#L25"
   },
   "g.6701277882.heure_pic": {
    "v": "19:48",
    "d": "19 h 48",
-   "l": "[6 HRS] Fish It! 🐟 : heure (Paris) du pic relevé",
+   "l": "[5 HRS] Fish It! 🐟 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-30.csv#L25"
   },
   "g.6701277882.moy": {
    "v": 64239,
    "d": "64 239",
-   "l": "[6 HRS] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
+   "l": "[5 HRS] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-30.csv#L25"
   },
   "g.6701277882.createur": {
    "v": "Fish Atelier",
    "d": "Fish Atelier",
-   "l": "[6 HRS] Fish It! 🐟 : créateur",
+   "l": "[5 HRS] Fish It! 🐟 : créateur",
    "src": "data/jours/2026-10-30.csv#L25"
   },
   "g.6701277882.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[6 HRS] Fish It! 🐟 : genre",
+   "l": "[5 HRS] Fish It! 🐟 : genre",
    "src": "data/jours/2026-10-30.csv#L25"
   },
   "g.6701277882.var_veille": {
    "v": 0.0071,
    "d": "+0,7 %",
-   "l": "[6 HRS] Fish It! 🐟 : variation de la moyenne par rapport à la veille",
+   "l": "[5 HRS] Fish It! 🐟 : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-30.csv#L25"
   },
   "g.6701277882.moy_veille": {
    "v": 63789,
    "d": "63 789",
-   "l": "[6 HRS] Fish It! 🐟 : moyenne de la veille",
+   "l": "[5 HRS] Fish It! 🐟 : moyenne de la veille",
    "src": "data/jours/2026-10-30.csv#L25"
   },
   "g.6701277882.visites_24h": {
    "v": 1425960,
    "d": "1,43 million",
-   "l": "[6 HRS] Fish It! 🐟 : visites gagnées en 24 h",
+   "l": "[5 HRS] Fish It! 🐟 : visites gagnées en 24 h",
    "src": "data/jours/2026-10-30.csv#L25"
   },
   "g.6701277882.visites_total": {
    "v": 4807461975,
    "d": "4,81 milliards",
-   "l": "[6 HRS] Fish It! 🐟 : visites cumulées depuis la création",
+   "l": "[5 HRS] Fish It! 🐟 : visites cumulées depuis la création",
    "src": "data/jours/2026-10-30.csv#L25"
   },
   "g.6701277882.note": {
    "v": 0.8283,
    "d": "82,8 %",
-   "l": "[6 HRS] Fish It! 🐟 : part de votes positifs",
+   "l": "[5 HRS] Fish It! 🐟 : part de votes positifs",
    "src": "data/jours/2026-10-30.csv#L25"
   },
   "g.6701277882.rang_veille": {
    "v": 21,
    "d": "21e",
-   "l": "[6 HRS] Fish It! 🐟 : rang la veille",
+   "l": "[5 HRS] Fish It! 🐟 : rang la veille",
    "src": "data/jours/2026-10-30.csv#L25"
   },
   "g.1176784616.nom": {
@@ -3897,81 +3897,81 @@
    "src": "data/jours/2026-10-30.csv#L40"
   },
   "g.10768284407.nom": {
-   "v": "🛡️[S1] Bike Universe",
-   "d": "🛡️[S1] Bike Universe",
-   "l": "🛡️[S1] Bike Universe : nom",
+   "v": "🛡️ [S1] Bike Universe",
+   "d": "🛡️ [S1] Bike Universe",
+   "l": "🛡️ [S1] Bike Universe : nom",
    "src": "data/jours/2026-10-30.csv#L41"
   },
   "g.10768284407.rang": {
    "v": 40,
    "d": "40e",
-   "l": "🛡️[S1] Bike Universe : rang au pic du jour",
+   "l": "🛡️ [S1] Bike Universe : rang au pic du jour",
    "src": "data/jours/2026-10-30.csv#L41"
   },
   "g.10768284407.pic": {
    "v": 45260,
    "d": "45 260",
-   "l": "🛡️[S1] Bike Universe : pic de joueurs simultanés relevé",
+   "l": "🛡️ [S1] Bike Universe : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-30.csv#L41"
   },
   "g.10768284407.heure_pic": {
    "v": "18:44",
    "d": "18 h 44",
-   "l": "🛡️[S1] Bike Universe : heure (Paris) du pic relevé",
+   "l": "🛡️ [S1] Bike Universe : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-30.csv#L41"
   },
   "g.10768284407.moy": {
    "v": 34770,
    "d": "34 770",
-   "l": "🛡️[S1] Bike Universe : moyenne des joueurs simultanés sur la journée",
+   "l": "🛡️ [S1] Bike Universe : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-30.csv#L41"
   },
   "g.10768284407.createur": {
    "v": "Bike Universe",
    "d": "Bike Universe",
-   "l": "🛡️[S1] Bike Universe : créateur",
+   "l": "🛡️ [S1] Bike Universe : créateur",
    "src": "data/jours/2026-10-30.csv#L41"
   },
   "g.10768284407.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "🛡️[S1] Bike Universe : genre",
+   "l": "🛡️ [S1] Bike Universe : genre",
    "src": "data/jours/2026-10-30.csv#L41"
   },
   "g.10768284407.var_veille": {
    "v": 0.094,
    "d": "+9,4 %",
-   "l": "🛡️[S1] Bike Universe : variation de la moyenne par rapport à la veille",
+   "l": "🛡️ [S1] Bike Universe : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-30.csv#L41"
   },
   "g.10768284407.moy_veille": {
    "v": 31781,
    "d": "31 781",
-   "l": "🛡️[S1] Bike Universe : moyenne de la veille",
+   "l": "🛡️ [S1] Bike Universe : moyenne de la veille",
    "src": "data/jours/2026-10-30.csv#L41"
   },
   "g.10768284407.visites_24h": {
    "v": 4230691,
    "d": "4,23 millions",
-   "l": "🛡️[S1] Bike Universe : visites gagnées en 24 h",
+   "l": "🛡️ [S1] Bike Universe : visites gagnées en 24 h",
    "src": "data/jours/2026-10-30.csv#L41"
   },
   "g.10768284407.visites_total": {
    "v": 48227743,
    "d": "48,23 millions",
-   "l": "🛡️[S1] Bike Universe : visites cumulées depuis la création",
+   "l": "🛡️ [S1] Bike Universe : visites cumulées depuis la création",
    "src": "data/jours/2026-10-30.csv#L41"
   },
   "g.10768284407.note": {
    "v": 0.8778,
    "d": "87,8 %",
-   "l": "🛡️[S1] Bike Universe : part de votes positifs",
+   "l": "🛡️ [S1] Bike Universe : part de votes positifs",
    "src": "data/jours/2026-10-30.csv#L41"
   },
   "g.10768284407.rang_veille": {
    "v": 43,
    "d": "43e",
-   "l": "🛡️[S1] Bike Universe : rang la veille",
+   "l": "🛡️ [S1] Bike Universe : rang la veille",
    "src": "data/jours/2026-10-30.csv#L41"
   },
   "g.10767380385.nom": {
@@ -6231,81 +6231,81 @@
    "src": "data/jours/2026-10-30.csv#L70"
   },
   "g.4658598196.nom": {
-   "v": "Attack on Titan Revolution",
-   "d": "Attack on Titan Revolution",
-   "l": "Attack on Titan Revolution : nom",
+   "v": "[UPDATE 5] Attack on Titan Revolution",
+   "d": "[UPDATE 5] Attack on Titan Revolution",
+   "l": "[UPDATE 5] Attack on Titan Revolution : nom",
    "src": "data/jours/2026-10-30.csv#L71"
   },
   "g.4658598196.rang": {
    "v": 70,
    "d": "70e",
-   "l": "Attack on Titan Revolution : rang au pic du jour",
+   "l": "[UPDATE 5] Attack on Titan Revolution : rang au pic du jour",
    "src": "data/jours/2026-10-30.csv#L71"
   },
   "g.4658598196.pic": {
    "v": 25613,
    "d": "25 613",
-   "l": "Attack on Titan Revolution : pic de joueurs simultanés relevé",
+   "l": "[UPDATE 5] Attack on Titan Revolution : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-30.csv#L71"
   },
   "g.4658598196.heure_pic": {
    "v": "16:53",
    "d": "16 h 53",
-   "l": "Attack on Titan Revolution : heure (Paris) du pic relevé",
+   "l": "[UPDATE 5] Attack on Titan Revolution : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-30.csv#L71"
   },
   "g.4658598196.moy": {
    "v": 21985,
    "d": "21 985",
-   "l": "Attack on Titan Revolution : moyenne des joueurs simultanés sur la journée",
+   "l": "[UPDATE 5] Attack on Titan Revolution : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-30.csv#L71"
   },
   "g.4658598196.createur": {
    "v": "AoTR [PI]",
    "d": "AoTR [PI]",
-   "l": "Attack on Titan Revolution : créateur",
+   "l": "[UPDATE 5] Attack on Titan Revolution : créateur",
    "src": "data/jours/2026-10-30.csv#L71"
   },
   "g.4658598196.genre": {
    "v": "RPG",
    "d": "RPG",
-   "l": "Attack on Titan Revolution : genre",
+   "l": "[UPDATE 5] Attack on Titan Revolution : genre",
    "src": "data/jours/2026-10-30.csv#L71"
   },
   "g.4658598196.var_veille": {
    "v": 0.0953,
    "d": "+9,5 %",
-   "l": "Attack on Titan Revolution : variation de la moyenne par rapport à la veille",
+   "l": "[UPDATE 5] Attack on Titan Revolution : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-30.csv#L71"
   },
   "g.4658598196.moy_veille": {
    "v": 20072,
    "d": "20 072",
-   "l": "Attack on Titan Revolution : moyenne de la veille",
+   "l": "[UPDATE 5] Attack on Titan Revolution : moyenne de la veille",
    "src": "data/jours/2026-10-30.csv#L71"
   },
   "g.4658598196.visites_24h": {
    "v": 1482669,
    "d": "1,48 million",
-   "l": "Attack on Titan Revolution : visites gagnées en 24 h",
+   "l": "[UPDATE 5] Attack on Titan Revolution : visites gagnées en 24 h",
    "src": "data/jours/2026-10-30.csv#L71"
   },
   "g.4658598196.visites_total": {
    "v": 1178366944,
    "d": "1,18 milliard",
-   "l": "Attack on Titan Revolution : visites cumulées depuis la création",
+   "l": "[UPDATE 5] Attack on Titan Revolution : visites cumulées depuis la création",
    "src": "data/jours/2026-10-30.csv#L71"
   },
   "g.4658598196.note": {
    "v": 0.9597,
    "d": "96,0 %",
-   "l": "Attack on Titan Revolution : part de votes positifs",
+   "l": "[UPDATE 5] Attack on Titan Revolution : part de votes positifs",
    "src": "data/jours/2026-10-30.csv#L71"
   },
   "g.4658598196.rang_veille": {
    "v": 67,
    "d": "67e",
-   "l": "Attack on Titan Revolution : rang la veille",
+   "l": "[UPDATE 5] Attack on Titan Revolution : rang la veille",
    "src": "data/jours/2026-10-30.csv#L71"
   },
   "g.9294074907.nom": {

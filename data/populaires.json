@@ -1,13 +1,21 @@
 {
- "genere": "2026-10-31T19:41:14Z",
+ "genere": "2026-10-31T20:40:07Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/le-releve/",
-   "vues": 5
+   "vues": 8
+  },
+  {
+   "path": "/le-releve/classement/",
+   "vues": 2
   },
   {
    "path": "/le-releve/brouillons/2026-10-28-steal-an-egg-quotidien/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/explorer/",
    "vues": 1
   },
   {
@@ -16,10 +24,6 @@
   },
   {
    "path": "/le-releve/brouillons/2026-10-30-steal-an-egg-quotidien/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/classement/",
    "vues": 1
   },
   {
