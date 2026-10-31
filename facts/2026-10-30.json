@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-30",
- "genere": "2026-10-31T21:39:05Z",
+ "genere": "2026-10-31T22:39:15Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -2649,81 +2649,81 @@
    "src": "data/jours/2026-10-30.csv#L24"
   },
   "g.6701277882.nom": {
-   "v": "[4 HRS] Fish It! 🐟",
-   "d": "[4 HRS] Fish It! 🐟",
-   "l": "[4 HRS] Fish It! 🐟 : nom",
+   "v": "[3 HRS] Fish It! 🐟",
+   "d": "[3 HRS] Fish It! 🐟",
+   "l": "[3 HRS] Fish It! 🐟 : nom",
    "src": "data/jours/2026-10-30.csv#L25"
   },
   "g.6701277882.rang": {
    "v": 24,
    "d": "24e",
-   "l": "[4 HRS] Fish It! 🐟 : rang au pic du jour",
+   "l": "[3 HRS] Fish It! 🐟 : rang au pic du jour",
    "src": "data/jours/2026-10-30.csv#L25"
   },
   "g.6701277882.pic": {
    "v": 66827,
    "d": "66 827",
-   "l": "[4 HRS] Fish It! 🐟 : pic de joueurs simultanés relevé",
+   "l": "[3 HRS] Fish It! 🐟 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-30.csv#L25"
   },
   "g.6701277882.heure_pic": {
    "v": "19:48",
    "d": "19 h 48",
-   "l": "[4 HRS] Fish It! 🐟 : heure (Paris) du pic relevé",
+   "l": "[3 HRS] Fish It! 🐟 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-30.csv#L25"
   },
   "g.6701277882.moy": {
    "v": 64239,
    "d": "64 239",
-   "l": "[4 HRS] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
+   "l": "[3 HRS] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-30.csv#L25"
   },
   "g.6701277882.createur": {
    "v": "Fish Atelier",
    "d": "Fish Atelier",
-   "l": "[4 HRS] Fish It! 🐟 : créateur",
+   "l": "[3 HRS] Fish It! 🐟 : créateur",
    "src": "data/jours/2026-10-30.csv#L25"
   },
   "g.6701277882.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[4 HRS] Fish It! 🐟 : genre",
+   "l": "[3 HRS] Fish It! 🐟 : genre",
    "src": "data/jours/2026-10-30.csv#L25"
   },
   "g.6701277882.var_veille": {
    "v": 0.0071,
    "d": "+0,7 %",
-   "l": "[4 HRS] Fish It! 🐟 : variation de la moyenne par rapport à la veille",
+   "l": "[3 HRS] Fish It! 🐟 : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-30.csv#L25"
   },
   "g.6701277882.moy_veille": {
    "v": 63789,
    "d": "63 789",
-   "l": "[4 HRS] Fish It! 🐟 : moyenne de la veille",
+   "l": "[3 HRS] Fish It! 🐟 : moyenne de la veille",
    "src": "data/jours/2026-10-30.csv#L25"
   },
   "g.6701277882.visites_24h": {
    "v": 1425960,
    "d": "1,43 million",
-   "l": "[4 HRS] Fish It! 🐟 : visites gagnées en 24 h",
+   "l": "[3 HRS] Fish It! 🐟 : visites gagnées en 24 h",
    "src": "data/jours/2026-10-30.csv#L25"
   },
   "g.6701277882.visites_total": {
    "v": 4807461975,
    "d": "4,81 milliards",
-   "l": "[4 HRS] Fish It! 🐟 : visites cumulées depuis la création",
+   "l": "[3 HRS] Fish It! 🐟 : visites cumulées depuis la création",
    "src": "data/jours/2026-10-30.csv#L25"
   },
   "g.6701277882.note": {
    "v": 0.8283,
    "d": "82,8 %",
-   "l": "[4 HRS] Fish It! 🐟 : part de votes positifs",
+   "l": "[3 HRS] Fish It! 🐟 : part de votes positifs",
    "src": "data/jours/2026-10-30.csv#L25"
   },
   "g.6701277882.rang_veille": {
    "v": 21,
    "d": "21e",
-   "l": "[4 HRS] Fish It! 🐟 : rang la veille",
+   "l": "[3 HRS] Fish It! 🐟 : rang la veille",
    "src": "data/jours/2026-10-30.csv#L25"
   },
   "g.1176784616.nom": {
@@ -7245,81 +7245,81 @@
    "src": "data/jours/2026-10-30.csv#L83"
   },
   "g.184199275.nom": {
-   "v": "[🥇SEASONS] NFL Universe Football",
-   "d": "[🥇SEASONS] NFL Universe Football",
-   "l": "[🥇SEASONS] NFL Universe Football : nom",
+   "v": "[🎃SEASONS🥇] NFL Universe Football",
+   "d": "[🎃SEASONS🥇] NFL Universe Football",
+   "l": "[🎃SEASONS🥇] NFL Universe Football : nom",
    "src": "data/jours/2026-10-30.csv#L84"
   },
   "g.184199275.rang": {
    "v": 83,
    "d": "83e",
-   "l": "[🥇SEASONS] NFL Universe Football : rang au pic du jour",
+   "l": "[🎃SEASONS🥇] NFL Universe Football : rang au pic du jour",
    "src": "data/jours/2026-10-30.csv#L84"
   },
   "g.184199275.pic": {
    "v": 21984,
    "d": "21 984",
-   "l": "[🥇SEASONS] NFL Universe Football : pic de joueurs simultanés relevé",
+   "l": "[🎃SEASONS🥇] NFL Universe Football : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-30.csv#L84"
   },
   "g.184199275.heure_pic": {
    "v": "01:57",
    "d": "1 h 57",
-   "l": "[🥇SEASONS] NFL Universe Football : heure (Paris) du pic relevé",
+   "l": "[🎃SEASONS🥇] NFL Universe Football : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-30.csv#L84"
   },
   "g.184199275.moy": {
    "v": 8822,
    "d": "8 822",
-   "l": "[🥇SEASONS] NFL Universe Football : moyenne des joueurs simultanés sur la journée",
+   "l": "[🎃SEASONS🥇] NFL Universe Football : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-30.csv#L84"
   },
   "g.184199275.createur": {
    "v": "NFL Universe Football by Voldex",
    "d": "NFL Universe Football by Voldex",
-   "l": "[🥇SEASONS] NFL Universe Football : créateur",
+   "l": "[🎃SEASONS🥇] NFL Universe Football : créateur",
    "src": "data/jours/2026-10-30.csv#L84"
   },
   "g.184199275.genre": {
    "v": "Sports & Racing",
    "d": "Sport et course",
-   "l": "[🥇SEASONS] NFL Universe Football : genre",
+   "l": "[🎃SEASONS🥇] NFL Universe Football : genre",
    "src": "data/jours/2026-10-30.csv#L84"
   },
   "g.184199275.var_veille": {
    "v": 0.0725,
    "d": "+7,2 %",
-   "l": "[🥇SEASONS] NFL Universe Football : variation de la moyenne par rapport à la veille",
+   "l": "[🎃SEASONS🥇] NFL Universe Football : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-30.csv#L84"
   },
   "g.184199275.moy_veille": {
    "v": 8226,
    "d": "8 226",
-   "l": "[🥇SEASONS] NFL Universe Football : moyenne de la veille",
+   "l": "[🎃SEASONS🥇] NFL Universe Football : moyenne de la veille",
    "src": "data/jours/2026-10-30.csv#L84"
   },
   "g.184199275.visites_24h": {
    "v": 692332,
    "d": "692 332",
-   "l": "[🥇SEASONS] NFL Universe Football : visites gagnées en 24 h",
+   "l": "[🎃SEASONS🥇] NFL Universe Football : visites gagnées en 24 h",
    "src": "data/jours/2026-10-30.csv#L84"
   },
   "g.184199275.visites_total": {
    "v": 1014666509,
    "d": "1,01 milliard",
-   "l": "[🥇SEASONS] NFL Universe Football : visites cumulées depuis la création",
+   "l": "[🎃SEASONS🥇] NFL Universe Football : visites cumulées depuis la création",
    "src": "data/jours/2026-10-30.csv#L84"
   },
   "g.184199275.note": {
    "v": 0.9034,
    "d": "90,3 %",
-   "l": "[🥇SEASONS] NFL Universe Football : part de votes positifs",
+   "l": "[🎃SEASONS🥇] NFL Universe Football : part de votes positifs",
    "src": "data/jours/2026-10-30.csv#L84"
   },
   "g.184199275.rang_veille": {
    "v": 60,
    "d": "60e",
-   "l": "[🥇SEASONS] NFL Universe Football : rang la veille",
+   "l": "[🎃SEASONS🥇] NFL Universe Football : rang la veille",
    "src": "data/jours/2026-10-30.csv#L84"
   },
   "g.9442472087.nom": {
