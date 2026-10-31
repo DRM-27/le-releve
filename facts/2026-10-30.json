@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-30",
- "genere": "2026-10-31T10:40:22Z",
+ "genere": "2026-10-31T11:39:41Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -2025,81 +2025,81 @@
    "src": "data/jours/2026-10-30.csv#L16"
   },
   "g.6739698191.nom": {
-   "v": "[BUTCHER x 🎃] Violence District",
-   "d": "[BUTCHER x 🎃] Violence District",
-   "l": "[BUTCHER x 🎃] Violence District : nom",
+   "v": "[WEEK 2 🎃 x BUTCHER] Violence District",
+   "d": "[WEEK 2 🎃 x BUTCHER] Violence District",
+   "l": "[WEEK 2 🎃 x BUTCHER] Violence District : nom",
    "src": "data/jours/2026-10-30.csv#L17"
   },
   "g.6739698191.rang": {
    "v": 16,
    "d": "16e",
-   "l": "[BUTCHER x 🎃] Violence District : rang au pic du jour",
+   "l": "[WEEK 2 🎃 x BUTCHER] Violence District : rang au pic du jour",
    "src": "data/jours/2026-10-30.csv#L17"
   },
   "g.6739698191.pic": {
    "v": 82502,
    "d": "82 502",
-   "l": "[BUTCHER x 🎃] Violence District : pic de joueurs simultanés relevé",
+   "l": "[WEEK 2 🎃 x BUTCHER] Violence District : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-30.csv#L17"
   },
   "g.6739698191.heure_pic": {
    "v": "15:58",
    "d": "15 h 58",
-   "l": "[BUTCHER x 🎃] Violence District : heure (Paris) du pic relevé",
+   "l": "[WEEK 2 🎃 x BUTCHER] Violence District : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-30.csv#L17"
   },
   "g.6739698191.moy": {
    "v": 55272,
    "d": "55 272",
-   "l": "[BUTCHER x 🎃] Violence District : moyenne des joueurs simultanés sur la journée",
+   "l": "[WEEK 2 🎃 x BUTCHER] Violence District : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-30.csv#L17"
   },
   "g.6739698191.createur": {
    "v": "VIOLENCE DISTRICT",
    "d": "VIOLENCE DISTRICT",
-   "l": "[BUTCHER x 🎃] Violence District : créateur",
+   "l": "[WEEK 2 🎃 x BUTCHER] Violence District : créateur",
    "src": "data/jours/2026-10-30.csv#L17"
   },
   "g.6739698191.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "[BUTCHER x 🎃] Violence District : genre",
+   "l": "[WEEK 2 🎃 x BUTCHER] Violence District : genre",
    "src": "data/jours/2026-10-30.csv#L17"
   },
   "g.6739698191.var_veille": {
    "v": 0.0575,
    "d": "+5,8 %",
-   "l": "[BUTCHER x 🎃] Violence District : variation de la moyenne par rapport à la veille",
+   "l": "[WEEK 2 🎃 x BUTCHER] Violence District : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-30.csv#L17"
   },
   "g.6739698191.moy_veille": {
    "v": 52268,
    "d": "52 268",
-   "l": "[BUTCHER x 🎃] Violence District : moyenne de la veille",
+   "l": "[WEEK 2 🎃 x BUTCHER] Violence District : moyenne de la veille",
    "src": "data/jours/2026-10-30.csv#L17"
   },
   "g.6739698191.visites_24h": {
    "v": 5357433,
    "d": "5,36 millions",
-   "l": "[BUTCHER x 🎃] Violence District : visites gagnées en 24 h",
+   "l": "[WEEK 2 🎃 x BUTCHER] Violence District : visites gagnées en 24 h",
    "src": "data/jours/2026-10-30.csv#L17"
   },
   "g.6739698191.visites_total": {
    "v": 1656898883,
    "d": "1,66 milliard",
-   "l": "[BUTCHER x 🎃] Violence District : visites cumulées depuis la création",
+   "l": "[WEEK 2 🎃 x BUTCHER] Violence District : visites cumulées depuis la création",
    "src": "data/jours/2026-10-30.csv#L17"
   },
   "g.6739698191.note": {
    "v": 0.9298,
    "d": "93,0 %",
-   "l": "[BUTCHER x 🎃] Violence District : part de votes positifs",
+   "l": "[WEEK 2 🎃 x BUTCHER] Violence District : part de votes positifs",
    "src": "data/jours/2026-10-30.csv#L17"
   },
   "g.6739698191.rang_veille": {
    "v": 15,
    "d": "15e",
-   "l": "[BUTCHER x 🎃] Violence District : rang la veille",
+   "l": "[WEEK 2 🎃 x BUTCHER] Violence District : rang la veille",
    "src": "data/jours/2026-10-30.csv#L17"
   },
   "g.10769384180.nom": {
@@ -2883,81 +2883,81 @@
    "src": "data/jours/2026-10-30.csv#L27"
   },
   "g.9584852943.nom": {
-   "v": "+1 Speed Keyboard Escape | Candy & Chocolate",
-   "d": "+1 Speed Keyboard Escape | Candy & Chocolate",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : nom",
+   "v": "[X3] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "d": "[X3] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "l": "[X3] +1 Speed Keyboard Escape | Candy & Chocolate : nom",
    "src": "data/jours/2026-10-30.csv#L28"
   },
   "g.9584852943.rang": {
    "v": 27,
    "d": "27e",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
+   "l": "[X3] +1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
    "src": "data/jours/2026-10-30.csv#L28"
   },
   "g.9584852943.pic": {
    "v": 56629,
    "d": "56 629",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
+   "l": "[X3] +1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-30.csv#L28"
   },
   "g.9584852943.heure_pic": {
    "v": "16:53",
    "d": "16 h 53",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
+   "l": "[X3] +1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-30.csv#L28"
   },
   "g.9584852943.moy": {
    "v": 34505,
    "d": "34 505",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
+   "l": "[X3] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-30.csv#L28"
   },
   "g.9584852943.createur": {
    "v": "SecretVerse Studio",
    "d": "SecretVerse Studio",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : créateur",
+   "l": "[X3] +1 Speed Keyboard Escape | Candy & Chocolate : créateur",
    "src": "data/jours/2026-10-30.csv#L28"
   },
   "g.9584852943.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : genre",
+   "l": "[X3] +1 Speed Keyboard Escape | Candy & Chocolate : genre",
    "src": "data/jours/2026-10-30.csv#L28"
   },
   "g.9584852943.var_veille": {
    "v": 0.1073,
    "d": "+10,7 %",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport à la veille",
+   "l": "[X3] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-30.csv#L28"
   },
   "g.9584852943.moy_veille": {
    "v": 31160,
    "d": "31 160",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : moyenne de la veille",
+   "l": "[X3] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne de la veille",
    "src": "data/jours/2026-10-30.csv#L28"
   },
   "g.9584852943.visites_24h": {
    "v": 6486802,
    "d": "6,49 millions",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : visites gagnées en 24 h",
+   "l": "[X3] +1 Speed Keyboard Escape | Candy & Chocolate : visites gagnées en 24 h",
    "src": "data/jours/2026-10-30.csv#L28"
   },
   "g.9584852943.visites_total": {
    "v": 6620649436,
    "d": "6,62 milliards",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
+   "l": "[X3] +1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
    "src": "data/jours/2026-10-30.csv#L28"
   },
   "g.9584852943.note": {
    "v": 0.9673,
    "d": "96,7 %",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
+   "l": "[X3] +1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
    "src": "data/jours/2026-10-30.csv#L28"
   },
   "g.9584852943.rang_veille": {
    "v": 30,
    "d": "30e",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : rang la veille",
+   "l": "[X3] +1 Speed Keyboard Escape | Candy & Chocolate : rang la veille",
    "src": "data/jours/2026-10-30.csv#L28"
   },
   "g.6931042565.nom": {
