@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-31",
- "genere": "2026-11-01T03:53:37Z",
+ "genere": "2026-11-01T04:53:29Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -7881,75 +7881,75 @@
    "src": "data/jours/2026-10-31.csv#L92"
   },
   "g.9978329815.nom": {
-   "v": "Mukbang Game [Testing]🎃🍝!",
-   "d": "Mukbang Game [Testing]🎃🍝!",
-   "l": "Mukbang Game [Testing]🎃🍝! : nom",
+   "v": "Mukbang Game [Testing]🦇!",
+   "d": "Mukbang Game [Testing]🦇!",
+   "l": "Mukbang Game [Testing]🦇! : nom",
    "src": "data/jours/2026-10-31.csv#L93"
   },
   "g.9978329815.rang": {
    "v": 92,
    "d": "92e",
-   "l": "Mukbang Game [Testing]🎃🍝! : rang au pic du jour",
+   "l": "Mukbang Game [Testing]🦇! : rang au pic du jour",
    "src": "data/jours/2026-10-31.csv#L93"
   },
   "g.9978329815.pic": {
    "v": 26255,
    "d": "26 255",
-   "l": "Mukbang Game [Testing]🎃🍝! : pic de joueurs simultanés relevé",
+   "l": "Mukbang Game [Testing]🦇! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-31.csv#L93"
   },
   "g.9978329815.heure_pic": {
    "v": "14:47",
    "d": "14 h 47",
-   "l": "Mukbang Game [Testing]🎃🍝! : heure (Paris) du pic relevé",
+   "l": "Mukbang Game [Testing]🦇! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-31.csv#L93"
   },
   "g.9978329815.moy": {
    "v": 20105,
    "d": "20 105",
-   "l": "Mukbang Game [Testing]🎃🍝! : moyenne des joueurs simultanés sur la journée",
+   "l": "Mukbang Game [Testing]🦇! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-31.csv#L93"
   },
   "g.9978329815.createur": {
    "v": "sorynn22",
    "d": "sorynn22",
-   "l": "Mukbang Game [Testing]🎃🍝! : créateur",
+   "l": "Mukbang Game [Testing]🦇! : créateur",
    "src": "data/jours/2026-10-31.csv#L93"
   },
   "g.9978329815.var_veille": {
    "v": 0.2854,
    "d": "+28,5 %",
-   "l": "Mukbang Game [Testing]🎃🍝! : variation de la moyenne par rapport à la veille",
+   "l": "Mukbang Game [Testing]🦇! : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-31.csv#L93"
   },
   "g.9978329815.moy_veille": {
    "v": 15642,
    "d": "15 642",
-   "l": "Mukbang Game [Testing]🎃🍝! : moyenne de la veille",
+   "l": "Mukbang Game [Testing]🦇! : moyenne de la veille",
    "src": "data/jours/2026-10-31.csv#L93"
   },
   "g.9978329815.visites_24h": {
    "v": 2557565,
    "d": "2,56 millions",
-   "l": "Mukbang Game [Testing]🎃🍝! : visites gagnées en 24 h",
+   "l": "Mukbang Game [Testing]🦇! : visites gagnées en 24 h",
    "src": "data/jours/2026-10-31.csv#L93"
   },
   "g.9978329815.visites_total": {
    "v": 564381417,
    "d": "564,38 millions",
-   "l": "Mukbang Game [Testing]🎃🍝! : visites cumulées depuis la création",
+   "l": "Mukbang Game [Testing]🦇! : visites cumulées depuis la création",
    "src": "data/jours/2026-10-31.csv#L93"
   },
   "g.9978329815.note": {
    "v": 0.9266,
    "d": "92,7 %",
-   "l": "Mukbang Game [Testing]🎃🍝! : part de votes positifs",
+   "l": "Mukbang Game [Testing]🦇! : part de votes positifs",
    "src": "data/jours/2026-10-31.csv#L93"
   },
   "g.9978329815.rang_veille": {
    "v": 91,
    "d": "91e",
-   "l": "Mukbang Game [Testing]🎃🍝! : rang la veille",
+   "l": "Mukbang Game [Testing]🦇! : rang la veille",
    "src": "data/jours/2026-10-31.csv#L93"
   },
   "g.10767012496.nom": {
