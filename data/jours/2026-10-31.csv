@@ -44,7 +44,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 43,1202096104,Driving Empire [🎃HALLOWEEN EVENT🎃],Driving Empire by Voldex,Simulation,55953,14:47,44031,24,41064,0.0723,,,4278946,3404727780,0.9299,33
 44,4839802560,LifeTogether 🏠 RP [FAMILIES],Cinnamon Software,Roleplay & Avatar Sim,55390,16:38,37364,24,27436,0.3618,,,3760790,4087943208,0.9033,46
 45,3240075297,Berry Avenue 🏠 RP,Amberry Games,Roleplay & Avatar Sim,54874,16:38,37267,24,32127,0.16,,,4410160,8924524226,0.8604,35
-46,10769464063,[🎃] +1 Venom Evolution,Bottled Potential,Simulation,54828,14:47,39376,24,31696,0.2423,,,3732905,28066499,0.9684,42
+46,10769464063,[UPD🎃] +1 Venom Evolution,Bottled Potential,Simulation,54828,14:47,39376,24,31696,0.2423,,,3732905,28066499,0.9684,42
 47,10767380385,🎃 Sell Fries! [Anomaly] 🍟,Pharting,Survival,54800,14:47,38982,24,31535,0.2362,,,3571092,89318912,0.8433,41
 48,10769384180,[🎃] Fake an Egg,Slime Time Studios,Simulation,54017,14:47,37988,24,35001,0.0853,,,4811621,45359165,0.8872,17
 49,10762636904,[💰X2] Cameraman Tower Defense,Aligators Games,Strategy,53335,14:47,40474,24,4293,8.4281,,,5481383,68324007,0.9861,54
@@ -164,7 +164,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 163,1526814825,[Blackhawk DAP] War Tycoon,KizmoTek Studio,Simulation,14460,17:39,8603,24,6805,0.2643,,,680930,1138423437,0.9125,185
 164,9561553764,[🎃] Murder Duels,Breakfast,Shooter,14452,14:47,11517,24,11825,-0.0261,,,1858260,315023964,0.9314,126
 165,4342047058,Guts & Blackpowder,Guts & Blackpowder,Shooter,14450,14:47,10609,24,7593,0.3972,,,809704,623404179,0.9384,148
-166,10526853622,[x2⏳] Deep Fishing🎣,LazyGames.,Simulation,14442,16:38,6420,24,6264,0.0249,,,416814,24213696,0.972,230
+166,10526853622,[x4⏳] Deep Fishing🎣,LazyGames.,Simulation,14442,16:38,6420,24,6264,0.0249,,,416814,24213696,0.972,230
 167,10767567751,Bunker vs Verity,Beyondd Games,Survival,13998,15:39,8284,24,6696,0.2372,,,565219,26589756,0.8335,193
 168,10769552054,[🎃] Urban Reload,Squad Labs,Action,13989,19:45,10934,24,9097,0.2019,,,1057401,5515012,0.8558,149
 169,10767946926,HUSH: They can hear. (BETA),theInstigators,Action,13986,19:45,9920,24,8452,0.1737,,,897320,8664513,0.7894,152
@@ -221,7 +221,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 220,6176333237,Clarity Over Resonance,OJEPIX,Social,10152,06:42,4826,24,3859,0.2506,,,373649,129083470,0.8965,189
 221,10768349140,[🎃] +1 Pickaxe Swing for Eggs,414 Games,Simulation,10119,13:49,7456,24,6242,0.1944,,,766073,16697463,0.9172,177
 222,10768941680,[🏴󠁧󠁢󠁥󠁮󠁧󠁿ENGLAND U-20] Build A Striker ⚽,Wild Card.,Sports & Racing,10107,14:47,4491,24,2919,0.5384,,,355795,1840066,0.9522,319
-223,9491545867,[🎃SOON] Break a Brainrot Egg!,Brainrot Game by BadPirate,Simulation,10044,13:49,7740,24,7275,0.0639,,,1039367,152780331,0.818,186
+223,9491545867,[🎃NOW] Break a Brainrot Egg!,Brainrot Game by BadPirate,Simulation,10044,13:49,7740,24,7275,0.0639,,,1039367,152780331,0.818,186
 224,4987856151,Wanted [🎃UPDATE],DevvGames,Action,10023,15:39,7498,24,6380,0.1752,,,671376,143829639,0.9679,203
 225,10282097014,Pet Store Tycoon,already arrived studios,Simulation,9925,15:39,7496,24,7476,0.0027,,,447807,21156853,0.9619,201
 226,10769594564,[PVP] roll the world 🌎,overzeer,Simulation,9837,17:39,7158,24,6794,0.0536,,,741166,5334446,0.8608,204
@@ -303,7 +303,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 302,10767619742,[BACK] Portal Sandbox,D3wsie Games,Action,4966,17:39,3657,24,3052,0.198,,,322551,2609710,0.7533,293
 303,10578076062,[🎃] Adventure Time RPG,Oh My Glob Games,RPG,4947,00:39,3610,24,3904,-0.0753,,,759916,5243142,0.9794,254
 304,10769205469,💪 Juggernaut 💪 Grapple Strike,97 Games,Shooter,4933,19:45,3102,24,3339,-0.0711,,,496737,3808933,0.7037,265
-305,10769548496,[🎃FINALE] Fix My Phone!,Doubloons,Simulation,4921,15:39,3584,24,2856,0.2547,,,410123,11045216,0.9044,316
+305,10769548496,Fix My Phone!,Doubloons,Simulation,4921,15:39,3584,24,2856,0.2547,,,410123,11045216,0.9044,316
 306,10769170829,German Moped Days (UPDATE! + big fix!),123xPhilx321,Simulation,4870,13:49,2815,24,3284,-0.1429,,,247579,3194796,0.8272,256
 307,10766957927,[W2] +1 Gun Forge 🎃,Battle Carrots,Simulation,4824,15:39,3984,24,4129,-0.0352,,,214102,3073423,0.9618,273
 308,10769835310,Clean a Painting,AURA NUKE,Simulation,4790,17:39,3569,20,3346,0.0666,,,,2166999,0.9851,301
@@ -354,7 +354,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 353,10768556372,[🎃] Candy Kingdom Defense,Monero Studios,Strategy,3562,15:39,2900,24,3414,-0.1506,,,354172,7870160,0.9628,295
 354,4743794878,The Classic Soccer,guigoals,Sports & Racing,3535,00:39,1981,24,1957,0.0123,,,206212,116929240,0.8442,328
 355,10765526558,1v1 Minigame Duel,Lunasol Games,Party & Casual,3503,04:46,2544,24,2469,0.0302,,,216471,1624901,0.8068,338
-356,10764857294,KartX Racing [HALLOWEEN!],KartX Official,Sports & Racing,3489,15:39,2479,24,2505,-0.0103,,,423338,3294316,0.8411,323
+356,10764857294,KartX Racing [NEW TRACK],KartX Official,Sports & Racing,3489,15:39,2479,24,2505,-0.0103,,,423338,3294316,0.8411,323
 357,10769066324,Bloxx League,blox league gaming,Sports & Racing,3468,17:39,2407,24,2516,-0.0436,,,1008445,30498785,0.7851,313
 358,10769778263,Clip That Grass [Halloween Event],FunkyInc.,Simulation,3393,14:47,2473,20,2484,-0.0046,,,,1944073,0.8324,315
 359,10767751602,Fart Obby [1-2 Player] ,I Am Fishing! Studios,Obby & Platformer,3370,00:39,2070,24,2008,0.0309,,,290483,6111074,0.9466,330
