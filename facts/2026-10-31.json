@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-31",
- "genere": "2026-11-01T15:39:14Z",
+ "genere": "2026-11-01T16:40:43Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -7101,81 +7101,81 @@
    "src": "data/jours/2026-10-31.csv#L82"
   },
   "g.10758824872.nom": {
-   "v": "[🎃] Ride a Dino",
-   "d": "[🎃] Ride a Dino",
-   "l": "[🎃] Ride a Dino : nom",
+   "v": "[UPD NOW] Ride a Dino",
+   "d": "[UPD NOW] Ride a Dino",
+   "l": "[UPD NOW] Ride a Dino : nom",
    "src": "data/jours/2026-10-31.csv#L83"
   },
   "g.10758824872.rang": {
    "v": 82,
    "d": "82e",
-   "l": "[🎃] Ride a Dino : rang au pic du jour",
+   "l": "[UPD NOW] Ride a Dino : rang au pic du jour",
    "src": "data/jours/2026-10-31.csv#L83"
   },
   "g.10758824872.pic": {
    "v": 28574,
    "d": "28 574",
-   "l": "[🎃] Ride a Dino : pic de joueurs simultanés relevé",
+   "l": "[UPD NOW] Ride a Dino : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-31.csv#L83"
   },
   "g.10758824872.heure_pic": {
    "v": "14:47",
    "d": "14 h 47",
-   "l": "[🎃] Ride a Dino : heure (Paris) du pic relevé",
+   "l": "[UPD NOW] Ride a Dino : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-31.csv#L83"
   },
   "g.10758824872.moy": {
    "v": 22038,
    "d": "22 038",
-   "l": "[🎃] Ride a Dino : moyenne des joueurs simultanés sur la journée",
+   "l": "[UPD NOW] Ride a Dino : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-31.csv#L83"
   },
   "g.10758824872.createur": {
    "v": "and Catch Them All",
    "d": "and Catch Them All",
-   "l": "[🎃] Ride a Dino : créateur",
+   "l": "[UPD NOW] Ride a Dino : créateur",
    "src": "data/jours/2026-10-31.csv#L83"
   },
   "g.10758824872.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🎃] Ride a Dino : genre",
+   "l": "[UPD NOW] Ride a Dino : genre",
    "src": "data/jours/2026-10-31.csv#L83"
   },
   "g.10758824872.var_veille": {
    "v": 0.2394,
    "d": "+23,9 %",
-   "l": "[🎃] Ride a Dino : variation de la moyenne par rapport à la veille",
+   "l": "[UPD NOW] Ride a Dino : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-31.csv#L83"
   },
   "g.10758824872.moy_veille": {
    "v": 17781,
    "d": "17 781",
-   "l": "[🎃] Ride a Dino : moyenne de la veille",
+   "l": "[UPD NOW] Ride a Dino : moyenne de la veille",
    "src": "data/jours/2026-10-31.csv#L83"
   },
   "g.10758824872.visites_24h": {
    "v": 1651907,
    "d": "1,65 million",
-   "l": "[🎃] Ride a Dino : visites gagnées en 24 h",
+   "l": "[UPD NOW] Ride a Dino : visites gagnées en 24 h",
    "src": "data/jours/2026-10-31.csv#L83"
   },
   "g.10758824872.visites_total": {
    "v": 28105388,
    "d": "28,11 millions",
-   "l": "[🎃] Ride a Dino : visites cumulées depuis la création",
+   "l": "[UPD NOW] Ride a Dino : visites cumulées depuis la création",
    "src": "data/jours/2026-10-31.csv#L83"
   },
   "g.10758824872.note": {
    "v": 0.9756,
    "d": "97,6 %",
-   "l": "[🎃] Ride a Dino : part de votes positifs",
+   "l": "[UPD NOW] Ride a Dino : part de votes positifs",
    "src": "data/jours/2026-10-31.csv#L83"
   },
   "g.10758824872.rang_veille": {
    "v": 79,
    "d": "79e",
-   "l": "[🎃] Ride a Dino : rang la veille",
+   "l": "[UPD NOW] Ride a Dino : rang la veille",
    "src": "data/jours/2026-10-31.csv#L83"
   },
   "g.7633926880.nom": {
