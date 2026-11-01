@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-31",
- "genere": "2026-11-01T18:45:41Z",
+ "genere": "2026-11-01T19:42:32Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -2397,81 +2397,81 @@
    "src": "data/jours/2026-10-31.csv#L21"
   },
   "g.5203828273.nom": {
-   "v": "[🎃 NEW QUEST] Dress To Impress",
-   "d": "[🎃 NEW QUEST] Dress To Impress",
-   "l": "[🎃 NEW QUEST] Dress To Impress : nom",
+   "v": "[🎃] Dress To Impress",
+   "d": "[🎃] Dress To Impress",
+   "l": "[🎃] Dress To Impress : nom",
    "src": "data/jours/2026-10-31.csv#L22"
   },
   "g.5203828273.rang": {
    "v": 21,
    "d": "21e",
-   "l": "[🎃 NEW QUEST] Dress To Impress : rang au pic du jour",
+   "l": "[🎃] Dress To Impress : rang au pic du jour",
    "src": "data/jours/2026-10-31.csv#L22"
   },
   "g.5203828273.pic": {
    "v": 109647,
    "d": "109 647",
-   "l": "[🎃 NEW QUEST] Dress To Impress : pic de joueurs simultanés relevé",
+   "l": "[🎃] Dress To Impress : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-31.csv#L22"
   },
   "g.5203828273.heure_pic": {
    "v": "16:38",
    "d": "16 h 38",
-   "l": "[🎃 NEW QUEST] Dress To Impress : heure (Paris) du pic relevé",
+   "l": "[🎃] Dress To Impress : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-31.csv#L22"
   },
   "g.5203828273.moy": {
    "v": 77156,
    "d": "77 156",
-   "l": "[🎃 NEW QUEST] Dress To Impress : moyenne des joueurs simultanés sur la journée",
+   "l": "[🎃] Dress To Impress : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-31.csv#L22"
   },
   "g.5203828273.createur": {
    "v": "Dress To Impress Group",
    "d": "Dress To Impress Group",
-   "l": "[🎃 NEW QUEST] Dress To Impress : créateur",
+   "l": "[🎃] Dress To Impress : créateur",
    "src": "data/jours/2026-10-31.csv#L22"
   },
   "g.5203828273.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "[🎃 NEW QUEST] Dress To Impress : genre",
+   "l": "[🎃] Dress To Impress : genre",
    "src": "data/jours/2026-10-31.csv#L22"
   },
   "g.5203828273.var_veille": {
    "v": 0.1291,
    "d": "+12,9 %",
-   "l": "[🎃 NEW QUEST] Dress To Impress : variation de la moyenne par rapport à la veille",
+   "l": "[🎃] Dress To Impress : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-31.csv#L22"
   },
   "g.5203828273.moy_veille": {
    "v": 68334,
    "d": "68 334",
-   "l": "[🎃 NEW QUEST] Dress To Impress : moyenne de la veille",
+   "l": "[🎃] Dress To Impress : moyenne de la veille",
    "src": "data/jours/2026-10-31.csv#L22"
   },
   "g.5203828273.visites_24h": {
    "v": 7027441,
    "d": "7,03 millions",
-   "l": "[🎃 NEW QUEST] Dress To Impress : visites gagnées en 24 h",
+   "l": "[🎃] Dress To Impress : visites gagnées en 24 h",
    "src": "data/jours/2026-10-31.csv#L22"
   },
   "g.5203828273.visites_total": {
    "v": 11278688124,
    "d": "11,28 milliards",
-   "l": "[🎃 NEW QUEST] Dress To Impress : visites cumulées depuis la création",
+   "l": "[🎃] Dress To Impress : visites cumulées depuis la création",
    "src": "data/jours/2026-10-31.csv#L22"
   },
   "g.5203828273.note": {
    "v": 0.9057,
    "d": "90,6 %",
-   "l": "[🎃 NEW QUEST] Dress To Impress : part de votes positifs",
+   "l": "[🎃] Dress To Impress : part de votes positifs",
    "src": "data/jours/2026-10-31.csv#L22"
   },
   "g.5203828273.rang_veille": {
    "v": 14,
    "d": "14e",
-   "l": "[🎃 NEW QUEST] Dress To Impress : rang la veille",
+   "l": "[🎃] Dress To Impress : rang la veille",
    "src": "data/jours/2026-10-31.csv#L22"
   },
   "g.10765288803.nom": {
@@ -3777,81 +3777,81 @@
    "src": "data/jours/2026-10-31.csv#L39"
   },
   "g.10155360168.nom": {
-   "v": "Illegal Soccer",
-   "d": "Illegal Soccer",
-   "l": "Illegal Soccer : nom",
+   "v": "[GO-KART!] Illegal Soccer",
+   "d": "[GO-KART!] Illegal Soccer",
+   "l": "[GO-KART!] Illegal Soccer : nom",
    "src": "data/jours/2026-10-31.csv#L40"
   },
   "g.10155360168.rang": {
    "v": 39,
    "d": "39e",
-   "l": "Illegal Soccer : rang au pic du jour",
+   "l": "[GO-KART!] Illegal Soccer : rang au pic du jour",
    "src": "data/jours/2026-10-31.csv#L40"
   },
   "g.10155360168.pic": {
    "v": 62254,
    "d": "62 254",
-   "l": "Illegal Soccer : pic de joueurs simultanés relevé",
+   "l": "[GO-KART!] Illegal Soccer : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-31.csv#L40"
   },
   "g.10155360168.heure_pic": {
    "v": "17:39",
    "d": "17 h 39",
-   "l": "Illegal Soccer : heure (Paris) du pic relevé",
+   "l": "[GO-KART!] Illegal Soccer : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-31.csv#L40"
   },
   "g.10155360168.moy": {
    "v": 47928,
    "d": "47 928",
-   "l": "Illegal Soccer : moyenne des joueurs simultanés sur la journée",
+   "l": "[GO-KART!] Illegal Soccer : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-31.csv#L40"
   },
   "g.10155360168.createur": {
    "v": "Repotted",
    "d": "Repotted",
-   "l": "Illegal Soccer : créateur",
+   "l": "[GO-KART!] Illegal Soccer : créateur",
    "src": "data/jours/2026-10-31.csv#L40"
   },
   "g.10155360168.genre": {
    "v": "Sports & Racing",
    "d": "Sport et course",
-   "l": "Illegal Soccer : genre",
+   "l": "[GO-KART!] Illegal Soccer : genre",
    "src": "data/jours/2026-10-31.csv#L40"
   },
   "g.10155360168.var_veille": {
    "v": 0.0996,
    "d": "+10,0 %",
-   "l": "Illegal Soccer : variation de la moyenne par rapport à la veille",
+   "l": "[GO-KART!] Illegal Soccer : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-31.csv#L40"
   },
   "g.10155360168.moy_veille": {
    "v": 43589,
    "d": "43 589",
-   "l": "Illegal Soccer : moyenne de la veille",
+   "l": "[GO-KART!] Illegal Soccer : moyenne de la veille",
    "src": "data/jours/2026-10-31.csv#L40"
   },
   "g.10155360168.visites_24h": {
    "v": 5421885,
    "d": "5,42 millions",
-   "l": "Illegal Soccer : visites gagnées en 24 h",
+   "l": "[GO-KART!] Illegal Soccer : visites gagnées en 24 h",
    "src": "data/jours/2026-10-31.csv#L40"
   },
   "g.10155360168.visites_total": {
    "v": 264675232,
    "d": "264,68 millions",
-   "l": "Illegal Soccer : visites cumulées depuis la création",
+   "l": "[GO-KART!] Illegal Soccer : visites cumulées depuis la création",
    "src": "data/jours/2026-10-31.csv#L40"
   },
   "g.10155360168.note": {
    "v": 0.8656,
    "d": "86,6 %",
-   "l": "Illegal Soccer : part de votes positifs",
+   "l": "[GO-KART!] Illegal Soccer : part de votes positifs",
    "src": "data/jours/2026-10-31.csv#L40"
   },
   "g.10155360168.rang_veille": {
    "v": 29,
    "d": "29e",
-   "l": "Illegal Soccer : rang la veille",
+   "l": "[GO-KART!] Illegal Soccer : rang la veille",
    "src": "data/jours/2026-10-31.csv#L40"
   },
   "g.10629695169.nom": {
