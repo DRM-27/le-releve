@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-31",
- "genere": "2026-11-01T19:42:32Z",
+ "genere": "2026-11-01T20:40:03Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -2787,81 +2787,81 @@
    "src": "data/jours/2026-10-31.csv#L26"
   },
   "g.3808081382.nom": {
-   "v": "The Strongest Battlegrounds",
-   "d": "The Strongest Battlegrounds",
-   "l": "The Strongest Battlegrounds : nom",
+   "v": "[HALLOWEEN] The Strongest Battlegrounds",
+   "d": "[HALLOWEEN] The Strongest Battlegrounds",
+   "l": "[HALLOWEEN] The Strongest Battlegrounds : nom",
    "src": "data/jours/2026-10-31.csv#L27"
   },
   "g.3808081382.rang": {
    "v": 26,
    "d": "26e",
-   "l": "The Strongest Battlegrounds : rang au pic du jour",
+   "l": "[HALLOWEEN] The Strongest Battlegrounds : rang au pic du jour",
    "src": "data/jours/2026-10-31.csv#L27"
   },
   "g.3808081382.pic": {
    "v": 95071,
    "d": "95 071",
-   "l": "The Strongest Battlegrounds : pic de joueurs simultanés relevé",
+   "l": "[HALLOWEEN] The Strongest Battlegrounds : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-31.csv#L27"
   },
   "g.3808081382.heure_pic": {
    "v": "14:47",
    "d": "14 h 47",
-   "l": "The Strongest Battlegrounds : heure (Paris) du pic relevé",
+   "l": "[HALLOWEEN] The Strongest Battlegrounds : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-31.csv#L27"
   },
   "g.3808081382.moy": {
    "v": 78807,
    "d": "78 807",
-   "l": "The Strongest Battlegrounds : moyenne des joueurs simultanés sur la journée",
+   "l": "[HALLOWEEN] The Strongest Battlegrounds : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-31.csv#L27"
   },
   "g.3808081382.createur": {
    "v": "Yielding Arts",
    "d": "Yielding Arts",
-   "l": "The Strongest Battlegrounds : créateur",
+   "l": "[HALLOWEEN] The Strongest Battlegrounds : créateur",
    "src": "data/jours/2026-10-31.csv#L27"
   },
   "g.3808081382.genre": {
    "v": "Action",
    "d": "Action",
-   "l": "The Strongest Battlegrounds : genre",
+   "l": "[HALLOWEEN] The Strongest Battlegrounds : genre",
    "src": "data/jours/2026-10-31.csv#L27"
   },
   "g.3808081382.var_veille": {
    "v": 0.1918,
    "d": "+19,2 %",
-   "l": "The Strongest Battlegrounds : variation de la moyenne par rapport à la veille",
+   "l": "[HALLOWEEN] The Strongest Battlegrounds : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-31.csv#L27"
   },
   "g.3808081382.moy_veille": {
    "v": 66123,
    "d": "66 123",
-   "l": "The Strongest Battlegrounds : moyenne de la veille",
+   "l": "[HALLOWEEN] The Strongest Battlegrounds : moyenne de la veille",
    "src": "data/jours/2026-10-31.csv#L27"
   },
   "g.3808081382.visites_24h": {
    "v": 10838147,
    "d": "10,84 millions",
-   "l": "The Strongest Battlegrounds : visites gagnées en 24 h",
+   "l": "[HALLOWEEN] The Strongest Battlegrounds : visites gagnées en 24 h",
    "src": "data/jours/2026-10-31.csv#L27"
   },
   "g.3808081382.visites_total": {
    "v": 19546202712,
    "d": "19,55 milliards",
-   "l": "The Strongest Battlegrounds : visites cumulées depuis la création",
+   "l": "[HALLOWEEN] The Strongest Battlegrounds : visites cumulées depuis la création",
    "src": "data/jours/2026-10-31.csv#L27"
   },
   "g.3808081382.note": {
    "v": 0.8374,
    "d": "83,7 %",
-   "l": "The Strongest Battlegrounds : part de votes positifs",
+   "l": "[HALLOWEEN] The Strongest Battlegrounds : part de votes positifs",
    "src": "data/jours/2026-10-31.csv#L27"
   },
   "g.3808081382.rang_veille": {
    "v": 15,
    "d": "15e",
-   "l": "The Strongest Battlegrounds : rang la veille",
+   "l": "[HALLOWEEN] The Strongest Battlegrounds : rang la veille",
    "src": "data/jours/2026-10-31.csv#L27"
   },
   "g.2711375305.nom": {
@@ -3699,81 +3699,81 @@
    "src": "data/jours/2026-10-31.csv#L38"
   },
   "g.10708913337.nom": {
-   "v": "[🎃] Anime Dice",
-   "d": "[🎃] Anime Dice",
-   "l": "[🎃] Anime Dice : nom",
+   "v": "[⭐UPD 11] Anime Dice",
+   "d": "[⭐UPD 11] Anime Dice",
+   "l": "[⭐UPD 11] Anime Dice : nom",
    "src": "data/jours/2026-10-31.csv#L39"
   },
   "g.10708913337.rang": {
    "v": 38,
    "d": "38e",
-   "l": "[🎃] Anime Dice : rang au pic du jour",
+   "l": "[⭐UPD 11] Anime Dice : rang au pic du jour",
    "src": "data/jours/2026-10-31.csv#L39"
   },
   "g.10708913337.pic": {
    "v": 62258,
    "d": "62 258",
-   "l": "[🎃] Anime Dice : pic de joueurs simultanés relevé",
+   "l": "[⭐UPD 11] Anime Dice : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-31.csv#L39"
   },
   "g.10708913337.heure_pic": {
    "v": "13:49",
    "d": "13 h 49",
-   "l": "[🎃] Anime Dice : heure (Paris) du pic relevé",
+   "l": "[⭐UPD 11] Anime Dice : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-31.csv#L39"
   },
   "g.10708913337.moy": {
    "v": 59925,
    "d": "59 925",
-   "l": "[🎃] Anime Dice : moyenne des joueurs simultanés sur la journée",
+   "l": "[⭐UPD 11] Anime Dice : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-31.csv#L39"
   },
   "g.10708913337.createur": {
    "v": "More & More Games",
    "d": "More & More Games",
-   "l": "[🎃] Anime Dice : créateur",
+   "l": "[⭐UPD 11] Anime Dice : créateur",
    "src": "data/jours/2026-10-31.csv#L39"
   },
   "g.10708913337.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🎃] Anime Dice : genre",
+   "l": "[⭐UPD 11] Anime Dice : genre",
    "src": "data/jours/2026-10-31.csv#L39"
   },
   "g.10708913337.var_veille": {
    "v": -0.0523,
    "d": "−5,2 %",
-   "l": "[🎃] Anime Dice : variation de la moyenne par rapport à la veille",
+   "l": "[⭐UPD 11] Anime Dice : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-31.csv#L39"
   },
   "g.10708913337.moy_veille": {
    "v": 63234,
    "d": "63 234",
-   "l": "[🎃] Anime Dice : moyenne de la veille",
+   "l": "[⭐UPD 11] Anime Dice : moyenne de la veille",
    "src": "data/jours/2026-10-31.csv#L39"
   },
   "g.10708913337.visites_24h": {
    "v": 2589264,
    "d": "2,59 millions",
-   "l": "[🎃] Anime Dice : visites gagnées en 24 h",
+   "l": "[⭐UPD 11] Anime Dice : visites gagnées en 24 h",
    "src": "data/jours/2026-10-31.csv#L39"
   },
   "g.10708913337.visites_total": {
    "v": 153793518,
    "d": "153,79 millions",
-   "l": "[🎃] Anime Dice : visites cumulées depuis la création",
+   "l": "[⭐UPD 11] Anime Dice : visites cumulées depuis la création",
    "src": "data/jours/2026-10-31.csv#L39"
   },
   "g.10708913337.note": {
    "v": 0.9904,
    "d": "99,0 %",
-   "l": "[🎃] Anime Dice : part de votes positifs",
+   "l": "[⭐UPD 11] Anime Dice : part de votes positifs",
    "src": "data/jours/2026-10-31.csv#L39"
   },
   "g.10708913337.rang_veille": {
    "v": 23,
    "d": "23e",
-   "l": "[🎃] Anime Dice : rang la veille",
+   "l": "[⭐UPD 11] Anime Dice : rang la veille",
    "src": "data/jours/2026-10-31.csv#L39"
   },
   "g.10155360168.nom": {
@@ -4401,81 +4401,81 @@
    "src": "data/jours/2026-10-31.csv#L47"
   },
   "g.10767380385.nom": {
-   "v": "🎃 Sell Fries! [Anomaly] 🍟",
-   "d": "🎃 Sell Fries! [Anomaly] 🍟",
-   "l": "🎃 Sell Fries! [Anomaly] 🍟 : nom",
+   "v": "[CH2] Sell Fries! [Anomaly] 🍟",
+   "d": "[CH2] Sell Fries! [Anomaly] 🍟",
+   "l": "[CH2] Sell Fries! [Anomaly] 🍟 : nom",
    "src": "data/jours/2026-10-31.csv#L48"
   },
   "g.10767380385.rang": {
    "v": 47,
    "d": "47e",
-   "l": "🎃 Sell Fries! [Anomaly] 🍟 : rang au pic du jour",
+   "l": "[CH2] Sell Fries! [Anomaly] 🍟 : rang au pic du jour",
    "src": "data/jours/2026-10-31.csv#L48"
   },
   "g.10767380385.pic": {
    "v": 54800,
    "d": "54 800",
-   "l": "🎃 Sell Fries! [Anomaly] 🍟 : pic de joueurs simultanés relevé",
+   "l": "[CH2] Sell Fries! [Anomaly] 🍟 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-31.csv#L48"
   },
   "g.10767380385.heure_pic": {
    "v": "14:47",
    "d": "14 h 47",
-   "l": "🎃 Sell Fries! [Anomaly] 🍟 : heure (Paris) du pic relevé",
+   "l": "[CH2] Sell Fries! [Anomaly] 🍟 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-31.csv#L48"
   },
   "g.10767380385.moy": {
    "v": 38982,
    "d": "38 982",
-   "l": "🎃 Sell Fries! [Anomaly] 🍟 : moyenne des joueurs simultanés sur la journée",
+   "l": "[CH2] Sell Fries! [Anomaly] 🍟 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-31.csv#L48"
   },
   "g.10767380385.createur": {
    "v": "Pharting",
    "d": "Pharting",
-   "l": "🎃 Sell Fries! [Anomaly] 🍟 : créateur",
+   "l": "[CH2] Sell Fries! [Anomaly] 🍟 : créateur",
    "src": "data/jours/2026-10-31.csv#L48"
   },
   "g.10767380385.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "🎃 Sell Fries! [Anomaly] 🍟 : genre",
+   "l": "[CH2] Sell Fries! [Anomaly] 🍟 : genre",
    "src": "data/jours/2026-10-31.csv#L48"
   },
   "g.10767380385.var_veille": {
    "v": 0.2362,
    "d": "+23,6 %",
-   "l": "🎃 Sell Fries! [Anomaly] 🍟 : variation de la moyenne par rapport à la veille",
+   "l": "[CH2] Sell Fries! [Anomaly] 🍟 : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-31.csv#L48"
   },
   "g.10767380385.moy_veille": {
    "v": 31535,
    "d": "31 535",
-   "l": "🎃 Sell Fries! [Anomaly] 🍟 : moyenne de la veille",
+   "l": "[CH2] Sell Fries! [Anomaly] 🍟 : moyenne de la veille",
    "src": "data/jours/2026-10-31.csv#L48"
   },
   "g.10767380385.visites_24h": {
    "v": 3571092,
    "d": "3,57 millions",
-   "l": "🎃 Sell Fries! [Anomaly] 🍟 : visites gagnées en 24 h",
+   "l": "[CH2] Sell Fries! [Anomaly] 🍟 : visites gagnées en 24 h",
    "src": "data/jours/2026-10-31.csv#L48"
   },
   "g.10767380385.visites_total": {
    "v": 89318912,
    "d": "89,32 millions",
-   "l": "🎃 Sell Fries! [Anomaly] 🍟 : visites cumulées depuis la création",
+   "l": "[CH2] Sell Fries! [Anomaly] 🍟 : visites cumulées depuis la création",
    "src": "data/jours/2026-10-31.csv#L48"
   },
   "g.10767380385.note": {
    "v": 0.8433,
    "d": "84,3 %",
-   "l": "🎃 Sell Fries! [Anomaly] 🍟 : part de votes positifs",
+   "l": "[CH2] Sell Fries! [Anomaly] 🍟 : part de votes positifs",
    "src": "data/jours/2026-10-31.csv#L48"
   },
   "g.10767380385.rang_veille": {
    "v": 41,
    "d": "41e",
-   "l": "🎃 Sell Fries! [Anomaly] 🍟 : rang la veille",
+   "l": "[CH2] Sell Fries! [Anomaly] 🍟 : rang la veille",
    "src": "data/jours/2026-10-31.csv#L48"
   },
   "g.10769384180.nom": {
