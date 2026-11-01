@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-31",
- "genere": "2026-11-01T08:00:35Z",
+ "genere": "2026-11-01T08:51:38Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -4011,81 +4011,81 @@
    "src": "data/jours/2026-10-31.csv#L42"
   },
   "g.3183403065.nom": {
-   "v": "[🤹APRIL FOOL'S🤡] Anime Adventures",
-   "d": "[🤹APRIL FOOL'S🤡] Anime Adventures",
-   "l": "[🤹APRIL FOOL'S🤡] Anime Adventures : nom",
+   "v": "[MAINTENANCE] Anime Adventures",
+   "d": "[MAINTENANCE] Anime Adventures",
+   "l": "[MAINTENANCE] Anime Adventures : nom",
    "src": "data/jours/2026-10-31.csv#L43"
   },
   "g.3183403065.rang": {
    "v": 42,
    "d": "42e",
-   "l": "[🤹APRIL FOOL'S🤡] Anime Adventures : rang au pic du jour",
+   "l": "[MAINTENANCE] Anime Adventures : rang au pic du jour",
    "src": "data/jours/2026-10-31.csv#L43"
   },
   "g.3183403065.pic": {
    "v": 58007,
    "d": "58 007",
-   "l": "[🤹APRIL FOOL'S🤡] Anime Adventures : pic de joueurs simultanés relevé",
+   "l": "[MAINTENANCE] Anime Adventures : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-31.csv#L43"
   },
   "g.3183403065.heure_pic": {
    "v": "15:39",
    "d": "15 h 39",
-   "l": "[🤹APRIL FOOL'S🤡] Anime Adventures : heure (Paris) du pic relevé",
+   "l": "[MAINTENANCE] Anime Adventures : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-31.csv#L43"
   },
   "g.3183403065.moy": {
    "v": 49173,
    "d": "49 173",
-   "l": "[🤹APRIL FOOL'S🤡] Anime Adventures : moyenne des joueurs simultanés sur la journée",
+   "l": "[MAINTENANCE] Anime Adventures : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-31.csv#L43"
   },
   "g.3183403065.createur": {
    "v": "Gomu",
    "d": "Gomu",
-   "l": "[🤹APRIL FOOL'S🤡] Anime Adventures : créateur",
+   "l": "[MAINTENANCE] Anime Adventures : créateur",
    "src": "data/jours/2026-10-31.csv#L43"
   },
   "g.3183403065.genre": {
    "v": "Strategy",
    "d": "Stratégie",
-   "l": "[🤹APRIL FOOL'S🤡] Anime Adventures : genre",
+   "l": "[MAINTENANCE] Anime Adventures : genre",
    "src": "data/jours/2026-10-31.csv#L43"
   },
   "g.3183403065.var_veille": {
    "v": 0.0828,
    "d": "+8,3 %",
-   "l": "[🤹APRIL FOOL'S🤡] Anime Adventures : variation de la moyenne par rapport à la veille",
+   "l": "[MAINTENANCE] Anime Adventures : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-31.csv#L43"
   },
   "g.3183403065.moy_veille": {
    "v": 45415,
    "d": "45 415",
-   "l": "[🤹APRIL FOOL'S🤡] Anime Adventures : moyenne de la veille",
+   "l": "[MAINTENANCE] Anime Adventures : moyenne de la veille",
    "src": "data/jours/2026-10-31.csv#L43"
   },
   "g.3183403065.visites_24h": {
    "v": 3350414,
    "d": "3,35 millions",
-   "l": "[🤹APRIL FOOL'S🤡] Anime Adventures : visites gagnées en 24 h",
+   "l": "[MAINTENANCE] Anime Adventures : visites gagnées en 24 h",
    "src": "data/jours/2026-10-31.csv#L43"
   },
   "g.3183403065.visites_total": {
    "v": 2542099827,
    "d": "2,54 milliards",
-   "l": "[🤹APRIL FOOL'S🤡] Anime Adventures : visites cumulées depuis la création",
+   "l": "[MAINTENANCE] Anime Adventures : visites cumulées depuis la création",
    "src": "data/jours/2026-10-31.csv#L43"
   },
   "g.3183403065.note": {
    "v": 0.9189,
    "d": "91,9 %",
-   "l": "[🤹APRIL FOOL'S🤡] Anime Adventures : part de votes positifs",
+   "l": "[MAINTENANCE] Anime Adventures : part de votes positifs",
    "src": "data/jours/2026-10-31.csv#L43"
   },
   "g.3183403065.rang_veille": {
    "v": 31,
    "d": "31e",
-   "l": "[🤹APRIL FOOL'S🤡] Anime Adventures : rang la veille",
+   "l": "[MAINTENANCE] Anime Adventures : rang la veille",
    "src": "data/jours/2026-10-31.csv#L43"
   },
   "g.1202096104.nom": {
