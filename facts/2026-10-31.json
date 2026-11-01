@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-31",
- "genere": "2026-10-31T23:38:16Z",
+ "genere": "2026-11-01T01:10:12Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -3543,81 +3543,81 @@
    "src": "data/jours/2026-10-31.csv#L36"
   },
   "g.6701277882.nom": {
-   "v": "[2 HRS] Fish It! 🐟",
-   "d": "[2 HRS] Fish It! 🐟",
-   "l": "[2 HRS] Fish It! 🐟 : nom",
+   "v": "[NOW] Fish It! 🐟",
+   "d": "[NOW] Fish It! 🐟",
+   "l": "[NOW] Fish It! 🐟 : nom",
    "src": "data/jours/2026-10-31.csv#L37"
   },
   "g.6701277882.rang": {
    "v": 36,
    "d": "36e",
-   "l": "[2 HRS] Fish It! 🐟 : rang au pic du jour",
+   "l": "[NOW] Fish It! 🐟 : rang au pic du jour",
    "src": "data/jours/2026-10-31.csv#L37"
   },
   "g.6701277882.pic": {
    "v": 66595,
    "d": "66 595",
-   "l": "[2 HRS] Fish It! 🐟 : pic de joueurs simultanés relevé",
+   "l": "[NOW] Fish It! 🐟 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-31.csv#L37"
   },
   "g.6701277882.heure_pic": {
    "v": "19:45",
    "d": "19 h 45",
-   "l": "[2 HRS] Fish It! 🐟 : heure (Paris) du pic relevé",
+   "l": "[NOW] Fish It! 🐟 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-31.csv#L37"
   },
   "g.6701277882.moy": {
    "v": 64760,
    "d": "64 760",
-   "l": "[2 HRS] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
+   "l": "[NOW] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-31.csv#L37"
   },
   "g.6701277882.createur": {
    "v": "Fish Atelier",
    "d": "Fish Atelier",
-   "l": "[2 HRS] Fish It! 🐟 : créateur",
+   "l": "[NOW] Fish It! 🐟 : créateur",
    "src": "data/jours/2026-10-31.csv#L37"
   },
   "g.6701277882.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[2 HRS] Fish It! 🐟 : genre",
+   "l": "[NOW] Fish It! 🐟 : genre",
    "src": "data/jours/2026-10-31.csv#L37"
   },
   "g.6701277882.var_veille": {
    "v": 0.0081,
    "d": "+0,8 %",
-   "l": "[2 HRS] Fish It! 🐟 : variation de la moyenne par rapport à la veille",
+   "l": "[NOW] Fish It! 🐟 : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-31.csv#L37"
   },
   "g.6701277882.moy_veille": {
    "v": 64239,
    "d": "64 239",
-   "l": "[2 HRS] Fish It! 🐟 : moyenne de la veille",
+   "l": "[NOW] Fish It! 🐟 : moyenne de la veille",
    "src": "data/jours/2026-10-31.csv#L37"
   },
   "g.6701277882.visites_24h": {
    "v": 1476306,
    "d": "1,48 million",
-   "l": "[2 HRS] Fish It! 🐟 : visites gagnées en 24 h",
+   "l": "[NOW] Fish It! 🐟 : visites gagnées en 24 h",
    "src": "data/jours/2026-10-31.csv#L37"
   },
   "g.6701277882.visites_total": {
    "v": 4808938281,
    "d": "4,81 milliards",
-   "l": "[2 HRS] Fish It! 🐟 : visites cumulées depuis la création",
+   "l": "[NOW] Fish It! 🐟 : visites cumulées depuis la création",
    "src": "data/jours/2026-10-31.csv#L37"
   },
   "g.6701277882.note": {
    "v": 0.8283,
    "d": "82,8 %",
-   "l": "[2 HRS] Fish It! 🐟 : part de votes positifs",
+   "l": "[NOW] Fish It! 🐟 : part de votes positifs",
    "src": "data/jours/2026-10-31.csv#L37"
   },
   "g.6701277882.rang_veille": {
    "v": 24,
    "d": "24e",
-   "l": "[2 HRS] Fish It! 🐟 : rang la veille",
+   "l": "[NOW] Fish It! 🐟 : rang la veille",
    "src": "data/jours/2026-10-31.csv#L37"
   },
   "g.5361032378.nom": {
