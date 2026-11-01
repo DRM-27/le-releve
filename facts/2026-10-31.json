@@ -1,6 +1,6 @@
 {
  "jour": "2026-10-31",
- "genere": "2026-11-01T17:38:25Z",
+ "genere": "2026-11-01T18:45:41Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -7953,81 +7953,81 @@
    "src": "data/jours/2026-10-31.csv#L93"
   },
   "g.10767012496.nom": {
-   "v": "[🎃] Turbo Soccer : Beta 1.0",
-   "d": "[🎃] Turbo Soccer : Beta 1.0",
-   "l": "[🎃] Turbo Soccer : Beta 1.0 : nom",
+   "v": "[PT.2🎃] Turbo Soccer : Beta 1.0",
+   "d": "[PT.2🎃] Turbo Soccer : Beta 1.0",
+   "l": "[PT.2🎃] Turbo Soccer : Beta 1.0 : nom",
    "src": "data/jours/2026-10-31.csv#L94"
   },
   "g.10767012496.rang": {
    "v": 93,
    "d": "93e",
-   "l": "[🎃] Turbo Soccer : Beta 1.0 : rang au pic du jour",
+   "l": "[PT.2🎃] Turbo Soccer : Beta 1.0 : rang au pic du jour",
    "src": "data/jours/2026-10-31.csv#L94"
   },
   "g.10767012496.pic": {
    "v": 26030,
    "d": "26 030",
-   "l": "[🎃] Turbo Soccer : Beta 1.0 : pic de joueurs simultanés relevé",
+   "l": "[PT.2🎃] Turbo Soccer : Beta 1.0 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-10-31.csv#L94"
   },
   "g.10767012496.heure_pic": {
    "v": "17:39",
    "d": "17 h 39",
-   "l": "[🎃] Turbo Soccer : Beta 1.0 : heure (Paris) du pic relevé",
+   "l": "[PT.2🎃] Turbo Soccer : Beta 1.0 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-10-31.csv#L94"
   },
   "g.10767012496.moy": {
    "v": 18429,
    "d": "18 429",
-   "l": "[🎃] Turbo Soccer : Beta 1.0 : moyenne des joueurs simultanés sur la journée",
+   "l": "[PT.2🎃] Turbo Soccer : Beta 1.0 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-10-31.csv#L94"
   },
   "g.10767012496.createur": {
    "v": "Turbo Soccer",
    "d": "Turbo Soccer",
-   "l": "[🎃] Turbo Soccer : Beta 1.0 : créateur",
+   "l": "[PT.2🎃] Turbo Soccer : Beta 1.0 : créateur",
    "src": "data/jours/2026-10-31.csv#L94"
   },
   "g.10767012496.genre": {
    "v": "Sports & Racing",
    "d": "Sport et course",
-   "l": "[🎃] Turbo Soccer : Beta 1.0 : genre",
+   "l": "[PT.2🎃] Turbo Soccer : Beta 1.0 : genre",
    "src": "data/jours/2026-10-31.csv#L94"
   },
   "g.10767012496.var_veille": {
    "v": 0.0553,
    "d": "+5,5 %",
-   "l": "[🎃] Turbo Soccer : Beta 1.0 : variation de la moyenne par rapport à la veille",
+   "l": "[PT.2🎃] Turbo Soccer : Beta 1.0 : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-10-31.csv#L94"
   },
   "g.10767012496.moy_veille": {
    "v": 17463,
    "d": "17 463",
-   "l": "[🎃] Turbo Soccer : Beta 1.0 : moyenne de la veille",
+   "l": "[PT.2🎃] Turbo Soccer : Beta 1.0 : moyenne de la veille",
    "src": "data/jours/2026-10-31.csv#L94"
   },
   "g.10767012496.visites_24h": {
    "v": 5804846,
    "d": "5,8 millions",
-   "l": "[🎃] Turbo Soccer : Beta 1.0 : visites gagnées en 24 h",
+   "l": "[PT.2🎃] Turbo Soccer : Beta 1.0 : visites gagnées en 24 h",
    "src": "data/jours/2026-10-31.csv#L94"
   },
   "g.10767012496.visites_total": {
    "v": 128697207,
    "d": "128,7 millions",
-   "l": "[🎃] Turbo Soccer : Beta 1.0 : visites cumulées depuis la création",
+   "l": "[PT.2🎃] Turbo Soccer : Beta 1.0 : visites cumulées depuis la création",
    "src": "data/jours/2026-10-31.csv#L94"
   },
   "g.10767012496.note": {
    "v": 0.9237,
    "d": "92,4 %",
-   "l": "[🎃] Turbo Soccer : Beta 1.0 : part de votes positifs",
+   "l": "[PT.2🎃] Turbo Soccer : Beta 1.0 : part de votes positifs",
    "src": "data/jours/2026-10-31.csv#L94"
   },
   "g.10767012496.rang_veille": {
    "v": 63,
    "d": "63e",
-   "l": "[🎃] Turbo Soccer : Beta 1.0 : rang la veille",
+   "l": "[PT.2🎃] Turbo Soccer : Beta 1.0 : rang la veille",
    "src": "data/jours/2026-10-31.csv#L94"
   },
   "g.7398552394.nom": {
