@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-01",
- "genere": "2026-11-01T23:38:56Z",
+ "genere": "2026-11-02T01:07:23Z",
  "couverture": {
   "releves": 23,
   "attendus": 24
@@ -9861,8 +9861,8 @@
    "src": "data/jours/2026-11-01.csv#L456"
   },
   "baisse.4.nom": {
-   "v": "Anime Zero [POTENTIAL 🌟]",
-   "d": "Anime Zero [POTENTIAL 🌟]",
+   "v": "[UPD 6] Anime Zero",
+   "d": "[UPD 6] Anime Zero",
    "l": "Baisse n° 4 : nom",
    "src": "data/jours/2026-11-01.csv#L373"
   },
@@ -10227,7 +10227,7 @@
      "valeur": -0.4714
     },
     {
-     "nom": "Anime Zero [POTENTIAL 🌟]",
+     "nom": "[UPD 6] Anime Zero",
      "valeur": -0.4716
     },
     {

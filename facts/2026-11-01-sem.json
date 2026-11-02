@@ -1,0 +1,198 @@
+{
+ "jour": "2026-11-01-sem",
+ "genere": "2026-11-02T01:07:20Z",
+ "couverture": {
+  "releves": 7,
+  "attendus": 7,
+  "instantane": true
+ },
+ "faits": {
+  "semaine.debut": {
+   "v": "2026-10-26",
+   "d": "26 octobre 2026",
+   "l": "Premier jour de la semaine",
+   "src": "data/semaines/2026-11-01.csv"
+  },
+  "semaine.fin": {
+   "v": "2026-11-01",
+   "d": "1er novembre 2026",
+   "l": "Dernier jour de la semaine",
+   "src": "data/semaines/2026-11-01.csv"
+  },
+  "n.top": {
+   "v": 10,
+   "d": "10",
+   "l": "Taille du classement",
+   "src": "data/semaines/2026-11-01.csv"
+  },
+  "top.1.nom": {
+   "v": "Steal An Egg",
+   "d": "Steal An Egg",
+   "l": "N° 1 de la semaine : nom",
+   "src": "data/semaines/2026-11-01.csv"
+  },
+  "top.1.moy": {
+   "v": 1032973,
+   "d": "1 032 973",
+   "l": "N° 1 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-01.csv"
+  },
+  "top.2.nom": {
+   "v": "Murder Mystery 2",
+   "d": "Murder Mystery 2",
+   "l": "N° 2 de la semaine : nom",
+   "src": "data/semaines/2026-11-01.csv"
+  },
+  "top.2.moy": {
+   "v": 402751,
+   "d": "402 751",
+   "l": "N° 2 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-01.csv"
+  },
+  "top.3.nom": {
+   "v": "Brookhaven 🏡RP",
+   "d": "Brookhaven 🏡RP",
+   "l": "N° 3 de la semaine : nom",
+   "src": "data/semaines/2026-11-01.csv"
+  },
+  "top.3.moy": {
+   "v": 387304,
+   "d": "387 304",
+   "l": "N° 3 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-01.csv"
+  },
+  "top.4.nom": {
+   "v": "[💀] Steal a Brainrot",
+   "d": "[💀] Steal a Brainrot",
+   "l": "N° 4 de la semaine : nom",
+   "src": "data/semaines/2026-11-01.csv"
+  },
+  "top.4.moy": {
+   "v": 245298,
+   "d": "245 298",
+   "l": "N° 4 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-01.csv"
+  },
+  "top.5.nom": {
+   "v": "[1.2X🎃] Adopt Me!",
+   "d": "[1.2X🎃] Adopt Me!",
+   "l": "N° 5 de la semaine : nom",
+   "src": "data/semaines/2026-11-01.csv"
+  },
+  "top.5.moy": {
+   "v": 220486,
+   "d": "220 486",
+   "l": "N° 5 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-01.csv"
+  },
+  "top.6.nom": {
+   "v": "[🎃] Blox Fruits",
+   "d": "[🎃] Blox Fruits",
+   "l": "N° 6 de la semaine : nom",
+   "src": "data/semaines/2026-11-01.csv"
+  },
+  "top.6.moy": {
+   "v": 184624,
+   "d": "184 624",
+   "l": "N° 6 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-01.csv"
+  },
+  "top.7.nom": {
+   "v": "99 Nights in the Forest 🔦",
+   "d": "99 Nights in the Forest 🔦",
+   "l": "N° 7 de la semaine : nom",
+   "src": "data/semaines/2026-11-01.csv"
+  },
+  "top.7.moy": {
+   "v": 180232,
+   "d": "180 232",
+   "l": "N° 7 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-01.csv"
+  },
+  "top.8.nom": {
+   "v": "[🎃] RIVALS",
+   "d": "[🎃] RIVALS",
+   "l": "N° 8 de la semaine : nom",
+   "src": "data/semaines/2026-11-01.csv"
+  },
+  "top.8.moy": {
+   "v": 167237,
+   "d": "167 237",
+   "l": "N° 8 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-01.csv"
+  },
+  "top.9.nom": {
+   "v": "[🎃] Jujutsu Shenanigans",
+   "d": "[🎃] Jujutsu Shenanigans",
+   "l": "N° 9 de la semaine : nom",
+   "src": "data/semaines/2026-11-01.csv"
+  },
+  "top.9.moy": {
+   "v": 120658,
+   "d": "120 658",
+   "l": "N° 9 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-01.csv"
+  },
+  "top.10.nom": {
+   "v": "Break and Steal an Egg",
+   "d": "Break and Steal an Egg",
+   "l": "N° 10 de la semaine : nom",
+   "src": "data/semaines/2026-11-01.csv"
+  },
+  "top.10.moy": {
+   "v": 92845,
+   "d": "92 845",
+   "l": "N° 10 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-01.csv"
+  }
+ },
+ "graphiques": {
+  "top10": {
+   "titre": "Moyenne de joueurs de la semaine, top 10",
+   "unite": "joueurs",
+   "rows": [
+    {
+     "nom": "Steal An Egg",
+     "valeur": 1032973
+    },
+    {
+     "nom": "Murder Mystery 2",
+     "valeur": 402751
+    },
+    {
+     "nom": "Brookhaven 🏡RP",
+     "valeur": 387304
+    },
+    {
+     "nom": "[💀] Steal a Brainrot",
+     "valeur": 245298
+    },
+    {
+     "nom": "[1.2X🎃] Adopt Me!",
+     "valeur": 220486
+    },
+    {
+     "nom": "[🎃] Blox Fruits",
+     "valeur": 184624
+    },
+    {
+     "nom": "99 Nights in the Forest 🔦",
+     "valeur": 180232
+    },
+    {
+     "nom": "[🎃] RIVALS",
+     "valeur": 167237
+    },
+    {
+     "nom": "[🎃] Jujutsu Shenanigans",
+     "valeur": 120658
+    },
+    {
+     "nom": "Break and Steal an Egg",
+     "valeur": 92845
+    }
+   ],
+   "csv": "data/semaines/2026-11-01.csv"
+  }
+ }
+}
