@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-01",
- "genere": "2026-11-02T19:55:55Z",
+ "genere": "2026-11-02T20:47:33Z",
  "couverture": {
   "releves": 23,
   "attendus": 24
@@ -615,8 +615,8 @@
    "src": "data/jours/2026-11-01.csv#L7"
   },
   "top.7.nom": {
-   "v": "[🎃] RIVALS",
-   "d": "[🎃] RIVALS",
+   "v": "RIVALS",
+   "d": "RIVALS",
    "l": "N° 7 du jour : nom",
    "src": "data/jours/2026-11-01.csv#L8"
   },
@@ -1515,93 +1515,93 @@
    "src": "data/jours/2026-11-01.csv#L7"
   },
   "g.6035872082.nom": {
-   "v": "[🎃] RIVALS",
-   "d": "[🎃] RIVALS",
-   "l": "[🎃] RIVALS : nom",
+   "v": "RIVALS",
+   "d": "RIVALS",
+   "l": "RIVALS : nom",
    "src": "data/jours/2026-11-01.csv#L8"
   },
   "g.6035872082.rang": {
    "v": 7,
    "d": "7e",
-   "l": "[🎃] RIVALS : rang au pic du jour",
+   "l": "RIVALS : rang au pic du jour",
    "src": "data/jours/2026-11-01.csv#L8"
   },
   "g.6035872082.pic": {
    "v": 278936,
    "d": "278 936",
-   "l": "[🎃] RIVALS : pic de joueurs simultanés relevé",
+   "l": "RIVALS : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-01.csv#L8"
   },
   "g.6035872082.heure_pic": {
    "v": "16:38",
    "d": "16 h 38",
-   "l": "[🎃] RIVALS : heure (Paris) du pic relevé",
+   "l": "RIVALS : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-01.csv#L8"
   },
   "g.6035872082.moy": {
    "v": 227519,
    "d": "227 519",
-   "l": "[🎃] RIVALS : moyenne des joueurs simultanés sur la journée",
+   "l": "RIVALS : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-01.csv#L8"
   },
   "g.6035872082.createur": {
    "v": "Nosniy Games",
    "d": "Nosniy Games",
-   "l": "[🎃] RIVALS : créateur",
+   "l": "RIVALS : créateur",
    "src": "data/jours/2026-11-01.csv#L8"
   },
   "g.6035872082.genre": {
    "v": "Shooter",
    "d": "Tir",
-   "l": "[🎃] RIVALS : genre",
+   "l": "RIVALS : genre",
    "src": "data/jours/2026-11-01.csv#L8"
   },
   "g.6035872082.var_veille": {
    "v": -0.0334,
    "d": "−3,3 %",
-   "l": "[🎃] RIVALS : variation de la moyenne par rapport à la veille",
+   "l": "RIVALS : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-01.csv#L8"
   },
   "g.6035872082.moy_veille": {
    "v": 235384,
    "d": "235 384",
-   "l": "[🎃] RIVALS : moyenne de la veille",
+   "l": "RIVALS : moyenne de la veille",
    "src": "data/jours/2026-11-01.csv#L8"
   },
   "g.6035872082.var_7j": {
    "v": 0.4348,
    "d": "+43,5 %",
-   "l": "[🎃] RIVALS : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "RIVALS : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-01.csv#L8"
   },
   "g.6035872082.moy_7j": {
    "v": 158574,
    "d": "158 574",
-   "l": "[🎃] RIVALS : moyenne des 7 jours précédents",
+   "l": "RIVALS : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-01.csv#L8"
   },
   "g.6035872082.visites_24h": {
    "v": 25697287,
    "d": "25,7 millions",
-   "l": "[🎃] RIVALS : visites gagnées en 24 h",
+   "l": "RIVALS : visites gagnées en 24 h",
    "src": "data/jours/2026-11-01.csv#L8"
   },
   "g.6035872082.visites_total": {
    "v": 19099178417,
    "d": "19,1 milliards",
-   "l": "[🎃] RIVALS : visites cumulées depuis la création",
+   "l": "RIVALS : visites cumulées depuis la création",
    "src": "data/jours/2026-11-01.csv#L8"
   },
   "g.6035872082.note": {
    "v": 0.9364,
    "d": "93,6 %",
-   "l": "[🎃] RIVALS : part de votes positifs",
+   "l": "RIVALS : part de votes positifs",
    "src": "data/jours/2026-11-01.csv#L8"
   },
   "g.6035872082.rang_veille": {
    "v": 10,
    "d": "10e",
-   "l": "[🎃] RIVALS : rang la veille",
+   "l": "RIVALS : rang la veille",
    "src": "data/jours/2026-11-01.csv#L8"
   },
   "g.7326934954.nom": {
@@ -10179,7 +10179,7 @@
      "valeur": 304282
     },
     {
-     "nom": "[🎃] RIVALS",
+     "nom": "RIVALS",
      "valeur": 278936
     },
     {
