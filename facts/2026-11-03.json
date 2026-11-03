@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-03",
- "genere": "2026-11-03T23:05:45Z",
+ "genere": "2026-11-03T23:57:54Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -9009,93 +9009,93 @@
    "src": "data/jours/2026-11-03.csv#L94"
   },
   "g.7008097940.nom": {
-   "v": "[⚔️] Ink Game",
-   "d": "[⚔️] Ink Game",
-   "l": "[⚔️] Ink Game : nom",
+   "v": "[🎃] Ink Game",
+   "d": "[🎃] Ink Game",
+   "l": "[🎃] Ink Game : nom",
    "src": "data/jours/2026-11-03.csv#L95"
   },
   "g.7008097940.rang": {
    "v": 94,
    "d": "94e",
-   "l": "[⚔️] Ink Game : rang au pic du jour",
+   "l": "[🎃] Ink Game : rang au pic du jour",
    "src": "data/jours/2026-11-03.csv#L95"
   },
   "g.7008097940.pic": {
    "v": 18130,
    "d": "18 130",
-   "l": "[⚔️] Ink Game : pic de joueurs simultanés relevé",
+   "l": "[🎃] Ink Game : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-03.csv#L95"
   },
   "g.7008097940.heure_pic": {
    "v": "19:08",
    "d": "19 h 08",
-   "l": "[⚔️] Ink Game : heure (Paris) du pic relevé",
+   "l": "[🎃] Ink Game : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-03.csv#L95"
   },
   "g.7008097940.moy": {
    "v": 11533,
    "d": "11 533",
-   "l": "[⚔️] Ink Game : moyenne des joueurs simultanés sur la journée",
+   "l": "[🎃] Ink Game : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-03.csv#L95"
   },
   "g.7008097940.createur": {
    "v": "games i think",
    "d": "games i think",
-   "l": "[⚔️] Ink Game : créateur",
+   "l": "[🎃] Ink Game : créateur",
    "src": "data/jours/2026-11-03.csv#L95"
   },
   "g.7008097940.genre": {
    "v": "Party & Casual",
    "d": "Party games",
-   "l": "[⚔️] Ink Game : genre",
+   "l": "[🎃] Ink Game : genre",
    "src": "data/jours/2026-11-03.csv#L95"
   },
   "g.7008097940.var_veille": {
    "v": -0.1047,
    "d": "−10,5 %",
-   "l": "[⚔️] Ink Game : variation de la moyenne par rapport à la veille",
+   "l": "[🎃] Ink Game : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-03.csv#L95"
   },
   "g.7008097940.moy_veille": {
    "v": 12882,
    "d": "12 882",
-   "l": "[⚔️] Ink Game : moyenne de la veille",
+   "l": "[🎃] Ink Game : moyenne de la veille",
    "src": "data/jours/2026-11-03.csv#L95"
   },
   "g.7008097940.var_7j": {
    "v": -0.162,
    "d": "−16,2 %",
-   "l": "[⚔️] Ink Game : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🎃] Ink Game : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-03.csv#L95"
   },
   "g.7008097940.moy_7j": {
    "v": 13762,
    "d": "13 762",
-   "l": "[⚔️] Ink Game : moyenne des 7 jours précédents",
+   "l": "[🎃] Ink Game : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-03.csv#L95"
   },
   "g.7008097940.visites_24h": {
    "v": 1229569,
    "d": "1,23 million",
-   "l": "[⚔️] Ink Game : visites gagnées en 24 h",
+   "l": "[🎃] Ink Game : visites gagnées en 24 h",
    "src": "data/jours/2026-11-03.csv#L95"
   },
   "g.7008097940.visites_total": {
    "v": 3377859859,
    "d": "3,38 milliards",
-   "l": "[⚔️] Ink Game : visites cumulées depuis la création",
+   "l": "[🎃] Ink Game : visites cumulées depuis la création",
    "src": "data/jours/2026-11-03.csv#L95"
   },
   "g.7008097940.note": {
    "v": 0.7922,
    "d": "79,2 %",
-   "l": "[⚔️] Ink Game : part de votes positifs",
+   "l": "[🎃] Ink Game : part de votes positifs",
    "src": "data/jours/2026-11-03.csv#L95"
   },
   "g.7008097940.rang_veille": {
    "v": 108,
    "d": "108e",
-   "l": "[⚔️] Ink Game : rang la veille",
+   "l": "[🎃] Ink Game : rang la veille",
    "src": "data/jours/2026-11-03.csv#L95"
   },
   "g.1000233041.nom": {
