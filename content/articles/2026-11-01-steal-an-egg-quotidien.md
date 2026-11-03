@@ -3,7 +3,7 @@ titre: {{top.1.nom}} en tête avec {{top.1.pic}} joueurs, le genre {{genre.1.nom
 chapo: Le {{jour.date_courte}}, le n° 1 a réuni {{concentration.top1}} des joueurs moyens du top 100 ; le genre {{genre.1.nom}} en regroupe {{genre.1.part}}.
 jour: 2026-11-01
 type: quotidien
-publie: 2026-11-02T00:38
+publie: 2026-11-03T07:30
 ---
 Relevés : {{releves.nb}} sur {{releves.attendus}} ({{releves.manquants}}), pour {{jeux.nb}} jeux suivis. Sur les jeux que nous suivons, le total des joueurs en ligne a atteint {{cumul.pic}} au relevé le plus haut, à {{cumul.pic_heure}}, pour une moyenne de {{cumul.moy}} sur la journée.
 
