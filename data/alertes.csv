@@ -427,3 +427,4 @@ ts_utc,type,universe_id,nom,avant,maintenant,variation,rang,rang_avant,releve
 2026-11-03T07:10:08Z,forte_hausse,10634461028,[NOW🗺️] Drive A Kukirin!,1361,2075,0.5246,314,391,data/snapshots/2026/11/03/07.csv
 2026-11-03T08:56:45Z,forte_hausse,10767825538,Sarab,2008,3483,0.7346,231,316,data/snapshots/2026/11/03/08.csv
 2026-11-03T08:56:45Z,forte_hausse,2027832238,한국 머더,1234,2144,0.7374,312,391,data/snapshots/2026/11/03/08.csv
+2026-11-03T09:16:39Z,forte_hausse,10772879271,[UPDATE 1.0] 30 Floors Up,1971,2963,0.5033,233,320,data/snapshots/2026/11/03/09.csv
