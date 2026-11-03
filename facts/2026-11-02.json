@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-02",
- "genere": "2026-11-03T03:55:12Z",
+ "genere": "2026-11-03T04:57:34Z",
  "couverture": {
   "releves": 19,
   "attendus": 24
@@ -2853,93 +2853,93 @@
    "src": "data/jours/2026-11-02.csv#L22"
   },
   "g.3647333358.nom": {
-   "v": "[🎃THE HOLLOW🎃] Evade ",
-   "d": "[🎃THE HOLLOW🎃] Evade ",
-   "l": "[🎃THE HOLLOW🎃] Evade  : nom",
+   "v": "[🎃HLWN🎃] Evade ",
+   "d": "[🎃HLWN🎃] Evade ",
+   "l": "[🎃HLWN🎃] Evade  : nom",
    "src": "data/jours/2026-11-02.csv#L23"
   },
   "g.3647333358.rang": {
    "v": 22,
    "d": "22e",
-   "l": "[🎃THE HOLLOW🎃] Evade  : rang au pic du jour",
+   "l": "[🎃HLWN🎃] Evade  : rang au pic du jour",
    "src": "data/jours/2026-11-02.csv#L23"
   },
   "g.3647333358.pic": {
    "v": 67813,
    "d": "67 813",
-   "l": "[🎃THE HOLLOW🎃] Evade  : pic de joueurs simultanés relevé",
+   "l": "[🎃HLWN🎃] Evade  : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-02.csv#L23"
   },
   "g.3647333358.heure_pic": {
    "v": "14:07",
    "d": "14 h 07",
-   "l": "[🎃THE HOLLOW🎃] Evade  : heure (Paris) du pic relevé",
+   "l": "[🎃HLWN🎃] Evade  : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-02.csv#L23"
   },
   "g.3647333358.moy": {
    "v": 46911,
    "d": "46 911",
-   "l": "[🎃THE HOLLOW🎃] Evade  : moyenne des joueurs simultanés sur la journée",
+   "l": "[🎃HLWN🎃] Evade  : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-02.csv#L23"
   },
   "g.3647333358.createur": {
    "v": "Hexagon Development Community",
    "d": "Hexagon Development Community",
-   "l": "[🎃THE HOLLOW🎃] Evade  : créateur",
+   "l": "[🎃HLWN🎃] Evade  : créateur",
    "src": "data/jours/2026-11-02.csv#L23"
   },
   "g.3647333358.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "[🎃THE HOLLOW🎃] Evade  : genre",
+   "l": "[🎃HLWN🎃] Evade  : genre",
    "src": "data/jours/2026-11-02.csv#L23"
   },
   "g.3647333358.var_veille": {
    "v": -0.2891,
    "d": "−28,9 %",
-   "l": "[🎃THE HOLLOW🎃] Evade  : variation de la moyenne par rapport à la veille",
+   "l": "[🎃HLWN🎃] Evade  : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-02.csv#L23"
   },
   "g.3647333358.moy_veille": {
    "v": 65988,
    "d": "65 988",
-   "l": "[🎃THE HOLLOW🎃] Evade  : moyenne de la veille",
+   "l": "[🎃HLWN🎃] Evade  : moyenne de la veille",
    "src": "data/jours/2026-11-02.csv#L23"
   },
   "g.3647333358.var_7j": {
    "v": -0.0645,
    "d": "−6,5 %",
-   "l": "[🎃THE HOLLOW🎃] Evade  : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🎃HLWN🎃] Evade  : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-02.csv#L23"
   },
   "g.3647333358.moy_7j": {
    "v": 50143,
    "d": "50 143",
-   "l": "[🎃THE HOLLOW🎃] Evade  : moyenne des 7 jours précédents",
+   "l": "[🎃HLWN🎃] Evade  : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-02.csv#L23"
   },
   "g.3647333358.visites_24h": {
    "v": 5646462,
    "d": "5,65 millions",
-   "l": "[🎃THE HOLLOW🎃] Evade  : visites gagnées en 24 h",
+   "l": "[🎃HLWN🎃] Evade  : visites gagnées en 24 h",
    "src": "data/jours/2026-11-02.csv#L23"
   },
   "g.3647333358.visites_total": {
    "v": 9426714948,
    "d": "9,43 milliards",
-   "l": "[🎃THE HOLLOW🎃] Evade  : visites cumulées depuis la création",
+   "l": "[🎃HLWN🎃] Evade  : visites cumulées depuis la création",
    "src": "data/jours/2026-11-02.csv#L23"
   },
   "g.3647333358.note": {
    "v": 0.9389,
    "d": "93,9 %",
-   "l": "[🎃THE HOLLOW🎃] Evade  : part de votes positifs",
+   "l": "[🎃HLWN🎃] Evade  : part de votes positifs",
    "src": "data/jours/2026-11-02.csv#L23"
   },
   "g.3647333358.rang_veille": {
    "v": 26,
    "d": "26e",
-   "l": "[🎃THE HOLLOW🎃] Evade  : rang la veille",
+   "l": "[🎃HLWN🎃] Evade  : rang la veille",
    "src": "data/jours/2026-11-02.csv#L23"
   },
   "g.6701277882.nom": {
