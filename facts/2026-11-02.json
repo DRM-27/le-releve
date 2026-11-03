@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-02",
- "genere": "2026-11-03T07:11:04Z",
+ "genere": "2026-11-03T08:57:43Z",
  "couverture": {
   "releves": 19,
   "attendus": 24
@@ -435,8 +435,8 @@
    "src": "data/jours/2026-11-02.csv#L5"
   },
   "top.5.nom": {
-   "v": "[🎃] Adopt Me!",
-   "d": "[🎃] Adopt Me!",
+   "v": "[✏️2D TUESDAY] Adopt Me!",
+   "d": "[✏️2D TUESDAY] Adopt Me!",
    "l": "N° 5 du jour : nom",
    "src": "data/jours/2026-11-02.csv#L6"
   },
@@ -1335,93 +1335,93 @@
    "src": "data/jours/2026-11-02.csv#L5"
   },
   "g.383310974.nom": {
-   "v": "[🎃] Adopt Me!",
-   "d": "[🎃] Adopt Me!",
-   "l": "[🎃] Adopt Me! : nom",
+   "v": "[✏️2D TUESDAY] Adopt Me!",
+   "d": "[✏️2D TUESDAY] Adopt Me!",
+   "l": "[✏️2D TUESDAY] Adopt Me! : nom",
    "src": "data/jours/2026-11-02.csv#L6"
   },
   "g.383310974.rang": {
    "v": 5,
    "d": "5e",
-   "l": "[🎃] Adopt Me! : rang au pic du jour",
+   "l": "[✏️2D TUESDAY] Adopt Me! : rang au pic du jour",
    "src": "data/jours/2026-11-02.csv#L6"
   },
   "g.383310974.pic": {
    "v": 336735,
    "d": "336 735",
-   "l": "[🎃] Adopt Me! : pic de joueurs simultanés relevé",
+   "l": "[✏️2D TUESDAY] Adopt Me! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-02.csv#L6"
   },
   "g.383310974.heure_pic": {
    "v": "17:01",
    "d": "17 h 01",
-   "l": "[🎃] Adopt Me! : heure (Paris) du pic relevé",
+   "l": "[✏️2D TUESDAY] Adopt Me! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-02.csv#L6"
   },
   "g.383310974.moy": {
    "v": 216254,
    "d": "216 254",
-   "l": "[🎃] Adopt Me! : moyenne des joueurs simultanés sur la journée",
+   "l": "[✏️2D TUESDAY] Adopt Me! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-02.csv#L6"
   },
   "g.383310974.createur": {
    "v": "Uplift Games",
    "d": "Uplift Games",
-   "l": "[🎃] Adopt Me! : créateur",
+   "l": "[✏️2D TUESDAY] Adopt Me! : créateur",
    "src": "data/jours/2026-11-02.csv#L6"
   },
   "g.383310974.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "[🎃] Adopt Me! : genre",
+   "l": "[✏️2D TUESDAY] Adopt Me! : genre",
    "src": "data/jours/2026-11-02.csv#L6"
   },
   "g.383310974.var_veille": {
    "v": -0.085,
    "d": "−8,5 %",
-   "l": "[🎃] Adopt Me! : variation de la moyenne par rapport à la veille",
+   "l": "[✏️2D TUESDAY] Adopt Me! : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-02.csv#L6"
   },
   "g.383310974.moy_veille": {
    "v": 236346,
    "d": "236 346",
-   "l": "[🎃] Adopt Me! : moyenne de la veille",
+   "l": "[✏️2D TUESDAY] Adopt Me! : moyenne de la veille",
    "src": "data/jours/2026-11-02.csv#L6"
   },
   "g.383310974.var_7j": {
    "v": -0.0175,
    "d": "−1,8 %",
-   "l": "[🎃] Adopt Me! : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[✏️2D TUESDAY] Adopt Me! : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-02.csv#L6"
   },
   "g.383310974.moy_7j": {
    "v": 220115,
    "d": "220 115",
-   "l": "[🎃] Adopt Me! : moyenne des 7 jours précédents",
+   "l": "[✏️2D TUESDAY] Adopt Me! : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-02.csv#L6"
   },
   "g.383310974.visites_24h": {
    "v": 11689453,
    "d": "11,69 millions",
-   "l": "[🎃] Adopt Me! : visites gagnées en 24 h",
+   "l": "[✏️2D TUESDAY] Adopt Me! : visites gagnées en 24 h",
    "src": "data/jours/2026-11-02.csv#L6"
   },
   "g.383310974.visites_total": {
    "v": 45304084177,
    "d": "45,3 milliards",
-   "l": "[🎃] Adopt Me! : visites cumulées depuis la création",
+   "l": "[✏️2D TUESDAY] Adopt Me! : visites cumulées depuis la création",
    "src": "data/jours/2026-11-02.csv#L6"
   },
   "g.383310974.note": {
    "v": 0.8638,
    "d": "86,4 %",
-   "l": "[🎃] Adopt Me! : part de votes positifs",
+   "l": "[✏️2D TUESDAY] Adopt Me! : part de votes positifs",
    "src": "data/jours/2026-11-02.csv#L6"
   },
   "g.383310974.rang_veille": {
    "v": 6,
    "d": "6e",
-   "l": "[🎃] Adopt Me! : rang la veille",
+   "l": "[✏️2D TUESDAY] Adopt Me! : rang la veille",
    "src": "data/jours/2026-11-02.csv#L6"
   },
   "g.6035872082.nom": {
@@ -5523,93 +5523,93 @@
    "src": "data/jours/2026-11-02.csv#L52"
   },
   "g.10148749921.nom": {
-   "v": "[x2 🏆] Animal Hospital (Anomaly) 🧪",
-   "d": "[x2 🏆] Animal Hospital (Anomaly) 🧪",
-   "l": "[x2 🏆] Animal Hospital (Anomaly) 🧪 : nom",
+   "v": "Animal Hospital (Anomaly) 🧪",
+   "d": "Animal Hospital (Anomaly) 🧪",
+   "l": "Animal Hospital (Anomaly) 🧪 : nom",
    "src": "data/jours/2026-11-02.csv#L53"
   },
   "g.10148749921.rang": {
    "v": 52,
    "d": "52e",
-   "l": "[x2 🏆] Animal Hospital (Anomaly) 🧪 : rang au pic du jour",
+   "l": "Animal Hospital (Anomaly) 🧪 : rang au pic du jour",
    "src": "data/jours/2026-11-02.csv#L53"
   },
   "g.10148749921.pic": {
    "v": 32285,
    "d": "32 285",
-   "l": "[x2 🏆] Animal Hospital (Anomaly) 🧪 : pic de joueurs simultanés relevé",
+   "l": "Animal Hospital (Anomaly) 🧪 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-02.csv#L53"
   },
   "g.10148749921.heure_pic": {
    "v": "17:01",
    "d": "17 h 01",
-   "l": "[x2 🏆] Animal Hospital (Anomaly) 🧪 : heure (Paris) du pic relevé",
+   "l": "Animal Hospital (Anomaly) 🧪 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-02.csv#L53"
   },
   "g.10148749921.moy": {
    "v": 24208,
    "d": "24 208",
-   "l": "[x2 🏆] Animal Hospital (Anomaly) 🧪 : moyenne des joueurs simultanés sur la journée",
+   "l": "Animal Hospital (Anomaly) 🧪 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-02.csv#L53"
   },
   "g.10148749921.createur": {
    "v": "Animal Anomaly",
    "d": "Animal Anomaly",
-   "l": "[x2 🏆] Animal Hospital (Anomaly) 🧪 : créateur",
+   "l": "Animal Hospital (Anomaly) 🧪 : créateur",
    "src": "data/jours/2026-11-02.csv#L53"
   },
   "g.10148749921.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "[x2 🏆] Animal Hospital (Anomaly) 🧪 : genre",
+   "l": "Animal Hospital (Anomaly) 🧪 : genre",
    "src": "data/jours/2026-11-02.csv#L53"
   },
   "g.10148749921.var_veille": {
    "v": -0.3691,
    "d": "−36,9 %",
-   "l": "[x2 🏆] Animal Hospital (Anomaly) 🧪 : variation de la moyenne par rapport à la veille",
+   "l": "Animal Hospital (Anomaly) 🧪 : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-02.csv#L53"
   },
   "g.10148749921.moy_veille": {
    "v": 38371,
    "d": "38 371",
-   "l": "[x2 🏆] Animal Hospital (Anomaly) 🧪 : moyenne de la veille",
+   "l": "Animal Hospital (Anomaly) 🧪 : moyenne de la veille",
    "src": "data/jours/2026-11-02.csv#L53"
   },
   "g.10148749921.var_7j": {
    "v": -0.352,
    "d": "−35,2 %",
-   "l": "[x2 🏆] Animal Hospital (Anomaly) 🧪 : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Animal Hospital (Anomaly) 🧪 : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-02.csv#L53"
   },
   "g.10148749921.moy_7j": {
    "v": 37356,
    "d": "37 356",
-   "l": "[x2 🏆] Animal Hospital (Anomaly) 🧪 : moyenne des 7 jours précédents",
+   "l": "Animal Hospital (Anomaly) 🧪 : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-02.csv#L53"
   },
   "g.10148749921.visites_24h": {
    "v": 2861307,
    "d": "2,86 millions",
-   "l": "[x2 🏆] Animal Hospital (Anomaly) 🧪 : visites gagnées en 24 h",
+   "l": "Animal Hospital (Anomaly) 🧪 : visites gagnées en 24 h",
    "src": "data/jours/2026-11-02.csv#L53"
   },
   "g.10148749921.visites_total": {
    "v": 2500960084,
    "d": "2,5 milliards",
-   "l": "[x2 🏆] Animal Hospital (Anomaly) 🧪 : visites cumulées depuis la création",
+   "l": "Animal Hospital (Anomaly) 🧪 : visites cumulées depuis la création",
    "src": "data/jours/2026-11-02.csv#L53"
   },
   "g.10148749921.note": {
    "v": 0.9313,
    "d": "93,1 %",
-   "l": "[x2 🏆] Animal Hospital (Anomaly) 🧪 : part de votes positifs",
+   "l": "Animal Hospital (Anomaly) 🧪 : part de votes positifs",
    "src": "data/jours/2026-11-02.csv#L53"
   },
   "g.10148749921.rang_veille": {
    "v": 44,
    "d": "44e",
-   "l": "[x2 🏆] Animal Hospital (Anomaly) 🧪 : rang la veille",
+   "l": "Animal Hospital (Anomaly) 🧪 : rang la veille",
    "src": "data/jours/2026-11-02.csv#L53"
   },
   "g.1176784616.nom": {
@@ -10309,7 +10309,7 @@
      "valeur": 462798
     },
     {
-     "nom": "[🎃] Adopt Me!",
+     "nom": "[✏️2D TUESDAY] Adopt Me!",
      "valeur": 336735
     },
     {
