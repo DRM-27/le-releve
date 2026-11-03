@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-02",
- "genere": "2026-11-03T20:13:57Z",
+ "genere": "2026-11-03T21:09:46Z",
  "couverture": {
   "releves": 19,
   "attendus": 24
@@ -4191,93 +4191,93 @@
    "src": "data/jours/2026-11-02.csv#L37"
   },
   "g.10629695169.nom": {
-   "v": "[✨] Tap Simulator REBORN",
-   "d": "[✨] Tap Simulator REBORN",
-   "l": "[✨] Tap Simulator REBORN : nom",
+   "v": "✨Tap Simulator REBORN",
+   "d": "✨Tap Simulator REBORN",
+   "l": "✨Tap Simulator REBORN : nom",
    "src": "data/jours/2026-11-02.csv#L38"
   },
   "g.10629695169.rang": {
    "v": 37,
    "d": "37e",
-   "l": "[✨] Tap Simulator REBORN : rang au pic du jour",
+   "l": "✨Tap Simulator REBORN : rang au pic du jour",
    "src": "data/jours/2026-11-02.csv#L38"
   },
   "g.10629695169.pic": {
    "v": 40569,
    "d": "40 569",
-   "l": "[✨] Tap Simulator REBORN : pic de joueurs simultanés relevé",
+   "l": "✨Tap Simulator REBORN : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-02.csv#L38"
   },
   "g.10629695169.heure_pic": {
    "v": "17:01",
    "d": "17 h 01",
-   "l": "[✨] Tap Simulator REBORN : heure (Paris) du pic relevé",
+   "l": "✨Tap Simulator REBORN : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-02.csv#L38"
   },
   "g.10629695169.moy": {
    "v": 37816,
    "d": "37 816",
-   "l": "[✨] Tap Simulator REBORN : moyenne des joueurs simultanés sur la journée",
+   "l": "✨Tap Simulator REBORN : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-02.csv#L38"
   },
   "g.10629695169.createur": {
    "v": "Cursor Makers",
    "d": "Cursor Makers",
-   "l": "[✨] Tap Simulator REBORN : créateur",
+   "l": "✨Tap Simulator REBORN : créateur",
    "src": "data/jours/2026-11-02.csv#L38"
   },
   "g.10629695169.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[✨] Tap Simulator REBORN : genre",
+   "l": "✨Tap Simulator REBORN : genre",
    "src": "data/jours/2026-11-02.csv#L38"
   },
   "g.10629695169.var_veille": {
    "v": -0.1355,
    "d": "−13,6 %",
-   "l": "[✨] Tap Simulator REBORN : variation de la moyenne par rapport à la veille",
+   "l": "✨Tap Simulator REBORN : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-02.csv#L38"
   },
   "g.10629695169.moy_veille": {
    "v": 43741,
    "d": "43 741",
-   "l": "[✨] Tap Simulator REBORN : moyenne de la veille",
+   "l": "✨Tap Simulator REBORN : moyenne de la veille",
    "src": "data/jours/2026-11-02.csv#L38"
   },
   "g.10629695169.var_7j": {
    "v": -0.0593,
    "d": "−5,9 %",
-   "l": "[✨] Tap Simulator REBORN : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "✨Tap Simulator REBORN : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-02.csv#L38"
   },
   "g.10629695169.moy_7j": {
    "v": 40202,
    "d": "40 202",
-   "l": "[✨] Tap Simulator REBORN : moyenne des 7 jours précédents",
+   "l": "✨Tap Simulator REBORN : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-02.csv#L38"
   },
   "g.10629695169.visites_24h": {
    "v": 1969338,
    "d": "1,97 million",
-   "l": "[✨] Tap Simulator REBORN : visites gagnées en 24 h",
+   "l": "✨Tap Simulator REBORN : visites gagnées en 24 h",
    "src": "data/jours/2026-11-02.csv#L38"
   },
   "g.10629695169.visites_total": {
    "v": 36338085,
    "d": "36,34 millions",
-   "l": "[✨] Tap Simulator REBORN : visites cumulées depuis la création",
+   "l": "✨Tap Simulator REBORN : visites cumulées depuis la création",
    "src": "data/jours/2026-11-02.csv#L38"
   },
   "g.10629695169.note": {
    "v": 0.9418,
    "d": "94,2 %",
-   "l": "[✨] Tap Simulator REBORN : part de votes positifs",
+   "l": "✨Tap Simulator REBORN : part de votes positifs",
    "src": "data/jours/2026-11-02.csv#L38"
   },
   "g.10629695169.rang_veille": {
    "v": 49,
    "d": "49e",
-   "l": "[✨] Tap Simulator REBORN : rang la veille",
+   "l": "✨Tap Simulator REBORN : rang la veille",
    "src": "data/jours/2026-11-02.csv#L38"
   },
   "g.10764627709.nom": {
