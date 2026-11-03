@@ -661,6 +661,20 @@ def ticker_html(arts, live, alerts):
             f'<div class="tk-row">{row}</div><div class="tk-row" aria-hidden="true">{row}</div></div></div>')
 
 
+def rapport_banner(lang):
+    """Bandeau en tête de l'accueil : dernière édition du rapport mensuel (PDF), français seulement."""
+    pdfs = sorted((ROOT / "out" / "rapport").glob("etat-de-roblox-*.pdf"))
+    if lang != "fr" or not pdfs:
+        return ""
+    m = re.search(r"(\d{4})-(\d{2})", pdfs[-1].name)
+    mois = MOIS[int(m.group(2)) - 1] + " " + m.group(1) if m else ""
+    return ('<a class="rp-banner" href="' + url("rapport/pdf/" + pdfs[-1].name) + '" style="display:block;margin:0 0 20px;padding:16px 20px;'
+            'background:var(--fact-wash);border:1px solid var(--fact);border-radius:12px;color:var(--ink);text-decoration:none">'
+            '<span style="font-size:.75rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--fact)">Rapport mensuel · gratuit</span>'
+            '<strong style="display:block;font-size:1.25rem;margin:4px 0">État de Roblox, ' + esc(mois) + '</strong>'
+            '<span style="color:var(--ink-2)">Dix pages sur l’économie de Roblox, chaque chiffre sourcé. Télécharger le PDF →</span></a>')
+
+
 def headline_pick(arts):
     pick, label = arts[0], t("Dernier article")
     pop = DATA / "populaires.json"
@@ -772,7 +786,7 @@ def build(drafts=False):
         if arts:
             lead, _ = headline_pick(arts)
             rest = [a for a in arts if a is not lead]
-            feed = (card(lead, lead=True) + pulse_m + f'<ol class="cards grid2">{"".join(card(a) for a in rest[:4])}</ol>'
+            feed = (rapport_banner(lang) + card(lead, lead=True) + pulse_m + f'<ol class="cards grid2">{"".join(card(a) for a in rest[:4])}</ol>'
                     + (f'<h2 class="sec-title">{t("Plus d’articles")}</h2><ol class="cards list">{"".join(card(a) for a in rest[4:14])}</ol>' if len(rest) > 4 else "")
                     + (f'<p class="more"><a href="{url("articles/")}">{t("Tous les articles")}</a></p>' if len(rest) > 14 else ""))
         else:
