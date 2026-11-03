@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-02",
- "genere": "2026-11-02T23:41:28Z",
+ "genere": "2026-11-03T01:03:58Z",
  "couverture": {
   "releves": 19,
   "attendus": 24
@@ -3303,93 +3303,93 @@
    "src": "data/jours/2026-11-02.csv#L27"
   },
   "g.10708913337.nom": {
-   "v": "[⭐UPD 11] Anime Dice",
-   "d": "[⭐UPD 11] Anime Dice",
-   "l": "[⭐UPD 11] Anime Dice : nom",
+   "v": "[🎉UPD 11] Anime Dice",
+   "d": "[🎉UPD 11] Anime Dice",
+   "l": "[🎉UPD 11] Anime Dice : nom",
    "src": "data/jours/2026-11-02.csv#L28"
   },
   "g.10708913337.rang": {
    "v": 27,
    "d": "27e",
-   "l": "[⭐UPD 11] Anime Dice : rang au pic du jour",
+   "l": "[🎉UPD 11] Anime Dice : rang au pic du jour",
    "src": "data/jours/2026-11-02.csv#L28"
   },
   "g.10708913337.pic": {
    "v": 53496,
    "d": "53 496",
-   "l": "[⭐UPD 11] Anime Dice : pic de joueurs simultanés relevé",
+   "l": "[🎉UPD 11] Anime Dice : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-02.csv#L28"
   },
   "g.10708913337.heure_pic": {
    "v": "14:07",
    "d": "14 h 07",
-   "l": "[⭐UPD 11] Anime Dice : heure (Paris) du pic relevé",
+   "l": "[🎉UPD 11] Anime Dice : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-02.csv#L28"
   },
   "g.10708913337.moy": {
    "v": 50274,
    "d": "50 274",
-   "l": "[⭐UPD 11] Anime Dice : moyenne des joueurs simultanés sur la journée",
+   "l": "[🎉UPD 11] Anime Dice : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-02.csv#L28"
   },
   "g.10708913337.createur": {
    "v": "More & More Games",
    "d": "More & More Games",
-   "l": "[⭐UPD 11] Anime Dice : créateur",
+   "l": "[🎉UPD 11] Anime Dice : créateur",
    "src": "data/jours/2026-11-02.csv#L28"
   },
   "g.10708913337.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[⭐UPD 11] Anime Dice : genre",
+   "l": "[🎉UPD 11] Anime Dice : genre",
    "src": "data/jours/2026-11-02.csv#L28"
   },
   "g.10708913337.var_veille": {
    "v": -0.0831,
    "d": "−8,3 %",
-   "l": "[⭐UPD 11] Anime Dice : variation de la moyenne par rapport à la veille",
+   "l": "[🎉UPD 11] Anime Dice : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-02.csv#L28"
   },
   "g.10708913337.moy_veille": {
    "v": 54830,
    "d": "54 830",
-   "l": "[⭐UPD 11] Anime Dice : moyenne de la veille",
+   "l": "[🎉UPD 11] Anime Dice : moyenne de la veille",
    "src": "data/jours/2026-11-02.csv#L28"
   },
   "g.10708913337.var_7j": {
    "v": -0.2168,
    "d": "−21,7 %",
-   "l": "[⭐UPD 11] Anime Dice : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🎉UPD 11] Anime Dice : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-02.csv#L28"
   },
   "g.10708913337.moy_7j": {
    "v": 64187,
    "d": "64 187",
-   "l": "[⭐UPD 11] Anime Dice : moyenne des 7 jours précédents",
+   "l": "[🎉UPD 11] Anime Dice : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-02.csv#L28"
   },
   "g.10708913337.visites_24h": {
    "v": 2561148,
    "d": "2,56 millions",
-   "l": "[⭐UPD 11] Anime Dice : visites gagnées en 24 h",
+   "l": "[🎉UPD 11] Anime Dice : visites gagnées en 24 h",
    "src": "data/jours/2026-11-02.csv#L28"
   },
   "g.10708913337.visites_total": {
    "v": 158863673,
    "d": "158,86 millions",
-   "l": "[⭐UPD 11] Anime Dice : visites cumulées depuis la création",
+   "l": "[🎉UPD 11] Anime Dice : visites cumulées depuis la création",
    "src": "data/jours/2026-11-02.csv#L28"
   },
   "g.10708913337.note": {
    "v": 0.9902,
    "d": "99,0 %",
-   "l": "[⭐UPD 11] Anime Dice : part de votes positifs",
+   "l": "[🎉UPD 11] Anime Dice : part de votes positifs",
    "src": "data/jours/2026-11-02.csv#L28"
   },
   "g.10708913337.rang_veille": {
    "v": 35,
    "d": "35e",
-   "l": "[⭐UPD 11] Anime Dice : rang la veille",
+   "l": "[🎉UPD 11] Anime Dice : rang la veille",
    "src": "data/jours/2026-11-02.csv#L28"
   },
   "g.8292068736.nom": {
