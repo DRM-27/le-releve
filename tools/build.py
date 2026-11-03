@@ -26,7 +26,7 @@ import i18n
 import og
 import pages2
 from common import (CONFIG, DATA, ROOT, TZ, UTC, fr_big, fr_date, fr_hour, fr_int, fr_pct, fr_rank, fr_share, github_blob, github_tree,
-                    load_games, parse_iso, read_csv, snap_path, utc_now)
+                    load_games, MOIS, parse_iso, read_csv, snap_path, utc_now)
 from facts import GENRES_FR
 from i18n import LANGS, META, t
 from verify import GRAPH, TOKEN, fact_for, load_facts, verify
@@ -613,6 +613,11 @@ def rapport_page():
                f'<p>Le rapport sera envoyé gratuitement aux inscrits. L’inscription ouvre avec la première édition.</p>'
                f'<p><a class="btn" href="{url("alertes.xml")}">En attendant, suivre les alertes (RSS)</a></p></div>')
         robots = '<meta name="robots" content="noindex">'
+    pdfs = sorted((ROOT / "out" / "rapport").glob("etat-de-roblox-*.pdf"))
+    if pdfs:
+        m = re.search(r"(\d{4})-(\d{2})", pdfs[-1].name)
+        mois = MOIS[int(m.group(2)) - 1] + " " + m.group(1) if m else "dernière édition"
+        cta += (f'<p class="rp-dl"><a class="btn" href="{url("rapport/pdf/" + pdfs[-1].name)}">Télécharger le rapport · {esc(mois)} (PDF)</a></p>')
     body = (f'<div class="wide rapport"><div class="rp-hero"><div><p class="kicker">Baromètre mensuel · gratuit</p><h1>État de Roblox</h1>'
             f'<p class="lede">Chaque mois, un rapport PDF d’une dizaine de pages sur l’économie de Roblox : ce que jouent vraiment les joueurs, qui capte l’audience, '
             f'comment les jeux se monétisent. Chaque chiffre est cliquable et renvoie à sa source.</p>'

@@ -15,7 +15,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import FACTS, ROOT, TZ, slugify, utc_now
 
 MODELE = ROOT / "tools" / "modeles" / "quotidien.md"
-MIN_RELEVES = 20   # relevés minimum sur la journée ; GitHub saute parfois des heures planifiées
+MIN_RELEVES = 18   # relevés minimum sur la journée ; GitHub saute parfois des heures planifiées
 
 
 def main():
