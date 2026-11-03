@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-02",
- "genere": "2026-11-03T19:19:51Z",
+ "genere": "2026-11-03T20:13:57Z",
  "couverture": {
   "releves": 19,
   "attendus": 24
@@ -5613,93 +5613,93 @@
    "src": "data/jours/2026-11-02.csv#L53"
   },
   "g.1176784616.nom": {
-   "v": "[🌙 NIGHT 4] Tower Defense Simulator",
-   "d": "[🌙 NIGHT 4] Tower Defense Simulator",
-   "l": "[🌙 NIGHT 4] Tower Defense Simulator : nom",
+   "v": "Tower Defense Simulator",
+   "d": "Tower Defense Simulator",
+   "l": "Tower Defense Simulator : nom",
    "src": "data/jours/2026-11-02.csv#L54"
   },
   "g.1176784616.rang": {
    "v": 53,
    "d": "53e",
-   "l": "[🌙 NIGHT 4] Tower Defense Simulator : rang au pic du jour",
+   "l": "Tower Defense Simulator : rang au pic du jour",
    "src": "data/jours/2026-11-02.csv#L54"
   },
   "g.1176784616.pic": {
    "v": 31424,
    "d": "31 424",
-   "l": "[🌙 NIGHT 4] Tower Defense Simulator : pic de joueurs simultanés relevé",
+   "l": "Tower Defense Simulator : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-02.csv#L54"
   },
   "g.1176784616.heure_pic": {
    "v": "15:59",
    "d": "15 h 59",
-   "l": "[🌙 NIGHT 4] Tower Defense Simulator : heure (Paris) du pic relevé",
+   "l": "Tower Defense Simulator : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-02.csv#L54"
   },
   "g.1176784616.moy": {
    "v": 25064,
    "d": "25 064",
-   "l": "[🌙 NIGHT 4] Tower Defense Simulator : moyenne des joueurs simultanés sur la journée",
+   "l": "Tower Defense Simulator : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-02.csv#L54"
   },
   "g.1176784616.createur": {
    "v": "Paradoxum Games",
    "d": "Paradoxum Games",
-   "l": "[🌙 NIGHT 4] Tower Defense Simulator : créateur",
+   "l": "Tower Defense Simulator : créateur",
    "src": "data/jours/2026-11-02.csv#L54"
   },
   "g.1176784616.genre": {
    "v": "Strategy",
    "d": "Stratégie",
-   "l": "[🌙 NIGHT 4] Tower Defense Simulator : genre",
+   "l": "Tower Defense Simulator : genre",
    "src": "data/jours/2026-11-02.csv#L54"
   },
   "g.1176784616.var_veille": {
    "v": -0.2714,
    "d": "−27,1 %",
-   "l": "[🌙 NIGHT 4] Tower Defense Simulator : variation de la moyenne par rapport à la veille",
+   "l": "Tower Defense Simulator : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-02.csv#L54"
   },
   "g.1176784616.moy_veille": {
    "v": 34398,
    "d": "34 398",
-   "l": "[🌙 NIGHT 4] Tower Defense Simulator : moyenne de la veille",
+   "l": "Tower Defense Simulator : moyenne de la veille",
    "src": "data/jours/2026-11-02.csv#L54"
   },
   "g.1176784616.var_7j": {
    "v": 0.1251,
    "d": "+12,5 %",
-   "l": "[🌙 NIGHT 4] Tower Defense Simulator : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Tower Defense Simulator : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-02.csv#L54"
   },
   "g.1176784616.moy_7j": {
    "v": 22277,
    "d": "22 277",
-   "l": "[🌙 NIGHT 4] Tower Defense Simulator : moyenne des 7 jours précédents",
+   "l": "Tower Defense Simulator : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-02.csv#L54"
   },
   "g.1176784616.visites_24h": {
    "v": 2599912,
    "d": "2,6 millions",
-   "l": "[🌙 NIGHT 4] Tower Defense Simulator : visites gagnées en 24 h",
+   "l": "Tower Defense Simulator : visites gagnées en 24 h",
    "src": "data/jours/2026-11-02.csv#L54"
   },
   "g.1176784616.visites_total": {
    "v": 5059756348,
    "d": "5,06 milliards",
-   "l": "[🌙 NIGHT 4] Tower Defense Simulator : visites cumulées depuis la création",
+   "l": "Tower Defense Simulator : visites cumulées depuis la création",
    "src": "data/jours/2026-11-02.csv#L54"
   },
   "g.1176784616.note": {
    "v": 0.9412,
    "d": "94,1 %",
-   "l": "[🌙 NIGHT 4] Tower Defense Simulator : part de votes positifs",
+   "l": "Tower Defense Simulator : part de votes positifs",
    "src": "data/jours/2026-11-02.csv#L54"
   },
   "g.1176784616.rang_veille": {
    "v": 56,
    "d": "56e",
-   "l": "[🌙 NIGHT 4] Tower Defense Simulator : rang la veille",
+   "l": "Tower Defense Simulator : rang la veille",
    "src": "data/jours/2026-11-02.csv#L54"
   },
   "g.6521100398.nom": {
