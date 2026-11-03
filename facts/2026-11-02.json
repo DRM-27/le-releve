@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-02",
- "genere": "2026-11-03T04:57:34Z",
+ "genere": "2026-11-03T05:57:36Z",
  "couverture": {
   "releves": 19,
   "attendus": 24
@@ -4893,93 +4893,93 @@
    "src": "data/jours/2026-11-02.csv#L45"
   },
   "g.4839802560.nom": {
-   "v": "LifeTogether 🏠 RP [FAMILIES]",
-   "d": "LifeTogether 🏠 RP [FAMILIES]",
-   "l": "LifeTogether 🏠 RP [FAMILIES] : nom",
+   "v": "LifeTogether 🏠 RP ",
+   "d": "LifeTogether 🏠 RP ",
+   "l": "LifeTogether 🏠 RP  : nom",
    "src": "data/jours/2026-11-02.csv#L46"
   },
   "g.4839802560.rang": {
    "v": 45,
    "d": "45e",
-   "l": "LifeTogether 🏠 RP [FAMILIES] : rang au pic du jour",
+   "l": "LifeTogether 🏠 RP  : rang au pic du jour",
    "src": "data/jours/2026-11-02.csv#L46"
   },
   "g.4839802560.pic": {
    "v": 37334,
    "d": "37 334",
-   "l": "LifeTogether 🏠 RP [FAMILIES] : pic de joueurs simultanés relevé",
+   "l": "LifeTogether 🏠 RP  : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-02.csv#L46"
   },
   "g.4839802560.heure_pic": {
    "v": "18:59",
    "d": "18 h 59",
-   "l": "LifeTogether 🏠 RP [FAMILIES] : heure (Paris) du pic relevé",
+   "l": "LifeTogether 🏠 RP  : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-02.csv#L46"
   },
   "g.4839802560.moy": {
    "v": 25170,
    "d": "25 170",
-   "l": "LifeTogether 🏠 RP [FAMILIES] : moyenne des joueurs simultanés sur la journée",
+   "l": "LifeTogether 🏠 RP  : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-02.csv#L46"
   },
   "g.4839802560.createur": {
    "v": "Cinnamon Software",
    "d": "Cinnamon Software",
-   "l": "LifeTogether 🏠 RP [FAMILIES] : créateur",
+   "l": "LifeTogether 🏠 RP  : créateur",
    "src": "data/jours/2026-11-02.csv#L46"
   },
   "g.4839802560.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "LifeTogether 🏠 RP [FAMILIES] : genre",
+   "l": "LifeTogether 🏠 RP  : genre",
    "src": "data/jours/2026-11-02.csv#L46"
   },
   "g.4839802560.var_veille": {
    "v": -0.383,
    "d": "−38,3 %",
-   "l": "LifeTogether 🏠 RP [FAMILIES] : variation de la moyenne par rapport à la veille",
+   "l": "LifeTogether 🏠 RP  : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-02.csv#L46"
   },
   "g.4839802560.moy_veille": {
    "v": 40794,
    "d": "40 794",
-   "l": "LifeTogether 🏠 RP [FAMILIES] : moyenne de la veille",
+   "l": "LifeTogether 🏠 RP  : moyenne de la veille",
    "src": "data/jours/2026-11-02.csv#L46"
   },
   "g.4839802560.var_7j": {
    "v": -0.1651,
    "d": "−16,5 %",
-   "l": "LifeTogether 🏠 RP [FAMILIES] : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "LifeTogether 🏠 RP  : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-02.csv#L46"
   },
   "g.4839802560.moy_7j": {
    "v": 30147,
    "d": "30 147",
-   "l": "LifeTogether 🏠 RP [FAMILIES] : moyenne des 7 jours précédents",
+   "l": "LifeTogether 🏠 RP  : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-02.csv#L46"
   },
   "g.4839802560.visites_24h": {
    "v": 2704651,
    "d": "2,7 millions",
-   "l": "LifeTogether 🏠 RP [FAMILIES] : visites gagnées en 24 h",
+   "l": "LifeTogether 🏠 RP  : visites gagnées en 24 h",
    "src": "data/jours/2026-11-02.csv#L46"
   },
   "g.4839802560.visites_total": {
    "v": 4094605217,
    "d": "4,09 milliards",
-   "l": "LifeTogether 🏠 RP [FAMILIES] : visites cumulées depuis la création",
+   "l": "LifeTogether 🏠 RP  : visites cumulées depuis la création",
    "src": "data/jours/2026-11-02.csv#L46"
   },
   "g.4839802560.note": {
    "v": 0.9032,
    "d": "90,3 %",
-   "l": "LifeTogether 🏠 RP [FAMILIES] : part de votes positifs",
+   "l": "LifeTogether 🏠 RP  : part de votes positifs",
    "src": "data/jours/2026-11-02.csv#L46"
   },
   "g.4839802560.rang_veille": {
    "v": 32,
    "d": "32e",
-   "l": "LifeTogether 🏠 RP [FAMILIES] : rang la veille",
+   "l": "LifeTogether 🏠 RP  : rang la veille",
    "src": "data/jours/2026-11-02.csv#L46"
   },
   "g.10768284407.nom": {
@@ -5433,93 +5433,93 @@
    "src": "data/jours/2026-11-02.csv#L51"
   },
   "g.10769384180.nom": {
-   "v": "[🎃] Fake an Egg",
-   "d": "[🎃] Fake an Egg",
-   "l": "[🎃] Fake an Egg : nom",
+   "v": "Fake an Egg",
+   "d": "Fake an Egg",
+   "l": "Fake an Egg : nom",
    "src": "data/jours/2026-11-02.csv#L52"
   },
   "g.10769384180.rang": {
    "v": 51,
    "d": "51e",
-   "l": "[🎃] Fake an Egg : rang au pic du jour",
+   "l": "Fake an Egg : rang au pic du jour",
    "src": "data/jours/2026-11-02.csv#L52"
   },
   "g.10769384180.pic": {
    "v": 33162,
    "d": "33 162",
-   "l": "[🎃] Fake an Egg : pic de joueurs simultanés relevé",
+   "l": "Fake an Egg : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-02.csv#L52"
   },
   "g.10769384180.heure_pic": {
    "v": "15:59",
    "d": "15 h 59",
-   "l": "[🎃] Fake an Egg : heure (Paris) du pic relevé",
+   "l": "Fake an Egg : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-02.csv#L52"
   },
   "g.10769384180.moy": {
    "v": 24857,
    "d": "24 857",
-   "l": "[🎃] Fake an Egg : moyenne des joueurs simultanés sur la journée",
+   "l": "Fake an Egg : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-02.csv#L52"
   },
   "g.10769384180.createur": {
    "v": "Slime Time Studios",
    "d": "Slime Time Studios",
-   "l": "[🎃] Fake an Egg : créateur",
+   "l": "Fake an Egg : créateur",
    "src": "data/jours/2026-11-02.csv#L52"
   },
   "g.10769384180.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🎃] Fake an Egg : genre",
+   "l": "Fake an Egg : genre",
    "src": "data/jours/2026-11-02.csv#L52"
   },
   "g.10769384180.var_veille": {
    "v": -0.4609,
    "d": "−46,1 %",
-   "l": "[🎃] Fake an Egg : variation de la moyenne par rapport à la veille",
+   "l": "Fake an Egg : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-02.csv#L52"
   },
   "g.10769384180.moy_veille": {
    "v": 46107,
    "d": "46 107",
-   "l": "[🎃] Fake an Egg : moyenne de la veille",
+   "l": "Fake an Egg : moyenne de la veille",
    "src": "data/jours/2026-11-02.csv#L52"
   },
   "g.10769384180.var_7j": {
    "v": -0.2165,
    "d": "−21,6 %",
-   "l": "[🎃] Fake an Egg : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Fake an Egg : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-02.csv#L52"
   },
   "g.10769384180.moy_7j": {
    "v": 31724,
    "d": "31 724",
-   "l": "[🎃] Fake an Egg : moyenne des 7 jours précédents",
+   "l": "Fake an Egg : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-02.csv#L52"
   },
   "g.10769384180.visites_24h": {
    "v": 3238558,
    "d": "3,24 millions",
-   "l": "[🎃] Fake an Egg : visites gagnées en 24 h",
+   "l": "Fake an Egg : visites gagnées en 24 h",
    "src": "data/jours/2026-11-02.csv#L52"
   },
   "g.10769384180.visites_total": {
    "v": 54033707,
    "d": "54,03 millions",
-   "l": "[🎃] Fake an Egg : visites cumulées depuis la création",
+   "l": "Fake an Egg : visites cumulées depuis la création",
    "src": "data/jours/2026-11-02.csv#L52"
   },
   "g.10769384180.note": {
    "v": 0.8882,
    "d": "88,8 %",
-   "l": "[🎃] Fake an Egg : part de votes positifs",
+   "l": "Fake an Egg : part de votes positifs",
    "src": "data/jours/2026-11-02.csv#L52"
   },
   "g.10769384180.rang_veille": {
    "v": 14,
    "d": "14e",
-   "l": "[🎃] Fake an Egg : rang la veille",
+   "l": "Fake an Egg : rang la veille",
    "src": "data/jours/2026-11-02.csv#L52"
   },
   "g.10148749921.nom": {
