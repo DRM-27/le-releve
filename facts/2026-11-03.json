@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-03",
- "genere": "2026-11-04T18:12:36Z",
+ "genere": "2026-11-04T19:25:33Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -9825,8 +9825,8 @@
    "src": "data/jours/2026-11-03.csv#L369"
   },
   "baisse.4.nom": {
-   "v": "Stick Wars",
-   "d": "Stick Wars",
+   "v": "[ANIME] Stick Wars",
+   "d": "[ANIME] Stick Wars",
    "l": "Baisse n° 4 : nom",
    "src": "data/jours/2026-11-03.csv#L559"
   },
@@ -10155,7 +10155,7 @@
      "valeur": -0.7384
     },
     {
-     "nom": "Stick Wars",
+     "nom": "[ANIME] Stick Wars",
      "valeur": -0.7981
     },
     {
