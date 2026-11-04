@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-04T21:14:01Z",
+ "genere": "2026-11-04T22:08:45Z",
  "periode_jours": 7,
  "pages": [
   {
@@ -31,15 +31,15 @@
    "vues": 2
   },
   {
+   "path": "/le-releve/en/",
+   "vues": 2
+  },
+  {
    "path": "/le-releve/tendances/",
    "vues": 2
   },
   {
    "path": "/le-releve/rapport/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/en/",
    "vues": 2
   },
   {
@@ -51,11 +51,11 @@
    "vues": 1
   },
   {
-   "path": "/le-releve/brouillons/2026-10-28-steal-an-egg-quotidien/",
+   "path": "/le-releve/brouillons/2026-11-02-steal-an-egg-quotidien/",
    "vues": 1
   },
   {
-   "path": "/le-releve/brouillons/2026-10-30-steal-an-egg-quotidien/",
+   "path": "/le-releve/brouillons/2026-10-28-steal-an-egg-quotidien/",
    "vues": 1
   },
   {
@@ -63,11 +63,11 @@
    "vues": 1
   },
   {
-   "path": "/le-releve/mentions-legales/",
+   "path": "/le-releve/pt-br/classement/",
    "vues": 1
   },
   {
-   "path": "/le-releve/pt-br/classement/",
+   "path": "/le-releve/mentions-legales/",
    "vues": 1
   },
   {
@@ -75,11 +75,11 @@
    "vues": 1
   },
   {
-   "path": "/le-releve/monetisation/",
+   "path": "/le-releve/confidentialite/",
    "vues": 1
   },
   {
-   "path": "/le-releve/confidentialite/",
+   "path": "/le-releve/es/",
    "vues": 1
   }
  ]
