@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-03",
- "genere": "2026-11-04T01:33:30Z",
+ "genere": "2026-11-04T03:12:21Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -3273,93 +3273,93 @@
    "src": "data/jours/2026-11-03.csv#L27"
   },
   "g.10155360168.nom": {
-   "v": "[GO-KART!] Illegal Soccer",
-   "d": "[GO-KART!] Illegal Soccer",
-   "l": "[GO-KART!] Illegal Soccer : nom",
+   "v": "Illegal Soccer",
+   "d": "Illegal Soccer",
+   "l": "Illegal Soccer : nom",
    "src": "data/jours/2026-11-03.csv#L28"
   },
   "g.10155360168.rang": {
    "v": 27,
    "d": "27e",
-   "l": "[GO-KART!] Illegal Soccer : rang au pic du jour",
+   "l": "Illegal Soccer : rang au pic du jour",
    "src": "data/jours/2026-11-03.csv#L28"
   },
   "g.10155360168.pic": {
    "v": 47194,
    "d": "47 194",
-   "l": "[GO-KART!] Illegal Soccer : pic de joueurs simultanés relevé",
+   "l": "Illegal Soccer : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-03.csv#L28"
   },
   "g.10155360168.heure_pic": {
    "v": "02:00",
    "d": "2 h",
-   "l": "[GO-KART!] Illegal Soccer : heure (Paris) du pic relevé",
+   "l": "Illegal Soccer : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-03.csv#L28"
   },
   "g.10155360168.moy": {
    "v": 34871,
    "d": "34 871",
-   "l": "[GO-KART!] Illegal Soccer : moyenne des joueurs simultanés sur la journée",
+   "l": "Illegal Soccer : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-03.csv#L28"
   },
   "g.10155360168.createur": {
    "v": "Repotted",
    "d": "Repotted",
-   "l": "[GO-KART!] Illegal Soccer : créateur",
+   "l": "Illegal Soccer : créateur",
    "src": "data/jours/2026-11-03.csv#L28"
   },
   "g.10155360168.genre": {
    "v": "Sports & Racing",
    "d": "Sport et course",
-   "l": "[GO-KART!] Illegal Soccer : genre",
+   "l": "Illegal Soccer : genre",
    "src": "data/jours/2026-11-03.csv#L28"
   },
   "g.10155360168.var_veille": {
    "v": -0.153,
    "d": "−15,3 %",
-   "l": "[GO-KART!] Illegal Soccer : variation de la moyenne par rapport à la veille",
+   "l": "Illegal Soccer : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-03.csv#L28"
   },
   "g.10155360168.moy_veille": {
    "v": 41170,
    "d": "41 170",
-   "l": "[GO-KART!] Illegal Soccer : moyenne de la veille",
+   "l": "Illegal Soccer : moyenne de la veille",
    "src": "data/jours/2026-11-03.csv#L28"
   },
   "g.10155360168.var_7j": {
    "v": -0.1675,
    "d": "−16,8 %",
-   "l": "[GO-KART!] Illegal Soccer : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Illegal Soccer : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-03.csv#L28"
   },
   "g.10155360168.moy_7j": {
    "v": 41885,
    "d": "41 885",
-   "l": "[GO-KART!] Illegal Soccer : moyenne des 7 jours précédents",
+   "l": "Illegal Soccer : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-03.csv#L28"
   },
   "g.10155360168.visites_24h": {
    "v": 4105552,
    "d": "4,11 millions",
-   "l": "[GO-KART!] Illegal Soccer : visites gagnées en 24 h",
+   "l": "Illegal Soccer : visites gagnées en 24 h",
    "src": "data/jours/2026-11-03.csv#L28"
   },
   "g.10155360168.visites_total": {
    "v": 278821141,
    "d": "278,82 millions",
-   "l": "[GO-KART!] Illegal Soccer : visites cumulées depuis la création",
+   "l": "Illegal Soccer : visites cumulées depuis la création",
    "src": "data/jours/2026-11-03.csv#L28"
   },
   "g.10155360168.note": {
    "v": 0.8658,
    "d": "86,6 %",
-   "l": "[GO-KART!] Illegal Soccer : part de votes positifs",
+   "l": "Illegal Soccer : part de votes positifs",
    "src": "data/jours/2026-11-03.csv#L28"
   },
   "g.10155360168.rang_veille": {
    "v": 26,
    "d": "26e",
-   "l": "[GO-KART!] Illegal Soccer : rang la veille",
+   "l": "Illegal Soccer : rang la veille",
    "src": "data/jours/2026-11-03.csv#L28"
   },
   "g.10708913337.nom": {
@@ -6417,63 +6417,63 @@
    "src": "data/jours/2026-11-03.csv#L64"
   },
   "g.10770593871.nom": {
-   "v": "Realistic Ragdoll Engine 🩸",
-   "d": "Realistic Ragdoll Engine 🩸",
-   "l": "Realistic Ragdoll Engine 🩸 : nom",
+   "v": "[UPD] Realistic Ragdoll Engine 🩸",
+   "d": "[UPD] Realistic Ragdoll Engine 🩸",
+   "l": "[UPD] Realistic Ragdoll Engine 🩸 : nom",
    "src": "data/jours/2026-11-03.csv#L65"
   },
   "g.10770593871.rang": {
    "v": 64,
    "d": "64e",
-   "l": "Realistic Ragdoll Engine 🩸 : rang au pic du jour",
+   "l": "[UPD] Realistic Ragdoll Engine 🩸 : rang au pic du jour",
    "src": "data/jours/2026-11-03.csv#L65"
   },
   "g.10770593871.pic": {
    "v": 24964,
    "d": "24 964",
-   "l": "Realistic Ragdoll Engine 🩸 : pic de joueurs simultanés relevé",
+   "l": "[UPD] Realistic Ragdoll Engine 🩸 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-03.csv#L65"
   },
   "g.10770593871.heure_pic": {
    "v": "00:40",
    "d": "0 h 40",
-   "l": "Realistic Ragdoll Engine 🩸 : heure (Paris) du pic relevé",
+   "l": "[UPD] Realistic Ragdoll Engine 🩸 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-03.csv#L65"
   },
   "g.10770593871.moy": {
    "v": 16518,
    "d": "16 518",
-   "l": "Realistic Ragdoll Engine 🩸 : moyenne des joueurs simultanés sur la journée",
+   "l": "[UPD] Realistic Ragdoll Engine 🩸 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-03.csv#L65"
   },
   "g.10770593871.createur": {
    "v": "No Knees!",
    "d": "No Knees!",
-   "l": "Realistic Ragdoll Engine 🩸 : créateur",
+   "l": "[UPD] Realistic Ragdoll Engine 🩸 : créateur",
    "src": "data/jours/2026-11-03.csv#L65"
   },
   "g.10770593871.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "Realistic Ragdoll Engine 🩸 : genre",
+   "l": "[UPD] Realistic Ragdoll Engine 🩸 : genre",
    "src": "data/jours/2026-11-03.csv#L65"
   },
   "g.10770593871.visites_24h": {
    "v": 2205168,
    "d": "2,21 millions",
-   "l": "Realistic Ragdoll Engine 🩸 : visites gagnées en 24 h",
+   "l": "[UPD] Realistic Ragdoll Engine 🩸 : visites gagnées en 24 h",
    "src": "data/jours/2026-11-03.csv#L65"
   },
   "g.10770593871.visites_total": {
    "v": 26833411,
    "d": "26,83 millions",
-   "l": "Realistic Ragdoll Engine 🩸 : visites cumulées depuis la création",
+   "l": "[UPD] Realistic Ragdoll Engine 🩸 : visites cumulées depuis la création",
    "src": "data/jours/2026-11-03.csv#L65"
   },
   "g.10770593871.note": {
    "v": 0.88,
    "d": "88,0 %",
-   "l": "Realistic Ragdoll Engine 🩸 : part de votes positifs",
+   "l": "[UPD] Realistic Ragdoll Engine 🩸 : part de votes positifs",
    "src": "data/jours/2026-11-03.csv#L65"
   },
   "g.10766468833.nom": {
