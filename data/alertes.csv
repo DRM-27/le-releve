@@ -469,3 +469,6 @@ ts_utc,type,universe_id,nom,avant,maintenant,variation,rang,rang_avant,releve
 2026-11-04T01:29:43Z,forte_hausse,10291735332,Moped Drag [BIG UPDATE  🏍️],1419,2416,0.7026,315,436,data/snapshots/2026/11/04/01.csv
 2026-11-04T01:29:43Z,forte_hausse,10768353063,Pasahero [ANOMALY HORROR],1512,2301,0.5218,325,421,data/snapshots/2026/11/04/01.csv
 2026-11-04T01:29:43Z,forte_hausse,9948575164,[🎃] Merge Shop,1271,2113,0.6625,338,450,data/snapshots/2026/11/04/01.csv
+2026-11-04T04:19:01Z,forte_hausse,10766620257,[🏰] Bike For Egg!,14348,22818,0.5903,33,59,data/snapshots/2026/11/04/04.csv
+2026-11-04T04:19:01Z,forte_hausse,6176333237,Clarity Over Resonance,2111,3743,0.7731,242,346,data/snapshots/2026/11/04/04.csv
+2026-11-04T04:19:01Z,forte_hausse,10768316438,Lift Rock For Eggs,1534,2378,0.5502,320,397,data/snapshots/2026/11/04/04.csv
