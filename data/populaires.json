@@ -1,22 +1,18 @@
 {
- "genere": "2026-11-04T12:11:01Z",
+ "genere": "2026-11-04T13:34:28Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/le-releve/",
-   "vues": 22
+   "vues": 27
   },
   {
    "path": "/le-releve/explorer/",
-   "vues": 6
+   "vues": 12
   },
   {
    "path": "/le-releve/classement/",
-   "vues": 6
-  },
-  {
-   "path": "/le-releve/brouillons/2026-10-31-steal-an-egg-quotidien/",
-   "vues": 3
+   "vues": 10
   },
   {
    "path": "/le-releve/source/",
@@ -27,7 +23,11 @@
    "vues": 3
   },
   {
-   "path": "/le-releve/methode/",
+   "path": "/le-releve/brouillons/2026-10-31-steal-an-egg-quotidien/",
+   "vues": 3
+  },
+  {
+   "path": "/le-releve/pt-br/",
    "vues": 2
   },
   {
@@ -39,11 +39,11 @@
    "vues": 2
   },
   {
-   "path": "/le-releve/pt-br/",
+   "path": "/le-releve/methode/",
    "vues": 2
   },
   {
-   "path": "/le-releve/brouillons/2026-11-01-steal-an-egg-quotidien/",
+   "path": "/le-releve/corrections/",
    "vues": 1
   },
   {
@@ -51,27 +51,11 @@
    "vues": 1
   },
   {
+   "path": "/le-releve/tendances/",
+   "vues": 1
+  },
+  {
    "path": "/le-releve/articles/2026-10-21-age-des-jeux/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/mentions-legales/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/brouillons/2026-10-29-steal-an-egg-quotidien/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/brouillons/2026-10-30-steal-an-egg-quotidien/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/confidentialite/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/es/",
    "vues": 1
   },
   {
@@ -79,7 +63,23 @@
    "vues": 1
   },
   {
-   "path": "/le-releve/corrections/",
+   "path": "/le-releve/mentions-legales/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/brouillons/2026-11-01-steal-an-egg-quotidien/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/es/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/brouillons/2026-10-30-steal-an-egg-quotidien/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/monetisation/",
    "vues": 1
   }
  ]
