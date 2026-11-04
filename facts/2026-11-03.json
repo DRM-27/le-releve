@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-03",
- "genere": "2026-11-04T04:19:57Z",
+ "genere": "2026-11-04T05:22:48Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -9765,8 +9765,8 @@
    "src": "data/jours/2026-11-03.csv#L620"
   },
   "baisse.2.nom": {
-   "v": "[🎃]AOONI Nightmare",
-   "d": "[🎃]AOONI Nightmare",
+   "v": "[NEW ONI]AOONI Nightmare",
+   "d": "[NEW ONI]AOONI Nightmare",
    "l": "Baisse n° 2 : nom",
    "src": "data/jours/2026-11-03.csv#L524"
   },
@@ -10163,7 +10163,7 @@
      "valeur": -0.8333
     },
     {
-     "nom": "[🎃]AOONI Nightmare",
+     "nom": "[NEW ONI]AOONI Nightmare",
      "valeur": -0.8471
     },
     {
