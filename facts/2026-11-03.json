@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-03",
- "genere": "2026-11-04T17:17:55Z",
+ "genere": "2026-11-04T18:12:36Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -4797,93 +4797,93 @@
    "src": "data/jours/2026-11-03.csv#L44"
   },
   "g.10762636904.nom": {
-   "v": "[⏳] Cameraman Tower Defense",
-   "d": "[⏳] Cameraman Tower Defense",
-   "l": "[⏳] Cameraman Tower Defense : nom",
+   "v": "[🌟UPD] Cameraman Tower Defense",
+   "d": "[🌟UPD] Cameraman Tower Defense",
+   "l": "[🌟UPD] Cameraman Tower Defense : nom",
    "src": "data/jours/2026-11-03.csv#L45"
   },
   "g.10762636904.rang": {
    "v": 44,
    "d": "44e",
-   "l": "[⏳] Cameraman Tower Defense : rang au pic du jour",
+   "l": "[🌟UPD] Cameraman Tower Defense : rang au pic du jour",
    "src": "data/jours/2026-11-03.csv#L45"
   },
   "g.10762636904.pic": {
    "v": 34762,
    "d": "34 762",
-   "l": "[⏳] Cameraman Tower Defense : pic de joueurs simultanés relevé",
+   "l": "[🌟UPD] Cameraman Tower Defense : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-03.csv#L45"
   },
   "g.10762636904.heure_pic": {
    "v": "14:30",
    "d": "14 h 30",
-   "l": "[⏳] Cameraman Tower Defense : heure (Paris) du pic relevé",
+   "l": "[🌟UPD] Cameraman Tower Defense : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-03.csv#L45"
   },
   "g.10762636904.moy": {
    "v": 23113,
    "d": "23 113",
-   "l": "[⏳] Cameraman Tower Defense : moyenne des joueurs simultanés sur la journée",
+   "l": "[🌟UPD] Cameraman Tower Defense : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-03.csv#L45"
   },
   "g.10762636904.createur": {
    "v": "Aligators Games",
    "d": "Aligators Games",
-   "l": "[⏳] Cameraman Tower Defense : créateur",
+   "l": "[🌟UPD] Cameraman Tower Defense : créateur",
    "src": "data/jours/2026-11-03.csv#L45"
   },
   "g.10762636904.genre": {
    "v": "Strategy",
    "d": "Stratégie",
-   "l": "[⏳] Cameraman Tower Defense : genre",
+   "l": "[🌟UPD] Cameraman Tower Defense : genre",
    "src": "data/jours/2026-11-03.csv#L45"
   },
   "g.10762636904.var_veille": {
    "v": -0.0401,
    "d": "−4,0 %",
-   "l": "[⏳] Cameraman Tower Defense : variation de la moyenne par rapport à la veille",
+   "l": "[🌟UPD] Cameraman Tower Defense : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-03.csv#L45"
   },
   "g.10762636904.moy_veille": {
    "v": 24078,
    "d": "24 078",
-   "l": "[⏳] Cameraman Tower Defense : moyenne de la veille",
+   "l": "[🌟UPD] Cameraman Tower Defense : moyenne de la veille",
    "src": "data/jours/2026-11-03.csv#L45"
   },
   "g.10762636904.var_7j": {
    "v": -0.0917,
    "d": "−9,2 %",
-   "l": "[⏳] Cameraman Tower Defense : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🌟UPD] Cameraman Tower Defense : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-03.csv#L45"
   },
   "g.10762636904.moy_7j": {
    "v": 25447,
    "d": "25 447",
-   "l": "[⏳] Cameraman Tower Defense : moyenne des 7 jours précédents",
+   "l": "[🌟UPD] Cameraman Tower Defense : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-03.csv#L45"
   },
   "g.10762636904.visites_24h": {
    "v": 2922192,
    "d": "2,92 millions",
-   "l": "[⏳] Cameraman Tower Defense : visites gagnées en 24 h",
+   "l": "[🌟UPD] Cameraman Tower Defense : visites gagnées en 24 h",
    "src": "data/jours/2026-11-03.csv#L45"
   },
   "g.10762636904.visites_total": {
    "v": 79032164,
    "d": "79,03 millions",
-   "l": "[⏳] Cameraman Tower Defense : visites cumulées depuis la création",
+   "l": "[🌟UPD] Cameraman Tower Defense : visites cumulées depuis la création",
    "src": "data/jours/2026-11-03.csv#L45"
   },
   "g.10762636904.note": {
    "v": 0.9855,
    "d": "98,6 %",
-   "l": "[⏳] Cameraman Tower Defense : part de votes positifs",
+   "l": "[🌟UPD] Cameraman Tower Defense : part de votes positifs",
    "src": "data/jours/2026-11-03.csv#L45"
   },
   "g.10762636904.rang_veille": {
    "v": 47,
    "d": "47e",
-   "l": "[⏳] Cameraman Tower Defense : rang la veille",
+   "l": "[🌟UPD] Cameraman Tower Defense : rang la veille",
    "src": "data/jours/2026-11-03.csv#L45"
   },
   "g.601130232.nom": {
@@ -6645,93 +6645,93 @@
    "src": "data/jours/2026-11-03.csv#L67"
   },
   "g.6765805766.nom": {
-   "v": "BlockSpin 🔪 [HALLOWEEN UPDATE!]",
-   "d": "BlockSpin 🔪 [HALLOWEEN UPDATE!]",
-   "l": "BlockSpin 🔪 [HALLOWEEN UPDATE!] : nom",
+   "v": "BlockSpin 🔪 ",
+   "d": "BlockSpin 🔪 ",
+   "l": "BlockSpin 🔪  : nom",
    "src": "data/jours/2026-11-03.csv#L68"
   },
   "g.6765805766.rang": {
    "v": 67,
    "d": "67e",
-   "l": "BlockSpin 🔪 [HALLOWEEN UPDATE!] : rang au pic du jour",
+   "l": "BlockSpin 🔪  : rang au pic du jour",
    "src": "data/jours/2026-11-03.csv#L68"
   },
   "g.6765805766.pic": {
    "v": 23896,
    "d": "23 896",
-   "l": "BlockSpin 🔪 [HALLOWEEN UPDATE!] : pic de joueurs simultanés relevé",
+   "l": "BlockSpin 🔪  : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-03.csv#L68"
   },
   "g.6765805766.heure_pic": {
    "v": "20:18",
    "d": "20 h 18",
-   "l": "BlockSpin 🔪 [HALLOWEEN UPDATE!] : heure (Paris) du pic relevé",
+   "l": "BlockSpin 🔪  : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-03.csv#L68"
   },
   "g.6765805766.moy": {
    "v": 21282,
    "d": "21 282",
-   "l": "BlockSpin 🔪 [HALLOWEEN UPDATE!] : moyenne des joueurs simultanés sur la journée",
+   "l": "BlockSpin 🔪  : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-03.csv#L68"
   },
   "g.6765805766.createur": {
    "v": "Cinnamon Go!",
    "d": "Cinnamon Go!",
-   "l": "BlockSpin 🔪 [HALLOWEEN UPDATE!] : créateur",
+   "l": "BlockSpin 🔪  : créateur",
    "src": "data/jours/2026-11-03.csv#L68"
   },
   "g.6765805766.genre": {
    "v": "Action",
    "d": "Action",
-   "l": "BlockSpin 🔪 [HALLOWEEN UPDATE!] : genre",
+   "l": "BlockSpin 🔪  : genre",
    "src": "data/jours/2026-11-03.csv#L68"
   },
   "g.6765805766.var_veille": {
    "v": -0.0528,
    "d": "−5,3 %",
-   "l": "BlockSpin 🔪 [HALLOWEEN UPDATE!] : variation de la moyenne par rapport à la veille",
+   "l": "BlockSpin 🔪  : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-03.csv#L68"
   },
   "g.6765805766.moy_veille": {
    "v": 22467,
    "d": "22 467",
-   "l": "BlockSpin 🔪 [HALLOWEEN UPDATE!] : moyenne de la veille",
+   "l": "BlockSpin 🔪  : moyenne de la veille",
    "src": "data/jours/2026-11-03.csv#L68"
   },
   "g.6765805766.var_7j": {
    "v": 0.0081,
    "d": "+0,8 %",
-   "l": "BlockSpin 🔪 [HALLOWEEN UPDATE!] : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "BlockSpin 🔪  : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-03.csv#L68"
   },
   "g.6765805766.moy_7j": {
    "v": 21112,
    "d": "21 112",
-   "l": "BlockSpin 🔪 [HALLOWEEN UPDATE!] : moyenne des 7 jours précédents",
+   "l": "BlockSpin 🔪  : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-03.csv#L68"
   },
   "g.6765805766.visites_24h": {
    "v": 1526190,
    "d": "1,53 million",
-   "l": "BlockSpin 🔪 [HALLOWEEN UPDATE!] : visites gagnées en 24 h",
+   "l": "BlockSpin 🔪  : visites gagnées en 24 h",
    "src": "data/jours/2026-11-03.csv#L68"
   },
   "g.6765805766.visites_total": {
    "v": 1327254027,
    "d": "1,33 milliard",
-   "l": "BlockSpin 🔪 [HALLOWEEN UPDATE!] : visites cumulées depuis la création",
+   "l": "BlockSpin 🔪  : visites cumulées depuis la création",
    "src": "data/jours/2026-11-03.csv#L68"
   },
   "g.6765805766.note": {
    "v": 0.7881,
    "d": "78,8 %",
-   "l": "BlockSpin 🔪 [HALLOWEEN UPDATE!] : part de votes positifs",
+   "l": "BlockSpin 🔪  : part de votes positifs",
    "src": "data/jours/2026-11-03.csv#L68"
   },
   "g.6765805766.rang_veille": {
    "v": 62,
    "d": "62e",
-   "l": "BlockSpin 🔪 [HALLOWEEN UPDATE!] : rang la veille",
+   "l": "BlockSpin 🔪  : rang la veille",
    "src": "data/jours/2026-11-03.csv#L68"
   },
   "g.5995470825.nom": {
@@ -8313,93 +8313,93 @@
    "src": "data/jours/2026-11-03.csv#L86"
   },
   "g.10767012496.nom": {
-   "v": "[PT.2🎃] Turbo Soccer : Beta 1.0",
-   "d": "[PT.2🎃] Turbo Soccer : Beta 1.0",
-   "l": "[PT.2🎃] Turbo Soccer : Beta 1.0 : nom",
+   "v": "[🎃] Turbo Soccer : Beta 1.0",
+   "d": "[🎃] Turbo Soccer : Beta 1.0",
+   "l": "[🎃] Turbo Soccer : Beta 1.0 : nom",
    "src": "data/jours/2026-11-03.csv#L87"
   },
   "g.10767012496.rang": {
    "v": 86,
    "d": "86e",
-   "l": "[PT.2🎃] Turbo Soccer : Beta 1.0 : rang au pic du jour",
+   "l": "[🎃] Turbo Soccer : Beta 1.0 : rang au pic du jour",
    "src": "data/jours/2026-11-03.csv#L87"
   },
   "g.10767012496.pic": {
    "v": 19580,
    "d": "19 580",
-   "l": "[PT.2🎃] Turbo Soccer : Beta 1.0 : pic de joueurs simultanés relevé",
+   "l": "[🎃] Turbo Soccer : Beta 1.0 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-03.csv#L87"
   },
   "g.10767012496.heure_pic": {
    "v": "00:40",
    "d": "0 h 40",
-   "l": "[PT.2🎃] Turbo Soccer : Beta 1.0 : heure (Paris) du pic relevé",
+   "l": "[🎃] Turbo Soccer : Beta 1.0 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-03.csv#L87"
   },
   "g.10767012496.moy": {
    "v": 11257,
    "d": "11 257",
-   "l": "[PT.2🎃] Turbo Soccer : Beta 1.0 : moyenne des joueurs simultanés sur la journée",
+   "l": "[🎃] Turbo Soccer : Beta 1.0 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-03.csv#L87"
   },
   "g.10767012496.createur": {
    "v": "Turbo Soccer",
    "d": "Turbo Soccer",
-   "l": "[PT.2🎃] Turbo Soccer : Beta 1.0 : créateur",
+   "l": "[🎃] Turbo Soccer : Beta 1.0 : créateur",
    "src": "data/jours/2026-11-03.csv#L87"
   },
   "g.10767012496.genre": {
    "v": "Sports & Racing",
    "d": "Sport et course",
-   "l": "[PT.2🎃] Turbo Soccer : Beta 1.0 : genre",
+   "l": "[🎃] Turbo Soccer : Beta 1.0 : genre",
    "src": "data/jours/2026-11-03.csv#L87"
   },
   "g.10767012496.var_veille": {
    "v": -0.2567,
    "d": "−25,7 %",
-   "l": "[PT.2🎃] Turbo Soccer : Beta 1.0 : variation de la moyenne par rapport à la veille",
+   "l": "[🎃] Turbo Soccer : Beta 1.0 : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-03.csv#L87"
   },
   "g.10767012496.moy_veille": {
    "v": 15145,
    "d": "15 145",
-   "l": "[PT.2🎃] Turbo Soccer : Beta 1.0 : moyenne de la veille",
+   "l": "[🎃] Turbo Soccer : Beta 1.0 : moyenne de la veille",
    "src": "data/jours/2026-11-03.csv#L87"
   },
   "g.10767012496.var_7j": {
    "v": -0.3018,
    "d": "−30,2 %",
-   "l": "[PT.2🎃] Turbo Soccer : Beta 1.0 : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🎃] Turbo Soccer : Beta 1.0 : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-03.csv#L87"
   },
   "g.10767012496.moy_7j": {
    "v": 16123,
    "d": "16 123",
-   "l": "[PT.2🎃] Turbo Soccer : Beta 1.0 : moyenne des 7 jours précédents",
+   "l": "[🎃] Turbo Soccer : Beta 1.0 : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-03.csv#L87"
   },
   "g.10767012496.visites_24h": {
    "v": 3751451,
    "d": "3,75 millions",
-   "l": "[PT.2🎃] Turbo Soccer : Beta 1.0 : visites gagnées en 24 h",
+   "l": "[🎃] Turbo Soccer : Beta 1.0 : visites gagnées en 24 h",
    "src": "data/jours/2026-11-03.csv#L87"
   },
   "g.10767012496.visites_total": {
    "v": 142824894,
    "d": "142,82 millions",
-   "l": "[PT.2🎃] Turbo Soccer : Beta 1.0 : visites cumulées depuis la création",
+   "l": "[🎃] Turbo Soccer : Beta 1.0 : visites cumulées depuis la création",
    "src": "data/jours/2026-11-03.csv#L87"
   },
   "g.10767012496.note": {
    "v": 0.9239,
    "d": "92,4 %",
-   "l": "[PT.2🎃] Turbo Soccer : Beta 1.0 : part de votes positifs",
+   "l": "[🎃] Turbo Soccer : Beta 1.0 : part de votes positifs",
    "src": "data/jours/2026-11-03.csv#L87"
   },
   "g.10767012496.rang_veille": {
    "v": 70,
    "d": "70e",
-   "l": "[PT.2🎃] Turbo Soccer : Beta 1.0 : rang la veille",
+   "l": "[🎃] Turbo Soccer : Beta 1.0 : rang la veille",
    "src": "data/jours/2026-11-03.csv#L87"
   },
   "g.7436755782.nom": {
