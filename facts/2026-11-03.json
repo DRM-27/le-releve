@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-03",
- "genere": "2026-11-04T08:30:31Z",
+ "genere": "2026-11-04T10:29:31Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -4263,93 +4263,93 @@
    "src": "data/jours/2026-11-03.csv#L38"
   },
   "g.10766620257.nom": {
-   "v": "[🏰] Bike For Egg!",
-   "d": "[🏰] Bike For Egg!",
-   "l": "[🏰] Bike For Egg! : nom",
+   "v": "Bike For Egg!",
+   "d": "Bike For Egg!",
+   "l": "Bike For Egg! : nom",
    "src": "data/jours/2026-11-03.csv#L39"
   },
   "g.10766620257.rang": {
    "v": 38,
    "d": "38e",
-   "l": "[🏰] Bike For Egg! : rang au pic du jour",
+   "l": "Bike For Egg! : rang au pic du jour",
    "src": "data/jours/2026-11-03.csv#L39"
   },
   "g.10766620257.pic": {
    "v": 37279,
    "d": "37 279",
-   "l": "[🏰] Bike For Egg! : pic de joueurs simultanés relevé",
+   "l": "Bike For Egg! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-03.csv#L39"
   },
   "g.10766620257.heure_pic": {
    "v": "13:06",
    "d": "13 h 06",
-   "l": "[🏰] Bike For Egg! : heure (Paris) du pic relevé",
+   "l": "Bike For Egg! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-03.csv#L39"
   },
   "g.10766620257.moy": {
    "v": 21338,
    "d": "21 338",
-   "l": "[🏰] Bike For Egg! : moyenne des joueurs simultanés sur la journée",
+   "l": "Bike For Egg! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-03.csv#L39"
   },
   "g.10766620257.createur": {
    "v": "Huron Games",
    "d": "Huron Games",
-   "l": "[🏰] Bike For Egg! : créateur",
+   "l": "Bike For Egg! : créateur",
    "src": "data/jours/2026-11-03.csv#L39"
   },
   "g.10766620257.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🏰] Bike For Egg! : genre",
+   "l": "Bike For Egg! : genre",
    "src": "data/jours/2026-11-03.csv#L39"
   },
   "g.10766620257.var_veille": {
    "v": -0.0255,
    "d": "−2,5 %",
-   "l": "[🏰] Bike For Egg! : variation de la moyenne par rapport à la veille",
+   "l": "Bike For Egg! : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-03.csv#L39"
   },
   "g.10766620257.moy_veille": {
    "v": 21896,
    "d": "21 896",
-   "l": "[🏰] Bike For Egg! : moyenne de la veille",
+   "l": "Bike For Egg! : moyenne de la veille",
    "src": "data/jours/2026-11-03.csv#L39"
   },
   "g.10766620257.var_7j": {
    "v": -0.1797,
    "d": "−18,0 %",
-   "l": "[🏰] Bike For Egg! : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Bike For Egg! : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-03.csv#L39"
   },
   "g.10766620257.moy_7j": {
    "v": 26013,
    "d": "26 013",
-   "l": "[🏰] Bike For Egg! : moyenne des 7 jours précédents",
+   "l": "Bike For Egg! : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-03.csv#L39"
   },
   "g.10766620257.visites_24h": {
    "v": 2284818,
    "d": "2,28 millions",
-   "l": "[🏰] Bike For Egg! : visites gagnées en 24 h",
+   "l": "Bike For Egg! : visites gagnées en 24 h",
    "src": "data/jours/2026-11-03.csv#L39"
   },
   "g.10766620257.visites_total": {
    "v": 46817500,
    "d": "46,82 millions",
-   "l": "[🏰] Bike For Egg! : visites cumulées depuis la création",
+   "l": "Bike For Egg! : visites cumulées depuis la création",
    "src": "data/jours/2026-11-03.csv#L39"
   },
   "g.10766620257.note": {
    "v": 0.9488,
    "d": "94,9 %",
-   "l": "[🏰] Bike For Egg! : part de votes positifs",
+   "l": "Bike For Egg! : part de votes positifs",
    "src": "data/jours/2026-11-03.csv#L39"
   },
   "g.10766620257.rang_veille": {
    "v": 43,
    "d": "43e",
-   "l": "[🏰] Bike For Egg! : rang la veille",
+   "l": "Bike For Egg! : rang la veille",
    "src": "data/jours/2026-11-03.csv#L39"
   },
   "g.372226183.nom": {
