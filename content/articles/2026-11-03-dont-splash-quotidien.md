@@ -1,11 +1,16 @@
 ---
-titre: {{top.1.nom}} en tête avec {{top.1.pic}} joueurs, le genre {{genre.1.nom}} pèse {{genre.1.part}} du top 100
-chapo: Le {{jour.date_courte}}, le n° 1 a réuni {{concentration.top1}} des joueurs moyens du top 100 ; le genre {{genre.1.nom}} en regroupe {{genre.1.part}}.
-jour: 2026-11-02
+titre: {{entree.1.nom}} entre dans le top 50 de Roblox, directement {{entree.1.rang}}
+chapo: Le {{jour.date_courte}}, {{entree.1.nom}} fait son entrée dans le top 50 avec un pic de {{entree.1.pic}} joueurs. {{entrees.nb}} jeux y sont entrés par rapport à la veille.
+jour: 2026-11-03
 type: quotidien
-publie: 2026-11-03T09:56
+angle: entree
+publie: 2026-11-04T23:10
 ---
 Relevés : {{releves.nb}} sur {{releves.attendus}} ({{releves.manquants}}), pour {{jeux.nb}} jeux suivis. Sur les jeux que nous suivons, le total des joueurs en ligne a atteint {{cumul.pic}} au relevé le plus haut, à {{cumul.pic_heure}}, pour une moyenne de {{cumul.moy}} sur la journée.
+
+## Le fait du jour
+
+**{{entree.1.nom}}** n'était pas dans le top 50 la veille. Il arrive {{entree.1.rang}} avec un pic relevé de {{entree.1.pic}} joueurs.
 
 ## Le n° 1
 

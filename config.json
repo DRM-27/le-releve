@@ -6,7 +6,7 @@
   "repo": "DRM-27/le-releve",
   "lang": "fr",
   "tz": "Europe/Paris",
-  "validationUntil": "2026-11-06",
+  "validationUntil": "2026-11-04",
   "tracking": {
     "maxGames": 1500,
     "keepDaysAfterSort": 14,
@@ -29,5 +29,8 @@
   },
   "rapport": {
     "premiereEdition": "2026-11-01"
+  },
+  "quotidien": {
+    "autoPublish": true
   }
 }
