@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-04",
- "genere": "2026-11-05T15:21:03Z",
+ "genere": "2026-11-05T16:29:13Z",
  "couverture": {
   "releves": 17,
   "attendus": 24
@@ -615,8 +615,8 @@
    "src": "data/jours/2026-11-04.csv#L7"
   },
   "top.7.nom": {
-   "v": "[🎃] Throw Food For Animals",
-   "d": "[🎃] Throw Food For Animals",
+   "v": "Throw Food For Animals",
+   "d": "Throw Food For Animals",
    "l": "N° 7 du jour : nom",
    "src": "data/jours/2026-11-04.csv#L8"
   },
@@ -1515,93 +1515,93 @@
    "src": "data/jours/2026-11-04.csv#L7"
   },
   "g.10766972131.nom": {
-   "v": "[🎃] Throw Food For Animals",
-   "d": "[🎃] Throw Food For Animals",
-   "l": "[🎃] Throw Food For Animals : nom",
+   "v": "Throw Food For Animals",
+   "d": "Throw Food For Animals",
+   "l": "Throw Food For Animals : nom",
    "src": "data/jours/2026-11-04.csv#L8"
   },
   "g.10766972131.rang": {
    "v": 7,
    "d": "7e",
-   "l": "[🎃] Throw Food For Animals : rang au pic du jour",
+   "l": "Throw Food For Animals : rang au pic du jour",
    "src": "data/jours/2026-11-04.csv#L8"
   },
   "g.10766972131.pic": {
    "v": 171472,
    "d": "171 472",
-   "l": "[🎃] Throw Food For Animals : pic de joueurs simultanés relevé",
+   "l": "Throw Food For Animals : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-04.csv#L8"
   },
   "g.10766972131.heure_pic": {
    "v": "14:33",
    "d": "14 h 33",
-   "l": "[🎃] Throw Food For Animals : heure (Paris) du pic relevé",
+   "l": "Throw Food For Animals : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-04.csv#L8"
   },
   "g.10766972131.moy": {
    "v": 107136,
    "d": "107 136",
-   "l": "[🎃] Throw Food For Animals : moyenne des joueurs simultanés sur la journée",
+   "l": "Throw Food For Animals : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-04.csv#L8"
   },
   "g.10766972131.createur": {
    "v": "Goofy Chupacabra",
    "d": "Goofy Chupacabra",
-   "l": "[🎃] Throw Food For Animals : créateur",
+   "l": "Throw Food For Animals : créateur",
    "src": "data/jours/2026-11-04.csv#L8"
   },
   "g.10766972131.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🎃] Throw Food For Animals : genre",
+   "l": "Throw Food For Animals : genre",
    "src": "data/jours/2026-11-04.csv#L8"
   },
   "g.10766972131.var_veille": {
    "v": 0.1707,
    "d": "+17,1 %",
-   "l": "[🎃] Throw Food For Animals : variation de la moyenne par rapport à la veille",
+   "l": "Throw Food For Animals : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-04.csv#L8"
   },
   "g.10766972131.moy_veille": {
    "v": 91518,
    "d": "91 518",
-   "l": "[🎃] Throw Food For Animals : moyenne de la veille",
+   "l": "Throw Food For Animals : moyenne de la veille",
    "src": "data/jours/2026-11-04.csv#L8"
   },
   "g.10766972131.var_7j": {
    "v": 0.3139,
    "d": "+31,4 %",
-   "l": "[🎃] Throw Food For Animals : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Throw Food For Animals : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-04.csv#L8"
   },
   "g.10766972131.moy_7j": {
    "v": 81541,
    "d": "81 541",
-   "l": "[🎃] Throw Food For Animals : moyenne des 7 jours précédents",
+   "l": "Throw Food For Animals : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-04.csv#L8"
   },
   "g.10766972131.visites_24h": {
    "v": 8491294,
    "d": "8,49 millions",
-   "l": "[🎃] Throw Food For Animals : visites gagnées en 24 h",
+   "l": "Throw Food For Animals : visites gagnées en 24 h",
    "src": "data/jours/2026-11-04.csv#L8"
   },
   "g.10766972131.visites_total": {
    "v": 56724960,
    "d": "56,72 millions",
-   "l": "[🎃] Throw Food For Animals : visites cumulées depuis la création",
+   "l": "Throw Food For Animals : visites cumulées depuis la création",
    "src": "data/jours/2026-11-04.csv#L8"
   },
   "g.10766972131.note": {
    "v": 0.9409,
    "d": "94,1 %",
-   "l": "[🎃] Throw Food For Animals : part de votes positifs",
+   "l": "Throw Food For Animals : part de votes positifs",
    "src": "data/jours/2026-11-04.csv#L8"
   },
   "g.10766972131.rang_veille": {
    "v": 10,
    "d": "10e",
-   "l": "[🎃] Throw Food For Animals : rang la veille",
+   "l": "Throw Food For Animals : rang la veille",
    "src": "data/jours/2026-11-04.csv#L8"
   },
   "g.383310974.nom": {
@@ -10257,7 +10257,7 @@
      "valeur": 191725
     },
     {
-     "nom": "[🎃] Throw Food For Animals",
+     "nom": "Throw Food For Animals",
      "valeur": 171472
     },
     {
