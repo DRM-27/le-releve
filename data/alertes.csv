@@ -547,3 +547,5 @@ ts_utc,type,universe_id,nom,avant,maintenant,variation,rang,rang_avant,releve
 2026-11-05T07:43:02Z,forte_hausse,2992873140,Emergency Hamburg,1529,3136,1.051,220,333,data/snapshots/2026/11/05/07.csv
 2026-11-05T07:43:02Z,forte_hausse,10767825538,Sarab,1356,2903,1.1409,233,351,data/snapshots/2026/11/05/07.csv
 2026-11-05T07:43:02Z,forte_hausse,10771766545,[ДИГГЕРСТВО] РейлСайд [БЕТА],1259,2125,0.6878,280,362,data/snapshots/2026/11/05/07.csv
+2026-11-05T09:23:21Z,forte_hausse,10767494536,Hike For Eggs,4973,7883,0.5852,113,149,data/snapshots/2026/11/05/09.csv
+2026-11-05T09:23:21Z,forte_hausse,10422038064,Launch a Lucky Block,1189,2231,0.8764,298,359,data/snapshots/2026/11/05/09.csv
