@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-04",
- "genere": "2026-11-05T00:03:06Z",
+ "genere": "2026-11-05T01:35:12Z",
  "couverture": {
   "releves": 17,
   "attendus": 24
@@ -10023,8 +10023,8 @@
    "src": "data/jours/2026-11-04.csv#L488"
   },
   "baisse.5.nom": {
-   "v": "[🔺] Solve The Cube",
-   "d": "[🔺] Solve The Cube",
+   "v": "[4x4 UPD!] Solve The Cube",
+   "d": "[4x4 UPD!] Solve The Cube",
    "l": "Baisse n° 5 : nom",
    "src": "data/jours/2026-11-04.csv#L429"
   },
@@ -10301,7 +10301,7 @@
      "valeur": 0.3319
     },
     {
-     "nom": "[🔺] Solve The Cube",
+     "nom": "[4x4 UPD!] Solve The Cube",
      "valeur": -0.8119
     },
     {
