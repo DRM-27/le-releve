@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-04",
- "genere": "2026-11-04T23:06:50Z",
+ "genere": "2026-11-05T00:03:06Z",
  "couverture": {
   "releves": 17,
   "attendus": 24
@@ -4731,93 +4731,93 @@
    "src": "data/jours/2026-11-04.csv#L43"
   },
   "g.10767380385.nom": {
-   "v": "[CH2] Sell Fries! [Anomaly] 🍟",
-   "d": "[CH2] Sell Fries! [Anomaly] 🍟",
-   "l": "[CH2] Sell Fries! [Anomaly] 🍟 : nom",
+   "v": "Sell Fries! [Anomaly] 🍟",
+   "d": "Sell Fries! [Anomaly] 🍟",
+   "l": "Sell Fries! [Anomaly] 🍟 : nom",
    "src": "data/jours/2026-11-04.csv#L44"
   },
   "g.10767380385.rang": {
    "v": 43,
    "d": "43e",
-   "l": "[CH2] Sell Fries! [Anomaly] 🍟 : rang au pic du jour",
+   "l": "Sell Fries! [Anomaly] 🍟 : rang au pic du jour",
    "src": "data/jours/2026-11-04.csv#L44"
   },
   "g.10767380385.pic": {
    "v": 31346,
    "d": "31 346",
-   "l": "[CH2] Sell Fries! [Anomaly] 🍟 : pic de joueurs simultanés relevé",
+   "l": "Sell Fries! [Anomaly] 🍟 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-04.csv#L44"
   },
   "g.10767380385.heure_pic": {
    "v": "14:33",
    "d": "14 h 33",
-   "l": "[CH2] Sell Fries! [Anomaly] 🍟 : heure (Paris) du pic relevé",
+   "l": "Sell Fries! [Anomaly] 🍟 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-04.csv#L44"
   },
   "g.10767380385.moy": {
    "v": 21900,
    "d": "21 900",
-   "l": "[CH2] Sell Fries! [Anomaly] 🍟 : moyenne des joueurs simultanés sur la journée",
+   "l": "Sell Fries! [Anomaly] 🍟 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-04.csv#L44"
   },
   "g.10767380385.createur": {
    "v": "Pharting",
    "d": "Pharting",
-   "l": "[CH2] Sell Fries! [Anomaly] 🍟 : créateur",
+   "l": "Sell Fries! [Anomaly] 🍟 : créateur",
    "src": "data/jours/2026-11-04.csv#L44"
   },
   "g.10767380385.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "[CH2] Sell Fries! [Anomaly] 🍟 : genre",
+   "l": "Sell Fries! [Anomaly] 🍟 : genre",
    "src": "data/jours/2026-11-04.csv#L44"
   },
   "g.10767380385.var_veille": {
    "v": -0.078,
    "d": "−7,8 %",
-   "l": "[CH2] Sell Fries! [Anomaly] 🍟 : variation de la moyenne par rapport à la veille",
+   "l": "Sell Fries! [Anomaly] 🍟 : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-04.csv#L44"
   },
   "g.10767380385.moy_veille": {
    "v": 23751,
    "d": "23 751",
-   "l": "[CH2] Sell Fries! [Anomaly] 🍟 : moyenne de la veille",
+   "l": "Sell Fries! [Anomaly] 🍟 : moyenne de la veille",
    "src": "data/jours/2026-11-04.csv#L44"
   },
   "g.10767380385.var_7j": {
    "v": -0.3067,
    "d": "−30,7 %",
-   "l": "[CH2] Sell Fries! [Anomaly] 🍟 : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Sell Fries! [Anomaly] 🍟 : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-04.csv#L44"
   },
   "g.10767380385.moy_7j": {
    "v": 31589,
    "d": "31 589",
-   "l": "[CH2] Sell Fries! [Anomaly] 🍟 : moyenne des 7 jours précédents",
+   "l": "Sell Fries! [Anomaly] 🍟 : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-04.csv#L44"
   },
   "g.10767380385.visites_24h": {
    "v": 2066415,
    "d": "2,07 millions",
-   "l": "[CH2] Sell Fries! [Anomaly] 🍟 : visites gagnées en 24 h",
+   "l": "Sell Fries! [Anomaly] 🍟 : visites gagnées en 24 h",
    "src": "data/jours/2026-11-04.csv#L44"
   },
   "g.10767380385.visites_total": {
    "v": 99754466,
    "d": "99,75 millions",
-   "l": "[CH2] Sell Fries! [Anomaly] 🍟 : visites cumulées depuis la création",
+   "l": "Sell Fries! [Anomaly] 🍟 : visites cumulées depuis la création",
    "src": "data/jours/2026-11-04.csv#L44"
   },
   "g.10767380385.note": {
    "v": 0.8474,
    "d": "84,7 %",
-   "l": "[CH2] Sell Fries! [Anomaly] 🍟 : part de votes positifs",
+   "l": "Sell Fries! [Anomaly] 🍟 : part de votes positifs",
    "src": "data/jours/2026-11-04.csv#L44"
   },
   "g.10767380385.rang_veille": {
    "v": 48,
    "d": "48e",
-   "l": "[CH2] Sell Fries! [Anomaly] 🍟 : rang la veille",
+   "l": "Sell Fries! [Anomaly] 🍟 : rang la veille",
    "src": "data/jours/2026-11-04.csv#L44"
   },
   "g.4839802560.nom": {
