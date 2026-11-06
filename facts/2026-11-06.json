@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-06",
- "genere": "2026-11-06T23:01:59Z",
+ "genere": "2026-11-06T23:24:52Z",
  "couverture": {
   "releves": 19,
   "attendus": 24
@@ -6447,75 +6447,75 @@
    "src": "data/jours/2026-11-06.csv#L83"
   },
   "g.184199275.nom": {
-   "v": "[🥇SEASONS] NFL Universe Football",
-   "d": "[🥇SEASONS] NFL Universe Football",
-   "l": "[🥇SEASONS] NFL Universe Football : nom",
+   "v": "[SZN2🌸] NFL Universe Football",
+   "d": "[SZN2🌸] NFL Universe Football",
+   "l": "[SZN2🌸] NFL Universe Football : nom",
    "src": "data/jours/2026-11-06.csv#L84"
   },
   "g.184199275.rang": {
    "v": 83,
    "d": "83e",
-   "l": "[🥇SEASONS] NFL Universe Football : rang au pic du jour",
+   "l": "[SZN2🌸] NFL Universe Football : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L84"
   },
   "g.184199275.pic": {
    "v": 21330,
    "d": "21 330",
-   "l": "[🥇SEASONS] NFL Universe Football : pic de joueurs simultanés relevé",
+   "l": "[SZN2🌸] NFL Universe Football : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L84"
   },
   "g.184199275.heure_pic": {
    "v": "02:36",
    "d": "2 h 36",
-   "l": "[🥇SEASONS] NFL Universe Football : heure (Paris) du pic relevé",
+   "l": "[SZN2🌸] NFL Universe Football : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L84"
   },
   "g.184199275.moy": {
    "v": 8159,
    "d": "8 159",
-   "l": "[🥇SEASONS] NFL Universe Football : moyenne des joueurs simultanés sur la journée",
+   "l": "[SZN2🌸] NFL Universe Football : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L84"
   },
   "g.184199275.createur": {
    "v": "NFL Universe Football by Voldex",
    "d": "NFL Universe Football by Voldex",
-   "l": "[🥇SEASONS] NFL Universe Football : créateur",
+   "l": "[SZN2🌸] NFL Universe Football : créateur",
    "src": "data/jours/2026-11-06.csv#L84"
   },
   "g.184199275.genre": {
    "v": "Sports & Racing",
    "d": "Sport et course",
-   "l": "[🥇SEASONS] NFL Universe Football : genre",
+   "l": "[SZN2🌸] NFL Universe Football : genre",
    "src": "data/jours/2026-11-06.csv#L84"
   },
   "g.184199275.var_7j": {
    "v": -0.2831,
    "d": "−28,3 %",
-   "l": "[🥇SEASONS] NFL Universe Football : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[SZN2🌸] NFL Universe Football : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L84"
   },
   "g.184199275.moy_7j": {
    "v": 11382,
    "d": "11 382",
-   "l": "[🥇SEASONS] NFL Universe Football : moyenne des 7 jours précédents",
+   "l": "[SZN2🌸] NFL Universe Football : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L84"
   },
   "g.184199275.visites_24h": {
    "v": 723581,
    "d": "723 581",
-   "l": "[🥇SEASONS] NFL Universe Football : visites gagnées en 24 h",
+   "l": "[SZN2🌸] NFL Universe Football : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L84"
   },
   "g.184199275.visites_total": {
    "v": 1020851369,
    "d": "1,02 milliard",
-   "l": "[🥇SEASONS] NFL Universe Football : visites cumulées depuis la création",
+   "l": "[SZN2🌸] NFL Universe Football : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L84"
   },
   "g.184199275.note": {
    "v": 0.9035,
    "d": "90,3 %",
-   "l": "[🥇SEASONS] NFL Universe Football : part de votes positifs",
+   "l": "[SZN2🌸] NFL Universe Football : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L84"
   },
   "g.10148749921.nom": {
