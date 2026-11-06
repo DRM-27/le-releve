@@ -7,14 +7,14 @@ Le titre et le chapô ne sont plus fixes : le script retient le fait le plus for
 (sans reprendre l'angle de la veille quand un autre est disponible) :
   nouveau_n1  le n° 1 a changé (toujours retenu)
   entree      un jeu entre dans le top 50 directement dans le top 20
-  hausse      une hausse d'au moins +50 % sur une semaine, pour un jeu à 10 000 joueurs moyens ou plus
+  hausse      une hausse d'au moins +50 % sur une semaine (10 000 joueurs moyens ou plus), ou +30 % (20 000 ou plus)
   baisse      une baisse d'au moins −40 % sur une semaine, pour un jeu qui en avait 20 000 ou plus
   top         sinon : le n° 1 qui garde la tête et le poids du genre dominant
 Le corps de l'article (n° 1, poursuivants, pic, genres) reste le même pour garder des repères au lecteur.
 
 Publication : si config.json > quotidien.autoPublish vaut true, l'article et ses traductions vont directement
 dans content/ (après tools/verify.py). Sinon, le français va dans drafts/ pour validation.
-Usage : python tools/quotidien.py [AAAA-MM-JJ]   (par défaut : hier, heure de Paris)
+Usage : python tools/quotidien.py [AAAA-MM-JJ]   (par défaut : les 3 derniers jours jusqu'à hier, heure de Paris)
 """
 import json
 import re
@@ -29,7 +29,7 @@ from common import CONFIG, FACTS, ROOT, TZ, slugify, utc_now
 MODELES = {"fr": ROOT / "tools" / "modeles" / "quotidien.md"}
 for _l in ("en", "es", "pt-br"):
     MODELES[_l] = ROOT / "tools" / "modeles" / "i18n" / _l / "quotidien.md"
-MIN_RELEVES = 18   # relevés minimum sur la journée ; GitHub saute parfois des heures planifiées
+MIN_RELEVES = 12   # relevés minimum sur la journée ; GitHub saute des heures planifiées, l'article cite celles qui manquent
 
 # @I@ = l'indice du jeu retenu (hausse.2, entree.1…). Aucun chiffre tapé : uniquement des jetons.
 ANGLES = {
@@ -133,7 +133,8 @@ def candidats(F):
             out.append(("entree", i))
             break
     for i in range(1, 6):
-        if (v(F, f"hausse.{i}.var") or 0) >= 0.5 and (v(F, f"hausse.{i}.moy") or 0) >= 10000:
+        var, moy = v(F, f"hausse.{i}.var") or 0, v(F, f"hausse.{i}.moy") or 0
+        if (var >= 0.5 and moy >= 10000) or (var >= 0.3 and moy >= 20000):
             out.append(("hausse", i))
             break
     for i in range(1, 6):
@@ -189,7 +190,14 @@ def verifie(paths):
 
 
 def main():
-    d = date.fromisoformat(sys.argv[1]) if len(sys.argv) > 1 else (utc_now().astimezone(TZ).date() - timedelta(days=1))
+    """Sans date : traite les 3 derniers jours, du plus ancien au plus récent (rattrape un jour manqué)."""
+    if len(sys.argv) > 1:
+        return un_jour(date.fromisoformat(sys.argv[1]))
+    hier = utc_now().astimezone(TZ).date() - timedelta(days=1)
+    return max(un_jour(hier - timedelta(days=k)) for k in (2, 1, 0))
+
+
+def un_jour(d):
     f = FACTS / f"{d.isoformat()}.json"
     if not f.exists():
         print(f"Pas de faits pour {d} : rien à faire.")

@@ -3,6 +3,7 @@ name: Relevé horaire et site
 on:
   schedule:
     - cron: "23 * * * *"
+    - cron: "53 * * * *"   # second créneau : GitHub saute souvent des exécutions planifiées
   workflow_dispatch:
   push:
     branches: [main]
@@ -63,7 +64,7 @@ jobs:
       - name: Faits de la veille (heure de Paris)
         run: python tools/facts.py || echo "Pas encore de journée complète."
 
-      - name: Brouillon du quotidien (si la veille compte au moins 20 relevés)
+      - name: Quotidien des 3 derniers jours (publié seul s'il passe le vérificateur, 12 relevés minimum)
         run: python tools/quotidien.py || true
 
       - name: Traductions des quotidiens publiés (modèles traduits, sans IA)
@@ -93,6 +94,27 @@ jobs:
               --body "Le relevé horaire échoue depuis $FAILS passages. Dernier succès : $(python -c "import json;print(json.load(open('data/status.json')).get('dernierSucces'))"). Détail dans data/status.json et dans l'onglet Actions. Ce ticket se ferme tout seul quand la collecte repart." || true
           elif [ "$FAILS" -eq 0 ] && [ -n "$OPEN" ]; then
             gh issue close "$OPEN" --comment "La collecte est repartie ($(date -u +%Y-%m-%dT%H:%MZ))." || true
+          fi
+
+      - name: Prévenir par un ticket GitHub (e-mail) si aucun quotidien depuis 2 jours
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          JOURS=$(python - <<'PY'
+          import glob, datetime as dt
+          f = sorted(glob.glob("content/articles/*-quotidien.md"))
+          d = dt.date.fromisoformat(f[-1].split("/")[-1][:10]) if f else dt.date(2000, 1, 1)
+          print((dt.date.today() - d).days)
+          PY
+          )
+          OPEN=$(gh issue list --label quotidien-en-panne --state open --json number --jq '.[0].number' 2>/dev/null || true)
+          if [ "$JOURS" -ge 3 ] && [ -z "$OPEN" ]; then
+            gh label create quotidien-en-panne --color D93F0B --description "Alerte automatique : pas de quotidien publié" 2>/dev/null || true
+            gh issue create --label quotidien-en-panne --title "Aucun quotidien publié depuis $JOURS jours" \
+              --body "Le dernier quotidien publié date de $JOURS jours. Causes possibles : journée sous 12 relevés, vérificateur en échec (voir l'étape « Quotidien » dans l'onglet Actions). Ce ticket se ferme tout seul au prochain quotidien publié." || true
+          elif [ "$JOURS" -le 2 ] && [ -n "$OPEN" ]; then
+            gh issue close "$OPEN" --comment "Un quotidien est de nouveau publié." || true
           fi
 
       - name: Rapport mensuel « État de Roblox » (PDF du mois écoulé, dès le 1er du mois)
