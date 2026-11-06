@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-05",
- "genere": "2026-11-06T20:09:58Z",
+ "genere": "2026-11-06T20:31:21Z",
  "couverture": {
   "releves": 17,
   "attendus": 24
@@ -3339,75 +3339,75 @@
    "src": "data/jours/2026-11-05.csv#L37"
   },
   "g.9584852943.nom": {
-   "v": "+1 Speed Keyboard Escape | Candy & Chocolate",
-   "d": "+1 Speed Keyboard Escape | Candy & Chocolate",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : nom",
+   "v": "[X30] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "d": "[X30] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "l": "[X30] +1 Speed Keyboard Escape | Candy & Chocolate : nom",
    "src": "data/jours/2026-11-05.csv#L38"
   },
   "g.9584852943.rang": {
    "v": 37,
    "d": "37e",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
+   "l": "[X30] +1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
    "src": "data/jours/2026-11-05.csv#L38"
   },
   "g.9584852943.pic": {
    "v": 36421,
    "d": "36 421",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
+   "l": "[X30] +1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-05.csv#L38"
   },
   "g.9584852943.heure_pic": {
    "v": "13:18",
    "d": "13 h 18",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
+   "l": "[X30] +1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-05.csv#L38"
   },
   "g.9584852943.moy": {
    "v": 22819,
    "d": "22 819",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
+   "l": "[X30] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-05.csv#L38"
   },
   "g.9584852943.createur": {
    "v": "SecretVerse Studio",
    "d": "SecretVerse Studio",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : créateur",
+   "l": "[X30] +1 Speed Keyboard Escape | Candy & Chocolate : créateur",
    "src": "data/jours/2026-11-05.csv#L38"
   },
   "g.9584852943.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : genre",
+   "l": "[X30] +1 Speed Keyboard Escape | Candy & Chocolate : genre",
    "src": "data/jours/2026-11-05.csv#L38"
   },
   "g.9584852943.var_7j": {
    "v": -0.4507,
    "d": "−45,1 %",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[X30] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-05.csv#L38"
   },
   "g.9584852943.moy_7j": {
    "v": 41540,
    "d": "41 540",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : moyenne des 7 jours précédents",
+   "l": "[X30] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-05.csv#L38"
   },
   "g.9584852943.visites_24h": {
    "v": 4135695,
    "d": "4,14 millions",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : visites gagnées en 24 h",
+   "l": "[X30] +1 Speed Keyboard Escape | Candy & Chocolate : visites gagnées en 24 h",
    "src": "data/jours/2026-11-05.csv#L38"
   },
   "g.9584852943.visites_total": {
    "v": 6656965131,
    "d": "6,66 milliards",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
+   "l": "[X30] +1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
    "src": "data/jours/2026-11-05.csv#L38"
   },
   "g.9584852943.note": {
    "v": 0.9671,
    "d": "96,7 %",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
+   "l": "[X30] +1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
    "src": "data/jours/2026-11-05.csv#L38"
   },
   "g.10769315427.nom": {
