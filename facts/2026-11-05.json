@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-05",
- "genere": "2026-11-06T18:06:42Z",
+ "genere": "2026-11-06T18:34:58Z",
  "couverture": {
   "releves": 17,
   "attendus": 24
@@ -4815,75 +4815,75 @@
    "src": "data/jours/2026-11-05.csv#L59"
   },
   "g.10765490774.nom": {
-   "v": "[🎃]Climb For Animals Eggs🥚",
-   "d": "[🎃]Climb For Animals Eggs🥚",
-   "l": "[🎃]Climb For Animals Eggs🥚 : nom",
+   "v": "Climb For Animals Eggs🥚",
+   "d": "Climb For Animals Eggs🥚",
+   "l": "Climb For Animals Eggs🥚 : nom",
    "src": "data/jours/2026-11-05.csv#L60"
   },
   "g.10765490774.rang": {
    "v": 59,
    "d": "59e",
-   "l": "[🎃]Climb For Animals Eggs🥚 : rang au pic du jour",
+   "l": "Climb For Animals Eggs🥚 : rang au pic du jour",
    "src": "data/jours/2026-11-05.csv#L60"
   },
   "g.10765490774.pic": {
    "v": 23260,
    "d": "23 260",
-   "l": "[🎃]Climb For Animals Eggs🥚 : pic de joueurs simultanés relevé",
+   "l": "Climb For Animals Eggs🥚 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-05.csv#L60"
   },
   "g.10765490774.heure_pic": {
    "v": "13:18",
    "d": "13 h 18",
-   "l": "[🎃]Climb For Animals Eggs🥚 : heure (Paris) du pic relevé",
+   "l": "Climb For Animals Eggs🥚 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-05.csv#L60"
   },
   "g.10765490774.moy": {
    "v": 14110,
    "d": "14 110",
-   "l": "[🎃]Climb For Animals Eggs🥚 : moyenne des joueurs simultanés sur la journée",
+   "l": "Climb For Animals Eggs🥚 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-05.csv#L60"
   },
   "g.10765490774.createur": {
    "v": "100% GRIND",
    "d": "100% GRIND",
-   "l": "[🎃]Climb For Animals Eggs🥚 : créateur",
+   "l": "Climb For Animals Eggs🥚 : créateur",
    "src": "data/jours/2026-11-05.csv#L60"
   },
   "g.10765490774.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🎃]Climb For Animals Eggs🥚 : genre",
+   "l": "Climb For Animals Eggs🥚 : genre",
    "src": "data/jours/2026-11-05.csv#L60"
   },
   "g.10765490774.var_7j": {
    "v": -0.5322,
    "d": "−53,2 %",
-   "l": "[🎃]Climb For Animals Eggs🥚 : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Climb For Animals Eggs🥚 : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-05.csv#L60"
   },
   "g.10765490774.moy_7j": {
    "v": 30166,
    "d": "30 166",
-   "l": "[🎃]Climb For Animals Eggs🥚 : moyenne des 7 jours précédents",
+   "l": "Climb For Animals Eggs🥚 : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-05.csv#L60"
   },
   "g.10765490774.visites_24h": {
    "v": 1487121,
    "d": "1,49 million",
-   "l": "[🎃]Climb For Animals Eggs🥚 : visites gagnées en 24 h",
+   "l": "Climb For Animals Eggs🥚 : visites gagnées en 24 h",
    "src": "data/jours/2026-11-05.csv#L60"
   },
   "g.10765490774.visites_total": {
    "v": 82611629,
    "d": "82,61 millions",
-   "l": "[🎃]Climb For Animals Eggs🥚 : visites cumulées depuis la création",
+   "l": "Climb For Animals Eggs🥚 : visites cumulées depuis la création",
    "src": "data/jours/2026-11-05.csv#L60"
   },
   "g.10765490774.note": {
    "v": 0.9866,
    "d": "98,7 %",
-   "l": "[🎃]Climb For Animals Eggs🥚 : part de votes positifs",
+   "l": "Climb For Animals Eggs🥚 : part de votes positifs",
    "src": "data/jours/2026-11-05.csv#L60"
   },
   "g.10766468833.nom": {
