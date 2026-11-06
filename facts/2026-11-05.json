@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-05",
- "genere": "2026-11-06T03:13:22Z",
+ "genere": "2026-11-06T04:20:04Z",
  "couverture": {
   "releves": 17,
   "attendus": 24
@@ -507,8 +507,8 @@
    "src": "data/jours/2026-11-05.csv#L7"
   },
   "top.7.nom": {
-   "v": "[🎃] Adopt Me!",
-   "d": "[🎃] Adopt Me!",
+   "v": "[12H⏳] Adopt Me!",
+   "d": "[12H⏳] Adopt Me!",
    "l": "N° 7 du jour : nom",
    "src": "data/jours/2026-11-05.csv#L8"
   },
@@ -1227,75 +1227,75 @@
    "src": "data/jours/2026-11-05.csv#L7"
   },
   "g.383310974.nom": {
-   "v": "[🎃] Adopt Me!",
-   "d": "[🎃] Adopt Me!",
-   "l": "[🎃] Adopt Me! : nom",
+   "v": "[12H⏳] Adopt Me!",
+   "d": "[12H⏳] Adopt Me!",
+   "l": "[12H⏳] Adopt Me! : nom",
    "src": "data/jours/2026-11-05.csv#L8"
   },
   "g.383310974.rang": {
    "v": 7,
    "d": "7e",
-   "l": "[🎃] Adopt Me! : rang au pic du jour",
+   "l": "[12H⏳] Adopt Me! : rang au pic du jour",
    "src": "data/jours/2026-11-05.csv#L8"
   },
   "g.383310974.pic": {
    "v": 155203,
    "d": "155 203",
-   "l": "[🎃] Adopt Me! : pic de joueurs simultanés relevé",
+   "l": "[12H⏳] Adopt Me! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-05.csv#L8"
   },
   "g.383310974.heure_pic": {
    "v": "19:03",
    "d": "19 h 03",
-   "l": "[🎃] Adopt Me! : heure (Paris) du pic relevé",
+   "l": "[12H⏳] Adopt Me! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-05.csv#L8"
   },
   "g.383310974.moy": {
    "v": 124462,
    "d": "124 462",
-   "l": "[🎃] Adopt Me! : moyenne des joueurs simultanés sur la journée",
+   "l": "[12H⏳] Adopt Me! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-05.csv#L8"
   },
   "g.383310974.createur": {
    "v": "Uplift Games",
    "d": "Uplift Games",
-   "l": "[🎃] Adopt Me! : créateur",
+   "l": "[12H⏳] Adopt Me! : créateur",
    "src": "data/jours/2026-11-05.csv#L8"
   },
   "g.383310974.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "[🎃] Adopt Me! : genre",
+   "l": "[12H⏳] Adopt Me! : genre",
    "src": "data/jours/2026-11-05.csv#L8"
   },
   "g.383310974.var_7j": {
    "v": -0.4289,
    "d": "−42,9 %",
-   "l": "[🎃] Adopt Me! : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[12H⏳] Adopt Me! : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-05.csv#L8"
   },
   "g.383310974.moy_7j": {
    "v": 217927,
    "d": "217 927",
-   "l": "[🎃] Adopt Me! : moyenne des 7 jours précédents",
+   "l": "[12H⏳] Adopt Me! : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-05.csv#L8"
   },
   "g.383310974.visites_24h": {
    "v": 7221237,
    "d": "7,22 millions",
-   "l": "[🎃] Adopt Me! : visites gagnées en 24 h",
+   "l": "[12H⏳] Adopt Me! : visites gagnées en 24 h",
    "src": "data/jours/2026-11-05.csv#L8"
   },
   "g.383310974.visites_total": {
    "v": 45327791866,
    "d": "45,33 milliards",
-   "l": "[🎃] Adopt Me! : visites cumulées depuis la création",
+   "l": "[12H⏳] Adopt Me! : visites cumulées depuis la création",
    "src": "data/jours/2026-11-05.csv#L8"
   },
   "g.383310974.note": {
    "v": 0.8638,
    "d": "86,4 %",
-   "l": "[🎃] Adopt Me! : part de votes positifs",
+   "l": "[12H⏳] Adopt Me! : part de votes positifs",
    "src": "data/jours/2026-11-05.csv#L8"
   },
   "g.10765288803.nom": {
@@ -4635,57 +4635,57 @@
    "src": "data/jours/2026-11-05.csv#L56"
   },
   "g.10770593871.nom": {
-   "v": "[UPD] Realistic Ragdoll Engine 🩸",
-   "d": "[UPD] Realistic Ragdoll Engine 🩸",
-   "l": "[UPD] Realistic Ragdoll Engine 🩸 : nom",
+   "v": "Realistic Ragdoll Engine 🩸",
+   "d": "Realistic Ragdoll Engine 🩸",
+   "l": "Realistic Ragdoll Engine 🩸 : nom",
    "src": "data/jours/2026-11-05.csv#L57"
   },
   "g.10770593871.rang": {
    "v": 56,
    "d": "56e",
-   "l": "[UPD] Realistic Ragdoll Engine 🩸 : rang au pic du jour",
+   "l": "Realistic Ragdoll Engine 🩸 : rang au pic du jour",
    "src": "data/jours/2026-11-05.csv#L57"
   },
   "g.10770593871.pic": {
    "v": 24195,
    "d": "24 195",
-   "l": "[UPD] Realistic Ragdoll Engine 🩸 : pic de joueurs simultanés relevé",
+   "l": "Realistic Ragdoll Engine 🩸 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-05.csv#L57"
   },
   "g.10770593871.heure_pic": {
    "v": "02:34",
    "d": "2 h 34",
-   "l": "[UPD] Realistic Ragdoll Engine 🩸 : heure (Paris) du pic relevé",
+   "l": "Realistic Ragdoll Engine 🩸 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-05.csv#L57"
   },
   "g.10770593871.moy": {
    "v": 17192,
    "d": "17 192",
-   "l": "[UPD] Realistic Ragdoll Engine 🩸 : moyenne des joueurs simultanés sur la journée",
+   "l": "Realistic Ragdoll Engine 🩸 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-05.csv#L57"
   },
   "g.10770593871.createur": {
    "v": "No Knees!",
    "d": "No Knees!",
-   "l": "[UPD] Realistic Ragdoll Engine 🩸 : créateur",
+   "l": "Realistic Ragdoll Engine 🩸 : créateur",
    "src": "data/jours/2026-11-05.csv#L57"
   },
   "g.10770593871.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[UPD] Realistic Ragdoll Engine 🩸 : genre",
+   "l": "Realistic Ragdoll Engine 🩸 : genre",
    "src": "data/jours/2026-11-05.csv#L57"
   },
   "g.10770593871.visites_total": {
    "v": 30979407,
    "d": "30,98 millions",
-   "l": "[UPD] Realistic Ragdoll Engine 🩸 : visites cumulées depuis la création",
+   "l": "Realistic Ragdoll Engine 🩸 : visites cumulées depuis la création",
    "src": "data/jours/2026-11-05.csv#L57"
   },
   "g.10770593871.note": {
    "v": 0.8788,
    "d": "87,9 %",
-   "l": "[UPD] Realistic Ragdoll Engine 🩸 : part de votes positifs",
+   "l": "Realistic Ragdoll Engine 🩸 : part de votes positifs",
    "src": "data/jours/2026-11-05.csv#L57"
   },
   "g.10770605947.nom": {
@@ -8199,7 +8199,7 @@
      "valeur": 168078
     },
     {
-     "nom": "[🎃] Adopt Me!",
+     "nom": "[12H⏳] Adopt Me!",
      "valeur": 155203
     },
     {
