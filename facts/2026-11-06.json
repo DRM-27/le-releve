@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-06",
- "genere": "2026-11-06T23:24:52Z",
+ "genere": "2026-11-06T23:56:05Z",
  "couverture": {
   "releves": 19,
   "attendus": 24
@@ -5445,75 +5445,75 @@
    "src": "data/jours/2026-11-06.csv#L68"
   },
   "g.2619619496.nom": {
-   "v": "[👻Rereleases] BedWars",
-   "d": "[👻Rereleases] BedWars",
-   "l": "[👻Rereleases] BedWars : nom",
+   "v": "[🔥2X XP] BedWars",
+   "d": "[🔥2X XP] BedWars",
+   "l": "[🔥2X XP] BedWars : nom",
    "src": "data/jours/2026-11-06.csv#L69"
   },
   "g.2619619496.rang": {
    "v": 68,
    "d": "68e",
-   "l": "[👻Rereleases] BedWars : rang au pic du jour",
+   "l": "[🔥2X XP] BedWars : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L69"
   },
   "g.2619619496.pic": {
    "v": 24717,
    "d": "24 717",
-   "l": "[👻Rereleases] BedWars : pic de joueurs simultanés relevé",
+   "l": "[🔥2X XP] BedWars : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L69"
   },
   "g.2619619496.heure_pic": {
    "v": "23:26",
    "d": "23 h 26",
-   "l": "[👻Rereleases] BedWars : heure (Paris) du pic relevé",
+   "l": "[🔥2X XP] BedWars : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L69"
   },
   "g.2619619496.moy": {
    "v": 18066,
    "d": "18 066",
-   "l": "[👻Rereleases] BedWars : moyenne des joueurs simultanés sur la journée",
+   "l": "[🔥2X XP] BedWars : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L69"
   },
   "g.2619619496.createur": {
    "v": "Easy.gg",
    "d": "Easy.gg",
-   "l": "[👻Rereleases] BedWars : créateur",
+   "l": "[🔥2X XP] BedWars : créateur",
    "src": "data/jours/2026-11-06.csv#L69"
   },
   "g.2619619496.genre": {
    "v": "Action",
    "d": "Action",
-   "l": "[👻Rereleases] BedWars : genre",
+   "l": "[🔥2X XP] BedWars : genre",
    "src": "data/jours/2026-11-06.csv#L69"
   },
   "g.2619619496.var_7j": {
    "v": -0.2446,
    "d": "−24,5 %",
-   "l": "[👻Rereleases] BedWars : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🔥2X XP] BedWars : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L69"
   },
   "g.2619619496.moy_7j": {
    "v": 23916,
    "d": "23 916",
-   "l": "[👻Rereleases] BedWars : moyenne des 7 jours précédents",
+   "l": "[🔥2X XP] BedWars : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L69"
   },
   "g.2619619496.visites_24h": {
    "v": 1845212,
    "d": "1,85 million",
-   "l": "[👻Rereleases] BedWars : visites gagnées en 24 h",
+   "l": "[🔥2X XP] BedWars : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L69"
   },
   "g.2619619496.visites_total": {
    "v": 11828066968,
    "d": "11,83 milliards",
-   "l": "[👻Rereleases] BedWars : visites cumulées depuis la création",
+   "l": "[🔥2X XP] BedWars : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L69"
   },
   "g.2619619496.note": {
    "v": 0.823,
    "d": "82,3 %",
-   "l": "[👻Rereleases] BedWars : part de votes positifs",
+   "l": "[🔥2X XP] BedWars : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L69"
   },
   "g.4778845442.nom": {
