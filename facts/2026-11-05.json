@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-05",
- "genere": "2026-11-06T12:10:04Z",
+ "genere": "2026-11-06T13:04:19Z",
  "couverture": {
   "releves": 17,
   "attendus": 24
@@ -7581,75 +7581,75 @@
    "src": "data/jours/2026-11-05.csv#L99"
   },
   "g.9167377564.nom": {
-   "v": "100 Days at Sea",
-   "d": "100 Days at Sea",
-   "l": "100 Days at Sea : nom",
+   "v": "100 Days at Sea ",
+   "d": "100 Days at Sea ",
+   "l": "100 Days at Sea  : nom",
    "src": "data/jours/2026-11-05.csv#L100"
   },
   "g.9167377564.rang": {
    "v": 99,
    "d": "99e",
-   "l": "100 Days at Sea : rang au pic du jour",
+   "l": "100 Days at Sea  : rang au pic du jour",
    "src": "data/jours/2026-11-05.csv#L100"
   },
   "g.9167377564.pic": {
    "v": 14996,
    "d": "14 996",
-   "l": "100 Days at Sea : pic de joueurs simultanés relevé",
+   "l": "100 Days at Sea  : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-05.csv#L100"
   },
   "g.9167377564.heure_pic": {
    "v": "14:38",
    "d": "14 h 38",
-   "l": "100 Days at Sea : heure (Paris) du pic relevé",
+   "l": "100 Days at Sea  : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-05.csv#L100"
   },
   "g.9167377564.moy": {
    "v": 10680,
    "d": "10 680",
-   "l": "100 Days at Sea : moyenne des joueurs simultanés sur la journée",
+   "l": "100 Days at Sea  : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-05.csv#L100"
   },
   "g.9167377564.createur": {
    "v": "Stranded Devs",
    "d": "Stranded Devs",
-   "l": "100 Days at Sea : créateur",
+   "l": "100 Days at Sea  : créateur",
    "src": "data/jours/2026-11-05.csv#L100"
   },
   "g.9167377564.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "100 Days at Sea : genre",
+   "l": "100 Days at Sea  : genre",
    "src": "data/jours/2026-11-05.csv#L100"
   },
   "g.9167377564.var_7j": {
    "v": -0.2399,
    "d": "−24,0 %",
-   "l": "100 Days at Sea : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "100 Days at Sea  : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-05.csv#L100"
   },
   "g.9167377564.moy_7j": {
    "v": 14051,
    "d": "14 051",
-   "l": "100 Days at Sea : moyenne des 7 jours précédents",
+   "l": "100 Days at Sea  : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-05.csv#L100"
   },
   "g.9167377564.visites_24h": {
    "v": 975458,
    "d": "975 458",
-   "l": "100 Days at Sea : visites gagnées en 24 h",
+   "l": "100 Days at Sea  : visites gagnées en 24 h",
    "src": "data/jours/2026-11-05.csv#L100"
   },
   "g.9167377564.visites_total": {
    "v": 422938927,
    "d": "422,94 millions",
-   "l": "100 Days at Sea : visites cumulées depuis la création",
+   "l": "100 Days at Sea  : visites cumulées depuis la création",
    "src": "data/jours/2026-11-05.csv#L100"
   },
   "g.9167377564.note": {
    "v": 0.9706,
    "d": "97,1 %",
-   "l": "100 Days at Sea : part de votes positifs",
+   "l": "100 Days at Sea  : part de votes positifs",
    "src": "data/jours/2026-11-05.csv#L100"
   },
   "g.9534705677.nom": {
