@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-05",
- "genere": "2026-11-06T04:20:04Z",
+ "genere": "2026-11-06T05:23:52Z",
  "couverture": {
   "releves": 17,
   "attendus": 24
@@ -4509,57 +4509,57 @@
    "src": "data/jours/2026-11-05.csv#L54"
   },
   "g.10771155665.nom": {
-   "v": "Ragdoll Sandbox",
-   "d": "Ragdoll Sandbox",
-   "l": "Ragdoll Sandbox : nom",
+   "v": "[🎃] Ragdoll Sandbox",
+   "d": "[🎃] Ragdoll Sandbox",
+   "l": "[🎃] Ragdoll Sandbox : nom",
    "src": "data/jours/2026-11-05.csv#L55"
   },
   "g.10771155665.rang": {
    "v": 54,
    "d": "54e",
-   "l": "Ragdoll Sandbox : rang au pic du jour",
+   "l": "[🎃] Ragdoll Sandbox : rang au pic du jour",
    "src": "data/jours/2026-11-05.csv#L55"
   },
   "g.10771155665.pic": {
    "v": 24511,
    "d": "24 511",
-   "l": "Ragdoll Sandbox : pic de joueurs simultanés relevé",
+   "l": "[🎃] Ragdoll Sandbox : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-05.csv#L55"
   },
   "g.10771155665.heure_pic": {
    "v": "14:38",
    "d": "14 h 38",
-   "l": "Ragdoll Sandbox : heure (Paris) du pic relevé",
+   "l": "[🎃] Ragdoll Sandbox : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-05.csv#L55"
   },
   "g.10771155665.moy": {
    "v": 17230,
    "d": "17 230",
-   "l": "Ragdoll Sandbox : moyenne des joueurs simultanés sur la journée",
+   "l": "[🎃] Ragdoll Sandbox : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-05.csv#L55"
   },
   "g.10771155665.createur": {
    "v": "Rise To Top",
    "d": "Rise To Top",
-   "l": "Ragdoll Sandbox : créateur",
+   "l": "[🎃] Ragdoll Sandbox : créateur",
    "src": "data/jours/2026-11-05.csv#L55"
   },
   "g.10771155665.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "Ragdoll Sandbox : genre",
+   "l": "[🎃] Ragdoll Sandbox : genre",
    "src": "data/jours/2026-11-05.csv#L55"
   },
   "g.10771155665.visites_total": {
    "v": 8772977,
    "d": "8,77 millions",
-   "l": "Ragdoll Sandbox : visites cumulées depuis la création",
+   "l": "[🎃] Ragdoll Sandbox : visites cumulées depuis la création",
    "src": "data/jours/2026-11-05.csv#L55"
   },
   "g.10771155665.note": {
    "v": 0.8592,
    "d": "85,9 %",
-   "l": "Ragdoll Sandbox : part de votes positifs",
+   "l": "[🎃] Ragdoll Sandbox : part de votes positifs",
    "src": "data/jours/2026-11-05.csv#L55"
   },
   "g.184199275.nom": {
@@ -6195,75 +6195,75 @@
    "src": "data/jours/2026-11-05.csv#L79"
   },
   "g.10057403337.nom": {
-   "v": "[🔥NEW CASE] Deagle Arena",
-   "d": "[🔥NEW CASE] Deagle Arena",
-   "l": "[🔥NEW CASE] Deagle Arena : nom",
+   "v": "Deagle Arena",
+   "d": "Deagle Arena",
+   "l": "Deagle Arena : nom",
    "src": "data/jours/2026-11-05.csv#L80"
   },
   "g.10057403337.rang": {
    "v": 79,
    "d": "79e",
-   "l": "[🔥NEW CASE] Deagle Arena : rang au pic du jour",
+   "l": "Deagle Arena : rang au pic du jour",
    "src": "data/jours/2026-11-05.csv#L80"
   },
   "g.10057403337.pic": {
    "v": 18256,
    "d": "18 256",
-   "l": "[🔥NEW CASE] Deagle Arena : pic de joueurs simultanés relevé",
+   "l": "Deagle Arena : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-05.csv#L80"
   },
   "g.10057403337.heure_pic": {
    "v": "14:38",
    "d": "14 h 38",
-   "l": "[🔥NEW CASE] Deagle Arena : heure (Paris) du pic relevé",
+   "l": "Deagle Arena : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-05.csv#L80"
   },
   "g.10057403337.moy": {
    "v": 14291,
    "d": "14 291",
-   "l": "[🔥NEW CASE] Deagle Arena : moyenne des joueurs simultanés sur la journée",
+   "l": "Deagle Arena : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-05.csv#L80"
   },
   "g.10057403337.createur": {
    "v": "Deagle Arena",
    "d": "Deagle Arena",
-   "l": "[🔥NEW CASE] Deagle Arena : créateur",
+   "l": "Deagle Arena : créateur",
    "src": "data/jours/2026-11-05.csv#L80"
   },
   "g.10057403337.genre": {
    "v": "Shooter",
    "d": "Tir",
-   "l": "[🔥NEW CASE] Deagle Arena : genre",
+   "l": "Deagle Arena : genre",
    "src": "data/jours/2026-11-05.csv#L80"
   },
   "g.10057403337.var_7j": {
    "v": -0.1549,
    "d": "−15,5 %",
-   "l": "[🔥NEW CASE] Deagle Arena : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Deagle Arena : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-05.csv#L80"
   },
   "g.10057403337.moy_7j": {
    "v": 16910,
    "d": "16 910",
-   "l": "[🔥NEW CASE] Deagle Arena : moyenne des 7 jours précédents",
+   "l": "Deagle Arena : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-05.csv#L80"
   },
   "g.10057403337.visites_24h": {
    "v": 2469913,
    "d": "2,47 millions",
-   "l": "[🔥NEW CASE] Deagle Arena : visites gagnées en 24 h",
+   "l": "Deagle Arena : visites gagnées en 24 h",
    "src": "data/jours/2026-11-05.csv#L80"
   },
   "g.10057403337.visites_total": {
    "v": 290491490,
    "d": "290,49 millions",
-   "l": "[🔥NEW CASE] Deagle Arena : visites cumulées depuis la création",
+   "l": "Deagle Arena : visites cumulées depuis la création",
    "src": "data/jours/2026-11-05.csv#L80"
   },
   "g.10057403337.note": {
    "v": 0.8744,
    "d": "87,4 %",
-   "l": "[🔥NEW CASE] Deagle Arena : part de votes positifs",
+   "l": "Deagle Arena : part de votes positifs",
    "src": "data/jours/2026-11-05.csv#L80"
   },
   "g.7554119808.nom": {
