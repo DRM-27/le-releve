@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-05",
- "genere": "2026-11-06T22:00:54Z",
+ "genere": "2026-11-06T22:27:06Z",
  "couverture": {
   "releves": 17,
   "attendus": 24
@@ -5919,75 +5919,75 @@
    "src": "data/jours/2026-11-05.csv#L75"
   },
   "g.10767012496.nom": {
-   "v": "[🎃] Turbo Soccer - Beta",
-   "d": "[🎃] Turbo Soccer - Beta",
-   "l": "[🎃] Turbo Soccer - Beta : nom",
+   "v": "Turbo Soccer [BETA]",
+   "d": "Turbo Soccer [BETA]",
+   "l": "Turbo Soccer [BETA] : nom",
    "src": "data/jours/2026-11-05.csv#L76"
   },
   "g.10767012496.rang": {
    "v": 75,
    "d": "75e",
-   "l": "[🎃] Turbo Soccer - Beta : rang au pic du jour",
+   "l": "Turbo Soccer [BETA] : rang au pic du jour",
    "src": "data/jours/2026-11-05.csv#L76"
   },
   "g.10767012496.pic": {
    "v": 19151,
    "d": "19 151",
-   "l": "[🎃] Turbo Soccer - Beta : pic de joueurs simultanés relevé",
+   "l": "Turbo Soccer [BETA] : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-05.csv#L76"
   },
   "g.10767012496.heure_pic": {
    "v": "00:59",
    "d": "0 h 59",
-   "l": "[🎃] Turbo Soccer - Beta : heure (Paris) du pic relevé",
+   "l": "Turbo Soccer [BETA] : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-05.csv#L76"
   },
   "g.10767012496.moy": {
    "v": 12625,
    "d": "12 625",
-   "l": "[🎃] Turbo Soccer - Beta : moyenne des joueurs simultanés sur la journée",
+   "l": "Turbo Soccer [BETA] : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-05.csv#L76"
   },
   "g.10767012496.createur": {
    "v": "Turbo Soccer",
    "d": "Turbo Soccer",
-   "l": "[🎃] Turbo Soccer - Beta : créateur",
+   "l": "Turbo Soccer [BETA] : créateur",
    "src": "data/jours/2026-11-05.csv#L76"
   },
   "g.10767012496.genre": {
    "v": "Sports & Racing",
    "d": "Sport et course",
-   "l": "[🎃] Turbo Soccer - Beta : genre",
+   "l": "Turbo Soccer [BETA] : genre",
    "src": "data/jours/2026-11-05.csv#L76"
   },
   "g.10767012496.var_7j": {
    "v": -0.2014,
    "d": "−20,1 %",
-   "l": "[🎃] Turbo Soccer - Beta : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Turbo Soccer [BETA] : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-05.csv#L76"
   },
   "g.10767012496.moy_7j": {
    "v": 15809,
    "d": "15 809",
-   "l": "[🎃] Turbo Soccer - Beta : moyenne des 7 jours précédents",
+   "l": "Turbo Soccer [BETA] : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-05.csv#L76"
   },
   "g.10767012496.visites_24h": {
    "v": 3554213,
    "d": "3,55 millions",
-   "l": "[🎃] Turbo Soccer - Beta : visites gagnées en 24 h",
+   "l": "Turbo Soccer [BETA] : visites gagnées en 24 h",
    "src": "data/jours/2026-11-05.csv#L76"
   },
   "g.10767012496.visites_total": {
    "v": 150205126,
    "d": "150,21 millions",
-   "l": "[🎃] Turbo Soccer - Beta : visites cumulées depuis la création",
+   "l": "Turbo Soccer [BETA] : visites cumulées depuis la création",
    "src": "data/jours/2026-11-05.csv#L76"
   },
   "g.10767012496.note": {
    "v": 0.9239,
    "d": "92,4 %",
-   "l": "[🎃] Turbo Soccer - Beta : part de votes positifs",
+   "l": "Turbo Soccer [BETA] : part de votes positifs",
    "src": "data/jours/2026-11-05.csv#L76"
   },
   "g.10771680162.nom": {
