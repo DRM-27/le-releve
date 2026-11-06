@@ -1,6 +1,6 @@
 {
  "dailyAt": "2026-11-06T00:00Z",
- "lastRunAt": "2026-11-06T10:24Z",
+ "lastRunAt": "2026-11-06T12:09Z",
  "dernier": {
   "ecosysteme_nouvelles_heures": 2,
   "genres": 13,
@@ -9,5 +9,5 @@
  },
  "erreurs": [],
  "nbErreurs": 0,
- "ilesSuivies": 3349
+ "ilesSuivies": 3355
 }
