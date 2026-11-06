@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-05",
- "genere": "2026-11-06T00:03:22Z",
+ "genere": "2026-11-06T01:37:48Z",
  "couverture": {
   "releves": 17,
   "attendus": 24
@@ -3483,75 +3483,75 @@
    "src": "data/jours/2026-11-05.csv#L39"
   },
   "g.10769384180.nom": {
-   "v": "[🧪] Fake an Egg",
-   "d": "[🧪] Fake an Egg",
-   "l": "[🧪] Fake an Egg : nom",
+   "v": "[🤝TRADING] Fake an Egg",
+   "d": "[🤝TRADING] Fake an Egg",
+   "l": "[🤝TRADING] Fake an Egg : nom",
    "src": "data/jours/2026-11-05.csv#L40"
   },
   "g.10769384180.rang": {
    "v": 39,
    "d": "39e",
-   "l": "[🧪] Fake an Egg : rang au pic du jour",
+   "l": "[🤝TRADING] Fake an Egg : rang au pic du jour",
    "src": "data/jours/2026-11-05.csv#L40"
   },
   "g.10769384180.pic": {
    "v": 34085,
    "d": "34 085",
-   "l": "[🧪] Fake an Egg : pic de joueurs simultanés relevé",
+   "l": "[🤝TRADING] Fake an Egg : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-05.csv#L40"
   },
   "g.10769384180.heure_pic": {
    "v": "00:59",
    "d": "0 h 59",
-   "l": "[🧪] Fake an Egg : heure (Paris) du pic relevé",
+   "l": "[🤝TRADING] Fake an Egg : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-05.csv#L40"
   },
   "g.10769384180.moy": {
    "v": 19680,
    "d": "19 680",
-   "l": "[🧪] Fake an Egg : moyenne des joueurs simultanés sur la journée",
+   "l": "[🤝TRADING] Fake an Egg : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-05.csv#L40"
   },
   "g.10769384180.createur": {
    "v": "Slime Time Studios",
    "d": "Slime Time Studios",
-   "l": "[🧪] Fake an Egg : créateur",
+   "l": "[🤝TRADING] Fake an Egg : créateur",
    "src": "data/jours/2026-11-05.csv#L40"
   },
   "g.10769384180.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🧪] Fake an Egg : genre",
+   "l": "[🤝TRADING] Fake an Egg : genre",
    "src": "data/jours/2026-11-05.csv#L40"
   },
   "g.10769384180.var_7j": {
    "v": -0.3816,
    "d": "−38,2 %",
-   "l": "[🧪] Fake an Egg : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🤝TRADING] Fake an Egg : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-05.csv#L40"
   },
   "g.10769384180.moy_7j": {
    "v": 31823,
    "d": "31 823",
-   "l": "[🧪] Fake an Egg : moyenne des 7 jours précédents",
+   "l": "[🤝TRADING] Fake an Egg : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-05.csv#L40"
   },
   "g.10769384180.visites_24h": {
    "v": 2809509,
    "d": "2,81 millions",
-   "l": "[🧪] Fake an Egg : visites gagnées en 24 h",
+   "l": "[🤝TRADING] Fake an Egg : visites gagnées en 24 h",
    "src": "data/jours/2026-11-05.csv#L40"
   },
   "g.10769384180.visites_total": {
    "v": 62927151,
    "d": "62,93 millions",
-   "l": "[🧪] Fake an Egg : visites cumulées depuis la création",
+   "l": "[🤝TRADING] Fake an Egg : visites cumulées depuis la création",
    "src": "data/jours/2026-11-05.csv#L40"
   },
   "g.10769384180.note": {
    "v": 0.8838,
    "d": "88,4 %",
-   "l": "[🧪] Fake an Egg : part de votes positifs",
+   "l": "[🤝TRADING] Fake an Egg : part de votes positifs",
    "src": "data/jours/2026-11-05.csv#L40"
   },
   "g.3240075297.nom": {
