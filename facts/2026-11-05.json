@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-05",
- "genere": "2026-11-06T17:36:11Z",
+ "genere": "2026-11-06T18:06:42Z",
  "couverture": {
   "releves": 17,
   "attendus": 24
@@ -4743,75 +4743,75 @@
    "src": "data/jours/2026-11-05.csv#L58"
   },
   "g.1202096104.nom": {
-   "v": "Driving Empire [🎃HALLOWEEN EVENT🎃]",
-   "d": "Driving Empire [🎃HALLOWEEN EVENT🎃]",
-   "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : nom",
+   "v": "Driving Empire [🏁NASCAR Championship Weekend🏁]",
+   "d": "Driving Empire [🏁NASCAR Championship Weekend🏁]",
+   "l": "Driving Empire [🏁NASCAR Championship Weekend🏁] : nom",
    "src": "data/jours/2026-11-05.csv#L59"
   },
   "g.1202096104.rang": {
    "v": 58,
    "d": "58e",
-   "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : rang au pic du jour",
+   "l": "Driving Empire [🏁NASCAR Championship Weekend🏁] : rang au pic du jour",
    "src": "data/jours/2026-11-05.csv#L59"
   },
   "g.1202096104.pic": {
    "v": 23875,
    "d": "23 875",
-   "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : pic de joueurs simultanés relevé",
+   "l": "Driving Empire [🏁NASCAR Championship Weekend🏁] : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-05.csv#L59"
   },
   "g.1202096104.heure_pic": {
    "v": "14:38",
    "d": "14 h 38",
-   "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : heure (Paris) du pic relevé",
+   "l": "Driving Empire [🏁NASCAR Championship Weekend🏁] : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-05.csv#L59"
   },
   "g.1202096104.moy": {
    "v": 19537,
    "d": "19 537",
-   "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : moyenne des joueurs simultanés sur la journée",
+   "l": "Driving Empire [🏁NASCAR Championship Weekend🏁] : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-05.csv#L59"
   },
   "g.1202096104.createur": {
    "v": "Driving Empire by Voldex",
    "d": "Driving Empire by Voldex",
-   "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : créateur",
+   "l": "Driving Empire [🏁NASCAR Championship Weekend🏁] : créateur",
    "src": "data/jours/2026-11-05.csv#L59"
   },
   "g.1202096104.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : genre",
+   "l": "Driving Empire [🏁NASCAR Championship Weekend🏁] : genre",
    "src": "data/jours/2026-11-05.csv#L59"
   },
   "g.1202096104.var_7j": {
    "v": -0.3908,
    "d": "−39,1 %",
-   "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Driving Empire [🏁NASCAR Championship Weekend🏁] : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-05.csv#L59"
   },
   "g.1202096104.moy_7j": {
    "v": 32069,
    "d": "32 069",
-   "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : moyenne des 7 jours précédents",
+   "l": "Driving Empire [🏁NASCAR Championship Weekend🏁] : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-05.csv#L59"
   },
   "g.1202096104.visites_24h": {
    "v": 1875199,
    "d": "1,88 million",
-   "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : visites gagnées en 24 h",
+   "l": "Driving Empire [🏁NASCAR Championship Weekend🏁] : visites gagnées en 24 h",
    "src": "data/jours/2026-11-05.csv#L59"
   },
   "g.1202096104.visites_total": {
    "v": 3416471976,
    "d": "3,42 milliards",
-   "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : visites cumulées depuis la création",
+   "l": "Driving Empire [🏁NASCAR Championship Weekend🏁] : visites cumulées depuis la création",
    "src": "data/jours/2026-11-05.csv#L59"
   },
   "g.1202096104.note": {
    "v": 0.9299,
    "d": "93,0 %",
-   "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : part de votes positifs",
+   "l": "Driving Empire [🏁NASCAR Championship Weekend🏁] : part de votes positifs",
    "src": "data/jours/2026-11-05.csv#L59"
   },
   "g.10765490774.nom": {
