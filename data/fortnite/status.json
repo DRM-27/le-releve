@@ -1,13 +1,22 @@
 {
- "dailyAt": "2026-11-05T00:00Z",
- "lastRunAt": "2026-11-05T23:05Z",
+ "dailyAt": "2026-11-06T00:00Z",
+ "lastRunAt": "2026-11-06T00:00Z",
  "dernier": {
   "ecosysteme_nouvelles_heures": 1,
   "genres": 13,
-  "classements_ecrits": 1,
-  "nouvelles_iles": 0
+  "classements_ecrits": 2,
+  "nouvelles_iles": 0,
+  "jours_ecrits": 1
  },
- "erreurs": [],
- "nbErreurs": 0,
+ "erreurs": [
+  "429 /islands/0402-8300-3128/metrics/hour/peak-ccu",
+  "429 /islands/2092-9150-8848/metrics/hour/peak-ccu",
+  "429 /islands/2118-2046-4129/metrics/hour/peak-ccu",
+  "429 /islands/6242-3212-5148/metrics/day",
+  "429 /islands/6594-5354-3157/metrics/day",
+  "429 /islands/7399-8763-4003/metrics/hour/peak-ccu",
+  "429 /islands/8029-8158-6091/metrics/hour/peak-ccu"
+ ],
+ "nbErreurs": 7,
  "ilesSuivies": 3316
 }
