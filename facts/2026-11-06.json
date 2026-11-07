@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-06",
- "genere": "2026-11-07T11:22:09Z",
+ "genere": "2026-11-07T11:58:33Z",
  "couverture": {
   "releves": 19,
   "attendus": 24
@@ -2061,75 +2061,75 @@
    "src": "data/jours/2026-11-06.csv#L19"
   },
   "g.6739698191.nom": {
-   "v": "[WEEK 2 🎃 x BUTCHER] Violence District",
-   "d": "[WEEK 2 🎃 x BUTCHER] Violence District",
-   "l": "[WEEK 2 🎃 x BUTCHER] Violence District : nom",
+   "v": "[WEEK 3 🎃 x BUTCHER] Violence District",
+   "d": "[WEEK 3 🎃 x BUTCHER] Violence District",
+   "l": "[WEEK 3 🎃 x BUTCHER] Violence District : nom",
    "src": "data/jours/2026-11-06.csv#L20"
   },
   "g.6739698191.rang": {
    "v": 19,
    "d": "19e",
-   "l": "[WEEK 2 🎃 x BUTCHER] Violence District : rang au pic du jour",
+   "l": "[WEEK 3 🎃 x BUTCHER] Violence District : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L20"
   },
   "g.6739698191.pic": {
    "v": 71300,
    "d": "71 300",
-   "l": "[WEEK 2 🎃 x BUTCHER] Violence District : pic de joueurs simultanés relevé",
+   "l": "[WEEK 3 🎃 x BUTCHER] Violence District : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L20"
   },
   "g.6739698191.heure_pic": {
    "v": "15:40",
    "d": "15 h 40",
-   "l": "[WEEK 2 🎃 x BUTCHER] Violence District : heure (Paris) du pic relevé",
+   "l": "[WEEK 3 🎃 x BUTCHER] Violence District : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L20"
   },
   "g.6739698191.moy": {
    "v": 46377,
    "d": "46 377",
-   "l": "[WEEK 2 🎃 x BUTCHER] Violence District : moyenne des joueurs simultanés sur la journée",
+   "l": "[WEEK 3 🎃 x BUTCHER] Violence District : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L20"
   },
   "g.6739698191.createur": {
    "v": "VIOLENCE DISTRICT",
    "d": "VIOLENCE DISTRICT",
-   "l": "[WEEK 2 🎃 x BUTCHER] Violence District : créateur",
+   "l": "[WEEK 3 🎃 x BUTCHER] Violence District : créateur",
    "src": "data/jours/2026-11-06.csv#L20"
   },
   "g.6739698191.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "[WEEK 2 🎃 x BUTCHER] Violence District : genre",
+   "l": "[WEEK 3 🎃 x BUTCHER] Violence District : genre",
    "src": "data/jours/2026-11-06.csv#L20"
   },
   "g.6739698191.var_7j": {
    "v": -0.2086,
    "d": "−20,9 %",
-   "l": "[WEEK 2 🎃 x BUTCHER] Violence District : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[WEEK 3 🎃 x BUTCHER] Violence District : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L20"
   },
   "g.6739698191.moy_7j": {
    "v": 58600,
    "d": "58 600",
-   "l": "[WEEK 2 🎃 x BUTCHER] Violence District : moyenne des 7 jours précédents",
+   "l": "[WEEK 3 🎃 x BUTCHER] Violence District : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L20"
   },
   "g.6739698191.visites_24h": {
    "v": 4205555,
    "d": "4,21 millions",
-   "l": "[WEEK 2 🎃 x BUTCHER] Violence District : visites gagnées en 24 h",
+   "l": "[WEEK 3 🎃 x BUTCHER] Violence District : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L20"
   },
   "g.6739698191.visites_total": {
    "v": 1691117683,
    "d": "1,69 milliard",
-   "l": "[WEEK 2 🎃 x BUTCHER] Violence District : visites cumulées depuis la création",
+   "l": "[WEEK 3 🎃 x BUTCHER] Violence District : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L20"
   },
   "g.6739698191.note": {
    "v": 0.9295,
    "d": "93,0 %",
-   "l": "[WEEK 2 🎃 x BUTCHER] Violence District : part de votes positifs",
+   "l": "[WEEK 3 🎃 x BUTCHER] Violence District : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L20"
   },
   "g.2711375305.nom": {
@@ -6045,75 +6045,75 @@
    "src": "data/jours/2026-11-06.csv#L77"
   },
   "g.10057403337.nom": {
-   "v": "[6H] Deagle Arena",
-   "d": "[6H] Deagle Arena",
-   "l": "[6H] Deagle Arena : nom",
+   "v": "[3H] Deagle Arena",
+   "d": "[3H] Deagle Arena",
+   "l": "[3H] Deagle Arena : nom",
    "src": "data/jours/2026-11-06.csv#L78"
   },
   "g.10057403337.rang": {
    "v": 77,
    "d": "77e",
-   "l": "[6H] Deagle Arena : rang au pic du jour",
+   "l": "[3H] Deagle Arena : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L78"
   },
   "g.10057403337.pic": {
    "v": 23115,
    "d": "23 115",
-   "l": "[6H] Deagle Arena : pic de joueurs simultanés relevé",
+   "l": "[3H] Deagle Arena : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L78"
   },
   "g.10057403337.heure_pic": {
    "v": "14:31",
    "d": "14 h 31",
-   "l": "[6H] Deagle Arena : heure (Paris) du pic relevé",
+   "l": "[3H] Deagle Arena : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L78"
   },
   "g.10057403337.moy": {
    "v": 17851,
    "d": "17 851",
-   "l": "[6H] Deagle Arena : moyenne des joueurs simultanés sur la journée",
+   "l": "[3H] Deagle Arena : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L78"
   },
   "g.10057403337.createur": {
    "v": "Deagle Arena",
    "d": "Deagle Arena",
-   "l": "[6H] Deagle Arena : créateur",
+   "l": "[3H] Deagle Arena : créateur",
    "src": "data/jours/2026-11-06.csv#L78"
   },
   "g.10057403337.genre": {
    "v": "Shooter",
    "d": "Tir",
-   "l": "[6H] Deagle Arena : genre",
+   "l": "[3H] Deagle Arena : genre",
    "src": "data/jours/2026-11-06.csv#L78"
   },
   "g.10057403337.var_7j": {
    "v": 0.0123,
    "d": "+1,2 %",
-   "l": "[6H] Deagle Arena : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[3H] Deagle Arena : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L78"
   },
   "g.10057403337.moy_7j": {
    "v": 17634,
    "d": "17 634",
-   "l": "[6H] Deagle Arena : moyenne des 7 jours précédents",
+   "l": "[3H] Deagle Arena : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L78"
   },
   "g.10057403337.visites_24h": {
    "v": 3162595,
    "d": "3,16 millions",
-   "l": "[6H] Deagle Arena : visites gagnées en 24 h",
+   "l": "[3H] Deagle Arena : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L78"
   },
   "g.10057403337.visites_total": {
    "v": 293654085,
    "d": "293,65 millions",
-   "l": "[6H] Deagle Arena : visites cumulées depuis la création",
+   "l": "[3H] Deagle Arena : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L78"
   },
   "g.10057403337.note": {
    "v": 0.8743,
    "d": "87,4 %",
-   "l": "[6H] Deagle Arena : part de votes positifs",
+   "l": "[3H] Deagle Arena : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L78"
   },
   "g.4949420752.nom": {
