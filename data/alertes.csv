@@ -681,3 +681,5 @@ ts_utc,type,universe_id,nom,avant,maintenant,variation,rang,rang_avant,releve
 2026-11-07T00:24:16Z,forte_hausse,5283219861,Lethal Ape (Big Update),9409,14335,0.5235,101,143,data/snapshots/2026/11/07/00.csv
 2026-11-07T00:24:16Z,forte_hausse,10768026334,[🎨] Hide In Pixels,1826,2774,0.5192,345,397,data/snapshots/2026/11/07/00.csv
 2026-11-07T00:24:16Z,forte_hausse,2027832238,한국 머더,368,2176,4.913,379,529,data/snapshots/2026/11/07/00.csv
+2026-11-07T01:26:27Z,forte_hausse,10773425091,[🧪] Ragdoll Research,20526,31650,0.5419,41,69,data/snapshots/2026/11/07/01.csv
+2026-11-07T01:26:27Z,forte_hausse,10769969117,Low Range: Offroad 4x4 [EARLY ACCESS],4862,8058,0.6573,171,265,data/snapshots/2026/11/07/01.csv

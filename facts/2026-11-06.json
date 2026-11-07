@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-06",
- "genere": "2026-11-07T00:28:06Z",
+ "genere": "2026-11-07T01:27:17Z",
  "couverture": {
   "releves": 19,
   "attendus": 24
@@ -3603,75 +3603,75 @@
    "src": "data/jours/2026-11-06.csv#L41"
   },
   "g.9584852943.nom": {
-   "v": "[X30] +1 Speed Keyboard Escape | Candy & Chocolate",
-   "d": "[X30] +1 Speed Keyboard Escape | Candy & Chocolate",
-   "l": "[X30] +1 Speed Keyboard Escape | Candy & Chocolate : nom",
+   "v": "+1 Speed Keyboard Escape | Candy & Chocolate",
+   "d": "+1 Speed Keyboard Escape | Candy & Chocolate",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : nom",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.rang": {
    "v": 41,
    "d": "41e",
-   "l": "[X30] +1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.pic": {
    "v": 36199,
    "d": "36 199",
-   "l": "[X30] +1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.heure_pic": {
    "v": "13:09",
    "d": "13 h 09",
-   "l": "[X30] +1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.moy": {
    "v": 22989,
    "d": "22 989",
-   "l": "[X30] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.createur": {
    "v": "SecretVerse Studio",
    "d": "SecretVerse Studio",
-   "l": "[X30] +1 Speed Keyboard Escape | Candy & Chocolate : créateur",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : créateur",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[X30] +1 Speed Keyboard Escape | Candy & Chocolate : genre",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : genre",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.var_7j": {
    "v": -0.4729,
    "d": "−47,3 %",
-   "l": "[X30] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.moy_7j": {
    "v": 43616,
    "d": "43 616",
-   "l": "[X30] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des 7 jours précédents",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.visites_24h": {
    "v": 4309468,
    "d": "4,31 millions",
-   "l": "[X30] +1 Speed Keyboard Escape | Candy & Chocolate : visites gagnées en 24 h",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.visites_total": {
    "v": 6661274599,
    "d": "6,66 milliards",
-   "l": "[X30] +1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.note": {
    "v": 0.9671,
    "d": "96,7 %",
-   "l": "[X30] +1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.10769957062.nom": {
@@ -5229,75 +5229,75 @@
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.5995470825.nom": {
-   "v": "[🔥UPD] Hypershot",
-   "d": "[🔥UPD] Hypershot",
-   "l": "[🔥UPD] Hypershot : nom",
+   "v": "[🔥NEW MYTHIC] Hypershot",
+   "d": "[🔥NEW MYTHIC] Hypershot",
+   "l": "[🔥NEW MYTHIC] Hypershot : nom",
    "src": "data/jours/2026-11-06.csv#L66"
   },
   "g.5995470825.rang": {
    "v": 65,
    "d": "65e",
-   "l": "[🔥UPD] Hypershot : rang au pic du jour",
+   "l": "[🔥NEW MYTHIC] Hypershot : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L66"
   },
   "g.5995470825.pic": {
    "v": 24822,
    "d": "24 822",
-   "l": "[🔥UPD] Hypershot : pic de joueurs simultanés relevé",
+   "l": "[🔥NEW MYTHIC] Hypershot : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L66"
   },
   "g.5995470825.heure_pic": {
    "v": "16:30",
    "d": "16 h 30",
-   "l": "[🔥UPD] Hypershot : heure (Paris) du pic relevé",
+   "l": "[🔥NEW MYTHIC] Hypershot : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L66"
   },
   "g.5995470825.moy": {
    "v": 20560,
    "d": "20 560",
-   "l": "[🔥UPD] Hypershot : moyenne des joueurs simultanés sur la journée",
+   "l": "[🔥NEW MYTHIC] Hypershot : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L66"
   },
   "g.5995470825.createur": {
    "v": "Frosted Studio",
    "d": "Frosted Studio",
-   "l": "[🔥UPD] Hypershot : créateur",
+   "l": "[🔥NEW MYTHIC] Hypershot : créateur",
    "src": "data/jours/2026-11-06.csv#L66"
   },
   "g.5995470825.genre": {
    "v": "Shooter",
    "d": "Tir",
-   "l": "[🔥UPD] Hypershot : genre",
+   "l": "[🔥NEW MYTHIC] Hypershot : genre",
    "src": "data/jours/2026-11-06.csv#L66"
   },
   "g.5995470825.var_7j": {
    "v": -0.1407,
    "d": "−14,1 %",
-   "l": "[🔥UPD] Hypershot : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🔥NEW MYTHIC] Hypershot : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L66"
   },
   "g.5995470825.moy_7j": {
    "v": 23926,
    "d": "23 926",
-   "l": "[🔥UPD] Hypershot : moyenne des 7 jours précédents",
+   "l": "[🔥NEW MYTHIC] Hypershot : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L66"
   },
   "g.5995470825.visites_24h": {
    "v": 2205987,
    "d": "2,21 millions",
-   "l": "[🔥UPD] Hypershot : visites gagnées en 24 h",
+   "l": "[🔥NEW MYTHIC] Hypershot : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L66"
   },
   "g.5995470825.visites_total": {
    "v": 1413545040,
    "d": "1,41 milliard",
-   "l": "[🔥UPD] Hypershot : visites cumulées depuis la création",
+   "l": "[🔥NEW MYTHIC] Hypershot : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L66"
   },
   "g.5995470825.note": {
    "v": 0.944,
    "d": "94,4 %",
-   "l": "[🔥UPD] Hypershot : part de votes positifs",
+   "l": "[🔥NEW MYTHIC] Hypershot : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L66"
   },
   "g.8719555347.nom": {
@@ -5781,75 +5781,75 @@
    "src": "data/jours/2026-11-06.csv#L73"
   },
   "g.10768383600.nom": {
-   "v": "[💉INJECTIONS] Ragdoll Playground",
-   "d": "[💉INJECTIONS] Ragdoll Playground",
-   "l": "[💉INJECTIONS] Ragdoll Playground : nom",
+   "v": "[👥UPD] Ragdoll Playground",
+   "d": "[👥UPD] Ragdoll Playground",
+   "l": "[👥UPD] Ragdoll Playground : nom",
    "src": "data/jours/2026-11-06.csv#L74"
   },
   "g.10768383600.rang": {
    "v": 73,
    "d": "73e",
-   "l": "[💉INJECTIONS] Ragdoll Playground : rang au pic du jour",
+   "l": "[👥UPD] Ragdoll Playground : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L74"
   },
   "g.10768383600.pic": {
    "v": 23666,
    "d": "23 666",
-   "l": "[💉INJECTIONS] Ragdoll Playground : pic de joueurs simultanés relevé",
+   "l": "[👥UPD] Ragdoll Playground : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L74"
   },
   "g.10768383600.heure_pic": {
    "v": "23:26",
    "d": "23 h 26",
-   "l": "[💉INJECTIONS] Ragdoll Playground : heure (Paris) du pic relevé",
+   "l": "[👥UPD] Ragdoll Playground : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L74"
   },
   "g.10768383600.moy": {
    "v": 17383,
    "d": "17 383",
-   "l": "[💉INJECTIONS] Ragdoll Playground : moyenne des joueurs simultanés sur la journée",
+   "l": "[👥UPD] Ragdoll Playground : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L74"
   },
   "g.10768383600.createur": {
    "v": "Speedwagon Gaming Foundation",
    "d": "Speedwagon Gaming Foundation",
-   "l": "[💉INJECTIONS] Ragdoll Playground : créateur",
+   "l": "[👥UPD] Ragdoll Playground : créateur",
    "src": "data/jours/2026-11-06.csv#L74"
   },
   "g.10768383600.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[💉INJECTIONS] Ragdoll Playground : genre",
+   "l": "[👥UPD] Ragdoll Playground : genre",
    "src": "data/jours/2026-11-06.csv#L74"
   },
   "g.10768383600.var_7j": {
    "v": -0.1429,
    "d": "−14,3 %",
-   "l": "[💉INJECTIONS] Ragdoll Playground : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[👥UPD] Ragdoll Playground : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L74"
   },
   "g.10768383600.moy_7j": {
    "v": 20282,
    "d": "20 282",
-   "l": "[💉INJECTIONS] Ragdoll Playground : moyenne des 7 jours précédents",
+   "l": "[👥UPD] Ragdoll Playground : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L74"
   },
   "g.10768383600.visites_24h": {
    "v": 1817959,
    "d": "1,82 million",
-   "l": "[💉INJECTIONS] Ragdoll Playground : visites gagnées en 24 h",
+   "l": "[👥UPD] Ragdoll Playground : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L74"
   },
   "g.10768383600.visites_total": {
    "v": 15772419,
    "d": "15,77 millions",
-   "l": "[💉INJECTIONS] Ragdoll Playground : visites cumulées depuis la création",
+   "l": "[👥UPD] Ragdoll Playground : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L74"
   },
   "g.10768383600.note": {
    "v": 0.9496,
    "d": "95,0 %",
-   "l": "[💉INJECTIONS] Ragdoll Playground : part de votes positifs",
+   "l": "[👥UPD] Ragdoll Playground : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L74"
   },
   "g.10771440209.nom": {
