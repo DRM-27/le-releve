@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-06",
- "genere": "2026-11-07T18:21:08Z",
+ "genere": "2026-11-07T19:11:45Z",
  "couverture": {
   "releves": 19,
   "attendus": 24
@@ -2349,75 +2349,75 @@
    "src": "data/jours/2026-11-06.csv#L23"
   },
   "g.6701277882.nom": {
-   "v": "[12 HRS] Fish It! 🐟",
-   "d": "[12 HRS] Fish It! 🐟",
-   "l": "[12 HRS] Fish It! 🐟 : nom",
+   "v": "[6 HRS] Fish It! 🐟",
+   "d": "[6 HRS] Fish It! 🐟",
+   "l": "[6 HRS] Fish It! 🐟 : nom",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.rang": {
    "v": 23,
    "d": "23e",
-   "l": "[12 HRS] Fish It! 🐟 : rang au pic du jour",
+   "l": "[6 HRS] Fish It! 🐟 : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.pic": {
    "v": 65808,
    "d": "65 808",
-   "l": "[12 HRS] Fish It! 🐟 : pic de joueurs simultanés relevé",
+   "l": "[6 HRS] Fish It! 🐟 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.heure_pic": {
    "v": "18:35",
    "d": "18 h 35",
-   "l": "[12 HRS] Fish It! 🐟 : heure (Paris) du pic relevé",
+   "l": "[6 HRS] Fish It! 🐟 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.moy": {
    "v": 63164,
    "d": "63 164",
-   "l": "[12 HRS] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
+   "l": "[6 HRS] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.createur": {
    "v": "Fish Atelier",
    "d": "Fish Atelier",
-   "l": "[12 HRS] Fish It! 🐟 : créateur",
+   "l": "[6 HRS] Fish It! 🐟 : créateur",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[12 HRS] Fish It! 🐟 : genre",
+   "l": "[6 HRS] Fish It! 🐟 : genre",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.var_7j": {
    "v": -0.0278,
    "d": "−2,8 %",
-   "l": "[12 HRS] Fish It! 🐟 : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[6 HRS] Fish It! 🐟 : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.moy_7j": {
    "v": 64968,
    "d": "64 968",
-   "l": "[12 HRS] Fish It! 🐟 : moyenne des 7 jours précédents",
+   "l": "[6 HRS] Fish It! 🐟 : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.visites_24h": {
    "v": 1288263,
    "d": "1,29 million",
-   "l": "[12 HRS] Fish It! 🐟 : visites gagnées en 24 h",
+   "l": "[6 HRS] Fish It! 🐟 : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.visites_total": {
    "v": 4817510979,
    "d": "4,82 milliards",
-   "l": "[12 HRS] Fish It! 🐟 : visites cumulées depuis la création",
+   "l": "[6 HRS] Fish It! 🐟 : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.note": {
    "v": 0.8283,
    "d": "82,8 %",
-   "l": "[12 HRS] Fish It! 🐟 : part de votes positifs",
+   "l": "[6 HRS] Fish It! 🐟 : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.4658598196.nom": {
@@ -2763,75 +2763,75 @@
    "src": "data/jours/2026-11-06.csv#L29"
   },
   "g.10762636904.nom": {
-   "v": "[🌟X2] Cameraman Tower Defense",
-   "d": "[🌟X2] Cameraman Tower Defense",
-   "l": "[🌟X2] Cameraman Tower Defense : nom",
+   "v": "[💰X2] Cameraman Tower Defense",
+   "d": "[💰X2] Cameraman Tower Defense",
+   "l": "[💰X2] Cameraman Tower Defense : nom",
    "src": "data/jours/2026-11-06.csv#L30"
   },
   "g.10762636904.rang": {
    "v": 29,
    "d": "29e",
-   "l": "[🌟X2] Cameraman Tower Defense : rang au pic du jour",
+   "l": "[💰X2] Cameraman Tower Defense : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L30"
   },
   "g.10762636904.pic": {
    "v": 46082,
    "d": "46 082",
-   "l": "[🌟X2] Cameraman Tower Defense : pic de joueurs simultanés relevé",
+   "l": "[💰X2] Cameraman Tower Defense : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L30"
   },
   "g.10762636904.heure_pic": {
    "v": "14:31",
    "d": "14 h 31",
-   "l": "[🌟X2] Cameraman Tower Defense : heure (Paris) du pic relevé",
+   "l": "[💰X2] Cameraman Tower Defense : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L30"
   },
   "g.10762636904.moy": {
    "v": 29418,
    "d": "29 418",
-   "l": "[🌟X2] Cameraman Tower Defense : moyenne des joueurs simultanés sur la journée",
+   "l": "[💰X2] Cameraman Tower Defense : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L30"
   },
   "g.10762636904.createur": {
    "v": "Aligators Games",
    "d": "Aligators Games",
-   "l": "[🌟X2] Cameraman Tower Defense : créateur",
+   "l": "[💰X2] Cameraman Tower Defense : créateur",
    "src": "data/jours/2026-11-06.csv#L30"
   },
   "g.10762636904.genre": {
    "v": "Strategy",
    "d": "Stratégie",
-   "l": "[🌟X2] Cameraman Tower Defense : genre",
+   "l": "[💰X2] Cameraman Tower Defense : genre",
    "src": "data/jours/2026-11-06.csv#L30"
   },
   "g.10762636904.var_7j": {
    "v": 0.1638,
    "d": "+16,4 %",
-   "l": "[🌟X2] Cameraman Tower Defense : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[💰X2] Cameraman Tower Defense : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L30"
   },
   "g.10762636904.moy_7j": {
    "v": 25278,
    "d": "25 278",
-   "l": "[🌟X2] Cameraman Tower Defense : moyenne des 7 jours précédents",
+   "l": "[💰X2] Cameraman Tower Defense : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L30"
   },
   "g.10762636904.visites_24h": {
    "v": 4094724,
    "d": "4,09 millions",
-   "l": "[🌟X2] Cameraman Tower Defense : visites gagnées en 24 h",
+   "l": "[💰X2] Cameraman Tower Defense : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L30"
   },
   "g.10762636904.visites_total": {
    "v": 91838218,
    "d": "91,84 millions",
-   "l": "[🌟X2] Cameraman Tower Defense : visites cumulées depuis la création",
+   "l": "[💰X2] Cameraman Tower Defense : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L30"
   },
   "g.10762636904.note": {
    "v": 0.9841,
    "d": "98,4 %",
-   "l": "[🌟X2] Cameraman Tower Defense : part de votes positifs",
+   "l": "[💰X2] Cameraman Tower Defense : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L30"
   },
   "g.2640407187.nom": {
@@ -3603,75 +3603,75 @@
    "src": "data/jours/2026-11-06.csv#L41"
   },
   "g.9584852943.nom": {
-   "v": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate",
-   "d": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate",
-   "l": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate : nom",
+   "v": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "d": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : nom",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.rang": {
    "v": 41,
    "d": "41e",
-   "l": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.pic": {
    "v": 36199,
    "d": "36 199",
-   "l": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.heure_pic": {
    "v": "13:09",
    "d": "13 h 09",
-   "l": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.moy": {
    "v": 22989,
    "d": "22 989",
-   "l": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.createur": {
    "v": "SecretVerse Studio",
    "d": "SecretVerse Studio",
-   "l": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate : créateur",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : créateur",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate : genre",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : genre",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.var_7j": {
    "v": -0.4729,
    "d": "−47,3 %",
-   "l": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.moy_7j": {
    "v": 43616,
    "d": "43 616",
-   "l": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des 7 jours précédents",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.visites_24h": {
    "v": 4309468,
    "d": "4,31 millions",
-   "l": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate : visites gagnées en 24 h",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.visites_total": {
    "v": 6661274599,
    "d": "6,66 milliards",
-   "l": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.note": {
    "v": 0.9671,
    "d": "96,7 %",
-   "l": "[NOW] +1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.10769957062.nom": {
@@ -4287,75 +4287,75 @@
    "src": "data/jours/2026-11-06.csv#L51"
   },
   "g.10769384180.nom": {
-   "v": "[🤝TRADING] Fake an Egg",
-   "d": "[🤝TRADING] Fake an Egg",
-   "l": "[🤝TRADING] Fake an Egg : nom",
+   "v": "[🧪] Fake an Egg",
+   "d": "[🧪] Fake an Egg",
+   "l": "[🧪] Fake an Egg : nom",
    "src": "data/jours/2026-11-06.csv#L52"
   },
   "g.10769384180.rang": {
    "v": 51,
    "d": "51e",
-   "l": "[🤝TRADING] Fake an Egg : rang au pic du jour",
+   "l": "[🧪] Fake an Egg : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L52"
   },
   "g.10769384180.pic": {
    "v": 32144,
    "d": "32 144",
-   "l": "[🤝TRADING] Fake an Egg : pic de joueurs simultanés relevé",
+   "l": "[🧪] Fake an Egg : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L52"
   },
   "g.10769384180.heure_pic": {
    "v": "14:31",
    "d": "14 h 31",
-   "l": "[🤝TRADING] Fake an Egg : heure (Paris) du pic relevé",
+   "l": "[🧪] Fake an Egg : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L52"
   },
   "g.10769384180.moy": {
    "v": 21707,
    "d": "21 707",
-   "l": "[🤝TRADING] Fake an Egg : moyenne des joueurs simultanés sur la journée",
+   "l": "[🧪] Fake an Egg : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L52"
   },
   "g.10769384180.createur": {
    "v": "Slime Time Studios",
    "d": "Slime Time Studios",
-   "l": "[🤝TRADING] Fake an Egg : créateur",
+   "l": "[🧪] Fake an Egg : créateur",
    "src": "data/jours/2026-11-06.csv#L52"
   },
   "g.10769384180.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🤝TRADING] Fake an Egg : genre",
+   "l": "[🧪] Fake an Egg : genre",
    "src": "data/jours/2026-11-06.csv#L52"
   },
   "g.10769384180.var_7j": {
    "v": -0.3459,
    "d": "−34,6 %",
-   "l": "[🤝TRADING] Fake an Egg : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🧪] Fake an Egg : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L52"
   },
   "g.10769384180.moy_7j": {
    "v": 33184,
    "d": "33 184",
-   "l": "[🤝TRADING] Fake an Egg : moyenne des 7 jours précédents",
+   "l": "[🧪] Fake an Egg : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L52"
   },
   "g.10769384180.visites_24h": {
    "v": 2616228,
    "d": "2,62 millions",
-   "l": "[🤝TRADING] Fake an Egg : visites gagnées en 24 h",
+   "l": "[🧪] Fake an Egg : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L52"
   },
   "g.10769384180.visites_total": {
    "v": 65543379,
    "d": "65,54 millions",
-   "l": "[🤝TRADING] Fake an Egg : visites cumulées depuis la création",
+   "l": "[🧪] Fake an Egg : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L52"
   },
   "g.10769384180.note": {
    "v": 0.883,
    "d": "88,3 %",
-   "l": "[🤝TRADING] Fake an Egg : part de votes positifs",
+   "l": "[🧪] Fake an Egg : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L52"
   },
   "g.10771997908.nom": {
