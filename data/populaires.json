@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-07T13:18:42Z",
+ "genere": "2026-11-07T13:39:17Z",
  "periode_jours": 7,
  "pages": [
   {
@@ -15,10 +15,6 @@
    "vues": 10
   },
   {
-   "path": "/le-releve/source/",
-   "vues": 3
-  },
-  {
    "path": "/le-releve/articles/2026-11-01-steal-an-egg-quotidien/",
    "vues": 3
   },
@@ -27,8 +23,8 @@
    "vues": 3
   },
   {
-   "path": "/le-releve/pt-br/",
-   "vues": 2
+   "path": "/le-releve/source/",
+   "vues": 3
   },
   {
    "path": "/le-releve/en/",
@@ -43,11 +39,15 @@
    "vues": 2
   },
   {
-   "path": "/le-releve/monetisation/",
+   "path": "/le-releve/pt-br/",
    "vues": 2
   },
   {
    "path": "/le-releve/methode/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/monetisation/",
    "vues": 2
   },
   {
@@ -59,11 +59,11 @@
    "vues": 1
   },
   {
-   "path": "/le-releve/brouillons/2026-11-02-steal-an-egg-quotidien/",
+   "path": "/le-releve/confidentialite/",
    "vues": 1
   },
   {
-   "path": "/le-releve/brouillons/2026-10-28-steal-an-egg-quotidien/",
+   "path": "/le-releve/brouillons/2026-11-02-steal-an-egg-quotidien/",
    "vues": 1
   },
   {
@@ -71,15 +71,15 @@
    "vues": 1
   },
   {
-   "path": "/le-releve/pt-br/classement/",
-   "vues": 1
-  },
-  {
    "path": "/le-releve/brouillons/2026-11-01-steal-an-egg-quotidien/",
    "vues": 1
   },
   {
-   "path": "/le-releve/confidentialite/",
+   "path": "/le-releve/pt-br/classement/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/es/",
    "vues": 1
   }
  ]
