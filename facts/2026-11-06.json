@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-06",
- "genere": "2026-11-07T20:21:10Z",
+ "genere": "2026-11-07T20:59:17Z",
  "couverture": {
   "releves": 19,
   "attendus": 24
@@ -2493,57 +2493,57 @@
    "src": "data/jours/2026-11-06.csv#L25"
   },
   "g.10769671316.nom": {
-   "v": "[🌟UPD] Survive Your Ideas",
-   "d": "[🌟UPD] Survive Your Ideas",
-   "l": "[🌟UPD] Survive Your Ideas : nom",
+   "v": "[💡UPD] Survive Your Ideas",
+   "d": "[💡UPD] Survive Your Ideas",
+   "l": "[💡UPD] Survive Your Ideas : nom",
    "src": "data/jours/2026-11-06.csv#L26"
   },
   "g.10769671316.rang": {
    "v": 25,
    "d": "25e",
-   "l": "[🌟UPD] Survive Your Ideas : rang au pic du jour",
+   "l": "[💡UPD] Survive Your Ideas : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L26"
   },
   "g.10769671316.pic": {
    "v": 51017,
    "d": "51 017",
-   "l": "[🌟UPD] Survive Your Ideas : pic de joueurs simultanés relevé",
+   "l": "[💡UPD] Survive Your Ideas : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L26"
   },
   "g.10769671316.heure_pic": {
    "v": "19:34",
    "d": "19 h 34",
-   "l": "[🌟UPD] Survive Your Ideas : heure (Paris) du pic relevé",
+   "l": "[💡UPD] Survive Your Ideas : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L26"
   },
   "g.10769671316.moy": {
    "v": 45291,
    "d": "45 291",
-   "l": "[🌟UPD] Survive Your Ideas : moyenne des joueurs simultanés sur la journée",
+   "l": "[💡UPD] Survive Your Ideas : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L26"
   },
   "g.10769671316.createur": {
    "v": "Survive Your Ideas",
    "d": "Survive Your Ideas",
-   "l": "[🌟UPD] Survive Your Ideas : créateur",
+   "l": "[💡UPD] Survive Your Ideas : créateur",
    "src": "data/jours/2026-11-06.csv#L26"
   },
   "g.10769671316.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "[🌟UPD] Survive Your Ideas : genre",
+   "l": "[💡UPD] Survive Your Ideas : genre",
    "src": "data/jours/2026-11-06.csv#L26"
   },
   "g.10769671316.visites_total": {
    "v": 8745762,
    "d": "8,75 millions",
-   "l": "[🌟UPD] Survive Your Ideas : visites cumulées depuis la création",
+   "l": "[💡UPD] Survive Your Ideas : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L26"
   },
   "g.10769671316.note": {
    "v": 0.7854,
    "d": "78,5 %",
-   "l": "[🌟UPD] Survive Your Ideas : part de votes positifs",
+   "l": "[💡UPD] Survive Your Ideas : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L26"
   },
   "g.3317771874.nom": {
