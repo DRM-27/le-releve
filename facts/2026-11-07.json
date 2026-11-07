@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-07",
- "genere": "2026-11-07T23:21:11Z",
+ "genere": "2026-11-07T23:55:15Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -9537,81 +9537,81 @@
    "src": "data/jours/2026-11-07.csv#L100"
   },
   "g.10772217708.nom": {
-   "v": "Tesla Roadster Chase",
-   "d": "Tesla Roadster Chase",
-   "l": "Tesla Roadster Chase : nom",
+   "v": "[UPD] Tesla Roadster Chase",
+   "d": "[UPD] Tesla Roadster Chase",
+   "l": "[UPD] Tesla Roadster Chase : nom",
    "src": "data/jours/2026-11-07.csv#L101"
   },
   "g.10772217708.rang": {
    "v": 100,
    "d": "100e",
-   "l": "Tesla Roadster Chase : rang au pic du jour",
+   "l": "[UPD] Tesla Roadster Chase : rang au pic du jour",
    "src": "data/jours/2026-11-07.csv#L101"
   },
   "g.10772217708.pic": {
    "v": 27768,
    "d": "27 768",
-   "l": "Tesla Roadster Chase : pic de joueurs simultanés relevé",
+   "l": "[UPD] Tesla Roadster Chase : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-07.csv#L101"
   },
   "g.10772217708.heure_pic": {
    "v": "18:53",
    "d": "18 h 53",
-   "l": "Tesla Roadster Chase : heure (Paris) du pic relevé",
+   "l": "[UPD] Tesla Roadster Chase : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-07.csv#L101"
   },
   "g.10772217708.moy": {
    "v": 19817,
    "d": "19 817",
-   "l": "Tesla Roadster Chase : moyenne des joueurs simultanés sur la journée",
+   "l": "[UPD] Tesla Roadster Chase : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-07.csv#L101"
   },
   "g.10772217708.createur": {
    "v": "North & Co. Games",
    "d": "North & Co. Games",
-   "l": "Tesla Roadster Chase : créateur",
+   "l": "[UPD] Tesla Roadster Chase : créateur",
    "src": "data/jours/2026-11-07.csv#L101"
   },
   "g.10772217708.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "Tesla Roadster Chase : genre",
+   "l": "[UPD] Tesla Roadster Chase : genre",
    "src": "data/jours/2026-11-07.csv#L101"
   },
   "g.10772217708.var_veille": {
    "v": 0.4849,
    "d": "+48,5 %",
-   "l": "Tesla Roadster Chase : variation de la moyenne par rapport à la veille",
+   "l": "[UPD] Tesla Roadster Chase : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-07.csv#L101"
   },
   "g.10772217708.moy_veille": {
    "v": 13346,
    "d": "13 346",
-   "l": "Tesla Roadster Chase : moyenne de la veille",
+   "l": "[UPD] Tesla Roadster Chase : moyenne de la veille",
    "src": "data/jours/2026-11-07.csv#L101"
   },
   "g.10772217708.visites_24h": {
    "v": 3294769,
    "d": "3,29 millions",
-   "l": "Tesla Roadster Chase : visites gagnées en 24 h",
+   "l": "[UPD] Tesla Roadster Chase : visites gagnées en 24 h",
    "src": "data/jours/2026-11-07.csv#L101"
   },
   "g.10772217708.visites_total": {
    "v": 17445737,
    "d": "17,45 millions",
-   "l": "Tesla Roadster Chase : visites cumulées depuis la création",
+   "l": "[UPD] Tesla Roadster Chase : visites cumulées depuis la création",
    "src": "data/jours/2026-11-07.csv#L101"
   },
   "g.10772217708.note": {
    "v": 0.8533,
    "d": "85,3 %",
-   "l": "Tesla Roadster Chase : part de votes positifs",
+   "l": "[UPD] Tesla Roadster Chase : part de votes positifs",
    "src": "data/jours/2026-11-07.csv#L101"
   },
   "g.10772217708.rang_veille": {
    "v": 79,
    "d": "79e",
-   "l": "Tesla Roadster Chase : rang la veille",
+   "l": "[UPD] Tesla Roadster Chase : rang la veille",
    "src": "data/jours/2026-11-07.csv#L101"
   },
   "mouv.reference": {
