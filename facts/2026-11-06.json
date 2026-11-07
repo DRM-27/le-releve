@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-06",
- "genere": "2026-11-07T16:59:06Z",
+ "genere": "2026-11-07T17:22:42Z",
  "couverture": {
   "releves": 19,
   "attendus": 24
@@ -507,8 +507,8 @@
    "src": "data/jours/2026-11-06.csv#L7"
   },
   "top.7.nom": {
-   "v": "[SOON!🎉] Adopt Me!",
-   "d": "[SOON!🎉] Adopt Me!",
+   "v": "[3X NOW!🎉] Adopt Me!",
+   "d": "[3X NOW!🎉] Adopt Me!",
    "l": "N° 7 du jour : nom",
    "src": "data/jours/2026-11-06.csv#L8"
   },
@@ -1227,75 +1227,75 @@
    "src": "data/jours/2026-11-06.csv#L7"
   },
   "g.383310974.nom": {
-   "v": "[SOON!🎉] Adopt Me!",
-   "d": "[SOON!🎉] Adopt Me!",
-   "l": "[SOON!🎉] Adopt Me! : nom",
+   "v": "[3X NOW!🎉] Adopt Me!",
+   "d": "[3X NOW!🎉] Adopt Me!",
+   "l": "[3X NOW!🎉] Adopt Me! : nom",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.rang": {
    "v": 7,
    "d": "7e",
-   "l": "[SOON!🎉] Adopt Me! : rang au pic du jour",
+   "l": "[3X NOW!🎉] Adopt Me! : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.pic": {
    "v": 233089,
    "d": "233 089",
-   "l": "[SOON!🎉] Adopt Me! : pic de joueurs simultanés relevé",
+   "l": "[3X NOW!🎉] Adopt Me! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.heure_pic": {
    "v": "17:35",
    "d": "17 h 35",
-   "l": "[SOON!🎉] Adopt Me! : heure (Paris) du pic relevé",
+   "l": "[3X NOW!🎉] Adopt Me! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.moy": {
    "v": 150853,
    "d": "150 853",
-   "l": "[SOON!🎉] Adopt Me! : moyenne des joueurs simultanés sur la journée",
+   "l": "[3X NOW!🎉] Adopt Me! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.createur": {
    "v": "Uplift Games",
    "d": "Uplift Games",
-   "l": "[SOON!🎉] Adopt Me! : créateur",
+   "l": "[3X NOW!🎉] Adopt Me! : créateur",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "[SOON!🎉] Adopt Me! : genre",
+   "l": "[3X NOW!🎉] Adopt Me! : genre",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.var_7j": {
    "v": -0.3227,
    "d": "−32,3 %",
-   "l": "[SOON!🎉] Adopt Me! : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[3X NOW!🎉] Adopt Me! : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.moy_7j": {
    "v": 222725,
    "d": "222 725",
-   "l": "[SOON!🎉] Adopt Me! : moyenne des 7 jours précédents",
+   "l": "[3X NOW!🎉] Adopt Me! : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.visites_24h": {
    "v": 9619300,
    "d": "9,62 millions",
-   "l": "[SOON!🎉] Adopt Me! : visites gagnées en 24 h",
+   "l": "[3X NOW!🎉] Adopt Me! : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.visites_total": {
    "v": 45337411166,
    "d": "45,34 milliards",
-   "l": "[SOON!🎉] Adopt Me! : visites cumulées depuis la création",
+   "l": "[3X NOW!🎉] Adopt Me! : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.note": {
    "v": 0.8639,
    "d": "86,4 %",
-   "l": "[SOON!🎉] Adopt Me! : part de votes positifs",
+   "l": "[3X NOW!🎉] Adopt Me! : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.6035872082.nom": {
@@ -1989,75 +1989,75 @@
    "src": "data/jours/2026-11-06.csv#L18"
   },
   "g.5750914919.nom": {
-   "v": "Fisch 🎸 [NOW]",
-   "d": "Fisch 🎸 [NOW]",
-   "l": "Fisch 🎸 [NOW] : nom",
+   "v": "Fisch 🦈 [HAMMI]",
+   "d": "Fisch 🦈 [HAMMI]",
+   "l": "Fisch 🦈 [HAMMI] : nom",
    "src": "data/jours/2026-11-06.csv#L19"
   },
   "g.5750914919.rang": {
    "v": 18,
    "d": "18e",
-   "l": "Fisch 🎸 [NOW] : rang au pic du jour",
+   "l": "Fisch 🦈 [HAMMI] : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L19"
   },
   "g.5750914919.pic": {
    "v": 76764,
    "d": "76 764",
-   "l": "Fisch 🎸 [NOW] : pic de joueurs simultanés relevé",
+   "l": "Fisch 🦈 [HAMMI] : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L19"
   },
   "g.5750914919.heure_pic": {
    "v": "15:40",
    "d": "15 h 40",
-   "l": "Fisch 🎸 [NOW] : heure (Paris) du pic relevé",
+   "l": "Fisch 🦈 [HAMMI] : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L19"
   },
   "g.5750914919.moy": {
    "v": 62807,
    "d": "62 807",
-   "l": "Fisch 🎸 [NOW] : moyenne des joueurs simultanés sur la journée",
+   "l": "Fisch 🦈 [HAMMI] : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L19"
   },
   "g.5750914919.createur": {
    "v": "Fisching",
    "d": "Fisching",
-   "l": "Fisch 🎸 [NOW] : créateur",
+   "l": "Fisch 🦈 [HAMMI] : créateur",
    "src": "data/jours/2026-11-06.csv#L19"
   },
   "g.5750914919.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "Fisch 🎸 [NOW] : genre",
+   "l": "Fisch 🦈 [HAMMI] : genre",
    "src": "data/jours/2026-11-06.csv#L19"
   },
   "g.5750914919.var_7j": {
    "v": -0.2584,
    "d": "−25,8 %",
-   "l": "Fisch 🎸 [NOW] : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Fisch 🦈 [HAMMI] : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L19"
   },
   "g.5750914919.moy_7j": {
    "v": 84691,
    "d": "84 691",
-   "l": "Fisch 🎸 [NOW] : moyenne des 7 jours précédents",
+   "l": "Fisch 🦈 [HAMMI] : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L19"
   },
   "g.5750914919.visites_24h": {
    "v": 3226499,
    "d": "3,23 millions",
-   "l": "Fisch 🎸 [NOW] : visites gagnées en 24 h",
+   "l": "Fisch 🦈 [HAMMI] : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L19"
   },
   "g.5750914919.visites_total": {
    "v": 5110427747,
    "d": "5,11 milliards",
-   "l": "Fisch 🎸 [NOW] : visites cumulées depuis la création",
+   "l": "Fisch 🦈 [HAMMI] : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L19"
   },
   "g.5750914919.note": {
    "v": 0.908,
    "d": "90,8 %",
-   "l": "Fisch 🎸 [NOW] : part de votes positifs",
+   "l": "Fisch 🦈 [HAMMI] : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L19"
   },
   "g.6739698191.nom": {
@@ -2547,75 +2547,75 @@
    "src": "data/jours/2026-11-06.csv#L26"
   },
   "g.3317771874.nom": {
-   "v": "🎃 [MINIGAMES] Pet Simulator 99! 👻",
-   "d": "🎃 [MINIGAMES] Pet Simulator 99! 👻",
-   "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : nom",
+   "v": "🎭 [MINIGAMES] Pet Simulator 99! 🎃",
+   "d": "🎭 [MINIGAMES] Pet Simulator 99! 🎃",
+   "l": "🎭 [MINIGAMES] Pet Simulator 99! 🎃 : nom",
    "src": "data/jours/2026-11-06.csv#L27"
   },
   "g.3317771874.rang": {
    "v": 26,
    "d": "26e",
-   "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : rang au pic du jour",
+   "l": "🎭 [MINIGAMES] Pet Simulator 99! 🎃 : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L27"
   },
   "g.3317771874.pic": {
    "v": 49780,
    "d": "49 780",
-   "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : pic de joueurs simultanés relevé",
+   "l": "🎭 [MINIGAMES] Pet Simulator 99! 🎃 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L27"
   },
   "g.3317771874.heure_pic": {
    "v": "17:35",
    "d": "17 h 35",
-   "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : heure (Paris) du pic relevé",
+   "l": "🎭 [MINIGAMES] Pet Simulator 99! 🎃 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L27"
   },
   "g.3317771874.moy": {
    "v": 43270,
    "d": "43 270",
-   "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : moyenne des joueurs simultanés sur la journée",
+   "l": "🎭 [MINIGAMES] Pet Simulator 99! 🎃 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L27"
   },
   "g.3317771874.createur": {
    "v": "BIG Games Pets",
    "d": "BIG Games Pets",
-   "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : créateur",
+   "l": "🎭 [MINIGAMES] Pet Simulator 99! 🎃 : créateur",
    "src": "data/jours/2026-11-06.csv#L27"
   },
   "g.3317771874.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : genre",
+   "l": "🎭 [MINIGAMES] Pet Simulator 99! 🎃 : genre",
    "src": "data/jours/2026-11-06.csv#L27"
   },
   "g.3317771874.var_7j": {
    "v": -0.3786,
    "d": "−37,9 %",
-   "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "🎭 [MINIGAMES] Pet Simulator 99! 🎃 : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L27"
   },
   "g.3317771874.moy_7j": {
    "v": 69638,
    "d": "69 638",
-   "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : moyenne des 7 jours précédents",
+   "l": "🎭 [MINIGAMES] Pet Simulator 99! 🎃 : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L27"
   },
   "g.3317771874.visites_24h": {
    "v": 1311625,
    "d": "1,31 million",
-   "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : visites gagnées en 24 h",
+   "l": "🎭 [MINIGAMES] Pet Simulator 99! 🎃 : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L27"
   },
   "g.3317771874.visites_total": {
    "v": 2700177043,
    "d": "2,7 milliards",
-   "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : visites cumulées depuis la création",
+   "l": "🎭 [MINIGAMES] Pet Simulator 99! 🎃 : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L27"
   },
   "g.3317771874.note": {
    "v": 0.9474,
    "d": "94,7 %",
-   "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : part de votes positifs",
+   "l": "🎭 [MINIGAMES] Pet Simulator 99! 🎃 : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L27"
   },
   "g.6931042565.nom": {
@@ -4071,75 +4071,75 @@
    "src": "data/jours/2026-11-06.csv#L48"
   },
   "g.10767380385.nom": {
-   "v": "Sell Fries! [Anomaly] 🍟",
-   "d": "Sell Fries! [Anomaly] 🍟",
-   "l": "Sell Fries! [Anomaly] 🍟 : nom",
+   "v": "[💎] Sell Fries! [Anomaly] 🍟",
+   "d": "[💎] Sell Fries! [Anomaly] 🍟",
+   "l": "[💎] Sell Fries! [Anomaly] 🍟 : nom",
    "src": "data/jours/2026-11-06.csv#L49"
   },
   "g.10767380385.rang": {
    "v": 48,
    "d": "48e",
-   "l": "Sell Fries! [Anomaly] 🍟 : rang au pic du jour",
+   "l": "[💎] Sell Fries! [Anomaly] 🍟 : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L49"
   },
   "g.10767380385.pic": {
    "v": 33618,
    "d": "33 618",
-   "l": "Sell Fries! [Anomaly] 🍟 : pic de joueurs simultanés relevé",
+   "l": "[💎] Sell Fries! [Anomaly] 🍟 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L49"
   },
   "g.10767380385.heure_pic": {
    "v": "14:31",
    "d": "14 h 31",
-   "l": "Sell Fries! [Anomaly] 🍟 : heure (Paris) du pic relevé",
+   "l": "[💎] Sell Fries! [Anomaly] 🍟 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L49"
   },
   "g.10767380385.moy": {
    "v": 24585,
    "d": "24 585",
-   "l": "Sell Fries! [Anomaly] 🍟 : moyenne des joueurs simultanés sur la journée",
+   "l": "[💎] Sell Fries! [Anomaly] 🍟 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L49"
   },
   "g.10767380385.createur": {
    "v": "Pharting",
    "d": "Pharting",
-   "l": "Sell Fries! [Anomaly] 🍟 : créateur",
+   "l": "[💎] Sell Fries! [Anomaly] 🍟 : créateur",
    "src": "data/jours/2026-11-06.csv#L49"
   },
   "g.10767380385.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "Sell Fries! [Anomaly] 🍟 : genre",
+   "l": "[💎] Sell Fries! [Anomaly] 🍟 : genre",
    "src": "data/jours/2026-11-06.csv#L49"
   },
   "g.10767380385.var_7j": {
    "v": -0.247,
    "d": "−24,7 %",
-   "l": "Sell Fries! [Anomaly] 🍟 : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[💎] Sell Fries! [Anomaly] 🍟 : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L49"
   },
   "g.10767380385.moy_7j": {
    "v": 32652,
    "d": "32 652",
-   "l": "Sell Fries! [Anomaly] 🍟 : moyenne des 7 jours précédents",
+   "l": "[💎] Sell Fries! [Anomaly] 🍟 : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L49"
   },
   "g.10767380385.visites_24h": {
    "v": 2125354,
    "d": "2,13 millions",
-   "l": "Sell Fries! [Anomaly] 🍟 : visites gagnées en 24 h",
+   "l": "[💎] Sell Fries! [Anomaly] 🍟 : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L49"
   },
   "g.10767380385.visites_total": {
    "v": 103807662,
    "d": "103,81 millions",
-   "l": "Sell Fries! [Anomaly] 🍟 : visites cumulées depuis la création",
+   "l": "[💎] Sell Fries! [Anomaly] 🍟 : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L49"
   },
   "g.10767380385.note": {
    "v": 0.8488,
    "d": "84,9 %",
-   "l": "Sell Fries! [Anomaly] 🍟 : part de votes positifs",
+   "l": "[💎] Sell Fries! [Anomaly] 🍟 : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L49"
   },
   "g.10708913337.nom": {
@@ -8157,7 +8157,7 @@
      "valeur": 247227
     },
     {
-     "nom": "[SOON!🎉] Adopt Me!",
+     "nom": "[3X NOW!🎉] Adopt Me!",
      "valeur": 233089
     },
     {
