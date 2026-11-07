@@ -1,4 +1,6 @@
 id,titre,date,lien
+4979364,"Weekly Recap: November 2 - 6, 2026",2026-11-06T23:00:19Z,https://devforum.roblox.com/t/weekly-recap-november-2-6-2026/4979364
+4979313,Test Graphics and Memory on Lower-End Devices With the Performance Simulator,2026-11-06T22:20:44Z,https://devforum.roblox.com/t/test-graphics-and-memory-on-lower-end-devices-with-the-performance-simulator/4979313
 4977769,"Asset Versioning Is Coming to Meshes, Images, Audio, and Video",2026-11-05T22:38:36Z,https://devforum.roblox.com/t/asset-versioning-is-coming-to-meshes-images-audio-and-video/4977769
 4977713,[Studio Beta] CreateSurfaceAppearance: Now With Asset IDs and DataModel Content,2026-11-05T22:04:12Z,https://devforum.roblox.com/t/studio-beta-createsurfaceappearance-now-with-asset-ids-and-datamodel-content/4977713
 4977709,"[Studio Beta] Generate R15 Animations From a Prompt, Plus Optional R6 Motion Rebuilder",2026-11-05T22:00:05Z,https://devforum.roblox.com/t/studio-beta-generate-r15-animations-from-a-prompt-plus-optional-r6-motion-rebuilder/4977709
@@ -12,7 +14,7 @@ id,titre,date,lien
 4973915,[Beta] Promotional Text,2026-11-03T18:56:23Z,https://devforum.roblox.com/t/beta-promotional-text/4973915
 4973876,Analytics: Understand Complex Player Funnels With Journeys,2026-11-03T18:31:25Z,https://devforum.roblox.com/t/analytics-understand-complex-player-funnels-with-journeys/4973876
 4972565,"Update on Account Bans, Alt Detection, and Appeals",2026-11-02T23:46:36Z,https://devforum.roblox.com/t/update-on-account-bans-alt-detection-and-appeals/4972565
-4972486,Clean Up Server Memory Before Crashes With `ServerMemoryWarning`,2026-11-02T22:43:30Z,https://devforum.roblox.com/t/clean-up-server-memory-before-crashes-with-servermemorywarning/4972486
+4972486,Clean Up Server Memory Before Crashes With ServerMemoryWarning,2026-11-02T22:43:30Z,https://devforum.roblox.com/t/clean-up-server-memory-before-crashes-with-servermemorywarning/4972486
 4966810,"Weekly Recap: October 26 - 30, 2026",2026-10-30T22:13:38Z,https://devforum.roblox.com/t/weekly-recap-october-26-30-2026/4966810
 4966772,"[Studio Beta] Build 2D, Isometric, and Top-Down Games With Orthographic Camera",2026-10-30T21:45:21Z,https://devforum.roblox.com/t/studio-beta-build-2d-isometric-and-top-down-games-with-orthographic-camera/4966772
 4966700,[Studio Beta] Inspect Your Live Server During Team Test,2026-10-30T21:00:09Z,https://devforum.roblox.com/t/studio-beta-inspect-your-live-server-during-team-test/4966700
@@ -25,7 +27,7 @@ id,titre,date,lien
 4963119,"Upgrading Shapecasts: Margins, Size Gradients, Optimizations, and More",2026-10-28T20:35:57Z,https://devforum.roblox.com/t/upgrading-shapecasts-margins-size-gradients-optimizations-and-more/4963119
 4961129,Improve Your Game Security with the Device Trust API,2026-10-27T22:00:07Z,https://devforum.roblox.com/t/improve-your-game-security-with-the-device-trust-api/4961129
 4960927,Plugin Screenshot Support in Studio,2026-10-27T20:13:53Z,https://devforum.roblox.com/t/plugin-screenshot-support-in-studio/4960927
-4960734,[Early Access Program] Build 2D Games With `AnimatedImages`,2026-10-27T18:12:05Z,https://devforum.roblox.com/t/early-access-program-build-2d-games-with-animatedimages/4960734
+4960734,[Early Access Program] Build 2D Games With AnimatedImages,2026-10-27T18:12:05Z,https://devforum.roblox.com/t/early-access-program-build-2d-games-with-animatedimages/4960734
 4953263,"Weekly Recap: October 19–23, 2026",2026-10-23T22:05:49Z,https://devforum.roblox.com/t/weekly-recap-october-19%E2%80%9323-2026/4953263
 4953062,Announcing Studio Deep Links on Stack Traces for Server Logs,2026-10-23T20:03:08Z,https://devforum.roblox.com/t/announcing-studio-deep-links-on-stack-traces-for-server-logs/4953062
 4950620,[Full Launch] Publish Games with Custom Terrain Materials and Performance Improvements,2026-10-22T20:00:03Z,https://devforum.roblox.com/t/full-launch-publish-games-with-custom-terrain-materials-and-performance-improvements/4950620
