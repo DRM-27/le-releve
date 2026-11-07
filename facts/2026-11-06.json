@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-06",
- "genere": "2026-11-07T19:11:45Z",
+ "genere": "2026-11-07T19:29:42Z",
  "couverture": {
   "releves": 19,
   "attendus": 24
@@ -4419,75 +4419,75 @@
    "src": "data/jours/2026-11-06.csv#L53"
   },
   "g.10764627709.nom": {
-   "v": "[BOSS🎃] Huss Valley",
-   "d": "[BOSS🎃] Huss Valley",
-   "l": "[BOSS🎃] Huss Valley : nom",
+   "v": "[RANKED] Huss Valley",
+   "d": "[RANKED] Huss Valley",
+   "l": "[RANKED] Huss Valley : nom",
    "src": "data/jours/2026-11-06.csv#L54"
   },
   "g.10764627709.rang": {
    "v": 53,
    "d": "53e",
-   "l": "[BOSS🎃] Huss Valley : rang au pic du jour",
+   "l": "[RANKED] Huss Valley : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L54"
   },
   "g.10764627709.pic": {
    "v": 31657,
    "d": "31 657",
-   "l": "[BOSS🎃] Huss Valley : pic de joueurs simultanés relevé",
+   "l": "[RANKED] Huss Valley : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L54"
   },
   "g.10764627709.heure_pic": {
    "v": "21:30",
    "d": "21 h 30",
-   "l": "[BOSS🎃] Huss Valley : heure (Paris) du pic relevé",
+   "l": "[RANKED] Huss Valley : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L54"
   },
   "g.10764627709.moy": {
    "v": 24675,
    "d": "24 675",
-   "l": "[BOSS🎃] Huss Valley : moyenne des joueurs simultanés sur la journée",
+   "l": "[RANKED] Huss Valley : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L54"
   },
   "g.10764627709.createur": {
    "v": "Huss Valley Official",
    "d": "Huss Valley Official",
-   "l": "[BOSS🎃] Huss Valley : créateur",
+   "l": "[RANKED] Huss Valley : créateur",
    "src": "data/jours/2026-11-06.csv#L54"
   },
   "g.10764627709.genre": {
    "v": "Action",
    "d": "Action",
-   "l": "[BOSS🎃] Huss Valley : genre",
+   "l": "[RANKED] Huss Valley : genre",
    "src": "data/jours/2026-11-06.csv#L54"
   },
   "g.10764627709.var_7j": {
    "v": -0.3091,
    "d": "−30,9 %",
-   "l": "[BOSS🎃] Huss Valley : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[RANKED] Huss Valley : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L54"
   },
   "g.10764627709.moy_7j": {
    "v": 35711,
    "d": "35 711",
-   "l": "[BOSS🎃] Huss Valley : moyenne des 7 jours précédents",
+   "l": "[RANKED] Huss Valley : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L54"
   },
   "g.10764627709.visites_24h": {
    "v": 3211375,
    "d": "3,21 millions",
-   "l": "[BOSS🎃] Huss Valley : visites gagnées en 24 h",
+   "l": "[RANKED] Huss Valley : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L54"
   },
   "g.10764627709.visites_total": {
    "v": 248279268,
    "d": "248,28 millions",
-   "l": "[BOSS🎃] Huss Valley : visites cumulées depuis la création",
+   "l": "[RANKED] Huss Valley : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L54"
   },
   "g.10764627709.note": {
    "v": 0.8756,
    "d": "87,6 %",
-   "l": "[BOSS🎃] Huss Valley : part de votes positifs",
+   "l": "[RANKED] Huss Valley : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L54"
   },
   "g.10766620257.nom": {
