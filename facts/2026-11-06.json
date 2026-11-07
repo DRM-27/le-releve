@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-06",
- "genere": "2026-11-07T13:39:21Z",
+ "genere": "2026-11-07T14:07:12Z",
  "couverture": {
   "releves": 19,
   "attendus": 24
@@ -507,8 +507,8 @@
    "src": "data/jours/2026-11-06.csv#L7"
   },
   "top.7.nom": {
-   "v": "[⚡] Adopt Me!",
-   "d": "[⚡] Adopt Me!",
+   "v": "[3H🎉] Adopt Me!",
+   "d": "[3H🎉] Adopt Me!",
    "l": "N° 7 du jour : nom",
    "src": "data/jours/2026-11-06.csv#L8"
   },
@@ -1227,75 +1227,75 @@
    "src": "data/jours/2026-11-06.csv#L7"
   },
   "g.383310974.nom": {
-   "v": "[⚡] Adopt Me!",
-   "d": "[⚡] Adopt Me!",
-   "l": "[⚡] Adopt Me! : nom",
+   "v": "[3H🎉] Adopt Me!",
+   "d": "[3H🎉] Adopt Me!",
+   "l": "[3H🎉] Adopt Me! : nom",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.rang": {
    "v": 7,
    "d": "7e",
-   "l": "[⚡] Adopt Me! : rang au pic du jour",
+   "l": "[3H🎉] Adopt Me! : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.pic": {
    "v": 233089,
    "d": "233 089",
-   "l": "[⚡] Adopt Me! : pic de joueurs simultanés relevé",
+   "l": "[3H🎉] Adopt Me! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.heure_pic": {
    "v": "17:35",
    "d": "17 h 35",
-   "l": "[⚡] Adopt Me! : heure (Paris) du pic relevé",
+   "l": "[3H🎉] Adopt Me! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.moy": {
    "v": 150853,
    "d": "150 853",
-   "l": "[⚡] Adopt Me! : moyenne des joueurs simultanés sur la journée",
+   "l": "[3H🎉] Adopt Me! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.createur": {
    "v": "Uplift Games",
    "d": "Uplift Games",
-   "l": "[⚡] Adopt Me! : créateur",
+   "l": "[3H🎉] Adopt Me! : créateur",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "[⚡] Adopt Me! : genre",
+   "l": "[3H🎉] Adopt Me! : genre",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.var_7j": {
    "v": -0.3227,
    "d": "−32,3 %",
-   "l": "[⚡] Adopt Me! : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[3H🎉] Adopt Me! : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.moy_7j": {
    "v": 222725,
    "d": "222 725",
-   "l": "[⚡] Adopt Me! : moyenne des 7 jours précédents",
+   "l": "[3H🎉] Adopt Me! : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.visites_24h": {
    "v": 9619300,
    "d": "9,62 millions",
-   "l": "[⚡] Adopt Me! : visites gagnées en 24 h",
+   "l": "[3H🎉] Adopt Me! : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.visites_total": {
    "v": 45337411166,
    "d": "45,34 milliards",
-   "l": "[⚡] Adopt Me! : visites cumulées depuis la création",
+   "l": "[3H🎉] Adopt Me! : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.note": {
    "v": 0.8639,
    "d": "86,4 %",
-   "l": "[⚡] Adopt Me! : part de votes positifs",
+   "l": "[3H🎉] Adopt Me! : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.6035872082.nom": {
@@ -5157,75 +5157,75 @@
    "src": "data/jours/2026-11-06.csv#L64"
   },
   "g.10768284407.nom": {
-   "v": "⏳[30M] Bike Universe",
-   "d": "⏳[30M] Bike Universe",
-   "l": "⏳[30M] Bike Universe : nom",
+   "v": "⏳[5M] Bike Universe",
+   "d": "⏳[5M] Bike Universe",
+   "l": "⏳[5M] Bike Universe : nom",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.rang": {
    "v": 64,
    "d": "64e",
-   "l": "⏳[30M] Bike Universe : rang au pic du jour",
+   "l": "⏳[5M] Bike Universe : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.pic": {
    "v": 26162,
    "d": "26 162",
-   "l": "⏳[30M] Bike Universe : pic de joueurs simultanés relevé",
+   "l": "⏳[5M] Bike Universe : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.heure_pic": {
    "v": "19:34",
    "d": "19 h 34",
-   "l": "⏳[30M] Bike Universe : heure (Paris) du pic relevé",
+   "l": "⏳[5M] Bike Universe : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.moy": {
    "v": 20140,
    "d": "20 140",
-   "l": "⏳[30M] Bike Universe : moyenne des joueurs simultanés sur la journée",
+   "l": "⏳[5M] Bike Universe : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.createur": {
    "v": "Bike Universe",
    "d": "Bike Universe",
-   "l": "⏳[30M] Bike Universe : créateur",
+   "l": "⏳[5M] Bike Universe : créateur",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "⏳[30M] Bike Universe : genre",
+   "l": "⏳[5M] Bike Universe : genre",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.var_7j": {
    "v": -0.3898,
    "d": "−39,0 %",
-   "l": "⏳[30M] Bike Universe : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "⏳[5M] Bike Universe : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.moy_7j": {
    "v": 33007,
    "d": "33 007",
-   "l": "⏳[30M] Bike Universe : moyenne des 7 jours précédents",
+   "l": "⏳[5M] Bike Universe : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.visites_24h": {
    "v": 2612602,
    "d": "2,61 millions",
-   "l": "⏳[30M] Bike Universe : visites gagnées en 24 h",
+   "l": "⏳[5M] Bike Universe : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.visites_total": {
    "v": 71625314,
    "d": "71,63 millions",
-   "l": "⏳[30M] Bike Universe : visites cumulées depuis la création",
+   "l": "⏳[5M] Bike Universe : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.note": {
    "v": 0.8842,
    "d": "88,4 %",
-   "l": "⏳[30M] Bike Universe : part de votes positifs",
+   "l": "⏳[5M] Bike Universe : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.5995470825.nom": {
@@ -6045,75 +6045,75 @@
    "src": "data/jours/2026-11-06.csv#L77"
   },
   "g.10057403337.nom": {
-   "v": "[30M] Deagle Arena",
-   "d": "[30M] Deagle Arena",
-   "l": "[30M] Deagle Arena : nom",
+   "v": "[NOW!] Deagle Arena",
+   "d": "[NOW!] Deagle Arena",
+   "l": "[NOW!] Deagle Arena : nom",
    "src": "data/jours/2026-11-06.csv#L78"
   },
   "g.10057403337.rang": {
    "v": 77,
    "d": "77e",
-   "l": "[30M] Deagle Arena : rang au pic du jour",
+   "l": "[NOW!] Deagle Arena : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L78"
   },
   "g.10057403337.pic": {
    "v": 23115,
    "d": "23 115",
-   "l": "[30M] Deagle Arena : pic de joueurs simultanés relevé",
+   "l": "[NOW!] Deagle Arena : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L78"
   },
   "g.10057403337.heure_pic": {
    "v": "14:31",
    "d": "14 h 31",
-   "l": "[30M] Deagle Arena : heure (Paris) du pic relevé",
+   "l": "[NOW!] Deagle Arena : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L78"
   },
   "g.10057403337.moy": {
    "v": 17851,
    "d": "17 851",
-   "l": "[30M] Deagle Arena : moyenne des joueurs simultanés sur la journée",
+   "l": "[NOW!] Deagle Arena : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L78"
   },
   "g.10057403337.createur": {
    "v": "Deagle Arena",
    "d": "Deagle Arena",
-   "l": "[30M] Deagle Arena : créateur",
+   "l": "[NOW!] Deagle Arena : créateur",
    "src": "data/jours/2026-11-06.csv#L78"
   },
   "g.10057403337.genre": {
    "v": "Shooter",
    "d": "Tir",
-   "l": "[30M] Deagle Arena : genre",
+   "l": "[NOW!] Deagle Arena : genre",
    "src": "data/jours/2026-11-06.csv#L78"
   },
   "g.10057403337.var_7j": {
    "v": 0.0123,
    "d": "+1,2 %",
-   "l": "[30M] Deagle Arena : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[NOW!] Deagle Arena : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L78"
   },
   "g.10057403337.moy_7j": {
    "v": 17634,
    "d": "17 634",
-   "l": "[30M] Deagle Arena : moyenne des 7 jours précédents",
+   "l": "[NOW!] Deagle Arena : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L78"
   },
   "g.10057403337.visites_24h": {
    "v": 3162595,
    "d": "3,16 millions",
-   "l": "[30M] Deagle Arena : visites gagnées en 24 h",
+   "l": "[NOW!] Deagle Arena : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L78"
   },
   "g.10057403337.visites_total": {
    "v": 293654085,
    "d": "293,65 millions",
-   "l": "[30M] Deagle Arena : visites cumulées depuis la création",
+   "l": "[NOW!] Deagle Arena : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L78"
   },
   "g.10057403337.note": {
    "v": 0.8743,
    "d": "87,4 %",
-   "l": "[30M] Deagle Arena : part de votes positifs",
+   "l": "[NOW!] Deagle Arena : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L78"
   },
   "g.4949420752.nom": {
@@ -8157,7 +8157,7 @@
      "valeur": 247227
     },
     {
-     "nom": "[⚡] Adopt Me!",
+     "nom": "[3H🎉] Adopt Me!",
      "valeur": 233089
     },
     {
