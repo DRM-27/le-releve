@@ -1,12 +1,12 @@
 {
  "echecsConsecutifs": 0,
- "dernierSucces": "2026-11-07T09:29:50Z",
- "lastRunAt": "2026-11-07T09:29:50Z",
+ "dernierSucces": "2026-11-07T10:07:00Z",
+ "lastRunAt": "2026-11-07T10:07:00Z",
  "ok": false,
  "sorts": {
   "top-trending": 96,
   "up-and-coming": 98,
-  "top-playing-now": 99,
+  "top-playing-now": 100,
   "fun-with-friends": 87,
   "top-revisited": 87
  },
