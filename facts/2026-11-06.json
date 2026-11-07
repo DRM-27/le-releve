@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-06",
- "genere": "2026-11-07T19:58:45Z",
+ "genere": "2026-11-07T20:21:10Z",
  "couverture": {
   "releves": 19,
   "attendus": 24
@@ -2349,75 +2349,75 @@
    "src": "data/jours/2026-11-06.csv#L23"
   },
   "g.6701277882.nom": {
-   "v": "[6 HRS] Fish It! 🐟",
-   "d": "[6 HRS] Fish It! 🐟",
-   "l": "[6 HRS] Fish It! 🐟 : nom",
+   "v": "[5 HRS] Fish It! 🐟",
+   "d": "[5 HRS] Fish It! 🐟",
+   "l": "[5 HRS] Fish It! 🐟 : nom",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.rang": {
    "v": 23,
    "d": "23e",
-   "l": "[6 HRS] Fish It! 🐟 : rang au pic du jour",
+   "l": "[5 HRS] Fish It! 🐟 : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.pic": {
    "v": 65808,
    "d": "65 808",
-   "l": "[6 HRS] Fish It! 🐟 : pic de joueurs simultanés relevé",
+   "l": "[5 HRS] Fish It! 🐟 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.heure_pic": {
    "v": "18:35",
    "d": "18 h 35",
-   "l": "[6 HRS] Fish It! 🐟 : heure (Paris) du pic relevé",
+   "l": "[5 HRS] Fish It! 🐟 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.moy": {
    "v": 63164,
    "d": "63 164",
-   "l": "[6 HRS] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
+   "l": "[5 HRS] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.createur": {
    "v": "Fish Atelier",
    "d": "Fish Atelier",
-   "l": "[6 HRS] Fish It! 🐟 : créateur",
+   "l": "[5 HRS] Fish It! 🐟 : créateur",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[6 HRS] Fish It! 🐟 : genre",
+   "l": "[5 HRS] Fish It! 🐟 : genre",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.var_7j": {
    "v": -0.0278,
    "d": "−2,8 %",
-   "l": "[6 HRS] Fish It! 🐟 : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[5 HRS] Fish It! 🐟 : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.moy_7j": {
    "v": 64968,
    "d": "64 968",
-   "l": "[6 HRS] Fish It! 🐟 : moyenne des 7 jours précédents",
+   "l": "[5 HRS] Fish It! 🐟 : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.visites_24h": {
    "v": 1288263,
    "d": "1,29 million",
-   "l": "[6 HRS] Fish It! 🐟 : visites gagnées en 24 h",
+   "l": "[5 HRS] Fish It! 🐟 : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.visites_total": {
    "v": 4817510979,
    "d": "4,82 milliards",
-   "l": "[6 HRS] Fish It! 🐟 : visites cumulées depuis la création",
+   "l": "[5 HRS] Fish It! 🐟 : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.note": {
    "v": 0.8283,
    "d": "82,8 %",
-   "l": "[6 HRS] Fish It! 🐟 : part de votes positifs",
+   "l": "[5 HRS] Fish It! 🐟 : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.4658598196.nom": {
@@ -2493,57 +2493,57 @@
    "src": "data/jours/2026-11-06.csv#L25"
   },
   "g.10769671316.nom": {
-   "v": "Survive Your Ideas",
-   "d": "Survive Your Ideas",
-   "l": "Survive Your Ideas : nom",
+   "v": "[🌟UPD] Survive Your Ideas",
+   "d": "[🌟UPD] Survive Your Ideas",
+   "l": "[🌟UPD] Survive Your Ideas : nom",
    "src": "data/jours/2026-11-06.csv#L26"
   },
   "g.10769671316.rang": {
    "v": 25,
    "d": "25e",
-   "l": "Survive Your Ideas : rang au pic du jour",
+   "l": "[🌟UPD] Survive Your Ideas : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L26"
   },
   "g.10769671316.pic": {
    "v": 51017,
    "d": "51 017",
-   "l": "Survive Your Ideas : pic de joueurs simultanés relevé",
+   "l": "[🌟UPD] Survive Your Ideas : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L26"
   },
   "g.10769671316.heure_pic": {
    "v": "19:34",
    "d": "19 h 34",
-   "l": "Survive Your Ideas : heure (Paris) du pic relevé",
+   "l": "[🌟UPD] Survive Your Ideas : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L26"
   },
   "g.10769671316.moy": {
    "v": 45291,
    "d": "45 291",
-   "l": "Survive Your Ideas : moyenne des joueurs simultanés sur la journée",
+   "l": "[🌟UPD] Survive Your Ideas : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L26"
   },
   "g.10769671316.createur": {
    "v": "Survive Your Ideas",
    "d": "Survive Your Ideas",
-   "l": "Survive Your Ideas : créateur",
+   "l": "[🌟UPD] Survive Your Ideas : créateur",
    "src": "data/jours/2026-11-06.csv#L26"
   },
   "g.10769671316.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "Survive Your Ideas : genre",
+   "l": "[🌟UPD] Survive Your Ideas : genre",
    "src": "data/jours/2026-11-06.csv#L26"
   },
   "g.10769671316.visites_total": {
    "v": 8745762,
    "d": "8,75 millions",
-   "l": "Survive Your Ideas : visites cumulées depuis la création",
+   "l": "[🌟UPD] Survive Your Ideas : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L26"
   },
   "g.10769671316.note": {
    "v": 0.7854,
    "d": "78,5 %",
-   "l": "Survive Your Ideas : part de votes positifs",
+   "l": "[🌟UPD] Survive Your Ideas : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L26"
   },
   "g.3317771874.nom": {
@@ -5517,63 +5517,63 @@
    "src": "data/jours/2026-11-06.csv#L69"
   },
   "g.4778845442.nom": {
-   "v": "[⚖️REBALANCE] Toilet Tower Defense",
-   "d": "[⚖️REBALANCE] Toilet Tower Defense",
-   "l": "[⚖️REBALANCE] Toilet Tower Defense : nom",
+   "v": "[✨CHANGES] Toilet Tower Defense",
+   "d": "[✨CHANGES] Toilet Tower Defense",
+   "l": "[✨CHANGES] Toilet Tower Defense : nom",
    "src": "data/jours/2026-11-06.csv#L70"
   },
   "g.4778845442.rang": {
    "v": 69,
    "d": "69e",
-   "l": "[⚖️REBALANCE] Toilet Tower Defense : rang au pic du jour",
+   "l": "[✨CHANGES] Toilet Tower Defense : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L70"
   },
   "g.4778845442.pic": {
    "v": 24578,
    "d": "24 578",
-   "l": "[⚖️REBALANCE] Toilet Tower Defense : pic de joueurs simultanés relevé",
+   "l": "[✨CHANGES] Toilet Tower Defense : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L70"
   },
   "g.4778845442.heure_pic": {
    "v": "19:34",
    "d": "19 h 34",
-   "l": "[⚖️REBALANCE] Toilet Tower Defense : heure (Paris) du pic relevé",
+   "l": "[✨CHANGES] Toilet Tower Defense : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L70"
   },
   "g.4778845442.moy": {
    "v": 10181,
    "d": "10 181",
-   "l": "[⚖️REBALANCE] Toilet Tower Defense : moyenne des joueurs simultanés sur la journée",
+   "l": "[✨CHANGES] Toilet Tower Defense : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L70"
   },
   "g.4778845442.createur": {
    "v": "Telanthric Development",
    "d": "Telanthric Development",
-   "l": "[⚖️REBALANCE] Toilet Tower Defense : créateur",
+   "l": "[✨CHANGES] Toilet Tower Defense : créateur",
    "src": "data/jours/2026-11-06.csv#L70"
   },
   "g.4778845442.genre": {
    "v": "Strategy",
    "d": "Stratégie",
-   "l": "[⚖️REBALANCE] Toilet Tower Defense : genre",
+   "l": "[✨CHANGES] Toilet Tower Defense : genre",
    "src": "data/jours/2026-11-06.csv#L70"
   },
   "g.4778845442.visites_24h": {
    "v": 1094484,
    "d": "1,09 million",
-   "l": "[⚖️REBALANCE] Toilet Tower Defense : visites gagnées en 24 h",
+   "l": "[✨CHANGES] Toilet Tower Defense : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L70"
   },
   "g.4778845442.visites_total": {
    "v": 6206490727,
    "d": "6,21 milliards",
-   "l": "[⚖️REBALANCE] Toilet Tower Defense : visites cumulées depuis la création",
+   "l": "[✨CHANGES] Toilet Tower Defense : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L70"
   },
   "g.4778845442.note": {
    "v": 0.856,
    "d": "85,6 %",
-   "l": "[⚖️REBALANCE] Toilet Tower Defense : part de votes positifs",
+   "l": "[✨CHANGES] Toilet Tower Defense : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L70"
   },
   "g.7633926880.nom": {
