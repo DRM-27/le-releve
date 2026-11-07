@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-06",
- "genere": "2026-11-07T15:23:37Z",
+ "genere": "2026-11-07T15:58:42Z",
  "couverture": {
   "releves": 19,
   "attendus": 24
@@ -2349,75 +2349,75 @@
    "src": "data/jours/2026-11-06.csv#L23"
   },
   "g.6701277882.nom": {
-   "v": "[👻UPD] Fish It! 🐟",
-   "d": "[👻UPD] Fish It! 🐟",
-   "l": "[👻UPD] Fish It! 🐟 : nom",
+   "v": "[12 HRS] Fish It! 🐟",
+   "d": "[12 HRS] Fish It! 🐟",
+   "l": "[12 HRS] Fish It! 🐟 : nom",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.rang": {
    "v": 23,
    "d": "23e",
-   "l": "[👻UPD] Fish It! 🐟 : rang au pic du jour",
+   "l": "[12 HRS] Fish It! 🐟 : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.pic": {
    "v": 65808,
    "d": "65 808",
-   "l": "[👻UPD] Fish It! 🐟 : pic de joueurs simultanés relevé",
+   "l": "[12 HRS] Fish It! 🐟 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.heure_pic": {
    "v": "18:35",
    "d": "18 h 35",
-   "l": "[👻UPD] Fish It! 🐟 : heure (Paris) du pic relevé",
+   "l": "[12 HRS] Fish It! 🐟 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.moy": {
    "v": 63164,
    "d": "63 164",
-   "l": "[👻UPD] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
+   "l": "[12 HRS] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.createur": {
    "v": "Fish Atelier",
    "d": "Fish Atelier",
-   "l": "[👻UPD] Fish It! 🐟 : créateur",
+   "l": "[12 HRS] Fish It! 🐟 : créateur",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[👻UPD] Fish It! 🐟 : genre",
+   "l": "[12 HRS] Fish It! 🐟 : genre",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.var_7j": {
    "v": -0.0278,
    "d": "−2,8 %",
-   "l": "[👻UPD] Fish It! 🐟 : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[12 HRS] Fish It! 🐟 : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.moy_7j": {
    "v": 64968,
    "d": "64 968",
-   "l": "[👻UPD] Fish It! 🐟 : moyenne des 7 jours précédents",
+   "l": "[12 HRS] Fish It! 🐟 : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.visites_24h": {
    "v": 1288263,
    "d": "1,29 million",
-   "l": "[👻UPD] Fish It! 🐟 : visites gagnées en 24 h",
+   "l": "[12 HRS] Fish It! 🐟 : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.visites_total": {
    "v": 4817510979,
    "d": "4,82 milliards",
-   "l": "[👻UPD] Fish It! 🐟 : visites cumulées depuis la création",
+   "l": "[12 HRS] Fish It! 🐟 : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.6701277882.note": {
    "v": 0.8283,
    "d": "82,8 %",
-   "l": "[👻UPD] Fish It! 🐟 : part de votes positifs",
+   "l": "[12 HRS] Fish It! 🐟 : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L24"
   },
   "g.4658598196.nom": {
@@ -4827,75 +4827,75 @@
    "src": "data/jours/2026-11-06.csv#L59"
   },
   "g.10701622575.nom": {
-   "v": "[NOW!] Steal an Anime Pack",
-   "d": "[NOW!] Steal an Anime Pack",
-   "l": "[NOW!] Steal an Anime Pack : nom",
+   "v": "Steal an Anime Pack",
+   "d": "Steal an Anime Pack",
+   "l": "Steal an Anime Pack : nom",
    "src": "data/jours/2026-11-06.csv#L60"
   },
   "g.10701622575.rang": {
    "v": 59,
    "d": "59e",
-   "l": "[NOW!] Steal an Anime Pack : rang au pic du jour",
+   "l": "Steal an Anime Pack : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L60"
   },
   "g.10701622575.pic": {
    "v": 29291,
    "d": "29 291",
-   "l": "[NOW!] Steal an Anime Pack : pic de joueurs simultanés relevé",
+   "l": "Steal an Anime Pack : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L60"
   },
   "g.10701622575.heure_pic": {
    "v": "15:40",
    "d": "15 h 40",
-   "l": "[NOW!] Steal an Anime Pack : heure (Paris) du pic relevé",
+   "l": "Steal an Anime Pack : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L60"
   },
   "g.10701622575.moy": {
    "v": 9864,
    "d": "9 864",
-   "l": "[NOW!] Steal an Anime Pack : moyenne des joueurs simultanés sur la journée",
+   "l": "Steal an Anime Pack : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L60"
   },
   "g.10701622575.createur": {
    "v": "Anime Tuff Games",
    "d": "Anime Tuff Games",
-   "l": "[NOW!] Steal an Anime Pack : créateur",
+   "l": "Steal an Anime Pack : créateur",
    "src": "data/jours/2026-11-06.csv#L60"
   },
   "g.10701622575.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[NOW!] Steal an Anime Pack : genre",
+   "l": "Steal an Anime Pack : genre",
    "src": "data/jours/2026-11-06.csv#L60"
   },
   "g.10701622575.var_7j": {
    "v": 0.2089,
    "d": "+20,9 %",
-   "l": "[NOW!] Steal an Anime Pack : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Steal an Anime Pack : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L60"
   },
   "g.10701622575.moy_7j": {
    "v": 8160,
    "d": "8 160",
-   "l": "[NOW!] Steal an Anime Pack : moyenne des 7 jours précédents",
+   "l": "Steal an Anime Pack : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L60"
   },
   "g.10701622575.visites_24h": {
    "v": 886098,
    "d": "886 098",
-   "l": "[NOW!] Steal an Anime Pack : visites gagnées en 24 h",
+   "l": "Steal an Anime Pack : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L60"
   },
   "g.10701622575.visites_total": {
    "v": 8708618,
    "d": "8,71 millions",
-   "l": "[NOW!] Steal an Anime Pack : visites cumulées depuis la création",
+   "l": "Steal an Anime Pack : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L60"
   },
   "g.10701622575.note": {
    "v": 0.9578,
    "d": "95,8 %",
-   "l": "[NOW!] Steal an Anime Pack : part de votes positifs",
+   "l": "Steal an Anime Pack : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L60"
   },
   "g.372226183.nom": {
