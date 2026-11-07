@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-06",
- "genere": "2026-11-07T14:07:12Z",
+ "genere": "2026-11-07T14:29:08Z",
  "couverture": {
   "releves": 19,
   "attendus": 24
@@ -4827,75 +4827,75 @@
    "src": "data/jours/2026-11-06.csv#L59"
   },
   "g.10701622575.nom": {
-   "v": "[⌛] Steal an Anime Pack",
-   "d": "[⌛] Steal an Anime Pack",
-   "l": "[⌛] Steal an Anime Pack : nom",
+   "v": "[NOW!] Steal an Anime Pack",
+   "d": "[NOW!] Steal an Anime Pack",
+   "l": "[NOW!] Steal an Anime Pack : nom",
    "src": "data/jours/2026-11-06.csv#L60"
   },
   "g.10701622575.rang": {
    "v": 59,
    "d": "59e",
-   "l": "[⌛] Steal an Anime Pack : rang au pic du jour",
+   "l": "[NOW!] Steal an Anime Pack : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L60"
   },
   "g.10701622575.pic": {
    "v": 29291,
    "d": "29 291",
-   "l": "[⌛] Steal an Anime Pack : pic de joueurs simultanés relevé",
+   "l": "[NOW!] Steal an Anime Pack : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L60"
   },
   "g.10701622575.heure_pic": {
    "v": "15:40",
    "d": "15 h 40",
-   "l": "[⌛] Steal an Anime Pack : heure (Paris) du pic relevé",
+   "l": "[NOW!] Steal an Anime Pack : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L60"
   },
   "g.10701622575.moy": {
    "v": 9864,
    "d": "9 864",
-   "l": "[⌛] Steal an Anime Pack : moyenne des joueurs simultanés sur la journée",
+   "l": "[NOW!] Steal an Anime Pack : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L60"
   },
   "g.10701622575.createur": {
    "v": "Anime Tuff Games",
    "d": "Anime Tuff Games",
-   "l": "[⌛] Steal an Anime Pack : créateur",
+   "l": "[NOW!] Steal an Anime Pack : créateur",
    "src": "data/jours/2026-11-06.csv#L60"
   },
   "g.10701622575.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[⌛] Steal an Anime Pack : genre",
+   "l": "[NOW!] Steal an Anime Pack : genre",
    "src": "data/jours/2026-11-06.csv#L60"
   },
   "g.10701622575.var_7j": {
    "v": 0.2089,
    "d": "+20,9 %",
-   "l": "[⌛] Steal an Anime Pack : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[NOW!] Steal an Anime Pack : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L60"
   },
   "g.10701622575.moy_7j": {
    "v": 8160,
    "d": "8 160",
-   "l": "[⌛] Steal an Anime Pack : moyenne des 7 jours précédents",
+   "l": "[NOW!] Steal an Anime Pack : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L60"
   },
   "g.10701622575.visites_24h": {
    "v": 886098,
    "d": "886 098",
-   "l": "[⌛] Steal an Anime Pack : visites gagnées en 24 h",
+   "l": "[NOW!] Steal an Anime Pack : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L60"
   },
   "g.10701622575.visites_total": {
    "v": 8708618,
    "d": "8,71 millions",
-   "l": "[⌛] Steal an Anime Pack : visites cumulées depuis la création",
+   "l": "[NOW!] Steal an Anime Pack : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L60"
   },
   "g.10701622575.note": {
    "v": 0.9578,
    "d": "95,8 %",
-   "l": "[⌛] Steal an Anime Pack : part de votes positifs",
+   "l": "[NOW!] Steal an Anime Pack : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L60"
   },
   "g.372226183.nom": {
@@ -5157,75 +5157,75 @@
    "src": "data/jours/2026-11-06.csv#L64"
   },
   "g.10768284407.nom": {
-   "v": "⏳[5M] Bike Universe",
-   "d": "⏳[5M] Bike Universe",
-   "l": "⏳[5M] Bike Universe : nom",
+   "v": "⏳[NOW!] Bike Universe",
+   "d": "⏳[NOW!] Bike Universe",
+   "l": "⏳[NOW!] Bike Universe : nom",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.rang": {
    "v": 64,
    "d": "64e",
-   "l": "⏳[5M] Bike Universe : rang au pic du jour",
+   "l": "⏳[NOW!] Bike Universe : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.pic": {
    "v": 26162,
    "d": "26 162",
-   "l": "⏳[5M] Bike Universe : pic de joueurs simultanés relevé",
+   "l": "⏳[NOW!] Bike Universe : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.heure_pic": {
    "v": "19:34",
    "d": "19 h 34",
-   "l": "⏳[5M] Bike Universe : heure (Paris) du pic relevé",
+   "l": "⏳[NOW!] Bike Universe : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.moy": {
    "v": 20140,
    "d": "20 140",
-   "l": "⏳[5M] Bike Universe : moyenne des joueurs simultanés sur la journée",
+   "l": "⏳[NOW!] Bike Universe : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.createur": {
    "v": "Bike Universe",
    "d": "Bike Universe",
-   "l": "⏳[5M] Bike Universe : créateur",
+   "l": "⏳[NOW!] Bike Universe : créateur",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "⏳[5M] Bike Universe : genre",
+   "l": "⏳[NOW!] Bike Universe : genre",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.var_7j": {
    "v": -0.3898,
    "d": "−39,0 %",
-   "l": "⏳[5M] Bike Universe : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "⏳[NOW!] Bike Universe : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.moy_7j": {
    "v": 33007,
    "d": "33 007",
-   "l": "⏳[5M] Bike Universe : moyenne des 7 jours précédents",
+   "l": "⏳[NOW!] Bike Universe : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.visites_24h": {
    "v": 2612602,
    "d": "2,61 millions",
-   "l": "⏳[5M] Bike Universe : visites gagnées en 24 h",
+   "l": "⏳[NOW!] Bike Universe : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.visites_total": {
    "v": 71625314,
    "d": "71,63 millions",
-   "l": "⏳[5M] Bike Universe : visites cumulées depuis la création",
+   "l": "⏳[NOW!] Bike Universe : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.note": {
    "v": 0.8842,
    "d": "88,4 %",
-   "l": "⏳[5M] Bike Universe : part de votes positifs",
+   "l": "⏳[NOW!] Bike Universe : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.5995470825.nom": {
