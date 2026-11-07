@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-06",
- "genere": "2026-11-07T15:00:35Z",
+ "genere": "2026-11-07T15:23:37Z",
  "couverture": {
   "releves": 19,
   "attendus": 24
@@ -507,8 +507,8 @@
    "src": "data/jours/2026-11-06.csv#L7"
   },
   "top.7.nom": {
-   "v": "[3H🎉] Adopt Me!",
-   "d": "[3H🎉] Adopt Me!",
+   "v": "[2H🎉] Adopt Me!",
+   "d": "[2H🎉] Adopt Me!",
    "l": "N° 7 du jour : nom",
    "src": "data/jours/2026-11-06.csv#L8"
   },
@@ -1227,75 +1227,75 @@
    "src": "data/jours/2026-11-06.csv#L7"
   },
   "g.383310974.nom": {
-   "v": "[3H🎉] Adopt Me!",
-   "d": "[3H🎉] Adopt Me!",
-   "l": "[3H🎉] Adopt Me! : nom",
+   "v": "[2H🎉] Adopt Me!",
+   "d": "[2H🎉] Adopt Me!",
+   "l": "[2H🎉] Adopt Me! : nom",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.rang": {
    "v": 7,
    "d": "7e",
-   "l": "[3H🎉] Adopt Me! : rang au pic du jour",
+   "l": "[2H🎉] Adopt Me! : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.pic": {
    "v": 233089,
    "d": "233 089",
-   "l": "[3H🎉] Adopt Me! : pic de joueurs simultanés relevé",
+   "l": "[2H🎉] Adopt Me! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.heure_pic": {
    "v": "17:35",
    "d": "17 h 35",
-   "l": "[3H🎉] Adopt Me! : heure (Paris) du pic relevé",
+   "l": "[2H🎉] Adopt Me! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.moy": {
    "v": 150853,
    "d": "150 853",
-   "l": "[3H🎉] Adopt Me! : moyenne des joueurs simultanés sur la journée",
+   "l": "[2H🎉] Adopt Me! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.createur": {
    "v": "Uplift Games",
    "d": "Uplift Games",
-   "l": "[3H🎉] Adopt Me! : créateur",
+   "l": "[2H🎉] Adopt Me! : créateur",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "[3H🎉] Adopt Me! : genre",
+   "l": "[2H🎉] Adopt Me! : genre",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.var_7j": {
    "v": -0.3227,
    "d": "−32,3 %",
-   "l": "[3H🎉] Adopt Me! : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[2H🎉] Adopt Me! : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.moy_7j": {
    "v": 222725,
    "d": "222 725",
-   "l": "[3H🎉] Adopt Me! : moyenne des 7 jours précédents",
+   "l": "[2H🎉] Adopt Me! : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.visites_24h": {
    "v": 9619300,
    "d": "9,62 millions",
-   "l": "[3H🎉] Adopt Me! : visites gagnées en 24 h",
+   "l": "[2H🎉] Adopt Me! : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.visites_total": {
    "v": 45337411166,
    "d": "45,34 milliards",
-   "l": "[3H🎉] Adopt Me! : visites cumulées depuis la création",
+   "l": "[2H🎉] Adopt Me! : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.383310974.note": {
    "v": 0.8639,
    "d": "86,4 %",
-   "l": "[3H🎉] Adopt Me! : part de votes positifs",
+   "l": "[2H🎉] Adopt Me! : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L8"
   },
   "g.6035872082.nom": {
@@ -2691,75 +2691,75 @@
    "src": "data/jours/2026-11-06.csv#L28"
   },
   "g.10155360168.nom": {
-   "v": "Illegal Soccer",
-   "d": "Illegal Soccer",
-   "l": "Illegal Soccer : nom",
+   "v": "[GAMEMODES!] Illegal Soccer",
+   "d": "[GAMEMODES!] Illegal Soccer",
+   "l": "[GAMEMODES!] Illegal Soccer : nom",
    "src": "data/jours/2026-11-06.csv#L29"
   },
   "g.10155360168.rang": {
    "v": 28,
    "d": "28e",
-   "l": "Illegal Soccer : rang au pic du jour",
+   "l": "[GAMEMODES!] Illegal Soccer : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L29"
   },
   "g.10155360168.pic": {
    "v": 46981,
    "d": "46 981",
-   "l": "Illegal Soccer : pic de joueurs simultanés relevé",
+   "l": "[GAMEMODES!] Illegal Soccer : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L29"
   },
   "g.10155360168.heure_pic": {
    "v": "23:26",
    "d": "23 h 26",
-   "l": "Illegal Soccer : heure (Paris) du pic relevé",
+   "l": "[GAMEMODES!] Illegal Soccer : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L29"
   },
   "g.10155360168.moy": {
    "v": 38770,
    "d": "38 770",
-   "l": "Illegal Soccer : moyenne des joueurs simultanés sur la journée",
+   "l": "[GAMEMODES!] Illegal Soccer : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L29"
   },
   "g.10155360168.createur": {
    "v": "Repotted",
    "d": "Repotted",
-   "l": "Illegal Soccer : créateur",
+   "l": "[GAMEMODES!] Illegal Soccer : créateur",
    "src": "data/jours/2026-11-06.csv#L29"
   },
   "g.10155360168.genre": {
    "v": "Sports & Racing",
    "d": "Sport et course",
-   "l": "Illegal Soccer : genre",
+   "l": "[GAMEMODES!] Illegal Soccer : genre",
    "src": "data/jours/2026-11-06.csv#L29"
   },
   "g.10155360168.var_7j": {
    "v": -0.0979,
    "d": "−9,8 %",
-   "l": "Illegal Soccer : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[GAMEMODES!] Illegal Soccer : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L29"
   },
   "g.10155360168.moy_7j": {
    "v": 42979,
    "d": "42 979",
-   "l": "Illegal Soccer : moyenne des 7 jours précédents",
+   "l": "[GAMEMODES!] Illegal Soccer : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L29"
   },
   "g.10155360168.visites_24h": {
    "v": 4360360,
    "d": "4,36 millions",
-   "l": "Illegal Soccer : visites gagnées en 24 h",
+   "l": "[GAMEMODES!] Illegal Soccer : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L29"
   },
   "g.10155360168.visites_total": {
    "v": 291175059,
    "d": "291,18 millions",
-   "l": "Illegal Soccer : visites cumulées depuis la création",
+   "l": "[GAMEMODES!] Illegal Soccer : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L29"
   },
   "g.10155360168.note": {
    "v": 0.8659,
    "d": "86,6 %",
-   "l": "Illegal Soccer : part de votes positifs",
+   "l": "[GAMEMODES!] Illegal Soccer : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L29"
   },
   "g.10762636904.nom": {
@@ -3603,75 +3603,75 @@
    "src": "data/jours/2026-11-06.csv#L41"
   },
   "g.9584852943.nom": {
-   "v": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate",
-   "d": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : nom",
+   "v": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "d": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : nom",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.rang": {
    "v": 41,
    "d": "41e",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
+   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.pic": {
    "v": 36199,
    "d": "36 199",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
+   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.heure_pic": {
    "v": "13:09",
    "d": "13 h 09",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
+   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.moy": {
    "v": 22989,
    "d": "22 989",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
+   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.createur": {
    "v": "SecretVerse Studio",
    "d": "SecretVerse Studio",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : créateur",
+   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : créateur",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : genre",
+   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : genre",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.var_7j": {
    "v": -0.4729,
    "d": "−47,3 %",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.moy_7j": {
    "v": 43616,
    "d": "43 616",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des 7 jours précédents",
+   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.visites_24h": {
    "v": 4309468,
    "d": "4,31 millions",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : visites gagnées en 24 h",
+   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.visites_total": {
    "v": 6661274599,
    "d": "6,66 milliards",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
+   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.9584852943.note": {
    "v": 0.9671,
    "d": "96,7 %",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
+   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L42"
   },
   "g.10769957062.nom": {
@@ -5157,75 +5157,75 @@
    "src": "data/jours/2026-11-06.csv#L64"
   },
   "g.10768284407.nom": {
-   "v": "🚨[ATVS] Bike Universe",
-   "d": "🚨[ATVS] Bike Universe",
-   "l": "🚨[ATVS] Bike Universe : nom",
+   "v": "🚨[QUADS] Bike Universe",
+   "d": "🚨[QUADS] Bike Universe",
+   "l": "🚨[QUADS] Bike Universe : nom",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.rang": {
    "v": 64,
    "d": "64e",
-   "l": "🚨[ATVS] Bike Universe : rang au pic du jour",
+   "l": "🚨[QUADS] Bike Universe : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.pic": {
    "v": 26162,
    "d": "26 162",
-   "l": "🚨[ATVS] Bike Universe : pic de joueurs simultanés relevé",
+   "l": "🚨[QUADS] Bike Universe : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.heure_pic": {
    "v": "19:34",
    "d": "19 h 34",
-   "l": "🚨[ATVS] Bike Universe : heure (Paris) du pic relevé",
+   "l": "🚨[QUADS] Bike Universe : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.moy": {
    "v": 20140,
    "d": "20 140",
-   "l": "🚨[ATVS] Bike Universe : moyenne des joueurs simultanés sur la journée",
+   "l": "🚨[QUADS] Bike Universe : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.createur": {
    "v": "Bike Universe",
    "d": "Bike Universe",
-   "l": "🚨[ATVS] Bike Universe : créateur",
+   "l": "🚨[QUADS] Bike Universe : créateur",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "🚨[ATVS] Bike Universe : genre",
+   "l": "🚨[QUADS] Bike Universe : genre",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.var_7j": {
    "v": -0.3898,
    "d": "−39,0 %",
-   "l": "🚨[ATVS] Bike Universe : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "🚨[QUADS] Bike Universe : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.moy_7j": {
    "v": 33007,
    "d": "33 007",
-   "l": "🚨[ATVS] Bike Universe : moyenne des 7 jours précédents",
+   "l": "🚨[QUADS] Bike Universe : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.visites_24h": {
    "v": 2612602,
    "d": "2,61 millions",
-   "l": "🚨[ATVS] Bike Universe : visites gagnées en 24 h",
+   "l": "🚨[QUADS] Bike Universe : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.visites_total": {
    "v": 71625314,
    "d": "71,63 millions",
-   "l": "🚨[ATVS] Bike Universe : visites cumulées depuis la création",
+   "l": "🚨[QUADS] Bike Universe : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.10768284407.note": {
    "v": 0.8842,
    "d": "88,4 %",
-   "l": "🚨[ATVS] Bike Universe : part de votes positifs",
+   "l": "🚨[QUADS] Bike Universe : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L65"
   },
   "g.5995470825.nom": {
@@ -8157,7 +8157,7 @@
      "valeur": 247227
     },
     {
-     "nom": "[3H🎉] Adopt Me!",
+     "nom": "[2H🎉] Adopt Me!",
      "valeur": 233089
     },
     {
