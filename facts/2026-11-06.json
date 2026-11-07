@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-06",
- "genere": "2026-11-07T07:28:17Z",
+ "genere": "2026-11-07T07:45:59Z",
  "couverture": {
   "releves": 19,
   "attendus": 24
@@ -7023,75 +7023,75 @@
    "src": "data/jours/2026-11-06.csv#L91"
   },
   "g.7436755782.nom": {
-   "v": "[🎃] Grow a Garden 🌶️",
-   "d": "[🎃] Grow a Garden 🌶️",
-   "l": "[🎃] Grow a Garden 🌶️ : nom",
+   "v": "[🐪] Grow a Garden 🌶️",
+   "d": "[🐪] Grow a Garden 🌶️",
+   "l": "[🐪] Grow a Garden 🌶️ : nom",
    "src": "data/jours/2026-11-06.csv#L92"
   },
   "g.7436755782.rang": {
    "v": 91,
    "d": "91e",
-   "l": "[🎃] Grow a Garden 🌶️ : rang au pic du jour",
+   "l": "[🐪] Grow a Garden 🌶️ : rang au pic du jour",
    "src": "data/jours/2026-11-06.csv#L92"
   },
   "g.7436755782.pic": {
    "v": 18568,
    "d": "18 568",
-   "l": "[🎃] Grow a Garden 🌶️ : pic de joueurs simultanés relevé",
+   "l": "[🐪] Grow a Garden 🌶️ : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-06.csv#L92"
   },
   "g.7436755782.heure_pic": {
    "v": "14:31",
    "d": "14 h 31",
-   "l": "[🎃] Grow a Garden 🌶️ : heure (Paris) du pic relevé",
+   "l": "[🐪] Grow a Garden 🌶️ : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-06.csv#L92"
   },
   "g.7436755782.moy": {
    "v": 14167,
    "d": "14 167",
-   "l": "[🎃] Grow a Garden 🌶️ : moyenne des joueurs simultanés sur la journée",
+   "l": "[🐪] Grow a Garden 🌶️ : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-06.csv#L92"
   },
   "g.7436755782.createur": {
    "v": "The Garden Game",
    "d": "The Garden Game",
-   "l": "[🎃] Grow a Garden 🌶️ : créateur",
+   "l": "[🐪] Grow a Garden 🌶️ : créateur",
    "src": "data/jours/2026-11-06.csv#L92"
   },
   "g.7436755782.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🎃] Grow a Garden 🌶️ : genre",
+   "l": "[🐪] Grow a Garden 🌶️ : genre",
    "src": "data/jours/2026-11-06.csv#L92"
   },
   "g.7436755782.var_7j": {
    "v": -0.3042,
    "d": "−30,4 %",
-   "l": "[🎃] Grow a Garden 🌶️ : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🐪] Grow a Garden 🌶️ : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L92"
   },
   "g.7436755782.moy_7j": {
    "v": 20361,
    "d": "20 361",
-   "l": "[🎃] Grow a Garden 🌶️ : moyenne des 7 jours précédents",
+   "l": "[🐪] Grow a Garden 🌶️ : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-06.csv#L92"
   },
   "g.7436755782.visites_24h": {
    "v": 1091610,
    "d": "1,09 million",
-   "l": "[🎃] Grow a Garden 🌶️ : visites gagnées en 24 h",
+   "l": "[🐪] Grow a Garden 🌶️ : visites gagnées en 24 h",
    "src": "data/jours/2026-11-06.csv#L92"
   },
   "g.7436755782.visites_total": {
    "v": 36009060857,
    "d": "36,01 milliards",
-   "l": "[🎃] Grow a Garden 🌶️ : visites cumulées depuis la création",
+   "l": "[🐪] Grow a Garden 🌶️ : visites cumulées depuis la création",
    "src": "data/jours/2026-11-06.csv#L92"
   },
   "g.7436755782.note": {
    "v": 0.8994,
    "d": "89,9 %",
-   "l": "[🎃] Grow a Garden 🌶️ : part de votes positifs",
+   "l": "[🐪] Grow a Garden 🌶️ : part de votes positifs",
    "src": "data/jours/2026-11-06.csv#L92"
   },
   "g.10770197883.nom": {
