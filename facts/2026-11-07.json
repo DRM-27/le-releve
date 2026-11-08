@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-07",
- "genere": "2026-11-08T13:37:59Z",
+ "genere": "2026-11-08T14:07:03Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -2415,81 +2415,81 @@
    "src": "data/jours/2026-11-07.csv#L17"
   },
   "g.10004244222.nom": {
-   "v": "[8x🏄] Kick a Lucky Block",
-   "d": "[8x🏄] Kick a Lucky Block",
-   "l": "[8x🏄] Kick a Lucky Block : nom",
+   "v": "[🏄] Kick a Lucky Block",
+   "d": "[🏄] Kick a Lucky Block",
+   "l": "[🏄] Kick a Lucky Block : nom",
    "src": "data/jours/2026-11-07.csv#L18"
   },
   "g.10004244222.rang": {
    "v": 17,
    "d": "17e",
-   "l": "[8x🏄] Kick a Lucky Block : rang au pic du jour",
+   "l": "[🏄] Kick a Lucky Block : rang au pic du jour",
    "src": "data/jours/2026-11-07.csv#L18"
   },
   "g.10004244222.pic": {
    "v": 134636,
    "d": "134 636",
-   "l": "[8x🏄] Kick a Lucky Block : pic de joueurs simultanés relevé",
+   "l": "[🏄] Kick a Lucky Block : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-07.csv#L18"
   },
   "g.10004244222.heure_pic": {
    "v": "14:38",
    "d": "14 h 38",
-   "l": "[8x🏄] Kick a Lucky Block : heure (Paris) du pic relevé",
+   "l": "[🏄] Kick a Lucky Block : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-07.csv#L18"
   },
   "g.10004244222.moy": {
    "v": 20355,
    "d": "20 355",
-   "l": "[8x🏄] Kick a Lucky Block : moyenne des joueurs simultanés sur la journée",
+   "l": "[🏄] Kick a Lucky Block : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-07.csv#L18"
   },
   "g.10004244222.createur": {
    "v": "No More Flops",
    "d": "No More Flops",
-   "l": "[8x🏄] Kick a Lucky Block : créateur",
+   "l": "[🏄] Kick a Lucky Block : créateur",
    "src": "data/jours/2026-11-07.csv#L18"
   },
   "g.10004244222.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[8x🏄] Kick a Lucky Block : genre",
+   "l": "[🏄] Kick a Lucky Block : genre",
    "src": "data/jours/2026-11-07.csv#L18"
   },
   "g.10004244222.var_veille": {
    "v": 1.0327,
    "d": "+103,3 %",
-   "l": "[8x🏄] Kick a Lucky Block : variation de la moyenne par rapport à la veille",
+   "l": "[🏄] Kick a Lucky Block : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-07.csv#L18"
   },
   "g.10004244222.moy_veille": {
    "v": 10013,
    "d": "10 013",
-   "l": "[8x🏄] Kick a Lucky Block : moyenne de la veille",
+   "l": "[🏄] Kick a Lucky Block : moyenne de la veille",
    "src": "data/jours/2026-11-07.csv#L18"
   },
   "g.10004244222.visites_24h": {
    "v": 2891571,
    "d": "2,89 millions",
-   "l": "[8x🏄] Kick a Lucky Block : visites gagnées en 24 h",
+   "l": "[🏄] Kick a Lucky Block : visites gagnées en 24 h",
    "src": "data/jours/2026-11-07.csv#L18"
   },
   "g.10004244222.visites_total": {
    "v": 1956227286,
    "d": "1,96 milliard",
-   "l": "[8x🏄] Kick a Lucky Block : visites cumulées depuis la création",
+   "l": "[🏄] Kick a Lucky Block : visites cumulées depuis la création",
    "src": "data/jours/2026-11-07.csv#L18"
   },
   "g.10004244222.note": {
    "v": 0.9495,
    "d": "95,0 %",
-   "l": "[8x🏄] Kick a Lucky Block : part de votes positifs",
+   "l": "[🏄] Kick a Lucky Block : part de votes positifs",
    "src": "data/jours/2026-11-07.csv#L18"
   },
   "g.10004244222.rang_veille": {
    "v": 143,
    "d": "143e",
-   "l": "[8x🏄] Kick a Lucky Block : rang la veille",
+   "l": "[🏄] Kick a Lucky Block : rang la veille",
    "src": "data/jours/2026-11-07.csv#L18"
   },
   "g.10771421858.nom": {
@@ -5619,93 +5619,93 @@
    "src": "data/jours/2026-11-07.csv#L54"
   },
   "g.10701622575.nom": {
-   "v": "[🐉30 MINS] Steal an Anime Pack",
-   "d": "[🐉30 MINS] Steal an Anime Pack",
-   "l": "[🐉30 MINS] Steal an Anime Pack : nom",
+   "v": "[🐉NOW] Steal an Anime Pack",
+   "d": "[🐉NOW] Steal an Anime Pack",
+   "l": "[🐉NOW] Steal an Anime Pack : nom",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.rang": {
    "v": 54,
    "d": "54e",
-   "l": "[🐉30 MINS] Steal an Anime Pack : rang au pic du jour",
+   "l": "[🐉NOW] Steal an Anime Pack : rang au pic du jour",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.pic": {
    "v": 44571,
    "d": "44 571",
-   "l": "[🐉30 MINS] Steal an Anime Pack : pic de joueurs simultanés relevé",
+   "l": "[🐉NOW] Steal an Anime Pack : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.heure_pic": {
    "v": "15:59",
    "d": "15 h 59",
-   "l": "[🐉30 MINS] Steal an Anime Pack : heure (Paris) du pic relevé",
+   "l": "[🐉NOW] Steal an Anime Pack : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.moy": {
    "v": 13832,
    "d": "13 832",
-   "l": "[🐉30 MINS] Steal an Anime Pack : moyenne des joueurs simultanés sur la journée",
+   "l": "[🐉NOW] Steal an Anime Pack : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.createur": {
    "v": "Anime Tuff Games",
    "d": "Anime Tuff Games",
-   "l": "[🐉30 MINS] Steal an Anime Pack : créateur",
+   "l": "[🐉NOW] Steal an Anime Pack : créateur",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🐉30 MINS] Steal an Anime Pack : genre",
+   "l": "[🐉NOW] Steal an Anime Pack : genre",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.var_veille": {
    "v": 0.4023,
    "d": "+40,2 %",
-   "l": "[🐉30 MINS] Steal an Anime Pack : variation de la moyenne par rapport à la veille",
+   "l": "[🐉NOW] Steal an Anime Pack : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.moy_veille": {
    "v": 9864,
    "d": "9 864",
-   "l": "[🐉30 MINS] Steal an Anime Pack : moyenne de la veille",
+   "l": "[🐉NOW] Steal an Anime Pack : moyenne de la veille",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.var_7j": {
    "v": 0.5853,
    "d": "+58,5 %",
-   "l": "[🐉30 MINS] Steal an Anime Pack : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🐉NOW] Steal an Anime Pack : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.moy_7j": {
    "v": 8725,
    "d": "8 725",
-   "l": "[🐉30 MINS] Steal an Anime Pack : moyenne des 7 jours précédents",
+   "l": "[🐉NOW] Steal an Anime Pack : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.visites_24h": {
    "v": 1302334,
    "d": "1,3 million",
-   "l": "[🐉30 MINS] Steal an Anime Pack : visites gagnées en 24 h",
+   "l": "[🐉NOW] Steal an Anime Pack : visites gagnées en 24 h",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.visites_total": {
    "v": 10010952,
    "d": "10,01 millions",
-   "l": "[🐉30 MINS] Steal an Anime Pack : visites cumulées depuis la création",
+   "l": "[🐉NOW] Steal an Anime Pack : visites cumulées depuis la création",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.note": {
    "v": 0.9579,
    "d": "95,8 %",
-   "l": "[🐉30 MINS] Steal an Anime Pack : part de votes positifs",
+   "l": "[🐉NOW] Steal an Anime Pack : part de votes positifs",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.rang_veille": {
    "v": 59,
    "d": "59e",
-   "l": "[🐉30 MINS] Steal an Anime Pack : rang la veille",
+   "l": "[🐉NOW] Steal an Anime Pack : rang la veille",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10773425091.nom": {
@@ -9951,8 +9951,8 @@
    "src": "data/jours/2026-11-07.csv#L14"
   },
   "entree.2.nom": {
-   "v": "[8x🏄] Kick a Lucky Block",
-   "d": "[8x🏄] Kick a Lucky Block",
+   "v": "[🏄] Kick a Lucky Block",
+   "d": "[🏄] Kick a Lucky Block",
    "l": "Entrée n° 2 : nom",
    "src": "data/jours/2026-11-07.csv#L18"
   },
