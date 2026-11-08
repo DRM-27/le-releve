@@ -785,3 +785,5 @@ ts_utc,type,universe_id,nom,avant,maintenant,variation,rang,rang_avant,releve
 2026-11-08T00:22:12Z,forte_hausse,10771643321,Steal A Balut,11743,18565,0.5809,94,138,data/snapshots/2026/11/08/00.csv
 2026-11-08T00:22:12Z,forte_hausse,8342498724,Heavyweight Fishing,7681,12363,0.6096,139,201,data/snapshots/2026/11/08/00.csv
 2026-11-08T00:22:12Z,forte_hausse,10768026334,[🎨] Hide In Pixels,2010,3150,0.5672,347,418,data/snapshots/2026/11/08/00.csv
+2026-11-08T01:33:40Z,forte_hausse,2027832238,한국 머더,1919,2903,0.5128,363,416,data/snapshots/2026/11/08/01.csv
+2026-11-08T01:33:40Z,forte_hausse,10771403972,Thai Quiz Duels [UPDATES],978,2105,1.1524,416,489,data/snapshots/2026/11/08/01.csv

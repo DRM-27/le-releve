@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-07",
- "genere": "2026-11-08T00:26:00Z",
+ "genere": "2026-11-08T01:34:35Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -3639,81 +3639,81 @@
    "src": "data/jours/2026-11-07.csv#L31"
   },
   "g.10769671316.nom": {
-   "v": "[💡UPD] Survive Your Ideas",
-   "d": "[💡UPD] Survive Your Ideas",
-   "l": "[💡UPD] Survive Your Ideas : nom",
+   "v": "[⭐UPD] Survive Your Ideas",
+   "d": "[⭐UPD] Survive Your Ideas",
+   "l": "[⭐UPD] Survive Your Ideas : nom",
    "src": "data/jours/2026-11-07.csv#L32"
   },
   "g.10769671316.rang": {
    "v": 31,
    "d": "31e",
-   "l": "[💡UPD] Survive Your Ideas : rang au pic du jour",
+   "l": "[⭐UPD] Survive Your Ideas : rang au pic du jour",
    "src": "data/jours/2026-11-07.csv#L32"
   },
   "g.10769671316.pic": {
    "v": 73266,
    "d": "73 266",
-   "l": "[💡UPD] Survive Your Ideas : pic de joueurs simultanés relevé",
+   "l": "[⭐UPD] Survive Your Ideas : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-07.csv#L32"
   },
   "g.10769671316.heure_pic": {
    "v": "18:53",
    "d": "18 h 53",
-   "l": "[💡UPD] Survive Your Ideas : heure (Paris) du pic relevé",
+   "l": "[⭐UPD] Survive Your Ideas : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-07.csv#L32"
   },
   "g.10769671316.moy": {
    "v": 49673,
    "d": "49 673",
-   "l": "[💡UPD] Survive Your Ideas : moyenne des joueurs simultanés sur la journée",
+   "l": "[⭐UPD] Survive Your Ideas : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-07.csv#L32"
   },
   "g.10769671316.createur": {
    "v": "Survive Your Ideas",
    "d": "Survive Your Ideas",
-   "l": "[💡UPD] Survive Your Ideas : créateur",
+   "l": "[⭐UPD] Survive Your Ideas : créateur",
    "src": "data/jours/2026-11-07.csv#L32"
   },
   "g.10769671316.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "[💡UPD] Survive Your Ideas : genre",
+   "l": "[⭐UPD] Survive Your Ideas : genre",
    "src": "data/jours/2026-11-07.csv#L32"
   },
   "g.10769671316.var_veille": {
    "v": 0.0968,
    "d": "+9,7 %",
-   "l": "[💡UPD] Survive Your Ideas : variation de la moyenne par rapport à la veille",
+   "l": "[⭐UPD] Survive Your Ideas : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-07.csv#L32"
   },
   "g.10769671316.moy_veille": {
    "v": 45291,
    "d": "45 291",
-   "l": "[💡UPD] Survive Your Ideas : moyenne de la veille",
+   "l": "[⭐UPD] Survive Your Ideas : moyenne de la veille",
    "src": "data/jours/2026-11-07.csv#L32"
   },
   "g.10769671316.visites_24h": {
    "v": 8899898,
    "d": "8,9 millions",
-   "l": "[💡UPD] Survive Your Ideas : visites gagnées en 24 h",
+   "l": "[⭐UPD] Survive Your Ideas : visites gagnées en 24 h",
    "src": "data/jours/2026-11-07.csv#L32"
   },
   "g.10769671316.visites_total": {
    "v": 17645660,
    "d": "17,65 millions",
-   "l": "[💡UPD] Survive Your Ideas : visites cumulées depuis la création",
+   "l": "[⭐UPD] Survive Your Ideas : visites cumulées depuis la création",
    "src": "data/jours/2026-11-07.csv#L32"
   },
   "g.10769671316.note": {
    "v": 0.8283,
    "d": "82,8 %",
-   "l": "[💡UPD] Survive Your Ideas : part de votes positifs",
+   "l": "[⭐UPD] Survive Your Ideas : part de votes positifs",
    "src": "data/jours/2026-11-07.csv#L32"
   },
   "g.10769671316.rang_veille": {
    "v": 25,
    "d": "25e",
-   "l": "[💡UPD] Survive Your Ideas : rang la veille",
+   "l": "[⭐UPD] Survive Your Ideas : rang la veille",
    "src": "data/jours/2026-11-07.csv#L32"
   },
   "g.4658598196.nom": {
@@ -6207,81 +6207,81 @@
    "src": "data/jours/2026-11-07.csv#L61"
   },
   "g.10700618962.nom": {
-   "v": "[🎃] Blue Lock Farm",
-   "d": "[🎃] Blue Lock Farm",
-   "l": "[🎃] Blue Lock Farm : nom",
+   "v": "[⚽] Blue Lock Farm",
+   "d": "[⚽] Blue Lock Farm",
+   "l": "[⚽] Blue Lock Farm : nom",
    "src": "data/jours/2026-11-07.csv#L62"
   },
   "g.10700618962.rang": {
    "v": 61,
    "d": "61e",
-   "l": "[🎃] Blue Lock Farm : rang au pic du jour",
+   "l": "[⚽] Blue Lock Farm : rang au pic du jour",
    "src": "data/jours/2026-11-07.csv#L62"
   },
   "g.10700618962.pic": {
    "v": 39300,
    "d": "39 300",
-   "l": "[🎃] Blue Lock Farm : pic de joueurs simultanés relevé",
+   "l": "[⚽] Blue Lock Farm : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-07.csv#L62"
   },
   "g.10700618962.heure_pic": {
    "v": "19:20",
    "d": "19 h 20",
-   "l": "[🎃] Blue Lock Farm : heure (Paris) du pic relevé",
+   "l": "[⚽] Blue Lock Farm : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-07.csv#L62"
   },
   "g.10700618962.moy": {
    "v": 8600,
    "d": "8 600",
-   "l": "[🎃] Blue Lock Farm : moyenne des joueurs simultanés sur la journée",
+   "l": "[⚽] Blue Lock Farm : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-07.csv#L62"
   },
   "g.10700618962.createur": {
    "v": "Finding Illusions",
    "d": "Finding Illusions",
-   "l": "[🎃] Blue Lock Farm : créateur",
+   "l": "[⚽] Blue Lock Farm : créateur",
    "src": "data/jours/2026-11-07.csv#L62"
   },
   "g.10700618962.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🎃] Blue Lock Farm : genre",
+   "l": "[⚽] Blue Lock Farm : genre",
    "src": "data/jours/2026-11-07.csv#L62"
   },
   "g.10700618962.var_veille": {
    "v": 0.8115,
    "d": "+81,2 %",
-   "l": "[🎃] Blue Lock Farm : variation de la moyenne par rapport à la veille",
+   "l": "[⚽] Blue Lock Farm : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-07.csv#L62"
   },
   "g.10700618962.moy_veille": {
    "v": 4748,
    "d": "4 748",
-   "l": "[🎃] Blue Lock Farm : moyenne de la veille",
+   "l": "[⚽] Blue Lock Farm : moyenne de la veille",
    "src": "data/jours/2026-11-07.csv#L62"
   },
   "g.10700618962.visites_24h": {
    "v": 737845,
    "d": "737 845",
-   "l": "[🎃] Blue Lock Farm : visites gagnées en 24 h",
+   "l": "[⚽] Blue Lock Farm : visites gagnées en 24 h",
    "src": "data/jours/2026-11-07.csv#L62"
   },
   "g.10700618962.visites_total": {
    "v": 35791036,
    "d": "35,79 millions",
-   "l": "[🎃] Blue Lock Farm : visites cumulées depuis la création",
+   "l": "[⚽] Blue Lock Farm : visites cumulées depuis la création",
    "src": "data/jours/2026-11-07.csv#L62"
   },
   "g.10700618962.note": {
    "v": 0.9806,
    "d": "98,1 %",
-   "l": "[🎃] Blue Lock Farm : part de votes positifs",
+   "l": "[⚽] Blue Lock Farm : part de votes positifs",
    "src": "data/jours/2026-11-07.csv#L62"
   },
   "g.10700618962.rang_veille": {
    "v": 257,
    "d": "257e",
-   "l": "[🎃] Blue Lock Farm : rang la veille",
+   "l": "[⚽] Blue Lock Farm : rang la veille",
    "src": "data/jours/2026-11-07.csv#L62"
   },
   "g.10767138232.nom": {
