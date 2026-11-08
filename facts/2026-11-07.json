@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-07",
- "genere": "2026-11-08T07:46:31Z",
+ "genere": "2026-11-08T08:35:22Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -5271,93 +5271,93 @@
    "src": "data/jours/2026-11-07.csv#L50"
   },
   "g.10629695169.nom": {
-   "v": "✨Tap Simulator REBORN",
-   "d": "✨Tap Simulator REBORN",
-   "l": "✨Tap Simulator REBORN : nom",
+   "v": "[🌎2] Tap Simulator REBORN",
+   "d": "[🌎2] Tap Simulator REBORN",
+   "l": "[🌎2] Tap Simulator REBORN : nom",
    "src": "data/jours/2026-11-07.csv#L51"
   },
   "g.10629695169.rang": {
    "v": 50,
    "d": "50e",
-   "l": "✨Tap Simulator REBORN : rang au pic du jour",
+   "l": "[🌎2] Tap Simulator REBORN : rang au pic du jour",
    "src": "data/jours/2026-11-07.csv#L51"
   },
   "g.10629695169.pic": {
    "v": 46996,
    "d": "46 996",
-   "l": "✨Tap Simulator REBORN : pic de joueurs simultanés relevé",
+   "l": "[🌎2] Tap Simulator REBORN : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-07.csv#L51"
   },
   "g.10629695169.heure_pic": {
    "v": "19:20",
    "d": "19 h 20",
-   "l": "✨Tap Simulator REBORN : heure (Paris) du pic relevé",
+   "l": "[🌎2] Tap Simulator REBORN : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-07.csv#L51"
   },
   "g.10629695169.moy": {
    "v": 36594,
    "d": "36 594",
-   "l": "✨Tap Simulator REBORN : moyenne des joueurs simultanés sur la journée",
+   "l": "[🌎2] Tap Simulator REBORN : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-07.csv#L51"
   },
   "g.10629695169.createur": {
    "v": "Cursor Makers",
    "d": "Cursor Makers",
-   "l": "✨Tap Simulator REBORN : créateur",
+   "l": "[🌎2] Tap Simulator REBORN : créateur",
    "src": "data/jours/2026-11-07.csv#L51"
   },
   "g.10629695169.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "✨Tap Simulator REBORN : genre",
+   "l": "[🌎2] Tap Simulator REBORN : genre",
    "src": "data/jours/2026-11-07.csv#L51"
   },
   "g.10629695169.var_veille": {
    "v": 0.0587,
    "d": "+5,9 %",
-   "l": "✨Tap Simulator REBORN : variation de la moyenne par rapport à la veille",
+   "l": "[🌎2] Tap Simulator REBORN : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-07.csv#L51"
   },
   "g.10629695169.moy_veille": {
    "v": 34566,
    "d": "34 566",
-   "l": "✨Tap Simulator REBORN : moyenne de la veille",
+   "l": "[🌎2] Tap Simulator REBORN : moyenne de la veille",
    "src": "data/jours/2026-11-07.csv#L51"
   },
   "g.10629695169.var_7j": {
    "v": -0.0533,
    "d": "−5,3 %",
-   "l": "✨Tap Simulator REBORN : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🌎2] Tap Simulator REBORN : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-07.csv#L51"
   },
   "g.10629695169.moy_7j": {
    "v": 38652,
    "d": "38 652",
-   "l": "✨Tap Simulator REBORN : moyenne des 7 jours précédents",
+   "l": "[🌎2] Tap Simulator REBORN : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-07.csv#L51"
   },
   "g.10629695169.visites_24h": {
    "v": 1826617,
    "d": "1,83 million",
-   "l": "✨Tap Simulator REBORN : visites gagnées en 24 h",
+   "l": "[🌎2] Tap Simulator REBORN : visites gagnées en 24 h",
    "src": "data/jours/2026-11-07.csv#L51"
   },
   "g.10629695169.visites_total": {
    "v": 45181750,
    "d": "45,18 millions",
-   "l": "✨Tap Simulator REBORN : visites cumulées depuis la création",
+   "l": "[🌎2] Tap Simulator REBORN : visites cumulées depuis la création",
    "src": "data/jours/2026-11-07.csv#L51"
   },
   "g.10629695169.note": {
    "v": 0.9391,
    "d": "93,9 %",
-   "l": "✨Tap Simulator REBORN : part de votes positifs",
+   "l": "[🌎2] Tap Simulator REBORN : part de votes positifs",
    "src": "data/jours/2026-11-07.csv#L51"
   },
   "g.10629695169.rang_veille": {
    "v": 40,
    "d": "40e",
-   "l": "✨Tap Simulator REBORN : rang la veille",
+   "l": "[🌎2] Tap Simulator REBORN : rang la veille",
    "src": "data/jours/2026-11-07.csv#L51"
   },
   "g.703124385.nom": {
@@ -5619,93 +5619,93 @@
    "src": "data/jours/2026-11-07.csv#L54"
   },
   "g.10701622575.nom": {
-   "v": "Steal an Anime Pack",
-   "d": "Steal an Anime Pack",
-   "l": "Steal an Anime Pack : nom",
+   "v": "[🐉6hr] Steal an Anime Pack",
+   "d": "[🐉6hr] Steal an Anime Pack",
+   "l": "[🐉6hr] Steal an Anime Pack : nom",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.rang": {
    "v": 54,
    "d": "54e",
-   "l": "Steal an Anime Pack : rang au pic du jour",
+   "l": "[🐉6hr] Steal an Anime Pack : rang au pic du jour",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.pic": {
    "v": 44571,
    "d": "44 571",
-   "l": "Steal an Anime Pack : pic de joueurs simultanés relevé",
+   "l": "[🐉6hr] Steal an Anime Pack : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.heure_pic": {
    "v": "15:59",
    "d": "15 h 59",
-   "l": "Steal an Anime Pack : heure (Paris) du pic relevé",
+   "l": "[🐉6hr] Steal an Anime Pack : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.moy": {
    "v": 13832,
    "d": "13 832",
-   "l": "Steal an Anime Pack : moyenne des joueurs simultanés sur la journée",
+   "l": "[🐉6hr] Steal an Anime Pack : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.createur": {
    "v": "Anime Tuff Games",
    "d": "Anime Tuff Games",
-   "l": "Steal an Anime Pack : créateur",
+   "l": "[🐉6hr] Steal an Anime Pack : créateur",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "Steal an Anime Pack : genre",
+   "l": "[🐉6hr] Steal an Anime Pack : genre",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.var_veille": {
    "v": 0.4023,
    "d": "+40,2 %",
-   "l": "Steal an Anime Pack : variation de la moyenne par rapport à la veille",
+   "l": "[🐉6hr] Steal an Anime Pack : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.moy_veille": {
    "v": 9864,
    "d": "9 864",
-   "l": "Steal an Anime Pack : moyenne de la veille",
+   "l": "[🐉6hr] Steal an Anime Pack : moyenne de la veille",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.var_7j": {
    "v": 0.5853,
    "d": "+58,5 %",
-   "l": "Steal an Anime Pack : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🐉6hr] Steal an Anime Pack : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.moy_7j": {
    "v": 8725,
    "d": "8 725",
-   "l": "Steal an Anime Pack : moyenne des 7 jours précédents",
+   "l": "[🐉6hr] Steal an Anime Pack : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.visites_24h": {
    "v": 1302334,
    "d": "1,3 million",
-   "l": "Steal an Anime Pack : visites gagnées en 24 h",
+   "l": "[🐉6hr] Steal an Anime Pack : visites gagnées en 24 h",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.visites_total": {
    "v": 10010952,
    "d": "10,01 millions",
-   "l": "Steal an Anime Pack : visites cumulées depuis la création",
+   "l": "[🐉6hr] Steal an Anime Pack : visites cumulées depuis la création",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.note": {
    "v": 0.9579,
    "d": "95,8 %",
-   "l": "Steal an Anime Pack : part de votes positifs",
+   "l": "[🐉6hr] Steal an Anime Pack : part de votes positifs",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.rang_veille": {
    "v": 59,
    "d": "59e",
-   "l": "Steal an Anime Pack : rang la veille",
+   "l": "[🐉6hr] Steal an Anime Pack : rang la veille",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10773425091.nom": {
