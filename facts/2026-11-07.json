@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-07",
- "genere": "2026-11-08T18:21:51Z",
+ "genere": "2026-11-08T19:12:59Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -9687,8 +9687,8 @@
    "src": "data/jours/2026-11-07.csv#L178"
   },
   "hausse.3.nom": {
-   "v": "ZHD : Z 🎃",
-   "d": "ZHD : Z 🎃",
+   "v": "ZHD : Z ",
+   "d": "ZHD : Z ",
    "l": "Hausse n° 3 : nom",
    "src": "data/jours/2026-11-07.csv#L479"
   },
@@ -10217,7 +10217,7 @@
      "valeur": 2.2609
     },
     {
-     "nom": "ZHD : Z 🎃",
+     "nom": "ZHD : Z ",
      "valeur": 2.1517
     },
     {
