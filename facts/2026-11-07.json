@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-07",
- "genere": "2026-11-08T15:57:17Z",
+ "genere": "2026-11-08T16:23:29Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -2751,93 +2751,93 @@
    "src": "data/jours/2026-11-07.csv#L21"
   },
   "g.10762636904.nom": {
-   "v": "[💰X2] Cameraman Tower Defense",
-   "d": "[💰X2] Cameraman Tower Defense",
-   "l": "[💰X2] Cameraman Tower Defense : nom",
+   "v": "[🌟FIX] Cameraman Tower Defense",
+   "d": "[🌟FIX] Cameraman Tower Defense",
+   "l": "[🌟FIX] Cameraman Tower Defense : nom",
    "src": "data/jours/2026-11-07.csv#L22"
   },
   "g.10762636904.rang": {
    "v": 21,
    "d": "21e",
-   "l": "[💰X2] Cameraman Tower Defense : rang au pic du jour",
+   "l": "[🌟FIX] Cameraman Tower Defense : rang au pic du jour",
    "src": "data/jours/2026-11-07.csv#L22"
   },
   "g.10762636904.pic": {
    "v": 101632,
    "d": "101 632",
-   "l": "[💰X2] Cameraman Tower Defense : pic de joueurs simultanés relevé",
+   "l": "[🌟FIX] Cameraman Tower Defense : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-07.csv#L22"
   },
   "g.10762636904.heure_pic": {
    "v": "17:58",
    "d": "17 h 58",
-   "l": "[💰X2] Cameraman Tower Defense : heure (Paris) du pic relevé",
+   "l": "[🌟FIX] Cameraman Tower Defense : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-07.csv#L22"
   },
   "g.10762636904.moy": {
    "v": 49635,
    "d": "49 635",
-   "l": "[💰X2] Cameraman Tower Defense : moyenne des joueurs simultanés sur la journée",
+   "l": "[🌟FIX] Cameraman Tower Defense : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-07.csv#L22"
   },
   "g.10762636904.createur": {
    "v": "Aligators Games",
    "d": "Aligators Games",
-   "l": "[💰X2] Cameraman Tower Defense : créateur",
+   "l": "[🌟FIX] Cameraman Tower Defense : créateur",
    "src": "data/jours/2026-11-07.csv#L22"
   },
   "g.10762636904.genre": {
    "v": "Strategy",
    "d": "Stratégie",
-   "l": "[💰X2] Cameraman Tower Defense : genre",
+   "l": "[🌟FIX] Cameraman Tower Defense : genre",
    "src": "data/jours/2026-11-07.csv#L22"
   },
   "g.10762636904.var_veille": {
    "v": 0.6872,
    "d": "+68,7 %",
-   "l": "[💰X2] Cameraman Tower Defense : variation de la moyenne par rapport à la veille",
+   "l": "[🌟FIX] Cameraman Tower Defense : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-07.csv#L22"
   },
   "g.10762636904.moy_veille": {
    "v": 29418,
    "d": "29 418",
-   "l": "[💰X2] Cameraman Tower Defense : moyenne de la veille",
+   "l": "[🌟FIX] Cameraman Tower Defense : moyenne de la veille",
    "src": "data/jours/2026-11-07.csv#L22"
   },
   "g.10762636904.var_7j": {
    "v": 0.6379,
    "d": "+63,8 %",
-   "l": "[💰X2] Cameraman Tower Defense : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🌟FIX] Cameraman Tower Defense : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-07.csv#L22"
   },
   "g.10762636904.moy_7j": {
    "v": 30303,
    "d": "30 303",
-   "l": "[💰X2] Cameraman Tower Defense : moyenne des 7 jours précédents",
+   "l": "[🌟FIX] Cameraman Tower Defense : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-07.csv#L22"
   },
   "g.10762636904.visites_24h": {
    "v": 7090780,
    "d": "7,09 millions",
-   "l": "[💰X2] Cameraman Tower Defense : visites gagnées en 24 h",
+   "l": "[🌟FIX] Cameraman Tower Defense : visites gagnées en 24 h",
    "src": "data/jours/2026-11-07.csv#L22"
   },
   "g.10762636904.visites_total": {
    "v": 98928998,
    "d": "98,93 millions",
-   "l": "[💰X2] Cameraman Tower Defense : visites cumulées depuis la création",
+   "l": "[🌟FIX] Cameraman Tower Defense : visites cumulées depuis la création",
    "src": "data/jours/2026-11-07.csv#L22"
   },
   "g.10762636904.note": {
    "v": 0.9838,
    "d": "98,4 %",
-   "l": "[💰X2] Cameraman Tower Defense : part de votes positifs",
+   "l": "[🌟FIX] Cameraman Tower Defense : part de votes positifs",
    "src": "data/jours/2026-11-07.csv#L22"
   },
   "g.10762636904.rang_veille": {
    "v": 29,
    "d": "29e",
-   "l": "[💰X2] Cameraman Tower Defense : rang la veille",
+   "l": "[🌟FIX] Cameraman Tower Defense : rang la veille",
    "src": "data/jours/2026-11-07.csv#L22"
   },
   "g.7529591378.nom": {

@@ -4,7 +4,7 @@ chapo: El {{jour.date_courte}}, el n.º 1 conserva su puesto y reúne {{concentr
 jour: 2026-11-06
 type: quotidien
 angle: top
-publie: 2026-11-08T16:57
+publie: 2026-11-08T17:23
 ---
 Lecturas: {{releves.nb}} de {{releves.attendus}} ({{releves.manquants}}), para {{jeux.nb}} juegos seguidos. Entre los juegos que seguimos, el total de jugadores conectados alcanzó {{cumul.pic}} en la lectura más alta, a las {{cumul.pic_heure}}, con una media de {{cumul.moy}} en el día.
 
