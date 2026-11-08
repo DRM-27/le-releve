@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-08",
- "genere": "2026-11-08T23:22:16Z",
+ "genere": "2026-11-08T23:55:34Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -5049,93 +5049,93 @@
    "src": "data/jours/2026-11-08.csv#L47"
   },
   "g.2440500124.nom": {
-   "v": "DOORS 🍬🍭",
-   "d": "DOORS 🍬🍭",
-   "l": "DOORS 🍬🍭 : nom",
+   "v": "DOORS 👁️",
+   "d": "DOORS 👁️",
+   "l": "DOORS 👁️ : nom",
    "src": "data/jours/2026-11-08.csv#L48"
   },
   "g.2440500124.rang": {
    "v": 47,
    "d": "47e",
-   "l": "DOORS 🍬🍭 : rang au pic du jour",
+   "l": "DOORS 👁️ : rang au pic du jour",
    "src": "data/jours/2026-11-08.csv#L48"
   },
   "g.2440500124.pic": {
    "v": 40219,
    "d": "40 219",
-   "l": "DOORS 🍬🍭 : pic de joueurs simultanés relevé",
+   "l": "DOORS 👁️ : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-08.csv#L48"
   },
   "g.2440500124.heure_pic": {
    "v": "17:57",
    "d": "17 h 57",
-   "l": "DOORS 🍬🍭 : heure (Paris) du pic relevé",
+   "l": "DOORS 👁️ : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-08.csv#L48"
   },
   "g.2440500124.moy": {
    "v": 29015,
    "d": "29 015",
-   "l": "DOORS 🍬🍭 : moyenne des joueurs simultanés sur la journée",
+   "l": "DOORS 👁️ : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-08.csv#L48"
   },
   "g.2440500124.createur": {
    "v": "LSPLASH",
    "d": "LSPLASH",
-   "l": "DOORS 🍬🍭 : créateur",
+   "l": "DOORS 👁️ : créateur",
    "src": "data/jours/2026-11-08.csv#L48"
   },
   "g.2440500124.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "DOORS 🍬🍭 : genre",
+   "l": "DOORS 👁️ : genre",
    "src": "data/jours/2026-11-08.csv#L48"
   },
   "g.2440500124.var_veille": {
    "v": -0.105,
    "d": "−10,5 %",
-   "l": "DOORS 🍬🍭 : variation de la moyenne par rapport à la veille",
+   "l": "DOORS 👁️ : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-08.csv#L48"
   },
   "g.2440500124.moy_veille": {
    "v": 32421,
    "d": "32 421",
-   "l": "DOORS 🍬🍭 : moyenne de la veille",
+   "l": "DOORS 👁️ : moyenne de la veille",
    "src": "data/jours/2026-11-08.csv#L48"
   },
   "g.2440500124.var_7j": {
    "v": -0.0752,
    "d": "−7,5 %",
-   "l": "DOORS 🍬🍭 : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "DOORS 👁️ : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-08.csv#L48"
   },
   "g.2440500124.moy_7j": {
    "v": 31376,
    "d": "31 376",
-   "l": "DOORS 🍬🍭 : moyenne des 7 jours précédents",
+   "l": "DOORS 👁️ : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-08.csv#L48"
   },
   "g.2440500124.visites_24h": {
    "v": 3692534,
    "d": "3,69 millions",
-   "l": "DOORS 🍬🍭 : visites gagnées en 24 h",
+   "l": "DOORS 👁️ : visites gagnées en 24 h",
    "src": "data/jours/2026-11-08.csv#L48"
   },
   "g.2440500124.visites_total": {
    "v": 8015458246,
    "d": "8,02 milliards",
-   "l": "DOORS 🍬🍭 : visites cumulées depuis la création",
+   "l": "DOORS 👁️ : visites cumulées depuis la création",
    "src": "data/jours/2026-11-08.csv#L48"
   },
   "g.2440500124.note": {
    "v": 0.9305,
    "d": "93,0 %",
-   "l": "DOORS 🍬🍭 : part de votes positifs",
+   "l": "DOORS 👁️ : part de votes positifs",
    "src": "data/jours/2026-11-08.csv#L48"
   },
   "g.2440500124.rang_veille": {
    "v": 53,
    "d": "53e",
-   "l": "DOORS 🍬🍭 : rang la veille",
+   "l": "DOORS 👁️ : rang la veille",
    "src": "data/jours/2026-11-08.csv#L48"
   },
   "g.10768284407.nom": {

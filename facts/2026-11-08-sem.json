@@ -1,0 +1,438 @@
+{
+ "jour": "2026-11-08-sem",
+ "genere": "2026-11-08T23:55:31Z",
+ "couverture": {
+  "releves": 7,
+  "attendus": 7,
+  "instantane": true
+ },
+ "faits": {
+  "semaine.debut": {
+   "v": "2026-11-02",
+   "d": "2 novembre 2026",
+   "l": "Premier jour de la semaine",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "semaine.fin": {
+   "v": "2026-11-08",
+   "d": "8 novembre 2026",
+   "l": "Dernier jour de la semaine",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "n.top": {
+   "v": 10,
+   "d": "10",
+   "l": "Taille du classement",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.1.nom": {
+   "v": "Steal An Egg",
+   "d": "Steal An Egg",
+   "l": "N° 1 de la semaine : nom",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.1.moy": {
+   "v": 871302,
+   "d": "871 302",
+   "l": "N° 1 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.1.var": {
+   "v": -0.1565103097745093,
+   "d": "−15,7 %",
+   "l": "N° 1 : variation par rapport à la semaine précédente",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.2.nom": {
+   "v": "Brookhaven 🏡RP",
+   "d": "Brookhaven 🏡RP",
+   "l": "N° 2 de la semaine : nom",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.2.moy": {
+   "v": 372187,
+   "d": "372 187",
+   "l": "N° 2 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.2.var": {
+   "v": -0.03903098636434732,
+   "d": "−3,9 %",
+   "l": "N° 2 : variation par rapport à la semaine précédente",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.3.nom": {
+   "v": "[🎃] Blox Fruits",
+   "d": "[🎃] Blox Fruits",
+   "l": "N° 3 de la semaine : nom",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.3.moy": {
+   "v": 302681,
+   "d": "302 681",
+   "l": "N° 3 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.3.var": {
+   "v": 0.6394466286331535,
+   "d": "+63,9 %",
+   "l": "N° 3 : variation par rapport à la semaine précédente",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.4.nom": {
+   "v": "Murder Mystery 2",
+   "d": "Murder Mystery 2",
+   "l": "N° 4 de la semaine : nom",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.4.moy": {
+   "v": 262333,
+   "d": "262 333",
+   "l": "N° 4 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.4.var": {
+   "v": -0.3486489362456815,
+   "d": "−34,9 %",
+   "l": "N° 4 : variation par rapport à la semaine précédente",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.5.nom": {
+   "v": "[⚡] Adopt Me!",
+   "d": "[⚡] Adopt Me!",
+   "l": "N° 5 de la semaine : nom",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.5.moy": {
+   "v": 172429,
+   "d": "172 429",
+   "l": "N° 5 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.5.var": {
+   "v": -0.21795913448455495,
+   "d": "−21,8 %",
+   "l": "N° 5 : variation par rapport à la semaine précédente",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.6.nom": {
+   "v": "Throw Food For Animals",
+   "d": "Throw Food For Animals",
+   "l": "N° 6 de la semaine : nom",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.6.moy": {
+   "v": 162189,
+   "d": "162 189",
+   "l": "N° 6 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.6.var": {
+   "v": 1.6635081208020628,
+   "d": "+166,4 %",
+   "l": "N° 6 : variation par rapport à la semaine précédente",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.7.nom": {
+   "v": "RIVALS",
+   "d": "RIVALS",
+   "l": "N° 7 de la semaine : nom",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.7.moy": {
+   "v": 155147,
+   "d": "155 147",
+   "l": "N° 7 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.7.var": {
+   "v": -0.07229194571248931,
+   "d": "−7,2 %",
+   "l": "N° 7 : variation par rapport à la semaine précédente",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.8.nom": {
+   "v": "99 Nights in the Forest 🔦",
+   "d": "99 Nights in the Forest 🔦",
+   "l": "N° 8 de la semaine : nom",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.8.moy": {
+   "v": 148882,
+   "d": "148 882",
+   "l": "N° 8 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.8.var": {
+   "v": -0.17394457628488957,
+   "d": "−17,4 %",
+   "l": "N° 8 : variation par rapport à la semaine précédente",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.9.nom": {
+   "v": "Break and Steal an Egg",
+   "d": "Break and Steal an Egg",
+   "l": "N° 9 de la semaine : nom",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.9.moy": {
+   "v": 115077,
+   "d": "115 077",
+   "l": "N° 9 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.9.var": {
+   "v": 0.23944442136457433,
+   "d": "+23,9 %",
+   "l": "N° 9 : variation par rapport à la semaine précédente",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.10.nom": {
+   "v": "[💀] Steal a Brainrot",
+   "d": "[💀] Steal a Brainrot",
+   "l": "N° 10 de la semaine : nom",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.10.moy": {
+   "v": 93912,
+   "d": "93 912",
+   "l": "N° 10 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "top.10.var": {
+   "v": -0.6171529939059617,
+   "d": "−61,7 %",
+   "l": "N° 10 : variation par rapport à la semaine précédente",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "hausse.1.nom": {
+   "v": "Throw Food For Animals",
+   "d": "Throw Food For Animals",
+   "l": "Hausse n° 1 : nom",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "hausse.1.var": {
+   "v": 1.6635,
+   "d": "+166,3 %",
+   "l": "Hausse n° 1 : variation hebdomadaire",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "hausse.1.moy": {
+   "v": 162189,
+   "d": "162 189",
+   "l": "Hausse n° 1 : moyenne de la semaine",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "hausse.2.nom": {
+   "v": "Attack on Titan Revolution",
+   "d": "Attack on Titan Revolution",
+   "l": "Hausse n° 2 : nom",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "hausse.2.var": {
+   "v": 1.0023,
+   "d": "+100,2 %",
+   "l": "Hausse n° 2 : variation hebdomadaire",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "hausse.2.moy": {
+   "v": 50163,
+   "d": "50 163",
+   "l": "Hausse n° 2 : moyenne de la semaine",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "hausse.3.nom": {
+   "v": "[☀️UPD 21🏖️] Anime Adventures",
+   "d": "[☀️UPD 21🏖️] Anime Adventures",
+   "l": "Hausse n° 3 : nom",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "hausse.3.var": {
+   "v": 0.853,
+   "d": "+85,3 %",
+   "l": "Hausse n° 3 : variation hebdomadaire",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "hausse.3.moy": {
+   "v": 89045,
+   "d": "89 045",
+   "l": "Hausse n° 3 : moyenne de la semaine",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "hausse.4.nom": {
+   "v": "[🎃] Blox Fruits",
+   "d": "[🎃] Blox Fruits",
+   "l": "Hausse n° 4 : nom",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "hausse.4.var": {
+   "v": 0.6394,
+   "d": "+63,9 %",
+   "l": "Hausse n° 4 : variation hebdomadaire",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "hausse.4.moy": {
+   "v": 302681,
+   "d": "302 681",
+   "l": "Hausse n° 4 : moyenne de la semaine",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "hausse.5.nom": {
+   "v": "[UPD 🎃] Forsaken",
+   "d": "[UPD 🎃] Forsaken",
+   "l": "Hausse n° 5 : nom",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "hausse.5.var": {
+   "v": 0.329,
+   "d": "+32,9 %",
+   "l": "Hausse n° 5 : variation hebdomadaire",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "hausse.5.moy": {
+   "v": 50450,
+   "d": "50 450",
+   "l": "Hausse n° 5 : moyenne de la semaine",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "baisse.1.nom": {
+   "v": "[💀] Steal a Brainrot",
+   "d": "[💀] Steal a Brainrot",
+   "l": "Baisse n° 1 : nom",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "baisse.1.var": {
+   "v": -0.6172,
+   "d": "−61,7 %",
+   "l": "Baisse n° 1 : variation hebdomadaire",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "baisse.1.moy": {
+   "v": 93912,
+   "d": "93 912",
+   "l": "Baisse n° 1 : moyenne de la semaine",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "baisse.2.nom": {
+   "v": "Animal Hospital (Anomaly) 🧪",
+   "d": "Animal Hospital (Anomaly) 🧪",
+   "l": "Baisse n° 2 : nom",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "baisse.2.var": {
+   "v": -0.4686,
+   "d": "−46,9 %",
+   "l": "Baisse n° 2 : variation hebdomadaire",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "baisse.2.moy": {
+   "v": 18777,
+   "d": "18 777",
+   "l": "Baisse n° 2 : moyenne de la semaine",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "baisse.3.nom": {
+   "v": "[🍂] Anime Dice",
+   "d": "[🍂] Anime Dice",
+   "l": "Baisse n° 3 : nom",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "baisse.3.var": {
+   "v": -0.4501,
+   "d": "−45,0 %",
+   "l": "Baisse n° 3 : variation hebdomadaire",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "baisse.3.moy": {
+   "v": 36632,
+   "d": "36 632",
+   "l": "Baisse n° 3 : moyenne de la semaine",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "baisse.4.nom": {
+   "v": "Climb For Animals Eggs🥚",
+   "d": "Climb For Animals Eggs🥚",
+   "l": "Baisse n° 4 : nom",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "baisse.4.var": {
+   "v": -0.4471,
+   "d": "−44,7 %",
+   "l": "Baisse n° 4 : variation hebdomadaire",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "baisse.4.moy": {
+   "v": 18018,
+   "d": "18 018",
+   "l": "Baisse n° 4 : moyenne de la semaine",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "baisse.5.nom": {
+   "v": "DOORS 🍬🍭",
+   "d": "DOORS 🍬🍭",
+   "l": "Baisse n° 5 : nom",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "baisse.5.var": {
+   "v": -0.4024,
+   "d": "−40,2 %",
+   "l": "Baisse n° 5 : variation hebdomadaire",
+   "src": "data/semaines/2026-11-08.csv"
+  },
+  "baisse.5.moy": {
+   "v": 25442,
+   "d": "25 442",
+   "l": "Baisse n° 5 : moyenne de la semaine",
+   "src": "data/semaines/2026-11-08.csv"
+  }
+ },
+ "graphiques": {
+  "top10": {
+   "titre": "Moyenne de joueurs de la semaine, top 10",
+   "unite": "joueurs",
+   "rows": [
+    {
+     "nom": "Steal An Egg",
+     "valeur": 871302
+    },
+    {
+     "nom": "Brookhaven 🏡RP",
+     "valeur": 372187
+    },
+    {
+     "nom": "[🎃] Blox Fruits",
+     "valeur": 302681
+    },
+    {
+     "nom": "Murder Mystery 2",
+     "valeur": 262333
+    },
+    {
+     "nom": "[⚡] Adopt Me!",
+     "valeur": 172429
+    },
+    {
+     "nom": "Throw Food For Animals",
+     "valeur": 162189
+    },
+    {
+     "nom": "RIVALS",
+     "valeur": 155147
+    },
+    {
+     "nom": "99 Nights in the Forest 🔦",
+     "valeur": 148882
+    },
+    {
+     "nom": "Break and Steal an Egg",
+     "valeur": 115077
+    },
+    {
+     "nom": "[💀] Steal a Brainrot",
+     "valeur": 93912
+    }
+   ],
+   "csv": "data/semaines/2026-11-08.csv"
+  }
+ }
+}
