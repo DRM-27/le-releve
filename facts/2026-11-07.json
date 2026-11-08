@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-07",
- "genere": "2026-11-08T14:27:54Z",
+ "genere": "2026-11-08T14:59:18Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -5619,93 +5619,93 @@
    "src": "data/jours/2026-11-07.csv#L54"
   },
   "g.10701622575.nom": {
-   "v": "[🐉NOW] Steal an Anime Pack",
-   "d": "[🐉NOW] Steal an Anime Pack",
-   "l": "[🐉NOW] Steal an Anime Pack : nom",
+   "v": "Steal an Anime Pack",
+   "d": "Steal an Anime Pack",
+   "l": "Steal an Anime Pack : nom",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.rang": {
    "v": 54,
    "d": "54e",
-   "l": "[🐉NOW] Steal an Anime Pack : rang au pic du jour",
+   "l": "Steal an Anime Pack : rang au pic du jour",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.pic": {
    "v": 44571,
    "d": "44 571",
-   "l": "[🐉NOW] Steal an Anime Pack : pic de joueurs simultanés relevé",
+   "l": "Steal an Anime Pack : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.heure_pic": {
    "v": "15:59",
    "d": "15 h 59",
-   "l": "[🐉NOW] Steal an Anime Pack : heure (Paris) du pic relevé",
+   "l": "Steal an Anime Pack : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.moy": {
    "v": 13832,
    "d": "13 832",
-   "l": "[🐉NOW] Steal an Anime Pack : moyenne des joueurs simultanés sur la journée",
+   "l": "Steal an Anime Pack : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.createur": {
    "v": "Anime Tuff Games",
    "d": "Anime Tuff Games",
-   "l": "[🐉NOW] Steal an Anime Pack : créateur",
+   "l": "Steal an Anime Pack : créateur",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🐉NOW] Steal an Anime Pack : genre",
+   "l": "Steal an Anime Pack : genre",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.var_veille": {
    "v": 0.4023,
    "d": "+40,2 %",
-   "l": "[🐉NOW] Steal an Anime Pack : variation de la moyenne par rapport à la veille",
+   "l": "Steal an Anime Pack : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.moy_veille": {
    "v": 9864,
    "d": "9 864",
-   "l": "[🐉NOW] Steal an Anime Pack : moyenne de la veille",
+   "l": "Steal an Anime Pack : moyenne de la veille",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.var_7j": {
    "v": 0.5853,
    "d": "+58,5 %",
-   "l": "[🐉NOW] Steal an Anime Pack : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Steal an Anime Pack : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.moy_7j": {
    "v": 8725,
    "d": "8 725",
-   "l": "[🐉NOW] Steal an Anime Pack : moyenne des 7 jours précédents",
+   "l": "Steal an Anime Pack : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.visites_24h": {
    "v": 1302334,
    "d": "1,3 million",
-   "l": "[🐉NOW] Steal an Anime Pack : visites gagnées en 24 h",
+   "l": "Steal an Anime Pack : visites gagnées en 24 h",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.visites_total": {
    "v": 10010952,
    "d": "10,01 millions",
-   "l": "[🐉NOW] Steal an Anime Pack : visites cumulées depuis la création",
+   "l": "Steal an Anime Pack : visites cumulées depuis la création",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.note": {
    "v": 0.9579,
    "d": "95,8 %",
-   "l": "[🐉NOW] Steal an Anime Pack : part de votes positifs",
+   "l": "Steal an Anime Pack : part de votes positifs",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10701622575.rang_veille": {
    "v": 59,
    "d": "59e",
-   "l": "[🐉NOW] Steal an Anime Pack : rang la veille",
+   "l": "Steal an Anime Pack : rang la veille",
    "src": "data/jours/2026-11-07.csv#L55"
   },
   "g.10773425091.nom": {
@@ -7227,93 +7227,93 @@
    "src": "data/jours/2026-11-07.csv#L73"
   },
   "g.10769315427.nom": {
-   "v": "[🎃] Steal A Pet And Ride It!",
-   "d": "[🎃] Steal A Pet And Ride It!",
-   "l": "[🎃] Steal A Pet And Ride It! : nom",
+   "v": "[🏁] Steal A Pet And Ride It!",
+   "d": "[🏁] Steal A Pet And Ride It!",
+   "l": "[🏁] Steal A Pet And Ride It! : nom",
    "src": "data/jours/2026-11-07.csv#L74"
   },
   "g.10769315427.rang": {
    "v": 73,
    "d": "73e",
-   "l": "[🎃] Steal A Pet And Ride It! : rang au pic du jour",
+   "l": "[🏁] Steal A Pet And Ride It! : rang au pic du jour",
    "src": "data/jours/2026-11-07.csv#L74"
   },
   "g.10769315427.pic": {
    "v": 35274,
    "d": "35 274",
-   "l": "[🎃] Steal A Pet And Ride It! : pic de joueurs simultanés relevé",
+   "l": "[🏁] Steal A Pet And Ride It! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-07.csv#L74"
   },
   "g.10769315427.heure_pic": {
    "v": "13:25",
    "d": "13 h 25",
-   "l": "[🎃] Steal A Pet And Ride It! : heure (Paris) du pic relevé",
+   "l": "[🏁] Steal A Pet And Ride It! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-07.csv#L74"
   },
   "g.10769315427.moy": {
    "v": 27957,
    "d": "27 957",
-   "l": "[🎃] Steal A Pet And Ride It! : moyenne des joueurs simultanés sur la journée",
+   "l": "[🏁] Steal A Pet And Ride It! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-07.csv#L74"
   },
   "g.10769315427.createur": {
    "v": "Snail Riders",
    "d": "Snail Riders",
-   "l": "[🎃] Steal A Pet And Ride It! : créateur",
+   "l": "[🏁] Steal A Pet And Ride It! : créateur",
    "src": "data/jours/2026-11-07.csv#L74"
   },
   "g.10769315427.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🎃] Steal A Pet And Ride It! : genre",
+   "l": "[🏁] Steal A Pet And Ride It! : genre",
    "src": "data/jours/2026-11-07.csv#L74"
   },
   "g.10769315427.var_veille": {
    "v": 0.1853,
    "d": "+18,5 %",
-   "l": "[🎃] Steal A Pet And Ride It! : variation de la moyenne par rapport à la veille",
+   "l": "[🏁] Steal A Pet And Ride It! : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-07.csv#L74"
   },
   "g.10769315427.moy_veille": {
    "v": 23587,
    "d": "23 587",
-   "l": "[🎃] Steal A Pet And Ride It! : moyenne de la veille",
+   "l": "[🏁] Steal A Pet And Ride It! : moyenne de la veille",
    "src": "data/jours/2026-11-07.csv#L74"
   },
   "g.10769315427.var_7j": {
    "v": -0.126,
    "d": "−12,6 %",
-   "l": "[🎃] Steal A Pet And Ride It! : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🏁] Steal A Pet And Ride It! : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-07.csv#L74"
   },
   "g.10769315427.moy_7j": {
    "v": 31987,
    "d": "31 987",
-   "l": "[🎃] Steal A Pet And Ride It! : moyenne des 7 jours précédents",
+   "l": "[🏁] Steal A Pet And Ride It! : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-07.csv#L74"
   },
   "g.10769315427.visites_24h": {
    "v": 2322772,
    "d": "2,32 millions",
-   "l": "[🎃] Steal A Pet And Ride It! : visites gagnées en 24 h",
+   "l": "[🏁] Steal A Pet And Ride It! : visites gagnées en 24 h",
    "src": "data/jours/2026-11-07.csv#L74"
   },
   "g.10769315427.visites_total": {
    "v": 29903540,
    "d": "29,9 millions",
-   "l": "[🎃] Steal A Pet And Ride It! : visites cumulées depuis la création",
+   "l": "[🏁] Steal A Pet And Ride It! : visites cumulées depuis la création",
    "src": "data/jours/2026-11-07.csv#L74"
   },
   "g.10769315427.note": {
    "v": 0.9472,
    "d": "94,7 %",
-   "l": "[🎃] Steal A Pet And Ride It! : part de votes positifs",
+   "l": "[🏁] Steal A Pet And Ride It! : part de votes positifs",
    "src": "data/jours/2026-11-07.csv#L74"
   },
   "g.10769315427.rang_veille": {
    "v": 50,
    "d": "50e",
-   "l": "[🎃] Steal A Pet And Ride It! : rang la veille",
+   "l": "[🏁] Steal A Pet And Ride It! : rang la veille",
    "src": "data/jours/2026-11-07.csv#L74"
   },
   "g.1176784616.nom": {
