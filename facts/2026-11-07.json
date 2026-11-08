@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-07",
- "genere": "2026-11-07T23:55:15Z",
+ "genere": "2026-11-08T00:26:00Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -3975,93 +3975,93 @@
    "src": "data/jours/2026-11-07.csv#L35"
   },
   "g.6701277882.nom": {
-   "v": "[2 HRS] Fish It! 🐟",
-   "d": "[2 HRS] Fish It! 🐟",
-   "l": "[2 HRS] Fish It! 🐟 : nom",
+   "v": "[1 HOUR] Fish It! 🐟",
+   "d": "[1 HOUR] Fish It! 🐟",
+   "l": "[1 HOUR] Fish It! 🐟 : nom",
    "src": "data/jours/2026-11-07.csv#L36"
   },
   "g.6701277882.rang": {
    "v": 35,
    "d": "35e",
-   "l": "[2 HRS] Fish It! 🐟 : rang au pic du jour",
+   "l": "[1 HOUR] Fish It! 🐟 : rang au pic du jour",
    "src": "data/jours/2026-11-07.csv#L36"
   },
   "g.6701277882.pic": {
    "v": 67436,
    "d": "67 436",
-   "l": "[2 HRS] Fish It! 🐟 : pic de joueurs simultanés relevé",
+   "l": "[1 HOUR] Fish It! 🐟 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-07.csv#L36"
   },
   "g.6701277882.heure_pic": {
    "v": "23:56",
    "d": "23 h 56",
-   "l": "[2 HRS] Fish It! 🐟 : heure (Paris) du pic relevé",
+   "l": "[1 HOUR] Fish It! 🐟 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-07.csv#L36"
   },
   "g.6701277882.moy": {
    "v": 64810,
    "d": "64 810",
-   "l": "[2 HRS] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
+   "l": "[1 HOUR] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-07.csv#L36"
   },
   "g.6701277882.createur": {
    "v": "Fish Atelier",
    "d": "Fish Atelier",
-   "l": "[2 HRS] Fish It! 🐟 : créateur",
+   "l": "[1 HOUR] Fish It! 🐟 : créateur",
    "src": "data/jours/2026-11-07.csv#L36"
   },
   "g.6701277882.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[2 HRS] Fish It! 🐟 : genre",
+   "l": "[1 HOUR] Fish It! 🐟 : genre",
    "src": "data/jours/2026-11-07.csv#L36"
   },
   "g.6701277882.var_veille": {
    "v": 0.0261,
    "d": "+2,6 %",
-   "l": "[2 HRS] Fish It! 🐟 : variation de la moyenne par rapport à la veille",
+   "l": "[1 HOUR] Fish It! 🐟 : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-07.csv#L36"
   },
   "g.6701277882.moy_veille": {
    "v": 63164,
    "d": "63 164",
-   "l": "[2 HRS] Fish It! 🐟 : moyenne de la veille",
+   "l": "[1 HOUR] Fish It! 🐟 : moyenne de la veille",
    "src": "data/jours/2026-11-07.csv#L36"
   },
   "g.6701277882.var_7j": {
    "v": 0.0009,
    "d": "+0,1 %",
-   "l": "[2 HRS] Fish It! 🐟 : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[1 HOUR] Fish It! 🐟 : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-07.csv#L36"
   },
   "g.6701277882.moy_7j": {
    "v": 64752,
    "d": "64 752",
-   "l": "[2 HRS] Fish It! 🐟 : moyenne des 7 jours précédents",
+   "l": "[1 HOUR] Fish It! 🐟 : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-07.csv#L36"
   },
   "g.6701277882.visites_24h": {
    "v": 1344571,
    "d": "1,34 million",
-   "l": "[2 HRS] Fish It! 🐟 : visites gagnées en 24 h",
+   "l": "[1 HOUR] Fish It! 🐟 : visites gagnées en 24 h",
    "src": "data/jours/2026-11-07.csv#L36"
   },
   "g.6701277882.visites_total": {
    "v": 4818855550,
    "d": "4,82 milliards",
-   "l": "[2 HRS] Fish It! 🐟 : visites cumulées depuis la création",
+   "l": "[1 HOUR] Fish It! 🐟 : visites cumulées depuis la création",
    "src": "data/jours/2026-11-07.csv#L36"
   },
   "g.6701277882.note": {
    "v": 0.8283,
    "d": "82,8 %",
-   "l": "[2 HRS] Fish It! 🐟 : part de votes positifs",
+   "l": "[1 HOUR] Fish It! 🐟 : part de votes positifs",
    "src": "data/jours/2026-11-07.csv#L36"
   },
   "g.6701277882.rang_veille": {
    "v": 23,
    "d": "23e",
-   "l": "[2 HRS] Fish It! 🐟 : rang la veille",
+   "l": "[1 HOUR] Fish It! 🐟 : rang la veille",
    "src": "data/jours/2026-11-07.csv#L36"
   },
   "g.6325068386.nom": {
@@ -4425,93 +4425,93 @@
    "src": "data/jours/2026-11-07.csv#L40"
   },
   "g.6331902150.nom": {
-   "v": "Forsaken",
-   "d": "Forsaken",
-   "l": "Forsaken : nom",
+   "v": "[UPD 🎃] Forsaken",
+   "d": "[UPD 🎃] Forsaken",
+   "l": "[UPD 🎃] Forsaken : nom",
    "src": "data/jours/2026-11-07.csv#L41"
   },
   "g.6331902150.rang": {
    "v": 40,
    "d": "40e",
-   "l": "Forsaken : rang au pic du jour",
+   "l": "[UPD 🎃] Forsaken : rang au pic du jour",
    "src": "data/jours/2026-11-07.csv#L41"
   },
   "g.6331902150.pic": {
    "v": 60556,
    "d": "60 556",
-   "l": "Forsaken : pic de joueurs simultanés relevé",
+   "l": "[UPD 🎃] Forsaken : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-07.csv#L41"
   },
   "g.6331902150.heure_pic": {
    "v": "15:59",
    "d": "15 h 59",
-   "l": "Forsaken : heure (Paris) du pic relevé",
+   "l": "[UPD 🎃] Forsaken : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-07.csv#L41"
   },
   "g.6331902150.moy": {
    "v": 52409,
    "d": "52 409",
-   "l": "Forsaken : moyenne des joueurs simultanés sur la journée",
+   "l": "[UPD 🎃] Forsaken : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-07.csv#L41"
   },
   "g.6331902150.createur": {
    "v": "Forsaken Dev Team",
    "d": "Forsaken Dev Team",
-   "l": "Forsaken : créateur",
+   "l": "[UPD 🎃] Forsaken : créateur",
    "src": "data/jours/2026-11-07.csv#L41"
   },
   "g.6331902150.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "Forsaken : genre",
+   "l": "[UPD 🎃] Forsaken : genre",
    "src": "data/jours/2026-11-07.csv#L41"
   },
   "g.6331902150.var_veille": {
    "v": 0.5599,
    "d": "+56,0 %",
-   "l": "Forsaken : variation de la moyenne par rapport à la veille",
+   "l": "[UPD 🎃] Forsaken : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-07.csv#L41"
   },
   "g.6331902150.moy_veille": {
    "v": 33598,
    "d": "33 598",
-   "l": "Forsaken : moyenne de la veille",
+   "l": "[UPD 🎃] Forsaken : moyenne de la veille",
    "src": "data/jours/2026-11-07.csv#L41"
   },
   "g.6331902150.var_7j": {
    "v": 0.3521,
    "d": "+35,2 %",
-   "l": "Forsaken : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[UPD 🎃] Forsaken : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-07.csv#L41"
   },
   "g.6331902150.moy_7j": {
    "v": 38760,
    "d": "38 760",
-   "l": "Forsaken : moyenne des 7 jours précédents",
+   "l": "[UPD 🎃] Forsaken : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-07.csv#L41"
   },
   "g.6331902150.visites_24h": {
    "v": 4326907,
    "d": "4,33 millions",
-   "l": "Forsaken : visites gagnées en 24 h",
+   "l": "[UPD 🎃] Forsaken : visites gagnées en 24 h",
    "src": "data/jours/2026-11-07.csv#L41"
   },
   "g.6331902150.visites_total": {
    "v": 5912838438,
    "d": "5,91 milliards",
-   "l": "Forsaken : visites cumulées depuis la création",
+   "l": "[UPD 🎃] Forsaken : visites cumulées depuis la création",
    "src": "data/jours/2026-11-07.csv#L41"
   },
   "g.6331902150.note": {
    "v": 0.8443,
    "d": "84,4 %",
-   "l": "Forsaken : part de votes positifs",
+   "l": "[UPD 🎃] Forsaken : part de votes positifs",
    "src": "data/jours/2026-11-07.csv#L41"
   },
   "g.6331902150.rang_veille": {
    "v": 34,
    "d": "34e",
-   "l": "Forsaken : rang la veille",
+   "l": "[UPD 🎃] Forsaken : rang la veille",
    "src": "data/jours/2026-11-07.csv#L41"
   },
   "g.10768284407.nom": {
