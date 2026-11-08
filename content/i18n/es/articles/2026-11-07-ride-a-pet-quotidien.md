@@ -4,7 +4,7 @@ chapo: El {{jour.date_courte}}, {{entree.1.nom}} entra en el top 50 con un pico 
 jour: 2026-11-07
 type: quotidien
 angle: entree
-publie: 2026-11-08T23:22
+publie: 2026-11-08T23:57
 ---
 Lecturas: {{releves.nb}} de {{releves.attendus}} ({{releves.manquants}}), para {{jeux.nb}} juegos seguidos. Entre los juegos que seguimos, el total de jugadores conectados alcanzó {{cumul.pic}} en la lectura más alta, a las {{cumul.pic_heure}}, con una media de {{cumul.moy}} en el día.
 
