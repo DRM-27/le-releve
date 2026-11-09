@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-09",
- "genere": "2026-11-09T23:05:06Z",
+ "genere": "2026-11-09T23:26:49Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -9033,93 +9033,93 @@
    "src": "data/jours/2026-11-09.csv#L93"
   },
   "g.1516533665.nom": {
-   "v": "Piggy [X2 SEASON XP]",
-   "d": "Piggy [X2 SEASON XP]",
-   "l": "Piggy [X2 SEASON XP] : nom",
+   "v": "Piggy",
+   "d": "Piggy",
+   "l": "Piggy : nom",
    "src": "data/jours/2026-11-09.csv#L94"
   },
   "g.1516533665.rang": {
    "v": 93,
    "d": "93e",
-   "l": "Piggy [X2 SEASON XP] : rang au pic du jour",
+   "l": "Piggy : rang au pic du jour",
    "src": "data/jours/2026-11-09.csv#L94"
   },
   "g.1516533665.pic": {
    "v": 19333,
    "d": "19 333",
-   "l": "Piggy [X2 SEASON XP] : pic de joueurs simultanés relevé",
+   "l": "Piggy : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-09.csv#L94"
   },
   "g.1516533665.heure_pic": {
    "v": "00:54",
    "d": "0 h 54",
-   "l": "Piggy [X2 SEASON XP] : heure (Paris) du pic relevé",
+   "l": "Piggy : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-09.csv#L94"
   },
   "g.1516533665.moy": {
    "v": 7781,
    "d": "7 781",
-   "l": "Piggy [X2 SEASON XP] : moyenne des joueurs simultanés sur la journée",
+   "l": "Piggy : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-09.csv#L94"
   },
   "g.1516533665.createur": {
    "v": "Piggy Dev Team",
    "d": "Piggy Dev Team",
-   "l": "Piggy [X2 SEASON XP] : créateur",
+   "l": "Piggy : créateur",
    "src": "data/jours/2026-11-09.csv#L94"
   },
   "g.1516533665.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "Piggy [X2 SEASON XP] : genre",
+   "l": "Piggy : genre",
    "src": "data/jours/2026-11-09.csv#L94"
   },
   "g.1516533665.var_veille": {
    "v": -0.5151,
    "d": "−51,5 %",
-   "l": "Piggy [X2 SEASON XP] : variation de la moyenne par rapport à la veille",
+   "l": "Piggy : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-09.csv#L94"
   },
   "g.1516533665.moy_veille": {
    "v": 16048,
    "d": "16 048",
-   "l": "Piggy [X2 SEASON XP] : moyenne de la veille",
+   "l": "Piggy : moyenne de la veille",
    "src": "data/jours/2026-11-09.csv#L94"
   },
   "g.1516533665.var_7j": {
    "v": -0.39,
    "d": "−39,0 %",
-   "l": "Piggy [X2 SEASON XP] : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Piggy : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-09.csv#L94"
   },
   "g.1516533665.moy_7j": {
    "v": 12756,
    "d": "12 756",
-   "l": "Piggy [X2 SEASON XP] : moyenne des 7 jours précédents",
+   "l": "Piggy : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-09.csv#L94"
   },
   "g.1516533665.visites_24h": {
    "v": 965530,
    "d": "965 530",
-   "l": "Piggy [X2 SEASON XP] : visites gagnées en 24 h",
+   "l": "Piggy : visites gagnées en 24 h",
    "src": "data/jours/2026-11-09.csv#L94"
   },
   "g.1516533665.visites_total": {
    "v": 14458166463,
    "d": "14,46 milliards",
-   "l": "Piggy [X2 SEASON XP] : visites cumulées depuis la création",
+   "l": "Piggy : visites cumulées depuis la création",
    "src": "data/jours/2026-11-09.csv#L94"
   },
   "g.1516533665.note": {
    "v": 0.9034,
    "d": "90,3 %",
-   "l": "Piggy [X2 SEASON XP] : part de votes positifs",
+   "l": "Piggy : part de votes positifs",
    "src": "data/jours/2026-11-09.csv#L94"
   },
   "g.1516533665.rang_veille": {
    "v": 107,
    "d": "107e",
-   "l": "Piggy [X2 SEASON XP] : rang la veille",
+   "l": "Piggy : rang la veille",
    "src": "data/jours/2026-11-09.csv#L94"
   },
   "g.10771643321.nom": {
