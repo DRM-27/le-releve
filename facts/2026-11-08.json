@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-08",
- "genere": "2026-11-08T23:55:34Z",
+ "genere": "2026-11-09T00:27:30Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -4509,93 +4509,93 @@
    "src": "data/jours/2026-11-08.csv#L41"
   },
   "g.10767380385.nom": {
-   "v": "[💎] Sell Fries! [Anomaly] 🍟",
-   "d": "[💎] Sell Fries! [Anomaly] 🍟",
-   "l": "[💎] Sell Fries! [Anomaly] 🍟 : nom",
+   "v": "Sell Fries! [Anomaly] 🍟",
+   "d": "Sell Fries! [Anomaly] 🍟",
+   "l": "Sell Fries! [Anomaly] 🍟 : nom",
    "src": "data/jours/2026-11-08.csv#L42"
   },
   "g.10767380385.rang": {
    "v": 41,
    "d": "41e",
-   "l": "[💎] Sell Fries! [Anomaly] 🍟 : rang au pic du jour",
+   "l": "Sell Fries! [Anomaly] 🍟 : rang au pic du jour",
    "src": "data/jours/2026-11-08.csv#L42"
   },
   "g.10767380385.pic": {
    "v": 46251,
    "d": "46 251",
-   "l": "[💎] Sell Fries! [Anomaly] 🍟 : pic de joueurs simultanés relevé",
+   "l": "Sell Fries! [Anomaly] 🍟 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-08.csv#L42"
   },
   "g.10767380385.heure_pic": {
    "v": "16:56",
    "d": "16 h 56",
-   "l": "[💎] Sell Fries! [Anomaly] 🍟 : heure (Paris) du pic relevé",
+   "l": "Sell Fries! [Anomaly] 🍟 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-08.csv#L42"
   },
   "g.10767380385.moy": {
    "v": 36355,
    "d": "36 355",
-   "l": "[💎] Sell Fries! [Anomaly] 🍟 : moyenne des joueurs simultanés sur la journée",
+   "l": "Sell Fries! [Anomaly] 🍟 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-08.csv#L42"
   },
   "g.10767380385.createur": {
    "v": "Pharting",
    "d": "Pharting",
-   "l": "[💎] Sell Fries! [Anomaly] 🍟 : créateur",
+   "l": "Sell Fries! [Anomaly] 🍟 : créateur",
    "src": "data/jours/2026-11-08.csv#L42"
   },
   "g.10767380385.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "[💎] Sell Fries! [Anomaly] 🍟 : genre",
+   "l": "Sell Fries! [Anomaly] 🍟 : genre",
    "src": "data/jours/2026-11-08.csv#L42"
   },
   "g.10767380385.var_veille": {
    "v": -0.0059,
    "d": "−0,6 %",
-   "l": "[💎] Sell Fries! [Anomaly] 🍟 : variation de la moyenne par rapport à la veille",
+   "l": "Sell Fries! [Anomaly] 🍟 : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-08.csv#L42"
   },
   "g.10767380385.moy_veille": {
    "v": 36570,
    "d": "36 570",
-   "l": "[💎] Sell Fries! [Anomaly] 🍟 : moyenne de la veille",
+   "l": "Sell Fries! [Anomaly] 🍟 : moyenne de la veille",
    "src": "data/jours/2026-11-08.csv#L42"
   },
   "g.10767380385.var_7j": {
    "v": 0.1811,
    "d": "+18,1 %",
-   "l": "[💎] Sell Fries! [Anomaly] 🍟 : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Sell Fries! [Anomaly] 🍟 : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-08.csv#L42"
   },
   "g.10767380385.moy_7j": {
    "v": 30780,
    "d": "30 780",
-   "l": "[💎] Sell Fries! [Anomaly] 🍟 : moyenne des 7 jours précédents",
+   "l": "Sell Fries! [Anomaly] 🍟 : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-08.csv#L42"
   },
   "g.10767380385.visites_24h": {
    "v": 2947375,
    "d": "2,95 millions",
-   "l": "[💎] Sell Fries! [Anomaly] 🍟 : visites gagnées en 24 h",
+   "l": "Sell Fries! [Anomaly] 🍟 : visites gagnées en 24 h",
    "src": "data/jours/2026-11-08.csv#L42"
   },
   "g.10767380385.visites_total": {
    "v": 109839454,
    "d": "109,84 millions",
-   "l": "[💎] Sell Fries! [Anomaly] 🍟 : visites cumulées depuis la création",
+   "l": "Sell Fries! [Anomaly] 🍟 : visites cumulées depuis la création",
    "src": "data/jours/2026-11-08.csv#L42"
   },
   "g.10767380385.note": {
    "v": 0.8512,
    "d": "85,1 %",
-   "l": "[💎] Sell Fries! [Anomaly] 🍟 : part de votes positifs",
+   "l": "Sell Fries! [Anomaly] 🍟 : part de votes positifs",
    "src": "data/jours/2026-11-08.csv#L42"
   },
   "g.10767380385.rang_veille": {
    "v": 45,
    "d": "45e",
-   "l": "[💎] Sell Fries! [Anomaly] 🍟 : rang la veille",
+   "l": "Sell Fries! [Anomaly] 🍟 : rang la veille",
    "src": "data/jours/2026-11-08.csv#L42"
   },
   "g.10629695169.nom": {
