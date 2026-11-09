@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-08",
- "genere": "2026-11-09T04:49:05Z",
+ "genere": "2026-11-09T05:48:22Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -9375,93 +9375,93 @@
    "src": "data/jours/2026-11-08.csv#L97"
   },
   "g.8719555347.nom": {
-   "v": "[🚧CONSTRUCTION] Southern Mudding 🚜 OffRoading",
-   "d": "[🚧CONSTRUCTION] Southern Mudding 🚜 OffRoading",
-   "l": "[🚧CONSTRUCTION] Southern Mudding 🚜 OffRoading : nom",
+   "v": "[🚧UPD🚧] Southern Mudding 🚜 OffRoading",
+   "d": "[🚧UPD🚧] Southern Mudding 🚜 OffRoading",
+   "l": "[🚧UPD🚧] Southern Mudding 🚜 OffRoading : nom",
    "src": "data/jours/2026-11-08.csv#L98"
   },
   "g.8719555347.rang": {
    "v": 97,
    "d": "97e",
-   "l": "[🚧CONSTRUCTION] Southern Mudding 🚜 OffRoading : rang au pic du jour",
+   "l": "[🚧UPD🚧] Southern Mudding 🚜 OffRoading : rang au pic du jour",
    "src": "data/jours/2026-11-08.csv#L98"
   },
   "g.8719555347.pic": {
    "v": 25626,
    "d": "25 626",
-   "l": "[🚧CONSTRUCTION] Southern Mudding 🚜 OffRoading : pic de joueurs simultanés relevé",
+   "l": "[🚧UPD🚧] Southern Mudding 🚜 OffRoading : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-08.csv#L98"
   },
   "g.8719555347.heure_pic": {
    "v": "16:56",
    "d": "16 h 56",
-   "l": "[🚧CONSTRUCTION] Southern Mudding 🚜 OffRoading : heure (Paris) du pic relevé",
+   "l": "[🚧UPD🚧] Southern Mudding 🚜 OffRoading : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-08.csv#L98"
   },
   "g.8719555347.moy": {
    "v": 21566,
    "d": "21 566",
-   "l": "[🚧CONSTRUCTION] Southern Mudding 🚜 OffRoading : moyenne des joueurs simultanés sur la journée",
+   "l": "[🚧UPD🚧] Southern Mudding 🚜 OffRoading : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-08.csv#L98"
   },
   "g.8719555347.createur": {
    "v": "Southern Mudding",
    "d": "Southern Mudding",
-   "l": "[🚧CONSTRUCTION] Southern Mudding 🚜 OffRoading : créateur",
+   "l": "[🚧UPD🚧] Southern Mudding 🚜 OffRoading : créateur",
    "src": "data/jours/2026-11-08.csv#L98"
   },
   "g.8719555347.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🚧CONSTRUCTION] Southern Mudding 🚜 OffRoading : genre",
+   "l": "[🚧UPD🚧] Southern Mudding 🚜 OffRoading : genre",
    "src": "data/jours/2026-11-08.csv#L98"
   },
   "g.8719555347.var_veille": {
    "v": -0.1572,
    "d": "−15,7 %",
-   "l": "[🚧CONSTRUCTION] Southern Mudding 🚜 OffRoading : variation de la moyenne par rapport à la veille",
+   "l": "[🚧UPD🚧] Southern Mudding 🚜 OffRoading : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-08.csv#L98"
   },
   "g.8719555347.moy_veille": {
    "v": 25589,
    "d": "25 589",
-   "l": "[🚧CONSTRUCTION] Southern Mudding 🚜 OffRoading : moyenne de la veille",
+   "l": "[🚧UPD🚧] Southern Mudding 🚜 OffRoading : moyenne de la veille",
    "src": "data/jours/2026-11-08.csv#L98"
   },
   "g.8719555347.var_7j": {
    "v": 0.4006,
    "d": "+40,1 %",
-   "l": "[🚧CONSTRUCTION] Southern Mudding 🚜 OffRoading : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🚧UPD🚧] Southern Mudding 🚜 OffRoading : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-08.csv#L98"
   },
   "g.8719555347.moy_7j": {
    "v": 15398,
    "d": "15 398",
-   "l": "[🚧CONSTRUCTION] Southern Mudding 🚜 OffRoading : moyenne des 7 jours précédents",
+   "l": "[🚧UPD🚧] Southern Mudding 🚜 OffRoading : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-08.csv#L98"
   },
   "g.8719555347.visites_24h": {
    "v": 2167998,
    "d": "2,17 millions",
-   "l": "[🚧CONSTRUCTION] Southern Mudding 🚜 OffRoading : visites gagnées en 24 h",
+   "l": "[🚧UPD🚧] Southern Mudding 🚜 OffRoading : visites gagnées en 24 h",
    "src": "data/jours/2026-11-08.csv#L98"
   },
   "g.8719555347.visites_total": {
    "v": 491004052,
    "d": "491 millions",
-   "l": "[🚧CONSTRUCTION] Southern Mudding 🚜 OffRoading : visites cumulées depuis la création",
+   "l": "[🚧UPD🚧] Southern Mudding 🚜 OffRoading : visites cumulées depuis la création",
    "src": "data/jours/2026-11-08.csv#L98"
   },
   "g.8719555347.note": {
    "v": 0.9249,
    "d": "92,5 %",
-   "l": "[🚧CONSTRUCTION] Southern Mudding 🚜 OffRoading : part de votes positifs",
+   "l": "[🚧UPD🚧] Southern Mudding 🚜 OffRoading : part de votes positifs",
    "src": "data/jours/2026-11-08.csv#L98"
   },
   "g.8719555347.rang_veille": {
    "v": 79,
    "d": "79e",
-   "l": "[🚧CONSTRUCTION] Southern Mudding 🚜 OffRoading : rang la veille",
+   "l": "[🚧UPD🚧] Southern Mudding 🚜 OffRoading : rang la veille",
    "src": "data/jours/2026-11-08.csv#L98"
   },
   "g.9294074907.nom": {
