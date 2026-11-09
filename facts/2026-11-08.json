@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-08",
- "genere": "2026-11-09T09:49:57Z",
+ "genere": "2026-11-09T10:19:41Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -3117,93 +3117,93 @@
    "src": "data/jours/2026-11-08.csv#L25"
   },
   "g.10772066587.nom": {
-   "v": "[UPD] MALAM SAMA OPAH ",
-   "d": "[UPD] MALAM SAMA OPAH ",
-   "l": "[UPD] MALAM SAMA OPAH  : nom",
+   "v": "MALAM SAMA OPAH ",
+   "d": "MALAM SAMA OPAH ",
+   "l": "MALAM SAMA OPAH  : nom",
    "src": "data/jours/2026-11-08.csv#L26"
   },
   "g.10772066587.rang": {
    "v": 25,
    "d": "25e",
-   "l": "[UPD] MALAM SAMA OPAH  : rang au pic du jour",
+   "l": "MALAM SAMA OPAH  : rang au pic du jour",
    "src": "data/jours/2026-11-08.csv#L26"
   },
   "g.10772066587.pic": {
    "v": 81254,
    "d": "81 254",
-   "l": "[UPD] MALAM SAMA OPAH  : pic de joueurs simultanés relevé",
+   "l": "MALAM SAMA OPAH  : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-08.csv#L26"
   },
   "g.10772066587.heure_pic": {
    "v": "05:37",
    "d": "5 h 37",
-   "l": "[UPD] MALAM SAMA OPAH  : heure (Paris) du pic relevé",
+   "l": "MALAM SAMA OPAH  : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-08.csv#L26"
   },
   "g.10772066587.moy": {
    "v": 36007,
    "d": "36 007",
-   "l": "[UPD] MALAM SAMA OPAH  : moyenne des joueurs simultanés sur la journée",
+   "l": "MALAM SAMA OPAH  : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-08.csv#L26"
   },
   "g.10772066587.createur": {
    "v": "Sabun Studios",
    "d": "Sabun Studios",
-   "l": "[UPD] MALAM SAMA OPAH  : créateur",
+   "l": "MALAM SAMA OPAH  : créateur",
    "src": "data/jours/2026-11-08.csv#L26"
   },
   "g.10772066587.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "[UPD] MALAM SAMA OPAH  : genre",
+   "l": "MALAM SAMA OPAH  : genre",
    "src": "data/jours/2026-11-08.csv#L26"
   },
   "g.10772066587.var_veille": {
    "v": 0.2546,
    "d": "+25,5 %",
-   "l": "[UPD] MALAM SAMA OPAH  : variation de la moyenne par rapport à la veille",
+   "l": "MALAM SAMA OPAH  : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-08.csv#L26"
   },
   "g.10772066587.moy_veille": {
    "v": 28701,
    "d": "28 701",
-   "l": "[UPD] MALAM SAMA OPAH  : moyenne de la veille",
+   "l": "MALAM SAMA OPAH  : moyenne de la veille",
    "src": "data/jours/2026-11-08.csv#L26"
   },
   "g.10772066587.var_7j": {
    "v": 1.2388,
    "d": "+123,9 %",
-   "l": "[UPD] MALAM SAMA OPAH  : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "MALAM SAMA OPAH  : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-08.csv#L26"
   },
   "g.10772066587.moy_7j": {
    "v": 16083,
    "d": "16 083",
-   "l": "[UPD] MALAM SAMA OPAH  : moyenne des 7 jours précédents",
+   "l": "MALAM SAMA OPAH  : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-08.csv#L26"
   },
   "g.10772066587.visites_24h": {
    "v": 7242713,
    "d": "7,24 millions",
-   "l": "[UPD] MALAM SAMA OPAH  : visites gagnées en 24 h",
+   "l": "MALAM SAMA OPAH  : visites gagnées en 24 h",
    "src": "data/jours/2026-11-08.csv#L26"
   },
   "g.10772066587.visites_total": {
    "v": 30870348,
    "d": "30,87 millions",
-   "l": "[UPD] MALAM SAMA OPAH  : visites cumulées depuis la création",
+   "l": "MALAM SAMA OPAH  : visites cumulées depuis la création",
    "src": "data/jours/2026-11-08.csv#L26"
   },
   "g.10772066587.note": {
    "v": 0.8435,
    "d": "84,4 %",
-   "l": "[UPD] MALAM SAMA OPAH  : part de votes positifs",
+   "l": "MALAM SAMA OPAH  : part de votes positifs",
    "src": "data/jours/2026-11-08.csv#L26"
   },
   "g.10772066587.rang_veille": {
    "v": 46,
    "d": "46e",
-   "l": "[UPD] MALAM SAMA OPAH  : rang la veille",
+   "l": "MALAM SAMA OPAH  : rang la veille",
    "src": "data/jours/2026-11-08.csv#L26"
   },
   "g.7219654364.nom": {
@@ -9837,8 +9837,8 @@
    "src": "data/jours/2026-11-08.csv#L178"
   },
   "hausse.4.nom": {
-   "v": "[UPD] MALAM SAMA OPAH ",
-   "d": "[UPD] MALAM SAMA OPAH ",
+   "v": "MALAM SAMA OPAH ",
+   "d": "MALAM SAMA OPAH ",
    "l": "Hausse n° 4 : nom",
    "src": "data/jours/2026-11-08.csv#L26"
   },
@@ -10341,7 +10341,7 @@
      "valeur": 1.8104
     },
     {
-     "nom": "[UPD] MALAM SAMA OPAH ",
+     "nom": "MALAM SAMA OPAH ",
      "valeur": 1.2388
     },
     {
