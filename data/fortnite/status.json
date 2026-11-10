@@ -1,33 +1,13 @@
 {
  "dailyAt": "2026-11-10T00:24Z",
- "lastRunAt": "2026-11-10T00:24Z",
+ "lastRunAt": "2026-11-10T01:29Z",
  "dernier": {
   "ecosysteme_nouvelles_heures": 1,
   "genres": 13,
   "classements_ecrits": 1,
-  "nouvelles_iles": 5,
-  "jours_ecrits": 1
+  "nouvelles_iles": 3
  },
- "erreurs": [
-  "429 /islands/0148-0322-5437/metrics/hour/peak-ccu",
-  "429 /islands/0139-8551-5744/metrics/hour/peak-ccu",
-  "429 /islands/0732-1446-3562/metrics/day",
-  "429 /islands/1256-8502-0727/metrics/day",
-  "429 /islands/1798-2026-9632/metrics/hour/peak-ccu",
-  "429 /islands/2325-4055-3398/metrics/hour/peak-ccu",
-  "429 /islands/1256-8502-0727/metrics/hour/peak-ccu",
-  "429 /islands/2612-6723-2084/metrics/day",
-  "429 /islands/3375-3385-7438/metrics/day",
-  "429 /islands/3416-2408-7383/metrics/hour/peak-ccu",
-  "429 /islands/4660-4454-3176/metrics/day",
-  "429 /islands/4773-6741-9721/metrics/day",
-  "429 /islands/5177-3498-9905/metrics/hour/peak-ccu",
-  "429 /islands/7048-8422-2298/metrics/hour/peak-ccu",
-  "429 /islands/7675-2014-0946/metrics/hour/peak-ccu",
-  "429 /islands/7693-2586-8371/metrics/hour/peak-ccu",
-  "429 /islands/8462-8485-8434/metrics/day",
-  "429 /islands/8541-5086-2780/metrics/day"
- ],
- "nbErreurs": 18,
- "ilesSuivies": 3670
+ "erreurs": [],
+ "nbErreurs": 0,
+ "ilesSuivies": 3673
 }
