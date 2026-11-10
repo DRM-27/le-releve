@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-10",
- "genere": "2026-11-10T23:01:05Z",
+ "genere": "2026-11-10T23:22:43Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -4773,93 +4773,93 @@
    "src": "data/jours/2026-11-10.csv#L44"
   },
   "g.372226183.nom": {
-   "v": "Flee the Facility",
-   "d": "Flee the Facility",
-   "l": "Flee the Facility : nom",
+   "v": "🎃Flee the Facility🍁",
+   "d": "🎃Flee the Facility🍁",
+   "l": "🎃Flee the Facility🍁 : nom",
    "src": "data/jours/2026-11-10.csv#L45"
   },
   "g.372226183.rang": {
    "v": 44,
    "d": "44e",
-   "l": "Flee the Facility : rang au pic du jour",
+   "l": "🎃Flee the Facility🍁 : rang au pic du jour",
    "src": "data/jours/2026-11-10.csv#L45"
   },
   "g.372226183.pic": {
    "v": 29647,
    "d": "29 647",
-   "l": "Flee the Facility : pic de joueurs simultanés relevé",
+   "l": "🎃Flee the Facility🍁 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-10.csv#L45"
   },
   "g.372226183.heure_pic": {
    "v": "00:56",
    "d": "0 h 56",
-   "l": "Flee the Facility : heure (Paris) du pic relevé",
+   "l": "🎃Flee the Facility🍁 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-10.csv#L45"
   },
   "g.372226183.moy": {
    "v": 16525,
    "d": "16 525",
-   "l": "Flee the Facility : moyenne des joueurs simultanés sur la journée",
+   "l": "🎃Flee the Facility🍁 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-10.csv#L45"
   },
   "g.372226183.createur": {
    "v": "A.W. Apps",
    "d": "A.W. Apps",
-   "l": "Flee the Facility : créateur",
+   "l": "🎃Flee the Facility🍁 : créateur",
    "src": "data/jours/2026-11-10.csv#L45"
   },
   "g.372226183.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "Flee the Facility : genre",
+   "l": "🎃Flee the Facility🍁 : genre",
    "src": "data/jours/2026-11-10.csv#L45"
   },
   "g.372226183.var_veille": {
    "v": 0.0148,
    "d": "+1,5 %",
-   "l": "Flee the Facility : variation de la moyenne par rapport à la veille",
+   "l": "🎃Flee the Facility🍁 : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-10.csv#L45"
   },
   "g.372226183.moy_veille": {
    "v": 16283,
    "d": "16 283",
-   "l": "Flee the Facility : moyenne de la veille",
+   "l": "🎃Flee the Facility🍁 : moyenne de la veille",
    "src": "data/jours/2026-11-10.csv#L45"
   },
   "g.372226183.var_7j": {
    "v": -0.1502,
    "d": "−15,0 %",
-   "l": "Flee the Facility : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "🎃Flee the Facility🍁 : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-10.csv#L45"
   },
   "g.372226183.moy_7j": {
    "v": 19445,
    "d": "19 445",
-   "l": "Flee the Facility : moyenne des 7 jours précédents",
+   "l": "🎃Flee the Facility🍁 : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-10.csv#L45"
   },
   "g.372226183.visites_24h": {
    "v": 1903997,
    "d": "1,9 million",
-   "l": "Flee the Facility : visites gagnées en 24 h",
+   "l": "🎃Flee the Facility🍁 : visites gagnées en 24 h",
    "src": "data/jours/2026-11-10.csv#L45"
   },
   "g.372226183.visites_total": {
    "v": 6151055763,
    "d": "6,15 milliards",
-   "l": "Flee the Facility : visites cumulées depuis la création",
+   "l": "🎃Flee the Facility🍁 : visites cumulées depuis la création",
    "src": "data/jours/2026-11-10.csv#L45"
   },
   "g.372226183.note": {
    "v": 0.921,
    "d": "92,1 %",
-   "l": "Flee the Facility : part de votes positifs",
+   "l": "🎃Flee the Facility🍁 : part de votes positifs",
    "src": "data/jours/2026-11-10.csv#L45"
   },
   "g.372226183.rang_veille": {
    "v": 45,
    "d": "45e",
-   "l": "Flee the Facility : rang la veille",
+   "l": "🎃Flee the Facility🍁 : rang la veille",
    "src": "data/jours/2026-11-10.csv#L45"
   },
   "g.10772543706.nom": {
