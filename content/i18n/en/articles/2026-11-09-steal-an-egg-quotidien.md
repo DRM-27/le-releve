@@ -4,7 +4,7 @@ chapo: On {{jour.date_courte}}, the No. 1 game held its spot and drew {{concentr
 jour: 2026-11-09
 type: quotidien
 angle: top
-publie: 2026-11-10T08:58
+publie: 2026-11-10T10:14
 ---
 Readings: {{releves.nb}} out of {{releves.attendus}} ({{releves.manquants}}), covering {{jeux.nb}} tracked games. Across the games we track, total concurrent players peaked at {{cumul.pic}} at the highest reading, at {{cumul.pic_heure}}, with a daily average of {{cumul.moy}}.
 
