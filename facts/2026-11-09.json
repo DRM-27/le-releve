@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-09",
- "genere": "2026-11-10T03:10:10Z",
+ "genere": "2026-11-10T03:34:17Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -9951,8 +9951,8 @@
    "src": "data/jours/2026-11-09.csv#L645"
   },
   "baisse.3.nom": {
-   "v": "My Lucky Charm Scoop 🤍  [UPDATE SOON]",
-   "d": "My Lucky Charm Scoop 🤍  [UPDATE SOON]",
+   "v": "🎄 My Lucky Charm Scoop 🤍  [CONSOLE]",
+   "d": "🎄 My Lucky Charm Scoop 🤍  [CONSOLE]",
    "l": "Baisse n° 3 : nom",
    "src": "data/jours/2026-11-09.csv#L550"
   },
@@ -10351,7 +10351,7 @@
      "valeur": -0.7168
     },
     {
-     "nom": "My Lucky Charm Scoop 🤍  [UPDATE SOON]",
+     "nom": "🎄 My Lucky Charm Scoop 🤍  [CONSOLE]",
      "valeur": -0.7749
     },
     {
