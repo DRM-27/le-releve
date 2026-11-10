@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-09",
- "genere": "2026-11-10T15:31:03Z",
+ "genere": "2026-11-10T16:14:47Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -6573,93 +6573,93 @@
    "src": "data/jours/2026-11-09.csv#L65"
   },
   "g.7018190066.nom": {
-   "v": "[👻EVENT] Dead Rails ",
-   "d": "[👻EVENT] Dead Rails ",
-   "l": "[👻EVENT] Dead Rails  : nom",
+   "v": "Dead Rails ",
+   "d": "Dead Rails ",
+   "l": "Dead Rails  : nom",
    "src": "data/jours/2026-11-09.csv#L66"
   },
   "g.7018190066.rang": {
    "v": 65,
    "d": "65e",
-   "l": "[👻EVENT] Dead Rails  : rang au pic du jour",
+   "l": "Dead Rails  : rang au pic du jour",
    "src": "data/jours/2026-11-09.csv#L66"
   },
   "g.7018190066.pic": {
    "v": 24507,
    "d": "24 507",
-   "l": "[👻EVENT] Dead Rails  : pic de joueurs simultanés relevé",
+   "l": "Dead Rails  : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-09.csv#L66"
   },
   "g.7018190066.heure_pic": {
    "v": "00:54",
    "d": "0 h 54",
-   "l": "[👻EVENT] Dead Rails  : heure (Paris) du pic relevé",
+   "l": "Dead Rails  : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-09.csv#L66"
   },
   "g.7018190066.moy": {
    "v": 17501,
    "d": "17 501",
-   "l": "[👻EVENT] Dead Rails  : moyenne des joueurs simultanés sur la journée",
+   "l": "Dead Rails  : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-09.csv#L66"
   },
   "g.7018190066.createur": {
    "v": "RCM Games",
    "d": "RCM Games",
-   "l": "[👻EVENT] Dead Rails  : créateur",
+   "l": "Dead Rails  : créateur",
    "src": "data/jours/2026-11-09.csv#L66"
   },
   "g.7018190066.genre": {
    "v": "Adventure",
    "d": "Aventure",
-   "l": "[👻EVENT] Dead Rails  : genre",
+   "l": "Dead Rails  : genre",
    "src": "data/jours/2026-11-09.csv#L66"
   },
   "g.7018190066.var_veille": {
    "v": -0.4274,
    "d": "−42,7 %",
-   "l": "[👻EVENT] Dead Rails  : variation de la moyenne par rapport à la veille",
+   "l": "Dead Rails  : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-09.csv#L66"
   },
   "g.7018190066.moy_veille": {
    "v": 30563,
    "d": "30 563",
-   "l": "[👻EVENT] Dead Rails  : moyenne de la veille",
+   "l": "Dead Rails  : moyenne de la veille",
    "src": "data/jours/2026-11-09.csv#L66"
   },
   "g.7018190066.var_7j": {
    "v": -0.2629,
    "d": "−26,3 %",
-   "l": "[👻EVENT] Dead Rails  : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Dead Rails  : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-09.csv#L66"
   },
   "g.7018190066.moy_7j": {
    "v": 23743,
    "d": "23 743",
-   "l": "[👻EVENT] Dead Rails  : moyenne des 7 jours précédents",
+   "l": "Dead Rails  : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-09.csv#L66"
   },
   "g.7018190066.visites_24h": {
    "v": 1404908,
    "d": "1,4 million",
-   "l": "[👻EVENT] Dead Rails  : visites gagnées en 24 h",
+   "l": "Dead Rails  : visites gagnées en 24 h",
    "src": "data/jours/2026-11-09.csv#L66"
   },
   "g.7018190066.visites_total": {
    "v": 6650725814,
    "d": "6,65 milliards",
-   "l": "[👻EVENT] Dead Rails  : visites cumulées depuis la création",
+   "l": "Dead Rails  : visites cumulées depuis la création",
    "src": "data/jours/2026-11-09.csv#L66"
   },
   "g.7018190066.note": {
    "v": 0.9254,
    "d": "92,5 %",
-   "l": "[👻EVENT] Dead Rails  : part de votes positifs",
+   "l": "Dead Rails  : part de votes positifs",
    "src": "data/jours/2026-11-09.csv#L66"
   },
   "g.7018190066.rang_veille": {
    "v": 59,
    "d": "59e",
-   "l": "[👻EVENT] Dead Rails  : rang la veille",
+   "l": "Dead Rails  : rang la veille",
    "src": "data/jours/2026-11-09.csv#L66"
   },
   "g.10771997908.nom": {
