@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-09",
- "genere": "2026-11-10T12:40:56Z",
+ "genere": "2026-11-10T13:30:29Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -6315,81 +6315,81 @@
    "src": "data/jours/2026-11-09.csv#L62"
   },
   "g.10771440209.nom": {
-   "v": "[NEW QUEST & MODIFFICATION] Onthel Purwodadi",
-   "d": "[NEW QUEST & MODIFFICATION] Onthel Purwodadi",
-   "l": "[NEW QUEST & MODIFFICATION] Onthel Purwodadi : nom",
+   "v": "[MINI UPDATE & MODIFFICATION] Onthel Purwodadi",
+   "d": "[MINI UPDATE & MODIFFICATION] Onthel Purwodadi",
+   "l": "[MINI UPDATE & MODIFFICATION] Onthel Purwodadi : nom",
    "src": "data/jours/2026-11-09.csv#L63"
   },
   "g.10771440209.rang": {
    "v": 62,
    "d": "62e",
-   "l": "[NEW QUEST & MODIFFICATION] Onthel Purwodadi : rang au pic du jour",
+   "l": "[MINI UPDATE & MODIFFICATION] Onthel Purwodadi : rang au pic du jour",
    "src": "data/jours/2026-11-09.csv#L63"
   },
   "g.10771440209.pic": {
    "v": 24887,
    "d": "24 887",
-   "l": "[NEW QUEST & MODIFFICATION] Onthel Purwodadi : pic de joueurs simultanés relevé",
+   "l": "[MINI UPDATE & MODIFFICATION] Onthel Purwodadi : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-09.csv#L63"
   },
   "g.10771440209.heure_pic": {
    "v": "13:44",
    "d": "13 h 44",
-   "l": "[NEW QUEST & MODIFFICATION] Onthel Purwodadi : heure (Paris) du pic relevé",
+   "l": "[MINI UPDATE & MODIFFICATION] Onthel Purwodadi : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-09.csv#L63"
   },
   "g.10771440209.moy": {
    "v": 10415,
    "d": "10 415",
-   "l": "[NEW QUEST & MODIFFICATION] Onthel Purwodadi : moyenne des joueurs simultanés sur la journée",
+   "l": "[MINI UPDATE & MODIFFICATION] Onthel Purwodadi : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-09.csv#L63"
   },
   "g.10771440209.createur": {
    "v": "unwri79w",
    "d": "unwri79w",
-   "l": "[NEW QUEST & MODIFFICATION] Onthel Purwodadi : créateur",
+   "l": "[MINI UPDATE & MODIFFICATION] Onthel Purwodadi : créateur",
    "src": "data/jours/2026-11-09.csv#L63"
   },
   "g.10771440209.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[NEW QUEST & MODIFFICATION] Onthel Purwodadi : genre",
+   "l": "[MINI UPDATE & MODIFFICATION] Onthel Purwodadi : genre",
    "src": "data/jours/2026-11-09.csv#L63"
   },
   "g.10771440209.var_veille": {
    "v": -0.4264,
    "d": "−42,6 %",
-   "l": "[NEW QUEST & MODIFFICATION] Onthel Purwodadi : variation de la moyenne par rapport à la veille",
+   "l": "[MINI UPDATE & MODIFFICATION] Onthel Purwodadi : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-09.csv#L63"
   },
   "g.10771440209.moy_veille": {
    "v": 18158,
    "d": "18 158",
-   "l": "[NEW QUEST & MODIFFICATION] Onthel Purwodadi : moyenne de la veille",
+   "l": "[MINI UPDATE & MODIFFICATION] Onthel Purwodadi : moyenne de la veille",
    "src": "data/jours/2026-11-09.csv#L63"
   },
   "g.10771440209.visites_24h": {
    "v": 1610236,
    "d": "1,61 million",
-   "l": "[NEW QUEST & MODIFFICATION] Onthel Purwodadi : visites gagnées en 24 h",
+   "l": "[MINI UPDATE & MODIFFICATION] Onthel Purwodadi : visites gagnées en 24 h",
    "src": "data/jours/2026-11-09.csv#L63"
   },
   "g.10771440209.visites_total": {
    "v": 12624593,
    "d": "12,62 millions",
-   "l": "[NEW QUEST & MODIFFICATION] Onthel Purwodadi : visites cumulées depuis la création",
+   "l": "[MINI UPDATE & MODIFFICATION] Onthel Purwodadi : visites cumulées depuis la création",
    "src": "data/jours/2026-11-09.csv#L63"
   },
   "g.10771440209.note": {
    "v": 0.9075,
    "d": "90,8 %",
-   "l": "[NEW QUEST & MODIFFICATION] Onthel Purwodadi : part de votes positifs",
+   "l": "[MINI UPDATE & MODIFFICATION] Onthel Purwodadi : part de votes positifs",
    "src": "data/jours/2026-11-09.csv#L63"
   },
   "g.10771440209.rang_veille": {
    "v": 65,
    "d": "65e",
-   "l": "[NEW QUEST & MODIFFICATION] Onthel Purwodadi : rang la veille",
+   "l": "[MINI UPDATE & MODIFFICATION] Onthel Purwodadi : rang la veille",
    "src": "data/jours/2026-11-09.csv#L63"
   },
   "g.10769315427.nom": {
