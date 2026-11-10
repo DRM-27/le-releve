@@ -4,7 +4,7 @@ chapo: On {{jour.date_courte}}, {{hausse.1.nom}} averaged {{hausse.1.moy}} playe
 jour: 2026-11-08
 type: quotidien
 angle: hausse
-publie: 2026-11-10T04:34
+publie: 2026-11-10T05:15
 ---
 Readings: {{releves.nb}} out of {{releves.attendus}} ({{releves.manquants}}), covering {{jeux.nb}} tracked games. Across the games we track, total concurrent players peaked at {{cumul.pic}} at the highest reading, at {{cumul.pic_heure}}, with a daily average of {{cumul.moy}}.
 

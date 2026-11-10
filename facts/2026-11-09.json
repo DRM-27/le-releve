@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-09",
- "genere": "2026-11-10T03:34:17Z",
+ "genere": "2026-11-10T04:15:34Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -9201,81 +9201,81 @@
    "src": "data/jours/2026-11-09.csv#L95"
   },
   "g.10772281976.nom": {
-   "v": "Unstable SMP FFA [MINECRAFT PVP!]",
-   "d": "Unstable SMP FFA [MINECRAFT PVP!]",
-   "l": "Unstable SMP FFA [MINECRAFT PVP!] : nom",
+   "v": "Unstable SMP FFA [JAVA PVP!]",
+   "d": "Unstable SMP FFA [JAVA PVP!]",
+   "l": "Unstable SMP FFA [JAVA PVP!] : nom",
    "src": "data/jours/2026-11-09.csv#L96"
   },
   "g.10772281976.rang": {
    "v": 95,
    "d": "95e",
-   "l": "Unstable SMP FFA [MINECRAFT PVP!] : rang au pic du jour",
+   "l": "Unstable SMP FFA [JAVA PVP!] : rang au pic du jour",
    "src": "data/jours/2026-11-09.csv#L96"
   },
   "g.10772281976.pic": {
    "v": 18681,
    "d": "18 681",
-   "l": "Unstable SMP FFA [MINECRAFT PVP!] : pic de joueurs simultanés relevé",
+   "l": "Unstable SMP FFA [JAVA PVP!] : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-09.csv#L96"
   },
   "g.10772281976.heure_pic": {
    "v": "17:51",
    "d": "17 h 51",
-   "l": "Unstable SMP FFA [MINECRAFT PVP!] : heure (Paris) du pic relevé",
+   "l": "Unstable SMP FFA [JAVA PVP!] : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-09.csv#L96"
   },
   "g.10772281976.moy": {
    "v": 14155,
    "d": "14 155",
-   "l": "Unstable SMP FFA [MINECRAFT PVP!] : moyenne des joueurs simultanés sur la journée",
+   "l": "Unstable SMP FFA [JAVA PVP!] : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-09.csv#L96"
   },
   "g.10772281976.createur": {
    "v": "[IS] Insomnia Studios",
    "d": "[IS] Insomnia Studios",
-   "l": "Unstable SMP FFA [MINECRAFT PVP!] : créateur",
+   "l": "Unstable SMP FFA [JAVA PVP!] : créateur",
    "src": "data/jours/2026-11-09.csv#L96"
   },
   "g.10772281976.genre": {
    "v": "Action",
    "d": "Action",
-   "l": "Unstable SMP FFA [MINECRAFT PVP!] : genre",
+   "l": "Unstable SMP FFA [JAVA PVP!] : genre",
    "src": "data/jours/2026-11-09.csv#L96"
   },
   "g.10772281976.var_veille": {
    "v": -0.1527,
    "d": "−15,3 %",
-   "l": "Unstable SMP FFA [MINECRAFT PVP!] : variation de la moyenne par rapport à la veille",
+   "l": "Unstable SMP FFA [JAVA PVP!] : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-09.csv#L96"
   },
   "g.10772281976.moy_veille": {
    "v": 16707,
    "d": "16 707",
-   "l": "Unstable SMP FFA [MINECRAFT PVP!] : moyenne de la veille",
+   "l": "Unstable SMP FFA [JAVA PVP!] : moyenne de la veille",
    "src": "data/jours/2026-11-09.csv#L96"
   },
   "g.10772281976.visites_24h": {
    "v": 1303562,
    "d": "1,3 million",
-   "l": "Unstable SMP FFA [MINECRAFT PVP!] : visites gagnées en 24 h",
+   "l": "Unstable SMP FFA [JAVA PVP!] : visites gagnées en 24 h",
    "src": "data/jours/2026-11-09.csv#L96"
   },
   "g.10772281976.visites_total": {
    "v": 4881426,
    "d": "4,88 millions",
-   "l": "Unstable SMP FFA [MINECRAFT PVP!] : visites cumulées depuis la création",
+   "l": "Unstable SMP FFA [JAVA PVP!] : visites cumulées depuis la création",
    "src": "data/jours/2026-11-09.csv#L96"
   },
   "g.10772281976.note": {
    "v": 0.8771,
    "d": "87,7 %",
-   "l": "Unstable SMP FFA [MINECRAFT PVP!] : part de votes positifs",
+   "l": "Unstable SMP FFA [JAVA PVP!] : part de votes positifs",
    "src": "data/jours/2026-11-09.csv#L96"
   },
   "g.10772281976.rang_veille": {
    "v": 114,
    "d": "114e",
-   "l": "Unstable SMP FFA [MINECRAFT PVP!] : rang la veille",
+   "l": "Unstable SMP FFA [JAVA PVP!] : rang la veille",
    "src": "data/jours/2026-11-09.csv#L96"
   },
   "g.10768172922.nom": {
