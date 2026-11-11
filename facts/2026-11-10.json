@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-10",
- "genere": "2026-11-11T12:45:15Z",
+ "genere": "2026-11-11T13:38:09Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -6861,93 +6861,93 @@
    "src": "data/jours/2026-11-10.csv#L68"
   },
   "g.5995470825.nom": {
-   "v": "[🔥NEW MYTHIC] Hypershot",
-   "d": "[🔥NEW MYTHIC] Hypershot",
-   "l": "[🔥NEW MYTHIC] Hypershot : nom",
+   "v": "🔥Hypershot",
+   "d": "🔥Hypershot",
+   "l": "🔥Hypershot : nom",
    "src": "data/jours/2026-11-10.csv#L69"
   },
   "g.5995470825.rang": {
    "v": 68,
    "d": "68e",
-   "l": "[🔥NEW MYTHIC] Hypershot : rang au pic du jour",
+   "l": "🔥Hypershot : rang au pic du jour",
    "src": "data/jours/2026-11-10.csv#L69"
   },
   "g.5995470825.pic": {
    "v": 20675,
    "d": "20 675",
-   "l": "[🔥NEW MYTHIC] Hypershot : pic de joueurs simultanés relevé",
+   "l": "🔥Hypershot : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-10.csv#L69"
   },
   "g.5995470825.heure_pic": {
    "v": "17:34",
    "d": "17 h 34",
-   "l": "[🔥NEW MYTHIC] Hypershot : heure (Paris) du pic relevé",
+   "l": "🔥Hypershot : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-10.csv#L69"
   },
   "g.5995470825.moy": {
    "v": 17958,
    "d": "17 958",
-   "l": "[🔥NEW MYTHIC] Hypershot : moyenne des joueurs simultanés sur la journée",
+   "l": "🔥Hypershot : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-10.csv#L69"
   },
   "g.5995470825.createur": {
    "v": "Frosted Studio",
    "d": "Frosted Studio",
-   "l": "[🔥NEW MYTHIC] Hypershot : créateur",
+   "l": "🔥Hypershot : créateur",
    "src": "data/jours/2026-11-10.csv#L69"
   },
   "g.5995470825.genre": {
    "v": "Shooter",
    "d": "Tir",
-   "l": "[🔥NEW MYTHIC] Hypershot : genre",
+   "l": "🔥Hypershot : genre",
    "src": "data/jours/2026-11-10.csv#L69"
   },
   "g.5995470825.var_veille": {
    "v": -0.0645,
    "d": "−6,5 %",
-   "l": "[🔥NEW MYTHIC] Hypershot : variation de la moyenne par rapport à la veille",
+   "l": "🔥Hypershot : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-10.csv#L69"
   },
   "g.5995470825.moy_veille": {
    "v": 19197,
    "d": "19 197",
-   "l": "[🔥NEW MYTHIC] Hypershot : moyenne de la veille",
+   "l": "🔥Hypershot : moyenne de la veille",
    "src": "data/jours/2026-11-10.csv#L69"
   },
   "g.5995470825.var_7j": {
    "v": -0.2015,
    "d": "−20,2 %",
-   "l": "[🔥NEW MYTHIC] Hypershot : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "🔥Hypershot : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-10.csv#L69"
   },
   "g.5995470825.moy_7j": {
    "v": 22490,
    "d": "22 490",
-   "l": "[🔥NEW MYTHIC] Hypershot : moyenne des 7 jours précédents",
+   "l": "🔥Hypershot : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-10.csv#L69"
   },
   "g.5995470825.visites_24h": {
    "v": 1914222,
    "d": "1,91 million",
-   "l": "[🔥NEW MYTHIC] Hypershot : visites gagnées en 24 h",
+   "l": "🔥Hypershot : visites gagnées en 24 h",
    "src": "data/jours/2026-11-10.csv#L69"
   },
   "g.5995470825.visites_total": {
    "v": 1423247876,
    "d": "1,42 milliard",
-   "l": "[🔥NEW MYTHIC] Hypershot : visites cumulées depuis la création",
+   "l": "🔥Hypershot : visites cumulées depuis la création",
    "src": "data/jours/2026-11-10.csv#L69"
   },
   "g.5995470825.note": {
    "v": 0.9439,
    "d": "94,4 %",
-   "l": "[🔥NEW MYTHIC] Hypershot : part de votes positifs",
+   "l": "🔥Hypershot : part de votes positifs",
    "src": "data/jours/2026-11-10.csv#L69"
   },
   "g.5995470825.rang_veille": {
    "v": 73,
    "d": "73e",
-   "l": "[🔥NEW MYTHIC] Hypershot : rang la veille",
+   "l": "🔥Hypershot : rang la veille",
    "src": "data/jours/2026-11-10.csv#L69"
   },
   "g.1176784616.nom": {
