@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-10",
- "genere": "2026-11-11T19:45:25Z",
+ "genere": "2026-11-11T21:17:00Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -6369,93 +6369,93 @@
    "src": "data/jours/2026-11-10.csv#L62"
   },
   "g.2619619496.nom": {
-   "v": "[🔥2X XP] BedWars",
-   "d": "[🔥2X XP] BedWars",
-   "l": "[🔥2X XP] BedWars : nom",
+   "v": "[🛏️] BedWars",
+   "d": "[🛏️] BedWars",
+   "l": "[🛏️] BedWars : nom",
    "src": "data/jours/2026-11-10.csv#L63"
   },
   "g.2619619496.rang": {
    "v": 62,
    "d": "62e",
-   "l": "[🔥2X XP] BedWars : rang au pic du jour",
+   "l": "[🛏️] BedWars : rang au pic du jour",
    "src": "data/jours/2026-11-10.csv#L63"
   },
   "g.2619619496.pic": {
    "v": 21442,
    "d": "21 442",
-   "l": "[🔥2X XP] BedWars : pic de joueurs simultanés relevé",
+   "l": "[🛏️] BedWars : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-10.csv#L63"
   },
   "g.2619619496.heure_pic": {
    "v": "02:49",
    "d": "2 h 49",
-   "l": "[🔥2X XP] BedWars : heure (Paris) du pic relevé",
+   "l": "[🛏️] BedWars : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-10.csv#L63"
   },
   "g.2619619496.moy": {
    "v": 14441,
    "d": "14 441",
-   "l": "[🔥2X XP] BedWars : moyenne des joueurs simultanés sur la journée",
+   "l": "[🛏️] BedWars : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-10.csv#L63"
   },
   "g.2619619496.createur": {
    "v": "Easy.gg",
    "d": "Easy.gg",
-   "l": "[🔥2X XP] BedWars : créateur",
+   "l": "[🛏️] BedWars : créateur",
    "src": "data/jours/2026-11-10.csv#L63"
   },
   "g.2619619496.genre": {
    "v": "Action",
    "d": "Action",
-   "l": "[🔥2X XP] BedWars : genre",
+   "l": "[🛏️] BedWars : genre",
    "src": "data/jours/2026-11-10.csv#L63"
   },
   "g.2619619496.var_veille": {
    "v": -0.1035,
    "d": "−10,3 %",
-   "l": "[🔥2X XP] BedWars : variation de la moyenne par rapport à la veille",
+   "l": "[🛏️] BedWars : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-10.csv#L63"
   },
   "g.2619619496.moy_veille": {
    "v": 16108,
    "d": "16 108",
-   "l": "[🔥2X XP] BedWars : moyenne de la veille",
+   "l": "[🛏️] BedWars : moyenne de la veille",
    "src": "data/jours/2026-11-10.csv#L63"
   },
   "g.2619619496.var_7j": {
    "v": -0.3599,
    "d": "−36,0 %",
-   "l": "[🔥2X XP] BedWars : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🛏️] BedWars : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-10.csv#L63"
   },
   "g.2619619496.moy_7j": {
    "v": 22559,
    "d": "22 559",
-   "l": "[🔥2X XP] BedWars : moyenne des 7 jours précédents",
+   "l": "[🛏️] BedWars : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-10.csv#L63"
   },
   "g.2619619496.visites_24h": {
    "v": 1510973,
    "d": "1,51 million",
-   "l": "[🔥2X XP] BedWars : visites gagnées en 24 h",
+   "l": "[🛏️] BedWars : visites gagnées en 24 h",
    "src": "data/jours/2026-11-10.csv#L63"
   },
   "g.2619619496.visites_total": {
    "v": 11837528728,
    "d": "11,84 milliards",
-   "l": "[🔥2X XP] BedWars : visites cumulées depuis la création",
+   "l": "[🛏️] BedWars : visites cumulées depuis la création",
    "src": "data/jours/2026-11-10.csv#L63"
   },
   "g.2619619496.note": {
    "v": 0.8231,
    "d": "82,3 %",
-   "l": "[🔥2X XP] BedWars : part de votes positifs",
+   "l": "[🛏️] BedWars : part de votes positifs",
    "src": "data/jours/2026-11-10.csv#L63"
   },
   "g.2619619496.rang_veille": {
    "v": 55,
    "d": "55e",
-   "l": "[🔥2X XP] BedWars : rang la veille",
+   "l": "[🛏️] BedWars : rang la veille",
    "src": "data/jours/2026-11-10.csv#L63"
   },
   "g.10767380385.nom": {
