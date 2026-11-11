@@ -4,7 +4,7 @@ chapo: Em {{jour.date_courte}}, {{entree.1.nom}} entrou no top 50 com pico de {{
 jour: 2026-11-10
 type: quotidien
 angle: entree
-publie: 2026-11-11T04:38
+publie: 2026-11-11T05:21
 ---
 Leituras: {{releves.nb}} de {{releves.attendus}} ({{releves.manquants}}), para {{jeux.nb}} jogos acompanhados. Entre os jogos que acompanhamos, o total de jogadores online chegou a {{cumul.pic}} na leitura mais alta, às {{cumul.pic_heure}}, com média de {{cumul.moy}} no dia.
 
