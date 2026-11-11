@@ -1,18 +1,58 @@
 {
- "genere": "2026-11-11T10:46:14Z",
+ "genere": "2026-11-11T11:21:44Z",
  "periode_jours": 7,
  "pages": [
   {
+   "path": "/le-releve/",
+   "vues": 13
+  },
+  {
    "path": "/le-releve/explorer/",
-   "vues": 20
+   "vues": 9
+  },
+  {
+   "path": "/le-releve/classement/",
+   "vues": 5
+  },
+  {
+   "path": "/le-releve/mentions-legales/",
+   "vues": 2
   },
   {
    "path": "/le-releve/monetisation/",
-   "vues": 20
+   "vues": 2
   },
   {
-   "path": "/le-releve/",
-   "vues": 10
+   "path": "/le-releve/tendances/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/alertes/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/brouillons/2026-11-02-steal-an-egg-quotidien/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/jeux/steal-an-egg-10563114921/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/source/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/brouillons/2026-11-03-steal-an-egg-quotidien/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/articles/2026-11-01-steal-an-egg-quotidien/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/jeux/fake-an-egg-10769384180/",
+   "vues": 1
   }
  ]
 }
