@@ -4,7 +4,7 @@ chapo: On {{jour.date_courte}}, {{entree.1.nom}} entered the top 50 with a peak 
 jour: 2026-11-10
 type: quotidien
 angle: entree
-publie: 2026-11-11T02:29
+publie: 2026-11-11T02:48
 ---
 Readings: {{releves.nb}} out of {{releves.attendus}} ({{releves.manquants}}), covering {{jeux.nb}} tracked games. Across the games we track, total concurrent players peaked at {{cumul.pic}} at the highest reading, at {{cumul.pic_heure}}, with a daily average of {{cumul.moy}}.
 
