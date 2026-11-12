@@ -943,3 +943,5 @@ ts_utc,type,universe_id,nom,avant,maintenant,variation,rang,rang_avant,releve
 2026-11-12T05:45:07Z,forte_hausse,5125369493,Driving Simulator,1423,2189,0.5383,308,411,data/snapshots/2026/11/12/05.csv
 2026-11-12T08:04:31Z,forte_hausse,66654135,Murder Mystery 2,129629,212666,0.6406,4,5,data/snapshots/2026/11/12/08.csv
 2026-11-12T09:22:28Z,forte_hausse,10771303470,الشايب [رعب],2000,3223,0.6115,247,328,data/snapshots/2026/11/12/09.csv
+2026-11-12T09:42:54Z,forte_hausse,2992873140,Emergency Hamburg,2875,4508,0.568,206,256,data/snapshots/2026/11/12/09.csv
+2026-11-12T09:42:54Z,forte_hausse,10767825538,Sarab,2153,3539,0.6438,242,317,data/snapshots/2026/11/12/09.csv
