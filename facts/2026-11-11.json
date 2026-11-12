@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-11",
- "genere": "2026-11-12T17:41:21Z",
+ "genere": "2026-11-12T18:11:32Z",
  "couverture": {
   "releves": 23,
   "attendus": 24
@@ -7527,81 +7527,81 @@
    "src": "data/jours/2026-11-11.csv#L75"
   },
   "g.9867225552.nom": {
-   "v": "[D4C] A Bizarre Run",
-   "d": "[D4C] A Bizarre Run",
-   "l": "[D4C] A Bizarre Run : nom",
+   "v": "A Bizarre Run",
+   "d": "A Bizarre Run",
+   "l": "A Bizarre Run : nom",
    "src": "data/jours/2026-11-11.csv#L76"
   },
   "g.9867225552.rang": {
    "v": 75,
    "d": "75e",
-   "l": "[D4C] A Bizarre Run : rang au pic du jour",
+   "l": "A Bizarre Run : rang au pic du jour",
    "src": "data/jours/2026-11-11.csv#L76"
   },
   "g.9867225552.pic": {
    "v": 21189,
    "d": "21 189",
-   "l": "[D4C] A Bizarre Run : pic de joueurs simultanés relevé",
+   "l": "A Bizarre Run : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-11.csv#L76"
   },
   "g.9867225552.heure_pic": {
    "v": "03:32",
    "d": "3 h 32",
-   "l": "[D4C] A Bizarre Run : heure (Paris) du pic relevé",
+   "l": "A Bizarre Run : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-11.csv#L76"
   },
   "g.9867225552.moy": {
    "v": 16653,
    "d": "16 653",
-   "l": "[D4C] A Bizarre Run : moyenne des joueurs simultanés sur la journée",
+   "l": "A Bizarre Run : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-11.csv#L76"
   },
   "g.9867225552.createur": {
    "v": "A Bizarre Run By Current.",
    "d": "A Bizarre Run By Current.",
-   "l": "[D4C] A Bizarre Run : créateur",
+   "l": "A Bizarre Run : créateur",
    "src": "data/jours/2026-11-11.csv#L76"
   },
   "g.9867225552.genre": {
    "v": "Action",
    "d": "Action",
-   "l": "[D4C] A Bizarre Run : genre",
+   "l": "A Bizarre Run : genre",
    "src": "data/jours/2026-11-11.csv#L76"
   },
   "g.9867225552.var_veille": {
    "v": 0.4577,
    "d": "+45,8 %",
-   "l": "[D4C] A Bizarre Run : variation de la moyenne par rapport à la veille",
+   "l": "A Bizarre Run : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-11.csv#L76"
   },
   "g.9867225552.moy_veille": {
    "v": 11424,
    "d": "11 424",
-   "l": "[D4C] A Bizarre Run : moyenne de la veille",
+   "l": "A Bizarre Run : moyenne de la veille",
    "src": "data/jours/2026-11-11.csv#L76"
   },
   "g.9867225552.visites_24h": {
    "v": 5370084,
    "d": "5,37 millions",
-   "l": "[D4C] A Bizarre Run : visites gagnées en 24 h",
+   "l": "A Bizarre Run : visites gagnées en 24 h",
    "src": "data/jours/2026-11-11.csv#L76"
   },
   "g.9867225552.visites_total": {
    "v": 32323959,
    "d": "32,32 millions",
-   "l": "[D4C] A Bizarre Run : visites cumulées depuis la création",
+   "l": "A Bizarre Run : visites cumulées depuis la création",
    "src": "data/jours/2026-11-11.csv#L76"
   },
   "g.9867225552.note": {
    "v": 0.9746,
    "d": "97,5 %",
-   "l": "[D4C] A Bizarre Run : part de votes positifs",
+   "l": "A Bizarre Run : part de votes positifs",
    "src": "data/jours/2026-11-11.csv#L76"
   },
   "g.9867225552.rang_veille": {
    "v": 91,
    "d": "91e",
-   "l": "[D4C] A Bizarre Run : rang la veille",
+   "l": "A Bizarre Run : rang la veille",
    "src": "data/jours/2026-11-11.csv#L76"
   },
   "g.10772266488.nom": {
