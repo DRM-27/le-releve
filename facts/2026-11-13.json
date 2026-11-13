@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-13",
- "genere": "2026-11-13T23:27:24Z",
+ "genere": "2026-11-13T23:56:51Z",
  "couverture": {
   "releves": 23,
   "attendus": 24
@@ -7083,93 +7083,93 @@
    "src": "data/jours/2026-11-13.csv#L70"
   },
   "g.5995470825.nom": {
-   "v": "🔥Hypershot",
-   "d": "🔥Hypershot",
-   "l": "🔥Hypershot : nom",
+   "v": "[🔥NEW MYTHIC] Hypershot",
+   "d": "[🔥NEW MYTHIC] Hypershot",
+   "l": "[🔥NEW MYTHIC] Hypershot : nom",
    "src": "data/jours/2026-11-13.csv#L71"
   },
   "g.5995470825.rang": {
    "v": 70,
    "d": "70e",
-   "l": "🔥Hypershot : rang au pic du jour",
+   "l": "[🔥NEW MYTHIC] Hypershot : rang au pic du jour",
    "src": "data/jours/2026-11-13.csv#L71"
   },
   "g.5995470825.pic": {
    "v": 23911,
    "d": "23 911",
-   "l": "🔥Hypershot : pic de joueurs simultanés relevé",
+   "l": "[🔥NEW MYTHIC] Hypershot : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-13.csv#L71"
   },
   "g.5995470825.heure_pic": {
    "v": "17:38",
    "d": "17 h 38",
-   "l": "🔥Hypershot : heure (Paris) du pic relevé",
+   "l": "[🔥NEW MYTHIC] Hypershot : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-13.csv#L71"
   },
   "g.5995470825.moy": {
    "v": 19338,
    "d": "19 338",
-   "l": "🔥Hypershot : moyenne des joueurs simultanés sur la journée",
+   "l": "[🔥NEW MYTHIC] Hypershot : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-13.csv#L71"
   },
   "g.5995470825.createur": {
    "v": "Frosted Studio",
    "d": "Frosted Studio",
-   "l": "🔥Hypershot : créateur",
+   "l": "[🔥NEW MYTHIC] Hypershot : créateur",
    "src": "data/jours/2026-11-13.csv#L71"
   },
   "g.5995470825.genre": {
    "v": "Shooter",
    "d": "Tir",
-   "l": "🔥Hypershot : genre",
+   "l": "[🔥NEW MYTHIC] Hypershot : genre",
    "src": "data/jours/2026-11-13.csv#L71"
   },
   "g.5995470825.var_veille": {
    "v": 0.0965,
    "d": "+9,7 %",
-   "l": "🔥Hypershot : variation de la moyenne par rapport à la veille",
+   "l": "[🔥NEW MYTHIC] Hypershot : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-13.csv#L71"
   },
   "g.5995470825.moy_veille": {
    "v": 17636,
    "d": "17 636",
-   "l": "🔥Hypershot : moyenne de la veille",
+   "l": "[🔥NEW MYTHIC] Hypershot : moyenne de la veille",
    "src": "data/jours/2026-11-13.csv#L71"
   },
   "g.5995470825.var_7j": {
    "v": -0.0815,
    "d": "−8,2 %",
-   "l": "🔥Hypershot : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🔥NEW MYTHIC] Hypershot : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L71"
   },
   "g.5995470825.moy_7j": {
    "v": 21054,
    "d": "21 054",
-   "l": "🔥Hypershot : moyenne des 7 jours précédents",
+   "l": "[🔥NEW MYTHIC] Hypershot : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L71"
   },
   "g.5995470825.visites_24h": {
    "v": 1869871,
    "d": "1,87 million",
-   "l": "🔥Hypershot : visites gagnées en 24 h",
+   "l": "[🔥NEW MYTHIC] Hypershot : visites gagnées en 24 h",
    "src": "data/jours/2026-11-13.csv#L71"
   },
   "g.5995470825.visites_total": {
    "v": 1429006309,
    "d": "1,43 milliard",
-   "l": "🔥Hypershot : visites cumulées depuis la création",
+   "l": "[🔥NEW MYTHIC] Hypershot : visites cumulées depuis la création",
    "src": "data/jours/2026-11-13.csv#L71"
   },
   "g.5995470825.note": {
    "v": 0.9439,
    "d": "94,4 %",
-   "l": "🔥Hypershot : part de votes positifs",
+   "l": "[🔥NEW MYTHIC] Hypershot : part de votes positifs",
    "src": "data/jours/2026-11-13.csv#L71"
   },
   "g.5995470825.rang_veille": {
    "v": 70,
    "d": "70e",
-   "l": "🔥Hypershot : rang la veille",
+   "l": "[🔥NEW MYTHIC] Hypershot : rang la veille",
    "src": "data/jours/2026-11-13.csv#L71"
   },
   "g.7671049560.nom": {
@@ -8919,93 +8919,93 @@
    "src": "data/jours/2026-11-13.csv#L91"
   },
   "g.10222476236.nom": {
-   "v": "🎃 Catalog Avatar Runway",
-   "d": "🎃 Catalog Avatar Runway",
-   "l": "🎃 Catalog Avatar Runway : nom",
+   "v": "🎀 Catalog Avatar Runway",
+   "d": "🎀 Catalog Avatar Runway",
+   "l": "🎀 Catalog Avatar Runway : nom",
    "src": "data/jours/2026-11-13.csv#L92"
   },
   "g.10222476236.rang": {
    "v": 91,
    "d": "91e",
-   "l": "🎃 Catalog Avatar Runway : rang au pic du jour",
+   "l": "🎀 Catalog Avatar Runway : rang au pic du jour",
    "src": "data/jours/2026-11-13.csv#L92"
   },
   "g.10222476236.pic": {
    "v": 20607,
    "d": "20 607",
-   "l": "🎃 Catalog Avatar Runway : pic de joueurs simultanés relevé",
+   "l": "🎀 Catalog Avatar Runway : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-13.csv#L92"
   },
   "g.10222476236.heure_pic": {
    "v": "14:58",
    "d": "14 h 58",
-   "l": "🎃 Catalog Avatar Runway : heure (Paris) du pic relevé",
+   "l": "🎀 Catalog Avatar Runway : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-13.csv#L92"
   },
   "g.10222476236.moy": {
    "v": 16156,
    "d": "16 156",
-   "l": "🎃 Catalog Avatar Runway : moyenne des joueurs simultanés sur la journée",
+   "l": "🎀 Catalog Avatar Runway : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-13.csv#L92"
   },
   "g.10222476236.createur": {
    "v": "Context Works",
    "d": "Context Works",
-   "l": "🎃 Catalog Avatar Runway : créateur",
+   "l": "🎀 Catalog Avatar Runway : créateur",
    "src": "data/jours/2026-11-13.csv#L92"
   },
   "g.10222476236.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "🎃 Catalog Avatar Runway : genre",
+   "l": "🎀 Catalog Avatar Runway : genre",
    "src": "data/jours/2026-11-13.csv#L92"
   },
   "g.10222476236.var_veille": {
    "v": 0.133,
    "d": "+13,3 %",
-   "l": "🎃 Catalog Avatar Runway : variation de la moyenne par rapport à la veille",
+   "l": "🎀 Catalog Avatar Runway : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-13.csv#L92"
   },
   "g.10222476236.moy_veille": {
    "v": 14259,
    "d": "14 259",
-   "l": "🎃 Catalog Avatar Runway : moyenne de la veille",
+   "l": "🎀 Catalog Avatar Runway : moyenne de la veille",
    "src": "data/jours/2026-11-13.csv#L92"
   },
   "g.10222476236.var_7j": {
    "v": -0.1415,
    "d": "−14,1 %",
-   "l": "🎃 Catalog Avatar Runway : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "🎀 Catalog Avatar Runway : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L92"
   },
   "g.10222476236.moy_7j": {
    "v": 18818,
    "d": "18 818",
-   "l": "🎃 Catalog Avatar Runway : moyenne des 7 jours précédents",
+   "l": "🎀 Catalog Avatar Runway : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L92"
   },
   "g.10222476236.visites_24h": {
    "v": 1141116,
    "d": "1,14 million",
-   "l": "🎃 Catalog Avatar Runway : visites gagnées en 24 h",
+   "l": "🎀 Catalog Avatar Runway : visites gagnées en 24 h",
    "src": "data/jours/2026-11-13.csv#L92"
   },
   "g.10222476236.visites_total": {
    "v": 84424695,
    "d": "84,42 millions",
-   "l": "🎃 Catalog Avatar Runway : visites cumulées depuis la création",
+   "l": "🎀 Catalog Avatar Runway : visites cumulées depuis la création",
    "src": "data/jours/2026-11-13.csv#L92"
   },
   "g.10222476236.note": {
    "v": 0.9202,
    "d": "92,0 %",
-   "l": "🎃 Catalog Avatar Runway : part de votes positifs",
+   "l": "🎀 Catalog Avatar Runway : part de votes positifs",
    "src": "data/jours/2026-11-13.csv#L92"
   },
   "g.10222476236.rang_veille": {
    "v": 92,
    "d": "92e",
-   "l": "🎃 Catalog Avatar Runway : rang la veille",
+   "l": "🎀 Catalog Avatar Runway : rang la veille",
    "src": "data/jours/2026-11-13.csv#L92"
   },
   "g.10771440209.nom": {
