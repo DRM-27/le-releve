@@ -1,14 +1,10 @@
 {
- "genere": "2026-11-13T21:33:46Z",
+ "genere": "2026-11-13T22:06:51Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/le-releve/",
-   "vues": 6
-  },
-  {
-   "path": "/le-releve/explorer/",
-   "vues": 2
+   "vues": 5
   },
   {
    "path": "/le-releve/alertes/",
@@ -23,7 +19,7 @@
    "vues": 1
   },
   {
-   "path": "/le-releve/monetisation/",
+   "path": "/le-releve/explorer/",
    "vues": 1
   },
   {

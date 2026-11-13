@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-12",
- "genere": "2026-11-13T21:33:48Z",
+ "genere": "2026-11-13T22:06:54Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -5799,81 +5799,81 @@
    "src": "data/jours/2026-11-12.csv#L56"
   },
   "g.10769969117.nom": {
-   "v": "Low Range: Offroad 4x4 [EARLY ACCESS]",
-   "d": "Low Range: Offroad 4x4 [EARLY ACCESS]",
-   "l": "Low Range: Offroad 4x4 [EARLY ACCESS] : nom",
+   "v": "[UPDATE] Low Range: Offroad 4x4 [EARLY ACCESS]",
+   "d": "[UPDATE] Low Range: Offroad 4x4 [EARLY ACCESS]",
+   "l": "[UPDATE] Low Range: Offroad 4x4 [EARLY ACCESS] : nom",
    "src": "data/jours/2026-11-12.csv#L57"
   },
   "g.10769969117.rang": {
    "v": 56,
    "d": "56e",
-   "l": "Low Range: Offroad 4x4 [EARLY ACCESS] : rang au pic du jour",
+   "l": "[UPDATE] Low Range: Offroad 4x4 [EARLY ACCESS] : rang au pic du jour",
    "src": "data/jours/2026-11-12.csv#L57"
   },
   "g.10769969117.pic": {
    "v": 23377,
    "d": "23 377",
-   "l": "Low Range: Offroad 4x4 [EARLY ACCESS] : pic de joueurs simultanés relevé",
+   "l": "[UPDATE] Low Range: Offroad 4x4 [EARLY ACCESS] : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-12.csv#L57"
   },
   "g.10769969117.heure_pic": {
    "v": "15:00",
    "d": "15 h",
-   "l": "Low Range: Offroad 4x4 [EARLY ACCESS] : heure (Paris) du pic relevé",
+   "l": "[UPDATE] Low Range: Offroad 4x4 [EARLY ACCESS] : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-12.csv#L57"
   },
   "g.10769969117.moy": {
    "v": 12499,
    "d": "12 499",
-   "l": "Low Range: Offroad 4x4 [EARLY ACCESS] : moyenne des joueurs simultanés sur la journée",
+   "l": "[UPDATE] Low Range: Offroad 4x4 [EARLY ACCESS] : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-12.csv#L57"
   },
   "g.10769969117.createur": {
    "v": "MTBAce Studios",
    "d": "MTBAce Studios",
-   "l": "Low Range: Offroad 4x4 [EARLY ACCESS] : créateur",
+   "l": "[UPDATE] Low Range: Offroad 4x4 [EARLY ACCESS] : créateur",
    "src": "data/jours/2026-11-12.csv#L57"
   },
   "g.10769969117.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "Low Range: Offroad 4x4 [EARLY ACCESS] : genre",
+   "l": "[UPDATE] Low Range: Offroad 4x4 [EARLY ACCESS] : genre",
    "src": "data/jours/2026-11-12.csv#L57"
   },
   "g.10769969117.var_veille": {
    "v": 0.1462,
    "d": "+14,6 %",
-   "l": "Low Range: Offroad 4x4 [EARLY ACCESS] : variation de la moyenne par rapport à la veille",
+   "l": "[UPDATE] Low Range: Offroad 4x4 [EARLY ACCESS] : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-12.csv#L57"
   },
   "g.10769969117.moy_veille": {
    "v": 10905,
    "d": "10 905",
-   "l": "Low Range: Offroad 4x4 [EARLY ACCESS] : moyenne de la veille",
+   "l": "[UPDATE] Low Range: Offroad 4x4 [EARLY ACCESS] : moyenne de la veille",
    "src": "data/jours/2026-11-12.csv#L57"
   },
   "g.10769969117.visites_24h": {
    "v": 1184547,
    "d": "1,18 million",
-   "l": "Low Range: Offroad 4x4 [EARLY ACCESS] : visites gagnées en 24 h",
+   "l": "[UPDATE] Low Range: Offroad 4x4 [EARLY ACCESS] : visites gagnées en 24 h",
    "src": "data/jours/2026-11-12.csv#L57"
   },
   "g.10769969117.visites_total": {
    "v": 8620042,
    "d": "8,62 millions",
-   "l": "Low Range: Offroad 4x4 [EARLY ACCESS] : visites cumulées depuis la création",
+   "l": "[UPDATE] Low Range: Offroad 4x4 [EARLY ACCESS] : visites cumulées depuis la création",
    "src": "data/jours/2026-11-12.csv#L57"
   },
   "g.10769969117.note": {
    "v": 0.9376,
    "d": "93,8 %",
-   "l": "Low Range: Offroad 4x4 [EARLY ACCESS] : part de votes positifs",
+   "l": "[UPDATE] Low Range: Offroad 4x4 [EARLY ACCESS] : part de votes positifs",
    "src": "data/jours/2026-11-12.csv#L57"
   },
   "g.10769969117.rang_veille": {
    "v": 113,
    "d": "113e",
-   "l": "Low Range: Offroad 4x4 [EARLY ACCESS] : rang la veille",
+   "l": "[UPDATE] Low Range: Offroad 4x4 [EARLY ACCESS] : rang la veille",
    "src": "data/jours/2026-11-12.csv#L57"
   },
   "g.184199275.nom": {
@@ -9129,93 +9129,93 @@
    "src": "data/jours/2026-11-12.csv#L94"
   },
   "g.9867225552.nom": {
-   "v": "A Bizarre Run",
-   "d": "A Bizarre Run",
-   "l": "A Bizarre Run : nom",
+   "v": "[STAGE 3] A Bizarre Run",
+   "d": "[STAGE 3] A Bizarre Run",
+   "l": "[STAGE 3] A Bizarre Run : nom",
    "src": "data/jours/2026-11-12.csv#L95"
   },
   "g.9867225552.rang": {
    "v": 94,
    "d": "94e",
-   "l": "A Bizarre Run : rang au pic du jour",
+   "l": "[STAGE 3] A Bizarre Run : rang au pic du jour",
    "src": "data/jours/2026-11-12.csv#L95"
   },
   "g.9867225552.pic": {
    "v": 17598,
    "d": "17 598",
-   "l": "A Bizarre Run : pic de joueurs simultanés relevé",
+   "l": "[STAGE 3] A Bizarre Run : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-12.csv#L95"
   },
   "g.9867225552.heure_pic": {
    "v": "00:36",
    "d": "0 h 36",
-   "l": "A Bizarre Run : heure (Paris) du pic relevé",
+   "l": "[STAGE 3] A Bizarre Run : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-12.csv#L95"
   },
   "g.9867225552.moy": {
    "v": 11851,
    "d": "11 851",
-   "l": "A Bizarre Run : moyenne des joueurs simultanés sur la journée",
+   "l": "[STAGE 3] A Bizarre Run : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-12.csv#L95"
   },
   "g.9867225552.createur": {
    "v": "A Bizarre Run By Current.",
    "d": "A Bizarre Run By Current.",
-   "l": "A Bizarre Run : créateur",
+   "l": "[STAGE 3] A Bizarre Run : créateur",
    "src": "data/jours/2026-11-12.csv#L95"
   },
   "g.9867225552.genre": {
    "v": "Action",
    "d": "Action",
-   "l": "A Bizarre Run : genre",
+   "l": "[STAGE 3] A Bizarre Run : genre",
    "src": "data/jours/2026-11-12.csv#L95"
   },
   "g.9867225552.var_veille": {
    "v": -0.2884,
    "d": "−28,8 %",
-   "l": "A Bizarre Run : variation de la moyenne par rapport à la veille",
+   "l": "[STAGE 3] A Bizarre Run : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-12.csv#L95"
   },
   "g.9867225552.moy_veille": {
    "v": 16653,
    "d": "16 653",
-   "l": "A Bizarre Run : moyenne de la veille",
+   "l": "[STAGE 3] A Bizarre Run : moyenne de la veille",
    "src": "data/jours/2026-11-12.csv#L95"
   },
   "g.9867225552.var_7j": {
    "v": -0.4023,
    "d": "−40,2 %",
-   "l": "A Bizarre Run : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[STAGE 3] A Bizarre Run : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-12.csv#L95"
   },
   "g.9867225552.moy_7j": {
    "v": 19829,
    "d": "19 829",
-   "l": "A Bizarre Run : moyenne des 7 jours précédents",
+   "l": "[STAGE 3] A Bizarre Run : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-12.csv#L95"
   },
   "g.9867225552.visites_24h": {
    "v": 3619500,
    "d": "3,62 millions",
-   "l": "A Bizarre Run : visites gagnées en 24 h",
+   "l": "[STAGE 3] A Bizarre Run : visites gagnées en 24 h",
    "src": "data/jours/2026-11-12.csv#L95"
   },
   "g.9867225552.visites_total": {
    "v": 35943459,
    "d": "35,94 millions",
-   "l": "A Bizarre Run : visites cumulées depuis la création",
+   "l": "[STAGE 3] A Bizarre Run : visites cumulées depuis la création",
    "src": "data/jours/2026-11-12.csv#L95"
   },
   "g.9867225552.note": {
    "v": 0.9745,
    "d": "97,5 %",
-   "l": "A Bizarre Run : part de votes positifs",
+   "l": "[STAGE 3] A Bizarre Run : part de votes positifs",
    "src": "data/jours/2026-11-12.csv#L95"
   },
   "g.9867225552.rang_veille": {
    "v": 75,
    "d": "75e",
-   "l": "A Bizarre Run : rang la veille",
+   "l": "[STAGE 3] A Bizarre Run : rang la veille",
    "src": "data/jours/2026-11-12.csv#L95"
   },
   "g.10771290199.nom": {
