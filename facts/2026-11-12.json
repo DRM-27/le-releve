@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-12",
- "genere": "2026-11-13T19:40:10Z",
+ "genere": "2026-11-13T20:18:52Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -1965,93 +1965,93 @@
    "src": "data/jours/2026-11-12.csv#L12"
   },
   "g.5569032992.nom": {
-   "v": "🌙 Dandy's World [ALPHA]",
-   "d": "🌙 Dandy's World [ALPHA]",
-   "l": "🌙 Dandy's World [ALPHA] : nom",
+   "v": "🌻 Dandy's World [ALPHA]",
+   "d": "🌻 Dandy's World [ALPHA]",
+   "l": "🌻 Dandy's World [ALPHA] : nom",
    "src": "data/jours/2026-11-12.csv#L13"
   },
   "g.5569032992.rang": {
    "v": 12,
    "d": "12e",
-   "l": "🌙 Dandy's World [ALPHA] : rang au pic du jour",
+   "l": "🌻 Dandy's World [ALPHA] : rang au pic du jour",
    "src": "data/jours/2026-11-12.csv#L13"
   },
   "g.5569032992.pic": {
    "v": 95187,
    "d": "95 187",
-   "l": "🌙 Dandy's World [ALPHA] : pic de joueurs simultanés relevé",
+   "l": "🌻 Dandy's World [ALPHA] : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-12.csv#L13"
   },
   "g.5569032992.heure_pic": {
    "v": "00:36",
    "d": "0 h 36",
-   "l": "🌙 Dandy's World [ALPHA] : heure (Paris) du pic relevé",
+   "l": "🌻 Dandy's World [ALPHA] : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-12.csv#L13"
   },
   "g.5569032992.moy": {
    "v": 64968,
    "d": "64 968",
-   "l": "🌙 Dandy's World [ALPHA] : moyenne des joueurs simultanés sur la journée",
+   "l": "🌻 Dandy's World [ALPHA] : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-12.csv#L13"
   },
   "g.5569032992.createur": {
    "v": "BlushCrunch Studio",
    "d": "BlushCrunch Studio",
-   "l": "🌙 Dandy's World [ALPHA] : créateur",
+   "l": "🌻 Dandy's World [ALPHA] : créateur",
    "src": "data/jours/2026-11-12.csv#L13"
   },
   "g.5569032992.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "🌙 Dandy's World [ALPHA] : genre",
+   "l": "🌻 Dandy's World [ALPHA] : genre",
    "src": "data/jours/2026-11-12.csv#L13"
   },
   "g.5569032992.var_veille": {
    "v": -0.0555,
    "d": "−5,5 %",
-   "l": "🌙 Dandy's World [ALPHA] : variation de la moyenne par rapport à la veille",
+   "l": "🌻 Dandy's World [ALPHA] : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-12.csv#L13"
   },
   "g.5569032992.moy_veille": {
    "v": 68782,
    "d": "68 782",
-   "l": "🌙 Dandy's World [ALPHA] : moyenne de la veille",
+   "l": "🌻 Dandy's World [ALPHA] : moyenne de la veille",
    "src": "data/jours/2026-11-12.csv#L13"
   },
   "g.5569032992.var_7j": {
    "v": -0.3428,
    "d": "−34,3 %",
-   "l": "🌙 Dandy's World [ALPHA] : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "🌻 Dandy's World [ALPHA] : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-12.csv#L13"
   },
   "g.5569032992.moy_7j": {
    "v": 98856,
    "d": "98 856",
-   "l": "🌙 Dandy's World [ALPHA] : moyenne des 7 jours précédents",
+   "l": "🌻 Dandy's World [ALPHA] : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-12.csv#L13"
   },
   "g.5569032992.visites_24h": {
    "v": 6209124,
    "d": "6,21 millions",
-   "l": "🌙 Dandy's World [ALPHA] : visites gagnées en 24 h",
+   "l": "🌻 Dandy's World [ALPHA] : visites gagnées en 24 h",
    "src": "data/jours/2026-11-12.csv#L13"
   },
   "g.5569032992.visites_total": {
    "v": 7944898960,
    "d": "7,94 milliards",
-   "l": "🌙 Dandy's World [ALPHA] : visites cumulées depuis la création",
+   "l": "🌻 Dandy's World [ALPHA] : visites cumulées depuis la création",
    "src": "data/jours/2026-11-12.csv#L13"
   },
   "g.5569032992.note": {
    "v": 0.8836,
    "d": "88,4 %",
-   "l": "🌙 Dandy's World [ALPHA] : part de votes positifs",
+   "l": "🌻 Dandy's World [ALPHA] : part de votes positifs",
    "src": "data/jours/2026-11-12.csv#L13"
   },
   "g.5569032992.rang_veille": {
    "v": 13,
    "d": "13e",
-   "l": "🌙 Dandy's World [ALPHA] : rang la veille",
+   "l": "🌻 Dandy's World [ALPHA] : rang la veille",
    "src": "data/jours/2026-11-12.csv#L13"
   },
   "g.3508322461.nom": {
