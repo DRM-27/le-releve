@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-12",
- "genere": "2026-11-13T18:10:29Z",
+ "genere": "2026-11-13T18:32:48Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -7101,93 +7101,93 @@
    "src": "data/jours/2026-11-12.csv#L71"
   },
   "g.10773425091.nom": {
-   "v": "[🎩] Ragdoll Research",
-   "d": "[🎩] Ragdoll Research",
-   "l": "[🎩] Ragdoll Research : nom",
+   "v": "[🔥] Ragdoll Research",
+   "d": "[🔥] Ragdoll Research",
+   "l": "[🔥] Ragdoll Research : nom",
    "src": "data/jours/2026-11-12.csv#L72"
   },
   "g.10773425091.rang": {
    "v": 71,
    "d": "71e",
-   "l": "[🎩] Ragdoll Research : rang au pic du jour",
+   "l": "[🔥] Ragdoll Research : rang au pic du jour",
    "src": "data/jours/2026-11-12.csv#L72"
   },
   "g.10773425091.pic": {
    "v": 20721,
    "d": "20 721",
-   "l": "[🎩] Ragdoll Research : pic de joueurs simultanés relevé",
+   "l": "[🔥] Ragdoll Research : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-12.csv#L72"
   },
   "g.10773425091.heure_pic": {
    "v": "17:45",
    "d": "17 h 45",
-   "l": "[🎩] Ragdoll Research : heure (Paris) du pic relevé",
+   "l": "[🔥] Ragdoll Research : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-12.csv#L72"
   },
   "g.10773425091.moy": {
    "v": 14972,
    "d": "14 972",
-   "l": "[🎩] Ragdoll Research : moyenne des joueurs simultanés sur la journée",
+   "l": "[🔥] Ragdoll Research : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-12.csv#L72"
   },
   "g.10773425091.createur": {
    "v": "Ragdoll Shenanigans",
    "d": "Ragdoll Shenanigans",
-   "l": "[🎩] Ragdoll Research : créateur",
+   "l": "[🔥] Ragdoll Research : créateur",
    "src": "data/jours/2026-11-12.csv#L72"
   },
   "g.10773425091.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🎩] Ragdoll Research : genre",
+   "l": "[🔥] Ragdoll Research : genre",
    "src": "data/jours/2026-11-12.csv#L72"
   },
   "g.10773425091.var_veille": {
    "v": -0.1113,
    "d": "−11,1 %",
-   "l": "[🎩] Ragdoll Research : variation de la moyenne par rapport à la veille",
+   "l": "[🔥] Ragdoll Research : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-12.csv#L72"
   },
   "g.10773425091.moy_veille": {
    "v": 16848,
    "d": "16 848",
-   "l": "[🎩] Ragdoll Research : moyenne de la veille",
+   "l": "[🔥] Ragdoll Research : moyenne de la veille",
    "src": "data/jours/2026-11-12.csv#L72"
   },
   "g.10773425091.var_7j": {
    "v": -0.3185,
    "d": "−31,9 %",
-   "l": "[🎩] Ragdoll Research : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🔥] Ragdoll Research : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-12.csv#L72"
   },
   "g.10773425091.moy_7j": {
    "v": 21969,
    "d": "21 969",
-   "l": "[🎩] Ragdoll Research : moyenne des 7 jours précédents",
+   "l": "[🔥] Ragdoll Research : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-12.csv#L72"
   },
   "g.10773425091.visites_24h": {
    "v": 1816225,
    "d": "1,82 million",
-   "l": "[🎩] Ragdoll Research : visites gagnées en 24 h",
+   "l": "[🔥] Ragdoll Research : visites gagnées en 24 h",
    "src": "data/jours/2026-11-12.csv#L72"
   },
   "g.10773425091.visites_total": {
    "v": 17253486,
    "d": "17,25 millions",
-   "l": "[🎩] Ragdoll Research : visites cumulées depuis la création",
+   "l": "[🔥] Ragdoll Research : visites cumulées depuis la création",
    "src": "data/jours/2026-11-12.csv#L72"
   },
   "g.10773425091.note": {
    "v": 0.8283,
    "d": "82,8 %",
-   "l": "[🎩] Ragdoll Research : part de votes positifs",
+   "l": "[🔥] Ragdoll Research : part de votes positifs",
    "src": "data/jours/2026-11-12.csv#L72"
   },
   "g.10773425091.rang_veille": {
    "v": 56,
    "d": "56e",
-   "l": "[🎩] Ragdoll Research : rang la veille",
+   "l": "[🔥] Ragdoll Research : rang la veille",
    "src": "data/jours/2026-11-12.csv#L72"
   },
   "g.7671049560.nom": {
