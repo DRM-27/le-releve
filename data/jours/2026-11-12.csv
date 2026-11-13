@@ -115,7 +115,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 114,6521100398,Dreamville 🏡 RP [Pets! 😺],Dreamfusion Games,Roleplay & Avatar Sim,15160,00:36,9842,24,12030,-0.1819,13947,-0.2943,787029,409207597,0.9475,90
 115,10771928551,🍦Cozy Lucky Scoop Order,Sakura Game Studios,Simulation,14872,21:34,11674,24,12406,-0.059,11902,-0.0192,1696408,14635666,0.9039,114
 116,6774320049,Dubai 🏡 RP [Newborns! 👶],GameOver Productions.,Roleplay & Avatar Sim,14717,18:40,10496,24,12311,-0.1474,14612,-0.2817,907250,326706223,0.8944,89
-117,8719555347,[🚧UPD🚧] Southern Mudding 🚜 OffRoading,Southern Mudding,Simulation,14654,13:45,11189,24,11622,-0.0373,15963,-0.2991,1152041,495854002,0.9249,120
+117,8719555347,[⏳] Southern Mudding 🚜 OffRoading,Southern Mudding,Simulation,14654,13:45,11189,24,11622,-0.0373,15963,-0.2991,1152041,495854002,0.9249,120
 118,9978329815,Mukbang Game [Testing]🫓🍲!,sorynn22,,14585,13:45,11114,24,12226,-0.091,15238,-0.2706,1345214,587001249,0.9259,121
 119,10769384180,[🧪] Fake an Egg,Slime Time Studios,Simulation,14579,15:00,10024,24,12091,-0.1709,19462,-0.4849,1270278,78914821,0.8824,94
 120,2936053166,[🦑] Squid Game X,redifi,Party & Casual,14462,18:40,10738,24,11731,-0.0846,14565,-0.2627,1693132,2370963964,0.9372,110
@@ -343,7 +343,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 342,10767968712,Ride Operator Simulator,ReactorStudios,Simulation,3766,19:36,1957,18,,,,,,1339479,0.8585,
 343,8539298853,Scary Shawarma Kiosk: the ANOMALY [horror],kharbor_ykt,Survival,3741,19:36,2468,24,2692,-0.0832,3575,-0.3098,299032,1325842892,0.8979,306
 344,10771327607,Punch Out Of Prison,zenixiope,Simulation,3637,14:39,2568,12,,,,,262905,8244471,0.8616,
-345,10769249409,[UPD] Drive a Cart Downhill!,MakriGameDevelopment,Obby & Platformer,3616,00:36,2359,24,2787,-0.1537,4777,-0.5062,376016,23024875,0.8196,309
+345,10769249409,[👥 DUO] Drive a Cart Downhill!,MakriGameDevelopment,Obby & Platformer,3616,00:36,2359,24,2787,-0.1537,4777,-0.5062,376016,23024875,0.8196,309
 346,10768371213,Free Fire Zone (Max),Barrera_CC,Action,3595,03:02,3006,24,2831,0.0618,3332,-0.0979,580059,21618497,0.8606,340
 347,10566677406,[将] Shogun's Reign,Shogun's Reign,Roleplay & Avatar Sim,3563,02:39,2684,24,2804,-0.0429,3179,-0.1559,110184,11256429,0.9042,338
 348,10769969724,Shibuya [Beta],Project Mᅠ,Action,3556,01:41,2168,24,3065,-0.2924,,,506711,4233667,0.8648,319
@@ -436,7 +436,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 435,9169166771,[BrokenScript!] Tiny Universe RP,Tiny Universe Studios,Roleplay & Avatar Sim,2081,00:36,1135,24,833,0.3622,851,0.3344,182894,77202560,0.7925,439
 436,10771143770,PORTALS [FPS],PORTALVERSE,Shooter,2063,00:36,1244,12,,,,,491862,19023047,0.8675,
 437,6717464085,War of the Worlds,War of the WorIds,Action,2059,17:45,1530,24,1785,-0.1429,2760,-0.4456,142850,52037738,0.8862,373
-438,10393438342,[⌛] Alliance Tower Defense! ⚔️,MrUpTime’s Games,Strategy,2043,13:45,1371,24,1732,-0.2087,3141,-0.5636,176200,37531700,0.9235,380
+438,10393438342,Alliance Tower Defense! ⚔️,MrUpTime’s Games,Strategy,2043,13:45,1371,24,1732,-0.2087,3141,-0.5636,176200,37531700,0.9235,380
 439,10767946926,HUSH: They can hear. (BETA),theInstigators,Action,2039,01:41,1341,24,1672,-0.198,2603,-0.4849,105784,12218549,0.7891,391
 440,10765902945,[🥷NINJA] Anime Legacy Simulator,StarX Inc,Simulation,2037,00:36,1883,24,2137,-0.1187,2949,-0.3615,91985,11920271,0.9582,407
 441,10578076062,Adventure Time RPG,Oh My Glob Games,RPG,2006,00:36,1357,24,1200,0.131,1735,-0.2178,248351,10394367,0.9795,419
@@ -613,7 +613,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 612,8544009700,🎃 Twilight's Zone [FANG],Dusky Skies,Survival,286,23:29,176,24,229,-0.2299,296,-0.4049,20825,13917403,0.8983,564
 613,10769764340,[🍀] Spin To Upgrade! [REBIRTHS],Tier Up Studios,Simulation,274,00:36,179,24,240,-0.2561,536,-0.6667,10117,1753711,0.7062,562
 614,9865604662,VEF,[VEF] Virtual European Football,Sports & Racing,264,00:36,96,24,109,-0.1207,134,-0.2846,10108,3999964,0.8494,580
-615,10008450782,Old Multiverse Tower Defense,The ROBO Studio!,Strategy,257,14:39,182,24,214,-0.1513,354,-0.4858,21397,14183291,0.7778,574
+615,10008450782,[⏣ TOKEN ⏣] Old Multiverse Tower Defense,The ROBO Studio!,Strategy,257,14:39,182,24,214,-0.1513,354,-0.4858,21397,14183291,0.7778,574
 616,9046580625,[🎃HALLOWEEN!] CVR: Retro,[CS] Volleyball Games,Sports & Racing,247,01:41,138,24,137,0.01,165,-0.1594,13435,8319804,0.9787,585
 617,8333899831,Anomaly Lockdown [TWEAKED!],Melder Studios,Survival,247,14:39,164,24,178,-0.0763,199,-0.174,9128,2372399,0.7018,586
 618,10202515720,Undertale Multiverse Simulator 1.5,SlayerRealNotFake,Action,244,15:00,181,24,197,-0.0845,249,-0.276,13350,3631838,0.8747,583
