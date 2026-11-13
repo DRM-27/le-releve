@@ -1,7 +1,7 @@
 {
  "echecsConsecutifs": 0,
- "dernierSucces": "2026-11-13T18:31:59Z",
- "lastRunAt": "2026-11-13T18:31:59Z",
+ "dernierSucces": "2026-11-13T19:21:11Z",
+ "lastRunAt": "2026-11-13T19:21:11Z",
  "ok": false,
  "sorts": {
   "top-trending": 97,
@@ -10,8 +10,8 @@
   "fun-with-friends": 91,
   "top-revisited": 84
  },
- "gamesTracked": 730,
- "gamesMeasured": 625,
+ "gamesTracked": 732,
+ "gamesMeasured": 627,
  "errors": [
   "HTTP 429 https://games.roblox.com/v1/games?universeIds=10770297329,10770306793,10770355219,10770370806,10770371274,10770382905,10",
   "HTTP 429 https://games.roblox.com/v1/games?universeIds=10770934840,10770964381,10770978952,10771012952,10771051754,10771053183,10"
