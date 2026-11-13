@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-12",
- "genere": "2026-11-13T17:37:52Z",
+ "genere": "2026-11-13T18:10:29Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -6135,93 +6135,93 @@
    "src": "data/jours/2026-11-12.csv#L60"
   },
   "g.1202096104.nom": {
-   "v": "Driving Empire [🏁NASCAR Championship Weekend🏁]",
-   "d": "Driving Empire [🏁NASCAR Championship Weekend🏁]",
-   "l": "Driving Empire [🏁NASCAR Championship Weekend🏁] : nom",
+   "v": "Driving Empire [✨LIMITED + DRIFT✨]",
+   "d": "Driving Empire [✨LIMITED + DRIFT✨]",
+   "l": "Driving Empire [✨LIMITED + DRIFT✨] : nom",
    "src": "data/jours/2026-11-12.csv#L61"
   },
   "g.1202096104.rang": {
    "v": 60,
    "d": "60e",
-   "l": "Driving Empire [🏁NASCAR Championship Weekend🏁] : rang au pic du jour",
+   "l": "Driving Empire [✨LIMITED + DRIFT✨] : rang au pic du jour",
    "src": "data/jours/2026-11-12.csv#L61"
   },
   "g.1202096104.pic": {
    "v": 22748,
    "d": "22 748",
-   "l": "Driving Empire [🏁NASCAR Championship Weekend🏁] : pic de joueurs simultanés relevé",
+   "l": "Driving Empire [✨LIMITED + DRIFT✨] : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-12.csv#L61"
   },
   "g.1202096104.heure_pic": {
    "v": "14:39",
    "d": "14 h 39",
-   "l": "Driving Empire [🏁NASCAR Championship Weekend🏁] : heure (Paris) du pic relevé",
+   "l": "Driving Empire [✨LIMITED + DRIFT✨] : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-12.csv#L61"
   },
   "g.1202096104.moy": {
    "v": 18801,
    "d": "18 801",
-   "l": "Driving Empire [🏁NASCAR Championship Weekend🏁] : moyenne des joueurs simultanés sur la journée",
+   "l": "Driving Empire [✨LIMITED + DRIFT✨] : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-12.csv#L61"
   },
   "g.1202096104.createur": {
    "v": "Driving Empire by Voldex",
    "d": "Driving Empire by Voldex",
-   "l": "Driving Empire [🏁NASCAR Championship Weekend🏁] : créateur",
+   "l": "Driving Empire [✨LIMITED + DRIFT✨] : créateur",
    "src": "data/jours/2026-11-12.csv#L61"
   },
   "g.1202096104.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "Driving Empire [🏁NASCAR Championship Weekend🏁] : genre",
+   "l": "Driving Empire [✨LIMITED + DRIFT✨] : genre",
    "src": "data/jours/2026-11-12.csv#L61"
   },
   "g.1202096104.var_veille": {
    "v": -0.0208,
    "d": "−2,1 %",
-   "l": "Driving Empire [🏁NASCAR Championship Weekend🏁] : variation de la moyenne par rapport à la veille",
+   "l": "Driving Empire [✨LIMITED + DRIFT✨] : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-12.csv#L61"
   },
   "g.1202096104.moy_veille": {
    "v": 19199,
    "d": "19 199",
-   "l": "Driving Empire [🏁NASCAR Championship Weekend🏁] : moyenne de la veille",
+   "l": "Driving Empire [✨LIMITED + DRIFT✨] : moyenne de la veille",
    "src": "data/jours/2026-11-12.csv#L61"
   },
   "g.1202096104.var_7j": {
    "v": -0.2475,
    "d": "−24,8 %",
-   "l": "Driving Empire [🏁NASCAR Championship Weekend🏁] : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Driving Empire [✨LIMITED + DRIFT✨] : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-12.csv#L61"
   },
   "g.1202096104.moy_7j": {
    "v": 24986,
    "d": "24 986",
-   "l": "Driving Empire [🏁NASCAR Championship Weekend🏁] : moyenne des 7 jours précédents",
+   "l": "Driving Empire [✨LIMITED + DRIFT✨] : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-12.csv#L61"
   },
   "g.1202096104.visites_24h": {
    "v": 1929768,
    "d": "1,93 million",
-   "l": "Driving Empire [🏁NASCAR Championship Weekend🏁] : visites gagnées en 24 h",
+   "l": "Driving Empire [✨LIMITED + DRIFT✨] : visites gagnées en 24 h",
    "src": "data/jours/2026-11-12.csv#L61"
   },
   "g.1202096104.visites_total": {
    "v": 3434944501,
    "d": "3,43 milliards",
-   "l": "Driving Empire [🏁NASCAR Championship Weekend🏁] : visites cumulées depuis la création",
+   "l": "Driving Empire [✨LIMITED + DRIFT✨] : visites cumulées depuis la création",
    "src": "data/jours/2026-11-12.csv#L61"
   },
   "g.1202096104.note": {
    "v": 0.9298,
    "d": "93,0 %",
-   "l": "Driving Empire [🏁NASCAR Championship Weekend🏁] : part de votes positifs",
+   "l": "Driving Empire [✨LIMITED + DRIFT✨] : part de votes positifs",
    "src": "data/jours/2026-11-12.csv#L61"
   },
   "g.1202096104.rang_veille": {
    "v": 62,
    "d": "62e",
-   "l": "Driving Empire [🏁NASCAR Championship Weekend🏁] : rang la veille",
+   "l": "Driving Empire [✨LIMITED + DRIFT✨] : rang la veille",
    "src": "data/jours/2026-11-12.csv#L61"
   },
   "g.10771680162.nom": {
