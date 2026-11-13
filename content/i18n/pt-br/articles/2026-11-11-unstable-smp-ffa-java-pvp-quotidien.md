@@ -4,7 +4,7 @@ chapo: Em {{jour.date_courte}}, {{hausse.2.nom}} reuniu {{hausse.2.moy}} jogador
 jour: 2026-11-11
 type: quotidien
 angle: hausse
-publie: 2026-11-13T02:34
+publie: 2026-11-13T02:54
 ---
 Leituras: {{releves.nb}} de {{releves.attendus}} ({{releves.manquants}}), para {{jeux.nb}} jogos acompanhados. Entre os jogos que acompanhamos, o total de jogadores online chegou a {{cumul.pic}} na leitura mais alta, às {{cumul.pic_heure}}, com média de {{cumul.moy}} no dia.
 
