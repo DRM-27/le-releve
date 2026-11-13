@@ -1,0 +1,42 @@
+# Une ligne = un mot-clé testé seul (pays|mot). Pays FR = France, vide = monde.
+# Liste élargie volontairement : réglementations, outils, consommation, sans préférence.
+FR|facture électronique
+FR|plateforme agréée
+FR|accessibilité numérique
+FR|RGAA
+FR|AI Act
+FR|NIS2
+FR|bilan carbone
+FR|DPE
+FR|audit énergétique
+FR|MaPrimeRénov
+FR|LMNP
+FR|agent IA
+FR|n8n
+FR|automatisation
+FR|formation IA
+FR|ChatGPT entreprise
+FR|marchés publics
+FR|appel d'offres
+FR|création entreprise
+FR|micro-entreprise
+FR|Jesmonite
+FR|moule silicone
+FR|impression 3D
+FR|statue plâtre
+FR|reconditionné
+FR|seconde main
+FR|complément alimentaire
+FR|GLP-1
+FR|mutuelle chien
+FR|pompe à chaleur
+FR|panneaux solaires
+FR|batterie domestique
+FR|cybersécurité PME
+FR|RGPD
+|AI agent
+|n8n
+|vibe coding
+|AI automation agency
+|European Accessibility Act
+|e-invoicing

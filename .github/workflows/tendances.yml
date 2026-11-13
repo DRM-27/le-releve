@@ -1,0 +1,31 @@
+name: Tendances (labo CHAMAWN)
+
+on:
+  push:
+    branches: [main]
+    paths: ["labo/tendances/mots.txt", "labo/tendances/tendances.py"]
+  schedule:
+    - cron: "17 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  tendances:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q pytrends==4.9.2 "pandas<2.3"
+      - run: python labo/tendances/tendances.py
+      - name: Enregistrer
+        run: |
+          git config user.name "releve-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add labo/tendances/resultats.json labo/tendances/resultats.md
+          git commit -qm "Tendances $(date -u +%F)" || exit 0
+          for i in 1 2 3; do git pull -q --rebase origin main && git push -q && break; sleep 10; done
