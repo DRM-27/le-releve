@@ -1,13 +1,13 @@
 {
  "dailyAt": "2026-11-13T00:02Z",
- "lastRunAt": "2026-11-13T00:31Z",
+ "lastRunAt": "2026-11-13T01:34Z",
  "dernier": {
-  "ecosysteme_nouvelles_heures": 0,
+  "ecosysteme_nouvelles_heures": 1,
   "genres": 13,
   "classements_ecrits": 1,
-  "nouvelles_iles": 0
+  "nouvelles_iles": 4
  },
  "erreurs": [],
  "nbErreurs": 0,
- "ilesSuivies": 3942
+ "ilesSuivies": 3946
 }
