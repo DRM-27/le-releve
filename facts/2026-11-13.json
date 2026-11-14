@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-13",
- "genere": "2026-11-14T21:57:42Z",
+ "genere": "2026-11-14T22:23:08Z",
  "couverture": {
   "releves": 23,
   "attendus": 24
@@ -2841,93 +2841,93 @@
    "src": "data/jours/2026-11-13.csv#L22"
   },
   "g.6701277882.nom": {
-   "v": "[4 HRS] Fish It! 🐟",
-   "d": "[4 HRS] Fish It! 🐟",
-   "l": "[4 HRS] Fish It! 🐟 : nom",
+   "v": "[3 HRS] Fish It! 🐟",
+   "d": "[3 HRS] Fish It! 🐟",
+   "l": "[3 HRS] Fish It! 🐟 : nom",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.rang": {
    "v": 22,
    "d": "22e",
-   "l": "[4 HRS] Fish It! 🐟 : rang au pic du jour",
+   "l": "[3 HRS] Fish It! 🐟 : rang au pic du jour",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.pic": {
    "v": 65733,
    "d": "65 733",
-   "l": "[4 HRS] Fish It! 🐟 : pic de joueurs simultanés relevé",
+   "l": "[3 HRS] Fish It! 🐟 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.heure_pic": {
    "v": "19:31",
    "d": "19 h 31",
-   "l": "[4 HRS] Fish It! 🐟 : heure (Paris) du pic relevé",
+   "l": "[3 HRS] Fish It! 🐟 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.moy": {
    "v": 63590,
    "d": "63 590",
-   "l": "[4 HRS] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
+   "l": "[3 HRS] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.createur": {
    "v": "Fish Atelier",
    "d": "Fish Atelier",
-   "l": "[4 HRS] Fish It! 🐟 : créateur",
+   "l": "[3 HRS] Fish It! 🐟 : créateur",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[4 HRS] Fish It! 🐟 : genre",
+   "l": "[3 HRS] Fish It! 🐟 : genre",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.var_veille": {
    "v": 0.0214,
    "d": "+2,1 %",
-   "l": "[4 HRS] Fish It! 🐟 : variation de la moyenne par rapport à la veille",
+   "l": "[3 HRS] Fish It! 🐟 : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.moy_veille": {
    "v": 62258,
    "d": "62 258",
-   "l": "[4 HRS] Fish It! 🐟 : moyenne de la veille",
+   "l": "[3 HRS] Fish It! 🐟 : moyenne de la veille",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.var_7j": {
    "v": -0.0029,
    "d": "−0,3 %",
-   "l": "[4 HRS] Fish It! 🐟 : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[3 HRS] Fish It! 🐟 : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.moy_7j": {
    "v": 63775,
    "d": "63 775",
-   "l": "[4 HRS] Fish It! 🐟 : moyenne des 7 jours précédents",
+   "l": "[3 HRS] Fish It! 🐟 : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.visites_24h": {
    "v": 992412,
    "d": "992 412",
-   "l": "[4 HRS] Fish It! 🐟 : visites gagnées en 24 h",
+   "l": "[3 HRS] Fish It! 🐟 : visites gagnées en 24 h",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.visites_total": {
    "v": 4826207471,
    "d": "4,83 milliards",
-   "l": "[4 HRS] Fish It! 🐟 : visites cumulées depuis la création",
+   "l": "[3 HRS] Fish It! 🐟 : visites cumulées depuis la création",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.note": {
    "v": 0.8283,
    "d": "82,8 %",
-   "l": "[4 HRS] Fish It! 🐟 : part de votes positifs",
+   "l": "[3 HRS] Fish It! 🐟 : part de votes positifs",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.rang_veille": {
    "v": 19,
    "d": "19e",
-   "l": "[4 HRS] Fish It! 🐟 : rang la veille",
+   "l": "[3 HRS] Fish It! 🐟 : rang la veille",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.10762636904.nom": {
@@ -8649,93 +8649,93 @@
    "src": "data/jours/2026-11-13.csv#L88"
   },
   "g.10733617110.nom": {
-   "v": "[🧪NEW LAB] Fatal Baboons",
-   "d": "[🧪NEW LAB] Fatal Baboons",
-   "l": "[🧪NEW LAB] Fatal Baboons : nom",
+   "v": "[🚨 LOCKDOWN] Fatal Baboons",
+   "d": "[🚨 LOCKDOWN] Fatal Baboons",
+   "l": "[🚨 LOCKDOWN] Fatal Baboons : nom",
    "src": "data/jours/2026-11-13.csv#L89"
   },
   "g.10733617110.rang": {
    "v": 88,
    "d": "88e",
-   "l": "[🧪NEW LAB] Fatal Baboons : rang au pic du jour",
+   "l": "[🚨 LOCKDOWN] Fatal Baboons : rang au pic du jour",
    "src": "data/jours/2026-11-13.csv#L89"
   },
   "g.10733617110.pic": {
    "v": 20801,
    "d": "20 801",
-   "l": "[🧪NEW LAB] Fatal Baboons : pic de joueurs simultanés relevé",
+   "l": "[🚨 LOCKDOWN] Fatal Baboons : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-13.csv#L89"
   },
   "g.10733617110.heure_pic": {
    "v": "18:37",
    "d": "18 h 37",
-   "l": "[🧪NEW LAB] Fatal Baboons : heure (Paris) du pic relevé",
+   "l": "[🚨 LOCKDOWN] Fatal Baboons : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-13.csv#L89"
   },
   "g.10733617110.moy": {
    "v": 16650,
    "d": "16 650",
-   "l": "[🧪NEW LAB] Fatal Baboons : moyenne des joueurs simultanés sur la journée",
+   "l": "[🚨 LOCKDOWN] Fatal Baboons : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-13.csv#L89"
   },
   "g.10733617110.createur": {
    "v": "VertexLabs",
    "d": "VertexLabs",
-   "l": "[🧪NEW LAB] Fatal Baboons : créateur",
+   "l": "[🚨 LOCKDOWN] Fatal Baboons : créateur",
    "src": "data/jours/2026-11-13.csv#L89"
   },
   "g.10733617110.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "[🧪NEW LAB] Fatal Baboons : genre",
+   "l": "[🚨 LOCKDOWN] Fatal Baboons : genre",
    "src": "data/jours/2026-11-13.csv#L89"
   },
   "g.10733617110.var_veille": {
    "v": 0.0542,
    "d": "+5,4 %",
-   "l": "[🧪NEW LAB] Fatal Baboons : variation de la moyenne par rapport à la veille",
+   "l": "[🚨 LOCKDOWN] Fatal Baboons : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-13.csv#L89"
   },
   "g.10733617110.moy_veille": {
    "v": 15794,
    "d": "15 794",
-   "l": "[🧪NEW LAB] Fatal Baboons : moyenne de la veille",
+   "l": "[🚨 LOCKDOWN] Fatal Baboons : moyenne de la veille",
    "src": "data/jours/2026-11-13.csv#L89"
   },
   "g.10733617110.var_7j": {
    "v": -0.0947,
    "d": "−9,5 %",
-   "l": "[🧪NEW LAB] Fatal Baboons : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🚨 LOCKDOWN] Fatal Baboons : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L89"
   },
   "g.10733617110.moy_7j": {
    "v": 18391,
    "d": "18 391",
-   "l": "[🧪NEW LAB] Fatal Baboons : moyenne des 7 jours précédents",
+   "l": "[🚨 LOCKDOWN] Fatal Baboons : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L89"
   },
   "g.10733617110.visites_24h": {
    "v": 2404330,
    "d": "2,4 millions",
-   "l": "[🧪NEW LAB] Fatal Baboons : visites gagnées en 24 h",
+   "l": "[🚨 LOCKDOWN] Fatal Baboons : visites gagnées en 24 h",
    "src": "data/jours/2026-11-13.csv#L89"
   },
   "g.10733617110.visites_total": {
    "v": 37069017,
    "d": "37,07 millions",
-   "l": "[🧪NEW LAB] Fatal Baboons : visites cumulées depuis la création",
+   "l": "[🚨 LOCKDOWN] Fatal Baboons : visites cumulées depuis la création",
    "src": "data/jours/2026-11-13.csv#L89"
   },
   "g.10733617110.note": {
    "v": 0.8751,
    "d": "87,5 %",
-   "l": "[🧪NEW LAB] Fatal Baboons : part de votes positifs",
+   "l": "[🚨 LOCKDOWN] Fatal Baboons : part de votes positifs",
    "src": "data/jours/2026-11-13.csv#L89"
   },
   "g.10733617110.rang_veille": {
    "v": 77,
    "d": "77e",
-   "l": "[🧪NEW LAB] Fatal Baboons : rang la veille",
+   "l": "[🚨 LOCKDOWN] Fatal Baboons : rang la veille",
    "src": "data/jours/2026-11-13.csv#L89"
   },
   "g.4778845442.nom": {
