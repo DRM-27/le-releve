@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-13",
- "genere": "2026-11-14T21:24:18Z",
+ "genere": "2026-11-14T21:57:42Z",
  "couverture": {
   "releves": 23,
   "attendus": 24
@@ -8505,57 +8505,57 @@
    "src": "data/jours/2026-11-13.csv#L86"
   },
   "g.10770228857.nom": {
-   "v": "[⚡] Steal a Superpower!",
-   "d": "[⚡] Steal a Superpower!",
-   "l": "[⚡] Steal a Superpower! : nom",
+   "v": "[W3] Steal a Superpower!",
+   "d": "[W3] Steal a Superpower!",
+   "l": "[W3] Steal a Superpower! : nom",
    "src": "data/jours/2026-11-13.csv#L87"
   },
   "g.10770228857.rang": {
    "v": 86,
    "d": "86e",
-   "l": "[⚡] Steal a Superpower! : rang au pic du jour",
+   "l": "[W3] Steal a Superpower! : rang au pic du jour",
    "src": "data/jours/2026-11-13.csv#L87"
   },
   "g.10770228857.pic": {
    "v": 21380,
    "d": "21 380",
-   "l": "[⚡] Steal a Superpower! : pic de joueurs simultanés relevé",
+   "l": "[W3] Steal a Superpower! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-13.csv#L87"
   },
   "g.10770228857.heure_pic": {
    "v": "15:45",
    "d": "15 h 45",
-   "l": "[⚡] Steal a Superpower! : heure (Paris) du pic relevé",
+   "l": "[W3] Steal a Superpower! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-13.csv#L87"
   },
   "g.10770228857.moy": {
    "v": 15896,
    "d": "15 896",
-   "l": "[⚡] Steal a Superpower! : moyenne des joueurs simultanés sur la journée",
+   "l": "[W3] Steal a Superpower! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-13.csv#L87"
   },
   "g.10770228857.createur": {
    "v": "11 R$ Productions",
    "d": "11 R$ Productions",
-   "l": "[⚡] Steal a Superpower! : créateur",
+   "l": "[W3] Steal a Superpower! : créateur",
    "src": "data/jours/2026-11-13.csv#L87"
   },
   "g.10770228857.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[⚡] Steal a Superpower! : genre",
+   "l": "[W3] Steal a Superpower! : genre",
    "src": "data/jours/2026-11-13.csv#L87"
   },
   "g.10770228857.visites_total": {
    "v": 9456718,
    "d": "9,46 millions",
-   "l": "[⚡] Steal a Superpower! : visites cumulées depuis la création",
+   "l": "[W3] Steal a Superpower! : visites cumulées depuis la création",
    "src": "data/jours/2026-11-13.csv#L87"
   },
   "g.10770228857.note": {
    "v": 0.9912,
    "d": "99,1 %",
-   "l": "[⚡] Steal a Superpower! : part de votes positifs",
+   "l": "[W3] Steal a Superpower! : part de votes positifs",
    "src": "data/jours/2026-11-13.csv#L87"
   },
   "g.4949420752.nom": {
@@ -9093,93 +9093,93 @@
    "src": "data/jours/2026-11-13.csv#L93"
   },
   "g.5650396773.nom": {
-   "v": "a dusty trip [🚗CAR]",
-   "d": "a dusty trip [🚗CAR]",
-   "l": "a dusty trip [🚗CAR] : nom",
+   "v": "a dusty trip [👮PRISON]",
+   "d": "a dusty trip [👮PRISON]",
+   "l": "a dusty trip [👮PRISON] : nom",
    "src": "data/jours/2026-11-13.csv#L94"
   },
   "g.5650396773.rang": {
    "v": 93,
    "d": "93e",
-   "l": "a dusty trip [🚗CAR] : rang au pic du jour",
+   "l": "a dusty trip [👮PRISON] : rang au pic du jour",
    "src": "data/jours/2026-11-13.csv#L94"
   },
   "g.5650396773.pic": {
    "v": 20404,
    "d": "20 404",
-   "l": "a dusty trip [🚗CAR] : pic de joueurs simultanés relevé",
+   "l": "a dusty trip [👮PRISON] : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-13.csv#L94"
   },
   "g.5650396773.heure_pic": {
    "v": "17:38",
    "d": "17 h 38",
-   "l": "a dusty trip [🚗CAR] : heure (Paris) du pic relevé",
+   "l": "a dusty trip [👮PRISON] : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-13.csv#L94"
   },
   "g.5650396773.moy": {
    "v": 14568,
    "d": "14 568",
-   "l": "a dusty trip [🚗CAR] : moyenne des joueurs simultanés sur la journée",
+   "l": "a dusty trip [👮PRISON] : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-13.csv#L94"
   },
   "g.5650396773.createur": {
    "v": "Jandel's Road Trip",
    "d": "Jandel's Road Trip",
-   "l": "a dusty trip [🚗CAR] : créateur",
+   "l": "a dusty trip [👮PRISON] : créateur",
    "src": "data/jours/2026-11-13.csv#L94"
   },
   "g.5650396773.genre": {
    "v": "Adventure",
    "d": "Aventure",
-   "l": "a dusty trip [🚗CAR] : genre",
+   "l": "a dusty trip [👮PRISON] : genre",
    "src": "data/jours/2026-11-13.csv#L94"
   },
   "g.5650396773.var_veille": {
    "v": 0.1908,
    "d": "+19,1 %",
-   "l": "a dusty trip [🚗CAR] : variation de la moyenne par rapport à la veille",
+   "l": "a dusty trip [👮PRISON] : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-13.csv#L94"
   },
   "g.5650396773.moy_veille": {
    "v": 12234,
    "d": "12 234",
-   "l": "a dusty trip [🚗CAR] : moyenne de la veille",
+   "l": "a dusty trip [👮PRISON] : moyenne de la veille",
    "src": "data/jours/2026-11-13.csv#L94"
   },
   "g.5650396773.var_7j": {
    "v": -0.0417,
    "d": "−4,2 %",
-   "l": "a dusty trip [🚗CAR] : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "a dusty trip [👮PRISON] : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L94"
   },
   "g.5650396773.moy_7j": {
    "v": 15202,
    "d": "15 202",
-   "l": "a dusty trip [🚗CAR] : moyenne des 7 jours précédents",
+   "l": "a dusty trip [👮PRISON] : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L94"
   },
   "g.5650396773.visites_24h": {
    "v": 1623068,
    "d": "1,62 million",
-   "l": "a dusty trip [🚗CAR] : visites gagnées en 24 h",
+   "l": "a dusty trip [👮PRISON] : visites gagnées en 24 h",
    "src": "data/jours/2026-11-13.csv#L94"
   },
   "g.5650396773.visites_total": {
    "v": 2632131552,
    "d": "2,63 milliards",
-   "l": "a dusty trip [🚗CAR] : visites cumulées depuis la création",
+   "l": "a dusty trip [👮PRISON] : visites cumulées depuis la création",
    "src": "data/jours/2026-11-13.csv#L94"
   },
   "g.5650396773.note": {
    "v": 0.9003,
    "d": "90,0 %",
-   "l": "a dusty trip [🚗CAR] : part de votes positifs",
+   "l": "a dusty trip [👮PRISON] : part de votes positifs",
    "src": "data/jours/2026-11-13.csv#L94"
   },
   "g.5650396773.rang_veille": {
    "v": 104,
    "d": "104e",
-   "l": "a dusty trip [🚗CAR] : rang la veille",
+   "l": "a dusty trip [👮PRISON] : rang la veille",
    "src": "data/jours/2026-11-13.csv#L94"
   },
   "g.10769835283.nom": {
