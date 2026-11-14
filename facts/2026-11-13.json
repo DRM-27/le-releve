@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-13",
- "genere": "2026-11-14T11:23:22Z",
+ "genere": "2026-11-14T11:59:16Z",
  "couverture": {
   "releves": 23,
   "attendus": 24
@@ -2751,93 +2751,93 @@
    "src": "data/jours/2026-11-13.csv#L21"
   },
   "g.6739698191.nom": {
-   "v": "[WEEK 3 🎃 x BUTCHER] Violence District",
-   "d": "[WEEK 3 🎃 x BUTCHER] Violence District",
-   "l": "[WEEK 3 🎃 x BUTCHER] Violence District : nom",
+   "v": "[WEEK 4 🎃 x BUTCHER] Violence District",
+   "d": "[WEEK 4 🎃 x BUTCHER] Violence District",
+   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : nom",
    "src": "data/jours/2026-11-13.csv#L22"
   },
   "g.6739698191.rang": {
    "v": 21,
    "d": "21e",
-   "l": "[WEEK 3 🎃 x BUTCHER] Violence District : rang au pic du jour",
+   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : rang au pic du jour",
    "src": "data/jours/2026-11-13.csv#L22"
   },
   "g.6739698191.pic": {
    "v": 66139,
    "d": "66 139",
-   "l": "[WEEK 3 🎃 x BUTCHER] Violence District : pic de joueurs simultanés relevé",
+   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-13.csv#L22"
   },
   "g.6739698191.heure_pic": {
    "v": "14:58",
    "d": "14 h 58",
-   "l": "[WEEK 3 🎃 x BUTCHER] Violence District : heure (Paris) du pic relevé",
+   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-13.csv#L22"
   },
   "g.6739698191.moy": {
    "v": 43019,
    "d": "43 019",
-   "l": "[WEEK 3 🎃 x BUTCHER] Violence District : moyenne des joueurs simultanés sur la journée",
+   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-13.csv#L22"
   },
   "g.6739698191.createur": {
    "v": "VIOLENCE DISTRICT",
    "d": "VIOLENCE DISTRICT",
-   "l": "[WEEK 3 🎃 x BUTCHER] Violence District : créateur",
+   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : créateur",
    "src": "data/jours/2026-11-13.csv#L22"
   },
   "g.6739698191.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "[WEEK 3 🎃 x BUTCHER] Violence District : genre",
+   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : genre",
    "src": "data/jours/2026-11-13.csv#L22"
   },
   "g.6739698191.var_veille": {
    "v": 0.1361,
    "d": "+13,6 %",
-   "l": "[WEEK 3 🎃 x BUTCHER] Violence District : variation de la moyenne par rapport à la veille",
+   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-13.csv#L22"
   },
   "g.6739698191.moy_veille": {
    "v": 37865,
    "d": "37 865",
-   "l": "[WEEK 3 🎃 x BUTCHER] Violence District : moyenne de la veille",
+   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : moyenne de la veille",
    "src": "data/jours/2026-11-13.csv#L22"
   },
   "g.6739698191.var_7j": {
    "v": -0.0599,
    "d": "−6,0 %",
-   "l": "[WEEK 3 🎃 x BUTCHER] Violence District : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L22"
   },
   "g.6739698191.moy_7j": {
    "v": 45760,
    "d": "45 760",
-   "l": "[WEEK 3 🎃 x BUTCHER] Violence District : moyenne des 7 jours précédents",
+   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L22"
   },
   "g.6739698191.visites_24h": {
    "v": 3385617,
    "d": "3,39 millions",
-   "l": "[WEEK 3 🎃 x BUTCHER] Violence District : visites gagnées en 24 h",
+   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : visites gagnées en 24 h",
    "src": "data/jours/2026-11-13.csv#L22"
   },
   "g.6739698191.visites_total": {
    "v": 1718753993,
    "d": "1,72 milliard",
-   "l": "[WEEK 3 🎃 x BUTCHER] Violence District : visites cumulées depuis la création",
+   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : visites cumulées depuis la création",
    "src": "data/jours/2026-11-13.csv#L22"
   },
   "g.6739698191.note": {
    "v": 0.9292,
    "d": "92,9 %",
-   "l": "[WEEK 3 🎃 x BUTCHER] Violence District : part de votes positifs",
+   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : part de votes positifs",
    "src": "data/jours/2026-11-13.csv#L22"
   },
   "g.6739698191.rang_veille": {
    "v": 22,
    "d": "22e",
-   "l": "[WEEK 3 🎃 x BUTCHER] Violence District : rang la veille",
+   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : rang la veille",
    "src": "data/jours/2026-11-13.csv#L22"
   },
   "g.6701277882.nom": {
@@ -5955,93 +5955,93 @@
    "src": "data/jours/2026-11-13.csv#L57"
   },
   "g.9584852943.nom": {
-   "v": "+1 Speed Keyboard Escape | Candy & Chocolate",
-   "d": "+1 Speed Keyboard Escape | Candy & Chocolate",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : nom",
+   "v": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "d": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : nom",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.rang": {
    "v": 57,
    "d": "57e",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.pic": {
    "v": 28581,
    "d": "28 581",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.heure_pic": {
    "v": "18:37",
    "d": "18 h 37",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.moy": {
    "v": 21068,
    "d": "21 068",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.createur": {
    "v": "SecretVerse Studio",
    "d": "SecretVerse Studio",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : créateur",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : créateur",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : genre",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : genre",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.var_veille": {
    "v": 0.1755,
    "d": "+17,5 %",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport à la veille",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.moy_veille": {
    "v": 17922,
    "d": "17 922",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : moyenne de la veille",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne de la veille",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.var_7j": {
    "v": -0.2917,
    "d": "−29,2 %",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.moy_7j": {
    "v": 29745,
    "d": "29 745",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : moyenne des 7 jours précédents",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.visites_24h": {
    "v": 3308344,
    "d": "3,31 millions",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : visites gagnées en 24 h",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : visites gagnées en 24 h",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.visites_total": {
    "v": 6692588693,
    "d": "6,69 milliards",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.note": {
    "v": 0.9669,
    "d": "96,7 %",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.rang_veille": {
    "v": 50,
    "d": "50e",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : rang la veille",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : rang la veille",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.2440500124.nom": {
@@ -9513,93 +9513,93 @@
    "src": "data/jours/2026-11-13.csv#L98"
   },
   "g.10057403337.nom": {
-   "v": "[6H] Deagle Arena",
-   "d": "[6H] Deagle Arena",
-   "l": "[6H] Deagle Arena : nom",
+   "v": "[3H] Deagle Arena",
+   "d": "[3H] Deagle Arena",
+   "l": "[3H] Deagle Arena : nom",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10057403337.rang": {
    "v": 98,
    "d": "98e",
-   "l": "[6H] Deagle Arena : rang au pic du jour",
+   "l": "[3H] Deagle Arena : rang au pic du jour",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10057403337.pic": {
    "v": 19792,
    "d": "19 792",
-   "l": "[6H] Deagle Arena : pic de joueurs simultanés relevé",
+   "l": "[3H] Deagle Arena : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10057403337.heure_pic": {
    "v": "14:58",
    "d": "14 h 58",
-   "l": "[6H] Deagle Arena : heure (Paris) du pic relevé",
+   "l": "[3H] Deagle Arena : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10057403337.moy": {
    "v": 15229,
    "d": "15 229",
-   "l": "[6H] Deagle Arena : moyenne des joueurs simultanés sur la journée",
+   "l": "[3H] Deagle Arena : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10057403337.createur": {
    "v": "Deagle Arena",
    "d": "Deagle Arena",
-   "l": "[6H] Deagle Arena : créateur",
+   "l": "[3H] Deagle Arena : créateur",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10057403337.genre": {
    "v": "Shooter",
    "d": "Tir",
-   "l": "[6H] Deagle Arena : genre",
+   "l": "[3H] Deagle Arena : genre",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10057403337.var_veille": {
    "v": 0.0863,
    "d": "+8,6 %",
-   "l": "[6H] Deagle Arena : variation de la moyenne par rapport à la veille",
+   "l": "[3H] Deagle Arena : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10057403337.moy_veille": {
    "v": 14020,
    "d": "14 020",
-   "l": "[6H] Deagle Arena : moyenne de la veille",
+   "l": "[3H] Deagle Arena : moyenne de la veille",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10057403337.var_7j": {
    "v": -0.1708,
    "d": "−17,1 %",
-   "l": "[6H] Deagle Arena : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[3H] Deagle Arena : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10057403337.moy_7j": {
    "v": 18366,
    "d": "18 366",
-   "l": "[6H] Deagle Arena : moyenne des 7 jours précédents",
+   "l": "[3H] Deagle Arena : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10057403337.visites_24h": {
    "v": 2522110,
    "d": "2,52 millions",
-   "l": "[6H] Deagle Arena : visites gagnées en 24 h",
+   "l": "[3H] Deagle Arena : visites gagnées en 24 h",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10057403337.visites_total": {
    "v": 315928906,
    "d": "315,93 millions",
-   "l": "[6H] Deagle Arena : visites cumulées depuis la création",
+   "l": "[3H] Deagle Arena : visites cumulées depuis la création",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10057403337.note": {
    "v": 0.8741,
    "d": "87,4 %",
-   "l": "[6H] Deagle Arena : part de votes positifs",
+   "l": "[3H] Deagle Arena : part de votes positifs",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10057403337.rang_veille": {
    "v": 87,
    "d": "87e",
-   "l": "[6H] Deagle Arena : rang la veille",
+   "l": "[3H] Deagle Arena : rang la veille",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10765490774.nom": {
