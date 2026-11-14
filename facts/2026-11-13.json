@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-13",
- "genere": "2026-11-14T09:30:34Z",
+ "genere": "2026-11-14T10:09:09Z",
  "couverture": {
   "releves": 23,
   "attendus": 24
@@ -4977,93 +4977,93 @@
    "src": "data/jours/2026-11-13.csv#L46"
   },
   "g.5361032378.nom": {
-   "v": "Sol's RNG [ Halloween Part 2🎃]",
-   "d": "Sol's RNG [ Halloween Part 2🎃]",
-   "l": "Sol's RNG [ Halloween Part 2🎃] : nom",
+   "v": "Sol's RNG [ Preparing ]",
+   "d": "Sol's RNG [ Preparing ]",
+   "l": "Sol's RNG [ Preparing ] : nom",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.5361032378.rang": {
    "v": 46,
    "d": "46e",
-   "l": "Sol's RNG [ Halloween Part 2🎃] : rang au pic du jour",
+   "l": "Sol's RNG [ Preparing ] : rang au pic du jour",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.5361032378.pic": {
    "v": 34682,
    "d": "34 682",
-   "l": "Sol's RNG [ Halloween Part 2🎃] : pic de joueurs simultanés relevé",
+   "l": "Sol's RNG [ Preparing ] : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.5361032378.heure_pic": {
    "v": "13:44",
    "d": "13 h 44",
-   "l": "Sol's RNG [ Halloween Part 2🎃] : heure (Paris) du pic relevé",
+   "l": "Sol's RNG [ Preparing ] : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.5361032378.moy": {
    "v": 33157,
    "d": "33 157",
-   "l": "Sol's RNG [ Halloween Part 2🎃] : moyenne des joueurs simultanés sur la journée",
+   "l": "Sol's RNG [ Preparing ] : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.5361032378.createur": {
    "v": "Sol's Studio",
    "d": "Sol's Studio",
-   "l": "Sol's RNG [ Halloween Part 2🎃] : créateur",
+   "l": "Sol's RNG [ Preparing ] : créateur",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.5361032378.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "Sol's RNG [ Halloween Part 2🎃] : genre",
+   "l": "Sol's RNG [ Preparing ] : genre",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.5361032378.var_veille": {
    "v": 0.009,
    "d": "+0,9 %",
-   "l": "Sol's RNG [ Halloween Part 2🎃] : variation de la moyenne par rapport à la veille",
+   "l": "Sol's RNG [ Preparing ] : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.5361032378.moy_veille": {
    "v": 32861,
    "d": "32 861",
-   "l": "Sol's RNG [ Halloween Part 2🎃] : moyenne de la veille",
+   "l": "Sol's RNG [ Preparing ] : moyenne de la veille",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.5361032378.var_7j": {
    "v": -0.057,
    "d": "−5,7 %",
-   "l": "Sol's RNG [ Halloween Part 2🎃] : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Sol's RNG [ Preparing ] : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.5361032378.moy_7j": {
    "v": 35161,
    "d": "35 161",
-   "l": "Sol's RNG [ Halloween Part 2🎃] : moyenne des 7 jours précédents",
+   "l": "Sol's RNG [ Preparing ] : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.5361032378.visites_24h": {
    "v": 2036446,
    "d": "2,04 millions",
-   "l": "Sol's RNG [ Halloween Part 2🎃] : visites gagnées en 24 h",
+   "l": "Sol's RNG [ Preparing ] : visites gagnées en 24 h",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.5361032378.visites_total": {
    "v": 2293071738,
    "d": "2,29 milliards",
-   "l": "Sol's RNG [ Halloween Part 2🎃] : visites cumulées depuis la création",
+   "l": "Sol's RNG [ Preparing ] : visites cumulées depuis la création",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.5361032378.note": {
    "v": 0.9142,
    "d": "91,4 %",
-   "l": "Sol's RNG [ Halloween Part 2🎃] : part de votes positifs",
+   "l": "Sol's RNG [ Preparing ] : part de votes positifs",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.5361032378.rang_veille": {
    "v": 41,
    "d": "41e",
-   "l": "Sol's RNG [ Halloween Part 2🎃] : rang la veille",
+   "l": "Sol's RNG [ Preparing ] : rang la veille",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.4839802560.nom": {
