@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-13",
- "genere": "2026-11-14T16:25:50Z",
+ "genere": "2026-11-14T17:01:02Z",
  "couverture": {
   "releves": 23,
   "attendus": 24
@@ -435,8 +435,8 @@
    "src": "data/jours/2026-11-13.csv#L5"
   },
   "top.5.nom": {
-   "v": "[1H🎉] Adopt Me!",
-   "d": "[1H🎉] Adopt Me!",
+   "v": "[SOON!🎉] Adopt Me!",
+   "d": "[SOON!🎉] Adopt Me!",
    "l": "N° 5 du jour : nom",
    "src": "data/jours/2026-11-13.csv#L6"
   },
@@ -1323,93 +1323,93 @@
    "src": "data/jours/2026-11-13.csv#L5"
   },
   "g.383310974.nom": {
-   "v": "[1H🎉] Adopt Me!",
-   "d": "[1H🎉] Adopt Me!",
-   "l": "[1H🎉] Adopt Me! : nom",
+   "v": "[SOON!🎉] Adopt Me!",
+   "d": "[SOON!🎉] Adopt Me!",
+   "l": "[SOON!🎉] Adopt Me! : nom",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.rang": {
    "v": 5,
    "d": "5e",
-   "l": "[1H🎉] Adopt Me! : rang au pic du jour",
+   "l": "[SOON!🎉] Adopt Me! : rang au pic du jour",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.pic": {
    "v": 271738,
    "d": "271 738",
-   "l": "[1H🎉] Adopt Me! : pic de joueurs simultanés relevé",
+   "l": "[SOON!🎉] Adopt Me! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.heure_pic": {
    "v": "17:38",
    "d": "17 h 38",
-   "l": "[1H🎉] Adopt Me! : heure (Paris) du pic relevé",
+   "l": "[SOON!🎉] Adopt Me! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.moy": {
    "v": 182593,
    "d": "182 593",
-   "l": "[1H🎉] Adopt Me! : moyenne des joueurs simultanés sur la journée",
+   "l": "[SOON!🎉] Adopt Me! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.createur": {
    "v": "Uplift Games",
    "d": "Uplift Games",
-   "l": "[1H🎉] Adopt Me! : créateur",
+   "l": "[SOON!🎉] Adopt Me! : créateur",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "[1H🎉] Adopt Me! : genre",
+   "l": "[SOON!🎉] Adopt Me! : genre",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.var_veille": {
    "v": 0.475,
    "d": "+47,5 %",
-   "l": "[1H🎉] Adopt Me! : variation de la moyenne par rapport à la veille",
+   "l": "[SOON!🎉] Adopt Me! : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.moy_veille": {
    "v": 123789,
    "d": "123 789",
-   "l": "[1H🎉] Adopt Me! : moyenne de la veille",
+   "l": "[SOON!🎉] Adopt Me! : moyenne de la veille",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.var_7j": {
    "v": 0.1424,
    "d": "+14,2 %",
-   "l": "[1H🎉] Adopt Me! : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[SOON!🎉] Adopt Me! : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.moy_7j": {
    "v": 159839,
    "d": "159 839",
-   "l": "[1H🎉] Adopt Me! : moyenne des 7 jours précédents",
+   "l": "[SOON!🎉] Adopt Me! : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.visites_24h": {
    "v": 8399133,
    "d": "8,4 millions",
-   "l": "[1H🎉] Adopt Me! : visites gagnées en 24 h",
+   "l": "[SOON!🎉] Adopt Me! : visites gagnées en 24 h",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.visites_total": {
    "v": 45405625382,
    "d": "45,41 milliards",
-   "l": "[1H🎉] Adopt Me! : visites cumulées depuis la création",
+   "l": "[SOON!🎉] Adopt Me! : visites cumulées depuis la création",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.note": {
    "v": 0.864,
    "d": "86,4 %",
-   "l": "[1H🎉] Adopt Me! : part de votes positifs",
+   "l": "[SOON!🎉] Adopt Me! : part de votes positifs",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.rang_veille": {
    "v": 7,
    "d": "7e",
-   "l": "[1H🎉] Adopt Me! : rang la veille",
+   "l": "[SOON!🎉] Adopt Me! : rang la veille",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.66654135.nom": {
@@ -2841,93 +2841,93 @@
    "src": "data/jours/2026-11-13.csv#L22"
   },
   "g.6701277882.nom": {
-   "v": "[🌙UPD] Fish It! 🐟",
-   "d": "[🌙UPD] Fish It! 🐟",
-   "l": "[🌙UPD] Fish It! 🐟 : nom",
+   "v": "[NOW] Fish It! 🐟",
+   "d": "[NOW] Fish It! 🐟",
+   "l": "[NOW] Fish It! 🐟 : nom",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.rang": {
    "v": 22,
    "d": "22e",
-   "l": "[🌙UPD] Fish It! 🐟 : rang au pic du jour",
+   "l": "[NOW] Fish It! 🐟 : rang au pic du jour",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.pic": {
    "v": 65733,
    "d": "65 733",
-   "l": "[🌙UPD] Fish It! 🐟 : pic de joueurs simultanés relevé",
+   "l": "[NOW] Fish It! 🐟 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.heure_pic": {
    "v": "19:31",
    "d": "19 h 31",
-   "l": "[🌙UPD] Fish It! 🐟 : heure (Paris) du pic relevé",
+   "l": "[NOW] Fish It! 🐟 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.moy": {
    "v": 63590,
    "d": "63 590",
-   "l": "[🌙UPD] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
+   "l": "[NOW] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.createur": {
    "v": "Fish Atelier",
    "d": "Fish Atelier",
-   "l": "[🌙UPD] Fish It! 🐟 : créateur",
+   "l": "[NOW] Fish It! 🐟 : créateur",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🌙UPD] Fish It! 🐟 : genre",
+   "l": "[NOW] Fish It! 🐟 : genre",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.var_veille": {
    "v": 0.0214,
    "d": "+2,1 %",
-   "l": "[🌙UPD] Fish It! 🐟 : variation de la moyenne par rapport à la veille",
+   "l": "[NOW] Fish It! 🐟 : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.moy_veille": {
    "v": 62258,
    "d": "62 258",
-   "l": "[🌙UPD] Fish It! 🐟 : moyenne de la veille",
+   "l": "[NOW] Fish It! 🐟 : moyenne de la veille",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.var_7j": {
    "v": -0.0029,
    "d": "−0,3 %",
-   "l": "[🌙UPD] Fish It! 🐟 : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[NOW] Fish It! 🐟 : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.moy_7j": {
    "v": 63775,
    "d": "63 775",
-   "l": "[🌙UPD] Fish It! 🐟 : moyenne des 7 jours précédents",
+   "l": "[NOW] Fish It! 🐟 : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.visites_24h": {
    "v": 992412,
    "d": "992 412",
-   "l": "[🌙UPD] Fish It! 🐟 : visites gagnées en 24 h",
+   "l": "[NOW] Fish It! 🐟 : visites gagnées en 24 h",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.visites_total": {
    "v": 4826207471,
    "d": "4,83 milliards",
-   "l": "[🌙UPD] Fish It! 🐟 : visites cumulées depuis la création",
+   "l": "[NOW] Fish It! 🐟 : visites cumulées depuis la création",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.note": {
    "v": 0.8283,
    "d": "82,8 %",
-   "l": "[🌙UPD] Fish It! 🐟 : part de votes positifs",
+   "l": "[NOW] Fish It! 🐟 : part de votes positifs",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.rang_veille": {
    "v": 19,
    "d": "19e",
-   "l": "[🌙UPD] Fish It! 🐟 : rang la veille",
+   "l": "[NOW] Fish It! 🐟 : rang la veille",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.10762636904.nom": {
@@ -5955,93 +5955,93 @@
    "src": "data/jours/2026-11-13.csv#L57"
   },
   "g.9584852943.nom": {
-   "v": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate",
-   "d": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : nom",
+   "v": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "d": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : nom",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.rang": {
    "v": 57,
    "d": "57e",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
+   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.pic": {
    "v": 28581,
    "d": "28 581",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
+   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.heure_pic": {
    "v": "18:37",
    "d": "18 h 37",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
+   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.moy": {
    "v": 21068,
    "d": "21 068",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
+   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.createur": {
    "v": "SecretVerse Studio",
    "d": "SecretVerse Studio",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : créateur",
+   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : créateur",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : genre",
+   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : genre",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.var_veille": {
    "v": 0.1755,
    "d": "+17,5 %",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport à la veille",
+   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.moy_veille": {
    "v": 17922,
    "d": "17 922",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne de la veille",
+   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne de la veille",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.var_7j": {
    "v": -0.2917,
    "d": "−29,2 %",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.moy_7j": {
    "v": 29745,
    "d": "29 745",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des 7 jours précédents",
+   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.visites_24h": {
    "v": 3308344,
    "d": "3,31 millions",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : visites gagnées en 24 h",
+   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : visites gagnées en 24 h",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.visites_total": {
    "v": 6692588693,
    "d": "6,69 milliards",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
+   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.note": {
    "v": 0.9669,
    "d": "96,7 %",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
+   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.rang_veille": {
    "v": 50,
    "d": "50e",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : rang la veille",
+   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : rang la veille",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.2440500124.nom": {
@@ -10327,7 +10327,7 @@
      "valeur": 363273
     },
     {
-     "nom": "[1H🎉] Adopt Me!",
+     "nom": "[SOON!🎉] Adopt Me!",
      "valeur": 271738
     },
     {
