@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-13",
- "genere": "2026-11-14T17:56:04Z",
+ "genere": "2026-11-14T18:22:13Z",
  "couverture": {
   "releves": 23,
   "attendus": 24
@@ -435,8 +435,8 @@
    "src": "data/jours/2026-11-13.csv#L5"
   },
   "top.5.nom": {
-   "v": "[2X NOW!🎉] Adopt Me!",
-   "d": "[2X NOW!🎉] Adopt Me!",
+   "v": "[🥤] Adopt Me!",
+   "d": "[🥤] Adopt Me!",
    "l": "N° 5 du jour : nom",
    "src": "data/jours/2026-11-13.csv#L6"
   },
@@ -1323,93 +1323,93 @@
    "src": "data/jours/2026-11-13.csv#L5"
   },
   "g.383310974.nom": {
-   "v": "[2X NOW!🎉] Adopt Me!",
-   "d": "[2X NOW!🎉] Adopt Me!",
-   "l": "[2X NOW!🎉] Adopt Me! : nom",
+   "v": "[🥤] Adopt Me!",
+   "d": "[🥤] Adopt Me!",
+   "l": "[🥤] Adopt Me! : nom",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.rang": {
    "v": 5,
    "d": "5e",
-   "l": "[2X NOW!🎉] Adopt Me! : rang au pic du jour",
+   "l": "[🥤] Adopt Me! : rang au pic du jour",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.pic": {
    "v": 271738,
    "d": "271 738",
-   "l": "[2X NOW!🎉] Adopt Me! : pic de joueurs simultanés relevé",
+   "l": "[🥤] Adopt Me! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.heure_pic": {
    "v": "17:38",
    "d": "17 h 38",
-   "l": "[2X NOW!🎉] Adopt Me! : heure (Paris) du pic relevé",
+   "l": "[🥤] Adopt Me! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.moy": {
    "v": 182593,
    "d": "182 593",
-   "l": "[2X NOW!🎉] Adopt Me! : moyenne des joueurs simultanés sur la journée",
+   "l": "[🥤] Adopt Me! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.createur": {
    "v": "Uplift Games",
    "d": "Uplift Games",
-   "l": "[2X NOW!🎉] Adopt Me! : créateur",
+   "l": "[🥤] Adopt Me! : créateur",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "[2X NOW!🎉] Adopt Me! : genre",
+   "l": "[🥤] Adopt Me! : genre",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.var_veille": {
    "v": 0.475,
    "d": "+47,5 %",
-   "l": "[2X NOW!🎉] Adopt Me! : variation de la moyenne par rapport à la veille",
+   "l": "[🥤] Adopt Me! : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.moy_veille": {
    "v": 123789,
    "d": "123 789",
-   "l": "[2X NOW!🎉] Adopt Me! : moyenne de la veille",
+   "l": "[🥤] Adopt Me! : moyenne de la veille",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.var_7j": {
    "v": 0.1424,
    "d": "+14,2 %",
-   "l": "[2X NOW!🎉] Adopt Me! : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🥤] Adopt Me! : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.moy_7j": {
    "v": 159839,
    "d": "159 839",
-   "l": "[2X NOW!🎉] Adopt Me! : moyenne des 7 jours précédents",
+   "l": "[🥤] Adopt Me! : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.visites_24h": {
    "v": 8399133,
    "d": "8,4 millions",
-   "l": "[2X NOW!🎉] Adopt Me! : visites gagnées en 24 h",
+   "l": "[🥤] Adopt Me! : visites gagnées en 24 h",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.visites_total": {
    "v": 45405625382,
    "d": "45,41 milliards",
-   "l": "[2X NOW!🎉] Adopt Me! : visites cumulées depuis la création",
+   "l": "[🥤] Adopt Me! : visites cumulées depuis la création",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.note": {
    "v": 0.864,
    "d": "86,4 %",
-   "l": "[2X NOW!🎉] Adopt Me! : part de votes positifs",
+   "l": "[🥤] Adopt Me! : part de votes positifs",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.rang_veille": {
    "v": 7,
    "d": "7e",
-   "l": "[2X NOW!🎉] Adopt Me! : rang la veille",
+   "l": "[🥤] Adopt Me! : rang la veille",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.66654135.nom": {
@@ -5955,93 +5955,93 @@
    "src": "data/jours/2026-11-13.csv#L57"
   },
   "g.9584852943.nom": {
-   "v": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate",
-   "d": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate",
-   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : nom",
+   "v": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "d": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : nom",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.rang": {
    "v": 57,
    "d": "57e",
-   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.pic": {
    "v": 28581,
    "d": "28 581",
-   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.heure_pic": {
    "v": "18:37",
    "d": "18 h 37",
-   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.moy": {
    "v": 21068,
    "d": "21 068",
-   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.createur": {
    "v": "SecretVerse Studio",
    "d": "SecretVerse Studio",
-   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : créateur",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : créateur",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : genre",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : genre",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.var_veille": {
    "v": 0.1755,
    "d": "+17,5 %",
-   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport à la veille",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.moy_veille": {
    "v": 17922,
    "d": "17 922",
-   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne de la veille",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne de la veille",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.var_7j": {
    "v": -0.2917,
    "d": "−29,2 %",
-   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.moy_7j": {
    "v": 29745,
    "d": "29 745",
-   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des 7 jours précédents",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.visites_24h": {
    "v": 3308344,
    "d": "3,31 millions",
-   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : visites gagnées en 24 h",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : visites gagnées en 24 h",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.visites_total": {
    "v": 6692588693,
    "d": "6,69 milliards",
-   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.note": {
    "v": 0.9669,
    "d": "96,7 %",
-   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.9584852943.rang_veille": {
    "v": 50,
    "d": "50e",
-   "l": "[X5] +1 Speed Keyboard Escape | Candy & Chocolate : rang la veille",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : rang la veille",
    "src": "data/jours/2026-11-13.csv#L58"
   },
   "g.2440500124.nom": {
@@ -8739,93 +8739,93 @@
    "src": "data/jours/2026-11-13.csv#L89"
   },
   "g.4778845442.nom": {
-   "v": "[💥OG LOBBY] Toilet Tower Defense",
-   "d": "[💥OG LOBBY] Toilet Tower Defense",
-   "l": "[💥OG LOBBY] Toilet Tower Defense : nom",
+   "v": "[🦃THANKSGIVING] Toilet Tower Defense",
+   "d": "[🦃THANKSGIVING] Toilet Tower Defense",
+   "l": "[🦃THANKSGIVING] Toilet Tower Defense : nom",
    "src": "data/jours/2026-11-13.csv#L90"
   },
   "g.4778845442.rang": {
    "v": 89,
    "d": "89e",
-   "l": "[💥OG LOBBY] Toilet Tower Defense : rang au pic du jour",
+   "l": "[🦃THANKSGIVING] Toilet Tower Defense : rang au pic du jour",
    "src": "data/jours/2026-11-13.csv#L90"
   },
   "g.4778845442.pic": {
    "v": 20772,
    "d": "20 772",
-   "l": "[💥OG LOBBY] Toilet Tower Defense : pic de joueurs simultanés relevé",
+   "l": "[🦃THANKSGIVING] Toilet Tower Defense : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-13.csv#L90"
   },
   "g.4778845442.heure_pic": {
    "v": "14:58",
    "d": "14 h 58",
-   "l": "[💥OG LOBBY] Toilet Tower Defense : heure (Paris) du pic relevé",
+   "l": "[🦃THANKSGIVING] Toilet Tower Defense : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-13.csv#L90"
   },
   "g.4778845442.moy": {
    "v": 14017,
    "d": "14 017",
-   "l": "[💥OG LOBBY] Toilet Tower Defense : moyenne des joueurs simultanés sur la journée",
+   "l": "[🦃THANKSGIVING] Toilet Tower Defense : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-13.csv#L90"
   },
   "g.4778845442.createur": {
    "v": "Telanthric Development",
    "d": "Telanthric Development",
-   "l": "[💥OG LOBBY] Toilet Tower Defense : créateur",
+   "l": "[🦃THANKSGIVING] Toilet Tower Defense : créateur",
    "src": "data/jours/2026-11-13.csv#L90"
   },
   "g.4778845442.genre": {
    "v": "Strategy",
    "d": "Stratégie",
-   "l": "[💥OG LOBBY] Toilet Tower Defense : genre",
+   "l": "[🦃THANKSGIVING] Toilet Tower Defense : genre",
    "src": "data/jours/2026-11-13.csv#L90"
   },
   "g.4778845442.var_veille": {
    "v": 0.0274,
    "d": "+2,7 %",
-   "l": "[💥OG LOBBY] Toilet Tower Defense : variation de la moyenne par rapport à la veille",
+   "l": "[🦃THANKSGIVING] Toilet Tower Defense : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-13.csv#L90"
   },
   "g.4778845442.moy_veille": {
    "v": 13644,
    "d": "13 644",
-   "l": "[💥OG LOBBY] Toilet Tower Defense : moyenne de la veille",
+   "l": "[🦃THANKSGIVING] Toilet Tower Defense : moyenne de la veille",
    "src": "data/jours/2026-11-13.csv#L90"
   },
   "g.4778845442.var_7j": {
    "v": 0.1874,
    "d": "+18,7 %",
-   "l": "[💥OG LOBBY] Toilet Tower Defense : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🦃THANKSGIVING] Toilet Tower Defense : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L90"
   },
   "g.4778845442.moy_7j": {
    "v": 11805,
    "d": "11 805",
-   "l": "[💥OG LOBBY] Toilet Tower Defense : moyenne des 7 jours précédents",
+   "l": "[🦃THANKSGIVING] Toilet Tower Defense : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L90"
   },
   "g.4778845442.visites_24h": {
    "v": 1362447,
    "d": "1,36 million",
-   "l": "[💥OG LOBBY] Toilet Tower Defense : visites gagnées en 24 h",
+   "l": "[🦃THANKSGIVING] Toilet Tower Defense : visites gagnées en 24 h",
    "src": "data/jours/2026-11-13.csv#L90"
   },
   "g.4778845442.visites_total": {
    "v": 6216218369,
    "d": "6,22 milliards",
-   "l": "[💥OG LOBBY] Toilet Tower Defense : visites cumulées depuis la création",
+   "l": "[🦃THANKSGIVING] Toilet Tower Defense : visites cumulées depuis la création",
    "src": "data/jours/2026-11-13.csv#L90"
   },
   "g.4778845442.note": {
    "v": 0.8562,
    "d": "85,6 %",
-   "l": "[💥OG LOBBY] Toilet Tower Defense : part de votes positifs",
+   "l": "[🦃THANKSGIVING] Toilet Tower Defense : part de votes positifs",
    "src": "data/jours/2026-11-13.csv#L90"
   },
   "g.4778845442.rang_veille": {
    "v": 76,
    "d": "76e",
-   "l": "[💥OG LOBBY] Toilet Tower Defense : rang la veille",
+   "l": "[🦃THANKSGIVING] Toilet Tower Defense : rang la veille",
    "src": "data/jours/2026-11-13.csv#L90"
   },
   "g.7633926880.nom": {
@@ -9183,93 +9183,93 @@
    "src": "data/jours/2026-11-13.csv#L94"
   },
   "g.10769835283.nom": {
-   "v": "[UPD5 ✨] Depth Incremental",
-   "d": "[UPD5 ✨] Depth Incremental",
-   "l": "[UPD5 ✨] Depth Incremental : nom",
+   "v": "[UPD6 🎉] Depth Incremental",
+   "d": "[UPD6 🎉] Depth Incremental",
+   "l": "[UPD6 🎉] Depth Incremental : nom",
    "src": "data/jours/2026-11-13.csv#L95"
   },
   "g.10769835283.rang": {
    "v": 94,
    "d": "94e",
-   "l": "[UPD5 ✨] Depth Incremental : rang au pic du jour",
+   "l": "[UPD6 🎉] Depth Incremental : rang au pic du jour",
    "src": "data/jours/2026-11-13.csv#L95"
   },
   "g.10769835283.pic": {
    "v": 20154,
    "d": "20 154",
-   "l": "[UPD5 ✨] Depth Incremental : pic de joueurs simultanés relevé",
+   "l": "[UPD6 🎉] Depth Incremental : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-13.csv#L95"
   },
   "g.10769835283.heure_pic": {
    "v": "21:38",
    "d": "21 h 38",
-   "l": "[UPD5 ✨] Depth Incremental : heure (Paris) du pic relevé",
+   "l": "[UPD6 🎉] Depth Incremental : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-13.csv#L95"
   },
   "g.10769835283.moy": {
    "v": 16050,
    "d": "16 050",
-   "l": "[UPD5 ✨] Depth Incremental : moyenne des joueurs simultanés sur la journée",
+   "l": "[UPD6 🎉] Depth Incremental : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-13.csv#L95"
   },
   "g.10769835283.createur": {
    "v": "Core Loop",
    "d": "Core Loop",
-   "l": "[UPD5 ✨] Depth Incremental : créateur",
+   "l": "[UPD6 🎉] Depth Incremental : créateur",
    "src": "data/jours/2026-11-13.csv#L95"
   },
   "g.10769835283.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[UPD5 ✨] Depth Incremental : genre",
+   "l": "[UPD6 🎉] Depth Incremental : genre",
    "src": "data/jours/2026-11-13.csv#L95"
   },
   "g.10769835283.var_veille": {
    "v": 0.0046,
    "d": "+0,5 %",
-   "l": "[UPD5 ✨] Depth Incremental : variation de la moyenne par rapport à la veille",
+   "l": "[UPD6 🎉] Depth Incremental : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-13.csv#L95"
   },
   "g.10769835283.moy_veille": {
    "v": 15977,
    "d": "15 977",
-   "l": "[UPD5 ✨] Depth Incremental : moyenne de la veille",
+   "l": "[UPD6 🎉] Depth Incremental : moyenne de la veille",
    "src": "data/jours/2026-11-13.csv#L95"
   },
   "g.10769835283.var_7j": {
    "v": -0.1941,
    "d": "−19,4 %",
-   "l": "[UPD5 ✨] Depth Incremental : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[UPD6 🎉] Depth Incremental : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L95"
   },
   "g.10769835283.moy_7j": {
    "v": 19917,
    "d": "19 917",
-   "l": "[UPD5 ✨] Depth Incremental : moyenne des 7 jours précédents",
+   "l": "[UPD6 🎉] Depth Incremental : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L95"
   },
   "g.10769835283.visites_24h": {
    "v": 642039,
    "d": "642 039",
-   "l": "[UPD5 ✨] Depth Incremental : visites gagnées en 24 h",
+   "l": "[UPD6 🎉] Depth Incremental : visites gagnées en 24 h",
    "src": "data/jours/2026-11-13.csv#L95"
   },
   "g.10769835283.visites_total": {
    "v": 13073895,
    "d": "13,07 millions",
-   "l": "[UPD5 ✨] Depth Incremental : visites cumulées depuis la création",
+   "l": "[UPD6 🎉] Depth Incremental : visites cumulées depuis la création",
    "src": "data/jours/2026-11-13.csv#L95"
   },
   "g.10769835283.note": {
    "v": 0.9659,
    "d": "96,6 %",
-   "l": "[UPD5 ✨] Depth Incremental : part de votes positifs",
+   "l": "[UPD6 🎉] Depth Incremental : part de votes positifs",
    "src": "data/jours/2026-11-13.csv#L95"
   },
   "g.10769835283.rang_veille": {
    "v": 73,
    "d": "73e",
-   "l": "[UPD5 ✨] Depth Incremental : rang la veille",
+   "l": "[UPD6 🎉] Depth Incremental : rang la veille",
    "src": "data/jours/2026-11-13.csv#L95"
   },
   "g.184199275.nom": {
@@ -10327,7 +10327,7 @@
      "valeur": 363273
     },
     {
-     "nom": "[2X NOW!🎉] Adopt Me!",
+     "nom": "[🥤] Adopt Me!",
      "valeur": 271738
     },
     {
