@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-13",
- "genere": "2026-11-14T00:29:57Z",
+ "genere": "2026-11-14T01:29:52Z",
  "couverture": {
   "releves": 23,
   "attendus": 24
@@ -2031,93 +2031,93 @@
    "src": "data/jours/2026-11-13.csv#L13"
   },
   "g.6331902150.nom": {
-   "v": "[UPD 🎃] Forsaken",
-   "d": "[UPD 🎃] Forsaken",
-   "l": "[UPD 🎃] Forsaken : nom",
+   "v": "Forsaken",
+   "d": "Forsaken",
+   "l": "Forsaken : nom",
    "src": "data/jours/2026-11-13.csv#L14"
   },
   "g.6331902150.rang": {
    "v": 13,
    "d": "13e",
-   "l": "[UPD 🎃] Forsaken : rang au pic du jour",
+   "l": "Forsaken : rang au pic du jour",
    "src": "data/jours/2026-11-13.csv#L14"
   },
   "g.6331902150.pic": {
    "v": 92725,
    "d": "92 725",
-   "l": "[UPD 🎃] Forsaken : pic de joueurs simultanés relevé",
+   "l": "Forsaken : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-13.csv#L14"
   },
   "g.6331902150.heure_pic": {
    "v": "23:29",
    "d": "23 h 29",
-   "l": "[UPD 🎃] Forsaken : heure (Paris) du pic relevé",
+   "l": "Forsaken : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-13.csv#L14"
   },
   "g.6331902150.moy": {
    "v": 68970,
    "d": "68 970",
-   "l": "[UPD 🎃] Forsaken : moyenne des joueurs simultanés sur la journée",
+   "l": "Forsaken : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-13.csv#L14"
   },
   "g.6331902150.createur": {
    "v": "Forsaken Dev Team",
    "d": "Forsaken Dev Team",
-   "l": "[UPD 🎃] Forsaken : créateur",
+   "l": "Forsaken : créateur",
    "src": "data/jours/2026-11-13.csv#L14"
   },
   "g.6331902150.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "[UPD 🎃] Forsaken : genre",
+   "l": "Forsaken : genre",
    "src": "data/jours/2026-11-13.csv#L14"
   },
   "g.6331902150.var_veille": {
    "v": 0.1748,
    "d": "+17,5 %",
-   "l": "[UPD 🎃] Forsaken : variation de la moyenne par rapport à la veille",
+   "l": "Forsaken : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-13.csv#L14"
   },
   "g.6331902150.moy_veille": {
    "v": 58708,
    "d": "58 708",
-   "l": "[UPD 🎃] Forsaken : moyenne de la veille",
+   "l": "Forsaken : moyenne de la veille",
    "src": "data/jours/2026-11-13.csv#L14"
   },
   "g.6331902150.var_7j": {
    "v": -0.034,
    "d": "−3,4 %",
-   "l": "[UPD 🎃] Forsaken : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Forsaken : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L14"
   },
   "g.6331902150.moy_7j": {
    "v": 71399,
    "d": "71 399",
-   "l": "[UPD 🎃] Forsaken : moyenne des 7 jours précédents",
+   "l": "Forsaken : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L14"
   },
   "g.6331902150.visites_24h": {
    "v": 4239319,
    "d": "4,24 millions",
-   "l": "[UPD 🎃] Forsaken : visites gagnées en 24 h",
+   "l": "Forsaken : visites gagnées en 24 h",
    "src": "data/jours/2026-11-13.csv#L14"
   },
   "g.6331902150.visites_total": {
    "v": 5944355904,
    "d": "5,94 milliards",
-   "l": "[UPD 🎃] Forsaken : visites cumulées depuis la création",
+   "l": "Forsaken : visites cumulées depuis la création",
    "src": "data/jours/2026-11-13.csv#L14"
   },
   "g.6331902150.note": {
    "v": 0.8441,
    "d": "84,4 %",
-   "l": "[UPD 🎃] Forsaken : part de votes positifs",
+   "l": "Forsaken : part de votes positifs",
    "src": "data/jours/2026-11-13.csv#L14"
   },
   "g.6331902150.rang_veille": {
    "v": 14,
    "d": "14e",
-   "l": "[UPD 🎃] Forsaken : rang la veille",
+   "l": "Forsaken : rang la veille",
    "src": "data/jours/2026-11-13.csv#L14"
   },
   "g.5569032992.nom": {
@@ -6477,93 +6477,93 @@
    "src": "data/jours/2026-11-13.csv#L63"
   },
   "g.10769851460.nom": {
-   "v": "[🏘️CITY] Criminal Simulator 💰",
-   "d": "[🏘️CITY] Criminal Simulator 💰",
-   "l": "[🏘️CITY] Criminal Simulator 💰 : nom",
+   "v": "[🏝️ISLAND] Criminal Simulator 💰",
+   "d": "[🏝️ISLAND] Criminal Simulator 💰",
+   "l": "[🏝️ISLAND] Criminal Simulator 💰 : nom",
    "src": "data/jours/2026-11-13.csv#L64"
   },
   "g.10769851460.rang": {
    "v": 63,
    "d": "63e",
-   "l": "[🏘️CITY] Criminal Simulator 💰 : rang au pic du jour",
+   "l": "[🏝️ISLAND] Criminal Simulator 💰 : rang au pic du jour",
    "src": "data/jours/2026-11-13.csv#L64"
   },
   "g.10769851460.pic": {
    "v": 26513,
    "d": "26 513",
-   "l": "[🏘️CITY] Criminal Simulator 💰 : pic de joueurs simultanés relevé",
+   "l": "[🏝️ISLAND] Criminal Simulator 💰 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-13.csv#L64"
   },
   "g.10769851460.heure_pic": {
    "v": "18:37",
    "d": "18 h 37",
-   "l": "[🏘️CITY] Criminal Simulator 💰 : heure (Paris) du pic relevé",
+   "l": "[🏝️ISLAND] Criminal Simulator 💰 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-13.csv#L64"
   },
   "g.10769851460.moy": {
    "v": 19395,
    "d": "19 395",
-   "l": "[🏘️CITY] Criminal Simulator 💰 : moyenne des joueurs simultanés sur la journée",
+   "l": "[🏝️ISLAND] Criminal Simulator 💰 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-13.csv#L64"
   },
   "g.10769851460.createur": {
    "v": "Pigged Out Studios",
    "d": "Pigged Out Studios",
-   "l": "[🏘️CITY] Criminal Simulator 💰 : créateur",
+   "l": "[🏝️ISLAND] Criminal Simulator 💰 : créateur",
    "src": "data/jours/2026-11-13.csv#L64"
   },
   "g.10769851460.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🏘️CITY] Criminal Simulator 💰 : genre",
+   "l": "[🏝️ISLAND] Criminal Simulator 💰 : genre",
    "src": "data/jours/2026-11-13.csv#L64"
   },
   "g.10769851460.var_veille": {
    "v": 0.1186,
    "d": "+11,9 %",
-   "l": "[🏘️CITY] Criminal Simulator 💰 : variation de la moyenne par rapport à la veille",
+   "l": "[🏝️ISLAND] Criminal Simulator 💰 : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-13.csv#L64"
   },
   "g.10769851460.moy_veille": {
    "v": 17338,
    "d": "17 338",
-   "l": "[🏘️CITY] Criminal Simulator 💰 : moyenne de la veille",
+   "l": "[🏝️ISLAND] Criminal Simulator 💰 : moyenne de la veille",
    "src": "data/jours/2026-11-13.csv#L64"
   },
   "g.10769851460.var_7j": {
    "v": -0.1881,
    "d": "−18,8 %",
-   "l": "[🏘️CITY] Criminal Simulator 💰 : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🏝️ISLAND] Criminal Simulator 💰 : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L64"
   },
   "g.10769851460.moy_7j": {
    "v": 23888,
    "d": "23 888",
-   "l": "[🏘️CITY] Criminal Simulator 💰 : moyenne des 7 jours précédents",
+   "l": "[🏝️ISLAND] Criminal Simulator 💰 : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L64"
   },
   "g.10769851460.visites_24h": {
    "v": 1202670,
    "d": "1,2 million",
-   "l": "[🏘️CITY] Criminal Simulator 💰 : visites gagnées en 24 h",
+   "l": "[🏝️ISLAND] Criminal Simulator 💰 : visites gagnées en 24 h",
    "src": "data/jours/2026-11-13.csv#L64"
   },
   "g.10769851460.visites_total": {
    "v": 23926924,
    "d": "23,93 millions",
-   "l": "[🏘️CITY] Criminal Simulator 💰 : visites cumulées depuis la création",
+   "l": "[🏝️ISLAND] Criminal Simulator 💰 : visites cumulées depuis la création",
    "src": "data/jours/2026-11-13.csv#L64"
   },
   "g.10769851460.note": {
    "v": 0.9275,
    "d": "92,8 %",
-   "l": "[🏘️CITY] Criminal Simulator 💰 : part de votes positifs",
+   "l": "[🏝️ISLAND] Criminal Simulator 💰 : part de votes positifs",
    "src": "data/jours/2026-11-13.csv#L64"
   },
   "g.10769851460.rang_veille": {
    "v": 63,
    "d": "63e",
-   "l": "[🏘️CITY] Criminal Simulator 💰 : rang la veille",
+   "l": "[🏝️ISLAND] Criminal Simulator 💰 : rang la veille",
    "src": "data/jours/2026-11-13.csv#L64"
   },
   "g.5578556129.nom": {
