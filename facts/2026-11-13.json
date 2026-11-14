@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-13",
- "genere": "2026-11-14T17:01:02Z",
+ "genere": "2026-11-14T17:23:49Z",
  "couverture": {
   "releves": 23,
   "attendus": 24
@@ -435,8 +435,8 @@
    "src": "data/jours/2026-11-13.csv#L5"
   },
   "top.5.nom": {
-   "v": "[SOON!🎉] Adopt Me!",
-   "d": "[SOON!🎉] Adopt Me!",
+   "v": "[3X NOW!🎉] Adopt Me!",
+   "d": "[3X NOW!🎉] Adopt Me!",
    "l": "N° 5 du jour : nom",
    "src": "data/jours/2026-11-13.csv#L6"
   },
@@ -1323,93 +1323,93 @@
    "src": "data/jours/2026-11-13.csv#L5"
   },
   "g.383310974.nom": {
-   "v": "[SOON!🎉] Adopt Me!",
-   "d": "[SOON!🎉] Adopt Me!",
-   "l": "[SOON!🎉] Adopt Me! : nom",
+   "v": "[3X NOW!🎉] Adopt Me!",
+   "d": "[3X NOW!🎉] Adopt Me!",
+   "l": "[3X NOW!🎉] Adopt Me! : nom",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.rang": {
    "v": 5,
    "d": "5e",
-   "l": "[SOON!🎉] Adopt Me! : rang au pic du jour",
+   "l": "[3X NOW!🎉] Adopt Me! : rang au pic du jour",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.pic": {
    "v": 271738,
    "d": "271 738",
-   "l": "[SOON!🎉] Adopt Me! : pic de joueurs simultanés relevé",
+   "l": "[3X NOW!🎉] Adopt Me! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.heure_pic": {
    "v": "17:38",
    "d": "17 h 38",
-   "l": "[SOON!🎉] Adopt Me! : heure (Paris) du pic relevé",
+   "l": "[3X NOW!🎉] Adopt Me! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.moy": {
    "v": 182593,
    "d": "182 593",
-   "l": "[SOON!🎉] Adopt Me! : moyenne des joueurs simultanés sur la journée",
+   "l": "[3X NOW!🎉] Adopt Me! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.createur": {
    "v": "Uplift Games",
    "d": "Uplift Games",
-   "l": "[SOON!🎉] Adopt Me! : créateur",
+   "l": "[3X NOW!🎉] Adopt Me! : créateur",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "[SOON!🎉] Adopt Me! : genre",
+   "l": "[3X NOW!🎉] Adopt Me! : genre",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.var_veille": {
    "v": 0.475,
    "d": "+47,5 %",
-   "l": "[SOON!🎉] Adopt Me! : variation de la moyenne par rapport à la veille",
+   "l": "[3X NOW!🎉] Adopt Me! : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.moy_veille": {
    "v": 123789,
    "d": "123 789",
-   "l": "[SOON!🎉] Adopt Me! : moyenne de la veille",
+   "l": "[3X NOW!🎉] Adopt Me! : moyenne de la veille",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.var_7j": {
    "v": 0.1424,
    "d": "+14,2 %",
-   "l": "[SOON!🎉] Adopt Me! : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[3X NOW!🎉] Adopt Me! : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.moy_7j": {
    "v": 159839,
    "d": "159 839",
-   "l": "[SOON!🎉] Adopt Me! : moyenne des 7 jours précédents",
+   "l": "[3X NOW!🎉] Adopt Me! : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.visites_24h": {
    "v": 8399133,
    "d": "8,4 millions",
-   "l": "[SOON!🎉] Adopt Me! : visites gagnées en 24 h",
+   "l": "[3X NOW!🎉] Adopt Me! : visites gagnées en 24 h",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.visites_total": {
    "v": 45405625382,
    "d": "45,41 milliards",
-   "l": "[SOON!🎉] Adopt Me! : visites cumulées depuis la création",
+   "l": "[3X NOW!🎉] Adopt Me! : visites cumulées depuis la création",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.note": {
    "v": 0.864,
    "d": "86,4 %",
-   "l": "[SOON!🎉] Adopt Me! : part de votes positifs",
+   "l": "[3X NOW!🎉] Adopt Me! : part de votes positifs",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.rang_veille": {
    "v": 7,
    "d": "7e",
-   "l": "[SOON!🎉] Adopt Me! : rang la veille",
+   "l": "[3X NOW!🎉] Adopt Me! : rang la veille",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.66654135.nom": {
@@ -2391,93 +2391,93 @@
    "src": "data/jours/2026-11-13.csv#L17"
   },
   "g.5750914919.nom": {
-   "v": "Fisch 🦈 [SOON]",
-   "d": "Fisch 🦈 [SOON]",
-   "l": "Fisch 🦈 [SOON] : nom",
+   "v": "Fisch 🦈 [NOW]",
+   "d": "Fisch 🦈 [NOW]",
+   "l": "Fisch 🦈 [NOW] : nom",
    "src": "data/jours/2026-11-13.csv#L18"
   },
   "g.5750914919.rang": {
    "v": 17,
    "d": "17e",
-   "l": "Fisch 🦈 [SOON] : rang au pic du jour",
+   "l": "Fisch 🦈 [NOW] : rang au pic du jour",
    "src": "data/jours/2026-11-13.csv#L18"
   },
   "g.5750914919.pic": {
    "v": 70792,
    "d": "70 792",
-   "l": "Fisch 🦈 [SOON] : pic de joueurs simultanés relevé",
+   "l": "Fisch 🦈 [NOW] : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-13.csv#L18"
   },
   "g.5750914919.heure_pic": {
    "v": "14:58",
    "d": "14 h 58",
-   "l": "Fisch 🦈 [SOON] : heure (Paris) du pic relevé",
+   "l": "Fisch 🦈 [NOW] : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-13.csv#L18"
   },
   "g.5750914919.moy": {
    "v": 55815,
    "d": "55 815",
-   "l": "Fisch 🦈 [SOON] : moyenne des joueurs simultanés sur la journée",
+   "l": "Fisch 🦈 [NOW] : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-13.csv#L18"
   },
   "g.5750914919.createur": {
    "v": "Fisching",
    "d": "Fisching",
-   "l": "Fisch 🦈 [SOON] : créateur",
+   "l": "Fisch 🦈 [NOW] : créateur",
    "src": "data/jours/2026-11-13.csv#L18"
   },
   "g.5750914919.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "Fisch 🦈 [SOON] : genre",
+   "l": "Fisch 🦈 [NOW] : genre",
    "src": "data/jours/2026-11-13.csv#L18"
   },
   "g.5750914919.var_veille": {
    "v": 0.1002,
    "d": "+10,0 %",
-   "l": "Fisch 🦈 [SOON] : variation de la moyenne par rapport à la veille",
+   "l": "Fisch 🦈 [NOW] : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-13.csv#L18"
   },
   "g.5750914919.moy_veille": {
    "v": 50733,
    "d": "50 733",
-   "l": "Fisch 🦈 [SOON] : moyenne de la veille",
+   "l": "Fisch 🦈 [NOW] : moyenne de la veille",
    "src": "data/jours/2026-11-13.csv#L18"
   },
   "g.5750914919.var_7j": {
    "v": -0.2146,
    "d": "−21,5 %",
-   "l": "Fisch 🦈 [SOON] : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Fisch 🦈 [NOW] : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L18"
   },
   "g.5750914919.moy_7j": {
    "v": 71070,
    "d": "71 070",
-   "l": "Fisch 🦈 [SOON] : moyenne des 7 jours précédents",
+   "l": "Fisch 🦈 [NOW] : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L18"
   },
   "g.5750914919.visites_24h": {
    "v": 2575529,
    "d": "2,58 millions",
-   "l": "Fisch 🦈 [SOON] : visites gagnées en 24 h",
+   "l": "Fisch 🦈 [NOW] : visites gagnées en 24 h",
    "src": "data/jours/2026-11-13.csv#L18"
   },
   "g.5750914919.visites_total": {
    "v": 5136385420,
    "d": "5,14 milliards",
-   "l": "Fisch 🦈 [SOON] : visites cumulées depuis la création",
+   "l": "Fisch 🦈 [NOW] : visites cumulées depuis la création",
    "src": "data/jours/2026-11-13.csv#L18"
   },
   "g.5750914919.note": {
    "v": 0.9082,
    "d": "90,8 %",
-   "l": "Fisch 🦈 [SOON] : part de votes positifs",
+   "l": "Fisch 🦈 [NOW] : part de votes positifs",
    "src": "data/jours/2026-11-13.csv#L18"
   },
   "g.5750914919.rang_veille": {
    "v": 20,
    "d": "20e",
-   "l": "Fisch 🦈 [SOON] : rang la veille",
+   "l": "Fisch 🦈 [NOW] : rang la veille",
    "src": "data/jours/2026-11-13.csv#L18"
   },
   "g.2711375305.nom": {
@@ -2841,93 +2841,93 @@
    "src": "data/jours/2026-11-13.csv#L22"
   },
   "g.6701277882.nom": {
-   "v": "[NOW] Fish It! 🐟",
-   "d": "[NOW] Fish It! 🐟",
-   "l": "[NOW] Fish It! 🐟 : nom",
+   "v": "[6 HRS] Fish It! 🐟",
+   "d": "[6 HRS] Fish It! 🐟",
+   "l": "[6 HRS] Fish It! 🐟 : nom",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.rang": {
    "v": 22,
    "d": "22e",
-   "l": "[NOW] Fish It! 🐟 : rang au pic du jour",
+   "l": "[6 HRS] Fish It! 🐟 : rang au pic du jour",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.pic": {
    "v": 65733,
    "d": "65 733",
-   "l": "[NOW] Fish It! 🐟 : pic de joueurs simultanés relevé",
+   "l": "[6 HRS] Fish It! 🐟 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.heure_pic": {
    "v": "19:31",
    "d": "19 h 31",
-   "l": "[NOW] Fish It! 🐟 : heure (Paris) du pic relevé",
+   "l": "[6 HRS] Fish It! 🐟 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.moy": {
    "v": 63590,
    "d": "63 590",
-   "l": "[NOW] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
+   "l": "[6 HRS] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.createur": {
    "v": "Fish Atelier",
    "d": "Fish Atelier",
-   "l": "[NOW] Fish It! 🐟 : créateur",
+   "l": "[6 HRS] Fish It! 🐟 : créateur",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[NOW] Fish It! 🐟 : genre",
+   "l": "[6 HRS] Fish It! 🐟 : genre",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.var_veille": {
    "v": 0.0214,
    "d": "+2,1 %",
-   "l": "[NOW] Fish It! 🐟 : variation de la moyenne par rapport à la veille",
+   "l": "[6 HRS] Fish It! 🐟 : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.moy_veille": {
    "v": 62258,
    "d": "62 258",
-   "l": "[NOW] Fish It! 🐟 : moyenne de la veille",
+   "l": "[6 HRS] Fish It! 🐟 : moyenne de la veille",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.var_7j": {
    "v": -0.0029,
    "d": "−0,3 %",
-   "l": "[NOW] Fish It! 🐟 : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[6 HRS] Fish It! 🐟 : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.moy_7j": {
    "v": 63775,
    "d": "63 775",
-   "l": "[NOW] Fish It! 🐟 : moyenne des 7 jours précédents",
+   "l": "[6 HRS] Fish It! 🐟 : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.visites_24h": {
    "v": 992412,
    "d": "992 412",
-   "l": "[NOW] Fish It! 🐟 : visites gagnées en 24 h",
+   "l": "[6 HRS] Fish It! 🐟 : visites gagnées en 24 h",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.visites_total": {
    "v": 4826207471,
    "d": "4,83 milliards",
-   "l": "[NOW] Fish It! 🐟 : visites cumulées depuis la création",
+   "l": "[6 HRS] Fish It! 🐟 : visites cumulées depuis la création",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.note": {
    "v": 0.8283,
    "d": "82,8 %",
-   "l": "[NOW] Fish It! 🐟 : part de votes positifs",
+   "l": "[6 HRS] Fish It! 🐟 : part de votes positifs",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.6701277882.rang_veille": {
    "v": 19,
    "d": "19e",
-   "l": "[NOW] Fish It! 🐟 : rang la veille",
+   "l": "[6 HRS] Fish It! 🐟 : rang la veille",
    "src": "data/jours/2026-11-13.csv#L23"
   },
   "g.10762636904.nom": {
@@ -4185,93 +4185,93 @@
    "src": "data/jours/2026-11-13.csv#L37"
   },
   "g.3317771874.nom": {
-   "v": "🎭 [MINIGAMES] Pet Simulator 99! 🎃",
-   "d": "🎭 [MINIGAMES] Pet Simulator 99! 🎃",
-   "l": "🎭 [MINIGAMES] Pet Simulator 99! 🎃 : nom",
+   "v": "🍁 [TYCOON] Pet Simulator 99! 🍀",
+   "d": "🍁 [TYCOON] Pet Simulator 99! 🍀",
+   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : nom",
    "src": "data/jours/2026-11-13.csv#L38"
   },
   "g.3317771874.rang": {
    "v": 37,
    "d": "37e",
-   "l": "🎭 [MINIGAMES] Pet Simulator 99! 🎃 : rang au pic du jour",
+   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : rang au pic du jour",
    "src": "data/jours/2026-11-13.csv#L38"
   },
   "g.3317771874.pic": {
    "v": 43513,
    "d": "43 513",
-   "l": "🎭 [MINIGAMES] Pet Simulator 99! 🎃 : pic de joueurs simultanés relevé",
+   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-13.csv#L38"
   },
   "g.3317771874.heure_pic": {
    "v": "00:26",
    "d": "0 h 26",
-   "l": "🎭 [MINIGAMES] Pet Simulator 99! 🎃 : heure (Paris) du pic relevé",
+   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-13.csv#L38"
   },
   "g.3317771874.moy": {
    "v": 32699,
    "d": "32 699",
-   "l": "🎭 [MINIGAMES] Pet Simulator 99! 🎃 : moyenne des joueurs simultanés sur la journée",
+   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-13.csv#L38"
   },
   "g.3317771874.createur": {
    "v": "BIG Games Pets",
    "d": "BIG Games Pets",
-   "l": "🎭 [MINIGAMES] Pet Simulator 99! 🎃 : créateur",
+   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : créateur",
    "src": "data/jours/2026-11-13.csv#L38"
   },
   "g.3317771874.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "🎭 [MINIGAMES] Pet Simulator 99! 🎃 : genre",
+   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : genre",
    "src": "data/jours/2026-11-13.csv#L38"
   },
   "g.3317771874.var_veille": {
    "v": -0.2468,
    "d": "−24,7 %",
-   "l": "🎭 [MINIGAMES] Pet Simulator 99! 🎃 : variation de la moyenne par rapport à la veille",
+   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-13.csv#L38"
   },
   "g.3317771874.moy_veille": {
    "v": 43412,
    "d": "43 412",
-   "l": "🎭 [MINIGAMES] Pet Simulator 99! 🎃 : moyenne de la veille",
+   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : moyenne de la veille",
    "src": "data/jours/2026-11-13.csv#L38"
   },
   "g.3317771874.var_7j": {
    "v": -0.2971,
    "d": "−29,7 %",
-   "l": "🎭 [MINIGAMES] Pet Simulator 99! 🎃 : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L38"
   },
   "g.3317771874.moy_7j": {
    "v": 46518,
    "d": "46 518",
-   "l": "🎭 [MINIGAMES] Pet Simulator 99! 🎃 : moyenne des 7 jours précédents",
+   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L38"
   },
   "g.3317771874.visites_24h": {
    "v": 668935,
    "d": "668 935",
-   "l": "🎭 [MINIGAMES] Pet Simulator 99! 🎃 : visites gagnées en 24 h",
+   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : visites gagnées en 24 h",
    "src": "data/jours/2026-11-13.csv#L38"
   },
   "g.3317771874.visites_total": {
    "v": 2709414443,
    "d": "2,71 milliards",
-   "l": "🎭 [MINIGAMES] Pet Simulator 99! 🎃 : visites cumulées depuis la création",
+   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : visites cumulées depuis la création",
    "src": "data/jours/2026-11-13.csv#L38"
   },
   "g.3317771874.note": {
    "v": 0.9474,
    "d": "94,7 %",
-   "l": "🎭 [MINIGAMES] Pet Simulator 99! 🎃 : part de votes positifs",
+   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : part de votes positifs",
    "src": "data/jours/2026-11-13.csv#L38"
   },
   "g.3317771874.rang_veille": {
    "v": 25,
    "d": "25e",
-   "l": "🎭 [MINIGAMES] Pet Simulator 99! 🎃 : rang la veille",
+   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : rang la veille",
    "src": "data/jours/2026-11-13.csv#L38"
   },
   "g.10773926254.nom": {
@@ -10327,7 +10327,7 @@
      "valeur": 363273
     },
     {
-     "nom": "[SOON!🎉] Adopt Me!",
+     "nom": "[3X NOW!🎉] Adopt Me!",
      "valeur": 271738
     },
     {
