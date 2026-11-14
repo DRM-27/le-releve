@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-13",
- "genere": "2026-11-14T16:00:19Z",
+ "genere": "2026-11-14T16:25:50Z",
  "couverture": {
   "releves": 23,
   "attendus": 24
@@ -435,8 +435,8 @@
    "src": "data/jours/2026-11-13.csv#L5"
   },
   "top.5.nom": {
-   "v": "[2H🎉] Adopt Me!",
-   "d": "[2H🎉] Adopt Me!",
+   "v": "[1H🎉] Adopt Me!",
+   "d": "[1H🎉] Adopt Me!",
    "l": "N° 5 du jour : nom",
    "src": "data/jours/2026-11-13.csv#L6"
   },
@@ -1323,93 +1323,93 @@
    "src": "data/jours/2026-11-13.csv#L5"
   },
   "g.383310974.nom": {
-   "v": "[2H🎉] Adopt Me!",
-   "d": "[2H🎉] Adopt Me!",
-   "l": "[2H🎉] Adopt Me! : nom",
+   "v": "[1H🎉] Adopt Me!",
+   "d": "[1H🎉] Adopt Me!",
+   "l": "[1H🎉] Adopt Me! : nom",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.rang": {
    "v": 5,
    "d": "5e",
-   "l": "[2H🎉] Adopt Me! : rang au pic du jour",
+   "l": "[1H🎉] Adopt Me! : rang au pic du jour",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.pic": {
    "v": 271738,
    "d": "271 738",
-   "l": "[2H🎉] Adopt Me! : pic de joueurs simultanés relevé",
+   "l": "[1H🎉] Adopt Me! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.heure_pic": {
    "v": "17:38",
    "d": "17 h 38",
-   "l": "[2H🎉] Adopt Me! : heure (Paris) du pic relevé",
+   "l": "[1H🎉] Adopt Me! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.moy": {
    "v": 182593,
    "d": "182 593",
-   "l": "[2H🎉] Adopt Me! : moyenne des joueurs simultanés sur la journée",
+   "l": "[1H🎉] Adopt Me! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.createur": {
    "v": "Uplift Games",
    "d": "Uplift Games",
-   "l": "[2H🎉] Adopt Me! : créateur",
+   "l": "[1H🎉] Adopt Me! : créateur",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "[2H🎉] Adopt Me! : genre",
+   "l": "[1H🎉] Adopt Me! : genre",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.var_veille": {
    "v": 0.475,
    "d": "+47,5 %",
-   "l": "[2H🎉] Adopt Me! : variation de la moyenne par rapport à la veille",
+   "l": "[1H🎉] Adopt Me! : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.moy_veille": {
    "v": 123789,
    "d": "123 789",
-   "l": "[2H🎉] Adopt Me! : moyenne de la veille",
+   "l": "[1H🎉] Adopt Me! : moyenne de la veille",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.var_7j": {
    "v": 0.1424,
    "d": "+14,2 %",
-   "l": "[2H🎉] Adopt Me! : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[1H🎉] Adopt Me! : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.moy_7j": {
    "v": 159839,
    "d": "159 839",
-   "l": "[2H🎉] Adopt Me! : moyenne des 7 jours précédents",
+   "l": "[1H🎉] Adopt Me! : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.visites_24h": {
    "v": 8399133,
    "d": "8,4 millions",
-   "l": "[2H🎉] Adopt Me! : visites gagnées en 24 h",
+   "l": "[1H🎉] Adopt Me! : visites gagnées en 24 h",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.visites_total": {
    "v": 45405625382,
    "d": "45,41 milliards",
-   "l": "[2H🎉] Adopt Me! : visites cumulées depuis la création",
+   "l": "[1H🎉] Adopt Me! : visites cumulées depuis la création",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.note": {
    "v": 0.864,
    "d": "86,4 %",
-   "l": "[2H🎉] Adopt Me! : part de votes positifs",
+   "l": "[1H🎉] Adopt Me! : part de votes positifs",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.383310974.rang_veille": {
    "v": 7,
    "d": "7e",
-   "l": "[2H🎉] Adopt Me! : rang la veille",
+   "l": "[1H🎉] Adopt Me! : rang la veille",
    "src": "data/jours/2026-11-13.csv#L6"
   },
   "g.66654135.nom": {
@@ -10327,7 +10327,7 @@
      "valeur": 363273
     },
     {
-     "nom": "[2H🎉] Adopt Me!",
+     "nom": "[1H🎉] Adopt Me!",
      "valeur": 271738
     },
     {
