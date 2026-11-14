@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-13",
- "genere": "2026-11-14T07:47:09Z",
+ "genere": "2026-11-14T08:35:46Z",
  "couverture": {
   "releves": 23,
   "attendus": 24
@@ -4977,93 +4977,93 @@
    "src": "data/jours/2026-11-13.csv#L46"
   },
   "g.5361032378.nom": {
-   "v": "Sol's RNG [ Halloween Event 🎃]",
-   "d": "Sol's RNG [ Halloween Event 🎃]",
-   "l": "Sol's RNG [ Halloween Event 🎃] : nom",
+   "v": "Sol's RNG [ Halloween Part 2🎃]",
+   "d": "Sol's RNG [ Halloween Part 2🎃]",
+   "l": "Sol's RNG [ Halloween Part 2🎃] : nom",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.5361032378.rang": {
    "v": 46,
    "d": "46e",
-   "l": "Sol's RNG [ Halloween Event 🎃] : rang au pic du jour",
+   "l": "Sol's RNG [ Halloween Part 2🎃] : rang au pic du jour",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.5361032378.pic": {
    "v": 34682,
    "d": "34 682",
-   "l": "Sol's RNG [ Halloween Event 🎃] : pic de joueurs simultanés relevé",
+   "l": "Sol's RNG [ Halloween Part 2🎃] : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.5361032378.heure_pic": {
    "v": "13:44",
    "d": "13 h 44",
-   "l": "Sol's RNG [ Halloween Event 🎃] : heure (Paris) du pic relevé",
+   "l": "Sol's RNG [ Halloween Part 2🎃] : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.5361032378.moy": {
    "v": 33157,
    "d": "33 157",
-   "l": "Sol's RNG [ Halloween Event 🎃] : moyenne des joueurs simultanés sur la journée",
+   "l": "Sol's RNG [ Halloween Part 2🎃] : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.5361032378.createur": {
    "v": "Sol's Studio",
    "d": "Sol's Studio",
-   "l": "Sol's RNG [ Halloween Event 🎃] : créateur",
+   "l": "Sol's RNG [ Halloween Part 2🎃] : créateur",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.5361032378.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "Sol's RNG [ Halloween Event 🎃] : genre",
+   "l": "Sol's RNG [ Halloween Part 2🎃] : genre",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.5361032378.var_veille": {
    "v": 0.009,
    "d": "+0,9 %",
-   "l": "Sol's RNG [ Halloween Event 🎃] : variation de la moyenne par rapport à la veille",
+   "l": "Sol's RNG [ Halloween Part 2🎃] : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.5361032378.moy_veille": {
    "v": 32861,
    "d": "32 861",
-   "l": "Sol's RNG [ Halloween Event 🎃] : moyenne de la veille",
+   "l": "Sol's RNG [ Halloween Part 2🎃] : moyenne de la veille",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.5361032378.var_7j": {
    "v": -0.057,
    "d": "−5,7 %",
-   "l": "Sol's RNG [ Halloween Event 🎃] : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Sol's RNG [ Halloween Part 2🎃] : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.5361032378.moy_7j": {
    "v": 35161,
    "d": "35 161",
-   "l": "Sol's RNG [ Halloween Event 🎃] : moyenne des 7 jours précédents",
+   "l": "Sol's RNG [ Halloween Part 2🎃] : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.5361032378.visites_24h": {
    "v": 2036446,
    "d": "2,04 millions",
-   "l": "Sol's RNG [ Halloween Event 🎃] : visites gagnées en 24 h",
+   "l": "Sol's RNG [ Halloween Part 2🎃] : visites gagnées en 24 h",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.5361032378.visites_total": {
    "v": 2293071738,
    "d": "2,29 milliards",
-   "l": "Sol's RNG [ Halloween Event 🎃] : visites cumulées depuis la création",
+   "l": "Sol's RNG [ Halloween Part 2🎃] : visites cumulées depuis la création",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.5361032378.note": {
    "v": 0.9142,
    "d": "91,4 %",
-   "l": "Sol's RNG [ Halloween Event 🎃] : part de votes positifs",
+   "l": "Sol's RNG [ Halloween Part 2🎃] : part de votes positifs",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.5361032378.rang_veille": {
    "v": 41,
    "d": "41e",
-   "l": "Sol's RNG [ Halloween Event 🎃] : rang la veille",
+   "l": "Sol's RNG [ Halloween Part 2🎃] : rang la veille",
    "src": "data/jours/2026-11-13.csv#L47"
   },
   "g.4839802560.nom": {
@@ -8241,93 +8241,93 @@
    "src": "data/jours/2026-11-13.csv#L83"
   },
   "g.10773425091.nom": {
-   "v": "[🔥] Ragdoll Research",
-   "d": "[🔥] Ragdoll Research",
-   "l": "[🔥] Ragdoll Research : nom",
+   "v": "[🏢] Ragdoll Research",
+   "d": "[🏢] Ragdoll Research",
+   "l": "[🏢] Ragdoll Research : nom",
    "src": "data/jours/2026-11-13.csv#L84"
   },
   "g.10773425091.rang": {
    "v": 83,
    "d": "83e",
-   "l": "[🔥] Ragdoll Research : rang au pic du jour",
+   "l": "[🏢] Ragdoll Research : rang au pic du jour",
    "src": "data/jours/2026-11-13.csv#L84"
   },
   "g.10773425091.pic": {
    "v": 21995,
    "d": "21 995",
-   "l": "[🔥] Ragdoll Research : pic de joueurs simultanés relevé",
+   "l": "[🏢] Ragdoll Research : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-13.csv#L84"
   },
   "g.10773425091.heure_pic": {
    "v": "19:31",
    "d": "19 h 31",
-   "l": "[🔥] Ragdoll Research : heure (Paris) du pic relevé",
+   "l": "[🏢] Ragdoll Research : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-13.csv#L84"
   },
   "g.10773425091.moy": {
    "v": 16022,
    "d": "16 022",
-   "l": "[🔥] Ragdoll Research : moyenne des joueurs simultanés sur la journée",
+   "l": "[🏢] Ragdoll Research : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-13.csv#L84"
   },
   "g.10773425091.createur": {
    "v": "Ragdoll Shenanigans",
    "d": "Ragdoll Shenanigans",
-   "l": "[🔥] Ragdoll Research : créateur",
+   "l": "[🏢] Ragdoll Research : créateur",
    "src": "data/jours/2026-11-13.csv#L84"
   },
   "g.10773425091.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🔥] Ragdoll Research : genre",
+   "l": "[🏢] Ragdoll Research : genre",
    "src": "data/jours/2026-11-13.csv#L84"
   },
   "g.10773425091.var_veille": {
    "v": 0.0701,
    "d": "+7,0 %",
-   "l": "[🔥] Ragdoll Research : variation de la moyenne par rapport à la veille",
+   "l": "[🏢] Ragdoll Research : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-13.csv#L84"
   },
   "g.10773425091.moy_veille": {
    "v": 14972,
    "d": "14 972",
-   "l": "[🔥] Ragdoll Research : moyenne de la veille",
+   "l": "[🏢] Ragdoll Research : moyenne de la veille",
    "src": "data/jours/2026-11-13.csv#L84"
   },
   "g.10773425091.var_7j": {
    "v": -0.2298,
    "d": "−23,0 %",
-   "l": "[🔥] Ragdoll Research : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🏢] Ragdoll Research : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L84"
   },
   "g.10773425091.moy_7j": {
    "v": 20803,
    "d": "20 803",
-   "l": "[🔥] Ragdoll Research : moyenne des 7 jours précédents",
+   "l": "[🏢] Ragdoll Research : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L84"
   },
   "g.10773425091.visites_24h": {
    "v": 1753135,
    "d": "1,75 million",
-   "l": "[🔥] Ragdoll Research : visites gagnées en 24 h",
+   "l": "[🏢] Ragdoll Research : visites gagnées en 24 h",
    "src": "data/jours/2026-11-13.csv#L84"
   },
   "g.10773425091.visites_total": {
    "v": 19006621,
    "d": "19,01 millions",
-   "l": "[🔥] Ragdoll Research : visites cumulées depuis la création",
+   "l": "[🏢] Ragdoll Research : visites cumulées depuis la création",
    "src": "data/jours/2026-11-13.csv#L84"
   },
   "g.10773425091.note": {
    "v": 0.8302,
    "d": "83,0 %",
-   "l": "[🔥] Ragdoll Research : part de votes positifs",
+   "l": "[🏢] Ragdoll Research : part de votes positifs",
    "src": "data/jours/2026-11-13.csv#L84"
   },
   "g.10773425091.rang_veille": {
    "v": 71,
    "d": "71e",
-   "l": "[🔥] Ragdoll Research : rang la veille",
+   "l": "[🏢] Ragdoll Research : rang la veille",
    "src": "data/jours/2026-11-13.csv#L84"
   },
   "g.8719555347.nom": {
