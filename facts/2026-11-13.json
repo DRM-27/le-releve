@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-13",
- "genere": "2026-11-14T13:18:56Z",
+ "genere": "2026-11-14T13:39:28Z",
  "couverture": {
   "releves": 23,
   "attendus": 24
@@ -9513,93 +9513,93 @@
    "src": "data/jours/2026-11-13.csv#L98"
   },
   "g.10057403337.nom": {
-   "v": "[1H] Deagle Arena",
-   "d": "[1H] Deagle Arena",
-   "l": "[1H] Deagle Arena : nom",
+   "v": "[30M] Deagle Arena",
+   "d": "[30M] Deagle Arena",
+   "l": "[30M] Deagle Arena : nom",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10057403337.rang": {
    "v": 98,
    "d": "98e",
-   "l": "[1H] Deagle Arena : rang au pic du jour",
+   "l": "[30M] Deagle Arena : rang au pic du jour",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10057403337.pic": {
    "v": 19792,
    "d": "19 792",
-   "l": "[1H] Deagle Arena : pic de joueurs simultanés relevé",
+   "l": "[30M] Deagle Arena : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10057403337.heure_pic": {
    "v": "14:58",
    "d": "14 h 58",
-   "l": "[1H] Deagle Arena : heure (Paris) du pic relevé",
+   "l": "[30M] Deagle Arena : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10057403337.moy": {
    "v": 15229,
    "d": "15 229",
-   "l": "[1H] Deagle Arena : moyenne des joueurs simultanés sur la journée",
+   "l": "[30M] Deagle Arena : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10057403337.createur": {
    "v": "Deagle Arena",
    "d": "Deagle Arena",
-   "l": "[1H] Deagle Arena : créateur",
+   "l": "[30M] Deagle Arena : créateur",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10057403337.genre": {
    "v": "Shooter",
    "d": "Tir",
-   "l": "[1H] Deagle Arena : genre",
+   "l": "[30M] Deagle Arena : genre",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10057403337.var_veille": {
    "v": 0.0863,
    "d": "+8,6 %",
-   "l": "[1H] Deagle Arena : variation de la moyenne par rapport à la veille",
+   "l": "[30M] Deagle Arena : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10057403337.moy_veille": {
    "v": 14020,
    "d": "14 020",
-   "l": "[1H] Deagle Arena : moyenne de la veille",
+   "l": "[30M] Deagle Arena : moyenne de la veille",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10057403337.var_7j": {
    "v": -0.1708,
    "d": "−17,1 %",
-   "l": "[1H] Deagle Arena : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[30M] Deagle Arena : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10057403337.moy_7j": {
    "v": 18366,
    "d": "18 366",
-   "l": "[1H] Deagle Arena : moyenne des 7 jours précédents",
+   "l": "[30M] Deagle Arena : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10057403337.visites_24h": {
    "v": 2522110,
    "d": "2,52 millions",
-   "l": "[1H] Deagle Arena : visites gagnées en 24 h",
+   "l": "[30M] Deagle Arena : visites gagnées en 24 h",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10057403337.visites_total": {
    "v": 315928906,
    "d": "315,93 millions",
-   "l": "[1H] Deagle Arena : visites cumulées depuis la création",
+   "l": "[30M] Deagle Arena : visites cumulées depuis la création",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10057403337.note": {
    "v": 0.8741,
    "d": "87,4 %",
-   "l": "[1H] Deagle Arena : part de votes positifs",
+   "l": "[30M] Deagle Arena : part de votes positifs",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10057403337.rang_veille": {
    "v": 87,
    "d": "87e",
-   "l": "[1H] Deagle Arena : rang la veille",
+   "l": "[30M] Deagle Arena : rang la veille",
    "src": "data/jours/2026-11-13.csv#L99"
   },
   "g.10765490774.nom": {
