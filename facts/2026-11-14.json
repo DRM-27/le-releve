@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-14",
- "genere": "2026-11-15T02:41:37Z",
+ "genere": "2026-11-15T03:11:11Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -8175,93 +8175,93 @@
    "src": "data/jours/2026-11-14.csv#L82"
   },
   "g.10772879271.nom": {
-   "v": "[UPDATE 2.0] 30 Floors Up",
-   "d": "[UPDATE 2.0] 30 Floors Up",
-   "l": "[UPDATE 2.0] 30 Floors Up : nom",
+   "v": "[UPDATE 2.1] 30 Floors Up",
+   "d": "[UPDATE 2.1] 30 Floors Up",
+   "l": "[UPDATE 2.1] 30 Floors Up : nom",
    "src": "data/jours/2026-11-14.csv#L83"
   },
   "g.10772879271.rang": {
    "v": 82,
    "d": "82e",
-   "l": "[UPDATE 2.0] 30 Floors Up : rang au pic du jour",
+   "l": "[UPDATE 2.1] 30 Floors Up : rang au pic du jour",
    "src": "data/jours/2026-11-14.csv#L83"
   },
   "g.10772879271.pic": {
    "v": 30584,
    "d": "30 584",
-   "l": "[UPDATE 2.0] 30 Floors Up : pic de joueurs simultanés relevé",
+   "l": "[UPDATE 2.1] 30 Floors Up : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-14.csv#L83"
   },
   "g.10772879271.heure_pic": {
    "v": "18:55",
    "d": "18 h 55",
-   "l": "[UPDATE 2.0] 30 Floors Up : heure (Paris) du pic relevé",
+   "l": "[UPDATE 2.1] 30 Floors Up : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-14.csv#L83"
   },
   "g.10772879271.moy": {
    "v": 21089,
    "d": "21 089",
-   "l": "[UPDATE 2.0] 30 Floors Up : moyenne des joueurs simultanés sur la journée",
+   "l": "[UPDATE 2.1] 30 Floors Up : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-14.csv#L83"
   },
   "g.10772879271.createur": {
    "v": "Dateline NBC",
    "d": "Dateline NBC",
-   "l": "[UPDATE 2.0] 30 Floors Up : créateur",
+   "l": "[UPDATE 2.1] 30 Floors Up : créateur",
    "src": "data/jours/2026-11-14.csv#L83"
   },
   "g.10772879271.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "[UPDATE 2.0] 30 Floors Up : genre",
+   "l": "[UPDATE 2.1] 30 Floors Up : genre",
    "src": "data/jours/2026-11-14.csv#L83"
   },
   "g.10772879271.var_veille": {
    "v": 0.6868,
    "d": "+68,7 %",
-   "l": "[UPDATE 2.0] 30 Floors Up : variation de la moyenne par rapport à la veille",
+   "l": "[UPDATE 2.1] 30 Floors Up : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-14.csv#L83"
   },
   "g.10772879271.moy_veille": {
    "v": 12503,
    "d": "12 503",
-   "l": "[UPDATE 2.0] 30 Floors Up : moyenne de la veille",
+   "l": "[UPDATE 2.1] 30 Floors Up : moyenne de la veille",
    "src": "data/jours/2026-11-14.csv#L83"
   },
   "g.10772879271.var_7j": {
    "v": 0.7128,
    "d": "+71,3 %",
-   "l": "[UPDATE 2.0] 30 Floors Up : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[UPDATE 2.1] 30 Floors Up : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-14.csv#L83"
   },
   "g.10772879271.moy_7j": {
    "v": 12313,
    "d": "12 313",
-   "l": "[UPDATE 2.0] 30 Floors Up : moyenne des 7 jours précédents",
+   "l": "[UPDATE 2.1] 30 Floors Up : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-14.csv#L83"
   },
   "g.10772879271.visites_24h": {
    "v": 1607756,
    "d": "1,61 million",
-   "l": "[UPDATE 2.0] 30 Floors Up : visites gagnées en 24 h",
+   "l": "[UPDATE 2.1] 30 Floors Up : visites gagnées en 24 h",
    "src": "data/jours/2026-11-14.csv#L83"
   },
   "g.10772879271.visites_total": {
    "v": 11996028,
    "d": "12 millions",
-   "l": "[UPDATE 2.0] 30 Floors Up : visites cumulées depuis la création",
+   "l": "[UPDATE 2.1] 30 Floors Up : visites cumulées depuis la création",
    "src": "data/jours/2026-11-14.csv#L83"
   },
   "g.10772879271.note": {
    "v": 0.7833,
    "d": "78,3 %",
-   "l": "[UPDATE 2.0] 30 Floors Up : part de votes positifs",
+   "l": "[UPDATE 2.1] 30 Floors Up : part de votes positifs",
    "src": "data/jours/2026-11-14.csv#L83"
   },
   "g.10772879271.rang_veille": {
    "v": 100,
    "d": "100e",
-   "l": "[UPDATE 2.0] 30 Floors Up : rang la veille",
+   "l": "[UPDATE 2.1] 30 Floors Up : rang la veille",
    "src": "data/jours/2026-11-14.csv#L83"
   },
   "g.10769634720.nom": {
@@ -10053,8 +10053,8 @@
    "src": "data/jours/2026-11-14.csv#L550"
   },
   "baisse.3.nom": {
-   "v": "[MINI UPDATE 2 & EXPANDED MAP] Onthel Purwodadi",
-   "d": "[MINI UPDATE 2 & EXPANDED MAP] Onthel Purwodadi",
+   "v": "[UPDATE & EXPANDED MAP] Onthel Purwodadi",
+   "d": "[UPDATE & EXPANDED MAP] Onthel Purwodadi",
    "l": "Baisse n° 3 : nom",
    "src": "data/jours/2026-11-14.csv#L228"
   },
@@ -10453,7 +10453,7 @@
      "valeur": -0.5006
     },
     {
-     "nom": "[MINI UPDATE 2 & EXPANDED MAP] Onthel Purwodadi",
+     "nom": "[UPDATE & EXPANDED MAP] Onthel Purwodadi",
      "valeur": -0.5453
     },
     {
