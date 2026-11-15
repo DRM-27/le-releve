@@ -1,5 +1,34 @@
 {
- "genere": "2026-11-15T21:00:13Z",
+ "genere": "2026-11-15T21:24:53Z",
  "periode_jours": 7,
- "pages": []
+ "pages": [
+  {
+   "path": "/le-releve/",
+   "vues": 3
+  },
+  {
+   "path": "/le-releve/jeux/steal-an-egg-10563114921/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/mentions-legales/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/explorer/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/source/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/classement/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/articles/2026-11-01-steal-an-egg-quotidien/",
+   "vues": 1
+  }
+ ]
 }
