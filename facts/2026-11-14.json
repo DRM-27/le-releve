@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-14",
- "genere": "2026-11-15T01:53:16Z",
+ "genere": "2026-11-15T02:41:37Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -4197,93 +4197,93 @@
    "src": "data/jours/2026-11-14.csv#L37"
   },
   "g.6701277882.nom": {
-   "v": "[15 MINS] Fish It! 🐟",
-   "d": "[15 MINS] Fish It! 🐟",
-   "l": "[15 MINS] Fish It! 🐟 : nom",
+   "v": "[🏝️UPD] Fish It! 🐟",
+   "d": "[🏝️UPD] Fish It! 🐟",
+   "l": "[🏝️UPD] Fish It! 🐟 : nom",
    "src": "data/jours/2026-11-14.csv#L38"
   },
   "g.6701277882.rang": {
    "v": 37,
    "d": "37e",
-   "l": "[15 MINS] Fish It! 🐟 : rang au pic du jour",
+   "l": "[🏝️UPD] Fish It! 🐟 : rang au pic du jour",
    "src": "data/jours/2026-11-14.csv#L38"
   },
   "g.6701277882.pic": {
    "v": 68303,
    "d": "68 303",
-   "l": "[15 MINS] Fish It! 🐟 : pic de joueurs simultanés relevé",
+   "l": "[🏝️UPD] Fish It! 🐟 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-14.csv#L38"
   },
   "g.6701277882.heure_pic": {
    "v": "19:21",
    "d": "19 h 21",
-   "l": "[15 MINS] Fish It! 🐟 : heure (Paris) du pic relevé",
+   "l": "[🏝️UPD] Fish It! 🐟 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-14.csv#L38"
   },
   "g.6701277882.moy": {
    "v": 65546,
    "d": "65 546",
-   "l": "[15 MINS] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
+   "l": "[🏝️UPD] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-14.csv#L38"
   },
   "g.6701277882.createur": {
    "v": "Fish Atelier",
    "d": "Fish Atelier",
-   "l": "[15 MINS] Fish It! 🐟 : créateur",
+   "l": "[🏝️UPD] Fish It! 🐟 : créateur",
    "src": "data/jours/2026-11-14.csv#L38"
   },
   "g.6701277882.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[15 MINS] Fish It! 🐟 : genre",
+   "l": "[🏝️UPD] Fish It! 🐟 : genre",
    "src": "data/jours/2026-11-14.csv#L38"
   },
   "g.6701277882.var_veille": {
    "v": 0.0308,
    "d": "+3,1 %",
-   "l": "[15 MINS] Fish It! 🐟 : variation de la moyenne par rapport à la veille",
+   "l": "[🏝️UPD] Fish It! 🐟 : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-14.csv#L38"
   },
   "g.6701277882.moy_veille": {
    "v": 63590,
    "d": "63 590",
-   "l": "[15 MINS] Fish It! 🐟 : moyenne de la veille",
+   "l": "[🏝️UPD] Fish It! 🐟 : moyenne de la veille",
    "src": "data/jours/2026-11-14.csv#L38"
   },
   "g.6701277882.var_7j": {
    "v": 0.0268,
    "d": "+2,7 %",
-   "l": "[15 MINS] Fish It! 🐟 : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🏝️UPD] Fish It! 🐟 : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-14.csv#L38"
   },
   "g.6701277882.moy_7j": {
    "v": 63836,
    "d": "63 836",
-   "l": "[15 MINS] Fish It! 🐟 : moyenne des 7 jours précédents",
+   "l": "[🏝️UPD] Fish It! 🐟 : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-14.csv#L38"
   },
   "g.6701277882.visites_24h": {
    "v": 1074647,
    "d": "1,07 million",
-   "l": "[15 MINS] Fish It! 🐟 : visites gagnées en 24 h",
+   "l": "[🏝️UPD] Fish It! 🐟 : visites gagnées en 24 h",
    "src": "data/jours/2026-11-14.csv#L38"
   },
   "g.6701277882.visites_total": {
    "v": 4827282118,
    "d": "4,83 milliards",
-   "l": "[15 MINS] Fish It! 🐟 : visites cumulées depuis la création",
+   "l": "[🏝️UPD] Fish It! 🐟 : visites cumulées depuis la création",
    "src": "data/jours/2026-11-14.csv#L38"
   },
   "g.6701277882.note": {
    "v": 0.8283,
    "d": "82,8 %",
-   "l": "[15 MINS] Fish It! 🐟 : part de votes positifs",
+   "l": "[🏝️UPD] Fish It! 🐟 : part de votes positifs",
    "src": "data/jours/2026-11-14.csv#L38"
   },
   "g.6701277882.rang_veille": {
    "v": 22,
    "d": "22e",
-   "l": "[15 MINS] Fish It! 🐟 : rang la veille",
+   "l": "[🏝️UPD] Fish It! 🐟 : rang la veille",
    "src": "data/jours/2026-11-14.csv#L38"
   },
   "g.4658598196.nom": {
