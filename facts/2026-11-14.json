@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-14",
- "genere": "2026-11-15T15:01:16Z",
+ "genere": "2026-11-15T15:26:07Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -4107,93 +4107,93 @@
    "src": "data/jours/2026-11-14.csv#L36"
   },
   "g.10769464063.nom": {
-   "v": "[⚔️UPD] +1 Venom Evolution",
-   "d": "[⚔️UPD] +1 Venom Evolution",
-   "l": "[⚔️UPD] +1 Venom Evolution : nom",
+   "v": "[🌍UPD 5] +1 Venom Evolution",
+   "d": "[🌍UPD 5] +1 Venom Evolution",
+   "l": "[🌍UPD 5] +1 Venom Evolution : nom",
    "src": "data/jours/2026-11-14.csv#L37"
   },
   "g.10769464063.rang": {
    "v": 36,
    "d": "36e",
-   "l": "[⚔️UPD] +1 Venom Evolution : rang au pic du jour",
+   "l": "[🌍UPD 5] +1 Venom Evolution : rang au pic du jour",
    "src": "data/jours/2026-11-14.csv#L37"
   },
   "g.10769464063.pic": {
    "v": 68438,
    "d": "68 438",
-   "l": "[⚔️UPD] +1 Venom Evolution : pic de joueurs simultanés relevé",
+   "l": "[🌍UPD 5] +1 Venom Evolution : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-14.csv#L37"
   },
   "g.10769464063.heure_pic": {
    "v": "15:59",
    "d": "15 h 59",
-   "l": "[⚔️UPD] +1 Venom Evolution : heure (Paris) du pic relevé",
+   "l": "[🌍UPD 5] +1 Venom Evolution : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-14.csv#L37"
   },
   "g.10769464063.moy": {
    "v": 33359,
    "d": "33 359",
-   "l": "[⚔️UPD] +1 Venom Evolution : moyenne des joueurs simultanés sur la journée",
+   "l": "[🌍UPD 5] +1 Venom Evolution : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-14.csv#L37"
   },
   "g.10769464063.createur": {
    "v": "Bottled Potential",
    "d": "Bottled Potential",
-   "l": "[⚔️UPD] +1 Venom Evolution : créateur",
+   "l": "[🌍UPD 5] +1 Venom Evolution : créateur",
    "src": "data/jours/2026-11-14.csv#L37"
   },
   "g.10769464063.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[⚔️UPD] +1 Venom Evolution : genre",
+   "l": "[🌍UPD 5] +1 Venom Evolution : genre",
    "src": "data/jours/2026-11-14.csv#L37"
   },
   "g.10769464063.var_veille": {
    "v": 0.4544,
    "d": "+45,4 %",
-   "l": "[⚔️UPD] +1 Venom Evolution : variation de la moyenne par rapport à la veille",
+   "l": "[🌍UPD 5] +1 Venom Evolution : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-14.csv#L37"
   },
   "g.10769464063.moy_veille": {
    "v": 22938,
    "d": "22 938",
-   "l": "[⚔️UPD] +1 Venom Evolution : moyenne de la veille",
+   "l": "[🌍UPD 5] +1 Venom Evolution : moyenne de la veille",
    "src": "data/jours/2026-11-14.csv#L37"
   },
   "g.10769464063.var_7j": {
    "v": 0.1443,
    "d": "+14,4 %",
-   "l": "[⚔️UPD] +1 Venom Evolution : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🌍UPD 5] +1 Venom Evolution : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-14.csv#L37"
   },
   "g.10769464063.moy_7j": {
    "v": 29152,
    "d": "29 152",
-   "l": "[⚔️UPD] +1 Venom Evolution : moyenne des 7 jours précédents",
+   "l": "[🌍UPD 5] +1 Venom Evolution : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-14.csv#L37"
   },
   "g.10769464063.visites_24h": {
    "v": 2736102,
    "d": "2,74 millions",
-   "l": "[⚔️UPD] +1 Venom Evolution : visites gagnées en 24 h",
+   "l": "[🌍UPD 5] +1 Venom Evolution : visites gagnées en 24 h",
    "src": "data/jours/2026-11-14.csv#L37"
   },
   "g.10769464063.visites_total": {
    "v": 65423050,
    "d": "65,42 millions",
-   "l": "[⚔️UPD] +1 Venom Evolution : visites cumulées depuis la création",
+   "l": "[🌍UPD 5] +1 Venom Evolution : visites cumulées depuis la création",
    "src": "data/jours/2026-11-14.csv#L37"
   },
   "g.10769464063.note": {
    "v": 0.9685,
    "d": "96,9 %",
-   "l": "[⚔️UPD] +1 Venom Evolution : part de votes positifs",
+   "l": "[🌍UPD 5] +1 Venom Evolution : part de votes positifs",
    "src": "data/jours/2026-11-14.csv#L37"
   },
   "g.10769464063.rang_veille": {
    "v": 51,
    "d": "51e",
-   "l": "[⚔️UPD] +1 Venom Evolution : rang la veille",
+   "l": "[🌍UPD 5] +1 Venom Evolution : rang la veille",
    "src": "data/jours/2026-11-14.csv#L37"
   },
   "g.6701277882.nom": {
@@ -9063,81 +9063,81 @@
    "src": "data/jours/2026-11-14.csv#L92"
   },
   "g.10773574214.nom": {
-   "v": "[⚔️W2] +1 Sukuna Evolution",
-   "d": "[⚔️W2] +1 Sukuna Evolution",
-   "l": "[⚔️W2] +1 Sukuna Evolution : nom",
+   "v": "[🍥W3 TODAY] +1 Sukuna Evolution",
+   "d": "[🍥W3 TODAY] +1 Sukuna Evolution",
+   "l": "[🍥W3 TODAY] +1 Sukuna Evolution : nom",
    "src": "data/jours/2026-11-14.csv#L93"
   },
   "g.10773574214.rang": {
    "v": 92,
    "d": "92e",
-   "l": "[⚔️W2] +1 Sukuna Evolution : rang au pic du jour",
+   "l": "[🍥W3 TODAY] +1 Sukuna Evolution : rang au pic du jour",
    "src": "data/jours/2026-11-14.csv#L93"
   },
   "g.10773574214.pic": {
    "v": 28150,
    "d": "28 150",
-   "l": "[⚔️W2] +1 Sukuna Evolution : pic de joueurs simultanés relevé",
+   "l": "[🍥W3 TODAY] +1 Sukuna Evolution : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-14.csv#L93"
   },
   "g.10773574214.heure_pic": {
    "v": "14:38",
    "d": "14 h 38",
-   "l": "[⚔️W2] +1 Sukuna Evolution : heure (Paris) du pic relevé",
+   "l": "[🍥W3 TODAY] +1 Sukuna Evolution : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-14.csv#L93"
   },
   "g.10773574214.moy": {
    "v": 22814,
    "d": "22 814",
-   "l": "[⚔️W2] +1 Sukuna Evolution : moyenne des joueurs simultanés sur la journée",
+   "l": "[🍥W3 TODAY] +1 Sukuna Evolution : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-14.csv#L93"
   },
   "g.10773574214.createur": {
    "v": "FlakeXAgony",
    "d": "FlakeXAgony",
-   "l": "[⚔️W2] +1 Sukuna Evolution : créateur",
+   "l": "[🍥W3 TODAY] +1 Sukuna Evolution : créateur",
    "src": "data/jours/2026-11-14.csv#L93"
   },
   "g.10773574214.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[⚔️W2] +1 Sukuna Evolution : genre",
+   "l": "[🍥W3 TODAY] +1 Sukuna Evolution : genre",
    "src": "data/jours/2026-11-14.csv#L93"
   },
   "g.10773574214.var_veille": {
    "v": 0.1557,
    "d": "+15,6 %",
-   "l": "[⚔️W2] +1 Sukuna Evolution : variation de la moyenne par rapport à la veille",
+   "l": "[🍥W3 TODAY] +1 Sukuna Evolution : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-14.csv#L93"
   },
   "g.10773574214.moy_veille": {
    "v": 19741,
    "d": "19 741",
-   "l": "[⚔️W2] +1 Sukuna Evolution : moyenne de la veille",
+   "l": "[🍥W3 TODAY] +1 Sukuna Evolution : moyenne de la veille",
    "src": "data/jours/2026-11-14.csv#L93"
   },
   "g.10773574214.visites_24h": {
    "v": 1688549,
    "d": "1,69 million",
-   "l": "[⚔️W2] +1 Sukuna Evolution : visites gagnées en 24 h",
+   "l": "[🍥W3 TODAY] +1 Sukuna Evolution : visites gagnées en 24 h",
    "src": "data/jours/2026-11-14.csv#L93"
   },
   "g.10773574214.visites_total": {
    "v": 4271808,
    "d": "4,27 millions",
-   "l": "[⚔️W2] +1 Sukuna Evolution : visites cumulées depuis la création",
+   "l": "[🍥W3 TODAY] +1 Sukuna Evolution : visites cumulées depuis la création",
    "src": "data/jours/2026-11-14.csv#L93"
   },
   "g.10773574214.note": {
    "v": 0.8414,
    "d": "84,1 %",
-   "l": "[⚔️W2] +1 Sukuna Evolution : part de votes positifs",
+   "l": "[🍥W3 TODAY] +1 Sukuna Evolution : part de votes positifs",
    "src": "data/jours/2026-11-14.csv#L93"
   },
   "g.10773574214.rang_veille": {
    "v": 60,
    "d": "60e",
-   "l": "[⚔️W2] +1 Sukuna Evolution : rang la veille",
+   "l": "[🍥W3 TODAY] +1 Sukuna Evolution : rang la veille",
    "src": "data/jours/2026-11-14.csv#L93"
   },
   "g.1176784616.nom": {
