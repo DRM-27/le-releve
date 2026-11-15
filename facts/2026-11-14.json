@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-14",
- "genere": "2026-11-15T21:59:05Z",
+ "genere": "2026-11-15T22:25:12Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -5817,81 +5817,81 @@
    "src": "data/jours/2026-11-14.csv#L55"
   },
   "g.10770228857.nom": {
-   "v": "[W3] Steal a Superpower!",
-   "d": "[W3] Steal a Superpower!",
-   "l": "[W3] Steal a Superpower! : nom",
+   "v": "[⚡] Steal a Superpower!",
+   "d": "[⚡] Steal a Superpower!",
+   "l": "[⚡] Steal a Superpower! : nom",
    "src": "data/jours/2026-11-14.csv#L56"
   },
   "g.10770228857.rang": {
    "v": 55,
    "d": "55e",
-   "l": "[W3] Steal a Superpower! : rang au pic du jour",
+   "l": "[⚡] Steal a Superpower! : rang au pic du jour",
    "src": "data/jours/2026-11-14.csv#L56"
   },
   "g.10770228857.pic": {
    "v": 43120,
    "d": "43 120",
-   "l": "[W3] Steal a Superpower! : pic de joueurs simultanés relevé",
+   "l": "[⚡] Steal a Superpower! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-14.csv#L56"
   },
   "g.10770228857.heure_pic": {
    "v": "20:58",
    "d": "20 h 58",
-   "l": "[W3] Steal a Superpower! : heure (Paris) du pic relevé",
+   "l": "[⚡] Steal a Superpower! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-14.csv#L56"
   },
   "g.10770228857.moy": {
    "v": 20564,
    "d": "20 564",
-   "l": "[W3] Steal a Superpower! : moyenne des joueurs simultanés sur la journée",
+   "l": "[⚡] Steal a Superpower! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-14.csv#L56"
   },
   "g.10770228857.createur": {
    "v": "11 R$ Productions",
    "d": "11 R$ Productions",
-   "l": "[W3] Steal a Superpower! : créateur",
+   "l": "[⚡] Steal a Superpower! : créateur",
    "src": "data/jours/2026-11-14.csv#L56"
   },
   "g.10770228857.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[W3] Steal a Superpower! : genre",
+   "l": "[⚡] Steal a Superpower! : genre",
    "src": "data/jours/2026-11-14.csv#L56"
   },
   "g.10770228857.var_veille": {
    "v": 0.2936,
    "d": "+29,4 %",
-   "l": "[W3] Steal a Superpower! : variation de la moyenne par rapport à la veille",
+   "l": "[⚡] Steal a Superpower! : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-14.csv#L56"
   },
   "g.10770228857.moy_veille": {
    "v": 15896,
    "d": "15 896",
-   "l": "[W3] Steal a Superpower! : moyenne de la veille",
+   "l": "[⚡] Steal a Superpower! : moyenne de la veille",
    "src": "data/jours/2026-11-14.csv#L56"
   },
   "g.10770228857.visites_24h": {
    "v": 1323665,
    "d": "1,32 million",
-   "l": "[W3] Steal a Superpower! : visites gagnées en 24 h",
+   "l": "[⚡] Steal a Superpower! : visites gagnées en 24 h",
    "src": "data/jours/2026-11-14.csv#L56"
   },
   "g.10770228857.visites_total": {
    "v": 10780383,
    "d": "10,78 millions",
-   "l": "[W3] Steal a Superpower! : visites cumulées depuis la création",
+   "l": "[⚡] Steal a Superpower! : visites cumulées depuis la création",
    "src": "data/jours/2026-11-14.csv#L56"
   },
   "g.10770228857.note": {
    "v": 0.9912,
    "d": "99,1 %",
-   "l": "[W3] Steal a Superpower! : part de votes positifs",
+   "l": "[⚡] Steal a Superpower! : part de votes positifs",
    "src": "data/jours/2026-11-14.csv#L56"
   },
   "g.10770228857.rang_veille": {
    "v": 86,
    "d": "86e",
-   "l": "[W3] Steal a Superpower! : rang la veille",
+   "l": "[⚡] Steal a Superpower! : rang la veille",
    "src": "data/jours/2026-11-14.csv#L56"
   },
   "g.10769941703.nom": {

@@ -1,10 +1,10 @@
 {
  "dailyAt": "2026-11-15T00:23Z",
- "lastRunAt": "2026-11-15T21:59Z",
+ "lastRunAt": "2026-11-15T22:25Z",
  "dernier": {
-  "ecosysteme_nouvelles_heures": 0,
+  "ecosysteme_nouvelles_heures": 1,
   "genres": 13,
-  "classements_ecrits": 0,
+  "classements_ecrits": 1,
   "nouvelles_iles": 0
  },
  "erreurs": [],
