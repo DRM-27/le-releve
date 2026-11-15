@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-14",
- "genere": "2026-11-15T17:56:35Z",
+ "genere": "2026-11-15T18:23:38Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -9063,81 +9063,81 @@
    "src": "data/jours/2026-11-14.csv#L92"
   },
   "g.10773574214.nom": {
-   "v": "[🍥W3 TODAY] +1 Sukuna Evolution",
-   "d": "[🍥W3 TODAY] +1 Sukuna Evolution",
-   "l": "[🍥W3 TODAY] +1 Sukuna Evolution : nom",
+   "v": "[🍥W3] +1 Sukuna Evolution",
+   "d": "[🍥W3] +1 Sukuna Evolution",
+   "l": "[🍥W3] +1 Sukuna Evolution : nom",
    "src": "data/jours/2026-11-14.csv#L93"
   },
   "g.10773574214.rang": {
    "v": 92,
    "d": "92e",
-   "l": "[🍥W3 TODAY] +1 Sukuna Evolution : rang au pic du jour",
+   "l": "[🍥W3] +1 Sukuna Evolution : rang au pic du jour",
    "src": "data/jours/2026-11-14.csv#L93"
   },
   "g.10773574214.pic": {
    "v": 28150,
    "d": "28 150",
-   "l": "[🍥W3 TODAY] +1 Sukuna Evolution : pic de joueurs simultanés relevé",
+   "l": "[🍥W3] +1 Sukuna Evolution : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-14.csv#L93"
   },
   "g.10773574214.heure_pic": {
    "v": "14:38",
    "d": "14 h 38",
-   "l": "[🍥W3 TODAY] +1 Sukuna Evolution : heure (Paris) du pic relevé",
+   "l": "[🍥W3] +1 Sukuna Evolution : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-14.csv#L93"
   },
   "g.10773574214.moy": {
    "v": 22814,
    "d": "22 814",
-   "l": "[🍥W3 TODAY] +1 Sukuna Evolution : moyenne des joueurs simultanés sur la journée",
+   "l": "[🍥W3] +1 Sukuna Evolution : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-14.csv#L93"
   },
   "g.10773574214.createur": {
    "v": "FlakeXAgony",
    "d": "FlakeXAgony",
-   "l": "[🍥W3 TODAY] +1 Sukuna Evolution : créateur",
+   "l": "[🍥W3] +1 Sukuna Evolution : créateur",
    "src": "data/jours/2026-11-14.csv#L93"
   },
   "g.10773574214.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🍥W3 TODAY] +1 Sukuna Evolution : genre",
+   "l": "[🍥W3] +1 Sukuna Evolution : genre",
    "src": "data/jours/2026-11-14.csv#L93"
   },
   "g.10773574214.var_veille": {
    "v": 0.1557,
    "d": "+15,6 %",
-   "l": "[🍥W3 TODAY] +1 Sukuna Evolution : variation de la moyenne par rapport à la veille",
+   "l": "[🍥W3] +1 Sukuna Evolution : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-14.csv#L93"
   },
   "g.10773574214.moy_veille": {
    "v": 19741,
    "d": "19 741",
-   "l": "[🍥W3 TODAY] +1 Sukuna Evolution : moyenne de la veille",
+   "l": "[🍥W3] +1 Sukuna Evolution : moyenne de la veille",
    "src": "data/jours/2026-11-14.csv#L93"
   },
   "g.10773574214.visites_24h": {
    "v": 1688549,
    "d": "1,69 million",
-   "l": "[🍥W3 TODAY] +1 Sukuna Evolution : visites gagnées en 24 h",
+   "l": "[🍥W3] +1 Sukuna Evolution : visites gagnées en 24 h",
    "src": "data/jours/2026-11-14.csv#L93"
   },
   "g.10773574214.visites_total": {
    "v": 4271808,
    "d": "4,27 millions",
-   "l": "[🍥W3 TODAY] +1 Sukuna Evolution : visites cumulées depuis la création",
+   "l": "[🍥W3] +1 Sukuna Evolution : visites cumulées depuis la création",
    "src": "data/jours/2026-11-14.csv#L93"
   },
   "g.10773574214.note": {
    "v": 0.8414,
    "d": "84,1 %",
-   "l": "[🍥W3 TODAY] +1 Sukuna Evolution : part de votes positifs",
+   "l": "[🍥W3] +1 Sukuna Evolution : part de votes positifs",
    "src": "data/jours/2026-11-14.csv#L93"
   },
   "g.10773574214.rang_veille": {
    "v": 60,
    "d": "60e",
-   "l": "[🍥W3 TODAY] +1 Sukuna Evolution : rang la veille",
+   "l": "[🍥W3] +1 Sukuna Evolution : rang la veille",
    "src": "data/jours/2026-11-14.csv#L93"
   },
   "g.1176784616.nom": {
