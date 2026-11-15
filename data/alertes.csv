@@ -1146,3 +1146,4 @@ ts_utc,type,universe_id,nom,avant,maintenant,variation,rang,rang_avant,releve
 2026-11-15T09:30:30Z,forte_hausse,7174773198,Vox Seas,4278,6638,0.5517,218,309,data/snapshots/2026/11/15/09.csv
 2026-11-15T10:08:52Z,forte_hausse,10126644530,[🛒] Run a Sari-Sari Store!,10043,19603,0.9519,84,165,data/snapshots/2026/11/15/10.csv
 2026-11-15T10:08:52Z,forte_hausse,4260784961,Napoleonic Wars,1115,2134,0.9139,428,487,data/snapshots/2026/11/15/10.csv
+2026-11-15T10:28:02Z,forte_hausse,5125369493,Driving Simulator,2784,4273,0.5348,315,354,data/snapshots/2026/11/15/10.csv
