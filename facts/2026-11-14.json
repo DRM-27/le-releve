@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-14",
- "genere": "2026-11-15T15:26:07Z",
+ "genere": "2026-11-15T16:00:34Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -9501,93 +9501,93 @@
    "src": "data/jours/2026-11-14.csv#L97"
   },
   "g.10701622575.nom": {
-   "v": "[NOW] Steal an Anime Pack",
-   "d": "[NOW] Steal an Anime Pack",
-   "l": "[NOW] Steal an Anime Pack : nom",
+   "v": "Steal an Anime Pack",
+   "d": "Steal an Anime Pack",
+   "l": "Steal an Anime Pack : nom",
    "src": "data/jours/2026-11-14.csv#L98"
   },
   "g.10701622575.rang": {
    "v": 97,
    "d": "97e",
-   "l": "[NOW] Steal an Anime Pack : rang au pic du jour",
+   "l": "Steal an Anime Pack : rang au pic du jour",
    "src": "data/jours/2026-11-14.csv#L98"
   },
   "g.10701622575.pic": {
    "v": 27886,
    "d": "27 886",
-   "l": "[NOW] Steal an Anime Pack : pic de joueurs simultanés relevé",
+   "l": "Steal an Anime Pack : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-14.csv#L98"
   },
   "g.10701622575.heure_pic": {
    "v": "15:59",
    "d": "15 h 59",
-   "l": "[NOW] Steal an Anime Pack : heure (Paris) du pic relevé",
+   "l": "Steal an Anime Pack : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-14.csv#L98"
   },
   "g.10701622575.moy": {
    "v": 12505,
    "d": "12 505",
-   "l": "[NOW] Steal an Anime Pack : moyenne des joueurs simultanés sur la journée",
+   "l": "Steal an Anime Pack : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-14.csv#L98"
   },
   "g.10701622575.createur": {
    "v": "Anime Tuff Games",
    "d": "Anime Tuff Games",
-   "l": "[NOW] Steal an Anime Pack : créateur",
+   "l": "Steal an Anime Pack : créateur",
    "src": "data/jours/2026-11-14.csv#L98"
   },
   "g.10701622575.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[NOW] Steal an Anime Pack : genre",
+   "l": "Steal an Anime Pack : genre",
    "src": "data/jours/2026-11-14.csv#L98"
   },
   "g.10701622575.var_veille": {
    "v": 0.1243,
    "d": "+12,4 %",
-   "l": "[NOW] Steal an Anime Pack : variation de la moyenne par rapport à la veille",
+   "l": "Steal an Anime Pack : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-14.csv#L98"
   },
   "g.10701622575.moy_veille": {
    "v": 11123,
    "d": "11 123",
-   "l": "[NOW] Steal an Anime Pack : moyenne de la veille",
+   "l": "Steal an Anime Pack : moyenne de la veille",
    "src": "data/jours/2026-11-14.csv#L98"
   },
   "g.10701622575.var_7j": {
    "v": 0.1715,
    "d": "+17,2 %",
-   "l": "[NOW] Steal an Anime Pack : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Steal an Anime Pack : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-14.csv#L98"
   },
   "g.10701622575.moy_7j": {
    "v": 10675,
    "d": "10 675",
-   "l": "[NOW] Steal an Anime Pack : moyenne des 7 jours précédents",
+   "l": "Steal an Anime Pack : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-14.csv#L98"
   },
   "g.10701622575.visites_24h": {
    "v": 1048452,
    "d": "1,05 million",
-   "l": "[NOW] Steal an Anime Pack : visites gagnées en 24 h",
+   "l": "Steal an Anime Pack : visites gagnées en 24 h",
    "src": "data/jours/2026-11-14.csv#L98"
   },
   "g.10701622575.visites_total": {
    "v": 16418025,
    "d": "16,42 millions",
-   "l": "[NOW] Steal an Anime Pack : visites cumulées depuis la création",
+   "l": "Steal an Anime Pack : visites cumulées depuis la création",
    "src": "data/jours/2026-11-14.csv#L98"
   },
   "g.10701622575.note": {
    "v": 0.9597,
    "d": "96,0 %",
-   "l": "[NOW] Steal an Anime Pack : part de votes positifs",
+   "l": "Steal an Anime Pack : part de votes positifs",
    "src": "data/jours/2026-11-14.csv#L98"
   },
   "g.10701622575.rang_veille": {
    "v": 74,
    "d": "74e",
-   "l": "[NOW] Steal an Anime Pack : rang la veille",
+   "l": "Steal an Anime Pack : rang la veille",
    "src": "data/jours/2026-11-14.csv#L98"
   },
   "g.6069634717.nom": {
