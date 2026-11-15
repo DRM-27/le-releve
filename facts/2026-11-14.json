@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-14",
- "genere": "2026-11-15T12:27:14Z",
+ "genere": "2026-11-15T13:21:29Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -3123,93 +3123,93 @@
    "src": "data/jours/2026-11-14.csv#L25"
   },
   "g.10769315427.nom": {
-   "v": "[🏁] Steal A Pet And Ride It!",
-   "d": "[🏁] Steal A Pet And Ride It!",
-   "l": "[🏁] Steal A Pet And Ride It! : nom",
+   "v": "[W3🌸] Steal A Pet And Ride It!",
+   "d": "[W3🌸] Steal A Pet And Ride It!",
+   "l": "[W3🌸] Steal A Pet And Ride It! : nom",
    "src": "data/jours/2026-11-14.csv#L26"
   },
   "g.10769315427.rang": {
    "v": 25,
    "d": "25e",
-   "l": "[🏁] Steal A Pet And Ride It! : rang au pic du jour",
+   "l": "[W3🌸] Steal A Pet And Ride It! : rang au pic du jour",
    "src": "data/jours/2026-11-14.csv#L26"
   },
   "g.10769315427.pic": {
    "v": 87875,
    "d": "87 875",
-   "l": "[🏁] Steal A Pet And Ride It! : pic de joueurs simultanés relevé",
+   "l": "[W3🌸] Steal A Pet And Ride It! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-14.csv#L26"
   },
   "g.10769315427.heure_pic": {
    "v": "14:38",
    "d": "14 h 38",
-   "l": "[🏁] Steal A Pet And Ride It! : heure (Paris) du pic relevé",
+   "l": "[W3🌸] Steal A Pet And Ride It! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-14.csv#L26"
   },
   "g.10769315427.moy": {
    "v": 20135,
    "d": "20 135",
-   "l": "[🏁] Steal A Pet And Ride It! : moyenne des joueurs simultanés sur la journée",
+   "l": "[W3🌸] Steal A Pet And Ride It! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-14.csv#L26"
   },
   "g.10769315427.createur": {
    "v": "Snail Riders",
    "d": "Snail Riders",
-   "l": "[🏁] Steal A Pet And Ride It! : créateur",
+   "l": "[W3🌸] Steal A Pet And Ride It! : créateur",
    "src": "data/jours/2026-11-14.csv#L26"
   },
   "g.10769315427.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🏁] Steal A Pet And Ride It! : genre",
+   "l": "[W3🌸] Steal A Pet And Ride It! : genre",
    "src": "data/jours/2026-11-14.csv#L26"
   },
   "g.10769315427.var_veille": {
    "v": 0.4925,
    "d": "+49,2 %",
-   "l": "[🏁] Steal A Pet And Ride It! : variation de la moyenne par rapport à la veille",
+   "l": "[W3🌸] Steal A Pet And Ride It! : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-14.csv#L26"
   },
   "g.10769315427.moy_veille": {
    "v": 13490,
    "d": "13 490",
-   "l": "[🏁] Steal A Pet And Ride It! : moyenne de la veille",
+   "l": "[W3🌸] Steal A Pet And Ride It! : moyenne de la veille",
    "src": "data/jours/2026-11-14.csv#L26"
   },
   "g.10769315427.var_7j": {
    "v": 0.0589,
    "d": "+5,9 %",
-   "l": "[🏁] Steal A Pet And Ride It! : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[W3🌸] Steal A Pet And Ride It! : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-14.csv#L26"
   },
   "g.10769315427.moy_7j": {
    "v": 19015,
    "d": "19 015",
-   "l": "[🏁] Steal A Pet And Ride It! : moyenne des 7 jours précédents",
+   "l": "[W3🌸] Steal A Pet And Ride It! : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-14.csv#L26"
   },
   "g.10769315427.visites_24h": {
    "v": 1943603,
    "d": "1,94 million",
-   "l": "[🏁] Steal A Pet And Ride It! : visites gagnées en 24 h",
+   "l": "[W3🌸] Steal A Pet And Ride It! : visites gagnées en 24 h",
    "src": "data/jours/2026-11-14.csv#L26"
   },
   "g.10769315427.visites_total": {
    "v": 41232985,
    "d": "41,23 millions",
-   "l": "[🏁] Steal A Pet And Ride It! : visites cumulées depuis la création",
+   "l": "[W3🌸] Steal A Pet And Ride It! : visites cumulées depuis la création",
    "src": "data/jours/2026-11-14.csv#L26"
   },
   "g.10769315427.note": {
    "v": 0.9436,
    "d": "94,4 %",
-   "l": "[🏁] Steal A Pet And Ride It! : part de votes positifs",
+   "l": "[W3🌸] Steal A Pet And Ride It! : part de votes positifs",
    "src": "data/jours/2026-11-14.csv#L26"
   },
   "g.10769315427.rang_veille": {
    "v": 103,
    "d": "103e",
-   "l": "[🏁] Steal A Pet And Ride It! : rang la veille",
+   "l": "[W3🌸] Steal A Pet And Ride It! : rang la veille",
    "src": "data/jours/2026-11-14.csv#L26"
   },
   "g.7671049560.nom": {
@@ -10221,8 +10221,8 @@
    "src": "data/jours/2026-11-14.csv#L24"
   },
   "entree.5.nom": {
-   "v": "[🏁] Steal A Pet And Ride It!",
-   "d": "[🏁] Steal A Pet And Ride It!",
+   "v": "[W3🌸] Steal A Pet And Ride It!",
+   "d": "[W3🌸] Steal A Pet And Ride It!",
    "l": "Entrée n° 5 : nom",
    "src": "data/jours/2026-11-14.csv#L26"
   },
