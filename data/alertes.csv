@@ -1140,3 +1140,4 @@ ts_utc,type,universe_id,nom,avant,maintenant,variation,rang,rang_avant,releve
 2026-11-15T06:39:44Z,forte_hausse,10634461028,[NOW!] Drive A Kukirin!,947,2101,1.2186,398,544,data/snapshots/2026/11/15/06.csv
 2026-11-15T07:52:19Z,forte_hausse,10767138232,Kukirin Life [Testing],9439,15093,0.599,108,160,data/snapshots/2026/11/15/07.csv
 2026-11-15T07:52:19Z,forte_hausse,10371156562,Forest Market,4020,6862,0.707,224,310,data/snapshots/2026/11/15/07.csv
+2026-11-15T08:40:33Z,forte_hausse,10772419907,Bikelife Poland,1242,2090,0.6828,436,519,data/snapshots/2026/11/15/08.csv
