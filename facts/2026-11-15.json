@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-15",
- "genere": "2026-11-16T09:12:48Z",
+ "genere": "2026-11-16T10:09:07Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -9177,8 +9177,8 @@
    "src": "data/jours/2026-11-15.csv#L95"
   },
   "g.10772266488.createur": {
-   "v": "airplnae",
-   "d": "airplnae",
+   "v": "albert_zizu",
+   "d": "albert_zizu",
    "l": "[UPD] Build a REAL House : créateur",
    "src": "data/jours/2026-11-15.csv#L95"
   },
