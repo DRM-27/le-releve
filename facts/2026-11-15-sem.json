@@ -1,0 +1,438 @@
+{
+ "jour": "2026-11-15-sem",
+ "genere": "2026-11-16T00:05:18Z",
+ "couverture": {
+  "releves": 7,
+  "attendus": 7,
+  "instantane": true
+ },
+ "faits": {
+  "semaine.debut": {
+   "v": "2026-11-09",
+   "d": "9 novembre 2026",
+   "l": "Premier jour de la semaine",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "semaine.fin": {
+   "v": "2026-11-15",
+   "d": "15 novembre 2026",
+   "l": "Dernier jour de la semaine",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "n.top": {
+   "v": 10,
+   "d": "10",
+   "l": "Taille du classement",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.1.nom": {
+   "v": "Steal An Egg",
+   "d": "Steal An Egg",
+   "l": "N° 1 de la semaine : nom",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.1.moy": {
+   "v": 809773,
+   "d": "809 773",
+   "l": "N° 1 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.1.var": {
+   "v": -0.07061667337802624,
+   "d": "−7,1 %",
+   "l": "N° 1 : variation par rapport à la semaine précédente",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.2.nom": {
+   "v": "Brookhaven 🏡RP",
+   "d": "Brookhaven 🏡RP",
+   "l": "N° 2 de la semaine : nom",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.2.moy": {
+   "v": 353499,
+   "d": "353 499",
+   "l": "N° 2 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.2.var": {
+   "v": -0.0502112992311855,
+   "d": "−5,0 %",
+   "l": "N° 2 : variation par rapport à la semaine précédente",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.3.nom": {
+   "v": "Murder Mystery 2",
+   "d": "Murder Mystery 2",
+   "l": "N° 3 de la semaine : nom",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.3.moy": {
+   "v": 286003,
+   "d": "286 003",
+   "l": "N° 3 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.3.var": {
+   "v": 0.09023061239604258,
+   "d": "+9,0 %",
+   "l": "N° 3 : variation par rapport à la semaine précédente",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.4.nom": {
+   "v": "Throw Food For Animals",
+   "d": "Throw Food For Animals",
+   "l": "N° 4 de la semaine : nom",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.4.moy": {
+   "v": 269564,
+   "d": "269 564",
+   "l": "N° 4 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.4.var": {
+   "v": 0.6620336239114331,
+   "d": "+66,2 %",
+   "l": "N° 4 : variation par rapport à la semaine précédente",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.5.nom": {
+   "v": "[🎃] Blox Fruits",
+   "d": "[🎃] Blox Fruits",
+   "l": "N° 5 de la semaine : nom",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.5.moy": {
+   "v": 268228,
+   "d": "268 228",
+   "l": "N° 5 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.5.var": {
+   "v": -0.11382689012965075,
+   "d": "−11,4 %",
+   "l": "N° 5 : variation par rapport à la semaine précédente",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.6.nom": {
+   "v": "[🥤] Adopt Me!",
+   "d": "[🥤] Adopt Me!",
+   "l": "N° 6 de la semaine : nom",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.6.moy": {
+   "v": 164724,
+   "d": "164 724",
+   "l": "N° 6 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.6.var": {
+   "v": -0.04468664172890746,
+   "d": "−4,5 %",
+   "l": "N° 6 : variation par rapport à la semaine précédente",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.7.nom": {
+   "v": "99 Nights in the Forest 🔦",
+   "d": "99 Nights in the Forest 🔦",
+   "l": "N° 7 de la semaine : nom",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.7.moy": {
+   "v": 147246,
+   "d": "147 246",
+   "l": "N° 7 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.7.var": {
+   "v": -0.010985700070909488,
+   "d": "−1,1 %",
+   "l": "N° 7 : variation par rapport à la semaine précédente",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.8.nom": {
+   "v": "[🎯] RIVALS",
+   "d": "[🎯] RIVALS",
+   "l": "N° 8 de la semaine : nom",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.8.moy": {
+   "v": 143516,
+   "d": "143 516",
+   "l": "N° 8 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.8.var": {
+   "v": -0.07496682863317405,
+   "d": "−7,5 %",
+   "l": "N° 8 : variation par rapport à la semaine précédente",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.9.nom": {
+   "v": "Break and Steal an Egg",
+   "d": "Break and Steal an Egg",
+   "l": "N° 9 de la semaine : nom",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.9.moy": {
+   "v": 88218,
+   "d": "88 218",
+   "l": "N° 9 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.9.var": {
+   "v": -0.23339614865133285,
+   "d": "−23,3 %",
+   "l": "N° 9 : variation par rapport à la semaine précédente",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.10.nom": {
+   "v": "[☀️UPD 21🏖️] Anime Adventures",
+   "d": "[☀️UPD 21🏖️] Anime Adventures",
+   "l": "N° 10 de la semaine : nom",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.10.moy": {
+   "v": 84800,
+   "d": "84 800",
+   "l": "N° 10 de la semaine : moyenne de joueurs",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "top.10.var": {
+   "v": -0.047678712952297087,
+   "d": "−4,8 %",
+   "l": "N° 10 : variation par rapport à la semaine précédente",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "hausse.1.nom": {
+   "v": "Vanguards: Trail of the Saint",
+   "d": "Vanguards: Trail of the Saint",
+   "l": "Hausse n° 1 : nom",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "hausse.1.var": {
+   "v": 3.4991,
+   "d": "+349,9 %",
+   "l": "Hausse n° 1 : variation hebdomadaire",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "hausse.1.moy": {
+   "v": 24516,
+   "d": "24 516",
+   "l": "Hausse n° 1 : moyenne de la semaine",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "hausse.2.nom": {
+   "v": "The Forge [🪽x👹]",
+   "d": "The Forge [🪽x👹]",
+   "l": "Hausse n° 2 : nom",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "hausse.2.var": {
+   "v": 0.7658,
+   "d": "+76,6 %",
+   "l": "Hausse n° 2 : variation hebdomadaire",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "hausse.2.moy": {
+   "v": 20824,
+   "d": "20 824",
+   "l": "Hausse n° 2 : moyenne de la semaine",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "hausse.3.nom": {
+   "v": "Throw Food For Animals",
+   "d": "Throw Food For Animals",
+   "l": "Hausse n° 3 : nom",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "hausse.3.var": {
+   "v": 0.662,
+   "d": "+66,2 %",
+   "l": "Hausse n° 3 : variation hebdomadaire",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "hausse.3.moy": {
+   "v": 269564,
+   "d": "269 564",
+   "l": "Hausse n° 3 : moyenne de la semaine",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "hausse.4.nom": {
+   "v": "(TOWING x LIMITED UPDATE 🎃) Drag Drive Simulator",
+   "d": "(TOWING x LIMITED UPDATE 🎃) Drag Drive Simulator",
+   "l": "Hausse n° 4 : nom",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "hausse.4.var": {
+   "v": 0.617,
+   "d": "+61,7 %",
+   "l": "Hausse n° 4 : variation hebdomadaire",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "hausse.4.moy": {
+   "v": 16304,
+   "d": "16 304",
+   "l": "Hausse n° 4 : moyenne de la semaine",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "hausse.5.nom": {
+   "v": "[🦃EVENT] Toilet Tower Defense",
+   "d": "[🦃EVENT] Toilet Tower Defense",
+   "l": "Hausse n° 5 : nom",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "hausse.5.var": {
+   "v": 0.6105,
+   "d": "+61,1 %",
+   "l": "Hausse n° 5 : variation hebdomadaire",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "hausse.5.moy": {
+   "v": 17244,
+   "d": "17 244",
+   "l": "Hausse n° 5 : moyenne de la semaine",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "baisse.1.nom": {
+   "v": "+1 Spider Arm🕷️",
+   "d": "+1 Spider Arm🕷️",
+   "l": "Baisse n° 1 : nom",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "baisse.1.var": {
+   "v": -0.46,
+   "d": "−46,0 %",
+   "l": "Baisse n° 1 : variation hebdomadaire",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "baisse.1.moy": {
+   "v": 13450,
+   "d": "13 450",
+   "l": "Baisse n° 1 : moyenne de la semaine",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "baisse.2.nom": {
+   "v": "[W3🌸] Steal A Pet And Ride It!",
+   "d": "[W3🌸] Steal A Pet And Ride It!",
+   "l": "Baisse n° 2 : nom",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "baisse.2.var": {
+   "v": -0.4159,
+   "d": "−41,6 %",
+   "l": "Baisse n° 2 : variation hebdomadaire",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "baisse.2.moy": {
+   "v": 15447,
+   "d": "15 447",
+   "l": "Baisse n° 2 : moyenne de la semaine",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "baisse.3.nom": {
+   "v": "DONT SPLASH",
+   "d": "DONT SPLASH",
+   "l": "Baisse n° 3 : nom",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "baisse.3.var": {
+   "v": -0.3372,
+   "d": "−33,7 %",
+   "l": "Baisse n° 3 : variation hebdomadaire",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "baisse.3.moy": {
+   "v": 53553,
+   "d": "53 553",
+   "l": "Baisse n° 3 : moyenne de la semaine",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "baisse.4.nom": {
+   "v": "🗺️[MAPS] Bike Universe",
+   "d": "🗺️[MAPS] Bike Universe",
+   "l": "Baisse n° 4 : nom",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "baisse.4.var": {
+   "v": -0.3349,
+   "d": "−33,5 %",
+   "l": "Baisse n° 4 : variation hebdomadaire",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "baisse.4.moy": {
+   "v": 15635,
+   "d": "15 635",
+   "l": "Baisse n° 4 : moyenne de la semaine",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "baisse.5.nom": {
+   "v": "[HALLOWEEN] The Strongest Battlegrounds",
+   "d": "[HALLOWEEN] The Strongest Battlegrounds",
+   "l": "Baisse n° 5 : nom",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "baisse.5.var": {
+   "v": -0.2962,
+   "d": "−29,6 %",
+   "l": "Baisse n° 5 : variation hebdomadaire",
+   "src": "data/semaines/2026-11-15.csv"
+  },
+  "baisse.5.moy": {
+   "v": 47417,
+   "d": "47 417",
+   "l": "Baisse n° 5 : moyenne de la semaine",
+   "src": "data/semaines/2026-11-15.csv"
+  }
+ },
+ "graphiques": {
+  "top10": {
+   "titre": "Moyenne de joueurs de la semaine, top 10",
+   "unite": "joueurs",
+   "rows": [
+    {
+     "nom": "Steal An Egg",
+     "valeur": 809773
+    },
+    {
+     "nom": "Brookhaven 🏡RP",
+     "valeur": 353499
+    },
+    {
+     "nom": "Murder Mystery 2",
+     "valeur": 286003
+    },
+    {
+     "nom": "Throw Food For Animals",
+     "valeur": 269564
+    },
+    {
+     "nom": "[🎃] Blox Fruits",
+     "valeur": 268228
+    },
+    {
+     "nom": "[🥤] Adopt Me!",
+     "valeur": 164724
+    },
+    {
+     "nom": "99 Nights in the Forest 🔦",
+     "valeur": 147246
+    },
+    {
+     "nom": "[🎯] RIVALS",
+     "valeur": 143516
+    },
+    {
+     "nom": "Break and Steal an Egg",
+     "valeur": 88218
+    },
+    {
+     "nom": "[☀️UPD 21🏖️] Anime Adventures",
+     "valeur": 84800
+    }
+   ],
+   "csv": "data/semaines/2026-11-15.csv"
+  }
+ }
+}
