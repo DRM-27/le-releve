@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-15",
- "genere": "2026-11-16T12:37:48Z",
+ "genere": "2026-11-16T14:42:19Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -4095,93 +4095,93 @@
    "src": "data/jours/2026-11-15.csv#L36"
   },
   "g.10769384180.nom": {
-   "v": "[EXTINCT] Fake an Egg",
-   "d": "[EXTINCT] Fake an Egg",
-   "l": "[EXTINCT] Fake an Egg : nom",
+   "v": "Fake an Egg",
+   "d": "Fake an Egg",
+   "l": "Fake an Egg : nom",
    "src": "data/jours/2026-11-15.csv#L37"
   },
   "g.10769384180.rang": {
    "v": 36,
    "d": "36e",
-   "l": "[EXTINCT] Fake an Egg : rang au pic du jour",
+   "l": "Fake an Egg : rang au pic du jour",
    "src": "data/jours/2026-11-15.csv#L37"
   },
   "g.10769384180.pic": {
    "v": 57610,
    "d": "57 610",
-   "l": "[EXTINCT] Fake an Egg : pic de joueurs simultanés relevé",
+   "l": "Fake an Egg : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-15.csv#L37"
   },
   "g.10769384180.heure_pic": {
    "v": "15:30",
    "d": "15 h 30",
-   "l": "[EXTINCT] Fake an Egg : heure (Paris) du pic relevé",
+   "l": "Fake an Egg : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-15.csv#L37"
   },
   "g.10769384180.moy": {
    "v": 14538,
    "d": "14 538",
-   "l": "[EXTINCT] Fake an Egg : moyenne des joueurs simultanés sur la journée",
+   "l": "Fake an Egg : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-15.csv#L37"
   },
   "g.10769384180.createur": {
    "v": "Slime Time Studios",
    "d": "Slime Time Studios",
-   "l": "[EXTINCT] Fake an Egg : créateur",
+   "l": "Fake an Egg : créateur",
    "src": "data/jours/2026-11-15.csv#L37"
   },
   "g.10769384180.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[EXTINCT] Fake an Egg : genre",
+   "l": "Fake an Egg : genre",
    "src": "data/jours/2026-11-15.csv#L37"
   },
   "g.10769384180.var_veille": {
    "v": 0.2154,
    "d": "+21,5 %",
-   "l": "[EXTINCT] Fake an Egg : variation de la moyenne par rapport à la veille",
+   "l": "Fake an Egg : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-15.csv#L37"
   },
   "g.10769384180.moy_veille": {
    "v": 11962,
    "d": "11 962",
-   "l": "[EXTINCT] Fake an Egg : moyenne de la veille",
+   "l": "Fake an Egg : moyenne de la veille",
    "src": "data/jours/2026-11-15.csv#L37"
   },
   "g.10769384180.var_7j": {
    "v": 0.0278,
    "d": "+2,8 %",
-   "l": "[EXTINCT] Fake an Egg : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Fake an Egg : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-15.csv#L37"
   },
   "g.10769384180.moy_7j": {
    "v": 14145,
    "d": "14 145",
-   "l": "[EXTINCT] Fake an Egg : moyenne des 7 jours précédents",
+   "l": "Fake an Egg : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-15.csv#L37"
   },
   "g.10769384180.visites_24h": {
    "v": 1688366,
    "d": "1,69 million",
-   "l": "[EXTINCT] Fake an Egg : visites gagnées en 24 h",
+   "l": "Fake an Egg : visites gagnées en 24 h",
    "src": "data/jours/2026-11-15.csv#L37"
   },
   "g.10769384180.visites_total": {
    "v": 82966664,
    "d": "82,97 millions",
-   "l": "[EXTINCT] Fake an Egg : visites cumulées depuis la création",
+   "l": "Fake an Egg : visites cumulées depuis la création",
    "src": "data/jours/2026-11-15.csv#L37"
   },
   "g.10769384180.note": {
    "v": 0.8811,
    "d": "88,1 %",
-   "l": "[EXTINCT] Fake an Egg : part de votes positifs",
+   "l": "Fake an Egg : part de votes positifs",
    "src": "data/jours/2026-11-15.csv#L37"
   },
   "g.10769384180.rang_veille": {
    "v": 187,
    "d": "187e",
-   "l": "[EXTINCT] Fake an Egg : rang la veille",
+   "l": "Fake an Egg : rang la veille",
    "src": "data/jours/2026-11-15.csv#L37"
   },
   "g.10769464063.nom": {
@@ -7671,93 +7671,93 @@
    "src": "data/jours/2026-11-15.csv#L77"
   },
   "g.10767012496.nom": {
-   "v": "Turbo Soccer 🚨NEW GAMEMODE🚨 [BETA]",
-   "d": "Turbo Soccer 🚨NEW GAMEMODE🚨 [BETA]",
-   "l": "Turbo Soccer 🚨NEW GAMEMODE🚨 [BETA] : nom",
+   "v": "Turbo Soccer [BETA]",
+   "d": "Turbo Soccer [BETA]",
+   "l": "Turbo Soccer [BETA] : nom",
    "src": "data/jours/2026-11-15.csv#L78"
   },
   "g.10767012496.rang": {
    "v": 77,
    "d": "77e",
-   "l": "Turbo Soccer 🚨NEW GAMEMODE🚨 [BETA] : rang au pic du jour",
+   "l": "Turbo Soccer [BETA] : rang au pic du jour",
    "src": "data/jours/2026-11-15.csv#L78"
   },
   "g.10767012496.pic": {
    "v": 29769,
    "d": "29 769",
-   "l": "Turbo Soccer 🚨NEW GAMEMODE🚨 [BETA] : pic de joueurs simultanés relevé",
+   "l": "Turbo Soccer [BETA] : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-15.csv#L78"
   },
   "g.10767012496.heure_pic": {
    "v": "18:55",
    "d": "18 h 55",
-   "l": "Turbo Soccer 🚨NEW GAMEMODE🚨 [BETA] : heure (Paris) du pic relevé",
+   "l": "Turbo Soccer [BETA] : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-15.csv#L78"
   },
   "g.10767012496.moy": {
    "v": 19185,
    "d": "19 185",
-   "l": "Turbo Soccer 🚨NEW GAMEMODE🚨 [BETA] : moyenne des joueurs simultanés sur la journée",
+   "l": "Turbo Soccer [BETA] : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-15.csv#L78"
   },
   "g.10767012496.createur": {
    "v": "Turbo Soccer",
    "d": "Turbo Soccer",
-   "l": "Turbo Soccer 🚨NEW GAMEMODE🚨 [BETA] : créateur",
+   "l": "Turbo Soccer [BETA] : créateur",
    "src": "data/jours/2026-11-15.csv#L78"
   },
   "g.10767012496.genre": {
    "v": "Sports & Racing",
    "d": "Sport et course",
-   "l": "Turbo Soccer 🚨NEW GAMEMODE🚨 [BETA] : genre",
+   "l": "Turbo Soccer [BETA] : genre",
    "src": "data/jours/2026-11-15.csv#L78"
   },
   "g.10767012496.var_veille": {
    "v": -0.0415,
    "d": "−4,2 %",
-   "l": "Turbo Soccer 🚨NEW GAMEMODE🚨 [BETA] : variation de la moyenne par rapport à la veille",
+   "l": "Turbo Soccer [BETA] : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-15.csv#L78"
   },
   "g.10767012496.moy_veille": {
    "v": 20016,
    "d": "20 016",
-   "l": "Turbo Soccer 🚨NEW GAMEMODE🚨 [BETA] : moyenne de la veille",
+   "l": "Turbo Soccer [BETA] : moyenne de la veille",
    "src": "data/jours/2026-11-15.csv#L78"
   },
   "g.10767012496.var_7j": {
    "v": 0.1931,
    "d": "+19,3 %",
-   "l": "Turbo Soccer 🚨NEW GAMEMODE🚨 [BETA] : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Turbo Soccer [BETA] : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-15.csv#L78"
   },
   "g.10767012496.moy_7j": {
    "v": 16081,
    "d": "16 081",
-   "l": "Turbo Soccer 🚨NEW GAMEMODE🚨 [BETA] : moyenne des 7 jours précédents",
+   "l": "Turbo Soccer [BETA] : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-15.csv#L78"
   },
   "g.10767012496.visites_24h": {
    "v": 5277528,
    "d": "5,28 millions",
-   "l": "Turbo Soccer 🚨NEW GAMEMODE🚨 [BETA] : visites gagnées en 24 h",
+   "l": "Turbo Soccer [BETA] : visites gagnées en 24 h",
    "src": "data/jours/2026-11-15.csv#L78"
   },
   "g.10767012496.visites_total": {
    "v": 197908621,
    "d": "197,91 millions",
-   "l": "Turbo Soccer 🚨NEW GAMEMODE🚨 [BETA] : visites cumulées depuis la création",
+   "l": "Turbo Soccer [BETA] : visites cumulées depuis la création",
    "src": "data/jours/2026-11-15.csv#L78"
   },
   "g.10767012496.note": {
    "v": 0.9253,
    "d": "92,5 %",
-   "l": "Turbo Soccer 🚨NEW GAMEMODE🚨 [BETA] : part de votes positifs",
+   "l": "Turbo Soccer [BETA] : part de votes positifs",
    "src": "data/jours/2026-11-15.csv#L78"
   },
   "g.10767012496.rang_veille": {
    "v": 85,
    "d": "85e",
-   "l": "Turbo Soccer 🚨NEW GAMEMODE🚨 [BETA] : rang la veille",
+   "l": "Turbo Soccer [BETA] : rang la veille",
    "src": "data/jours/2026-11-15.csv#L78"
   },
   "g.10768905764.nom": {
@@ -10101,8 +10101,8 @@
    "src": "data/jours/2026-11-15.csv#L23"
   },
   "entree.2.nom": {
-   "v": "[EXTINCT] Fake an Egg",
-   "d": "[EXTINCT] Fake an Egg",
+   "v": "Fake an Egg",
+   "d": "Fake an Egg",
    "l": "Entrée n° 2 : nom",
    "src": "data/jours/2026-11-15.csv#L37"
   },
