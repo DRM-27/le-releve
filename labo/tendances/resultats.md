@@ -1,44 +1,44 @@
-# Tendances au 2026-11-13T14:47Z
+# Tendances au 2026-11-16T06:44Z
 
 | Pays | Mot | Niveau 3 mois | Évol. 1 an | vs moy. 5 ans |
 |---|---|---|---|---|
-| FR | plateforme agréée | 43.2 | 1071 | 6.23 |
-| FR | facture électronique | 47.8 | 347 | 4.74 |
-| FR | batterie domestique | 39.5 | 197 | 2.74 |
-| FR | agent IA | 50.2 | 154 | 4.21 |
-| FR | MaPrimeRénov | 29.8 | 130 | 0.96 |
-| FR | pompe à chaleur | 63.9 | 58 | 1.45 |
-| FR | formation IA | 30.2 | 57 | 2.5 |
-| FR | mutuelle chien | 79.9 | 57 | 1.31 |
-| monde | vibe coding | 25.8 | 48 | 3.22 |
-| FR | panneaux solaires | 63.8 | 42 | 1.18 |
-| FR | impression 3D | 77.8 | 28 | 1.45 |
-| FR | micro-entreprise | 46.3 | 19 | 1.25 |
-| monde | AI agent | 25.9 | 19 | 1.82 |
-| FR | NIS2 | 47.7 | 11 | 1.73 |
-| FR | reconditionné | 79.5 | 11 | 1.24 |
-| FR | seconde main | 79.3 | 4 | 1.16 |
-| FR | complément alimentaire | 87.6 | 4 | 1.19 |
-| FR | automatisation | 59.0 | 1 | 1.17 |
-| FR | moule silicone | 53.8 | 1 | 1.05 |
-| FR | LMNP | 42.7 | -3 | 0.95 |
-| FR | RGPD | 69.5 | -8 | 0.94 |
-| FR | RGAA | 54.1 | -11 | 1.41 |
-| FR | appel d'offres | 64.5 | -11 | 1.05 |
-| FR | DPE | 50.2 | -12 | 1.01 |
-| FR | marchés publics | 61.6 | -13 | 0.88 |
-| monde | e-invoicing | 12.7 | -13 | 1.23 |
-| FR | création entreprise | 65.2 | -14 | 0.89 |
-| FR | bilan carbone | 25.7 | -20 | 0.61 |
-| FR | audit énergétique | 19.6 | -29 | 0.74 |
-| FR | Jesmonite | 27.4 | -34 | 0.92 |
-| FR | accessibilité numérique | 20.0 | -38 | 0.77 |
-| FR | GLP-1 | 20.2 | -40 | 1.54 |
-| FR | AI Act | 14.8 | -43 | 1.01 |
-| FR | ChatGPT entreprise | 41.0 | -46 | 1.06 |
-| FR | n8n | 22.8 | -63 | 1.12 |
-| monde | n8n | 22.8 | -63 | 1.12 |
-| FR | statue plâtre | 2.0 | None | 0.83 |
-| FR | cybersécurité PME | 1.7 | None | 1.18 |
-| monde | AI automation agency | 0.0 | None | 0.0 |
-| monde | European Accessibility Act | 1.4 | None | 3.07 |
+| FR | plateforme agréée | 39.7 | 694 | 5.64 |
+| FR | facture électronique | 43.7 | 279 | 4.38 |
+| FR | agent IA | 50.2 | 149 | 4.16 |
+| FR | batterie domestique | 60.8 | 111 | 2.76 |
+| FR | mutuelle chien | 79.6 | 59 | 1.27 |
+| monde | vibe coding | 26.5 | 51 | 3.31 |
+| FR | formation IA | 29.6 | 49 | 2.44 |
+| FR | pompe à chaleur | 69.4 | 49 | 1.49 |
+| FR | MaPrimeRénov | 30.8 | 48 | 0.98 |
+| FR | panneaux solaires | 63.9 | 39 | 1.17 |
+| FR | impression 3D | 77.6 | 29 | 1.48 |
+| FR | reconditionné | 54.0 | 18 | 1.35 |
+| FR | micro-entreprise | 46.4 | 14 | 1.24 |
+| monde | AI agent | 26.6 | 9 | 1.85 |
+| FR | seconde main | 79.0 | 6 | 1.19 |
+| FR | NIS2 | 46.2 | 2 | 1.69 |
+| FR | moule silicone | 56.8 | 1 | 1.11 |
+| FR | complément alimentaire | 85.3 | 1 | 1.17 |
+| FR | automatisation | 58.2 | -3 | 1.14 |
+| FR | LMNP | 41.8 | -6 | 0.94 |
+| FR | accessibilité numérique | 27.8 | -13 | 1.11 |
+| FR | DPE | 46.3 | -13 | 1.0 |
+| FR | RGPD | 68.5 | -13 | 0.92 |
+| FR | RGAA | 55.0 | -16 | 1.33 |
+| FR | création entreprise | 63.2 | -18 | 0.87 |
+| FR | appel d'offres | 63.0 | -19 | 1.02 |
+| FR | marchés publics | 58.7 | -21 | 0.84 |
+| FR | bilan carbone | 24.2 | -26 | 0.59 |
+| FR | Jesmonite | 28.0 | -34 | 0.94 |
+| FR | audit énergétique | 16.5 | -37 | 0.65 |
+| FR | GLP-1 | 19.1 | -45 | 1.5 |
+| monde | e-invoicing | 9.7 | -45 | 0.95 |
+| FR | ChatGPT entreprise | 40.8 | -49 | 1.07 |
+| FR | AI Act | 13.7 | -57 | 0.94 |
+| FR | n8n | 22.2 | -66 | 1.08 |
+| monde | n8n | 22.2 | -66 | 1.07 |
+| FR | statue plâtre | 2.6 | None | 2.47 |
+| FR | cybersécurité PME | 13.7 | None | 20.15 |
+| monde | AI automation agency | 0.5 | None | 0.13 |
+| monde | European Accessibility Act | 0.4 | None | 0.4 |
