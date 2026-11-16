@@ -1,10 +1,10 @@
 {
- "genere": "2026-11-16T10:51:38Z",
+ "genere": "2026-11-16T11:52:24Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/le-releve/",
-   "vues": 3
+   "vues": 5
   },
   {
    "path": "/le-releve/jeux/steal-an-egg-10563114921/",
@@ -24,6 +24,10 @@
   },
   {
    "path": "/le-releve/classement/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/jeux/s8-1-speed-keyboard-escape-candy-chocolate-9584852943/",
    "vues": 1
   },
   {
