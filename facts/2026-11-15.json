@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-15",
- "genere": "2026-11-16T19:45:17Z",
+ "genere": "2026-11-16T20:37:56Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -7407,93 +7407,93 @@
    "src": "data/jours/2026-11-15.csv#L74"
   },
   "g.10769634720.nom": {
-   "v": "PINKIE PROMISE [HORROR]",
-   "d": "PINKIE PROMISE [HORROR]",
-   "l": "PINKIE PROMISE [HORROR] : nom",
+   "v": "PINKIE PROMISE [CH 2]",
+   "d": "PINKIE PROMISE [CH 2]",
+   "l": "PINKIE PROMISE [CH 2] : nom",
    "src": "data/jours/2026-11-15.csv#L75"
   },
   "g.10769634720.rang": {
    "v": 74,
    "d": "74e",
-   "l": "PINKIE PROMISE [HORROR] : rang au pic du jour",
+   "l": "PINKIE PROMISE [CH 2] : rang au pic du jour",
    "src": "data/jours/2026-11-15.csv#L75"
   },
   "g.10769634720.pic": {
    "v": 31889,
    "d": "31 889",
-   "l": "PINKIE PROMISE [HORROR] : pic de joueurs simultanés relevé",
+   "l": "PINKIE PROMISE [CH 2] : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-15.csv#L75"
   },
   "g.10769634720.heure_pic": {
    "v": "19:22",
    "d": "19 h 22",
-   "l": "PINKIE PROMISE [HORROR] : heure (Paris) du pic relevé",
+   "l": "PINKIE PROMISE [CH 2] : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-15.csv#L75"
   },
   "g.10769634720.moy": {
    "v": 22279,
    "d": "22 279",
-   "l": "PINKIE PROMISE [HORROR] : moyenne des joueurs simultanés sur la journée",
+   "l": "PINKIE PROMISE [CH 2] : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-15.csv#L75"
   },
   "g.10769634720.createur": {
    "v": "Party Cannon Studios",
    "d": "Party Cannon Studios",
-   "l": "PINKIE PROMISE [HORROR] : créateur",
+   "l": "PINKIE PROMISE [CH 2] : créateur",
    "src": "data/jours/2026-11-15.csv#L75"
   },
   "g.10769634720.genre": {
    "v": "Adventure",
    "d": "Aventure",
-   "l": "PINKIE PROMISE [HORROR] : genre",
+   "l": "PINKIE PROMISE [CH 2] : genre",
    "src": "data/jours/2026-11-15.csv#L75"
   },
   "g.10769634720.var_veille": {
    "v": 0.0256,
    "d": "+2,6 %",
-   "l": "PINKIE PROMISE [HORROR] : variation de la moyenne par rapport à la veille",
+   "l": "PINKIE PROMISE [CH 2] : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-15.csv#L75"
   },
   "g.10769634720.moy_veille": {
    "v": 21723,
    "d": "21 723",
-   "l": "PINKIE PROMISE [HORROR] : moyenne de la veille",
+   "l": "PINKIE PROMISE [CH 2] : moyenne de la veille",
    "src": "data/jours/2026-11-15.csv#L75"
   },
   "g.10769634720.var_7j": {
    "v": 0.5183,
    "d": "+51,8 %",
-   "l": "PINKIE PROMISE [HORROR] : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "PINKIE PROMISE [CH 2] : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-15.csv#L75"
   },
   "g.10769634720.moy_7j": {
    "v": 14674,
    "d": "14 674",
-   "l": "PINKIE PROMISE [HORROR] : moyenne des 7 jours précédents",
+   "l": "PINKIE PROMISE [CH 2] : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-15.csv#L75"
   },
   "g.10769634720.visites_24h": {
    "v": 2169715,
    "d": "2,17 millions",
-   "l": "PINKIE PROMISE [HORROR] : visites gagnées en 24 h",
+   "l": "PINKIE PROMISE [CH 2] : visites gagnées en 24 h",
    "src": "data/jours/2026-11-15.csv#L75"
   },
   "g.10769634720.visites_total": {
    "v": 31023350,
    "d": "31,02 millions",
-   "l": "PINKIE PROMISE [HORROR] : visites cumulées depuis la création",
+   "l": "PINKIE PROMISE [CH 2] : visites cumulées depuis la création",
    "src": "data/jours/2026-11-15.csv#L75"
   },
   "g.10769634720.note": {
    "v": 0.9412,
    "d": "94,1 %",
-   "l": "PINKIE PROMISE [HORROR] : part de votes positifs",
+   "l": "PINKIE PROMISE [CH 2] : part de votes positifs",
    "src": "data/jours/2026-11-15.csv#L75"
   },
   "g.10769634720.rang_veille": {
    "v": 83,
    "d": "83e",
-   "l": "PINKIE PROMISE [HORROR] : rang la veille",
+   "l": "PINKIE PROMISE [CH 2] : rang la veille",
    "src": "data/jours/2026-11-15.csv#L75"
   },
   "g.10769835283.nom": {
@@ -9897,8 +9897,8 @@
    "src": "data/jours/2026-11-15.csv#L311"
   },
   "hausse.5.nom": {
-   "v": "[Anniversary Event!] Tiny Universe RP",
-   "d": "[Anniversary Event!] Tiny Universe RP",
+   "v": "[Train Mover!] Tiny Universe RP",
+   "d": "[Train Mover!] Tiny Universe RP",
    "l": "Hausse n° 5 : nom",
    "src": "data/jours/2026-11-15.csv#L422"
   },
@@ -10375,7 +10375,7 @@
      "valeur": 1.7517
     },
     {
-     "nom": "[Anniversary Event!] Tiny Universe RP",
+     "nom": "[Train Mover!] Tiny Universe RP",
      "valeur": 1.6455
     },
     {
