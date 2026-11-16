@@ -1,37 +1,13 @@
 {
- "genere": "2026-11-16T17:36:27Z",
+ "genere": "2026-11-16T17:50:00Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/le-releve/",
-   "vues": 4
-  },
-  {
-   "path": "/le-releve/jeux/steal-an-egg-10563114921/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/mentions-legales/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/explorer/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/source/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/classement/",
-   "vues": 1
+   "vues": 2
   },
   {
    "path": "/le-releve/jeux/s8-1-speed-keyboard-escape-candy-chocolate-9584852943/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/articles/2026-11-01-steal-an-egg-quotidien/",
    "vues": 1
   }
  ]
