@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-16",
- "genere": "2026-11-17T17:49:34Z",
+ "genere": "2026-11-17T18:41:02Z",
  "couverture": {
   "releves": 20,
   "attendus": 24
@@ -3261,8 +3261,8 @@
    "src": "data/jours/2026-11-16.csv#L27"
   },
   "g.8172250815.genre": {
-   "v": "Action",
-   "d": "Action",
+   "v": "RPG",
+   "d": "RPG",
    "l": "STAND OUT : genre",
    "src": "data/jours/2026-11-16.csv#L27"
   },
@@ -10257,14 +10257,14 @@
    "src": "data/jours/2026-11-16.csv"
   },
   "genre.4.part": {
-   "v": 0.0892115110132139,
-   "d": "8,9 %",
+   "v": 0.09717736958223805,
+   "d": "9,7 %",
    "l": "Genre n° 4 : part des joueurs moyens du top 100",
    "src": "data/jours/2026-11-16.csv"
   },
   "genre.4.jeux": {
-   "v": 6,
-   "d": "6",
+   "v": 7,
+   "d": "7",
    "l": "Genre n° 4 : nombre de jeux dans le top 100",
    "src": "data/jours/2026-11-16.csv"
   },
@@ -10275,14 +10275,14 @@
    "src": "data/jours/2026-11-16.csv"
   },
   "genre.5.part": {
-   "v": 0.07507184468269137,
-   "d": "7,5 %",
+   "v": 0.06710598611366722,
+   "d": "6,7 %",
    "l": "Genre n° 5 : part des joueurs moyens du top 100",
    "src": "data/jours/2026-11-16.csv"
   },
   "genre.5.jeux": {
-   "v": 12,
-   "d": "12",
+   "v": 11,
+   "d": "11",
    "l": "Genre n° 5 : nombre de jeux dans le top 100",
    "src": "data/jours/2026-11-16.csv"
   },
