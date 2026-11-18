@@ -250,7 +250,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 249,10773582045,(CO-OP) CUPHEAD Fight!,Sunny_Verified,Action,5799,23:39,3185,22,3494,-0.0884,,,486255,3502830,0.923,267
 250,10769543567,Cat Battles 🐾,Cute Malt Games,Action,5787,01:31,3188,22,3928,-0.1884,5079,-0.3723,533321,126629868,0.7332,256
 251,10770026560,[🎣] Cast a Magnet,Sweg Magnets,Simulation,5758,19:40,4685,22,5256,-0.1087,,,305403,2327529,0.8837,269
-252,10773380485,[WAR] Ragdoll Realism,IsFluxHere,Simulation,5692,01:31,3842,22,3854,-0.0033,6960,-0.4481,544824,10178955,0.7791,294
+252,10773380485,[FIXES] Ragdoll Realism,IsFluxHere,Simulation,5692,01:31,3842,22,3854,-0.0033,6960,-0.4481,544824,10178955,0.7791,294
 253,10772749430, My Cookie Store 🍪[BETA],Shoplet Studios,Simulation,5675,14:38,4190,22,4680,-0.1048,6328,-0.3378,242891,3319424,0.9367,278
 254,10768409236,World of Nukes💥,Build. Defend. Nuke.,Simulation,5591,17:47,4193,22,4231,-0.0088,4847,-0.1349,311574,10107658,0.931,303
 255,9491545867,[🍂TURKEY] Break a Brainrot Egg!,Brainrot Game by BadPirate,Simulation,5571,15:00,4082,22,4725,-0.1359,4924,-0.1709,456195,164942052,0.819,284
@@ -410,7 +410,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 409,10770382905,Teach Your Granny How To Drive! 🎙️,Tween Studios,Simulation,2156,14:38,1349,22,1491,-0.0955,,,266573,19281001,0.5917,480
 410,9950184599,"(💨AIR SUSPENSION, TRAILERS) Young Street, Ontario","Young Street, Ontario",Simulation,2128,01:31,1612,22,1769,-0.0887,,,94002,17967559,0.9805,440
 411,117307972,(Route 9) Loomian Legacy,Llama Train Studio,RPG,2123,02:58,1773,22,2044,-0.1324,2350,-0.2456,73982,912189122,0.917,423
-412,4497460596,[DEXTER NIGHTMARE] MORPH WORLD! ⚠️ ,Crazy Craft Creations,Adventure,2105,23:39,651,22,616,0.0566,765,-0.1496,73968,188635266,0.862,566
+412,4497460596,[DEXTER DOG] MORPH WORLD! ,Crazy Craft Creations,Adventure,2105,23:39,651,22,616,0.0566,765,-0.1496,73968,188635266,0.862,566
 413,10770418999,🎤 Build Your Own Idol Group! ⭐ THE IDOL,DEADLINE Corporation,Simulation,2083,00:28,1586,22,2040,-0.2227,,,101342,3713366,0.8594,413
 414,10767704852,One A Day 🧩 100+ Daily Puzzles & Word Games,Cognify,Puzzle,2069,02:58,1524,22,1595,-0.045,1777,-0.1426,153199,2375808,0.8,459
 415,5829613337,something evil will happen [🎃🎃🎃],larvae studios,Survival,2067,02:58,1573,22,1760,-0.1063,1951,-0.1937,200140,385823799,0.9261,447
@@ -617,7 +617,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 616,8535088052,Refuse 2 Die [🎃HALLOWEEN],Refuse 2 Die,Shooter,127,04:38,77,22,96,-0.194,104,-0.2568,5413,4013528,0.7357,651
 617,10567390088,Mesozoico Hordetest,developers made of pocket change,Roleplay & Avatar Sim,118,17:47,74,22,81,-0.0926,114,-0.3541,4852,770301,0.8816,660
 618,324740367,Entry Point: Freelancer's Cut,Cishshato,Shooter,117,19:40,87,22,96,-0.0895,100,-0.1291,12604,11010630,0.9786,662
-619,5835014039,[HALLOWEEN] New Journey,Nexus Arcana,Action,116,22:37,75,22,88,-0.151,96,-0.2251,8467,8997540,0.8351,658
+619,5835014039,New Journey,Nexus Arcana,Action,116,22:37,75,22,88,-0.151,96,-0.2251,8467,8997540,0.8351,658
 620,839922895,Project Stardust,Military Flight Simulator Community,Action,116,02:58,76,22,80,-0.0412,85,-0.0992,5388,21509142,0.8761,663
 621,3827505494,Trollge Universe Incident,TrickyStudio,Action,112,15:00,76,22,95,-0.2066,,,9447,31896033,0.7072,657
 622,9774981774,[👊 OPM] Re:Rangers X,[B:S] ARX Team,Strategy,105,06:44,87,22,118,-0.2587,,,8636,180997405,0.9601,659
