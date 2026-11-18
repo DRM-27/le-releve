@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-17",
- "genere": "2026-11-18T18:37:50Z",
+ "genere": "2026-11-18T19:24:03Z",
  "couverture": {
   "releves": 22,
   "attendus": 24
@@ -9362,6 +9362,12 @@
    "l": "Mukbang Game [Testing]🍜🥢! : créateur",
    "src": "data/jours/2026-11-17.csv#L97"
   },
+  "g.9978329815.genre": {
+   "v": "Roleplay & Avatar Sim",
+   "d": "Jeu de rôle et avatar",
+   "l": "Mukbang Game [Testing]🍜🥢! : genre",
+   "src": "data/jours/2026-11-17.csv#L97"
+  },
   "g.9978329815.var_veille": {
    "v": -0.1297,
    "d": "−13,0 %",
@@ -10215,14 +10221,14 @@
    "src": "data/jours/2026-11-17.csv"
   },
   "genre.2.part": {
-   "v": 0.1630699674105378,
-   "d": "16,3 %",
+   "v": 0.16610730137849172,
+   "d": "16,6 %",
    "l": "Genre n° 2 : part des joueurs moyens du top 100",
    "src": "data/jours/2026-11-17.csv"
   },
   "genre.2.jeux": {
-   "v": 10,
-   "d": "10",
+   "v": 11,
+   "d": "11",
    "l": "Genre n° 2 : nombre de jeux dans le top 100",
    "src": "data/jours/2026-11-17.csv"
   },
