@@ -1,5 +1,70 @@
 {
- "genere": "2026-11-19T19:51:29Z",
+ "genere": "2026-11-19T20:42:44Z",
  "periode_jours": 7,
- "pages": []
+ "pages": [
+  {
+   "path": "/le-releve/",
+   "vues": 9
+  },
+  {
+   "path": "/le-releve/explorer/",
+   "vues": 3
+  },
+  {
+   "path": "/le-releve/alertes/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/classement/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/articles/2026-11-17-volley-bomb-quotidien/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/heures-de-pointe/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/jeux/steal-an-egg-10563114921/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/records/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/articles/2026-11-18-hyper-realistic-ragdoll-quotidien/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/methode/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/source/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/confidentialite/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/donnees/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/jeux/s8-1-speed-keyboard-escape-candy-chocolate-9584852943/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/rapport/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/partenaires/",
+   "vues": 1
+  }
+ ]
 }
