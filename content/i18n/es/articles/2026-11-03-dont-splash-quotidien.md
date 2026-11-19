@@ -1,16 +1,16 @@
 ---
-titre: {{entree.1.nom}} entra en el top 50 de Roblox, directamente en el puesto {{entree.1.rang}}
-chapo: El {{jour.date_courte}}, {{entree.1.nom}} entra en el top 50 con un pico de {{entree.1.pic}} jugadores. {{entrees.nb}} juegos entraron respecto al día anterior.
+titre: {{retour.1.nom}} vuelve al top 50 de Roblox, en el puesto {{retour.1.rang}}
+chapo: El {{jour.date_courte}}, {{retour.1.nom}} vuelve al top 50 con un pico registrado de {{retour.1.pic}} jugadores, tras una ausencia en nuestras lecturas.
 jour: 2026-11-03
 type: quotidien
-angle: entree
+angle: retour
 publie: 2026-11-04T23:10
 ---
 Lecturas: {{releves.nb}} de {{releves.attendus}} ({{releves.manquants}}), para {{jeux.nb}} juegos seguidos. Entre los juegos que seguimos, el total de jugadores conectados alcanzó {{cumul.pic}} en la lectura más alta, a las {{cumul.pic_heure}}, con una media de {{cumul.moy}} en el día.
 
 ## El dato del día
 
-**{{entree.1.nom}}** no estaba en el top 50 el día anterior. Llega al puesto {{entree.1.rang}} con un pico registrado de {{entree.1.pic}} jugadores.
+**{{retour.1.nom}}** no pudo medirse por completo el día anterior, aunque estuvo en el top 50 durante los 7 días anteriores. Vuelve al puesto {{retour.1.rang}} con un pico registrado de {{retour.1.pic}} jugadores: es un regreso, no una nueva entrada.
 
 ## El n.º 1
 

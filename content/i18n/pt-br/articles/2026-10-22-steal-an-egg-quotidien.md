@@ -1,5 +1,5 @@
 ---
-titre: {{top.1.nom}} segue na liderança com {{top.1.pic}} jogadores; a simulação pesa {{genre.1.part}} do top 100
+titre: {{top.1.nom}} lidera com pico de {{top.1.pic}} jogadores; a simulação pesa {{genre.1.part}} do top 100
 chapo: Em {{jour.date_courte}}, o nº 1 reuniu {{concentration.top1}} dos jogadores médios do top 100; a simulação concentra {{genre.1.part}}.
 jour: 2026-10-22
 type: quotidien

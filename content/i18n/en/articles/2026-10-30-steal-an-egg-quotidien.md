@@ -1,5 +1,5 @@
 ---
-titre: {{top.1.nom}} in the lead with {{top.1.pic}} players, the {{genre.1.nom}} genre makes up {{genre.1.part}} of the top 100
+titre: {{top.1.nom}} in the lead with a peak of {{top.1.pic}} players, the {{genre.1.nom}} genre makes up {{genre.1.part}} of the top 100
 chapo: On {{jour.date_courte}}, the No. 1 game drew {{concentration.top1}} of the top 100's average players; the {{genre.1.nom}} genre accounts for {{genre.1.part}}.
 jour: 2026-10-30
 type: quotidien

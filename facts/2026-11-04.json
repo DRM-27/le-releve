@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-04",
- "genere": "2026-11-05T22:07:53Z",
+ "genere": "2026-11-19T23:06:09Z",
  "couverture": {
   "releves": 17,
   "attendus": 24
@@ -164,6 +164,24 @@
    "l": "N° 1 du jour : rang la veille",
    "src": "data/jours/2026-11-04.csv#L2"
   },
+  "top.1.rang_moy": {
+   "v": 1,
+   "d": "1er",
+   "l": "N° 1 du jour : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L2"
+  },
+  "top.1.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "N° 1 du jour : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L2"
+  },
+  "top.1.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "N° 1 du jour : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L2"
+  },
   "top.2.nom": {
    "v": "[🎃] Blox Fruits",
    "d": "[🎃] Blox Fruits",
@@ -252,6 +270,24 @@
    "v": 2,
    "d": "2e",
    "l": "N° 2 du jour : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L3"
+  },
+  "top.2.rang_moy": {
+   "v": 3,
+   "d": "3e",
+   "l": "N° 2 du jour : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L3"
+  },
+  "top.2.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "N° 2 du jour : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L3"
+  },
+  "top.2.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "N° 2 du jour : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L3"
   },
   "top.3.nom": {
@@ -344,6 +380,24 @@
    "l": "N° 3 du jour : rang la veille",
    "src": "data/jours/2026-11-04.csv#L4"
   },
+  "top.3.rang_moy": {
+   "v": 2,
+   "d": "2e",
+   "l": "N° 3 du jour : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L4"
+  },
+  "top.3.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "N° 3 du jour : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L4"
+  },
+  "top.3.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "N° 3 du jour : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L4"
+  },
   "top.4.nom": {
    "v": "[💀] Steal a Brainrot",
    "d": "[💀] Steal a Brainrot",
@@ -432,6 +486,24 @@
    "v": 6,
    "d": "6e",
    "l": "N° 4 du jour : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L5"
+  },
+  "top.4.rang_moy": {
+   "v": 11,
+   "d": "11e",
+   "l": "N° 4 du jour : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L5"
+  },
+  "top.4.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "N° 4 du jour : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L5"
+  },
+  "top.4.pic_isole": {
+   "v": true,
+   "d": "oui",
+   "l": "N° 4 du jour : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L5"
   },
   "top.5.nom": {
@@ -524,6 +596,24 @@
    "l": "N° 5 du jour : rang la veille",
    "src": "data/jours/2026-11-04.csv#L6"
   },
+  "top.5.rang_moy": {
+   "v": 4,
+   "d": "4e",
+   "l": "N° 5 du jour : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L6"
+  },
+  "top.5.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "N° 5 du jour : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L6"
+  },
+  "top.5.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "N° 5 du jour : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L6"
+  },
   "top.6.nom": {
    "v": "Break and Steal an Egg",
    "d": "Break and Steal an Egg",
@@ -612,6 +702,24 @@
    "v": 9,
    "d": "9e",
    "l": "N° 6 du jour : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L7"
+  },
+  "top.6.rang_moy": {
+   "v": 7,
+   "d": "7e",
+   "l": "N° 6 du jour : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L7"
+  },
+  "top.6.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "N° 6 du jour : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L7"
+  },
+  "top.6.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "N° 6 du jour : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L7"
   },
   "top.7.nom": {
@@ -704,6 +812,24 @@
    "l": "N° 7 du jour : rang la veille",
    "src": "data/jours/2026-11-04.csv#L8"
   },
+  "top.7.rang_moy": {
+   "v": 8,
+   "d": "8e",
+   "l": "N° 7 du jour : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L8"
+  },
+  "top.7.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "N° 7 du jour : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L8"
+  },
+  "top.7.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "N° 7 du jour : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L8"
+  },
   "top.8.nom": {
    "v": "[🎃] Adopt Me!",
    "d": "[🎃] Adopt Me!",
@@ -792,6 +918,24 @@
    "v": 5,
    "d": "5e",
    "l": "N° 8 du jour : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L9"
+  },
+  "top.8.rang_moy": {
+   "v": 5,
+   "d": "5e",
+   "l": "N° 8 du jour : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L9"
+  },
+  "top.8.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "N° 8 du jour : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L9"
+  },
+  "top.8.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "N° 8 du jour : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L9"
   },
   "top.9.nom": {
@@ -884,6 +1028,24 @@
    "l": "N° 9 du jour : rang la veille",
    "src": "data/jours/2026-11-04.csv#L10"
   },
+  "top.9.rang_moy": {
+   "v": 6,
+   "d": "6e",
+   "l": "N° 9 du jour : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L10"
+  },
+  "top.9.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "N° 9 du jour : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L10"
+  },
+  "top.9.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "N° 9 du jour : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L10"
+  },
   "top.10.nom": {
    "v": "99 Nights in the Forest 🔦",
    "d": "99 Nights in the Forest 🔦",
@@ -972,6 +1134,24 @@
    "v": 8,
    "d": "8e",
    "l": "N° 10 du jour : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L11"
+  },
+  "top.10.rang_moy": {
+   "v": 9,
+   "d": "9e",
+   "l": "N° 10 du jour : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L11"
+  },
+  "top.10.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "N° 10 du jour : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L11"
+  },
+  "top.10.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "N° 10 du jour : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L11"
   },
   "g.10563114921.nom": {
@@ -1064,6 +1244,24 @@
    "l": "Steal An Egg : rang la veille",
    "src": "data/jours/2026-11-04.csv#L2"
   },
+  "g.10563114921.rang_moy": {
+   "v": 1,
+   "d": "1er",
+   "l": "Steal An Egg : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L2"
+  },
+  "g.10563114921.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Steal An Egg : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L2"
+  },
+  "g.10563114921.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Steal An Egg : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L2"
+  },
   "g.994732206.nom": {
    "v": "[🎃] Blox Fruits",
    "d": "[🎃] Blox Fruits",
@@ -1152,6 +1350,24 @@
    "v": 2,
    "d": "2e",
    "l": "[🎃] Blox Fruits : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L3"
+  },
+  "g.994732206.rang_moy": {
+   "v": 3,
+   "d": "3e",
+   "l": "[🎃] Blox Fruits : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L3"
+  },
+  "g.994732206.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[🎃] Blox Fruits : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L3"
+  },
+  "g.994732206.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[🎃] Blox Fruits : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L3"
   },
   "g.1686885941.nom": {
@@ -1244,6 +1460,24 @@
    "l": "Brookhaven 🏡RP : rang la veille",
    "src": "data/jours/2026-11-04.csv#L4"
   },
+  "g.1686885941.rang_moy": {
+   "v": 2,
+   "d": "2e",
+   "l": "Brookhaven 🏡RP : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L4"
+  },
+  "g.1686885941.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Brookhaven 🏡RP : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L4"
+  },
+  "g.1686885941.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Brookhaven 🏡RP : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L4"
+  },
   "g.7709344486.nom": {
    "v": "[💀] Steal a Brainrot",
    "d": "[💀] Steal a Brainrot",
@@ -1332,6 +1566,24 @@
    "v": 6,
    "d": "6e",
    "l": "[💀] Steal a Brainrot : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L5"
+  },
+  "g.7709344486.rang_moy": {
+   "v": 11,
+   "d": "11e",
+   "l": "[💀] Steal a Brainrot : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L5"
+  },
+  "g.7709344486.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[💀] Steal a Brainrot : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L5"
+  },
+  "g.7709344486.pic_isole": {
+   "v": true,
+   "d": "oui",
+   "l": "[💀] Steal a Brainrot : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L5"
   },
   "g.66654135.nom": {
@@ -1424,6 +1676,24 @@
    "l": "Murder Mystery 2 : rang la veille",
    "src": "data/jours/2026-11-04.csv#L6"
   },
+  "g.66654135.rang_moy": {
+   "v": 4,
+   "d": "4e",
+   "l": "Murder Mystery 2 : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L6"
+  },
+  "g.66654135.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Murder Mystery 2 : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L6"
+  },
+  "g.66654135.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Murder Mystery 2 : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L6"
+  },
   "g.10765288803.nom": {
    "v": "Break and Steal an Egg",
    "d": "Break and Steal an Egg",
@@ -1512,6 +1782,24 @@
    "v": 9,
    "d": "9e",
    "l": "Break and Steal an Egg : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L7"
+  },
+  "g.10765288803.rang_moy": {
+   "v": 7,
+   "d": "7e",
+   "l": "Break and Steal an Egg : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L7"
+  },
+  "g.10765288803.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Break and Steal an Egg : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L7"
+  },
+  "g.10765288803.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Break and Steal an Egg : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L7"
   },
   "g.10766972131.nom": {
@@ -1604,6 +1892,24 @@
    "l": "Throw Food For Animals : rang la veille",
    "src": "data/jours/2026-11-04.csv#L8"
   },
+  "g.10766972131.rang_moy": {
+   "v": 8,
+   "d": "8e",
+   "l": "Throw Food For Animals : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L8"
+  },
+  "g.10766972131.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Throw Food For Animals : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L8"
+  },
+  "g.10766972131.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Throw Food For Animals : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L8"
+  },
   "g.383310974.nom": {
    "v": "[🎃] Adopt Me!",
    "d": "[🎃] Adopt Me!",
@@ -1692,6 +1998,24 @@
    "v": 5,
    "d": "5e",
    "l": "[🎃] Adopt Me! : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L9"
+  },
+  "g.383310974.rang_moy": {
+   "v": 5,
+   "d": "5e",
+   "l": "[🎃] Adopt Me! : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L9"
+  },
+  "g.383310974.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[🎃] Adopt Me! : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L9"
+  },
+  "g.383310974.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[🎃] Adopt Me! : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L9"
   },
   "g.6035872082.nom": {
@@ -1784,6 +2108,24 @@
    "l": "RIVALS : rang la veille",
    "src": "data/jours/2026-11-04.csv#L10"
   },
+  "g.6035872082.rang_moy": {
+   "v": 6,
+   "d": "6e",
+   "l": "RIVALS : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L10"
+  },
+  "g.6035872082.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "RIVALS : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L10"
+  },
+  "g.6035872082.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "RIVALS : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L10"
+  },
   "g.7326934954.nom": {
    "v": "99 Nights in the Forest 🔦",
    "d": "99 Nights in the Forest 🔦",
@@ -1872,6 +2214,24 @@
    "v": 8,
    "d": "8e",
    "l": "99 Nights in the Forest 🔦 : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L11"
+  },
+  "g.7326934954.rang_moy": {
+   "v": 9,
+   "d": "9e",
+   "l": "99 Nights in the Forest 🔦 : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L11"
+  },
+  "g.7326934954.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "99 Nights in the Forest 🔦 : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L11"
+  },
+  "g.7326934954.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "99 Nights in the Forest 🔦 : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L11"
   },
   "g.3508322461.nom": {
@@ -1964,6 +2324,24 @@
    "l": "[🎃] Jujutsu Shenanigans : rang la veille",
    "src": "data/jours/2026-11-04.csv#L12"
   },
+  "g.3508322461.rang_moy": {
+   "v": 12,
+   "d": "12e",
+   "l": "[🎃] Jujutsu Shenanigans : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L12"
+  },
+  "g.3508322461.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[🎃] Jujutsu Shenanigans : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L12"
+  },
+  "g.3508322461.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[🎃] Jujutsu Shenanigans : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L12"
+  },
   "g.3183403065.nom": {
    "v": "[☀️UPD 21🏖️] Anime Adventures",
    "d": "[☀️UPD 21🏖️] Anime Adventures",
@@ -2052,6 +2430,24 @@
    "v": 12,
    "d": "12e",
    "l": "[☀️UPD 21🏖️] Anime Adventures : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L13"
+  },
+  "g.3183403065.rang_moy": {
+   "v": 10,
+   "d": "10e",
+   "l": "[☀️UPD 21🏖️] Anime Adventures : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L13"
+  },
+  "g.3183403065.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[☀️UPD 21🏖️] Anime Adventures : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L13"
+  },
+  "g.3183403065.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[☀️UPD 21🏖️] Anime Adventures : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L13"
   },
   "g.9584852943.nom": {
@@ -2144,6 +2540,24 @@
    "l": "+1 Speed Keyboard Escape | Candy & Chocolate : rang la veille",
    "src": "data/jours/2026-11-04.csv#L14"
   },
+  "g.9584852943.rang_moy": {
+   "v": 36,
+   "d": "36e",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L14"
+  },
+  "g.9584852943.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L14"
+  },
+  "g.9584852943.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L14"
+  },
   "g.7529591378.nom": {
    "v": "[ALPHA] Practical Basketball",
    "d": "[ALPHA] Practical Basketball",
@@ -2220,6 +2634,24 @@
    "v": 13,
    "d": "13e",
    "l": "[ALPHA] Practical Basketball : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L15"
+  },
+  "g.7529591378.rang_moy": {
+   "v": 26,
+   "d": "26e",
+   "l": "[ALPHA] Practical Basketball : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L15"
+  },
+  "g.7529591378.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[ALPHA] Practical Basketball : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L15"
+  },
+  "g.7529591378.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[ALPHA] Practical Basketball : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L15"
   },
   "g.10762636904.nom": {
@@ -2312,6 +2744,24 @@
    "l": "[🌟UPD] Cameraman Tower Defense : rang la veille",
    "src": "data/jours/2026-11-04.csv#L16"
   },
+  "g.10762636904.rang_moy": {
+   "v": 31,
+   "d": "31e",
+   "l": "[🌟UPD] Cameraman Tower Defense : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L16"
+  },
+  "g.10762636904.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[🌟UPD] Cameraman Tower Defense : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L16"
+  },
+  "g.10762636904.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[🌟UPD] Cameraman Tower Defense : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L16"
+  },
   "g.5569032992.nom": {
    "v": "🎃 Dandy's World [ALPHA]",
    "d": "🎃 Dandy's World [ALPHA]",
@@ -2402,6 +2852,24 @@
    "l": "🎃 Dandy's World [ALPHA] : rang la veille",
    "src": "data/jours/2026-11-04.csv#L17"
   },
+  "g.5569032992.rang_moy": {
+   "v": 16,
+   "d": "16e",
+   "l": "🎃 Dandy's World [ALPHA] : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L17"
+  },
+  "g.5569032992.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "🎃 Dandy's World [ALPHA] : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L17"
+  },
+  "g.5569032992.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "🎃 Dandy's World [ALPHA] : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L17"
+  },
   "g.10771421858.nom": {
    "v": "DONT SPLASH",
    "d": "DONT SPLASH",
@@ -2478,6 +2946,24 @@
    "v": 14,
    "d": "14e",
    "l": "DONT SPLASH : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L18"
+  },
+  "g.10771421858.rang_moy": {
+   "v": 13,
+   "d": "13e",
+   "l": "DONT SPLASH : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L18"
+  },
+  "g.10771421858.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "DONT SPLASH : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L18"
+  },
+  "g.10771421858.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "DONT SPLASH : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L18"
   },
   "g.5750914919.nom": {
@@ -2570,6 +3056,24 @@
    "l": "Fisch 🎸 [VENUE ENCORE] : rang la veille",
    "src": "data/jours/2026-11-04.csv#L19"
   },
+  "g.5750914919.rang_moy": {
+   "v": 15,
+   "d": "15e",
+   "l": "Fisch 🎸 [VENUE ENCORE] : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L19"
+  },
+  "g.5750914919.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Fisch 🎸 [VENUE ENCORE] : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L19"
+  },
+  "g.5750914919.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Fisch 🎸 [VENUE ENCORE] : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L19"
+  },
   "g.3808081382.nom": {
    "v": "[HALLOWEEN] The Strongest Battlegrounds",
    "d": "[HALLOWEEN] The Strongest Battlegrounds",
@@ -2658,6 +3162,24 @@
    "v": 17,
    "d": "17e",
    "l": "[HALLOWEEN] The Strongest Battlegrounds : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L20"
+  },
+  "g.3808081382.rang_moy": {
+   "v": 17,
+   "d": "17e",
+   "l": "[HALLOWEEN] The Strongest Battlegrounds : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L20"
+  },
+  "g.3808081382.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[HALLOWEEN] The Strongest Battlegrounds : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L20"
+  },
+  "g.3808081382.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[HALLOWEEN] The Strongest Battlegrounds : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L20"
   },
   "g.7219654364.nom": {
@@ -2750,6 +3272,24 @@
    "l": "[💀DUELS] Murderers VS Sheriffs : rang la veille",
    "src": "data/jours/2026-11-04.csv#L21"
   },
+  "g.7219654364.rang_moy": {
+   "v": 28,
+   "d": "28e",
+   "l": "[💀DUELS] Murderers VS Sheriffs : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L21"
+  },
+  "g.7219654364.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[💀DUELS] Murderers VS Sheriffs : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L21"
+  },
+  "g.7219654364.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[💀DUELS] Murderers VS Sheriffs : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L21"
+  },
   "g.6739698191.nom": {
    "v": "[WEEK 2 🎃 x BUTCHER] Violence District",
    "d": "[WEEK 2 🎃 x BUTCHER] Violence District",
@@ -2838,6 +3378,24 @@
    "v": 20,
    "d": "20e",
    "l": "[WEEK 2 🎃 x BUTCHER] Violence District : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L22"
+  },
+  "g.6739698191.rang_moy": {
+   "v": 21,
+   "d": "21e",
+   "l": "[WEEK 2 🎃 x BUTCHER] Violence District : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L22"
+  },
+  "g.6739698191.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[WEEK 2 🎃 x BUTCHER] Violence District : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L22"
+  },
+  "g.6739698191.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[WEEK 2 🎃 x BUTCHER] Violence District : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L22"
   },
   "g.2711375305.nom": {
@@ -2930,6 +3488,24 @@
    "l": "Catalog Avatar Creator : rang la veille",
    "src": "data/jours/2026-11-04.csv#L23"
   },
+  "g.2711375305.rang_moy": {
+   "v": 19,
+   "d": "19e",
+   "l": "Catalog Avatar Creator : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L23"
+  },
+  "g.2711375305.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Catalog Avatar Creator : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L23"
+  },
+  "g.2711375305.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Catalog Avatar Creator : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L23"
+  },
   "g.5203828273.nom": {
    "v": "[🎃] Dress To Impress",
    "d": "[🎃] Dress To Impress",
@@ -3018,6 +3594,24 @@
    "v": 16,
    "d": "16e",
    "l": "[🎃] Dress To Impress : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L24"
+  },
+  "g.5203828273.rang_moy": {
+   "v": 18,
+   "d": "18e",
+   "l": "[🎃] Dress To Impress : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L24"
+  },
+  "g.5203828273.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[🎃] Dress To Impress : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L24"
+  },
+  "g.5203828273.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[🎃] Dress To Impress : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L24"
   },
   "g.6701277882.nom": {
@@ -3110,6 +3704,24 @@
    "l": "[👻UPD] Fish It! 🐟 : rang la veille",
    "src": "data/jours/2026-11-04.csv#L25"
   },
+  "g.6701277882.rang_moy": {
+   "v": 14,
+   "d": "14e",
+   "l": "[👻UPD] Fish It! 🐟 : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L25"
+  },
+  "g.6701277882.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[👻UPD] Fish It! 🐟 : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L25"
+  },
+  "g.6701277882.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[👻UPD] Fish It! 🐟 : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L25"
+  },
   "g.3647333358.nom": {
    "v": "[🎃HLWN🎃] Evade ",
    "d": "[🎃HLWN🎃] Evade ",
@@ -3198,6 +3810,24 @@
    "v": 24,
    "d": "24e",
    "l": "[🎃HLWN🎃] Evade  : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L26"
+  },
+  "g.3647333358.rang_moy": {
+   "v": 24,
+   "d": "24e",
+   "l": "[🎃HLWN🎃] Evade  : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L26"
+  },
+  "g.3647333358.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[🎃HLWN🎃] Evade  : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L26"
+  },
+  "g.3647333358.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[🎃HLWN🎃] Evade  : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L26"
   },
   "g.3317771874.nom": {
@@ -3290,6 +3920,24 @@
    "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : rang la veille",
    "src": "data/jours/2026-11-04.csv#L27"
   },
+  "g.3317771874.rang_moy": {
+   "v": 20,
+   "d": "20e",
+   "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L27"
+  },
+  "g.3317771874.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L27"
+  },
+  "g.3317771874.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "🎃 [MINIGAMES] Pet Simulator 99! 👻 : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L27"
+  },
   "g.4658598196.nom": {
    "v": "[UPDATE 5] Attack on Titan Revolution",
    "d": "[UPDATE 5] Attack on Titan Revolution",
@@ -3378,6 +4026,24 @@
    "v": 25,
    "d": "25e",
    "l": "[UPDATE 5] Attack on Titan Revolution : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L28"
+  },
+  "g.4658598196.rang_moy": {
+   "v": 22,
+   "d": "22e",
+   "l": "[UPDATE 5] Attack on Titan Revolution : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L28"
+  },
+  "g.4658598196.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[UPDATE 5] Attack on Titan Revolution : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L28"
+  },
+  "g.4658598196.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[UPDATE 5] Attack on Titan Revolution : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L28"
   },
   "g.10648820673.nom": {
@@ -3470,6 +4136,24 @@
    "l": "[🍲] Karinderya! : rang la veille",
    "src": "data/jours/2026-11-04.csv#L29"
   },
+  "g.10648820673.rang_moy": {
+   "v": 123,
+   "d": "123e",
+   "l": "[🍲] Karinderya! : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L29"
+  },
+  "g.10648820673.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[🍲] Karinderya! : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L29"
+  },
+  "g.10648820673.pic_isole": {
+   "v": true,
+   "d": "oui",
+   "l": "[🍲] Karinderya! : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L29"
+  },
   "g.6931042565.nom": {
    "v": "[UPD] Volleyball Legends",
    "d": "[UPD] Volleyball Legends",
@@ -3558,6 +4242,24 @@
    "v": 26,
    "d": "26e",
    "l": "[UPD] Volleyball Legends : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L30"
+  },
+  "g.6931042565.rang_moy": {
+   "v": 27,
+   "d": "27e",
+   "l": "[UPD] Volleyball Legends : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L30"
+  },
+  "g.6931042565.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[UPD] Volleyball Legends : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L30"
+  },
+  "g.6931042565.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[UPD] Volleyball Legends : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L30"
   },
   "g.10155360168.nom": {
@@ -3650,6 +4352,24 @@
    "l": "Illegal Soccer : rang la veille",
    "src": "data/jours/2026-11-04.csv#L31"
   },
+  "g.10155360168.rang_moy": {
+   "v": 30,
+   "d": "30e",
+   "l": "Illegal Soccer : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L31"
+  },
+  "g.10155360168.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Illegal Soccer : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L31"
+  },
+  "g.10155360168.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Illegal Soccer : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L31"
+  },
   "g.2668101271.nom": {
    "v": "Fling Things and People",
    "d": "Fling Things and People",
@@ -3738,6 +4458,24 @@
    "v": 32,
    "d": "32e",
    "l": "Fling Things and People : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L32"
+  },
+  "g.2668101271.rang_moy": {
+   "v": 34,
+   "d": "34e",
+   "l": "Fling Things and People : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L32"
+  },
+  "g.2668101271.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Fling Things and People : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L32"
+  },
+  "g.2668101271.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Fling Things and People : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L32"
   },
   "g.10708913337.nom": {
@@ -3830,6 +4568,24 @@
    "l": "[🎉UPD 11] Anime Dice : rang la veille",
    "src": "data/jours/2026-11-04.csv#L33"
   },
+  "g.10708913337.rang_moy": {
+   "v": 23,
+   "d": "23e",
+   "l": "[🎉UPD 11] Anime Dice : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L33"
+  },
+  "g.10708913337.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[🎉UPD 11] Anime Dice : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L33"
+  },
+  "g.10708913337.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[🎉UPD 11] Anime Dice : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L33"
+  },
   "g.5361032378.nom": {
    "v": "Sol's RNG [ Halloween Event 🎃]",
    "d": "Sol's RNG [ Halloween Event 🎃]",
@@ -3918,6 +4674,24 @@
    "v": 36,
    "d": "36e",
    "l": "Sol's RNG [ Halloween Event 🎃] : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L34"
+  },
+  "g.5361032378.rang_moy": {
+   "v": 25,
+   "d": "25e",
+   "l": "Sol's RNG [ Halloween Event 🎃] : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L34"
+  },
+  "g.5361032378.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Sol's RNG [ Halloween Event 🎃] : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L34"
+  },
+  "g.5361032378.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Sol's RNG [ Halloween Event 🎃] : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L34"
   },
   "g.703124385.nom": {
@@ -4010,6 +4784,24 @@
    "l": "Tower of Hell : rang la veille",
    "src": "data/jours/2026-11-04.csv#L35"
   },
+  "g.703124385.rang_moy": {
+   "v": 35,
+   "d": "35e",
+   "l": "Tower of Hell : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L35"
+  },
+  "g.703124385.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Tower of Hell : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L35"
+  },
+  "g.703124385.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Tower of Hell : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L35"
+  },
   "g.10769149947.nom": {
    "v": "صيد الضبّان",
    "d": "صيد الضبّان",
@@ -4098,6 +4890,24 @@
    "v": 31,
    "d": "31e",
    "l": "صيد الضبّان : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L36"
+  },
+  "g.10769149947.rang_moy": {
+   "v": 37,
+   "d": "37e",
+   "l": "صيد الضبّان : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L36"
+  },
+  "g.10769149947.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "صيد الضبّان : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L36"
+  },
+  "g.10769149947.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "صيد الضبّان : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L36"
   },
   "g.6331902150.nom": {
@@ -4190,6 +5000,24 @@
    "l": "Forsaken : rang la veille",
    "src": "data/jours/2026-11-04.csv#L37"
   },
+  "g.6331902150.rang_moy": {
+   "v": 32,
+   "d": "32e",
+   "l": "Forsaken : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L37"
+  },
+  "g.6331902150.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Forsaken : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L37"
+  },
+  "g.6331902150.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Forsaken : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L37"
+  },
   "g.10629695169.nom": {
    "v": "✨Tap Simulator REBORN",
    "d": "✨Tap Simulator REBORN",
@@ -4278,6 +5106,24 @@
    "v": 37,
    "d": "37e",
    "l": "✨Tap Simulator REBORN : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L38"
+  },
+  "g.10629695169.rang_moy": {
+   "v": 29,
+   "d": "29e",
+   "l": "✨Tap Simulator REBORN : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L38"
+  },
+  "g.10629695169.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "✨Tap Simulator REBORN : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L38"
+  },
+  "g.10629695169.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "✨Tap Simulator REBORN : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L38"
   },
   "g.3240075297.nom": {
@@ -4370,6 +5216,24 @@
    "l": "Berry Avenue 🏠 RP : rang la veille",
    "src": "data/jours/2026-11-04.csv#L39"
   },
+  "g.3240075297.rang_moy": {
+   "v": 40,
+   "d": "40e",
+   "l": "Berry Avenue 🏠 RP : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L39"
+  },
+  "g.3240075297.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Berry Avenue 🏠 RP : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L39"
+  },
+  "g.3240075297.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Berry Avenue 🏠 RP : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L39"
+  },
   "g.10766620257.nom": {
    "v": "Bike For Egg!",
    "d": "Bike For Egg!",
@@ -4458,6 +5322,24 @@
    "v": 38,
    "d": "38e",
    "l": "Bike For Egg! : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L40"
+  },
+  "g.10766620257.rang_moy": {
+   "v": 48,
+   "d": "48e",
+   "l": "Bike For Egg! : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L40"
+  },
+  "g.10766620257.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Bike For Egg! : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L40"
+  },
+  "g.10766620257.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Bike For Egg! : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L40"
   },
   "g.10767138232.nom": {
@@ -4550,6 +5432,24 @@
    "l": "Kukirin Life [Testing] : rang la veille",
    "src": "data/jours/2026-11-04.csv#L41"
   },
+  "g.10767138232.rang_moy": {
+   "v": 52,
+   "d": "52e",
+   "l": "Kukirin Life [Testing] : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L41"
+  },
+  "g.10767138232.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Kukirin Life [Testing] : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L41"
+  },
+  "g.10767138232.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Kukirin Life [Testing] : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L41"
+  },
   "g.10764627709.nom": {
    "v": "[BOSS🎃] Huss Valley",
    "d": "[BOSS🎃] Huss Valley",
@@ -4638,6 +5538,24 @@
    "v": 43,
    "d": "43e",
    "l": "[BOSS🎃] Huss Valley : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L42"
+  },
+  "g.10764627709.rang_moy": {
+   "v": 39,
+   "d": "39e",
+   "l": "[BOSS🎃] Huss Valley : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L42"
+  },
+  "g.10764627709.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[BOSS🎃] Huss Valley : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L42"
+  },
+  "g.10764627709.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[BOSS🎃] Huss Valley : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L42"
   },
   "g.372226183.nom": {
@@ -4730,6 +5648,24 @@
    "l": "Flee the Facility : rang la veille",
    "src": "data/jours/2026-11-04.csv#L43"
   },
+  "g.372226183.rang_moy": {
+   "v": 57,
+   "d": "57e",
+   "l": "Flee the Facility : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L43"
+  },
+  "g.372226183.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Flee the Facility : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L43"
+  },
+  "g.372226183.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Flee the Facility : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L43"
+  },
   "g.10767380385.nom": {
    "v": "Sell Fries! [Anomaly] 🍟",
    "d": "Sell Fries! [Anomaly] 🍟",
@@ -4818,6 +5754,24 @@
    "v": 48,
    "d": "48e",
    "l": "Sell Fries! [Anomaly] 🍟 : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L44"
+  },
+  "g.10767380385.rang_moy": {
+   "v": 42,
+   "d": "42e",
+   "l": "Sell Fries! [Anomaly] 🍟 : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L44"
+  },
+  "g.10767380385.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Sell Fries! [Anomaly] 🍟 : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L44"
+  },
+  "g.10767380385.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Sell Fries! [Anomaly] 🍟 : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L44"
   },
   "g.4839802560.nom": {
@@ -4910,6 +5864,24 @@
    "l": "LifeTogether 🏠 RP  : rang la veille",
    "src": "data/jours/2026-11-04.csv#L45"
   },
+  "g.4839802560.rang_moy": {
+   "v": 38,
+   "d": "38e",
+   "l": "LifeTogether 🏠 RP  : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L45"
+  },
+  "g.4839802560.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "LifeTogether 🏠 RP  : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L45"
+  },
+  "g.4839802560.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "LifeTogether 🏠 RP  : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L45"
+  },
   "g.601130232.nom": {
    "v": "Bee Swarm Simulator",
    "d": "Bee Swarm Simulator",
@@ -5000,6 +5972,24 @@
    "l": "Bee Swarm Simulator : rang la veille",
    "src": "data/jours/2026-11-04.csv#L46"
   },
+  "g.601130232.rang_moy": {
+   "v": 33,
+   "d": "33e",
+   "l": "Bee Swarm Simulator : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L46"
+  },
+  "g.601130232.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Bee Swarm Simulator : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L46"
+  },
+  "g.601130232.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Bee Swarm Simulator : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L46"
+  },
   "g.10769315427.nom": {
    "v": "[🎃] Steal A Pet And Ride It!",
    "d": "[🎃] Steal A Pet And Ride It!",
@@ -5042,30 +6032,6 @@
    "l": "[🎃] Steal A Pet And Ride It! : genre",
    "src": "data/jours/2026-11-04.csv#L47"
   },
-  "g.10769315427.var_veille": {
-   "v": -0.1517,
-   "d": "−15,2 %",
-   "l": "[🎃] Steal A Pet And Ride It! : variation de la moyenne par rapport à la veille",
-   "src": "data/jours/2026-11-04.csv#L47"
-  },
-  "g.10769315427.moy_veille": {
-   "v": 26199,
-   "d": "26 199",
-   "l": "[🎃] Steal A Pet And Ride It! : moyenne de la veille",
-   "src": "data/jours/2026-11-04.csv#L47"
-  },
-  "g.10769315427.var_7j": {
-   "v": -0.2963,
-   "d": "−29,6 %",
-   "l": "[🎃] Steal A Pet And Ride It! : variation de la moyenne par rapport aux 7 jours précédents",
-   "src": "data/jours/2026-11-04.csv#L47"
-  },
-  "g.10769315427.moy_7j": {
-   "v": 31584,
-   "d": "31 584",
-   "l": "[🎃] Steal A Pet And Ride It! : moyenne des 7 jours précédents",
-   "src": "data/jours/2026-11-04.csv#L47"
-  },
   "g.10769315427.visites_24h": {
    "v": 2129824,
    "d": "2,13 millions",
@@ -5088,6 +6054,24 @@
    "v": 42,
    "d": "42e",
    "l": "[🎃] Steal A Pet And Ride It! : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L47"
+  },
+  "g.10769315427.rang_moy": {
+   "v": 41,
+   "d": "41e",
+   "l": "[🎃] Steal A Pet And Ride It! : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L47"
+  },
+  "g.10769315427.releves": {
+   "v": 9,
+   "d": "9",
+   "l": "[🎃] Steal A Pet And Ride It! : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L47"
+  },
+  "g.10769315427.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[🎃] Steal A Pet And Ride It! : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L47"
   },
   "g.10770933473.nom": {
@@ -5132,18 +6116,6 @@
    "l": "[🌍UPD] +1 Anime Eyes : genre",
    "src": "data/jours/2026-11-04.csv#L48"
   },
-  "g.10770933473.var_veille": {
-   "v": -0.109,
-   "d": "−10,9 %",
-   "l": "[🌍UPD] +1 Anime Eyes : variation de la moyenne par rapport à la veille",
-   "src": "data/jours/2026-11-04.csv#L48"
-  },
-  "g.10770933473.moy_veille": {
-   "v": 24197,
-   "d": "24 197",
-   "l": "[🌍UPD] +1 Anime Eyes : moyenne de la veille",
-   "src": "data/jours/2026-11-04.csv#L48"
-  },
   "g.10770933473.visites_24h": {
    "v": 1551611,
    "d": "1,55 million",
@@ -5166,6 +6138,24 @@
    "v": 47,
    "d": "47e",
    "l": "[🌍UPD] +1 Anime Eyes : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L48"
+  },
+  "g.10770933473.rang_moy": {
+   "v": 43,
+   "d": "43e",
+   "l": "[🌍UPD] +1 Anime Eyes : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L48"
+  },
+  "g.10770933473.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[🌍UPD] +1 Anime Eyes : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L48"
+  },
+  "g.10770933473.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[🌍UPD] +1 Anime Eyes : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L48"
   },
   "g.10772066587.nom": {
@@ -5244,6 +6234,24 @@
    "v": 53,
    "d": "53e",
    "l": "[CLASS] MALAM SAMA OPAH  : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L49"
+  },
+  "g.10772066587.rang_moy": {
+   "v": 80,
+   "d": "80e",
+   "l": "[CLASS] MALAM SAMA OPAH  : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L49"
+  },
+  "g.10772066587.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[CLASS] MALAM SAMA OPAH  : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L49"
+  },
+  "g.10772066587.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[CLASS] MALAM SAMA OPAH  : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L49"
   },
   "g.2440500124.nom": {
@@ -5336,6 +6344,24 @@
    "l": "DOORS 🍬🍭 : rang la veille",
    "src": "data/jours/2026-11-04.csv#L50"
   },
+  "g.2440500124.rang_moy": {
+   "v": 46,
+   "d": "46e",
+   "l": "DOORS 🍬🍭 : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L50"
+  },
+  "g.2440500124.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "DOORS 🍬🍭 : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L50"
+  },
+  "g.2440500124.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "DOORS 🍬🍭 : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L50"
+  },
   "g.10771997908.nom": {
    "v": "+1 Spider Arm🕷️",
    "d": "+1 Spider Arm🕷️",
@@ -5412,6 +6438,24 @@
    "v": 46,
    "d": "46e",
    "l": "+1 Spider Arm🕷️ : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L51"
+  },
+  "g.10771997908.rang_moy": {
+   "v": 45,
+   "d": "45e",
+   "l": "+1 Spider Arm🕷️ : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L51"
+  },
+  "g.10771997908.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "+1 Spider Arm🕷️ : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L51"
+  },
+  "g.10771997908.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "+1 Spider Arm🕷️ : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L51"
   },
   "g.1176784616.nom": {
@@ -5504,6 +6548,24 @@
    "l": "Tower Defense Simulator : rang la veille",
    "src": "data/jours/2026-11-04.csv#L52"
   },
+  "g.1176784616.rang_moy": {
+   "v": 44,
+   "d": "44e",
+   "l": "Tower Defense Simulator : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L52"
+  },
+  "g.1176784616.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Tower Defense Simulator : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L52"
+  },
+  "g.1176784616.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Tower Defense Simulator : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L52"
+  },
   "g.184199275.nom": {
    "v": "[🥇SEASONS] NFL Universe Football",
    "d": "[🥇SEASONS] NFL Universe Football",
@@ -5592,6 +6654,24 @@
    "v": 54,
    "d": "54e",
    "l": "[🥇SEASONS] NFL Universe Football : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L53"
+  },
+  "g.184199275.rang_moy": {
+   "v": 141,
+   "d": "141e",
+   "l": "[🥇SEASONS] NFL Universe Football : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L53"
+  },
+  "g.184199275.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[🥇SEASONS] NFL Universe Football : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L53"
+  },
+  "g.184199275.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[🥇SEASONS] NFL Universe Football : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L53"
   },
   "g.7008097940.nom": {
@@ -5684,6 +6764,24 @@
    "l": "[🎃] Ink Game : rang la veille",
    "src": "data/jours/2026-11-04.csv#L54"
   },
+  "g.7008097940.rang_moy": {
+   "v": 69,
+   "d": "69e",
+   "l": "[🎃] Ink Game : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L54"
+  },
+  "g.7008097940.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[🎃] Ink Game : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L54"
+  },
+  "g.7008097940.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[🎃] Ink Game : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L54"
+  },
   "g.10772217708.nom": {
    "v": "Tesla Roadster Chase",
    "d": "Tesla Roadster Chase",
@@ -5760,6 +6858,24 @@
    "v": 59,
    "d": "59e",
    "l": "Tesla Roadster Chase : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L55"
+  },
+  "g.10772217708.rang_moy": {
+   "v": 59,
+   "d": "59e",
+   "l": "Tesla Roadster Chase : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L55"
+  },
+  "g.10772217708.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Tesla Roadster Chase : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L55"
+  },
+  "g.10772217708.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Tesla Roadster Chase : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L55"
   },
   "g.1202096104.nom": {
@@ -5852,6 +6968,24 @@
    "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : rang la veille",
    "src": "data/jours/2026-11-04.csv#L56"
   },
+  "g.1202096104.rang_moy": {
+   "v": 47,
+   "d": "47e",
+   "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L56"
+  },
+  "g.1202096104.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L56"
+  },
+  "g.1202096104.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Driving Empire [🎃HALLOWEEN EVENT🎃] : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L56"
+  },
   "g.10768284407.nom": {
    "v": "🛡️[S1] Bike Universe",
    "d": "🛡️[S1] Bike Universe",
@@ -5942,6 +7076,24 @@
    "l": "🛡️[S1] Bike Universe : rang la veille",
    "src": "data/jours/2026-11-04.csv#L57"
   },
+  "g.10768284407.rang_moy": {
+   "v": 49,
+   "d": "49e",
+   "l": "🛡️[S1] Bike Universe : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L57"
+  },
+  "g.10768284407.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "🛡️[S1] Bike Universe : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L57"
+  },
+  "g.10768284407.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "🛡️[S1] Bike Universe : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L57"
+  },
   "g.10766468833.nom": {
    "v": "Cut a Rock",
    "d": "Cut a Rock",
@@ -6018,6 +7170,24 @@
    "v": 65,
    "d": "65e",
    "l": "Cut a Rock : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L58"
+  },
+  "g.10766468833.rang_moy": {
+   "v": 63,
+   "d": "63e",
+   "l": "Cut a Rock : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L58"
+  },
+  "g.10766468833.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Cut a Rock : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L58"
+  },
+  "g.10766468833.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Cut a Rock : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L58"
   },
   "g.10765490774.nom": {
@@ -6110,6 +7280,24 @@
    "l": "[🎃]Climb For Animals Eggs🥚 : rang la veille",
    "src": "data/jours/2026-11-04.csv#L59"
   },
+  "g.10765490774.rang_moy": {
+   "v": 65,
+   "d": "65e",
+   "l": "[🎃]Climb For Animals Eggs🥚 : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L59"
+  },
+  "g.10765490774.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[🎃]Climb For Animals Eggs🥚 : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L59"
+  },
+  "g.10765490774.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[🎃]Climb For Animals Eggs🥚 : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L59"
+  },
   "g.10771155665.nom": {
    "v": "Ragdoll Sandbox",
    "d": "Ragdoll Sandbox",
@@ -6152,18 +7340,6 @@
    "l": "Ragdoll Sandbox : genre",
    "src": "data/jours/2026-11-04.csv#L60"
   },
-  "g.10771155665.var_veille": {
-   "v": -0.0644,
-   "d": "−6,4 %",
-   "l": "Ragdoll Sandbox : variation de la moyenne par rapport à la veille",
-   "src": "data/jours/2026-11-04.csv#L60"
-  },
-  "g.10771155665.moy_veille": {
-   "v": 18394,
-   "d": "18 394",
-   "l": "Ragdoll Sandbox : moyenne de la veille",
-   "src": "data/jours/2026-11-04.csv#L60"
-  },
   "g.10771155665.visites_24h": {
    "v": 1762879,
    "d": "1,76 million",
@@ -6186,6 +7362,24 @@
    "v": 57,
    "d": "57e",
    "l": "Ragdoll Sandbox : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L60"
+  },
+  "g.10771155665.rang_moy": {
+   "v": 56,
+   "d": "56e",
+   "l": "Ragdoll Sandbox : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L60"
+  },
+  "g.10771155665.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Ragdoll Sandbox : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L60"
+  },
+  "g.10771155665.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Ragdoll Sandbox : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L60"
   },
   "g.2619619496.nom": {
@@ -6278,6 +7472,24 @@
    "l": "[👻Rereleases] BedWars : rang la veille",
    "src": "data/jours/2026-11-04.csv#L61"
   },
+  "g.2619619496.rang_moy": {
+   "v": 64,
+   "d": "64e",
+   "l": "[👻Rereleases] BedWars : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L61"
+  },
+  "g.2619619496.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[👻Rereleases] BedWars : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L61"
+  },
+  "g.2619619496.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[👻Rereleases] BedWars : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L61"
+  },
   "g.4949420752.nom": {
    "v": "Realistic Street Soccer",
    "d": "Realistic Street Soccer",
@@ -6366,6 +7578,24 @@
    "v": 71,
    "d": "71e",
    "l": "Realistic Street Soccer : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L62"
+  },
+  "g.4949420752.rang_moy": {
+   "v": 71,
+   "d": "71e",
+   "l": "Realistic Street Soccer : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L62"
+  },
+  "g.4949420752.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Realistic Street Soccer : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L62"
+  },
+  "g.4949420752.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Realistic Street Soccer : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L62"
   },
   "g.7436755782.nom": {
@@ -6458,6 +7688,24 @@
    "l": "[🎃] Grow a Garden 🌶️ : rang la veille",
    "src": "data/jours/2026-11-04.csv#L63"
   },
+  "g.7436755782.rang_moy": {
+   "v": 77,
+   "d": "77e",
+   "l": "[🎃] Grow a Garden 🌶️ : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L63"
+  },
+  "g.7436755782.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[🎃] Grow a Garden 🌶️ : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L63"
+  },
+  "g.7436755782.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[🎃] Grow a Garden 🌶️ : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L63"
+  },
   "g.10767537135.nom": {
    "v": "Evermore High 🦢",
    "d": "Evermore High 🦢",
@@ -6536,6 +7784,24 @@
    "l": "Evermore High 🦢 : rang la veille",
    "src": "data/jours/2026-11-04.csv#L64"
   },
+  "g.10767537135.rang_moy": {
+   "v": 58,
+   "d": "58e",
+   "l": "Evermore High 🦢 : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L64"
+  },
+  "g.10767537135.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Evermore High 🦢 : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L64"
+  },
+  "g.10767537135.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Evermore High 🦢 : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L64"
+  },
   "g.10771643321.nom": {
    "v": "Steal A Balut",
    "d": "Steal A Balut",
@@ -6578,18 +7844,6 @@
    "l": "Steal A Balut : genre",
    "src": "data/jours/2026-11-04.csv#L65"
   },
-  "g.10771643321.var_veille": {
-   "v": 0.0646,
-   "d": "+6,5 %",
-   "l": "Steal A Balut : variation de la moyenne par rapport à la veille",
-   "src": "data/jours/2026-11-04.csv#L65"
-  },
-  "g.10771643321.moy_veille": {
-   "v": 7251,
-   "d": "7 251",
-   "l": "Steal A Balut : moyenne de la veille",
-   "src": "data/jours/2026-11-04.csv#L65"
-  },
   "g.10771643321.visites_24h": {
    "v": 865347,
    "d": "865 347",
@@ -6612,6 +7866,24 @@
    "v": 114,
    "d": "114e",
    "l": "Steal A Balut : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L65"
+  },
+  "g.10771643321.rang_moy": {
+   "v": 149,
+   "d": "149e",
+   "l": "Steal A Balut : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L65"
+  },
+  "g.10771643321.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Steal A Balut : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L65"
+  },
+  "g.10771643321.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Steal A Balut : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L65"
   },
   "g.1831550657.nom": {
@@ -6704,6 +7976,24 @@
    "l": "🎃 Creatures of Sonaria 🍬 Survive Kaiju Animals : rang la veille",
    "src": "data/jours/2026-11-04.csv#L66"
   },
+  "g.1831550657.rang_moy": {
+   "v": 53,
+   "d": "53e",
+   "l": "🎃 Creatures of Sonaria 🍬 Survive Kaiju Animals : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L66"
+  },
+  "g.1831550657.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "🎃 Creatures of Sonaria 🍬 Survive Kaiju Animals : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L66"
+  },
+  "g.1831550657.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "🎃 Creatures of Sonaria 🍬 Survive Kaiju Animals : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L66"
+  },
   "g.7633926880.nom": {
    "v": "[ZOMBIES!] BloxStrike",
    "d": "[ZOMBIES!] BloxStrike",
@@ -6792,6 +8082,24 @@
    "v": 69,
    "d": "69e",
    "l": "[ZOMBIES!] BloxStrike : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L67"
+  },
+  "g.7633926880.rang_moy": {
+   "v": 75,
+   "d": "75e",
+   "l": "[ZOMBIES!] BloxStrike : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L67"
+  },
+  "g.7633926880.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[ZOMBIES!] BloxStrike : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L67"
+  },
+  "g.7633926880.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[ZOMBIES!] BloxStrike : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L67"
   },
   "g.5995470825.nom": {
@@ -6884,6 +8192,24 @@
    "l": "[🔥UPD] Hypershot : rang la veille",
    "src": "data/jours/2026-11-04.csv#L68"
   },
+  "g.5995470825.rang_moy": {
+   "v": 50,
+   "d": "50e",
+   "l": "[🔥UPD] Hypershot : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L68"
+  },
+  "g.5995470825.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[🔥UPD] Hypershot : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L68"
+  },
+  "g.5995470825.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[🔥UPD] Hypershot : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L68"
+  },
   "g.10770593871.nom": {
    "v": "[UPD] Realistic Ragdoll Engine 🩸",
    "d": "[UPD] Realistic Ragdoll Engine 🩸",
@@ -6926,18 +8252,6 @@
    "l": "[UPD] Realistic Ragdoll Engine 🩸 : genre",
    "src": "data/jours/2026-11-04.csv#L69"
   },
-  "g.10770593871.var_veille": {
-   "v": 0.1195,
-   "d": "+11,9 %",
-   "l": "[UPD] Realistic Ragdoll Engine 🩸 : variation de la moyenne par rapport à la veille",
-   "src": "data/jours/2026-11-04.csv#L69"
-  },
-  "g.10770593871.moy_veille": {
-   "v": 16518,
-   "d": "16 518",
-   "l": "[UPD] Realistic Ragdoll Engine 🩸 : moyenne de la veille",
-   "src": "data/jours/2026-11-04.csv#L69"
-  },
   "g.10770593871.visites_total": {
    "v": 29107647,
    "d": "29,11 millions",
@@ -6954,6 +8268,24 @@
    "v": 64,
    "d": "64e",
    "l": "[UPD] Realistic Ragdoll Engine 🩸 : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L69"
+  },
+  "g.10770593871.rang_moy": {
+   "v": 51,
+   "d": "51e",
+   "l": "[UPD] Realistic Ragdoll Engine 🩸 : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L69"
+  },
+  "g.10770593871.releves": {
+   "v": 9,
+   "d": "9",
+   "l": "[UPD] Realistic Ragdoll Engine 🩸 : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L69"
+  },
+  "g.10770593871.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[UPD] Realistic Ragdoll Engine 🩸 : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L69"
   },
   "g.2992873140.nom": {
@@ -7046,6 +8378,24 @@
    "l": "Emergency Hamburg : rang la veille",
    "src": "data/jours/2026-11-04.csv#L70"
   },
+  "g.2992873140.rang_moy": {
+   "v": 124,
+   "d": "124e",
+   "l": "Emergency Hamburg : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L70"
+  },
+  "g.2992873140.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Emergency Hamburg : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L70"
+  },
+  "g.2992873140.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Emergency Hamburg : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L70"
+  },
   "g.6765805766.nom": {
    "v": "BlockSpin 🔪 ",
    "d": "BlockSpin 🔪 ",
@@ -7136,6 +8486,24 @@
    "l": "BlockSpin 🔪  : rang la veille",
    "src": "data/jours/2026-11-04.csv#L71"
   },
+  "g.6765805766.rang_moy": {
+   "v": 54,
+   "d": "54e",
+   "l": "BlockSpin 🔪  : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L71"
+  },
+  "g.6765805766.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "BlockSpin 🔪  : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L71"
+  },
+  "g.6765805766.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "BlockSpin 🔪  : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L71"
+  },
   "g.10767808614.nom": {
    "v": "Ride An Egg",
    "d": "Ride An Egg",
@@ -7190,6 +8558,24 @@
    "l": "Ride An Egg : part de votes positifs",
    "src": "data/jours/2026-11-04.csv#L72"
   },
+  "g.10767808614.rang_moy": {
+   "v": 139,
+   "d": "139e",
+   "l": "Ride An Egg : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L72"
+  },
+  "g.10767808614.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Ride An Egg : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L72"
+  },
+  "g.10767808614.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Ride An Egg : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L72"
+  },
   "g.10770605947.nom": {
    "v": "Ragdoll Reality 🩸",
    "d": "Ragdoll Reality 🩸",
@@ -7232,18 +8618,6 @@
    "l": "Ragdoll Reality 🩸 : genre",
    "src": "data/jours/2026-11-04.csv#L73"
   },
-  "g.10770605947.var_veille": {
-   "v": -0.1082,
-   "d": "−10,8 %",
-   "l": "Ragdoll Reality 🩸 : variation de la moyenne par rapport à la veille",
-   "src": "data/jours/2026-11-04.csv#L73"
-  },
-  "g.10770605947.moy_veille": {
-   "v": 19511,
-   "d": "19 511",
-   "l": "Ragdoll Reality 🩸 : moyenne de la veille",
-   "src": "data/jours/2026-11-04.csv#L73"
-  },
   "g.10770605947.visites_total": {
    "v": 43743184,
    "d": "43,74 millions",
@@ -7260,6 +8634,24 @@
    "v": 62,
    "d": "62e",
    "l": "Ragdoll Reality 🩸 : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L73"
+  },
+  "g.10770605947.rang_moy": {
+   "v": 55,
+   "d": "55e",
+   "l": "Ragdoll Reality 🩸 : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L73"
+  },
+  "g.10770605947.releves": {
+   "v": 9,
+   "d": "9",
+   "l": "Ragdoll Reality 🩸 : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L73"
+  },
+  "g.10770605947.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Ragdoll Reality 🩸 : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L73"
   },
   "g.10771680162.nom": {
@@ -7338,6 +8730,24 @@
    "v": 61,
    "d": "61e",
    "l": "Can You Pass A Driving Test? : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L74"
+  },
+  "g.10771680162.rang_moy": {
+   "v": 86,
+   "d": "86e",
+   "l": "Can You Pass A Driving Test? : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L74"
+  },
+  "g.10771680162.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Can You Pass A Driving Test? : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L74"
+  },
+  "g.10771680162.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Can You Pass A Driving Test? : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L74"
   },
   "g.10148749921.nom": {
@@ -7430,6 +8840,24 @@
    "l": "Animal Hospital (Anomaly) 🧪 : rang la veille",
    "src": "data/jours/2026-11-04.csv#L75"
   },
+  "g.10148749921.rang_moy": {
+   "v": 62,
+   "d": "62e",
+   "l": "Animal Hospital (Anomaly) 🧪 : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L75"
+  },
+  "g.10148749921.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Animal Hospital (Anomaly) 🧪 : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L75"
+  },
+  "g.10148749921.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Animal Hospital (Anomaly) 🧪 : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L75"
+  },
   "g.10768383600.nom": {
    "v": "[💉INJECTIONS] Ragdoll Playground",
    "d": "[💉INJECTIONS] Ragdoll Playground",
@@ -7520,6 +8948,24 @@
    "l": "[💉INJECTIONS] Ragdoll Playground : rang la veille",
    "src": "data/jours/2026-11-04.csv#L76"
   },
+  "g.10768383600.rang_moy": {
+   "v": 60,
+   "d": "60e",
+   "l": "[💉INJECTIONS] Ragdoll Playground : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L76"
+  },
+  "g.10768383600.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[💉INJECTIONS] Ragdoll Playground : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L76"
+  },
+  "g.10768383600.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[💉INJECTIONS] Ragdoll Playground : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L76"
+  },
   "g.10057403337.nom": {
    "v": "[🔥NEW CASE] Deagle Arena",
    "d": "[🔥NEW CASE] Deagle Arena",
@@ -7575,14 +9021,14 @@
    "src": "data/jours/2026-11-04.csv#L77"
   },
   "g.10057403337.var_7j": {
-   "v": -0.1102,
-   "d": "−11,0 %",
+   "v": -0.1467,
+   "d": "−14,7 %",
    "l": "[🔥NEW CASE] Deagle Arena : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-04.csv#L77"
   },
   "g.10057403337.moy_7j": {
-   "v": 16910,
-   "d": "16 910",
+   "v": 17634,
+   "d": "17 634",
    "l": "[🔥NEW CASE] Deagle Arena : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-04.csv#L77"
   },
@@ -7608,6 +9054,24 @@
    "v": 79,
    "d": "79e",
    "l": "[🔥NEW CASE] Deagle Arena : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L77"
+  },
+  "g.10057403337.rang_moy": {
+   "v": 67,
+   "d": "67e",
+   "l": "[🔥NEW CASE] Deagle Arena : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L77"
+  },
+  "g.10057403337.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[🔥NEW CASE] Deagle Arena : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L77"
+  },
+  "g.10057403337.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[🔥NEW CASE] Deagle Arena : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L77"
   },
   "g.7089588429.nom": {
@@ -7700,6 +9164,24 @@
    "l": "(WHEELIE STYLE x BIG UPDATE) Drag Drive Simulator : rang la veille",
    "src": "data/jours/2026-11-04.csv#L78"
   },
+  "g.7089588429.rang_moy": {
+   "v": 136,
+   "d": "136e",
+   "l": "(WHEELIE STYLE x BIG UPDATE) Drag Drive Simulator : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L78"
+  },
+  "g.7089588429.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "(WHEELIE STYLE x BIG UPDATE) Drag Drive Simulator : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L78"
+  },
+  "g.7089588429.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "(WHEELIE STYLE x BIG UPDATE) Drag Drive Simulator : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L78"
+  },
   "g.10767012496.nom": {
    "v": "[🎃] Turbo Soccer : Beta 1.0",
    "d": "[🎃] Turbo Soccer : Beta 1.0",
@@ -7788,6 +9270,24 @@
    "v": 86,
    "d": "86e",
    "l": "[🎃] Turbo Soccer : Beta 1.0 : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L79"
+  },
+  "g.10767012496.rang_moy": {
+   "v": 84,
+   "d": "84e",
+   "l": "[🎃] Turbo Soccer : Beta 1.0 : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L79"
+  },
+  "g.10767012496.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[🎃] Turbo Soccer : Beta 1.0 : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L79"
+  },
+  "g.10767012496.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[🎃] Turbo Soccer : Beta 1.0 : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L79"
   },
   "g.10222476236.nom": {
@@ -7880,6 +9380,24 @@
    "l": "🎃 Catalog Avatar Runway : rang la veille",
    "src": "data/jours/2026-11-04.csv#L80"
   },
+  "g.10222476236.rang_moy": {
+   "v": 66,
+   "d": "66e",
+   "l": "🎃 Catalog Avatar Runway : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L80"
+  },
+  "g.10222476236.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "🎃 Catalog Avatar Runway : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L80"
+  },
+  "g.10222476236.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "🎃 Catalog Avatar Runway : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L80"
+  },
   "g.7018190066.nom": {
    "v": "[👻EVENT] Dead Rails ",
    "d": "[👻EVENT] Dead Rails ",
@@ -7968,6 +9486,24 @@
    "v": 70,
    "d": "70e",
    "l": "[👻EVENT] Dead Rails  : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L81"
+  },
+  "g.7018190066.rang_moy": {
+   "v": 61,
+   "d": "61e",
+   "l": "[👻EVENT] Dead Rails  : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L81"
+  },
+  "g.7018190066.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[👻EVENT] Dead Rails  : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L81"
+  },
+  "g.7018190066.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[👻EVENT] Dead Rails  : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L81"
   },
   "g.10768172922.nom": {
@@ -8060,6 +9596,24 @@
    "l": "RoWorld [World PvP] : rang la veille",
    "src": "data/jours/2026-11-04.csv#L82"
   },
+  "g.10768172922.rang_moy": {
+   "v": 68,
+   "d": "68e",
+   "l": "RoWorld [World PvP] : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L82"
+  },
+  "g.10768172922.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "RoWorld [World PvP] : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L82"
+  },
+  "g.10768172922.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "RoWorld [World PvP] : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L82"
+  },
   "g.10673920146.nom": {
    "v": "[🎃] Survive a Million Monkeys",
    "d": "[🎃] Survive a Million Monkeys",
@@ -8148,6 +9702,24 @@
    "v": 105,
    "d": "105e",
    "l": "[🎃] Survive a Million Monkeys : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L83"
+  },
+  "g.10673920146.rang_moy": {
+   "v": 155,
+   "d": "155e",
+   "l": "[🎃] Survive a Million Monkeys : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L83"
+  },
+  "g.10673920146.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[🎃] Survive a Million Monkeys : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L83"
+  },
+  "g.10673920146.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[🎃] Survive a Million Monkeys : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L83"
   },
   "g.88070565.nom": {
@@ -8240,6 +9812,24 @@
    "l": "[🐬] Welcome to Bloxburg  : rang la veille",
    "src": "data/jours/2026-11-04.csv#L84"
   },
+  "g.88070565.rang_moy": {
+   "v": 81,
+   "d": "81e",
+   "l": "[🐬] Welcome to Bloxburg  : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L84"
+  },
+  "g.88070565.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[🐬] Welcome to Bloxburg  : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L84"
+  },
+  "g.88070565.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[🐬] Welcome to Bloxburg  : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L84"
+  },
   "g.7554119808.nom": {
    "v": "🛍️ My Avatar!",
    "d": "🛍️ My Avatar!",
@@ -8328,6 +9918,24 @@
    "v": 85,
    "d": "85e",
    "l": "🛍️ My Avatar! : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L85"
+  },
+  "g.7554119808.rang_moy": {
+   "v": 76,
+   "d": "76e",
+   "l": "🛍️ My Avatar! : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L85"
+  },
+  "g.7554119808.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "🛍️ My Avatar! : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L85"
+  },
+  "g.7554119808.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "🛍️ My Avatar! : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L85"
   },
   "g.10685282333.nom": {
@@ -8420,6 +10028,24 @@
    "l": "Ball VS Ball [RANKED] : rang la veille",
    "src": "data/jours/2026-11-04.csv#L86"
   },
+  "g.10685282333.rang_moy": {
+   "v": 93,
+   "d": "93e",
+   "l": "Ball VS Ball [RANKED] : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L86"
+  },
+  "g.10685282333.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Ball VS Ball [RANKED] : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L86"
+  },
+  "g.10685282333.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Ball VS Ball [RANKED] : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L86"
+  },
   "g.8178086002.nom": {
    "v": "[🎃] Lethal Ape Experience",
    "d": "[🎃] Lethal Ape Experience",
@@ -8508,6 +10134,24 @@
    "v": 91,
    "d": "91e",
    "l": "[🎃] Lethal Ape Experience : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L87"
+  },
+  "g.8178086002.rang_moy": {
+   "v": 70,
+   "d": "70e",
+   "l": "[🎃] Lethal Ape Experience : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L87"
+  },
+  "g.8178086002.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[🎃] Lethal Ape Experience : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L87"
+  },
+  "g.8178086002.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[🎃] Lethal Ape Experience : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L87"
   },
   "g.2936053166.nom": {
@@ -8600,6 +10244,24 @@
    "l": "[🦑] Squid Game X : rang la veille",
    "src": "data/jours/2026-11-04.csv#L88"
   },
+  "g.2936053166.rang_moy": {
+   "v": 73,
+   "d": "73e",
+   "l": "[🦑] Squid Game X : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L88"
+  },
+  "g.2936053166.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[🦑] Squid Game X : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L88"
+  },
+  "g.2936053166.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[🦑] Squid Game X : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L88"
+  },
   "g.9294074907.nom": {
    "v": "[FPS] One Tap",
    "d": "[FPS] One Tap",
@@ -8690,6 +10352,24 @@
    "l": "[FPS] One Tap : rang la veille",
    "src": "data/jours/2026-11-04.csv#L89"
   },
+  "g.9294074907.rang_moy": {
+   "v": 79,
+   "d": "79e",
+   "l": "[FPS] One Tap : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L89"
+  },
+  "g.9294074907.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[FPS] One Tap : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L89"
+  },
+  "g.9294074907.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[FPS] One Tap : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L89"
+  },
   "g.10770466814.nom": {
    "v": "[🎃] Clean the Moon!",
    "d": "[🎃] Clean the Moon!",
@@ -8732,18 +10412,6 @@
    "l": "[🎃] Clean the Moon! : genre",
    "src": "data/jours/2026-11-04.csv#L90"
   },
-  "g.10770466814.var_veille": {
-   "v": 0.3842,
-   "d": "+38,4 %",
-   "l": "[🎃] Clean the Moon! : variation de la moyenne par rapport à la veille",
-   "src": "data/jours/2026-11-04.csv#L90"
-  },
-  "g.10770466814.moy_veille": {
-   "v": 10268,
-   "d": "10 268",
-   "l": "[🎃] Clean the Moon! : moyenne de la veille",
-   "src": "data/jours/2026-11-04.csv#L90"
-  },
   "g.10770466814.visites_total": {
    "v": 4938107,
    "d": "4,94 millions",
@@ -8760,6 +10428,24 @@
    "v": 98,
    "d": "98e",
    "l": "[🎃] Clean the Moon! : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L90"
+  },
+  "g.10770466814.rang_moy": {
+   "v": 72,
+   "d": "72e",
+   "l": "[🎃] Clean the Moon! : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L90"
+  },
+  "g.10770466814.releves": {
+   "v": 9,
+   "d": "9",
+   "l": "[🎃] Clean the Moon! : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L90"
+  },
+  "g.10770466814.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[🎃] Clean the Moon! : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L90"
   },
   "g.10771507608.nom": {
@@ -8840,6 +10526,24 @@
    "l": "🧸 My Small Business : rang la veille",
    "src": "data/jours/2026-11-04.csv#L91"
   },
+  "g.10771507608.rang_moy": {
+   "v": 78,
+   "d": "78e",
+   "l": "🧸 My Small Business : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L91"
+  },
+  "g.10771507608.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "🧸 My Small Business : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L91"
+  },
+  "g.10771507608.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "🧸 My Small Business : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L91"
+  },
   "g.10772253152.nom": {
    "v": "[UPD] Durian Garden 🍈",
    "d": "[UPD] Durian Garden 🍈",
@@ -8894,18 +10598,6 @@
    "l": "[UPD] Durian Garden 🍈 : moyenne de la veille",
    "src": "data/jours/2026-11-04.csv#L92"
   },
-  "g.10772253152.var_7j": {
-   "v": -0.4963,
-   "d": "−49,6 %",
-   "l": "[UPD] Durian Garden 🍈 : variation de la moyenne par rapport aux 7 jours précédents",
-   "src": "data/jours/2026-11-04.csv#L92"
-  },
-  "g.10772253152.moy_7j": {
-   "v": 13868,
-   "d": "13 868",
-   "l": "[UPD] Durian Garden 🍈 : moyenne des 7 jours précédents",
-   "src": "data/jours/2026-11-04.csv#L92"
-  },
   "g.10772253152.visites_24h": {
    "v": 896432,
    "d": "896 432",
@@ -8928,6 +10620,24 @@
    "v": 80,
    "d": "80e",
    "l": "[UPD] Durian Garden 🍈 : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L92"
+  },
+  "g.10772253152.rang_moy": {
+   "v": 160,
+   "d": "160e",
+   "l": "[UPD] Durian Garden 🍈 : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L92"
+  },
+  "g.10772253152.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "[UPD] Durian Garden 🍈 : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L92"
+  },
+  "g.10772253152.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "[UPD] Durian Garden 🍈 : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L92"
   },
   "g.1000233041.nom": {
@@ -9020,6 +10730,24 @@
    "l": "3008 [2.75] : rang la veille",
    "src": "data/jours/2026-11-04.csv#L93"
   },
+  "g.1000233041.rang_moy": {
+   "v": 104,
+   "d": "104e",
+   "l": "3008 [2.75] : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L93"
+  },
+  "g.1000233041.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "3008 [2.75] : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L93"
+  },
+  "g.1000233041.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "3008 [2.75] : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L93"
+  },
   "g.4777817887.nom": {
    "v": "Blade Ball",
    "d": "Blade Ball",
@@ -9110,6 +10838,24 @@
    "l": "Blade Ball : rang la veille",
    "src": "data/jours/2026-11-04.csv#L94"
   },
+  "g.4777817887.rang_moy": {
+   "v": 74,
+   "d": "74e",
+   "l": "Blade Ball : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L94"
+  },
+  "g.4777817887.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Blade Ball : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L94"
+  },
+  "g.4777817887.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Blade Ball : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L94"
+  },
   "g.10766044605.nom": {
    "v": "Paint and Hide! 🎨",
    "d": "Paint and Hide! 🎨",
@@ -9165,14 +10911,14 @@
    "src": "data/jours/2026-11-04.csv#L95"
   },
   "g.10766044605.var_7j": {
-   "v": -0.0878,
-   "d": "−8,8 %",
+   "v": -0.0726,
+   "d": "−7,3 %",
    "l": "Paint and Hide! 🎨 : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-04.csv#L95"
   },
   "g.10766044605.moy_7j": {
-   "v": 11694,
-   "d": "11 694",
+   "v": 11503,
+   "d": "11 503",
    "l": "Paint and Hide! 🎨 : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-04.csv#L95"
   },
@@ -9198,6 +10944,24 @@
    "v": 107,
    "d": "107e",
    "l": "Paint and Hide! 🎨 : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L95"
+  },
+  "g.10766044605.rang_moy": {
+   "v": 101,
+   "d": "101e",
+   "l": "Paint and Hide! 🎨 : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L95"
+  },
+  "g.10766044605.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Paint and Hide! 🎨 : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L95"
+  },
+  "g.10766044605.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Paint and Hide! 🎨 : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L95"
   },
   "g.9167377564.nom": {
@@ -9290,6 +11054,24 @@
    "l": "100 Days at Sea : rang la veille",
    "src": "data/jours/2026-11-04.csv#L96"
   },
+  "g.9167377564.rang_moy": {
+   "v": 100,
+   "d": "100e",
+   "l": "100 Days at Sea : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L96"
+  },
+  "g.9167377564.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "100 Days at Sea : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L96"
+  },
+  "g.9167377564.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "100 Days at Sea : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L96"
+  },
   "g.6521100398.nom": {
    "v": "Dreamville 🏡 RP [Pets! 😺]",
    "d": "Dreamville 🏡 RP [Pets! 😺]",
@@ -9378,6 +11160,24 @@
    "v": 75,
    "d": "75e",
    "l": "Dreamville 🏡 RP [Pets! 😺] : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L97"
+  },
+  "g.6521100398.rang_moy": {
+   "v": 94,
+   "d": "94e",
+   "l": "Dreamville 🏡 RP [Pets! 😺] : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L97"
+  },
+  "g.6521100398.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Dreamville 🏡 RP [Pets! 😺] : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L97"
+  },
+  "g.6521100398.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Dreamville 🏡 RP [Pets! 😺] : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L97"
   },
   "g.578392296.nom": {
@@ -9470,6 +11270,24 @@
    "l": "ABA : rang la veille",
    "src": "data/jours/2026-11-04.csv#L98"
   },
+  "g.578392296.rang_moy": {
+   "v": 90,
+   "d": "90e",
+   "l": "ABA : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L98"
+  },
+  "g.578392296.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "ABA : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L98"
+  },
+  "g.578392296.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "ABA : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L98"
+  },
   "g.10769020444.nom": {
    "v": "Scare Your Neighbor",
    "d": "Scare Your Neighbor",
@@ -9558,6 +11376,24 @@
    "v": 102,
    "d": "102e",
    "l": "Scare Your Neighbor : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L99"
+  },
+  "g.10769020444.rang_moy": {
+   "v": 83,
+   "d": "83e",
+   "l": "Scare Your Neighbor : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L99"
+  },
+  "g.10769020444.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Scare Your Neighbor : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L99"
+  },
+  "g.10769020444.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Scare Your Neighbor : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-04.csv#L99"
   },
   "g.1516533665.nom": {
@@ -9650,6 +11486,24 @@
    "l": "Piggy [X2 SEASON XP] : rang la veille",
    "src": "data/jours/2026-11-04.csv#L100"
   },
+  "g.1516533665.rang_moy": {
+   "v": 113,
+   "d": "113e",
+   "l": "Piggy [X2 SEASON XP] : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L100"
+  },
+  "g.1516533665.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Piggy [X2 SEASON XP] : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L100"
+  },
+  "g.1516533665.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Piggy [X2 SEASON XP] : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L100"
+  },
   "g.6774320049.nom": {
    "v": "Dubai 🏡 RP [Newborns! 👶]",
    "d": "Dubai 🏡 RP [Newborns! 👶]",
@@ -9740,6 +11594,24 @@
    "l": "Dubai 🏡 RP [Newborns! 👶] : rang la veille",
    "src": "data/jours/2026-11-04.csv#L101"
   },
+  "g.6774320049.rang_moy": {
+   "v": 89,
+   "d": "89e",
+   "l": "Dubai 🏡 RP [Newborns! 👶] : rang à la moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L101"
+  },
+  "g.6774320049.releves": {
+   "v": 17,
+   "d": "17",
+   "l": "Dubai 🏡 RP [Newborns! 👶] : relevés où le jeu a été mesuré",
+   "src": "data/jours/2026-11-04.csv#L101"
+  },
+  "g.6774320049.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Dubai 🏡 RP [Newborns! 👶] : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "src": "data/jours/2026-11-04.csv#L101"
+  },
   "mouv.reference": {
    "v": "var_7j",
    "d": "les 7 jours précédents",
@@ -9759,8 +11631,8 @@
    "src": "data/jours/2026-11-04.csv#L171"
   },
   "hausse.1.var": {
-   "v": 0.5094,
-   "d": "+50,9 %",
+   "v": 0.4526,
+   "d": "+45,3 %",
    "l": "Hausse n° 1 : variation de la moyenne de joueurs",
    "src": "data/jours/2026-11-04.csv#L171"
   },
@@ -9771,8 +11643,8 @@
    "src": "data/jours/2026-11-04.csv#L171"
   },
   "hausse.1.moy_avant": {
-   "v": 5986,
-   "d": "5 986",
+   "v": 6220,
+   "d": "6 220",
    "l": "Hausse n° 1 : moyenne de référence",
    "src": "data/jours/2026-11-04.csv#L171"
   },
@@ -9783,124 +11655,124 @@
    "src": "data/jours/2026-11-04.csv#L171"
   },
   "hausse.2.nom": {
-   "v": "[😵‍💫] Catch And Tame!",
-   "d": "[😵‍💫] Catch And Tame!",
-   "l": "Hausse n° 2 : nom",
-   "src": "data/jours/2026-11-04.csv#L166"
-  },
-  "hausse.2.var": {
-   "v": 0.4653,
-   "d": "+46,5 %",
-   "l": "Hausse n° 2 : variation de la moyenne de joueurs",
-   "src": "data/jours/2026-11-04.csv#L166"
-  },
-  "hausse.2.moy": {
-   "v": 2550,
-   "d": "2 550",
-   "l": "Hausse n° 2 : moyenne du jour",
-   "src": "data/jours/2026-11-04.csv#L166"
-  },
-  "hausse.2.moy_avant": {
-   "v": 1740,
-   "d": "1 740",
-   "l": "Hausse n° 2 : moyenne de référence",
-   "src": "data/jours/2026-11-04.csv#L166"
-  },
-  "hausse.2.rang": {
-   "v": 165,
-   "d": "165e",
-   "l": "Hausse n° 2 : rang au pic du jour",
-   "src": "data/jours/2026-11-04.csv#L166"
-  },
-  "hausse.3.nom": {
    "v": "[☀️UPD 21🏖️] Anime Adventures",
    "d": "[☀️UPD 21🏖️] Anime Adventures",
-   "l": "Hausse n° 3 : nom",
+   "l": "Hausse n° 2 : nom",
    "src": "data/jours/2026-11-04.csv#L13"
   },
-  "hausse.3.var": {
+  "hausse.2.var": {
    "v": 0.4161,
    "d": "+41,6 %",
-   "l": "Hausse n° 3 : variation de la moyenne de joueurs",
+   "l": "Hausse n° 2 : variation de la moyenne de joueurs",
    "src": "data/jours/2026-11-04.csv#L13"
   },
-  "hausse.3.moy": {
+  "hausse.2.moy": {
    "v": 84567,
    "d": "84 567",
-   "l": "Hausse n° 3 : moyenne du jour",
+   "l": "Hausse n° 2 : moyenne du jour",
    "src": "data/jours/2026-11-04.csv#L13"
   },
-  "hausse.3.moy_avant": {
+  "hausse.2.moy_avant": {
    "v": 59716,
    "d": "59 716",
-   "l": "Hausse n° 3 : moyenne de référence",
+   "l": "Hausse n° 2 : moyenne de référence",
    "src": "data/jours/2026-11-04.csv#L13"
   },
-  "hausse.3.rang": {
+  "hausse.2.rang": {
    "v": 12,
    "d": "12e",
-   "l": "Hausse n° 3 : rang au pic du jour",
+   "l": "Hausse n° 2 : rang au pic du jour",
    "src": "data/jours/2026-11-04.csv#L13"
   },
-  "hausse.4.nom": {
+  "hausse.3.nom": {
    "v": "[UPDATE 5] Attack on Titan Revolution",
    "d": "[UPDATE 5] Attack on Titan Revolution",
-   "l": "Hausse n° 4 : nom",
+   "l": "Hausse n° 3 : nom",
    "src": "data/jours/2026-11-04.csv#L28"
   },
-  "hausse.4.var": {
+  "hausse.3.var": {
    "v": 0.3359,
    "d": "+33,6 %",
-   "l": "Hausse n° 4 : variation de la moyenne de joueurs",
+   "l": "Hausse n° 3 : variation de la moyenne de joueurs",
    "src": "data/jours/2026-11-04.csv#L28"
   },
-  "hausse.4.moy": {
+  "hausse.3.moy": {
    "v": 44304,
    "d": "44 304",
-   "l": "Hausse n° 4 : moyenne du jour",
+   "l": "Hausse n° 3 : moyenne du jour",
    "src": "data/jours/2026-11-04.csv#L28"
   },
-  "hausse.4.moy_avant": {
+  "hausse.3.moy_avant": {
    "v": 33165,
    "d": "33 165",
-   "l": "Hausse n° 4 : moyenne de référence",
+   "l": "Hausse n° 3 : moyenne de référence",
    "src": "data/jours/2026-11-04.csv#L28"
   },
-  "hausse.4.rang": {
+  "hausse.3.rang": {
    "v": 27,
    "d": "27e",
-   "l": "Hausse n° 4 : rang au pic du jour",
+   "l": "Hausse n° 3 : rang au pic du jour",
    "src": "data/jours/2026-11-04.csv#L28"
   },
+  "hausse.4.nom": {
+   "v": "[🌟UPD] Cameraman Tower Defense",
+   "d": "[🌟UPD] Cameraman Tower Defense",
+   "l": "Hausse n° 4 : nom",
+   "src": "data/jours/2026-11-04.csv#L16"
+  },
+  "hausse.4.var": {
+   "v": 0.318,
+   "d": "+31,8 %",
+   "l": "Hausse n° 4 : variation de la moyenne de joueurs",
+   "src": "data/jours/2026-11-04.csv#L16"
+  },
+  "hausse.4.moy": {
+   "v": 32213,
+   "d": "32 213",
+   "l": "Hausse n° 4 : moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L16"
+  },
+  "hausse.4.moy_avant": {
+   "v": 24440,
+   "d": "24 440",
+   "l": "Hausse n° 4 : moyenne de référence",
+   "src": "data/jours/2026-11-04.csv#L16"
+  },
+  "hausse.4.rang": {
+   "v": 15,
+   "d": "15e",
+   "l": "Hausse n° 4 : rang au pic du jour",
+   "src": "data/jours/2026-11-04.csv#L16"
+  },
   "hausse.5.nom": {
-   "v": "[🛒] Run a Sari-Sari Store!",
-   "d": "[🛒] Run a Sari-Sari Store!",
+   "v": "Throw Food For Animals",
+   "d": "Throw Food For Animals",
    "l": "Hausse n° 5 : nom",
-   "src": "data/jours/2026-11-04.csv#L184"
+   "src": "data/jours/2026-11-04.csv#L8"
   },
   "hausse.5.var": {
-   "v": 0.3319,
-   "d": "+33,2 %",
+   "v": 0.3139,
+   "d": "+31,4 %",
    "l": "Hausse n° 5 : variation de la moyenne de joueurs",
-   "src": "data/jours/2026-11-04.csv#L184"
+   "src": "data/jours/2026-11-04.csv#L8"
   },
   "hausse.5.moy": {
-   "v": 6731,
-   "d": "6 731",
+   "v": 107136,
+   "d": "107 136",
    "l": "Hausse n° 5 : moyenne du jour",
-   "src": "data/jours/2026-11-04.csv#L184"
+   "src": "data/jours/2026-11-04.csv#L8"
   },
   "hausse.5.moy_avant": {
-   "v": 5053,
-   "d": "5 053",
+   "v": 81541,
+   "d": "81 541",
    "l": "Hausse n° 5 : moyenne de référence",
-   "src": "data/jours/2026-11-04.csv#L184"
+   "src": "data/jours/2026-11-04.csv#L8"
   },
   "hausse.5.rang": {
-   "v": 183,
-   "d": "183e",
+   "v": 7,
+   "d": "7e",
    "l": "Hausse n° 5 : rang au pic du jour",
-   "src": "data/jours/2026-11-04.csv#L184"
+   "src": "data/jours/2026-11-04.csv#L8"
   },
   "baisse.1.nom": {
    "v": "Flashcard Vivarium",
@@ -9933,129 +11805,129 @@
    "src": "data/jours/2026-11-04.csv#L639"
   },
   "baisse.2.nom": {
-   "v": "Don't Miss The Rocket!🚀",
-   "d": "Don't Miss The Rocket!🚀",
-   "l": "Baisse n° 2 : nom",
-   "src": "data/jours/2026-11-04.csv#L641"
-  },
-  "baisse.2.var": {
-   "v": -0.9983,
-   "d": "−99,8 %",
-   "l": "Baisse n° 2 : variation de la moyenne de joueurs",
-   "src": "data/jours/2026-11-04.csv#L641"
-  },
-  "baisse.2.moy": {
-   "v": 2,
-   "d": "2",
-   "l": "Baisse n° 2 : moyenne du jour",
-   "src": "data/jours/2026-11-04.csv#L641"
-  },
-  "baisse.2.moy_avant": {
-   "v": 1120,
-   "d": "1 120",
-   "l": "Baisse n° 2 : moyenne de référence",
-   "src": "data/jours/2026-11-04.csv#L641"
-  },
-  "baisse.2.rang": {
-   "v": 640,
-   "d": "640e",
-   "l": "Baisse n° 2 : rang au pic du jour",
-   "src": "data/jours/2026-11-04.csv#L641"
-  },
-  "baisse.3.nom": {
    "v": "[NEW ONI]AOONI Nightmare",
    "d": "[NEW ONI]AOONI Nightmare",
-   "l": "Baisse n° 3 : nom",
+   "l": "Baisse n° 2 : nom",
    "src": "data/jours/2026-11-04.csv#L590"
   },
-  "baisse.3.var": {
+  "baisse.2.var": {
    "v": -0.8901,
    "d": "−89,0 %",
-   "l": "Baisse n° 3 : variation de la moyenne de joueurs",
+   "l": "Baisse n° 2 : variation de la moyenne de joueurs",
    "src": "data/jours/2026-11-04.csv#L590"
   },
-  "baisse.3.moy": {
+  "baisse.2.moy": {
    "v": 205,
    "d": "205",
-   "l": "Baisse n° 3 : moyenne du jour",
+   "l": "Baisse n° 2 : moyenne du jour",
    "src": "data/jours/2026-11-04.csv#L590"
   },
-  "baisse.3.moy_avant": {
+  "baisse.2.moy_avant": {
    "v": 1867,
    "d": "1 867",
-   "l": "Baisse n° 3 : moyenne de référence",
+   "l": "Baisse n° 2 : moyenne de référence",
    "src": "data/jours/2026-11-04.csv#L590"
   },
-  "baisse.3.rang": {
+  "baisse.2.rang": {
    "v": 589,
    "d": "589e",
-   "l": "Baisse n° 3 : rang au pic du jour",
+   "l": "Baisse n° 2 : rang au pic du jour",
    "src": "data/jours/2026-11-04.csv#L590"
   },
-  "baisse.4.nom": {
+  "baisse.3.nom": {
    "v": "WARDEN 🐲 Sonaria Horror Escape",
    "d": "WARDEN 🐲 Sonaria Horror Escape",
-   "l": "Baisse n° 4 : nom",
+   "l": "Baisse n° 3 : nom",
    "src": "data/jours/2026-11-04.csv#L488"
   },
-  "baisse.4.var": {
+  "baisse.3.var": {
    "v": -0.8258,
    "d": "−82,6 %",
-   "l": "Baisse n° 4 : variation de la moyenne de joueurs",
+   "l": "Baisse n° 3 : variation de la moyenne de joueurs",
    "src": "data/jours/2026-11-04.csv#L488"
   },
-  "baisse.4.moy": {
+  "baisse.3.moy": {
    "v": 1072,
    "d": "1 072",
-   "l": "Baisse n° 4 : moyenne du jour",
+   "l": "Baisse n° 3 : moyenne du jour",
    "src": "data/jours/2026-11-04.csv#L488"
   },
-  "baisse.4.moy_avant": {
+  "baisse.3.moy_avant": {
    "v": 6151,
    "d": "6 151",
-   "l": "Baisse n° 4 : moyenne de référence",
+   "l": "Baisse n° 3 : moyenne de référence",
    "src": "data/jours/2026-11-04.csv#L488"
   },
-  "baisse.4.rang": {
+  "baisse.3.rang": {
    "v": 487,
    "d": "487e",
-   "l": "Baisse n° 4 : rang au pic du jour",
+   "l": "Baisse n° 3 : rang au pic du jour",
    "src": "data/jours/2026-11-04.csv#L488"
   },
+  "baisse.4.nom": {
+   "v": "🪓 Carve Wood! [UPDATE]",
+   "d": "🪓 Carve Wood! [UPDATE]",
+   "l": "Baisse n° 4 : nom",
+   "src": "data/jours/2026-11-04.csv#L584"
+  },
+  "baisse.4.var": {
+   "v": -0.8024,
+   "d": "−80,2 %",
+   "l": "Baisse n° 4 : variation de la moyenne de joueurs",
+   "src": "data/jours/2026-11-04.csv#L584"
+  },
+  "baisse.4.moy": {
+   "v": 293,
+   "d": "293",
+   "l": "Baisse n° 4 : moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L584"
+  },
+  "baisse.4.moy_avant": {
+   "v": 1484,
+   "d": "1 484",
+   "l": "Baisse n° 4 : moyenne de référence",
+   "src": "data/jours/2026-11-04.csv#L584"
+  },
+  "baisse.4.rang": {
+   "v": 583,
+   "d": "583e",
+   "l": "Baisse n° 4 : rang au pic du jour",
+   "src": "data/jours/2026-11-04.csv#L584"
+  },
   "baisse.5.nom": {
-   "v": "[4x4 UPD!] Solve The Cube",
-   "d": "[4x4 UPD!] Solve The Cube",
+   "v": "PETAPETA:",
+   "d": "PETAPETA:",
    "l": "Baisse n° 5 : nom",
-   "src": "data/jours/2026-11-04.csv#L429"
+   "src": "data/jours/2026-11-04.csv#L474"
   },
   "baisse.5.var": {
-   "v": -0.8119,
-   "d": "−81,2 %",
+   "v": -0.7742,
+   "d": "−77,4 %",
    "l": "Baisse n° 5 : variation de la moyenne de joueurs",
-   "src": "data/jours/2026-11-04.csv#L429"
+   "src": "data/jours/2026-11-04.csv#L474"
   },
   "baisse.5.moy": {
-   "v": 848,
-   "d": "848",
+   "v": 969,
+   "d": "969",
    "l": "Baisse n° 5 : moyenne du jour",
-   "src": "data/jours/2026-11-04.csv#L429"
+   "src": "data/jours/2026-11-04.csv#L474"
   },
   "baisse.5.moy_avant": {
-   "v": 4510,
-   "d": "4 510",
+   "v": 4293,
+   "d": "4 293",
    "l": "Baisse n° 5 : moyenne de référence",
-   "src": "data/jours/2026-11-04.csv#L429"
+   "src": "data/jours/2026-11-04.csv#L474"
   },
   "baisse.5.rang": {
-   "v": 428,
-   "d": "428e",
+   "v": 473,
+   "d": "473e",
    "l": "Baisse n° 5 : rang au pic du jour",
-   "src": "data/jours/2026-11-04.csv#L429"
+   "src": "data/jours/2026-11-04.csv#L474"
   },
   "entrees.nb": {
    "v": 2,
    "d": "2",
-   "l": "Jeux entrés dans le top 50 par rapport à la veille",
+   "l": "Jeux entrés dans le top 50 par rapport à la veille (mesurés complètement les deux jours)",
    "src": "data/jours/2026-11-04.csv"
   },
   "entree.1.nom": {
@@ -10076,6 +11948,42 @@
    "l": "Entrée n° 1 : pic",
    "src": "data/jours/2026-11-04.csv#L29"
   },
+  "entree.1.heure_pic": {
+   "v": "13:09",
+   "d": "13 h 09",
+   "l": "Entrée n° 1 : heure (Paris) du pic relevé",
+   "src": "data/jours/2026-11-04.csv#L29"
+  },
+  "entree.1.moy": {
+   "v": 9459,
+   "d": "9 459",
+   "l": "Entrée n° 1 : moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L29"
+  },
+  "entree.1.rang_veille": {
+   "v": 111,
+   "d": "111e",
+   "l": "Entrée n° 1 : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L29"
+  },
+  "entree.1.releves_veille": {
+   "v": 22,
+   "d": "22",
+   "l": "Entrée n° 1 : relevés où le jeu a été mesuré la veille",
+   "src": "data/jours/2026-11-04.csv#L29"
+  },
+  "entree.1.pic_isole": {
+   "v": true,
+   "d": "oui",
+   "l": "Entrée n° 1 : pic ponctuel",
+   "src": "data/jours/2026-11-04.csv#L29"
+  },
+  "entree.1.cree": {
+   "v": "2026-08-07",
+   "d": "7 août 2026",
+   "l": "Entrée n° 1 : date de création (API Roblox)",
+   "src": "data/games.csv"
+  },
   "entree.2.nom": {
    "v": "[CLASS] MALAM SAMA OPAH ",
    "d": "[CLASS] MALAM SAMA OPAH ",
@@ -10093,6 +12001,48 @@
    "d": "28 556",
    "l": "Entrée n° 2 : pic",
    "src": "data/jours/2026-11-04.csv#L49"
+  },
+  "entree.2.heure_pic": {
+   "v": "14:33",
+   "d": "14 h 33",
+   "l": "Entrée n° 2 : heure (Paris) du pic relevé",
+   "src": "data/jours/2026-11-04.csv#L49"
+  },
+  "entree.2.moy": {
+   "v": 12478,
+   "d": "12 478",
+   "l": "Entrée n° 2 : moyenne du jour",
+   "src": "data/jours/2026-11-04.csv#L49"
+  },
+  "entree.2.rang_veille": {
+   "v": 53,
+   "d": "53e",
+   "l": "Entrée n° 2 : rang la veille",
+   "src": "data/jours/2026-11-04.csv#L49"
+  },
+  "entree.2.releves_veille": {
+   "v": 22,
+   "d": "22",
+   "l": "Entrée n° 2 : relevés où le jeu a été mesuré la veille",
+   "src": "data/jours/2026-11-04.csv#L49"
+  },
+  "entree.2.pic_isole": {
+   "v": false,
+   "d": "non",
+   "l": "Entrée n° 2 : pic ponctuel",
+   "src": "data/jours/2026-11-04.csv#L49"
+  },
+  "entree.2.cree": {
+   "v": "2026-10-20",
+   "d": "20 octobre 2026",
+   "l": "Entrée n° 2 : date de création (API Roblox)",
+   "src": "data/games.csv"
+  },
+  "retours.nb": {
+   "v": 0,
+   "d": "0",
+   "l": "Jeux revenus dans le top 50 après une absence ou une mesure incomplète la veille",
+   "src": "data/jours/2026-11-04.csv"
   },
   "concentration.top10": {
    "v": 0.5023984837927686,
@@ -10282,11 +12232,7 @@
    "rows": [
     {
      "nom": "[🎃] Anime Expeditions ",
-     "valeur": 0.5094
-    },
-    {
-     "nom": "[😵‍💫] Catch And Tame!",
-     "valeur": 0.4653
+     "valeur": 0.4526
     },
     {
      "nom": "[☀️UPD 21🏖️] Anime Adventures",
@@ -10297,12 +12243,20 @@
      "valeur": 0.3359
     },
     {
-     "nom": "[🛒] Run a Sari-Sari Store!",
-     "valeur": 0.3319
+     "nom": "[🌟UPD] Cameraman Tower Defense",
+     "valeur": 0.318
     },
     {
-     "nom": "[4x4 UPD!] Solve The Cube",
-     "valeur": -0.8119
+     "nom": "Throw Food For Animals",
+     "valeur": 0.3139
+    },
+    {
+     "nom": "PETAPETA:",
+     "valeur": -0.7742
+    },
+    {
+     "nom": "🪓 Carve Wood! [UPDATE]",
+     "valeur": -0.8024
     },
     {
      "nom": "WARDEN 🐲 Sonaria Horror Escape",
@@ -10311,10 +12265,6 @@
     {
      "nom": "[NEW ONI]AOONI Nightmare",
      "valeur": -0.8901
-    },
-    {
-     "nom": "Don't Miss The Rocket!🚀",
-     "valeur": -0.9983
     },
     {
      "nom": "Flashcard Vivarium",

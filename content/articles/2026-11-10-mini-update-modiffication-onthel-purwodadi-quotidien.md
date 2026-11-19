@@ -10,7 +10,7 @@ Relevés : {{releves.nb}} sur {{releves.attendus}} ({{releves.manquants}}), pour
 
 ## Le fait du jour
 
-**{{entree.1.nom}}** n'était pas dans le top 50 la veille. Il arrive {{entree.1.rang}} avec un pic relevé de {{entree.1.pic}} joueurs.
+**{{entree.1.nom}}** était {{entree.1.rang_veille}} la veille, hors du top 50. Il arrive {{entree.1.rang}} avec un pic relevé de {{entree.1.pic}} joueurs. Ce pic est ponctuel, relevé à {{entree.1.heure_pic}}.
 
 ## Le n° 1
 

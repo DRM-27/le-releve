@@ -1,12 +1,16 @@
 ---
-titre: {{top.1.nom}} sigue en cabeza con {{top.1.pic}} jugadores; el género {{genre.1.nom}} pesa {{genre.1.part}} del top 100
-chapo: El {{jour.date_courte}}, el n.º 1 conserva su puesto y reúne {{concentration.top1}} de los jugadores medios del top 100; el género {{genre.1.nom}} concentra {{genre.1.part}}.
-jour: 2026-11-09
+titre: {{hausse.2.nom}}: {{hausse.2.var}} de jugadores en Roblox respecto a los 7 días anteriores
+chapo: El {{jour.date_courte}}, {{hausse.2.nom}} reunió {{hausse.2.moy}} jugadores de media, frente a {{hausse.2.moy_avant}} la semana anterior: una de las mayores subidas del día.
+jour: 2026-11-11
 type: quotidien
-angle: top
-publie: 2026-11-10T23:26
+angle: hausse
+publie: 2026-11-13T07:55
 ---
 Lecturas: {{releves.nb}} de {{releves.attendus}} ({{releves.manquants}}), para {{jeux.nb}} juegos seguidos. Entre los juegos que seguimos, el total de jugadores conectados alcanzó {{cumul.pic}} en la lectura más alta, a las {{cumul.pic_heure}}, con una media de {{cumul.moy}} en el día.
+
+## El dato del día
+
+**{{hausse.2.nom}}** pasa de {{hausse.2.moy_avant}} a {{hausse.2.moy}} jugadores de media ({{hausse.2.var}}) respecto a la semana anterior. Se sitúa en el puesto {{hausse.2.rang}} en el pico del día.
 
 ## El n.º 1
 

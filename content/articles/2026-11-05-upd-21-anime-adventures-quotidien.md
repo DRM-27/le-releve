@@ -1,5 +1,5 @@
 ---
-titre: {{hausse.2.nom}} : {{hausse.2.var}} de joueurs en une semaine sur Roblox
+titre: {{hausse.2.nom}} : {{hausse.2.var}} de joueurs sur Roblox par rapport aux 7 jours précédents
 chapo: Le {{jour.date_courte}}, {{hausse.2.nom}} a réuni {{hausse.2.moy}} joueurs en moyenne, contre {{hausse.2.moy_avant}} la semaine précédente : l'une des plus fortes hausses du jour.
 jour: 2026-11-05
 type: quotidien
@@ -7,6 +7,8 @@ angle: hausse
 publie: 2026-11-06T14:00
 ---
 Relevés : {{releves.nb}} sur {{releves.attendus}} ({{releves.manquants}}), pour {{jeux.nb}} jeux suivis. Sur les jeux que nous suivons, le total des joueurs en ligne a atteint {{cumul.pic}} au relevé le plus haut, à {{cumul.pic_heure}}, pour une moyenne de {{cumul.moy}} sur la journée.
+
+Journée incomplète : nos relevés ne couvrent que {{releves.nb}} heures sur {{releves.attendus}}. Les chiffres du jour sont à lire avec prudence.
 
 ## Le fait du jour
 

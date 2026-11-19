@@ -1,5 +1,5 @@
 ---
-titre: {{top.1.nom}} sigue en cabeza con {{top.1.pic}} jugadores; el género {{genre.1.nom}} pesa {{genre.1.part}} del top 100
+titre: {{top.1.nom}} sigue en cabeza con un pico de {{top.1.pic}} jugadores; el género {{genre.1.nom}} pesa {{genre.1.part}} del top 100
 chapo: El {{jour.date_courte}}, el n.º 1 conserva su puesto y reúne {{concentration.top1}} de los jugadores medios del top 100; el género {{genre.1.nom}} concentra {{genre.1.part}}.
 jour: 2026-11-16
 type: quotidien

@@ -1,5 +1,5 @@
 ---
-titre: {{top.1.nom}} in the lead with {{top.1.pic}} players, the {{genre.1.nom}} genre makes up {{genre.1.part}} of the top 100
+titre: {{top.1.nom}} in the lead with a peak of {{top.1.pic}} players, the {{genre.1.nom}} genre makes up {{genre.1.part}} of the top 100
 chapo: On {{jour.date_courte}}, the No. 1 game drew {{concentration.top1}} of the top 100's average players; the {{genre.1.nom}} genre accounts for {{genre.1.part}}.
 jour: 2026-11-01
 type: quotidien
@@ -15,7 +15,7 @@ Readings: {{releves.nb}} out of {{releves.attendus}} ({{releves.manquants}}), co
 
 ## Behind it
 
-**{{top.2.nom}}** ({{top.2.genre}}) is {{top.2.rang}} with {{top.2.pic}} players, ahead of **{{top.3.nom}}** ({{top.3.pic}}) and **{{top.4.nom}}** ({{top.4.pic}}). The top {{n.top}} together account for {{concentration.top10}} of the average players of the top {{n.top100}}.
+**{{top.2.nom}}** ({{top.2.genre}}) is {{top.2.rang}} with {{top.2.pic}} players, ahead of **{{top.3.nom}}** ({{top.3.pic}}) and **{{top.4.nom}}** ({{top.4.pic}}). The top {{n.top}} together account for {{concentration.top10}} of the average players of the top {{n.top100}}. Note: {{top.3.nom}}'s peak is a one-off, recorded at {{top.3.heure_pic}}; by daily average it ranks {{top.3.rang_moy}}.
 
 ## The peak
 

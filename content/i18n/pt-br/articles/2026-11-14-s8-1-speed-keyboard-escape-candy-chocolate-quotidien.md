@@ -10,7 +10,7 @@ Leituras: {{releves.nb}} de {{releves.attendus}} ({{releves.manquants}}), para {
 
 ## O destaque do dia
 
-**{{entree.1.nom}}** não estava no top 50 no dia anterior. Chega ao posto {{entree.1.rang}} com pico registrado de {{entree.1.pic}} jogadores.
+**{{entree.1.nom}}** estava em {{entree.1.rang_veille}} no dia anterior, fora do top 50. Chega ao posto {{entree.1.rang}} com pico registrado de {{entree.1.pic}} jogadores.
 
 ## O n.º 1
 

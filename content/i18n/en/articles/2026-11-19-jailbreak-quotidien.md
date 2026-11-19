@@ -1,6 +1,6 @@
 ---
-titre: {{hausse.2.nom}}: {{hausse.2.var}} players in a week on Roblox
-chapo: On {{jour.date_courte}}, {{hausse.2.nom}} averaged {{hausse.2.moy}} players, against {{hausse.2.moy_avant}} the previous week: one of the biggest rises of the day.
+titre: {{hausse.1.nom}}: {{hausse.1.var}} players on Roblox compared with the previous 7 days
+chapo: On {{jour.date_courte}}, {{hausse.1.nom}} averaged {{hausse.1.moy}} players, against {{hausse.1.moy_avant}} the previous week: the biggest rise of the day.
 jour: 2026-11-19
 type: quotidien
 angle: hausse
@@ -10,7 +10,7 @@ Readings: {{releves.nb}} out of {{releves.attendus}} ({{releves.manquants}}), co
 
 ## The day's standout
 
-**{{hausse.2.nom}}** went from {{hausse.2.moy_avant}} to {{hausse.2.moy}} average players ({{hausse.2.var}}) compared with the previous week. It ranks {{hausse.2.rang}} at the day's peak.
+**{{hausse.1.nom}}** went from {{hausse.1.moy_avant}} to {{hausse.1.moy}} average players ({{hausse.1.var}}) compared with the previous week. It ranks {{hausse.1.rang}} at the day's peak.
 
 ## The No. 1
 

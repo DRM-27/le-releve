@@ -10,7 +10,7 @@ Relevés : {{releves.nb}} sur {{releves.attendus}} ({{releves.manquants}}), pour
 
 ## Le fait du jour
 
-**{{entree.1.nom}}** n'était pas dans le top 50 la veille. Il arrive {{entree.1.rang}} avec un pic relevé de {{entree.1.pic}} joueurs.
+**{{entree.1.nom}}** était {{entree.1.rang_veille}} la veille, hors du top 50. Il arrive {{entree.1.rang}} avec un pic relevé de {{entree.1.pic}} joueurs. Ce pic est ponctuel, relevé à {{entree.1.heure_pic}}.
 
 ## Le n° 1
 
@@ -20,7 +20,7 @@ Relevés : {{releves.nb}} sur {{releves.attendus}} ({{releves.manquants}}), pour
 
 ## Derrière lui
 
-**{{top.2.nom}}** ({{top.2.genre}}) est {{top.2.rang}} avec {{top.2.pic}} joueurs, devant **{{top.3.nom}}** ({{top.3.pic}}) et **{{top.4.nom}}** ({{top.4.pic}}). Les {{n.top}} premiers réunissent {{concentration.top10}} des joueurs moyens du top {{n.top100}}.
+**{{top.2.nom}}** ({{top.2.genre}}) est {{top.2.rang}} avec {{top.2.pic}} joueurs, devant **{{top.3.nom}}** ({{top.3.pic}}) et **{{top.4.nom}}** ({{top.4.pic}}). Les {{n.top}} premiers réunissent {{concentration.top10}} des joueurs moyens du top {{n.top100}}. Attention : le pic de {{top.3.nom}} est ponctuel, relevé à {{top.3.heure_pic}} ; à la moyenne du jour, il est {{top.3.rang_moy}}.
 
 ## Le moment du pic
 

@@ -19,11 +19,13 @@ Tous les chiffres sont calculés par un programme, jamais à la main ni par une 
 
 - **Pic de joueurs** : le plus haut des relevés horaires de la journée. Comme nous relevons une fois par heure, le pic réel peut être un peu plus élevé.
 - **Moyenne de joueurs** : la moyenne des relevés horaires de la journée.
-- **Variations** : la moyenne du jour comparée à celle de la veille, ou à la moyenne des sept jours précédents quand nous avons assez d’historique.
+- **Variations** : la moyenne du jour comparée à celle de la veille, ou à la moyenne des sept jours précédents quand nous avons assez d’historique. Ces comparaisons n’utilisent que des mesures complètes : le jeu doit avoir été mesuré dans au moins trois quarts des relevés de chaque journée comparée (18 heures sur 24).
 - **Hausses et baisses** : seuls les jeux qui comptent au moins mille joueurs en moyenne sont retenus, pour éviter les pourcentages spectaculaires sur des jeux presque vides.
+- **Pic ponctuel** : les jeux sont classés par leur pic du jour. Quand ce pic dépasse plus de trois fois les relevés voisins, souvent un événement d’une heure, l’article le signale comme ponctuel et donne aussi le rang du jeu à la moyenne du jour.
+- **Entrées dans le top 50** : un jeu ne compte comme entrant que s’il a été mesuré complètement la veille, hors du top 50. Un jeu absent de nos relevés la veille (relevé perdu, jeu indisponible) qui figurait dans le top 50 au cours des sept jours précédents est un retour, pas une entrée.
 - **Visites en 24 h** : l’écart entre deux relevés espacés de 23 à 25 heures. Sans paire de relevés valable, nous ne publions pas ce chiffre.
 
-Un jeu n’est classé que s’il est présent dans au moins la moitié des relevés de la journée. Quand des relevés manquent, l’article l’indique.
+Un jeu n’est classé que s’il est présent dans au moins la moitié des relevés de la journée. Quand des relevés manquent, l’article l’indique ; en dessous de 18 relevés sur la journée, il précise que la journée est incomplète. Quand l’API de Roblox limite nos requêtes, le programme réessaie les jeux non mesurés avant d’enregistrer le relevé ; ceux qui restent non mesurés sont listés dans le fichier d’état du relevé.
 
 ## Alertes
 
@@ -42,10 +44,10 @@ Chaque jeu suivi a sa page, avec sa courbe horaire et ses chiffres clés. Une pa
 ## Comment les articles sont écrits
 
 1. Le programme calcule les faits de la journée et les enregistre dans un fichier.
-2. Une IA rédige l’article à partir de ce fichier. Elle n’écrit aucun chiffre elle-même : elle les appelle depuis le fichier.
-3. Un vérificateur automatique bloque la publication si un chiffre ne provient pas des données, ou si une formulation laisse croire à un lien officiel avec Roblox.
-4. Un agent relecteur contrôle le sens des phrases. Pendant les premières semaines, chaque article est aussi relu par l’éditeur avant publication.
-5. Les articles en anglais, en espagnol et en portugais sont traduits de l’original français par une IA ; les chiffres sont les mêmes, appelés depuis les mêmes fichiers.
+2. Le quotidien est écrit par un programme, à partir de modèles fixes ; les analyses sont rédigées par une IA. Ni l’un ni l’autre n’écrit de chiffre : les chiffres sont appelés depuis le fichier.
+3. Un vérificateur automatique bloque la publication si un chiffre ne provient pas des données, si une formulation laisse croire à un lien officiel avec Roblox, ou si une formulation courante contredit les faits (journée incomplète non signalée, « reste en tête » sans être n° 1 la veille, entrée dans le top 50 non établie, pic ponctuel présenté comme durable).
+4. Les analyses sont relues par un agent qui contrôle le sens des phrases. Le quotidien, qui suit des modèles fixes, est publié dès qu’il passe le vérificateur.
+5. Les quotidiens en anglais, en espagnol et en portugais suivent des modèles traduits ; les autres articles sont traduits de l’original français par une IA. Les chiffres sont les mêmes, appelés depuis les mêmes fichiers.
 
 Dans chaque article, les chiffres soulignés sont des liens : ils ouvrent la ligne exacte du fichier de données dont ils proviennent.
 

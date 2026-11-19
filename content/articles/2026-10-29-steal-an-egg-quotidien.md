@@ -1,5 +1,5 @@
 ---
-titre: {{top.1.nom}} en tête avec {{top.1.pic}} joueurs, le genre {{genre.1.nom}} pèse {{genre.1.part}} du top 100
+titre: {{top.1.nom}} en tête avec un pic de {{top.1.pic}} joueurs, le genre {{genre.1.nom}} pèse {{genre.1.part}} du top 100
 chapo: Le {{jour.date_courte}}, le n° 1 a réuni {{concentration.top1}} des joueurs moyens du top 100 ; le genre {{genre.1.nom}} en regroupe {{genre.1.part}}.
 jour: 2026-10-29
 type: quotidien

@@ -4,13 +4,13 @@ chapo: On {{jour.date_courte}}, {{entree.1.nom}} entered the top 50 with a peak 
 jour: 2026-11-07
 type: quotidien
 angle: entree
-publie: 2026-11-10T23:26
+publie: 2026-11-11T07:57
 ---
 Readings: {{releves.nb}} out of {{releves.attendus}} ({{releves.manquants}}), covering {{jeux.nb}} tracked games. Across the games we track, total concurrent players peaked at {{cumul.pic}} at the highest reading, at {{cumul.pic_heure}}, with a daily average of {{cumul.moy}}.
 
 ## The day's standout
 
-**{{entree.1.nom}}** was not in the top 50 the day before. It comes in at {{entree.1.rang}} with a recorded peak of {{entree.1.pic}} players.
+**{{entree.1.nom}}** was {{entree.1.rang_veille}} the day before, outside the top 50. It comes in at {{entree.1.rang}} with a recorded peak of {{entree.1.pic}} players. This peak is a one-off, recorded at {{entree.1.heure_pic}}.
 
 ## The No. 1
 
@@ -20,7 +20,7 @@ Readings: {{releves.nb}} out of {{releves.attendus}} ({{releves.manquants}}), co
 
 ## Behind it
 
-**{{top.2.nom}}** ({{top.2.genre}}) is {{top.2.rang}} with {{top.2.pic}} players, ahead of **{{top.3.nom}}** ({{top.3.pic}}) and **{{top.4.nom}}** ({{top.4.pic}}). The top {{n.top}} together account for {{concentration.top10}} of the average players of the top {{n.top100}}.
+**{{top.2.nom}}** ({{top.2.genre}}) is {{top.2.rang}} with {{top.2.pic}} players, ahead of **{{top.3.nom}}** ({{top.3.pic}}) and **{{top.4.nom}}** ({{top.4.pic}}). The top {{n.top}} together account for {{concentration.top10}} of the average players of the top {{n.top100}}. Note: {{top.3.nom}}'s peak is a one-off, recorded at {{top.3.heure_pic}}; by daily average it ranks {{top.3.rang_moy}}.
 
 ## The peak
 

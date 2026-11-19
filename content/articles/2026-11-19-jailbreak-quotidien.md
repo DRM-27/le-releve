@@ -1,6 +1,6 @@
 ---
-titre: {{hausse.2.nom}} : {{hausse.2.var}} de joueurs en une semaine sur Roblox
-chapo: Le {{jour.date_courte}}, {{hausse.2.nom}} a réuni {{hausse.2.moy}} joueurs en moyenne, contre {{hausse.2.moy_avant}} la semaine précédente : l'une des plus fortes hausses du jour.
+titre: {{hausse.1.nom}} : {{hausse.1.var}} de joueurs sur Roblox par rapport aux 7 jours précédents
+chapo: Le {{jour.date_courte}}, {{hausse.1.nom}} a réuni {{hausse.1.moy}} joueurs en moyenne, contre {{hausse.1.moy_avant}} la semaine précédente : la plus forte hausse du jour.
 jour: 2026-11-19
 type: quotidien
 angle: hausse
@@ -10,7 +10,7 @@ Relevés : {{releves.nb}} sur {{releves.attendus}} ({{releves.manquants}}), pour
 
 ## Le fait du jour
 
-**{{hausse.2.nom}}** passe de {{hausse.2.moy_avant}} à {{hausse.2.moy}} joueurs en moyenne ({{hausse.2.var}}) par rapport à la semaine précédente. Il se classe {{hausse.2.rang}} au pic du jour.
+**{{hausse.1.nom}}** passe de {{hausse.1.moy_avant}} à {{hausse.1.moy}} joueurs en moyenne ({{hausse.1.var}}) par rapport à la semaine précédente. Il se classe {{hausse.1.rang}} au pic du jour.
 
 ## Le n° 1
 

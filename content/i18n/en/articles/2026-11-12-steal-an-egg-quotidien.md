@@ -1,10 +1,10 @@
 ---
-titre: {{top.1.nom}} stays on top with {{top.1.pic}} players; the {{genre.1.nom}} genre makes up {{genre.1.part}} of the top 100
+titre: {{top.1.nom}} stays on top with a peak of {{top.1.pic}} players; the {{genre.1.nom}} genre makes up {{genre.1.part}} of the top 100
 chapo: On {{jour.date_courte}}, the No. 1 game held its spot and drew {{concentration.top1}} of the top 100's average players; the {{genre.1.nom}} genre accounts for {{genre.1.part}}.
 jour: 2026-11-12
 type: quotidien
 angle: top
-publie: 2026-11-13T07:49
+publie: 2026-11-13T07:55
 ---
 Readings: {{releves.nb}} out of {{releves.attendus}} ({{releves.manquants}}), covering {{jeux.nb}} tracked games. Across the games we track, total concurrent players peaked at {{cumul.pic}} at the highest reading, at {{cumul.pic_heure}}, with a daily average of {{cumul.moy}}.
 

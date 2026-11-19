@@ -1,5 +1,5 @@
 ---
-titre: {{top.1.nom}} lidera con {{top.1.pic}} jugadores; el género {{genre.1.nom}} pesa {{genre.1.part}} del top 100
+titre: {{top.1.nom}} lidera con un pico de {{top.1.pic}} jugadores; el género {{genre.1.nom}} pesa {{genre.1.part}} del top 100
 chapo: El {{jour.date_courte}}, el n.º 1 reunió {{concentration.top1}} de los jugadores medios del top 100; el género {{genre.1.nom}} concentra {{genre.1.part}}.
 jour: 2026-10-31
 type: quotidien
@@ -15,7 +15,7 @@ Lecturas: {{releves.nb}} de {{releves.attendus}} ({{releves.manquants}}), para {
 
 ## Detrás
 
-**{{top.2.nom}}** ({{top.2.genre}}) es {{top.2.rang}} con {{top.2.pic}} jugadores, por delante de **{{top.3.nom}}** ({{top.3.pic}}) y **{{top.4.nom}}** ({{top.4.pic}}). Los {{n.top}} primeros reúnen {{concentration.top10}} de los jugadores medios del top {{n.top100}}.
+**{{top.2.nom}}** ({{top.2.genre}}) es {{top.2.rang}} con {{top.2.pic}} jugadores, por delante de **{{top.3.nom}}** ({{top.3.pic}}) y **{{top.4.nom}}** ({{top.4.pic}}). Los {{n.top}} primeros reúnen {{concentration.top10}} de los jugadores medios del top {{n.top100}}. Ojo: el pico de {{top.2.nom}} es puntual, registrado a las {{top.2.heure_pic}}; por la media del día, ocupa el puesto {{top.2.rang_moy}}. Ojo: el pico de {{top.3.nom}} es puntual, registrado a las {{top.3.heure_pic}}; por la media del día, ocupa el puesto {{top.3.rang_moy}}.
 
 ## El momento del pico
 

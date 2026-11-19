@@ -8,6 +8,12 @@ Règles :
   3. Chaque graphique {{graphique:id}} doit exister.
   4. Les nombres écrits en lettres (« trois jeux », « deux fois plus ») sont signalés pour relecture.
   5. Rien ne doit laisser croire à un lien officiel avec Roblox.
+  6. Le sens des mots doit suivre les faits (règles ajoutées après l'audit du 19/11/2026) :
+     - journée incomplète (moins de 18 relevés) : l'article doit le dire ;
+     - « reste en tête » suppose top.1.rang_veille = 1er ; « prend la tête » suppose un autre rang connu la veille ;
+     - « entre dans le top 50 » suppose une entrée établie (jeton entree.*) ;
+     - une variation ne s'écrit pas « en une semaine » : c'est la moyenne du jour comparée aux 7 jours précédents ;
+     - un pic ponctuel (pic_isole) cité doit être présenté comme tel.
 
 Usage : python tools/verify.py chemin/vers/article.md [...]
 """
@@ -48,6 +54,16 @@ WORDS = re.compile(r"\b(deux|trois|quatre|cinq|six|sept|huit|neuf|dix|onze|douze
 BANNED = [re.compile(p, re.I) for p in (r"partenaire (?:officiel )?de roblox", r"en partenariat avec roblox",
                                          r"média officiel", r"officiellement soutenu par roblox", r"approuvé par roblox")]
 REQUIRED = ("titre", "chapo", "jour", "type")
+# Règles de sens (fr, en, es, pt-br)
+RESTE = re.compile(r"reste en tête|garde la tête|garde sa place|stays on top|held its spot|sigue en cabeza|conserva su puesto|"
+                   r"segue na liderança|manteve o posto|keeps the lead|mantiene el liderazgo|mantém a liderança", re.I)
+PREND = re.compile(r"prend la tête|passe en tête|takes the top spot|takes the lead|toma la cabeza|pasa a la cabeza|"
+                   r"assume a liderança", re.I)
+ENTRE = re.compile(r"entre dans le top 50|fait son entrée|enters? (?:Roblox's |the )?top 50|entered the top 50|"
+                   r"entra en el top 50|entra no top 50|entrou no top 50", re.I)
+SEMAINE = re.compile(r"\ben une semaine\b|\bin a week\b|\ben una semana\b|\bem uma semana\b", re.I)
+INCOMPLET = re.compile(r"incompl", re.I)
+PONCTUEL = re.compile(r"ponctuel|one-off|puntual|pontual", re.I)
 TYPES = {"quotidien", "hebdo", "mensuel", "trimestriel", "analyse", "dossier"}
 
 
@@ -115,6 +131,28 @@ def verify_text(text, day, where, errors, warnings):
             errors.append(f"{where} : formulation interdite (lien officiel avec Roblox) « {m.group(0)} »")
 
 
+def verify_sens(meta, body, day, f, errors):
+    """Le sens des mots doit suivre les faits du jour."""
+    tout = "\n".join([meta.get("titre", ""), meta.get("chapo", ""), body])
+    F = f["faits"]
+    val = lambda k: (F.get(k) or {}).get("v")
+    c = f["couverture"]
+    if c["releves"] < 18 and not c.get("instantane") and not INCOMPLET.search(tout):
+        errors.append(f"Journée incomplète ({c['releves']} relevés sur {c['attendus']}) : l'article doit le dire.")
+    if RESTE.search(tout) and val("top.1.rang_veille") != 1:
+        errors.append("« reste en tête » sans être n° 1 la veille (top.1.rang_veille absent ou différent de 1er).")
+    if PREND.search(tout) and val("top.1.rang_veille") in (None, 1):
+        errors.append("« prend la tête » sans rang de la veille connu et différent de 1er.")
+    if ENTRE.search(tout) and "{{entree." not in tout:
+        errors.append("« entre dans le top 50 » sans entrée établie (jeton entree.*).")
+    if SEMAINE.search(tout):
+        errors.append("Une variation ne s'écrit pas « en une semaine » : écrire « par rapport aux 7 jours précédents ».")
+    for m in re.finditer(r"\{\{((?:top|entree|retour)\.\d+)\.pic\}\}", tout):
+        if val(f"{m.group(1)}.pic_isole") is True and not PONCTUEL.search(tout):
+            errors.append(f"Le pic de {{{{{m.group(1)}.nom}}}} est ponctuel : l'article doit le dire.")
+            break
+
+
 def verify(path):
     path = Path(path)
     errors, warnings = [], []
@@ -130,13 +168,11 @@ def verify(path):
     f = load_facts(day) if day else None
     if day and f is None and meta.get("type") not in ("trimestriel", "dossier"):
         errors.append(f"Faits du {day} introuvables : lancer python tools/facts.py {day}")
-    elif f:
-        c = f["couverture"]
-        if c["releves"] < 18 and not c.get("instantane"):
-            warnings.append(f"Journée incomplète : {c['releves']} relevés sur {c['attendus']}. Le dire dans l'article.")
     for field in ("titre", "chapo"):
         verify_text(meta.get(field, ""), day, field.capitalize(), errors, warnings)
     verify_text(body, day, "Texte", errors, warnings)
+    if f:
+        verify_sens(meta, body, day, f, errors)
     if len(body.split()) < 80:
         warnings.append("Texte très court (moins de 80 mots).")
     return errors, warnings, meta, body

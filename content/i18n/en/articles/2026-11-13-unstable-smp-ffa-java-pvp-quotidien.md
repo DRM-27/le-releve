@@ -1,5 +1,5 @@
 ---
-titre: {{hausse.3.nom}}: {{hausse.3.var}} players in a week on Roblox
+titre: {{hausse.3.nom}}: {{hausse.3.var}} players on Roblox compared with the previous 7 days
 chapo: On {{jour.date_courte}}, {{hausse.3.nom}} averaged {{hausse.3.moy}} players, against {{hausse.3.moy_avant}} the previous week: one of the biggest rises of the day.
 jour: 2026-11-13
 type: quotidien

@@ -10,7 +10,7 @@ Readings: {{releves.nb}} out of {{releves.attendus}} ({{releves.manquants}}), co
 
 ## The day's standout
 
-**{{entree.1.nom}}** was not in the top 50 the day before. It comes in at {{entree.1.rang}} with a recorded peak of {{entree.1.pic}} players.
+**{{entree.1.nom}}** was {{entree.1.rang_veille}} the day before, outside the top 50. It comes in at {{entree.1.rang}} with a recorded peak of {{entree.1.pic}} players.
 
 ## The No. 1
 

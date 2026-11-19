@@ -1,16 +1,16 @@
 ---
-titre: {{entree.1.nom}} entra no top 50 do Roblox, direto no posto {{entree.1.rang}}
-chapo: Em {{jour.date_courte}}, {{entree.1.nom}} entrou no top 50 com pico de {{entree.1.pic}} jogadores. {{entrees.nb}} jogos entraram em relação ao dia anterior.
+titre: {{retour.1.nom}} volta ao top 50 do Roblox, no posto {{retour.1.rang}}
+chapo: Em {{jour.date_courte}}, {{retour.1.nom}} voltou ao top 50 com pico registrado de {{retour.1.pic}} jogadores, depois de uma ausência em nossas leituras.
 jour: 2026-11-18
 type: quotidien
-angle: entree
+angle: retour
 publie: 2026-11-19T00:15
 ---
 Leituras: {{releves.nb}} de {{releves.attendus}} ({{releves.manquants}}), para {{jeux.nb}} jogos acompanhados. Entre os jogos que acompanhamos, o total de jogadores online chegou a {{cumul.pic}} na leitura mais alta, às {{cumul.pic_heure}}, com média de {{cumul.moy}} no dia.
 
 ## O destaque do dia
 
-**{{entree.1.nom}}** não estava no top 50 no dia anterior. Chega ao posto {{entree.1.rang}} com pico registrado de {{entree.1.pic}} jogadores.
+**{{retour.1.nom}}** não pôde ser medido por completo no dia anterior, embora estivesse no top 50 nos 7 dias anteriores. Volta ao posto {{retour.1.rang}} com pico registrado de {{retour.1.pic}} jogadores: é um retorno, não uma nova entrada.
 
 ## O n.º 1
 
@@ -20,7 +20,7 @@ Leituras: {{releves.nb}} de {{releves.attendus}} ({{releves.manquants}}), para {
 
 ## Atrás dele
 
-**{{top.2.nom}}** ({{top.2.genre}}) é {{top.2.rang}} com {{top.2.pic}} jogadores, à frente de **{{top.3.nom}}** ({{top.3.pic}}) e **{{top.4.nom}}** ({{top.4.pic}}). Os {{n.top}} primeiros reúnem {{concentration.top10}} dos jogadores médios do top {{n.top100}}.
+**{{top.2.nom}}** ({{top.2.genre}}) é {{top.2.rang}} com {{top.2.pic}} jogadores, à frente de **{{top.3.nom}}** ({{top.3.pic}}) e **{{top.4.nom}}** ({{top.4.pic}}). Os {{n.top}} primeiros reúnem {{concentration.top10}} dos jogadores médios do top {{n.top100}}. Atenção: o pico de {{top.2.nom}} é pontual, registrado às {{top.2.heure_pic}}; pela média do dia, fica em {{top.2.rang_moy}}.
 
 ## O momento do pico
 

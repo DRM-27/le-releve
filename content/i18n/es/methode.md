@@ -19,11 +19,14 @@ Todas las cifras las calcula un programa, nunca a mano ni una IA. Un día va de 
 
 - **Pico de jugadores**: la más alta de las mediciones horarias del día. Como medimos una vez por hora, el pico real puede ser algo mayor.
 - **Media de jugadores**: la media de las mediciones horarias del día.
-- **Variaciones**: la media del día comparada con la del día anterior, o con la media de los siete días previos cuando tenemos suficiente historial.
+- **Variaciones**: la media del día comparada con la del día anterior, o con la media de los siete días previos cuando tenemos suficiente historial. Estas comparaciones solo usan mediciones completas: el juego debe haberse medido en al menos tres cuartas partes de las mediciones de cada día comparado (18 horas de 24).
 - **Subidas y bajadas**: solo se tienen en cuenta los juegos con al menos mil jugadores de media, para evitar porcentajes espectaculares en juegos casi vacíos.
 - **Visitas en 24 horas**: la diferencia entre dos mediciones separadas de 23 a 25 horas. Sin un par de mediciones válido, no publicamos esta cifra.
 
-Un juego solo se clasifica si aparece en al menos la mitad de las mediciones del día. Cuando faltan mediciones, el artículo lo indica.
+- **Pico puntual**: los juegos se clasifican por su pico del día. Cuando ese pico supera en más de tres veces las mediciones vecinas, a menudo un evento de una hora, el artículo lo señala como puntual e indica también el puesto del juego según la media del día.
+- **Entradas en el top 50**: un juego solo cuenta como nueva entrada si se midió por completo el día anterior, fuera del top 50. Un juego ausente de nuestras mediciones el día anterior (medición perdida, juego no disponible) que estuvo en el top 50 durante los siete días previos es un regreso, no una entrada.
+
+Un juego solo se clasifica si aparece en al menos la mitad de las mediciones del día. Cuando faltan mediciones, el artículo lo indica; por debajo de 18 mediciones en el día, precisa que la jornada está incompleta. Cuando la API de Roblox limita nuestras peticiones, el programa vuelve a intentar los juegos no medidos antes de guardar la medición; los que siguen sin medirse figuran en el archivo de estado de la medición.
 
 ## Alertas
 
@@ -42,10 +45,10 @@ Cada juego seguido tiene su página, con su curva horaria y sus cifras clave. Un
 ## Cómo se escriben los artículos
 
 1. El programa calcula los datos del día y los guarda en un archivo.
-2. Una IA redacta el artículo a partir de ese archivo. No escribe ninguna cifra por sí misma: las toma del archivo.
-3. Un verificador automático bloquea la publicación si una cifra no procede de los datos, o si una frase sugiere un vínculo oficial con Roblox.
-4. Un agente revisor controla el sentido de las frases. Durante las primeras semanas, cada artículo lo revisa también el editor antes de publicarse.
-5. Los artículos en inglés, español y portugués los traduce una IA a partir del original en francés; las cifras son las mismas, tomadas de los mismos archivos.
+2. El diario lo escribe un programa a partir de plantillas fijas; los análisis los redacta una IA. Ninguno escribe cifras por sí mismo: las cifras se toman del archivo.
+3. Un verificador automático bloquea la publicación si una cifra no procede de los datos, si una frase sugiere un vínculo oficial con Roblox o si una formulación habitual contradice los datos (jornada incompleta sin aviso, «sigue en cabeza» sin ser el n.º 1 el día anterior, entrada en el top 50 no establecida, pico puntual presentado como duradero).
+4. Los análisis los revisa un agente que controla el sentido de las frases. El diario, que sigue plantillas fijas, se publica en cuanto pasa el verificador.
+5. Los diarios en inglés, español y portugués siguen plantillas traducidas; los demás artículos los traduce una IA a partir del original en francés. Las cifras son las mismas, tomadas de los mismos archivos.
 
 En cada artículo, las cifras subrayadas son enlaces: abren la línea exacta del archivo de datos del que proceden.
 

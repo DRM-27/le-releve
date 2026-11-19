@@ -1,5 +1,5 @@
 ---
-titre: {{top.1.nom}} en tête avec {{top.1.pic}} joueurs, le genre {{genre.1.nom}} pèse {{genre.1.part}} du top 100
+titre: {{top.1.nom}} en tête avec un pic de {{top.1.pic}} joueurs, le genre {{genre.1.nom}} pèse {{genre.1.part}} du top 100
 chapo: Le {{jour.date_courte}}, le n° 1 a réuni {{concentration.top1}} des joueurs moyens du top 100 ; le genre {{genre.1.nom}} en regroupe {{genre.1.part}}.
 jour: 2026-11-01
 type: quotidien
@@ -15,7 +15,7 @@ Relevés : {{releves.nb}} sur {{releves.attendus}} ({{releves.manquants}}), pour
 
 ## Derrière lui
 
-**{{top.2.nom}}** ({{top.2.genre}}) est {{top.2.rang}} avec {{top.2.pic}} joueurs, devant **{{top.3.nom}}** ({{top.3.pic}}) et **{{top.4.nom}}** ({{top.4.pic}}). Les {{n.top}} premiers réunissent {{concentration.top10}} des joueurs moyens du top {{n.top100}}.
+**{{top.2.nom}}** ({{top.2.genre}}) est {{top.2.rang}} avec {{top.2.pic}} joueurs, devant **{{top.3.nom}}** ({{top.3.pic}}) et **{{top.4.nom}}** ({{top.4.pic}}). Les {{n.top}} premiers réunissent {{concentration.top10}} des joueurs moyens du top {{n.top100}}. Attention : le pic de {{top.3.nom}} est ponctuel, relevé à {{top.3.heure_pic}} ; à la moyenne du jour, il est {{top.3.rang_moy}}.
 
 ## Le moment du pic
 

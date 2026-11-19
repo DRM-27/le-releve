@@ -1,10 +1,10 @@
 ---
-titre: {{top.1.nom}} sigue en cabeza con {{top.1.pic}} jugadores; el género {{genre.1.nom}} pesa {{genre.1.part}} del top 100
+titre: {{top.1.nom}} sigue en cabeza con un pico de {{top.1.pic}} jugadores; el género {{genre.1.nom}} pesa {{genre.1.part}} del top 100
 chapo: El {{jour.date_courte}}, el n.º 1 conserva su puesto y reúne {{concentration.top1}} de los jugadores medios del top 100; el género {{genre.1.nom}} concentra {{genre.1.part}}.
 jour: 2026-11-12
 type: quotidien
 angle: top
-publie: 2026-11-13T07:49
+publie: 2026-11-13T07:55
 ---
 Lecturas: {{releves.nb}} de {{releves.attendus}} ({{releves.manquants}}), para {{jeux.nb}} juegos seguidos. Entre los juegos que seguimos, el total de jugadores conectados alcanzó {{cumul.pic}} en la lectura más alta, a las {{cumul.pic_heure}}, con una media de {{cumul.moy}} en el día.
 

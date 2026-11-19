@@ -24,6 +24,8 @@ python tools/facts.py 2026-10-20        # faits d'une journée
 python tools/verify.py drafts/x.md      # vérifie un brouillon
 python tools/render.py 2026-10-20 social/x/x.txt   # post X vérifié, en texte final
 python tools/build.py --drafts          # construit le site (et les brouillons) dans _site/
+python tools/regen_faits.py --tous      # recalcule les faits passés avec les règles actuelles, sans changer les noms de l'époque
+python tests/test_correctifs.py         # tests des correctifs (données fictives)
 ```
 
 ## Données

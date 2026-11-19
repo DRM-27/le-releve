@@ -26,10 +26,12 @@ EXPLORE = "https://apis.roblox.com/explore-api/v1"
 GAMES = "https://games.roblox.com/v1/games"
 ICONS = "https://thumbnails.roblox.com/v1/games/icons"
 BATCH = 50
+SEUIL_MANQUANTS = 0.02   # au-delà de 2 % de jeux suivis non mesurés, le relevé est signalé (status.json > alerteManquants)
 errors = []
 
 
-def get_json(url, tries=4):
+def get_json(url, tries=6):
+    """Requête JSON avec relances. Sur HTTP 429 (trop de requêtes), on respecte l'en-tête Retry-After."""
     delay = 2
     for i in range(tries):
         req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
@@ -38,15 +40,17 @@ def get_json(url, tries=4):
                 return json.loads(r.read().decode("utf-8"))
         except urllib.error.HTTPError as e:
             if e.code in (429, 500, 502, 503, 504) and i < tries - 1:
-                time.sleep(delay)
-                delay *= 2
+                ra = (e.headers.get("Retry-After") or "").strip() if e.headers else ""
+                wait = float(ra) if ra.replace(".", "", 1).isdigit() else delay
+                time.sleep(min(max(wait, 1), 30))
+                delay = min(delay * 2, 30)
                 continue
             errors.append(f"HTTP {e.code} {url[:120]}")
             return None
         except Exception as e:  # réseau, JSON
             if i < tries - 1:
                 time.sleep(delay)
-                delay *= 2
+                delay = min(delay * 2, 30)
                 continue
             errors.append(f"{type(e).__name__} {url[:120]}")
             return None
@@ -119,16 +123,40 @@ def main():
 
     # Détail de chaque jeu suivi
     snap, details = {}, {}
-    for part in chunks(tracked, BATCH):
+    answered = set()   # jeux demandés dans un lot qui a répondu (présents ou non dans la réponse)
+
+    def fetch_batch(part):
+        """Détail et votes d'un lot de jeux. Renvoie False si l'API n'a pas répondu (le lot est à refaire)."""
         ids = ",".join(part)
-        d = get_json(f"{GAMES}?universeIds={ids}") or {}
+        d = get_json(f"{GAMES}?universeIds={ids}")
+        if d is None:
+            return False
+        answered.update(part)
         for g in d.get("data") or []:
             if str(g.get("id")) in games:  # l'API renvoie parfois une entrée fantôme (id 0) : on l'ignore
                 details[str(g["id"])] = g
         v = get_json(f"{GAMES}/votes?universeIds={ids}") or {}
         for g in v.get("data") or []:
             snap.setdefault(str(g["id"]), {}).update(up_votes=g.get("upVotes", ""), down_votes=g.get("downVotes", ""))
+        return True
+
+    failed = []
+    for part in chunks(tracked, BATCH):
+        if not fetch_batch(part):
+            failed.append(part)
         time.sleep(0.4)
+    # Seconde passe : un lot perdu (HTTP 429) faisait disparaître une heure entière pour une cinquantaine de jeux.
+    # On le refait après une pause, en lots plus petits.
+    if failed:
+        time.sleep(15)
+        for part in failed:
+            for sub in chunks(part, max(1, BATCH // 2)):
+                if not fetch_batch(sub):
+                    time.sleep(10)
+                    fetch_batch(sub)
+                time.sleep(1)
+    non_mesures = sorted(u for u in tracked if u not in answered)          # l'API n'a pas répondu
+    indisponibles = sorted(u for u in answered if u not in details)        # l'API a répondu sans ce jeu (privé, modéré…)
 
     snap_rows, updates = [], []
     for uid, g in details.items():
@@ -174,9 +202,14 @@ def main():
         write_csv(upath, ["ts_utc", "universe_id", "nom", "avant", "apres", "joueurs"], old + updates)
     prev_status = json.loads((DATA / "status.json").read_text(encoding="utf-8")) if (DATA / "status.json").exists() else {}
     fails = 0 if snap_rows else int(prev_status.get("echecsConsecutifs", 0)) + 1
+    part_manquante = len(non_mesures) / max(1, len(tracked))
     status = {"echecsConsecutifs": fails, "dernierSucces": ts if snap_rows else prev_status.get("dernierSucces", prev_status.get("lastRunAt")),
-              "lastRunAt": ts, "ok": bool(snap_rows) and not errors, "sorts": {k: len(v) for k, v in sorts.items()},
-              "gamesTracked": len(tracked), "gamesMeasured": len(snap_rows), "errors": errors[:20]}
+              "lastRunAt": ts, "ok": bool(snap_rows) and part_manquante <= SEUIL_MANQUANTS, "sorts": {k: len(v) for k, v in sorts.items()},
+              "gamesTracked": len(tracked), "gamesMeasured": len(snap_rows),
+              "jeuxNonMesures": {"nb": len(non_mesures), "part": round(part_manquante, 4), "ids": non_mesures[:200]},
+              "jeuxIndisponibles": {"nb": len(indisponibles), "ids": indisponibles[:200]},
+              "alerteManquants": part_manquante > SEUIL_MANQUANTS,
+              "lotsRelances": len(failed), "errors": errors[:20]}
     (DATA / "status.json").write_text(json.dumps(status, ensure_ascii=False, indent=1), encoding="utf-8")
     print(json.dumps(status, ensure_ascii=False))
     if not snap_rows:

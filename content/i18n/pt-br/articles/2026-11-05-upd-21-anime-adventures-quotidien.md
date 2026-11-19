@@ -1,5 +1,5 @@
 ---
-titre: {{hausse.2.nom}}: {{hausse.2.var}} de jogadores em uma semana no Roblox
+titre: {{hausse.2.nom}}: {{hausse.2.var}} de jogadores no Roblox em relação aos 7 dias anteriores
 chapo: Em {{jour.date_courte}}, {{hausse.2.nom}} reuniu {{hausse.2.moy}} jogadores em média, contra {{hausse.2.moy_avant}} na semana anterior: uma das maiores altas do dia.
 jour: 2026-11-05
 type: quotidien
@@ -7,6 +7,8 @@ angle: hausse
 publie: 2026-11-06T14:00
 ---
 Leituras: {{releves.nb}} de {{releves.attendus}} ({{releves.manquants}}), para {{jeux.nb}} jogos acompanhados. Entre os jogos que acompanhamos, o total de jogadores online chegou a {{cumul.pic}} na leitura mais alta, às {{cumul.pic_heure}}, com média de {{cumul.moy}} no dia.
+
+Dia incompleto: nossas leituras cobrem apenas {{releves.nb}} de {{releves.attendus}} horas. Leia os números do dia com cautela.
 
 ## O destaque do dia
 

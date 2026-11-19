@@ -1,10 +1,10 @@
 ---
-titre: {{hausse.2.nom}}: {{hausse.2.var}} players in a week on Roblox
+titre: {{hausse.2.nom}}: {{hausse.2.var}} players on Roblox compared with the previous 7 days
 chapo: On {{jour.date_courte}}, {{hausse.2.nom}} averaged {{hausse.2.moy}} players, against {{hausse.2.moy_avant}} the previous week: one of the biggest rises of the day.
 jour: 2026-11-11
 type: quotidien
 angle: hausse
-publie: 2026-11-13T07:49
+publie: 2026-11-13T07:55
 ---
 Readings: {{releves.nb}} out of {{releves.attendus}} ({{releves.manquants}}), covering {{jeux.nb}} tracked games. Across the games we track, total concurrent players peaked at {{cumul.pic}} at the highest reading, at {{cumul.pic_heure}}, with a daily average of {{cumul.moy}}.
 

@@ -1,16 +1,16 @@
 ---
-titre: {{entree.1.nom}} entre dans le top 50 de Roblox, directement {{entree.1.rang}}
-chapo: Le {{jour.date_courte}}, {{entree.1.nom}} fait son entrée dans le top 50 avec un pic de {{entree.1.pic}} joueurs. {{entrees.nb}} jeux y sont entrés par rapport à la veille.
+titre: {{retour.1.nom}} revient dans le top 50 de Roblox, {{retour.1.rang}}
+chapo: Le {{jour.date_courte}}, {{retour.1.nom}} retrouve le top 50 avec un pic relevé de {{retour.1.pic}} joueurs, après une absence de nos relevés.
 jour: 2026-11-03
 type: quotidien
-angle: entree
+angle: retour
 publie: 2026-11-04T23:10
 ---
 Relevés : {{releves.nb}} sur {{releves.attendus}} ({{releves.manquants}}), pour {{jeux.nb}} jeux suivis. Sur les jeux que nous suivons, le total des joueurs en ligne a atteint {{cumul.pic}} au relevé le plus haut, à {{cumul.pic_heure}}, pour une moyenne de {{cumul.moy}} sur la journée.
 
 ## Le fait du jour
 
-**{{entree.1.nom}}** n'était pas dans le top 50 la veille. Il arrive {{entree.1.rang}} avec un pic relevé de {{entree.1.pic}} joueurs.
+**{{retour.1.nom}}** n'avait pas pu être mesuré complètement la veille, alors qu'il figurait dans le top 50 au cours des 7 jours précédents. Il revient {{retour.1.rang}} avec un pic relevé de {{retour.1.pic}} joueurs : c'est un retour, pas une nouvelle entrée.
 
 ## Le n° 1
 

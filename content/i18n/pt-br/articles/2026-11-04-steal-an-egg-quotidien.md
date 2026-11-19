@@ -1,5 +1,5 @@
 ---
-titre: {{top.1.nom}} segue na liderança com {{top.1.pic}} jogadores; o gênero {{genre.1.nom}} pesa {{genre.1.part}} do top 100
+titre: {{top.1.nom}} segue na liderança com pico de {{top.1.pic}} jogadores; o gênero {{genre.1.nom}} pesa {{genre.1.part}} do top 100
 chapo: Em {{jour.date_courte}}, o n.º 1 manteve o posto e reuniu {{concentration.top1}} dos jogadores médios do top 100; o gênero {{genre.1.nom}} concentra {{genre.1.part}}.
 jour: 2026-11-04
 type: quotidien
@@ -7,6 +7,8 @@ angle: top
 publie: 2026-11-06T13:59
 ---
 Leituras: {{releves.nb}} de {{releves.attendus}} ({{releves.manquants}}), para {{jeux.nb}} jogos acompanhados. Entre os jogos que acompanhamos, o total de jogadores online chegou a {{cumul.pic}} na leitura mais alta, às {{cumul.pic_heure}}, com média de {{cumul.moy}} no dia.
+
+Dia incompleto: nossas leituras cobrem apenas {{releves.nb}} de {{releves.attendus}} horas. Leia os números do dia com cautela.
 
 ## O n.º 1
 
@@ -16,7 +18,7 @@ Leituras: {{releves.nb}} de {{releves.attendus}} ({{releves.manquants}}), para {
 
 ## Atrás dele
 
-**{{top.2.nom}}** ({{top.2.genre}}) é {{top.2.rang}} com {{top.2.pic}} jogadores, à frente de **{{top.3.nom}}** ({{top.3.pic}}) e **{{top.4.nom}}** ({{top.4.pic}}). Os {{n.top}} primeiros reúnem {{concentration.top10}} dos jogadores médios do top {{n.top100}}.
+**{{top.2.nom}}** ({{top.2.genre}}) é {{top.2.rang}} com {{top.2.pic}} jogadores, à frente de **{{top.3.nom}}** ({{top.3.pic}}) e **{{top.4.nom}}** ({{top.4.pic}}). Os {{n.top}} primeiros reúnem {{concentration.top10}} dos jogadores médios do top {{n.top100}}. Atenção: o pico de {{top.4.nom}} é pontual, registrado às {{top.4.heure_pic}}; pela média do dia, fica em {{top.4.rang_moy}}.
 
 ## O momento do pico
 

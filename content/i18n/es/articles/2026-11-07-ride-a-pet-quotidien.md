@@ -4,13 +4,13 @@ chapo: El {{jour.date_courte}}, {{entree.1.nom}} entra en el top 50 con un pico 
 jour: 2026-11-07
 type: quotidien
 angle: entree
-publie: 2026-11-10T23:26
+publie: 2026-11-11T07:57
 ---
 Lecturas: {{releves.nb}} de {{releves.attendus}} ({{releves.manquants}}), para {{jeux.nb}} juegos seguidos. Entre los juegos que seguimos, el total de jugadores conectados alcanzó {{cumul.pic}} en la lectura más alta, a las {{cumul.pic_heure}}, con una media de {{cumul.moy}} en el día.
 
 ## El dato del día
 
-**{{entree.1.nom}}** no estaba en el top 50 el día anterior. Llega al puesto {{entree.1.rang}} con un pico registrado de {{entree.1.pic}} jugadores.
+**{{entree.1.nom}}** estaba en el puesto {{entree.1.rang_veille}} el día anterior, fuera del top 50. Llega al puesto {{entree.1.rang}} con un pico registrado de {{entree.1.pic}} jugadores. Este pico es puntual, registrado a las {{entree.1.heure_pic}}.
 
 ## El n.º 1
 
@@ -20,7 +20,7 @@ Lecturas: {{releves.nb}} de {{releves.attendus}} ({{releves.manquants}}), para {
 
 ## Detrás
 
-**{{top.2.nom}}** ({{top.2.genre}}) es {{top.2.rang}} con {{top.2.pic}} jugadores, por delante de **{{top.3.nom}}** ({{top.3.pic}}) y **{{top.4.nom}}** ({{top.4.pic}}). Los {{n.top}} primeros reúnen {{concentration.top10}} de los jugadores medios del top {{n.top100}}.
+**{{top.2.nom}}** ({{top.2.genre}}) es {{top.2.rang}} con {{top.2.pic}} jugadores, por delante de **{{top.3.nom}}** ({{top.3.pic}}) y **{{top.4.nom}}** ({{top.4.pic}}). Los {{n.top}} primeros reúnen {{concentration.top10}} de los jugadores medios del top {{n.top100}}. Ojo: el pico de {{top.3.nom}} es puntual, registrado a las {{top.3.heure_pic}}; por la media del día, ocupa el puesto {{top.3.rang_moy}}.
 
 ## El momento del pico
 

@@ -4,13 +4,13 @@ chapo: Em {{jour.date_courte}}, {{entree.1.nom}} entrou no top 50 com pico de {{
 jour: 2026-11-08
 type: quotidien
 angle: entree
-publie: 2026-11-11T07:47
+publie: 2026-11-11T07:56
 ---
 Leituras: {{releves.nb}} de {{releves.attendus}} ({{releves.manquants}}), para {{jeux.nb}} jogos acompanhados. Entre os jogos que acompanhamos, o total de jogadores online chegou a {{cumul.pic}} na leitura mais alta, às {{cumul.pic_heure}}, com média de {{cumul.moy}} no dia.
 
 ## O destaque do dia
 
-**{{entree.1.nom}}** não estava no top 50 no dia anterior. Chega ao posto {{entree.1.rang}} com pico registrado de {{entree.1.pic}} jogadores.
+**{{entree.1.nom}}** estava em {{entree.1.rang_veille}} no dia anterior, fora do top 50. Chega ao posto {{entree.1.rang}} com pico registrado de {{entree.1.pic}} jogadores.
 
 ## O n.º 1
 

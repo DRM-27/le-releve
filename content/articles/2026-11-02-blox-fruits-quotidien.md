@@ -1,5 +1,5 @@
 ---
-titre: {{hausse.1.nom}} : {{hausse.1.var}} de joueurs en une semaine sur Roblox
+titre: {{hausse.1.nom}} : {{hausse.1.var}} de joueurs sur Roblox par rapport aux 7 jours précédents
 chapo: Le {{jour.date_courte}}, {{hausse.1.nom}} a réuni {{hausse.1.moy}} joueurs en moyenne, contre {{hausse.1.moy_avant}} la semaine précédente : la plus forte hausse du jour.
 jour: 2026-11-02
 type: quotidien

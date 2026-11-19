@@ -1,10 +1,10 @@
 ---
-titre: {{top.1.nom}} segue na liderança com {{top.1.pic}} jogadores; o gênero {{genre.1.nom}} pesa {{genre.1.part}} do top 100
-chapo: Em {{jour.date_courte}}, o n.º 1 manteve o posto e reuniu {{concentration.top1}} dos jogadores médios do top 100; o gênero {{genre.1.nom}} concentra {{genre.1.part}}.
+titre: {{top.1.nom}} lidera o Roblox com pico de {{top.1.pic}} jogadores; o gênero {{genre.1.nom}} pesa {{genre.1.part}} do top 100
+chapo: Em {{jour.date_courte}}, o n.º 1 reuniu {{concentration.top1}} dos jogadores médios do top 100; o gênero {{genre.1.nom}} concentra {{genre.1.part}}.
 jour: 2026-11-06
 type: quotidien
 angle: top
-publie: 2026-11-09T23:32
+publie: 2026-11-11T07:57
 ---
 Leituras: {{releves.nb}} de {{releves.attendus}} ({{releves.manquants}}), para {{jeux.nb}} jogos acompanhados. Entre os jogos que acompanhamos, o total de jogadores online chegou a {{cumul.pic}} na leitura mais alta, às {{cumul.pic_heure}}, com média de {{cumul.moy}} no dia.
 

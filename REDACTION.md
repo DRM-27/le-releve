@@ -20,7 +20,12 @@ Ce fichier fait autorité pour tous les agents qui écrivent ou relisent un arti
 - **Variation** : toujours dire la référence (« par rapport à la veille », « par rapport aux 7 jours précédents » : jeton `{{mouv.reference}}`).
 - **Rang** : rang au pic du jour parmi les jeux suivis.
 - Corrélation n’est pas cause. On n’explique une hausse par une mise à jour, un événement ou une vidéo que si une source datée le montre, citée avec un lien. Sinon on décrit le mouvement sans l’expliquer.
-- Journée incomplète (moins de 18 relevés) : on le dit dans le texte.
+- Journée incomplète (moins de 18 relevés) : on le dit dans le texte. Le vérificateur bloque l'article sinon.
+- **Mesure complète** : les variations (veille, 7 jours précédents), les hausses, les baisses et les entrées ne portent que sur des journées où le jeu a été mesuré dans au moins 75 % des relevés (18 sur 24). Un jeu sous ce seuil n'a pas de variation.
+- **Pic ponctuel** : quand `{{x.pic_isole}}` vaut « oui » (pic plus de 3 fois supérieur aux relevés voisins), on écrit que le pic est ponctuel, avec son heure, et on donne le rang à la moyenne `{{x.rang_moy}}`. Le vérificateur bloque l'article sinon.
+- **Entrée ou retour** : « entre dans le top 50 » seulement avec un jeton `entree.*` (jeu mesuré complètement la veille, classé `{{entree.k.rang_veille}}`). Un jeu absent ou mal mesuré la veille qui figurait dans le top 50 au cours des 7 jours précédents est un retour (`retour.*`) : on écrit « revient », jamais « entre ».
+- **« Reste en tête »** suppose `{{top.1.rang_veille}}` = 1er ; si le rang de la veille est inconnu, on écrit « en tête ».
+- **Événements datés** : on peut placer à côté d'un mouvement un événement daté et sourcé (par exemple une mise à jour du jeu, relevée par l'API dans `data/mises-a-jour.csv`), avec son heure exacte, sans aucun mot de cause (« grâce à », « à cause de », « provoqué par », « dû à »). Le lecteur voit les deux faits ; nous n'affirmons pas le lien.
 
 ## Formats
 
@@ -50,6 +55,8 @@ Nom du fichier : `AAAA-MM-JJ-mots-cles.md`, la date étant celle des données.
 ## Titres
 
 Un fait précis, pas une question, pas de point d’exclamation, pas de « choc » ni « incroyable ». Le titre doit être vrai même lu seul.
+
+Une variation ne s'écrit jamais « en une semaine » : c'est la moyenne du jour comparée à celle des 7 jours précédents (« par rapport aux 7 jours précédents »). Un pic s'écrit « un pic de … joueurs », pas « … joueurs ».
 
 ## Chiffres officiels de Roblox Corporation
 

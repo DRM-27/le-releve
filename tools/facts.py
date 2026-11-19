@@ -20,6 +20,9 @@ from common import (CONFIG, DATA, FACTS, NNBSP, TZ, fr_big, fr_date, fr_hour, fr
 
 MIN_COVER = 18          # relevés horaires minimum pour qu'une journée serve de référence
 MIN_PRESENCE = 0.5      # un jeu doit être présent dans la moitié des relevés du jour pour être classé
+COMPLETE = 0.75         # mesure complète : un jeu présent dans au moins 75 % des relevés du jour (18 sur 24).
+                        # Seules les mesures complètes servent aux moyennes comparées (variations, hausses, baisses) et aux entrées.
+PIC_ISOLE = 3           # un pic est ponctuel quand il dépasse 3 fois les relevés voisins (souvent un événement d'une heure)
 GENRES_FR = {"Action": "Action", "Adventure": "Aventure", "Simulation": "Simulation", "Roleplay & Avatar Sim": "Jeu de rôle et avatar",
              "Obby & Platformer": "Obby et plateforme", "Survival": "Survie", "Sports & Racing": "Sport et course",
              "Shooter": "Tir", "Party & Casual": "Party games", "RPG": "RPG", "Strategy": "Stratégie", "Puzzle": "Réflexion",
@@ -45,6 +48,12 @@ def day_stats(d):
         s["peak_ts"] = max(s["vals"], key=lambda x: x[1])[0]
         s["avg"] = mean(vals)
         s["ok"] = n > 0 and len(vals) >= MIN_PRESENCE * n
+        s["complete"] = n > 0 and len(vals) >= COMPLETE * n
+        # pic ponctuel : le pic dépasse PIC_ISOLE fois les relevés voisins (le précédent et le suivant disponibles)
+        seq = sorted(s["vals"], key=lambda x: x[0])
+        i = max(range(len(seq)), key=lambda k: seq[k][1])
+        voisins = [seq[k][1] for k in (i - 1, i + 1) if 0 <= k < len(seq)]
+        s["pic_isole"] = bool(voisins) and s["peak"] > PIC_ISOLE * max(max(voisins), 1)
     return stats, n, snaps
 
 
@@ -70,6 +79,7 @@ def build(d):
     # --- tableau par jeu ---
     ranked = sorted([u for u, s in today.items() if s["ok"]], key=lambda u: -today[u]["peak"])
     rank_of = {u: i + 1 for i, u in enumerate(ranked)}
+    rank_moy = {u: i + 1 for i, u in enumerate(sorted(ranked, key=lambda u: -today[u]["avg"]))}
     prev_ranked = sorted([u for u, s in prev.items() if s["ok"]], key=lambda u: -prev[u]["peak"]) if n_prev >= MIN_COVER else []
     prev_rank = {u: i + 1 for i, u in enumerate(prev_ranked)}
 
@@ -78,12 +88,14 @@ def build(d):
         s, g = today[u], games.get(u, {})
         row = {"rang": rank_of[u], "universe_id": u, "nom": g.get("name", u), "createur": g.get("creator_name", ""),
                "genre": g.get("genre_l1", ""), "pic": s["peak"], "heure_pic_paris": s["peak_ts"].astimezone(TZ).strftime("%H:%M"),
-               "moyenne": round(s["avg"]), "releves": s["n"]}
-        if n_prev >= MIN_COVER and u in prev and prev[u]["ok"] and prev[u]["avg"] > 0:
+               "moyenne": round(s["avg"]), "releves": s["n"], "complet": int(s["complete"]),
+               "pic_isole": int(s["pic_isole"]), "rang_moy": rank_moy[u]}
+        # Comparaisons de moyennes : seulement entre mesures complètes (sinon la moyenne ne porte que sur une partie de la journée)
+        if s["complete"] and n_prev >= MIN_COVER and u in prev and prev[u]["complete"] and prev[u]["avg"] > 0:
             row["moyenne_veille"] = round(prev[u]["avg"])
             row["var_veille"] = round(s["avg"] / prev[u]["avg"] - 1, 4)
-        base = [w[u]["avg"] for w in week if u in w and w[u]["ok"]]
-        if len(week) >= 5 and len(base) >= 5:
+        base = [w[u]["avg"] for w in week if u in w and w[u]["complete"]]
+        if s["complete"] and len(week) >= 5 and len(base) >= 5:
             row["moyenne_7j_avant"] = round(mean(base))
             row["var_7j"] = round(s["avg"] / mean(base) - 1, 4)
         # visites sur 24 h : dernier relevé du jour moins dernier relevé de la veille (écart de 23 à 25 h)
@@ -99,7 +111,8 @@ def build(d):
         row["rang_veille"] = prev_rank.get(u, "")
         rows.append(row)
     fields = ["rang", "universe_id", "nom", "createur", "genre", "pic", "heure_pic_paris", "moyenne", "releves", "moyenne_veille",
-              "var_veille", "moyenne_7j_avant", "var_7j", "visites_24h", "visites_total", "note", "rang_veille"]
+              "var_veille", "moyenne_7j_avant", "var_7j", "visites_24h", "visites_total", "note", "rang_veille",
+              "complet", "pic_isole", "rang_moy"]
     write_csv(DATA / "jours" / f"{d.isoformat()}.csv", fields, rows)
     line = {r["universe_id"]: i + 2 for i, r in enumerate(rows)}  # n° de ligne dans le CSV (en-tête = 1)
 
@@ -156,6 +169,10 @@ def build(d):
             add(f"{prefix}.note", r["note"], fr_share(r["note"]), f"{label_prefix} : part de votes positifs", src)
         if r["rang_veille"]:
             add(f"{prefix}.rang_veille", r["rang_veille"], fr_rank(r["rang_veille"]), f"{label_prefix} : rang la veille", src)
+        add(f"{prefix}.rang_moy", r["rang_moy"], fr_rank(r["rang_moy"]), f"{label_prefix} : rang à la moyenne du jour", src)
+        add(f"{prefix}.releves", r["releves"], fr_int(r["releves"]), f"{label_prefix} : relevés où le jeu a été mesuré", src)
+        add(f"{prefix}.pic_isole", bool(r["pic_isole"]), "oui" if r["pic_isole"] else "non",
+            f"{label_prefix} : pic ponctuel (plus de {PIC_ISOLE} fois les relevés voisins)", src)
 
     for i, u in enumerate(ranked[:10], 1):
         game_facts(f"top.{i}", u, f"N° {i} du jour")
@@ -184,16 +201,45 @@ def build(d):
                 add(f"{name}.{i}.rang", r["rang"], fr_rank(r["rang"]), f"{lab} : rang au pic du jour", src)
             movers["up" if name == "hausse" else "down"] = lst
 
-    # --- entrées dans le top 50 ---
+    # --- entrées dans le top 50 (et retours) ---
+    # Une entrée n'est établie que si le jeu a été mesuré complètement la veille, hors du top 50, et l'est aussi ce jour-là.
+    # Un jeu absent ou mal mesuré la veille n'est pas une entrée : s'il était dans le top 50 dans les 7 jours, c'est un retour.
     if prev_ranked:
         top50_prev = set(prev_ranked[:50])
-        entrants = [u for u in ranked[:50] if u not in top50_prev]
-        add("entrees.nb", len(entrants), fr_int(len(entrants)), "Jeux entrés dans le top 50 par rapport à la veille")
+        top50_semaine = set()
+        for w in week:
+            top50_semaine |= set(sorted([u for u, st in w.items() if st["ok"]], key=lambda u: -w[u]["peak"])[:50])
+        nouveaux = [u for u in ranked[:50] if u not in top50_prev]
+        entrants = [u for u in nouveaux if today[u]["complete"] and u in prev and prev[u]["complete"] and prev_rank.get(u, 999) > 50]
+        retours = [u for u in nouveaux if u not in entrants and u in top50_semaine]
+        add("entrees.nb", len(entrants), fr_int(len(entrants)), "Jeux entrés dans le top 50 par rapport à la veille (mesurés complètement les deux jours)")
         for i, u in enumerate(entrants[:5], 1):
             r = rows[rank_of[u] - 1]
-            add(f"entree.{i}.nom", r["nom"], r["nom"], f"Entrée n° {i} : nom", src_line(u))
-            add(f"entree.{i}.rang", r["rang"], fr_rank(r["rang"]), f"Entrée n° {i} : rang", src_line(u))
-            add(f"entree.{i}.pic", r["pic"], fr_int(r["pic"]), f"Entrée n° {i} : pic", src_line(u))
+            src = src_line(u)
+            add(f"entree.{i}.nom", r["nom"], r["nom"], f"Entrée n° {i} : nom", src)
+            add(f"entree.{i}.rang", r["rang"], fr_rank(r["rang"]), f"Entrée n° {i} : rang", src)
+            add(f"entree.{i}.pic", r["pic"], fr_int(r["pic"]), f"Entrée n° {i} : pic", src)
+            add(f"entree.{i}.heure_pic", r["heure_pic_paris"], fr_hour(today[u]["peak_ts"]), f"Entrée n° {i} : heure (Paris) du pic relevé", src)
+            add(f"entree.{i}.moy", r["moyenne"], fr_int(r["moyenne"]), f"Entrée n° {i} : moyenne du jour", src)
+            add(f"entree.{i}.rang_veille", prev_rank[u], fr_rank(prev_rank[u]), f"Entrée n° {i} : rang la veille", src)
+            add(f"entree.{i}.releves_veille", prev[u]["n"], fr_int(prev[u]["n"]), f"Entrée n° {i} : relevés où le jeu a été mesuré la veille", src)
+            add(f"entree.{i}.pic_isole", today[u]["pic_isole"], "oui" if today[u]["pic_isole"] else "non", f"Entrée n° {i} : pic ponctuel", src)
+            c = games.get(u, {}).get("created", "")
+            if c[:10]:
+                try:
+                    cd = date.fromisoformat(c[:10])
+                    add(f"entree.{i}.cree", cd.isoformat(), fr_date(cd, weekday=False), f"Entrée n° {i} : date de création (API Roblox)", "data/games.csv")
+                except ValueError:
+                    pass
+        add("retours.nb", len(retours), fr_int(len(retours)), "Jeux revenus dans le top 50 après une absence ou une mesure incomplète la veille")
+        for i, u in enumerate(retours[:5], 1):
+            r = rows[rank_of[u] - 1]
+            src = src_line(u)
+            add(f"retour.{i}.nom", r["nom"], r["nom"], f"Retour n° {i} : nom", src)
+            add(f"retour.{i}.rang", r["rang"], fr_rank(r["rang"]), f"Retour n° {i} : rang", src)
+            add(f"retour.{i}.pic", r["pic"], fr_int(r["pic"]), f"Retour n° {i} : pic", src)
+            add(f"retour.{i}.heure_pic", r["heure_pic_paris"], fr_hour(today[u]["peak_ts"]), f"Retour n° {i} : heure (Paris) du pic relevé", src)
+            add(f"retour.{i}.pic_isole", today[u]["pic_isole"], "oui" if today[u]["pic_isole"] else "non", f"Retour n° {i} : pic ponctuel", src)
 
     # --- concentration et genres (top 100) ---
     top100 = rows[:100]
