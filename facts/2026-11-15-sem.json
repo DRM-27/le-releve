@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-15-sem",
- "genere": "2026-11-16T00:05:18Z",
+ "genere": "2026-11-19T23:34:20Z",
  "couverture": {
   "releves": 7,
   "attendus": 7,
@@ -302,14 +302,14 @@
    "src": "data/semaines/2026-11-15.csv"
   },
   "baisse.1.var": {
-   "v": -0.46,
-   "d": "−46,0 %",
+   "v": -0.4688,
+   "d": "−46,9 %",
    "l": "Baisse n° 1 : variation hebdomadaire",
    "src": "data/semaines/2026-11-15.csv"
   },
   "baisse.1.moy": {
-   "v": 13450,
-   "d": "13 450",
+   "v": 13529,
+   "d": "13 529",
    "l": "Baisse n° 1 : moyenne de la semaine",
    "src": "data/semaines/2026-11-15.csv"
   },
@@ -320,8 +320,8 @@
    "src": "data/semaines/2026-11-15.csv"
   },
   "baisse.2.var": {
-   "v": -0.4159,
-   "d": "−41,6 %",
+   "v": -0.431,
+   "d": "−43,1 %",
    "l": "Baisse n° 2 : variation hebdomadaire",
    "src": "data/semaines/2026-11-15.csv"
   },
@@ -332,56 +332,56 @@
    "src": "data/semaines/2026-11-15.csv"
   },
   "baisse.3.nom": {
-   "v": "DONT SPLASH",
-   "d": "DONT SPLASH",
+   "v": "🗺️[MAPS] Bike Universe",
+   "d": "🗺️[MAPS] Bike Universe",
    "l": "Baisse n° 3 : nom",
    "src": "data/semaines/2026-11-15.csv"
   },
   "baisse.3.var": {
-   "v": -0.3372,
-   "d": "−33,7 %",
+   "v": -0.3349,
+   "d": "−33,5 %",
    "l": "Baisse n° 3 : variation hebdomadaire",
    "src": "data/semaines/2026-11-15.csv"
   },
   "baisse.3.moy": {
-   "v": 53553,
-   "d": "53 553",
+   "v": 15635,
+   "d": "15 635",
    "l": "Baisse n° 3 : moyenne de la semaine",
    "src": "data/semaines/2026-11-15.csv"
   },
   "baisse.4.nom": {
-   "v": "🗺️[MAPS] Bike Universe",
-   "d": "🗺️[MAPS] Bike Universe",
+   "v": "[HALLOWEEN] The Strongest Battlegrounds",
+   "d": "[HALLOWEEN] The Strongest Battlegrounds",
    "l": "Baisse n° 4 : nom",
    "src": "data/semaines/2026-11-15.csv"
   },
   "baisse.4.var": {
-   "v": -0.3349,
-   "d": "−33,5 %",
+   "v": -0.2962,
+   "d": "−29,6 %",
    "l": "Baisse n° 4 : variation hebdomadaire",
    "src": "data/semaines/2026-11-15.csv"
   },
   "baisse.4.moy": {
-   "v": 15635,
-   "d": "15 635",
+   "v": 47417,
+   "d": "47 417",
    "l": "Baisse n° 4 : moyenne de la semaine",
    "src": "data/semaines/2026-11-15.csv"
   },
   "baisse.5.nom": {
-   "v": "[HALLOWEEN] The Strongest Battlegrounds",
-   "d": "[HALLOWEEN] The Strongest Battlegrounds",
+   "v": "Anime Dice",
+   "d": "Anime Dice",
    "l": "Baisse n° 5 : nom",
    "src": "data/semaines/2026-11-15.csv"
   },
   "baisse.5.var": {
-   "v": -0.2962,
-   "d": "−29,6 %",
+   "v": -0.2891,
+   "d": "−28,9 %",
    "l": "Baisse n° 5 : variation hebdomadaire",
    "src": "data/semaines/2026-11-15.csv"
   },
   "baisse.5.moy": {
-   "v": 47417,
-   "d": "47 417",
+   "v": 26040,
+   "d": "26 040",
    "l": "Baisse n° 5 : moyenne de la semaine",
    "src": "data/semaines/2026-11-15.csv"
   }

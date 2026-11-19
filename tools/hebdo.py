@@ -13,14 +13,20 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import DATA, FACTS, TZ, fr_date, fr_int, fr_pct, fr_rank, iso, read_csv, utc_now, write_csv
 
 
-def main():
+def complet(r):
+    """Une journée ne compte dans la moyenne de la semaine que si le jeu y a été mesuré complètement
+    (colonne « complet » de data/jours, écrite par tools/facts.py depuis l'audit du 19/11/2026)."""
+    return str(r.get("complet", "1")).strip() in ("1", "")
+
+
+def main(sunday=None, force=False):
     today = utc_now().astimezone(TZ).date()
-    sunday = today - timedelta(days=today.weekday() + 1)
+    sunday = sunday or today - timedelta(days=today.weekday() + 1)
     days = [sunday - timedelta(days=k) for k in range(6, -1, -1)]
     prev = [d - timedelta(days=7) for d in days]
     fid = f"{sunday.isoformat()}-sem"
     out = FACTS / f"{fid}.json"
-    if out.exists():
+    if out.exists() and not force:
         print("Semaine déjà calculée.")
         return
     tables = [read_csv(DATA / "jours" / f"{d.isoformat()}.csv") for d in days]
@@ -31,11 +37,13 @@ def main():
     agg, pagg, names = {}, {}, {}
     for t in tables:
         for r in t:
-            agg.setdefault(r["universe_id"], []).append(int(r["moyenne"]))
             names[r["universe_id"]] = r["nom"]
+            if complet(r):
+                agg.setdefault(r["universe_id"], []).append(int(r["moyenne"]))
     for t in ptables:
         for r in t:
-            pagg.setdefault(r["universe_id"], []).append(int(r["moyenne"]))
+            if complet(r):
+                pagg.setdefault(r["universe_id"], []).append(int(r["moyenne"]))
     week = {u: mean(v) for u, v in agg.items() if len(v) >= 5}
     ranked = sorted(week, key=lambda u: -week[u])
     src = f"data/jours/{sunday.isoformat()}.csv"
@@ -74,4 +82,8 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # python tools/hebdo.py                     semaine écoulée (rien si déjà calculée)
+    # python tools/hebdo.py AAAA-MM-JJ --force  recalcule la semaine qui finit ce dimanche-là
+    from datetime import date
+    args = [a for a in sys.argv[1:] if a != "--force"]
+    main(date.fromisoformat(args[0]) if args else None, force="--force" in sys.argv)

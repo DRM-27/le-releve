@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-08-sem",
- "genere": "2026-11-08T23:55:31Z",
+ "genere": "2026-11-19T23:34:20Z",
  "couverture": {
   "releves": 7,
   "attendus": 7,
@@ -368,20 +368,20 @@
    "src": "data/semaines/2026-11-08.csv"
   },
   "baisse.5.nom": {
-   "v": "DOORS 🍬🍭",
-   "d": "DOORS 🍬🍭",
+   "v": "[♻️] Ride A Pet",
+   "d": "[♻️] Ride A Pet",
    "l": "Baisse n° 5 : nom",
    "src": "data/semaines/2026-11-08.csv"
   },
   "baisse.5.var": {
-   "v": -0.4024,
-   "d": "−40,2 %",
+   "v": -0.4243,
+   "d": "−42,4 %",
    "l": "Baisse n° 5 : variation hebdomadaire",
    "src": "data/semaines/2026-11-08.csv"
   },
   "baisse.5.moy": {
-   "v": 25442,
-   "d": "25 442",
+   "v": 12053,
+   "d": "12 053",
    "l": "Baisse n° 5 : moyenne de la semaine",
    "src": "data/semaines/2026-11-08.csv"
   }

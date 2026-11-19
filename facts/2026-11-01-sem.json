@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-01-sem",
- "genere": "2026-11-02T01:07:20Z",
+ "genere": "2026-11-19T23:34:20Z",
  "couverture": {
   "releves": 7,
   "attendus": 7,
@@ -74,8 +74,8 @@
    "src": "data/semaines/2026-11-01.csv"
   },
   "top.5.nom": {
-   "v": "[1.2X🎃] Adopt Me!",
-   "d": "[1.2X🎃] Adopt Me!",
+   "v": "[🎃] Adopt Me!",
+   "d": "[🎃] Adopt Me!",
    "l": "N° 5 de la semaine : nom",
    "src": "data/semaines/2026-11-01.csv"
   },
@@ -110,8 +110,8 @@
    "src": "data/semaines/2026-11-01.csv"
   },
   "top.8.nom": {
-   "v": "[🎃] RIVALS",
-   "d": "[🎃] RIVALS",
+   "v": "RIVALS",
+   "d": "RIVALS",
    "l": "N° 8 de la semaine : nom",
    "src": "data/semaines/2026-11-01.csv"
   },
@@ -168,7 +168,7 @@
      "valeur": 245298
     },
     {
-     "nom": "[1.2X🎃] Adopt Me!",
+     "nom": "[🎃] Adopt Me!",
      "valeur": 220486
     },
     {
@@ -180,7 +180,7 @@
      "valeur": 180232
     },
     {
-     "nom": "[🎃] RIVALS",
+     "nom": "RIVALS",
      "valeur": 167237
     },
     {
