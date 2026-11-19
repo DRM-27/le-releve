@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-18",
- "genere": "2026-11-19T14:06:43Z",
+ "genere": "2026-11-19T15:21:12Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -9111,93 +9111,93 @@
    "src": "data/jours/2026-11-18.csv#L95"
   },
   "g.5595353122.nom": {
-   "v": "[🕸️🎃Update] Project Slayers 2",
-   "d": "[🕸️🎃Update] Project Slayers 2",
-   "l": "[🕸️🎃Update] Project Slayers 2 : nom",
+   "v": "Project Slayers 2",
+   "d": "Project Slayers 2",
+   "l": "Project Slayers 2 : nom",
    "src": "data/jours/2026-11-18.csv#L96"
   },
   "g.5595353122.rang": {
    "v": 95,
    "d": "95e",
-   "l": "[🕸️🎃Update] Project Slayers 2 : rang au pic du jour",
+   "l": "Project Slayers 2 : rang au pic du jour",
    "src": "data/jours/2026-11-18.csv#L96"
   },
   "g.5595353122.pic": {
    "v": 16513,
    "d": "16 513",
-   "l": "[🕸️🎃Update] Project Slayers 2 : pic de joueurs simultanés relevé",
+   "l": "Project Slayers 2 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-18.csv#L96"
   },
   "g.5595353122.heure_pic": {
    "v": "17:48",
    "d": "17 h 48",
-   "l": "[🕸️🎃Update] Project Slayers 2 : heure (Paris) du pic relevé",
+   "l": "Project Slayers 2 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-18.csv#L96"
   },
   "g.5595353122.moy": {
    "v": 14053,
    "d": "14 053",
-   "l": "[🕸️🎃Update] Project Slayers 2 : moyenne des joueurs simultanés sur la journée",
+   "l": "Project Slayers 2 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-18.csv#L96"
   },
   "g.5595353122.createur": {
    "v": "OP: Project Slayers 2",
    "d": "OP: Project Slayers 2",
-   "l": "[🕸️🎃Update] Project Slayers 2 : créateur",
+   "l": "Project Slayers 2 : créateur",
    "src": "data/jours/2026-11-18.csv#L96"
   },
   "g.5595353122.genre": {
    "v": "RPG",
    "d": "RPG",
-   "l": "[🕸️🎃Update] Project Slayers 2 : genre",
+   "l": "Project Slayers 2 : genre",
    "src": "data/jours/2026-11-18.csv#L96"
   },
   "g.5595353122.var_veille": {
    "v": -0.0467,
    "d": "−4,7 %",
-   "l": "[🕸️🎃Update] Project Slayers 2 : variation de la moyenne par rapport à la veille",
+   "l": "Project Slayers 2 : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-18.csv#L96"
   },
   "g.5595353122.moy_veille": {
    "v": 14741,
    "d": "14 741",
-   "l": "[🕸️🎃Update] Project Slayers 2 : moyenne de la veille",
+   "l": "Project Slayers 2 : moyenne de la veille",
    "src": "data/jours/2026-11-18.csv#L96"
   },
   "g.5595353122.var_7j": {
    "v": 0.0289,
    "d": "+2,9 %",
-   "l": "[🕸️🎃Update] Project Slayers 2 : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Project Slayers 2 : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-18.csv#L96"
   },
   "g.5595353122.moy_7j": {
    "v": 13658,
    "d": "13 658",
-   "l": "[🕸️🎃Update] Project Slayers 2 : moyenne des 7 jours précédents",
+   "l": "Project Slayers 2 : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-18.csv#L96"
   },
   "g.5595353122.visites_24h": {
    "v": 702233,
    "d": "702 233",
-   "l": "[🕸️🎃Update] Project Slayers 2 : visites gagnées en 24 h",
+   "l": "Project Slayers 2 : visites gagnées en 24 h",
    "src": "data/jours/2026-11-18.csv#L96"
   },
   "g.5595353122.visites_total": {
    "v": 158088106,
    "d": "158,09 millions",
-   "l": "[🕸️🎃Update] Project Slayers 2 : visites cumulées depuis la création",
+   "l": "Project Slayers 2 : visites cumulées depuis la création",
    "src": "data/jours/2026-11-18.csv#L96"
   },
   "g.5595353122.note": {
    "v": 0.9737,
    "d": "97,4 %",
-   "l": "[🕸️🎃Update] Project Slayers 2 : part de votes positifs",
+   "l": "Project Slayers 2 : part de votes positifs",
    "src": "data/jours/2026-11-18.csv#L96"
   },
   "g.5595353122.rang_veille": {
    "v": 86,
    "d": "86e",
-   "l": "[🕸️🎃Update] Project Slayers 2 : rang la veille",
+   "l": "Project Slayers 2 : rang la veille",
    "src": "data/jours/2026-11-18.csv#L96"
   },
   "g.7633926880.nom": {
