@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-18",
- "genere": "2026-11-19T12:50:19Z",
+ "genere": "2026-11-19T13:46:25Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -9381,93 +9381,93 @@
    "src": "data/jours/2026-11-18.csv#L98"
   },
   "g.88070565.nom": {
-   "v": "[🐬] Welcome to Bloxburg ",
-   "d": "[🐬] Welcome to Bloxburg ",
-   "l": "[🐬] Welcome to Bloxburg  : nom",
+   "v": "[📱] Welcome to Bloxburg ",
+   "d": "[📱] Welcome to Bloxburg ",
+   "l": "[📱] Welcome to Bloxburg  : nom",
    "src": "data/jours/2026-11-18.csv#L99"
   },
   "g.88070565.rang": {
    "v": 98,
    "d": "98e",
-   "l": "[🐬] Welcome to Bloxburg  : rang au pic du jour",
+   "l": "[📱] Welcome to Bloxburg  : rang au pic du jour",
    "src": "data/jours/2026-11-18.csv#L99"
   },
   "g.88070565.pic": {
    "v": 15949,
    "d": "15 949",
-   "l": "[🐬] Welcome to Bloxburg  : pic de joueurs simultanés relevé",
+   "l": "[📱] Welcome to Bloxburg  : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-18.csv#L99"
   },
   "g.88070565.heure_pic": {
    "v": "02:44",
    "d": "2 h 44",
-   "l": "[🐬] Welcome to Bloxburg  : heure (Paris) du pic relevé",
+   "l": "[📱] Welcome to Bloxburg  : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-18.csv#L99"
   },
   "g.88070565.moy": {
    "v": 10702,
    "d": "10 702",
-   "l": "[🐬] Welcome to Bloxburg  : moyenne des joueurs simultanés sur la journée",
+   "l": "[📱] Welcome to Bloxburg  : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-18.csv#L99"
   },
   "g.88070565.createur": {
    "v": "Bloxburg Development",
    "d": "Bloxburg Development",
-   "l": "[🐬] Welcome to Bloxburg  : créateur",
+   "l": "[📱] Welcome to Bloxburg  : créateur",
    "src": "data/jours/2026-11-18.csv#L99"
   },
   "g.88070565.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "[🐬] Welcome to Bloxburg  : genre",
+   "l": "[📱] Welcome to Bloxburg  : genre",
    "src": "data/jours/2026-11-18.csv#L99"
   },
   "g.88070565.var_veille": {
    "v": -0.0322,
    "d": "−3,2 %",
-   "l": "[🐬] Welcome to Bloxburg  : variation de la moyenne par rapport à la veille",
+   "l": "[📱] Welcome to Bloxburg  : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-18.csv#L99"
   },
   "g.88070565.moy_veille": {
    "v": 11058,
    "d": "11 058",
-   "l": "[🐬] Welcome to Bloxburg  : moyenne de la veille",
+   "l": "[📱] Welcome to Bloxburg  : moyenne de la veille",
    "src": "data/jours/2026-11-18.csv#L99"
   },
   "g.88070565.var_7j": {
    "v": -0.2265,
    "d": "−22,7 %",
-   "l": "[🐬] Welcome to Bloxburg  : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[📱] Welcome to Bloxburg  : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-18.csv#L99"
   },
   "g.88070565.moy_7j": {
    "v": 13836,
    "d": "13 836",
-   "l": "[🐬] Welcome to Bloxburg  : moyenne des 7 jours précédents",
+   "l": "[📱] Welcome to Bloxburg  : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-18.csv#L99"
   },
   "g.88070565.visites_24h": {
    "v": 628848,
    "d": "628 848",
-   "l": "[🐬] Welcome to Bloxburg  : visites gagnées en 24 h",
+   "l": "[📱] Welcome to Bloxburg  : visites gagnées en 24 h",
    "src": "data/jours/2026-11-18.csv#L99"
   },
   "g.88070565.visites_total": {
    "v": 10167878796,
    "d": "10,17 milliards",
-   "l": "[🐬] Welcome to Bloxburg  : visites cumulées depuis la création",
+   "l": "[📱] Welcome to Bloxburg  : visites cumulées depuis la création",
    "src": "data/jours/2026-11-18.csv#L99"
   },
   "g.88070565.note": {
    "v": 0.8851,
    "d": "88,5 %",
-   "l": "[🐬] Welcome to Bloxburg  : part de votes positifs",
+   "l": "[📱] Welcome to Bloxburg  : part de votes positifs",
    "src": "data/jours/2026-11-18.csv#L99"
   },
   "g.88070565.rang_veille": {
    "v": 87,
    "d": "87e",
-   "l": "[🐬] Welcome to Bloxburg  : rang la veille",
+   "l": "[📱] Welcome to Bloxburg  : rang la veille",
    "src": "data/jours/2026-11-18.csv#L99"
   },
   "g.9978329815.nom": {
