@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-18",
- "genere": "2026-11-19T06:49:54Z",
+ "genere": "2026-11-19T07:48:42Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -6537,93 +6537,93 @@
    "src": "data/jours/2026-11-18.csv#L65"
   },
   "g.10769420234.nom": {
-   "v": "MOUSE 🐭",
-   "d": "MOUSE 🐭",
-   "l": "MOUSE 🐭 : nom",
+   "v": "MOUSE",
+   "d": "MOUSE",
+   "l": "MOUSE : nom",
    "src": "data/jours/2026-11-18.csv#L66"
   },
   "g.10769420234.rang": {
    "v": 65,
    "d": "65e",
-   "l": "MOUSE 🐭 : rang au pic du jour",
+   "l": "MOUSE : rang au pic du jour",
    "src": "data/jours/2026-11-18.csv#L66"
   },
   "g.10769420234.pic": {
    "v": 21258,
    "d": "21 258",
-   "l": "MOUSE 🐭 : pic de joueurs simultanés relevé",
+   "l": "MOUSE : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-18.csv#L66"
   },
   "g.10769420234.heure_pic": {
    "v": "01:37",
    "d": "1 h 37",
-   "l": "MOUSE 🐭 : heure (Paris) du pic relevé",
+   "l": "MOUSE : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-18.csv#L66"
   },
   "g.10769420234.moy": {
    "v": 14492,
    "d": "14 492",
-   "l": "MOUSE 🐭 : moyenne des joueurs simultanés sur la journée",
+   "l": "MOUSE : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-18.csv#L66"
   },
   "g.10769420234.createur": {
    "v": "Myriagone",
    "d": "Myriagone",
-   "l": "MOUSE 🐭 : créateur",
+   "l": "MOUSE : créateur",
    "src": "data/jours/2026-11-18.csv#L66"
   },
   "g.10769420234.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "MOUSE 🐭 : genre",
+   "l": "MOUSE : genre",
    "src": "data/jours/2026-11-18.csv#L66"
   },
   "g.10769420234.var_veille": {
    "v": -0.0207,
    "d": "−2,1 %",
-   "l": "MOUSE 🐭 : variation de la moyenne par rapport à la veille",
+   "l": "MOUSE : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-18.csv#L66"
   },
   "g.10769420234.moy_veille": {
    "v": 14799,
    "d": "14 799",
-   "l": "MOUSE 🐭 : moyenne de la veille",
+   "l": "MOUSE : moyenne de la veille",
    "src": "data/jours/2026-11-18.csv#L66"
   },
   "g.10769420234.var_7j": {
    "v": -0.1381,
    "d": "−13,8 %",
-   "l": "MOUSE 🐭 : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "MOUSE : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-18.csv#L66"
   },
   "g.10769420234.moy_7j": {
    "v": 16815,
    "d": "16 815",
-   "l": "MOUSE 🐭 : moyenne des 7 jours précédents",
+   "l": "MOUSE : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-18.csv#L66"
   },
   "g.10769420234.visites_24h": {
    "v": 1919075,
    "d": "1,92 million",
-   "l": "MOUSE 🐭 : visites gagnées en 24 h",
+   "l": "MOUSE : visites gagnées en 24 h",
    "src": "data/jours/2026-11-18.csv#L66"
   },
   "g.10769420234.visites_total": {
    "v": 37854916,
    "d": "37,85 millions",
-   "l": "MOUSE 🐭 : visites cumulées depuis la création",
+   "l": "MOUSE : visites cumulées depuis la création",
    "src": "data/jours/2026-11-18.csv#L66"
   },
   "g.10769420234.note": {
    "v": 0.8375,
    "d": "83,8 %",
-   "l": "MOUSE 🐭 : part de votes positifs",
+   "l": "MOUSE : part de votes positifs",
    "src": "data/jours/2026-11-18.csv#L66"
   },
   "g.10769420234.rang_veille": {
    "v": 56,
    "d": "56e",
-   "l": "MOUSE 🐭 : rang la veille",
+   "l": "MOUSE : rang la veille",
    "src": "data/jours/2026-11-18.csv#L66"
   },
   "g.9167377564.nom": {
