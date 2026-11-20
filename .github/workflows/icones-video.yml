@@ -3,6 +3,8 @@
 # (seul le demandeur peut l'ouvrir), posée sur une branche temporaire tmp/icones-<run>, qu'il supprime ensuite.
 name: Icônes pour les vidéos
 on:
+  schedule:
+    - cron: "17 4 * * *"   # ménage quotidien des branches temporaires
   workflow_dispatch:
     inputs:
       ids:
@@ -14,7 +16,21 @@ on:
 permissions:
   contents: write
 jobs:
+  menage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Supprimer les branches tmp/icones-* (archives chiffrées déjà récupérées)
+        run: |
+          for b in $(git ls-remote --heads origin 'tmp/icones-*' | awk '{print $2}' | sed 's#refs/heads/##'); do
+            [ "$b" = "tmp/icones-${{ github.run_id }}" ] || git push -q origin --delete "$b" || true
+          done
   icones:
+    if: github.event_name == 'workflow_dispatch'
+    needs: menage
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
