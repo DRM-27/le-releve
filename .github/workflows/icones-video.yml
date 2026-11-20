@@ -1,5 +1,6 @@
 # À la demande : télécharge les icônes de jeux (512 × 512) pour préparer des vidéos.
-# Les icônes ne sont pas versionnées : elles sortent en artefact, gardé 1 jour.
+# Les icônes ne sont jamais versionnées en clair : l'archive est chiffrée avec la clé publique fournie
+# (seul le demandeur peut l'ouvrir), posée sur une branche temporaire tmp/icones-<run>, qu'il supprime ensuite.
 name: Icônes pour les vidéos
 on:
   workflow_dispatch:
@@ -7,8 +8,11 @@ on:
       ids:
         description: "universe_id séparés par des virgules"
         required: true
+      cle:
+        description: "clé publique RSA (PEM encodé en base64) du demandeur"
+        required: true
 permissions:
-  contents: read
+  contents: write
 jobs:
   icones:
     runs-on: ubuntu-latest
@@ -19,8 +23,19 @@ jobs:
         with:
           python-version: "3.12"
       - run: python tools/social/icones.py "${{ inputs.ids }}" icones
-      - uses: actions/upload-artifact@v4
-        with:
-          name: icones
-          path: icones/
-          retention-days: 1
+      - name: Chiffrer et poser sur une branche temporaire
+        env:
+          CLE: ${{ inputs.cle }}
+        run: |
+          echo "$CLE" | base64 -d > pub.pem
+          zip -qr icones.zip icones
+          openssl rand -out k.bin 32
+          openssl enc -aes-256-cbc -pbkdf2 -salt -in icones.zip -out icones.zip.enc -pass file:k.bin
+          openssl pkeyutl -encrypt -pubin -inkey pub.pem -in k.bin -out cle.enc
+          git config user.name "github-actions[bot]"; git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan "tmp/icones-${{ github.run_id }}"
+          git rm -rfq --cached . ; mkdir -p /tmp/out; mv icones.zip.enc cle.enc /tmp/out/
+          rm -rf ./* ./.github 2>/dev/null || true; cp /tmp/out/* .
+          git add icones.zip.enc cle.enc
+          git commit -qm "Icônes chiffrées (temporaire)"
+          git push -q origin "HEAD:refs/heads/tmp/icones-${{ github.run_id }}"
