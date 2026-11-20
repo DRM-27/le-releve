@@ -164,7 +164,7 @@ jobs:
           ZONE=$(curl -s "$API/zones?name=playledgers.com" -H "$H" | python -c "import sys,json; r=json.load(sys.stdin).get('result') or []; print(r[0]['id'] if r else '')")
           if [ -n "$ZONE" ]; then
             for n in playledgers.com www; do
-              EXIST=$(curl -s "$API/zones/$ZONE/dns_records?name=$( [ $n = www ] && echo www.playledgers.com || echo playledgers.com )" -H "$H" | python -c "import sys,json; print(len(json.load(sys.stdin).get('result') or []))")
+              EXIST=$(curl -s "$API/zones/$ZONE/dns_records?name=$( [ $n = www ] && echo www.playledgers.com || echo playledgers.com )" -H "$H" | python -c "import sys,json; print(len([r for r in (json.load(sys.stdin).get('result') or []) if r.get('type') in ('A','AAAA','CNAME')]))")
               if [ "$EXIST" = "0" ]; then
                 curl -s -X POST "$API/zones/$ZONE/dns_records" -H "$H" -H "Content-Type: application/json" \
                   --data "{\"type\":\"CNAME\",\"name\":\"$n\",\"content\":\"playledgers.pages.dev\",\"proxied\":true}" | python -c "import sys,json; r=json.load(sys.stdin); print('dns', r.get('success'), [e.get('message') for e in r.get('errors', [])])" || true
