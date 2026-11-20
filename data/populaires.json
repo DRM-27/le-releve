@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-20T15:33:52Z",
+ "genere": "2026-11-20T15:46:16Z",
  "periode_jours": 7,
  "pages": [
   {
@@ -8,7 +8,7 @@
   },
   {
    "path": "/",
-   "vues": 9
+   "vues": 10
   },
   {
    "path": "/le-releve/explorer/",
