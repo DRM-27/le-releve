@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-20T08:05:18Z",
+ "genere": "2026-11-20T09:25:19Z",
  "periode_jours": 7,
  "pages": [
   {
@@ -21,6 +21,10 @@
   {
    "path": "/le-releve/articles/2026-11-17-volley-bomb-quotidien/",
    "vues": 2
+  },
+  {
+   "path": "/le-releve/articles/2026-11-19-jailbreak-quotidien/",
+   "vues": 1
   },
   {
    "path": "/le-releve/heures-de-pointe/",
