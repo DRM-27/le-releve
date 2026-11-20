@@ -697,8 +697,18 @@ def static_page(name, lang):
         src = CONTENT / f"{name}.md"
     text = src.read_text(encoding="utf-8") if src.exists() else ""
     contact = f"[{CONFIG['contact']}](mailto:{CONFIG['contact']})" if CONFIG.get("contact") else t("L’adresse de contact arrive très bientôt.")
+    hebergeurs = {
+        "github": {"fr": "GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis (service GitHub Pages).",
+                   "en": "GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United States (GitHub Pages service).",
+                   "es": "GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, Estados Unidos (servicio GitHub Pages).",
+                   "pt-br": "GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, Estados Unidos (serviço GitHub Pages)."},
+        "cloudflare": {"fr": "Cloudflare, Inc., 101 Townsend Street, San Francisco, CA 94107, États-Unis (service Cloudflare Pages).",
+                       "en": "Cloudflare, Inc., 101 Townsend Street, San Francisco, CA 94107, United States (Cloudflare Pages service).",
+                       "es": "Cloudflare, Inc., 101 Townsend Street, San Francisco, CA 94107, Estados Unidos (servicio Cloudflare Pages).",
+                       "pt-br": "Cloudflare, Inc., 101 Townsend Street, San Francisco, CA 94107, Estados Unidos (serviço Cloudflare Pages)."}}
+    h = hebergeurs.get(CONFIG.get("hebergeur", "github"), hebergeurs["github"])
     return (text.replace("{{depot}}", github_tree("")).replace("{{donnees}}", github_tree("data")).replace("{{nom}}", NAME)
-            .replace("{{contact}}", contact))
+            .replace("{{contact}}", contact).replace("{{hebergeur}}", h.get(lang, h["fr"])))
 
 
 def build(drafts=False):

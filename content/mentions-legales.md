@@ -2,13 +2,13 @@
 
 ## Éditeur
 
-{{nom}} est édité par : **[NOM ET PRÉNOM OU RAISON SOCIALE À COMPLÉTER]**, [adresse à compléter].
-Directeur de la publication : [nom à compléter].
-Contact : [adresse e-mail à compléter].
+{{nom}} est édité par : **Mohamed Ali Jalel Hachicha, entrepreneur individuel (EI)**, 361 rue Lecourbe, 75015 Paris, France. SIRET : 993 444 405 00019.
+Directeur de la publication : Mohamed Ali Jalel Hachicha.
+Contact : {{contact}}.
 
 ## Hébergeur
 
-GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis (service GitHub Pages).
+{{hebergeur}}
 
 ## Données personnelles et cookies
 

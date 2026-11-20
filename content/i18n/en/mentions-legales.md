@@ -2,13 +2,13 @@
 
 ## Publisher
 
-{{nom}} is published by: **[NAME OR COMPANY NAME TO BE COMPLETED]**, [address to be completed].
-Publication director: [name to be completed].
-Contact: [email address to be completed].
+{{nom}} is published by: **Mohamed Ali Jalel Hachicha, sole proprietor (entrepreneur individuel, EI)**, 361 rue Lecourbe, 75015 Paris, France. SIRET: 993 444 405 00019.
+Publication director: Mohamed Ali Jalel Hachicha.
+Contact: {{contact}}.
 
 ## Host
 
-GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United States (GitHub Pages service).
+{{hebergeur}}
 
 ## Personal data and cookies
 

@@ -2,13 +2,13 @@
 
 ## Editor
 
-O {{nom}} é editado por: **[NOME OU RAZÃO SOCIAL A COMPLETAR]**, [endereço a completar].
-Diretor de publicação: [nome a completar].
-Contato: [e-mail a completar].
+O {{nom}} é editado por: **Mohamed Ali Jalel Hachicha, empresário individual (entrepreneur individuel, EI)**, 361 rue Lecourbe, 75015 Paris, França. SIRET: 993 444 405 00019.
+Diretor de publicação: Mohamed Ali Jalel Hachicha.
+Contato: {{contact}}.
 
 ## Hospedagem
 
-GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, Estados Unidos (serviço GitHub Pages).
+{{hebergeur}}
 
 ## Dados pessoais e cookies
 

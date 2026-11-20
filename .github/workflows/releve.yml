@@ -117,6 +117,24 @@ jobs:
             gh issue close "$OPEN" --comment "Un quotidien est de nouveau publié." || true
           fi
 
+      - name: Hébergement (Cloudflare Pages dès que les secrets existent, sinon GitHub Pages)
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          if [ -n "$CLOUDFLARE_API_TOKEN" ] && [ -n "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            # config.json modifié dans l'exécution seulement (jamais commité) : le site est construit pour le domaine
+            python - <<'PY'
+          import json
+          c = json.load(open("config.json"))
+          c["baseUrl"] = c["domaine"]; c["hebergeur"] = "cloudflare"
+          json.dump(c, open("config.json", "w"), ensure_ascii=False, indent=2)
+          PY
+            echo "HEBERGEMENT=cloudflare" >> "$GITHUB_ENV"
+          else
+            echo "HEBERGEMENT=github" >> "$GITHUB_ENV"
+          fi
+
       - name: Rapport mensuel « État de Roblox » (PDF du mois écoulé, dès le 1er du mois)
         run: |
           MOIS=$(date -u -d "$(date -u +%Y-%m-01) -1 day" +%Y-%m)
@@ -128,9 +146,46 @@ jobs:
       - name: Contrôle qualité (liens, images, titres)
         run: python tools/qa.py || true
 
+      - name: Publier sur Cloudflare Pages (projet playledgers, domaine playledgers.com)
+        if: env.HEBERGEMENT == 'cloudflare'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          printf '/le-releve/* /:splat 301\n' > _site/_redirects
+          npx --yes wrangler@4 pages project create playledgers --production-branch=main 2>/dev/null || true
+          npx --yes wrangler@4 pages deploy _site --project-name=playledgers --branch=main --commit-dirty=true
+          # Domaine et DNS : idempotent, les erreurs « existe déjà » sont ignorées
+          API=https://api.cloudflare.com/client/v4; H="Authorization: Bearer $CLOUDFLARE_API_TOKEN"
+          for d in playledgers.com www.playledgers.com; do
+            curl -s -X POST "$API/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/playledgers/domains" -H "$H" \
+              -H "Content-Type: application/json" --data "{\"name\":\"$d\"}" | python -c "import sys,json; r=json.load(sys.stdin); print('domaine', '$d', r.get('success'), [e.get('message') for e in r.get('errors', [])])" || true
+          done
+          ZONE=$(curl -s "$API/zones?name=playledgers.com" -H "$H" | python -c "import sys,json; r=json.load(sys.stdin).get('result') or []; print(r[0]['id'] if r else '')")
+          if [ -n "$ZONE" ]; then
+            for n in playledgers.com www; do
+              EXIST=$(curl -s "$API/zones/$ZONE/dns_records?name=$( [ $n = www ] && echo www.playledgers.com || echo playledgers.com )" -H "$H" | python -c "import sys,json; print(len(json.load(sys.stdin).get('result') or []))")
+              if [ "$EXIST" = "0" ]; then
+                curl -s -X POST "$API/zones/$ZONE/dns_records" -H "$H" -H "Content-Type: application/json" \
+                  --data "{\"type\":\"CNAME\",\"name\":\"$n\",\"content\":\"playledgers.pages.dev\",\"proxied\":true}" | python -c "import sys,json; r=json.load(sys.stdin); print('dns', r.get('success'), [e.get('message') for e in r.get('errors', [])])" || true
+              fi
+            done
+          else
+            echo "::warning::Zone playledgers.com introuvable avec ce jeton (permission Zone › Zone › Read manquante ?). DNS à vérifier à la main."
+          fi
+
+      - name: Préparer GitHub Pages (le site, ou des redirections vers playledgers.com)
+        run: |
+          if [ "$HEBERGEMENT" = "cloudflare" ]; then
+            python tools/redirections.py _site _gh "$(python -c "import json; print(json.load(open('config.json'))['domaine'])")"
+            echo "PAGES_DIR=_gh" >> "$GITHUB_ENV"
+          else
+            echo "PAGES_DIR=_site" >> "$GITHUB_ENV"
+          fi
+
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+          path: ${{ env.PAGES_DIR }}
 
       - name: Signaler un relevé en échec
         if: steps.collect.outcome == 'failure'

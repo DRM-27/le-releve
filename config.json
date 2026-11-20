@@ -3,6 +3,9 @@
   "tagline": "L’économie de Roblox, en chiffres vérifiables",
   "description": "Média de données indépendant sur Roblox : classements, tendances et analyses calculés à partir de relevés publics, avec chaque chiffre relié à sa source.",
   "baseUrl": "https://drm-27.github.io/le-releve",
+  "domaine": "https://playledgers.com",
+  "hebergeur": "github",
+  "_aideHebergement": "baseUrl = adresse actuelle du site. Dès que les secrets CLOUDFLARE_API_TOKEN et CLOUDFLARE_ACCOUNT_ID existent dans GitHub, le workflow construit le site pour « domaine », le publie sur Cloudflare Pages (projet playledgers) et transforme l'ancienne adresse GitHub Pages en redirections. Ne pas changer baseUrl à la main.",
   "repo": "DRM-27/le-releve",
   "lang": "fr",
   "tz": "Europe/Paris",
@@ -12,7 +15,7 @@
     "keepDaysAfterSort": 14,
     "moversMinAvg": 1000
   },
-  "contact": "",
+  "contact": "contact@playledgers.com",
   "analytics": {
     "cloudflareToken": "aec00ff5876c4206aaa968672751e3b8",
     "cloudflareSiteTag": "b3cc0c251b6e4b25bb90d45007cacf5c"
