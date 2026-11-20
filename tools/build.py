@@ -593,6 +593,8 @@ def newsletter_box(variant="article"):
     text = {"article": t("Les chiffres clés de Roblox, une fois par semaine, et le rapport mensuel « État de Roblox » en PDF. Gratuit, désinscription en un clic."),
             "home": t("Les chiffres clés de la semaine et le rapport mensuel, dans votre boîte. Gratuit."),
             "rapport": t("Inscrivez-vous : vous recevrez chaque édition dès sa sortie, puis la newsletter hebdomadaire. Gratuit, désinscription en un clic.")}[variant]
+    if i18n.CUR != "en":
+        text += " " + t("La newsletter est rédigée en anglais.")
     src = f"https://subscribe-forms.beehiiv.com/v3/forms/{fid}"
     return (f'<section class="nl-box nl-{variant}"><h2>{esc(title)}</h2><p>{esc(text)}</p>'
             f'<iframe class="nl-frame" src="{esc(src)}" title="{esc(t("Inscription à la newsletter"))}" loading="lazy" scrolling="no" '
