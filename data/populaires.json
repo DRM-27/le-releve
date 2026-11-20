@@ -1,10 +1,10 @@
 {
- "genere": "2026-11-20T16:18:44Z",
+ "genere": "2026-11-20T16:45:48Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/",
-   "vues": 13
+   "vues": 19
   },
   {
    "path": "/le-releve/",
@@ -15,19 +15,15 @@
    "vues": 3
   },
   {
-   "path": "/articles/2026-11-18-hyper-realistic-ragdoll-quotidien/",
-   "vues": 2
+   "path": "/articles/2026-11-19-jailbreak-quotidien/",
+   "vues": 3
   },
   {
    "path": "/le-releve/alertes/",
    "vues": 2
   },
   {
-   "path": "/articles/2026-11-19-jailbreak-quotidien/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/classement/",
+   "path": "/articles/2026-11-18-hyper-realistic-ragdoll-quotidien/",
    "vues": 2
   },
   {
@@ -35,39 +31,15 @@
    "vues": 2
   },
   {
-   "path": "/le-releve/articles/2026-11-19-jailbreak-quotidien/",
+   "path": "/le-releve/classement/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/partenaires/",
    "vues": 1
   },
   {
-   "path": "/le-releve/heures-de-pointe/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/jeux/steal-an-egg-10563114921/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/records/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/articles/2026-11-18-hyper-realistic-ragdoll-quotidien/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/methode/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/source/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/confidentialite/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/donnees/",
+   "path": "/classement/",
    "vues": 1
   },
   {
@@ -75,11 +47,39 @@
    "vues": 1
   },
   {
+   "path": "/explorer/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/donnees/",
+   "vues": 1
+  },
+  {
    "path": "/le-releve/rapport/",
    "vues": 1
   },
   {
-   "path": "/le-releve/partenaires/",
+   "path": "/le-releve/confidentialite/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/articles/2026-11-19-jailbreak-quotidien/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/source/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/jeux/steal-an-egg-10563114921/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/heures-de-pointe/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/methode/",
    "vues": 1
   }
  ]
