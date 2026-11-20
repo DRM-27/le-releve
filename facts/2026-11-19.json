@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-19",
- "genere": "2026-11-20T11:22:44Z",
+ "genere": "2026-11-20T11:35:49Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -11582,6 +11582,12 @@
    "l": "Hausse n° 1 : rang au pic du jour",
    "src": "data/jours/2026-11-19.csv#L90"
   },
+  "hausse.1.mult": {
+   "v": 2.8179596823457542,
+   "d": "×2,8",
+   "l": "Hausse n° 1 : multiplicateur (moyenne du jour ÷ moyenne de référence)",
+   "src": "data/jours/2026-11-19.csv#L90"
+  },
   "hausse.2.nom": {
    "v": "Emergency Hamburg",
    "d": "Emergency Hamburg",
@@ -11610,6 +11616,12 @@
    "v": 24,
    "d": "24e",
    "l": "Hausse n° 2 : rang au pic du jour",
+   "src": "data/jours/2026-11-19.csv#L25"
+  },
+  "hausse.2.mult": {
+   "v": 2.19179412478757,
+   "d": "×2,2",
+   "l": "Hausse n° 2 : multiplicateur (moyenne du jour ÷ moyenne de référence)",
    "src": "data/jours/2026-11-19.csv#L25"
   },
   "hausse.3.nom": {
@@ -11642,6 +11654,12 @@
    "l": "Hausse n° 3 : rang au pic du jour",
    "src": "data/jours/2026-11-19.csv#L107"
   },
+  "hausse.3.mult": {
+   "v": 1.9815364325750082,
+   "d": "×2",
+   "l": "Hausse n° 3 : multiplicateur (moyenne du jour ÷ moyenne de référence)",
+   "src": "data/jours/2026-11-19.csv#L107"
+  },
   "hausse.4.nom": {
    "v": "Volley Bomb",
    "d": "Volley Bomb",
@@ -11670,6 +11688,12 @@
    "v": 53,
    "d": "53e",
    "l": "Hausse n° 4 : rang au pic du jour",
+   "src": "data/jours/2026-11-19.csv#L54"
+  },
+  "hausse.4.mult": {
+   "v": 1.3967487754667425,
+   "d": "×1,4",
+   "l": "Hausse n° 4 : multiplicateur (moyenne du jour ÷ moyenne de référence)",
    "src": "data/jours/2026-11-19.csv#L54"
   },
   "hausse.5.nom": {
@@ -11702,6 +11726,12 @@
    "l": "Hausse n° 5 : rang au pic du jour",
    "src": "data/jours/2026-11-19.csv#L5"
   },
+  "hausse.5.mult": {
+   "v": 1.3428851226329672,
+   "d": "×1,3",
+   "l": "Hausse n° 5 : multiplicateur (moyenne du jour ÷ moyenne de référence)",
+   "src": "data/jours/2026-11-19.csv#L5"
+  },
   "baisse.1.nom": {
    "v": "Untitled Ragdoll Game",
    "d": "Untitled Ragdoll Game",
@@ -11730,6 +11760,12 @@
    "v": 528,
    "d": "528e",
    "l": "Baisse n° 1 : rang au pic du jour",
+   "src": "data/jours/2026-11-19.csv#L529"
+  },
+  "baisse.1.div": {
+   "v": 6.576557550158395,
+   "d": "÷6,6",
+   "l": "Baisse n° 1 : diviseur (moyenne de référence ÷ moyenne du jour)",
    "src": "data/jours/2026-11-19.csv#L529"
   },
   "baisse.2.nom": {
@@ -11762,6 +11798,12 @@
    "l": "Baisse n° 2 : rang au pic du jour",
    "src": "data/jours/2026-11-19.csv#L625"
   },
+  "baisse.2.div": {
+   "v": 4.680327868852459,
+   "d": "÷4,7",
+   "l": "Baisse n° 2 : diviseur (moyenne de référence ÷ moyenne du jour)",
+   "src": "data/jours/2026-11-19.csv#L625"
+  },
   "baisse.3.nom": {
    "v": "[🍥W3] +1 Sukuna Evolution",
    "d": "[🍥W3] +1 Sukuna Evolution",
@@ -11790,6 +11832,12 @@
    "v": 301,
    "d": "301e",
    "l": "Baisse n° 3 : rang au pic du jour",
+   "src": "data/jours/2026-11-19.csv#L302"
+  },
+  "baisse.3.div": {
+   "v": 3.5647024841132295,
+   "d": "÷3,6",
+   "l": "Baisse n° 3 : diviseur (moyenne de référence ÷ moyenne du jour)",
    "src": "data/jours/2026-11-19.csv#L302"
   },
   "baisse.4.nom": {
@@ -11822,6 +11870,12 @@
    "l": "Baisse n° 4 : rang au pic du jour",
    "src": "data/jours/2026-11-19.csv#L64"
   },
+  "baisse.4.div": {
+   "v": 3.243391388913447,
+   "d": "÷3,2",
+   "l": "Baisse n° 4 : diviseur (moyenne de référence ÷ moyenne du jour)",
+   "src": "data/jours/2026-11-19.csv#L64"
+  },
   "baisse.5.nom": {
    "v": "Boats Go BOOM💥[FPS]",
    "d": "Boats Go BOOM💥[FPS]",
@@ -11850,6 +11904,12 @@
    "v": 552,
    "d": "552e",
    "l": "Baisse n° 5 : rang au pic du jour",
+   "src": "data/jours/2026-11-19.csv#L553"
+  },
+  "baisse.5.div": {
+   "v": 3.2119309262166404,
+   "d": "÷3,2",
+   "l": "Baisse n° 5 : diviseur (moyenne de référence ÷ moyenne du jour)",
    "src": "data/jours/2026-11-19.csv#L553"
   },
   "entrees.nb": {
@@ -12109,6 +12169,60 @@
    "d": "18 septembre 2026",
    "l": "Jeu récent le mieux classé : date de création",
    "src": "data/jours/2026-11-19.csv#L4"
+  },
+  "recent.1.age": {
+   "v": 62,
+   "d": "62",
+   "l": "Jeu récent le mieux classé : jours depuis la création",
+   "src": "data/jours/2026-11-19.csv#L4"
+  },
+  "recent.2.nom": {
+   "v": "Break and Steal an Egg",
+   "d": "Break and Steal an Egg",
+   "l": "Jeu récent n° 2 : nom",
+   "src": "data/jours/2026-11-19.csv#L7"
+  },
+  "recent.2.rang": {
+   "v": 6,
+   "d": "6e",
+   "l": "Jeu récent n° 2 : rang",
+   "src": "data/jours/2026-11-19.csv#L7"
+  },
+  "recent.2.cree": {
+   "v": "2026-09-05",
+   "d": "5 septembre 2026",
+   "l": "Jeu récent n° 2 : date de création",
+   "src": "data/jours/2026-11-19.csv#L7"
+  },
+  "recent.2.age": {
+   "v": 75,
+   "d": "75",
+   "l": "Jeu récent n° 2 : jours depuis la création",
+   "src": "data/jours/2026-11-19.csv#L7"
+  },
+  "recent.3.nom": {
+   "v": "Hyper Realistic Ragdoll",
+   "d": "Hyper Realistic Ragdoll",
+   "l": "Jeu récent n° 3 : nom",
+   "src": "data/jours/2026-11-19.csv#L11"
+  },
+  "recent.3.rang": {
+   "v": 10,
+   "d": "10e",
+   "l": "Jeu récent n° 3 : rang",
+   "src": "data/jours/2026-11-19.csv#L11"
+  },
+  "recent.3.cree": {
+   "v": "2026-10-29",
+   "d": "29 octobre 2026",
+   "l": "Jeu récent n° 3 : date de création",
+   "src": "data/jours/2026-11-19.csv#L11"
+  },
+  "recent.3.age": {
+   "v": 21,
+   "d": "21",
+   "l": "Jeu récent n° 3 : jours depuis la création",
+   "src": "data/jours/2026-11-19.csv#L11"
   }
  },
  "graphiques": {
