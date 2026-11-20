@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><link rel="stylesheet" href="socle.css">
+<style>
+.blk{position:absolute;left:72px;width:828px}
+.blk .lab{position:absolute;left:0;top:0;font-size:62px;font-weight:900;letter-spacing:.02em}
+.blk .dte{position:absolute;right:0;top:-6px;font-size:28px;font-weight:700;color:var(--muted);text-align:right}
+.blk .tot{position:absolute;right:0;top:26px;font-size:58px;text-align:right;white-space:nowrap}
+.blk .bar{position:absolute;left:0;top:88px;width:828px;height:120px;overflow:hidden;border-radius:8px}
+.shine{position:absolute;top:0;height:100%;width:160px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.38),transparent);z-index:2}
+.sg{position:absolute;top:0;height:120px;border-radius:8px;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.sg img{flex:none}
+.sg .qm{position:absolute;font-size:84px;font-weight:900;color:#fff;text-shadow:0 4px 18px rgba(0,0,0,.5)}
+.ln{position:absolute;left:0;width:828px;display:flex;align-items:center;gap:16px;font-size:40px;font-weight:700;color:var(--ink2);white-space:nowrap}
+.ln b{color:var(--ink);font-weight:800}
+.ln .tab{font-weight:800;color:var(--ink)}
+.pill{background:var(--c);color:#04282a;font-size:24px;font-weight:900;padding:4px 10px;border-radius:8px;letter-spacing:.04em}
+#bR{top:552px} #bR .lab,#bR .tot{color:var(--up)}
+#bS{top:964px} #bS .lab,#bS .tot{color:var(--down)}
+#ov{position:absolute;left:72px;top:540px;width:828px}
+#ovn{font-size:200px;color:var(--down);transform-origin:0 70%}
+#ovt{font-size:44px;font-weight:700;line-height:1.2;margin-top:6px}
+#ovs{font-size:48px;font-weight:800;color:var(--ink2);margin-top:12px}
+#ovs b{color:var(--ink)}
+</style></head>
+<body>
+<div id="stage">
+  <div class="blk" id="bR"><div class="lab"></div><div class="dte" id="dR"></div><div class="big tot" id="tR"></div><div class="bar" id="barR"></div>
+    <div class="ln" id="r1" style="top:226px"></div><div class="ln" id="r2" style="top:306px"></div></div>
+  <div class="blk" id="bS"><div class="lab"></div><div class="dte" id="dS"></div><div class="big tot" id="tS"></div><div class="bar" id="barS"></div>
+    <div class="ln" id="s1" style="top:226px"></div><div class="ln" id="s2" style="top:306px"></div></div>
+  <div id="ov"><div class="big" id="ovn"></div><div id="ovt"></div><div id="ovs"></div></div>
+</div>
+<script src="socle.js"></script>
+<script>
+DUR = 19.6;
+const MR = [1.6, 4.2], LR = [4.4, 5.4], MS = [7.9, 11.0], LS = [11.2, 11.8], OV = 12.6, Q = [15.4, 18.4];
+let SR = [], SS = [], MAX = 1, GR = null, GS = null;
+const pct = x => (Math.round(x * 1000) / 10).toFixed(1).replace(".", ",").replace(",0", "") + " %";
+function segs(g){
+  const both = g.jeux.filter(j => !j.nouveau && !j.sorti).sort((a, b) => b.a - a.a), big = both[0];
+  const nv = g.jeux.filter(j => j.nouveau), nvb = nv.reduce((s, j) => s + j.b, 0);
+  return {big, nv, list: [
+    {id: "big", a: big.a, b: big.b, uid: big.uid},
+    {id: "nv", a: 0, b: nvb, uid: nv.length ? nv.sort((x, y) => y.b - x.b)[0].uid : null},
+    {id: "rest", a: g.a - big.a, b: g.b - big.b - nvb}]};
+}
+function init(data){
+  D = data; GR = D.genres.up; GS = D.genres.down;
+  $("bR").querySelector(".lab").textContent = GR.lab; $("bS").querySelector(".lab").textContent = GS.lab;
+  const mR = GR.b / GR.a, mS = GS.a / GS.b;
+  // titre : la couverture dit déjà que la baisse tient surtout à un seul jeu (sinon, simple constat)
+  const big0 = GS.jeux.filter(j => !j.nouveau && !j.sorti).sort((a, b) => b.a - a.a)[0], partBig = (big0.a - big0.b) / (GS.a - GS.b);
+  const fx = (v, sg) => sg + v.toFixed(1).replace(".", ",").replace(/,0$/, "");
+  if (partBig < .6) throw new Error("la baisse ne tient pas à un seul jeu : ce format ne s'applique pas");
+  const TITRE = `${GS.titre} ${fx(mS, "÷")}… à cause d’un seul jeu.`;
+  chrome({couleur: "#4fd1d9", mot: "GENRES", sous: `${dateCourte(D.a)} → ${dateCourte(D.b)}`,
+          titre: TITRE, taille: 80, maxH: 175,
+          qTop: 1192, question: `${court(big0.nom)}, c’est vraiment ${GS.q} ?`, source: "genres : catégories Roblox · jeux du top 100, moyennes du jour, API publiques de Roblox · non affilié à Roblox"});
+  MAX = Math.max(GR.a, GR.b, GS.a, GS.b);
+  const R1 = segs(GR), S1 = segs(GS); SR = R1.list; SS = [S1.list[0], {id: "rest", a: GS.a - S1.big.a, b: GS.b - S1.big.b}];
+  const col = {R: {big: "#3cc46e", nv: "#9be8b6", rest: "#2c5c40"}, S: {big: "#ff5c5c", rest: "#7c3540"}};
+  $("barR").innerHTML = SR.map(s => `<div class="sg" id="R${s.id}" style="background:${col.R[s.id]}">${s.uid ? ico(s.uid, 84) : ""}</div>`).join("");
+  $("barS").innerHTML = SS.map(s => `<div class="sg" id="S${s.id}" style="background:${col.S[s.id]}">${s.uid ? ico(s.uid, 84) + '<span class="qm">?</span>' : ""}</div>`).join("");
+  ["barR", "barS"].forEach(b => $(b).insertAdjacentHTML("beforeend", '<div class="shine"></div>'));
+  $("ov").classList.add("fort"); document.querySelectorAll(".ln").forEach(l => l.classList.add("zs"));
+  const B = R1.big, nv = R1.nv;
+  $("r1").innerHTML = `${ico(B.uid, 64)}<span><b>${court(B.nom)}</b>\u00a0: <span class="tab">${fmt(B.a)} → ${fmt(B.b)}</span></span>`;
+  $("r2").innerHTML = `<span style="display:flex;gap:6px">${nv.slice(0, 2).map(j => ico(j.uid, 64)).join("")}</span><span><b>${nv.length} ${nv.length > 1 ? "nouveaux jeux" : "nouveau jeu"} ${GR.de}</b> dans le top 100\u00a0: <span class="tab">${fmt(SR[1].b)}</span></span>`;
+  if (!nv.length) $("r2").innerHTML = "";
+  const M = S1.big;
+  $("s1").innerHTML = `${ico(M.uid, 64)}<span><b>${court(M.nom)}</b>\u00a0: <span class="tab">${fmt(M.a)} → ${fmt(M.b)}</span></span>`;
+  $("s2").innerHTML = `<span>les autres jeux ${GS.de}\u00a0: <span class="tab">${fmt(SS[1].a)} → ${fmt(SS[1].b)}</span></span>`;
+  // part de la baisse due au plus gros jeu, et baisse sans lui (calculées sur les mêmes moyennes)
+  const drop = GS.a - GS.b, partM = (M.a - M.b) / drop, sans = (SS[1].b - SS[1].a) / SS[1].a;
+  split("ovn", Math.round(partM * 100) + "\u00a0%");
+  $("ovt").textContent = `de la baisse ${GS.q} vient d’un seul jeu\u00a0: ${court(M.nom)}.`;
+  $("ovs").innerHTML = `Sans lui, ${GS.titre.replace(/^./, c => c.toLowerCase())} ${/^Les /.test(GS.titre) ? "perdent" : "perd"} <b>${pct(-sans)}</b>.`;
+  // chaque ligne tient dans la largeur : on réduit la police si besoin
+  document.querySelectorAll(".ln").forEach(l => { let f = 40; while (l.scrollWidth > 828 && f > 30) { f -= 1; l.style.fontSize = f + "px"; } });
+  sfx(MS[0] - .4, "pop");
+  sfx(.25, "whoosh"); [0, 1, 2].forEach(k => sfx(.35 + k * .22, "bulle"));
+  sfx(MR[0], "rise"); sfx(MR[1], "pop"); sfx(LR[0], "pop"); sfx(LR[1], "pop");
+  sfx(MS[0], "whoosh"); sfx(MS[0] + 1.4, "fall"); sfx(MS[1], "impact"); sfx(MS[1], "flash"); sfx(LS[0], "pop");
+  sfx(OV, "whoosh"); sfx(OV + .1, "pop"); sfx(Q[0], "question"); sfx(DUR - LOOPD, "rewind");
+}
+function layout(list, pre, p){
+  let x = 0;
+  list.forEach(s => { const v = lerp(s.a, s.b, p), w = 828 * v / MAX, el = $(pre + s.id);
+    el.style.left = x + "px"; el.style.width = Math.max(0, w - 4) + "px"; el.style.opacity = w > 2 ? 1 : 0;
+    const im = el.querySelector("img"); if (im) im.style.opacity = clamp((w - 86) / 14); x += w; });
+}
+function render(t){
+  amb(t);
+  const L = loopP(t);
+  const pR = eio(seg(t, ...MR)) * (1 - L), pS = (t < MS[0] ? 0 : Math.pow(seg(t, ...MS), 2.4)) * (1 - L);   // la survie tombe en accélérant
+  layout(SR, "R", pR); layout(SS, "S", pS);
+  // icônes des segments : petit rebond d'ouverture
+  ["Rbig", "Rnv", "Sbig"].forEach((id, k) => { const im = $(id).querySelector("img"); if (im) im.style.transform = `scale(${1 + .18 * Math.sin(Math.PI * seg(t, .3 + k * .22, .65 + k * .22))})`; });
+  const setTot = (id, dId, g, p, at) => { const done = p >= .999; setDrop(id, fmt(done ? g.b : g.a), t, done && t < DUR - LOOPD ? at : -1); $(dId).textContent = (p > .5 ? dateCourte(D.b) : dateCourte(D.a)); };
+  setTot("tR", "dR", GR, pR, MR[1]); setTot("tS", "dS", GS, pS, MS[1]);
+  // focus : un bloc à la fois
+  const fR = eo(seg(t, LR[0] - .1, LR[0] + .3)) * (1 - eo(seg(t, MS[0] - .3, MS[0]))), fS = eo(seg(t, MS[0] - .3, MS[0])) * (1 - L);
+  const ov = eo(seg(t, OV - .2, OV + .2)) * (1 - L);
+  $("bR").style.opacity = (1 - .55 * fS) * (1 - ov); $("bS").style.opacity = 1 - .55 * fR;
+  // le bloc expliqué grossit doucement (jamais d'image figée)
+  $("bR").style.transformOrigin = $("bS").style.transformOrigin = "0 0";
+  // mouvement continu sans agrandir les blocs (pleine largeur) : les icônes des segments respirent pendant l'explication
+  const br = t > LR[1] + .5 && t < MS[0] ? Math.sin(2 * Math.PI * (t - LR[1]) / 1.1) : 0;
+  ["Rbig", "Rnv"].forEach((id, k) => { const im = $(id).querySelector("img"); if (im && br) im.style.transform = `scale(${1 + .09 * (k ? -br : br)})`; });
+  $("Rnv").style.filter = `brightness(${1 + .25 * Math.max(0, br)})`;
+  ["r1", "r2", "s1", "s2"].forEach((id, k) => { const at = [LR[0], LR[1], LS[0], LS[1]][k];
+    [...$(id).querySelectorAll("img")].forEach((im, i) => { im.style.transform = `scale(${1 + .2 * Math.sin(Math.PI * seg(t, at + .1 + i * .15, at + .45 + i * .15))})`; }); });
+  fade("r1", t, LR[0]); fade("r2", t, LR[1]); ["r1", "r2"].forEach(id => $(id).style.opacity *= 1 - L);
+  fade("s1", t, LS[0]); fade("s2", t, LS[1]); ["s1", "s2"].forEach(id => $(id).style.opacity *= 1 - L);
+  // moment fort
+  vis("ov", ov); pop("ovn", t, OV, .6); drop("ovn", t, OV + .05, .06, 70); $("ovn").style.transform += ` scale(${1 + .05 * seg(t, OV + .4, DUR - LOOPD)})`;
+  fade("ovt", t, OV + .5); fade("ovs", t, OV + 1.2);
+  // le jeu de survie reste caché (« ? ») jusqu'à ce que la caméra passe sur la survie
+  const rv = seg(t, MS[0] - .4, MS[0] - .1) * (1 - L), qm = $("Sbig").querySelector(".qm"), mi = $("Sbig").querySelector("img");
+  qm.style.opacity = (1 - rv) * clamp(($("Sbig").offsetWidth - 70) / 14);
+  qm.style.transform = `scale(${1 + .3 * Math.sin(Math.PI * seg(t, .3, .75)) + .3 * Math.sin(Math.PI * seg(t, .85, 1.3)) + .12 * Math.sin(2 * Math.PI * Math.max(0, t - 1.3) / 1.1) * (t < MS[0] - .4 ? 1 : 0)})`;
+  document.querySelectorAll(".shine").forEach((sh, k) => { const p = seg(t, .35 + k * .3, 1.25 + k * .3); sh.style.left = lerp(-160, 860, p) + "px"; sh.style.opacity = p > 0 && p < 1 ? 1 : 0; }); mi.style.opacity = Math.min(+mi.style.opacity, rv);
+  mi.style.transform = `scale(${.6 + .4 * back(rv)})`;
+  const mm = $("Sbig").querySelector("img"); if (mm && t > MS[1]) mm.style.transform = `scale(${1 + .08 * Math.sin(2 * Math.PI * (t - MS[1]) / 1.2)})`;
+  setFlash(flash(t, MS[1], .4, .45));
+  qcard(t, ...Q);
+  camera(t, 1, [[MS[1], 16, .5]]);
+}
+</script>
+</body></html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><link rel="stylesheet" href="socle.css">
+<style>
+#king{position:absolute;left:72px;top:318px;width:828px;display:flex;align-items:center;gap:24px}
+#king .c{position:absolute;left:30px;top:-46px;font-size:58px}
+#king .tx{font-size:38px;font-weight:700;color:var(--ink2);line-height:1.2}
+#king .tx b{color:var(--ink);font-weight:800}
+#day{position:absolute;left:72px;top:540px;font-size:48px;font-weight:800;color:var(--c)}
+#chg{right:180px;top:538px;background:var(--c);color:#2a1a05;font-size:35px;transform-origin:100% 50%;z-index:6}
+.slot{position:absolute;left:72px;width:76px;font-size:50px;font-weight:900;color:var(--muted)}
+.slot.s0{color:var(--c);font-size:54px}
+.row{position:absolute;left:150px;width:750px;height:138px;background:#111a26;border-radius:20px;box-shadow:0 6px 18px rgba(0,0,0,.35);transform-origin:50% 50%}
+.row .ics{position:absolute;left:10px;top:11px;width:116px;height:116px}
+.row .ics img{position:absolute;left:0;top:0;display:none}
+.row .nm{position:absolute;left:142px;top:6px;font-size:44px;font-weight:800;white-space:nowrap;max-width:590px;overflow:hidden;text-overflow:ellipsis}
+.row .tr{position:absolute;left:142px;top:70px;height:54px;border-radius:12px}
+.row .vl{position:absolute;top:70px;font-size:50px;font-weight:900;font-variant-numeric:tabular-nums;white-space:nowrap;line-height:54px}
+.row.lead .tr{box-shadow:0 0 0 4px var(--c),0 0 30px color-mix(in srgb,var(--c) 60%,transparent)}
+#ph{position:absolute;left:150px;width:750px;height:138px;border:4px dashed var(--c);border-radius:20px;opacity:0}
+.row.lead{box-shadow:0 0 0 3px color-mix(in srgb,var(--c) 70%,transparent),0 6px 18px rgba(0,0,0,.35)}
+</style></head>
+<body>
+<div id="stage">
+  <div id="day"></div>
+  <div id="slots"></div>
+  <div id="ph"></div>
+  <div id="rows"></div>
+</div>
+<div id="king"></div>
+<div class="chip" id="chg"></div>
+<script src="socle.js"></script>
+<script>
+/* Course à la 2e place, jour par jour (jours mesurés). Règles : l'ordre et les chiffres affichés sont toujours ceux du même jour ;
+   seule la 2e place glisse (ralenti) ; les places 3 à 6 basculent sur place en 0,16 s, sans glissement ; jamais deux chiffres sur une ligne. */
+const COL = ["#6fa0ff", "#3cc46e", "#ff7a8a", "#b48cff", "#4fd1d9", "#c7d36b", "#ff9f5c", "#e58bd8", "#9fb3c8"];
+const TOP = 600, H = 150, START = 1.8, FLIP = .08;
+let U = [], NJ = 0, ORD = [], S = [], CHG = new Set(), SLD = {}, Q = [], COLOR = {};
+const val = (u, j) => D.serie[u][Math.max(0, j)].v;
+const sy = k => TOP + k * H;
+function init(data){
+  D = data; NJ = D.jours.length; U = Object.keys(D.serie);
+  U.forEach((u, i) => COLOR[u] = COL[i % COL.length]);
+  ORD = D.jours.map((_, j) => [...U].sort((a, b) => val(b, j) - val(a, j)));
+  ORD.forEach((o, j) => { if (o[0] !== D.deuxieme[j]) throw new Error(`2e place incohérente le ${D.jours[j]}`); });
+  for (let j = 1; j < NJ; j++) if (ORD[j][0] !== ORD[j - 1][0]) CHG.add(j);
+  // horaire : S[j] = instant où le jour j s'affiche ; vitesse fixe, ralentie autour de chaque changement de 2e place
+  S = [-1, START];
+  for (let j = 1; j < NJ - 1; j++) S.push(S[j] + (CHG.has(j) ? 1.25 : CHG.has(j + 1) ? .5 : .34));
+  const last = S[NJ - 1]; Q = [last + 2.4, last + 5.4]; DUR = Q[1] + 1.1;
+  CHG.forEach(j => { const a = ORD[j - 1][0], b = ORD[j][0], fin = j === NJ - 1;
+    SLD[j] = {a, b, kFrom: ORD[j - 1].indexOf(b), kTo: ORD[j].indexOf(a), d: fin ? 1.1 : .6, fin}; });
+  const n1 = D.n1[0];
+  chrome({couleur: "#f2b45a", mot: "COURSE", sous: `${dateCourte(D.jours[0])} → ${dateCourte(D.jours[NJ - 1])}`,
+          titre: "Mais qui est 2e ?", taille: 96, qTop: 1196, question: "Qui sera 2e la semaine prochaine ?",
+          source: "moyennes du jour, API publiques de Roblox · non affilié à Roblox"});
+  $("title").style.top = "428px"; $("title").style.color = "var(--c)";
+  if (!D.n1_tous_les_jours) throw new Error("le n° 1 a changé : ce format raconte la course pour la 1re place");
+  $("king").innerHTML = `<span class="c">👑</span>${ico(n1, 96)}<div class="tx"><b>${court(D.noms[n1])}</b> est n° 1 tous les jours depuis le ${dateMoy(D.jours[0])}.</div>`;
+  $("slots").innerHTML = [0, 1, 2, 3, 4].map(k => `<div class="slot s${k}" style="top:${sy(k) + 38}px">${k + 2}e</div>`).join("");
+  const row = id => `<div class="row" id="${id}"><div class="ics">${U.map(u => ico(u, 116).replace("<img", `<img data-u="${u}"`)).join("")}</div><div class="nm"></div><div class="tr"></div><div class="vl val"></div></div>`;
+  $("rows").innerHTML = [0, 1, 2, 3, 4].map(k => row("s" + k)).join("") + row("g2") + row("g1");
+  $("rows").querySelectorAll(".row").forEach(r => r.classList.add("zs"));
+  $("s0").classList.add("fort");
+  sfx(.25, "depart"); sfx(START - .05, "whoosh");
+  for (let j = 2; j < NJ; j++) if (!CHG.has(j) && S[j] - S[j - 1] < .4) sfx(S[j], "tick");
+  CHG.forEach(j => { const s = SLD[j], at = S[j] + s.d * .5; sfx(S[j], "whoosh"); sfx(at, s.fin ? "impact" : "thud"); sfx(at, "flash"); if (s.fin) sfx(S[j] - 1.6, "tension"); });
+  sfx(Q[0], "question"); sfx(DUR - LOOPD, "rewind");
+}
+/* contrôle propre à la course : un jeu n'est jamais affiché deux fois, et chaque place visible a son contenu */
+function verifPage(t){
+  const vus = {};
+  ["s0", "s1", "s2", "s3", "s4", "g1"].forEach(id => { const el = $(id); if (opac(el) > .3) { const u = el.dataset.u; if (vus[u]) err("double" + u, `${court(D.noms[u])} est affiché deux fois`, t); vus[u] = 1; } });
+}
+/* contenu d'une ligne : icône, nom, barre et chiffre du jour affiché */
+function fill(id, u, j, gp, lead){
+  const el = $(id); if (el.dataset.u !== u) { el.dataset.u = u; el.querySelectorAll(".ics img").forEach(im => im.style.display = im.dataset.u === u ? "block" : "none");
+    el.querySelector(".nm").textContent = court(D.noms[u]); el.querySelector(".tr").style.background = COLOR[u]; }
+  const v = lerp(val(u, j - 1), val(u, j), gp), w = clamp(370 * v / lead, 14, 390);
+  el.querySelector(".tr").style.width = w + "px";
+  const vl = el.querySelector(".vl"); setVal(vl, D.serie[u][j].d); vl.style.left = (142 + w + 18) + "px";
+}
+function render(t){
+  amb(t);
+  const R0 = DUR - LOOPD, rw = seg(t, R0, DUR - .35), rewinding = t >= R0;
+  let jd = 0; if (rewinding) jd = Math.round((NJ - 1) * (1 - eio(rw))); else for (let j = 1; j < NJ; j++) if (t >= S[j]) jd = j;
+  const s = rewinding ? null : SLD[jd], gp = rewinding || jd === 0 ? 1 : eo(seg(t, S[jd], S[jd] + (s ? s.d : .25)));
+  const lead = lerp(val(ORD[Math.max(0, jd - 1)][0], jd - 1), val(ORD[jd][0], jd), gp);
+  const fade = 1 - .75 * Math.sin(Math.PI * rw);
+  const sl = s ? seg(t, S[jd], S[jd] + s.d) : 1, sliding = s && sl < 1;      // glissement de la 2e place en cours
+  const nxt = !rewinding && jd + 1 < NJ ? SLD[jd + 1] : null;              // un dépassement arrive au jour suivant
+  for (let k = 0; k < 5; k++) {
+    const id = "s" + k, el = $(id), u = ORD[jd][k];
+    fill(id, u, jd, gp, lead);
+    el.style.top = sy(k) + "px"; el.classList.toggle("lead", k === 0);
+    let sc = 1;
+    if (!rewinding) {
+      const opening = jd > 0 && ORD[jd - 1][k] !== u && !(s && k === 0);
+      // la place que quitte le nouveau 2e ne se remplit qu'une fois qu'il s'en est éloigné (aucune ligne superposée)
+      const o0 = s && k === s.kFrom ? S[jd] + .55 * s.d : S[jd];
+      if (opening) sc = Math.min(sc, seg(t, o0, o0 + FLIP));
+      const closing = jd + 1 < NJ && ORD[jd + 1][k] !== u && !(nxt && k === nxt.kFrom);
+      if (closing) sc = Math.min(sc, seg(S[jd + 1] - t, 0, FLIP));
+      if (sliding && k === 0) sc = 0;
+    }
+    el.style.opacity = sc > 0 ? Math.min(1, .2 + sc) * fade : 0; el.style.transform = `scaleY(${(.15 + .85 * sc).toFixed(3)})`;
+    const k0 = ORD[0].indexOf(u), bnc = 1 + .14 * Math.sin(Math.PI * seg(t, .3 + k0 * .2, .65 + k0 * .2)) * (t < START ? 1 : 0);
+    el.querySelector(".ics").style.transform = `scale(${bnc})`;
+  }
+  // dépassement pour la 2e place : le nouveau 2e monte par-dessus, l'ancien redescend en retrait
+  ["g1", "g2"].forEach(id => vis(id, 0)); vis("ph", 0);
+  if (sliding) {
+    const p = eio(sl);
+    fill("g1", s.b, jd, gp, lead);
+    $("g1").style.top = lerp(sy(Math.min(s.kFrom, 5)), sy(0), p) + "px";
+    $("g1").style.opacity = s.kFrom >= 5 ? Math.min(1, p * 3) : 1;
+    $("g1").style.transform = `translateX(${(-26 * Math.sin(Math.PI * p)).toFixed(1)}px) scale(${(1 + .03 * Math.sin(Math.PI * p)).toFixed(3)})`;
+    $("g1").classList.toggle("lead", p > .5);
+    $("ph").style.top = sy(0) + "px"; $("ph").style.opacity = .5 + .5 * Math.sin(Math.PI * Math.min(1, sl * 4));
+  }
+  $("day").textContent = Maj(dateMoy(D.jours[jd]));
+  // annonce : « X passe 2e ! »
+  let shown = null, fl = 0;
+  if (!rewinding) CHG.forEach(j => { const c = SLD[j], at = S[j] + c.d * .5; if (t >= at) fl = Math.max(fl, flash(t, at, .35, c.fin ? .6 : .4));
+    const end = c.fin ? Q[0] - .1 : S[j] + 1.25; if (t >= at && t < end) shown = {c, at, end}; });
+  if (shown) { $("chg").textContent = `${court(D.noms[shown.c.b])} passe 2e !`; pop("chg", t, shown.at, .5); $("chg").style.opacity = 1 - eo(seg(t, shown.end - .2, shown.end)); }
+  else vis("chg", 0);
+  setFlash(fl);
+  qcard(t, ...Q);
+  const fin = SLD[NJ - 1], tc = fin ? S[NJ - 1] + fin.d * .5 : S[NJ - 1];
+  camera(t, 1, [...CHG].map(j => [S[j] + SLD[j].d * .5, SLD[j].fin ? 16 : 7, .4]));
+  if (fin && t > S[NJ - 1] + fin.d && !rewinding) $("s0").style.transform += ` translateX(${(-6 + 6 * Math.cos(2 * Math.PI * (t - tc) / 1.2)).toFixed(2)}px) scale(${1 + .012 * Math.sin(2 * Math.PI * (t - tc) / 1.2)})`;
+  $("king").style.transform = `scale(${1 + .04 * Math.sin(Math.PI * seg(t, .25, 1.0))})`; $("king").style.transformOrigin = "0 50%";
+}
+</script>
+</body></html>

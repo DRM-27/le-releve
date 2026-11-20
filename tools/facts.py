@@ -14,7 +14,7 @@ from datetime import date, timedelta
 from statistics import mean
 
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
-from common import (CONFIG, DATA, FACTS, NNBSP, TZ, fr_big, fr_date, fr_hour, fr_int, fr_pct, fr_rank, fr_share,
+from common import (CONFIG, DATA, FACTS, NNBSP, TZ, _trim, fr_big, fr_date, fr_dec, fr_hour, fr_int, fr_pct, fr_rank, fr_share,
                     github_blob, hours_of_day, iso, load_day_snapshots, load_games, parse_iso, read_csv, utc_now,
                     write_csv)
 
@@ -199,6 +199,14 @@ def build(d):
                 add(f"{name}.{i}.moy", r["moyenne"], fr_int(r["moyenne"]), f"{lab} : moyenne du jour", src)
                 add(f"{name}.{i}.moy_avant", r[base_key], fr_int(r[base_key]), f"{lab} : moyenne de référence", src)
                 add(f"{name}.{i}.rang", r["rang"], fr_rank(r["rang"]), f"{lab} : rang au pic du jour", src)
+                # facteur lisible (vidéos) : « ×2,8 » pour une hausse, « ÷2 » pour une baisse, à partir des deux moyennes
+                if r[base_key] and r["moyenne"]:
+                    if name == "hausse":
+                        m = r["moyenne"] / r[base_key]
+                        add(f"hausse.{i}.mult", m, "×" + _trim(fr_dec(m, 1)), f"{lab} : multiplicateur (moyenne du jour ÷ moyenne de référence)", src)
+                    else:
+                        m = r[base_key] / r["moyenne"]
+                        add(f"baisse.{i}.div", m, "÷" + _trim(fr_dec(m, 1)), f"{lab} : diviseur (moyenne de référence ÷ moyenne du jour)", src)
             movers["up" if name == "hausse" else "down"] = lst
 
     # --- entrées dans le top 50 (et retours) ---
@@ -273,12 +281,13 @@ def build(d):
                 recent.append((r, created))
     add("recents.nb", len(recent), fr_int(len(recent)), "Jeux du top 100 créés il y a 90 jours ou moins")
     add("n.recents_jours", 90, "90", "Seuil d'ancienneté des jeux récents (jours)")
-    if recent:
-        r, created = recent[0]
+    for k, (r, created) in enumerate(recent[:3], 1):
         src = src_line(r["universe_id"])
-        add("recent.1.nom", r["nom"], r["nom"], "Jeu récent le mieux classé : nom", src)
-        add("recent.1.rang", r["rang"], fr_rank(r["rang"]), "Jeu récent le mieux classé : rang", src)
-        add("recent.1.cree", created.isoformat(), fr_date(created, weekday=False), "Jeu récent le mieux classé : date de création", src)
+        lab = "Jeu récent le mieux classé" if k == 1 else f"Jeu récent n° {k}"
+        add(f"recent.{k}.nom", r["nom"], r["nom"], f"{lab} : nom", src)
+        add(f"recent.{k}.rang", r["rang"], fr_rank(r["rang"]), f"{lab} : rang", src)
+        add(f"recent.{k}.cree", created.isoformat(), fr_date(created, weekday=False), f"{lab} : date de création", src)
+        add(f"recent.{k}.age", (d - created).days, fr_int((d - created).days), f"{lab} : jours depuis la création", src)
 
     # --- données des graphiques ---
     graphs = {}

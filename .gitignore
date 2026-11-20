@@ -4,3 +4,9 @@ __pycache__/
 .DS_Store
 node_modules/
 out/
+
+# vidéos courtes : icônes de jeux jamais versionnées en clair, essais locaux
+tools/social/video/icones/
+tools/social/video/*.png
+tools/social/video/donnees/
+*.refusee.mp4

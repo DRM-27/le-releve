@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><link rel="stylesheet" href="socle.css">
+<style>
+#div{position:absolute;left:500px;top:690px;font-size:340px;color:var(--c);transform-origin:20% 60%}
+#cw{position:absolute;left:72px;top:560px;width:828px;height:780px}
+#cw svg{position:absolute;left:0;top:0;overflow:visible}
+#zone{position:absolute;top:0;height:780px;background:color-mix(in srgb,var(--c) 13%,transparent);border-left:4px solid var(--c)}
+#hd{position:absolute;z-index:3}
+.dl{position:absolute;top:1352px;font-size:36px;font-weight:700;color:var(--muted);transform:translateX(-50%)}
+.lv{position:absolute;padding:12px 20px 14px;border-radius:16px;white-space:nowrap;z-index:2}
+.lv .k{font-size:32px;font-weight:700;line-height:1.1}
+.lv .n{font-size:72px;line-height:1}
+#lr{background:#253244;color:var(--ink)} #lr .k{color:var(--ink2)}
+#ld{background:var(--c);color:#2a0606} #ld .n{font-size:88px}
+</style></head>
+<body>
+<div id="stage">
+  <div class="big" id="div">÷2</div>
+  <div id="cw">
+    <div id="zone"></div>
+    <svg width="828" height="780" viewBox="0 0 828 780">
+      <line x1="0" x2="828" y1="760" y2="760" stroke="#223042" stroke-width="3"/>
+      <path id="cline" fill="none" stroke="#ff5c5c" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+      <line id="ref" stroke="#c8d2de" stroke-width="6" stroke-dasharray="16 12"/>
+      <line id="dref" stroke="#ff5c5c" stroke-width="10" stroke-linecap="round"/>
+    </svg>
+    <div class="lv" id="lr"><div class="k">la semaine d’avant, en moyenne</div><div class="n big" id="lrn"></div></div>
+    <div class="lv" id="ld"><div class="k" id="ldk"></div><div class="n big" id="ldn"></div></div>
+  </div>
+  <div id="dls"></div>
+  <img class="ico" id="hd" alt="">
+</div>
+<script src="socle.js"></script>
+<script>
+DUR = 19.8;
+const CW = 828, BASE = 760;
+let P = [], iDay = 0, NP = 0, HK = "", yR = 0, yD = 0, xD = 0, xE = 0;
+const COVER = [282, 880, 380];
+const MORPH = [1.3, 2.3], C0 = 2.3, C1 = 10.0, REF = 10.2, FALL = [11.2, 12.6], Q = [15.4, 18.4];
+const Y = v => BASE - 700 * v / Math.max(...D.pts.map(p => p.v));
+function init(data){
+  D = data; HK = `baisse.${D.k}.`;
+  const nom = court(F(HK + "nom")), jour = jourDe(D.day).jour;
+  chrome({couleur: "#ff5c5c", mot: "CHUTE", sous: dateLongue(D.day), titre: `${nom} divisé par 2`, taille: 88, maxH: 190,
+          qTop: 1190, question: "Pourquoi il s’effondre, selon vous ?", source: "API publiques de Roblox · non affilié à Roblox"});
+  // le titre « divisé par 2 » n'est permis que si les jetons le confirment (baisse entre 45 et 55 %)
+  const r = R(HK + "moy") / R(HK + "moy_avant"); if (r < .45 || r > .55) $("title").textContent = `${nom} : ${F(HK + "var")}`;
+  NP = D.pts.length;
+  P = D.pts.map((p, i) => ({x: 70 + (CW - 150) * i / (NP - 1), y: Y(p.v)}));
+  iDay = D.days[D.days.length - 1].i; xD = P[iDay].x; xE = P[NP - 1].x;
+  $("zone").style.left = xD + "px"; $("zone").style.width = (xE - xD + 20) + "px";
+  yR = Y(R(HK + "moy_avant")); yD = Y(R(HK + "moy"));
+  ["x1", "x2", "y1", "y2"].forEach(a => $("ref").setAttribute(a, 0));
+  $("dls").innerHTML = [0, 3, 7].map(k => { const d = D.days[k]; return `<div class="dl" style="left:${72 + Math.max(P[d.i].x, 50)}px">${dateCourte(d.iso)}</div>`; }).join("");
+  $("hd").src = `icones/${D.uid}.png`;
+  split("lrn", F(HK + "moy_avant")); split("ldn", F(HK + "moy"));
+  $("ldk").textContent = `${Maj(jour)} ${jourDe(D.day).d} ${jourDe(D.day).moisc}, en moyenne`;
+  $("lr").style.left = "0px"; $("lr").style.top = (yR - $("lr").offsetHeight - 14) + "px";
+  $("ld").style.top = (yD - $("ld").offsetHeight - 16) + "px";
+  ["lr", "ld"].forEach(id => { $(id).classList.add("fort"); $(id).style.transformOrigin = "0 100%"; }); $("ld").style.left = Math.max(0, xD - 14 - $("ld").offsetWidth) + "px";
+  sfx(.25, "fall"); sfx(MORPH[0], "whoosh"); sfx(REF, "whoosh"); sfx(REF + .3, "pop");
+  sfx(FALL[0], "fall"); sfx(FALL[1], "impact"); sfx(FALL[1], "flash"); sfx(FALL[1] + .2, "pop");
+  sfx(Q[0], "question"); sfx(DUR - LOOPD, "rewind");
+}
+function render(t){
+  amb(t);
+  const L = loopP(t), m = eio(seg(t, ...MORPH)) * (1 - L);
+  // couverture : l'icône vacille, « ÷2 » respire
+  const wob = Math.sin(Math.PI * seg(t, .25, 1.25)) * Math.sin(t * 14) * 5;
+  vis("div", 1 - m * 1.5); $("div").style.transform = `scale(${(1 + .05 * seg(t, .25, MORPH[0])) * (1 - .3 * m)})`;
+  vis("cw", m); vis("dls", m);
+  const idx = t < C0 ? 0 : (NP - 1) * seg(t, C0, C1);
+  const h = curveIdx($("cline"), null, P, idx, BASE);
+  $("zone").style.opacity = eo(seg(idx, iDay - 1, iDay + 4));
+  const hs = 124 + 5 * Math.sin(2 * Math.PI * t / 1.3) * (t > C1 ? 1 : 0);
+  const s = lerp(COVER[2], hs, m), x = lerp(COVER[0], 72 + h.x, m), y = lerp(COVER[1], 560 + h.y, m);
+  const el = $("hd"); el.style.width = el.style.height = s + "px"; el.style.left = (x - s / 2) + "px"; el.style.top = (y - s / 2) + "px";
+  el.style.transform = `rotate(${wob * (1 - m)}deg)`;
+  // moment fort : la courbe passe au second plan, la moyenne de la semaine d'avant se trace, puis celle du dimanche tombe au ralenti
+  const dim = eo(seg(t, C1, C1 + .4)) * (1 - L);
+  $("cline").style.opacity = 1 - .65 * dim; $("zone").style.opacity *= 1 - .3 * dim;
+  const rp = eio(seg(t, REF, REF + .6));
+  $("ref").setAttribute("x1", 0); $("ref").setAttribute("x2", xD * rp); $("ref").setAttribute("y1", yR); $("ref").setAttribute("y2", yR);
+  if (t >= REF + .25) { pop("lr", t, REF + .25, .7); drop("lrn", t, REF + .35); $("lr").style.transform += ` scale(${1 + .03 * seg(t, REF + .6, DUR - LOOPD)})`; } else vis("lr", 0);
+  const fp = ei(seg(t, ...FALL)), yy = lerp(yR, yD, fp) + (t > FALL[1] ? 10 * Math.exp(-(t - FALL[1]) * 8) * Math.sin((t - FALL[1]) * 30) : 0);
+  ["x1", "x2"].forEach((a, k) => $("dref").setAttribute(a, k ? xE : xD)); $("dref").setAttribute("y1", yy); $("dref").setAttribute("y2", yy);
+  vis("dref", seg(t, FALL[0] - .3, FALL[0]));
+  if (t >= FALL[1]) { pop("ld", t, FALL[1], .6); drop("ldn", t, FALL[1] + .1, .05, 60); $("ld").style.transform += ` scale(${1 + .04 * seg(t, FALL[1] + .4, DUR - LOOPD)})`; } else vis("ld", 0);
+  setFlash(flash(t, FALL[1], .4, .5));
+  qcard(t, ...Q);
+  camera(t, 1, [[FALL[1], 22, .55]]);
+}
+</script>
+</body></html>

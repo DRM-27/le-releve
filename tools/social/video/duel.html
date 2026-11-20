@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><link rel="stylesheet" href="socle.css">
+<style>
+#vsT{position:absolute;left:486px;top:880px;transform:translate(-50%,-50%);font-size:140px;font-weight:900;color:var(--c);font-style:italic}
+.nm{position:absolute;top:1066px;width:380px;text-align:center;font-size:54px;font-weight:800;line-height:1.05}
+#nA{left:70px;color:var(--a)} #nB{left:522px;color:var(--b)}
+.mov{position:absolute;z-index:3}
+#gapL{position:absolute;left:72px;top:496px;font-size:44px;font-weight:700;color:var(--ink2);z-index:4}
+#gapN{position:absolute;left:66px;top:548px;font-size:112px;z-index:4}
+#cw{position:absolute;left:72px;top:690px;width:828px;height:650px;overflow:hidden;border-radius:18px}
+#ci{position:absolute;left:0;top:0;width:828px;height:650px;transform-origin:0 0}
+#ci svg{position:absolute;left:0;top:0;overflow:visible}
+.zl{position:absolute;left:92px;display:flex;align-items:center;gap:16px;font-size:44px;font-weight:800;z-index:2}
+.zl i{display:block;width:72px;height:72px}
+#zA{top:704px;color:var(--a)} #zB{top:1258px;left:auto;right:196px;color:var(--b)}
+.dl{position:absolute;top:1352px;font-size:36px;font-weight:700;color:var(--muted);transform:translateX(-50%)}
+#dep{left:0;top:1092px;background:var(--c);color:#16060e;font-size:60px;transform-origin:50% 50%;z-index:6;padding:14px 26px}
+</style></head>
+<body>
+<div id="stage">
+  <div id="vsT">VS</div>
+  <div class="nm" id="nA"></div><div class="nm" id="nB"></div>
+  <div id="cw"><div id="ci">
+    <svg width="828" height="650" viewBox="0 0 828 650">
+      <defs><linearGradient id="gr" gradientUnits="userSpaceOnUse" x1="0" x2="0" y1="0" y2="650"><stop id="s1" offset="0" stop-color="#3cc46e"/><stop id="s2" offset="0" stop-color="#6fa0ff"/></linearGradient></defs>
+      <rect id="zoneA" x="-2000" width="5000" fill="rgba(60,196,110,.10)"/>
+      <rect id="zoneB" x="-2000" width="5000" fill="rgba(111,160,255,.08)"/>
+      <path id="fill" fill="url(#gr)" opacity=".22"/>
+      <line id="zero" x1="-2000" x2="3000" stroke="#f2f5f8" stroke-width="4" vector-effect="non-scaling-stroke" opacity=".85"/>
+      <path id="line" fill="none" stroke="url(#gr)" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/>
+    </svg>
+  </div></div>
+  <div class="zl" id="zA"><i></i><span></span></div>
+  <div class="zl" id="zB"><i></i><span></span></div>
+  <div id="dls"></div>
+  <img class="ico mov" id="iA" alt=""><img class="ico mov" id="iB" alt="">
+</div>
+<div id="gapL"></div><div class="big" id="gapN"></div>
+<div class="chip" id="dep">DÉPASSEMENT !</div>
+<script src="socle.js"></script>
+<script>
+DUR = 20.5;
+const N = 8, X = i => 66 + 624 * i / (N - 1);
+let G = [], lo = 0, hi = 0, P = [], nA = "", nB = "", tc = 0, fc = 0;
+const Y = v => 24 + 600 * (hi - v) / (hi - lo);
+const MORPH = [1.4, 2.4], L0 = 2.6, STEP = 1.3;
+const PARTS = [[1, STEP], [1, STEP], [1, STEP], [1, STEP], [1, STEP], [1, STEP], [.55, .9], [.30, 1.9], [.15, .6]];
+const ARR = [L0]; { let t = L0; for (let k = 0; k < 6; k++) { t += STEP; ARR.push(t); } ARR.push(t + .9 + 1.9 + .6); }   // arrivée sur chaque jour
+const ZIN = [10.9, 12.0], ZOUT = [18.8, 19.4], Z = 2.6;
+const COVER = {A: [260, 880, 330], B: [712, 880, 330]};
+let ZA = [], ZB = [];
+function init(data){
+  D = data;
+  nA = court(D.a.nom); nB = court(D.b.nom);
+  chrome({couleur: "#ff5fa2", mot: "DUEL", sous: dateLongue(D.day), titre: `${nA} vient de dépasser ${nB}`, taille: 76, maxH: 165,
+          qTop: 1188, question: `Team ${nA.replace(/!$/, "")} ou Team ${nB} ?`, source: "moyennes du jour, API publiques de Roblox · non affilié à Roblox"});
+  G = D.a.moy.map((a, i) => a.v - D.b.moy[i].v);                       // écart du jour = moyenne Adopt Me! − moyenne Brookhaven
+  lo = Math.min(...G) * 1.07; hi = Math.max(...G.map(Math.abs)) * 0.17 + Math.max(0, ...G);
+  P = G.map((g, i) => ({x: X(i), y: Y(g)}));
+  const yz = Y(0);
+  $("zoneA").setAttribute("y", yz - 3000); $("zoneA").setAttribute("height", 3000);
+  $("zoneB").setAttribute("y", yz); $("zoneB").setAttribute("height", 3000);
+  $("zero").setAttribute("y1", yz); $("zero").setAttribute("y2", yz);
+  $("s1").setAttribute("offset", yz / 650); $("s2").setAttribute("offset", yz / 650);
+  $("gapN").classList.add("fort"); $("dep").style.left = (486 - $("dep").offsetWidth / 2) + "px";
+  $("iA").src = `icones/${D.a.uid}.png`; $("iB").src = `icones/${D.b.uid}.png`;
+  $("nA").textContent = nA; $("nB").textContent = nB;
+  $("zA").querySelector("span").textContent = `${nA} devant`; $("zB").querySelector("span").textContent = `${nB} devant`;
+  $("dls").innerHTML = [0, 2, N - 1].map(i => `<div class="dl" style="left:${72 + X(i)}px">${dateCourte(D.days[i])}</div>`).join("");
+  // instant du croisement du zéro (dans le dernier tronçon, au ralenti)
+  fc = G[N - 2] / (G[N - 2] - G[N - 1]);
+  const f2 = (fc - .55) / .30; tc = ARR[N - 2] + .9 + 1.9 * clamp(f2);
+  ZA = [92 + 36, 704 + 36]; ZB = [$("zB").offsetLeft + 36, 1258 + 36];
+  sfx(.25, "clash"); sfx(MORPH[0], "whoosh"); sfx(ARR[0] - .1, "pop");
+  for (let k = 1; k < N - 1; k++) sfx(ARR[k], "tick");
+  sfx(tc - 1.6, "tension"); sfx(tc, "impact"); sfx(tc, "flash"); sfx(tc + .05, "whoosh");
+  sfx(ARR[N - 1], "pop"); sfx(15.8, "question"); sfx(ZOUT[0], "whoosh"); sfx(DUR - LOOPD, "rewind");
+}
+function place(id, x, y, s){ const el = $(id); el.style.width = el.style.height = s + "px"; el.style.left = (x - s / 2) + "px"; el.style.top = (y - s / 2) + "px"; }
+function render(t){
+  amb(t);
+  const L = loopP(t), m = eio(seg(t, ...MORPH)) * (1 - L);          // m : 0 = couverture (VS), 1 = graphique
+  // couverture
+  const pulse = 1 + .07 * Math.sin(Math.PI * seg(t, .25, .75)) + .03 * Math.sin(Math.PI * seg(t, .75, 1.3));
+  $("vsT").style.opacity = 1 - m; $("vsT").style.transform = `translate(-50%,-50%) scale(${pulse * (1 + .5 * m)})`;
+  vis("nA", 1 - m * 2); vis("nB", 1 - m * 2);
+  // graphique
+  const pos = warp(t, L0, PARTS);                                  // position en jours (0 … 7)
+  const zp = eio(seg(t, ...ZIN)) * (1 - eio(seg(t, ...ZOUT)));
+  const z = 1 + (Z - 1) * zp + .12 * seg(t, ZIN[1], ZOUT[0]) * zp;   // zoom sur le croisement, qui continue de s'approcher doucement
+  const Cx = X(N - 2) + fc * (X(N - 1) - X(N - 2)), Cy = Y(0);
+  const tx = lerp(Cx, 414, zp) - z * Cx, ty = lerp(Cy, 300, zp) - z * Cy;
+  $("ci").style.transform = `translate(${tx.toFixed(2)}px, ${ty.toFixed(2)}px) scale(${z.toFixed(4)})`;
+  const h = curveIdx($("line"), null, P, pos, Y(0));
+  { const out = $("line").getAttribute("d"); $("fill").setAttribute("d", out + ` L ${h.x.toFixed(1)} ${Y(0)} L ${P[0].x} ${Y(0)} Z`); }
+  ["cw", "zA", "zB"].forEach(id => vis(id, m)); vis("dls", m * (1 - Math.min(1, zp * 3)));
+  const hs = [72 + tx + z * h.x, 690 + ty + z * h.y];
+  // icônes : B mène jusqu'au croisement, puis A bondit sur la tête de courbe et B retombe dans sa zone
+  const sw = eio(seg(t, tc, tc + .45)), arc = Math.sin(Math.PI * sw) * 120;
+  const headS = (120 + 18 * Math.sin(Math.PI * seg(t, tc, tc + .5))) * (1 + .05 * Math.sin(2 * Math.PI * (t - tc) / 1.1) * (t > tc + .5 ? 1 : 0));
+  const a1 = [lerp(ZA[0], hs[0], sw), lerp(ZA[1], hs[1], sw) - arc], a1s = lerp(72, headS, sw);
+  const b1 = [lerp(hs[0], ZB[0], sw), lerp(hs[1], ZB[1], sw) + arc * .3], b1s = lerp(120, 72, sw);
+  place("iA", lerp(COVER.A[0], a1[0], m), lerp(COVER.A[1], a1[1], m), lerp(COVER.A[2], a1s, m) * pulse);
+  place("iB", lerp(COVER.B[0], b1[0], m), lerp(COVER.B[1], b1[1], m), lerp(COVER.B[2], b1s, m) * pulse);
+  $("iA").style.zIndex = sw > .5 ? 4 : 3;
+  // écart du jour (dernier jour atteint) : chiffre qui tombe à chaque arrivée
+  let j = 0; for (let k = 0; k < N; k++) if (t >= ARR[k]) j = k;
+  const g = G[j], lead = g > 0 ? nA : nB;
+  $("gapL").innerHTML = `<b style="color:${g > 0 ? "var(--a)" : "var(--b)"}">${lead}</b> devant de`;
+  setDrop("gapN", fmt(Math.abs(g)), t, ARR[j] - (j === 0 ? .2 : 0));
+  $("gapN").style.color = g > 0 ? "var(--a)" : "var(--ink)";
+  const gv = m * (t >= ARR[0] - .2 ? 1 : 0);
+  vis("gapL", gv); $("gapN").style.opacity = gv;
+  $("gapN").style.transform = `scale(${1 + .05 * seg(t, ARR[N - 1], DUR - LOOPD)})`; $("gapN").style.transformOrigin = "0 50%";
+  // dépassement
+  if (t >= tc && t < 15.6) { pop("dep", t, tc, .5, "rotate(-4deg)"); $("dep").style.opacity = 1 - eo(seg(t, 15.3, 15.6)); } else $("dep").style.opacity = 0;
+  setFlash(flash(t, tc));
+  qcard(t, 15.8, 18.8);
+  camera(t, 1, [[tc, 18]]);
+}
+</script>
+</body></html>

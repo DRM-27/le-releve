@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><link rel="stylesheet" href="socle.css">
+<style>
+#cw{position:absolute;left:72px;top:560px;width:828px;height:760px}
+#cw svg{position:absolute;left:0;top:0;overflow:visible}
+#hd{position:absolute;z-index:3}
+#majl{position:absolute;width:0;border-left:5px dashed #f2b45a}
+#majc{background:#f2b45a;color:#2a1a05;font-size:36px;z-index:2;transform-origin:100% 50%}
+#pk{background:var(--c);color:#06210f;font-size:58px;line-height:1;z-index:2}
+#pk small{display:block;font-size:34px;font-weight:700;margin-top:6px}
+.dl{position:absolute;top:1336px;font-size:36px;font-weight:700;color:var(--muted);transform:translateX(-50%)}
+#cl{position:absolute;left:0;top:0;width:1080px;height:1920px;z-index:4;pointer-events:none}
+#mx{position:absolute;left:70px;top:556px;font-size:310px;color:var(--c);transform-origin:0 60%;font-variant-numeric:normal;letter-spacing:-.03em}
+#mxt{position:absolute;left:72px;top:880px;width:828px;font-size:52px;font-weight:700;line-height:1.2}
+#mxn{position:absolute;left:72px;top:0;width:828px;font-size:44px;font-weight:700;color:var(--ink2)}
+#ping{position:absolute;width:40px;height:40px;border-radius:50%;border:5px solid var(--c);transform:translate(-50%,-50%)}
+</style></head>
+<body>
+<div id="stage">
+  <div id="cw">
+    <svg width="828" height="760" viewBox="0 0 828 760">
+      <line x1="0" x2="828" y1="740" y2="740" stroke="#223042" stroke-width="3"/>
+      <path id="cfill" fill="rgba(60,196,110,.16)"/>
+      <path id="cline" fill="none" stroke="#3cc46e" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+    </svg>
+    <div id="majl"></div>
+    <div id="ping"></div>
+    <div class="chip" id="majc"></div>
+    <div class="chip" id="pk"></div>
+  </div>
+  <div id="dls"></div>
+  <img class="ico" id="hd" alt="">
+</div>
+<div id="cl">
+  <div class="big" id="mx"></div>
+  <div id="mxt"></div>
+  <div id="mxn"></div>
+</div>
+<script src="socle.js"></script>
+<script>
+DUR = 20.2;
+const CW = 828, BASE = 740;
+let P = [], xMaj = 0, iMaj = 0, IP = 0, NP = 0, HK = "";
+const COVER = [486, 900, 440];
+const MORPH = [1.3, 2.3], A0 = 2.3, A1 = 8.3, A2 = 9.8, A3 = 10.15, A4 = 12.6, CLX = 12.8, Q = [16.0, 19.0];
+let W0 = 0, MORT = true;
+function init(data){
+  D = data; HK = `hausse.${D.k}.`;
+  const nom = court(F(HK + "nom")), jour = jourDe(D.day).jour;
+  // « revenu d'entre les morts » : seulement pour un jeu de plus d'un an qui fait au moins ×2,5 (sinon « vient de décoller »)
+  MORT = D.mult.v >= 2.5 && (D.age ?? 0) > 365;
+  chrome({couleur: "#3cc46e", mot: "DÉCOLLAGE", sous: dateLongue(D.day), titre: MORT ? `${nom} est revenu d’entre les morts.` : `${nom} vient de décoller.`, taille: 84, maxH: 180,
+          qTop: 1222, question: "Tu vas y retourner ?", source: "API publiques de Roblox · non affilié à Roblox"});
+  NP = D.pts.length; const vmax = Math.max(...D.pts.map(p => p.v));
+  P = D.pts.map((p, i) => ({x: 74 + (CW - 160) * i / (NP - 1), y: BASE - 660 * p.v / vmax}));
+  IP = D.jump + 1; W0 = IP - 6;
+  if (!D.maj) { $("majl").style.display = $("majc").style.display = "none"; D.maj = {t: D.pts[D.jump + 1].t, iso: D.day, h: ""}; D.sansMaj = true; }
+  const tm = Date.parse(D.maj.t);
+  iMaj = D.pts.findIndex((p, i) => i < NP - 1 && Date.parse(p.t) <= tm && tm < Date.parse(D.pts[i + 1].t));
+  const a = Date.parse(D.pts[iMaj].t), b = Date.parse(D.pts[iMaj + 1].t);
+  xMaj = lerp(P[iMaj].x, P[iMaj + 1].x, (tm - a) / (b - a));
+  $("majl").style.left = xMaj + "px";
+  const jm = jourDe(D.maj.iso);
+  $("majc").textContent = `mise à jour · ${jm.jour.slice(0, 3)}. ${jm.d} ${jm.moisc}, ${D.maj.h}`;
+  $("majc").style.top = (BASE - 76) + "px";
+  const pk = D.pts[IP];
+  $("pk").innerHTML = `<span id="pkv">${fmt(pk.v)}</span> joueurs<small>en même temps, à ${pk.h}</small>`;
+  $("pk").style.top = (P[IP].y + 10) + "px"; $("pk").style.left = Math.max(0, P[IP].x - 40 - $("pk").offsetWidth) + "px";
+  ["mx", "mxn"].forEach(id => $(id).classList.add("fort"));
+  $("ping").style.left = P[IP].x + "px"; $("ping").style.top = P[IP].y + "px";
+  $("dls").innerHTML = [0, 3, 6].map(k => { const d = D.days[k]; return `<div class="dl" style="left:${72 + P[d.i].x}px">${dateCourte(d.iso)}</div>`; }).join("");
+  $("hd").src = `icones/${D.uid}.png`;
+  $("mx").textContent = NB(D.mult.d);
+  $("mxt").textContent = `de joueurs en moyenne ${jour}, par rapport à la semaine d’avant`;
+  split("mxn", `${F(HK + "moy")} ${jour} · ${F(HK + "moy_avant")} la semaine d’avant`);
+  stack(["mxt", "mxn"], 22);
+  // l'étiquette se termine au pied du pic, sans sortir de la zone sûre
+  const mc = $("majc"); mc.style.left = Math.max(0, xMaj + 3 - mc.offsetWidth) + "px";
+  sfx(.25, "thud"); sfx(.62, "thud"); sfx(MORPH[0], "whoosh");
+  sfx(A1 - .1, "tension"); sfx(A2, "rise"); sfx(A3, "impact"); sfx(A3, "flash");
+  sfx(A3 + .25, "pop"); sfx(A3 + .6, "pop"); sfx(CLX, "whoosh"); sfx(CLX + .1, "impact"); sfx(CLX + 1.0, "pop");
+  sfx(Q[0], "question"); sfx(DUR - LOOPD, "rewind");
+}
+function idxAt(t){
+  if (t < A0) return 0;
+  if (t < A1) return W0 * seg(t, A0, A1);
+  if (t < A2) return W0 + (IP - 1 - W0) * eo(seg(t, A1, A2)) * .999;   // l'attente : la courbe rampe
+  if (t < A3) return (IP - 1) + ei(seg(t, A2, A3));                 // l'explosion
+  return IP + (NP - 1 - IP) * seg(t, A3, A4);
+}
+function render(t){
+  amb(t);
+  const L = loopP(t), m = eio(seg(t, ...MORPH)) * (1 - L);
+  vis("cw", m); vis("dls", m);
+  const idx = idxAt(t);
+  const h = curveIdx($("cline"), $("cfill"), P, idx, BASE);
+  // tête de courbe : l'icône, grise tant que le jeu est « mort », en couleur à l'explosion
+  const boom = seg(t, A3 - .05, A3 + .25), life = MORT ? boom * (1 - L) : 1;
+  const bob = (1 - m) * (1 - L) * (8 * Math.sin(2 * Math.PI * t / 1.6) * seg(t, .25, .6));
+  const hs = 132 + 40 * eio(seg(t, A1, A2)) * (1 - eo(seg(t, A3, A3 + .8))) + 50 * Math.sin(Math.PI * seg(t, A3, A3 + .6)) + 6 * Math.sin(2 * Math.PI * t / 1.2) * (t > A4 ? 1 : 0);
+  const pulse = 1 + .05 * Math.sin(Math.PI * seg(t, .25, .55)) + .05 * Math.sin(Math.PI * seg(t, .62, .92));
+  const s = lerp(COVER[2] * pulse, hs, m), x = lerp(COVER[0], 72 + h.x, m), y = lerp(COVER[1] + bob, 560 + h.y, m);
+  const el = $("hd"); el.style.width = el.style.height = s + "px"; el.style.left = (x - s / 2) + "px"; el.style.top = (y - s / 2) + "px";
+  el.style.filter = `grayscale(${1 - life}) brightness(${lerp(.75, 1, life)})`;
+  el.style.opacity = 1 - .9 * eo(seg(t, CLX, CLX + .4)) * (1 - L);
+  // mise à jour au pied du pic, puis le pic
+  $("majl").style.top = (P[IP].y) + "px"; $("majl").style.height = (BASE - P[IP].y) + "px"; vis("majl", seg(t, A3 + .1, A3 + .3));
+  if (t >= A3 + .2) pop("majc", t, A3 + .2, .6); else vis("majc", 0);
+  if (t >= A3 + .5) { pop("pk", t, A3 + .5, .7); if ($("pkv").dataset.txt === undefined) split("pkv", fmt(D.pts[IP].v)); drop("pkv", t, A3 + .55); } else vis("pk", 0);
+  // moment fort : ×2,8 en géant, le graphique passe au second plan (le pic continue d'émettre)
+  const c = eo(seg(t, CLX, CLX + .4)) * (1 - L);
+  if (c > 0) { $("cw").style.opacity = m * (1 - .88 * c); vis("pk", 1 - c); vis("majc", 1 - eo(seg(t, Q[0] - .3, Q[0]))); }
+  vis("cl", c);
+  pop("mx", t, CLX, .6); $("mx").style.transform += ` scale(${1 + .05 * seg(t, CLX + .4, DUR - LOOPD)})`;
+  fade("mxt", t, CLX + .5); drop("mxn", t, CLX + 1.0, .02, 30); vis("mxn", t >= CLX + 1 ? 1 : 0);
+  const pp = ((t - A4) % 1.1) / 1.1; vis("ping", t > A4 ? (1 - pp) * .8 : 0); $("ping").style.width = $("ping").style.height = (30 + 110 * pp) + "px";
+  setFlash(flash(t, A3, .4, .6));
+  qcard(t, ...Q);
+  camera(t, 1, [[A3, 26, .6], [CLX + .1, 8, .3]]);
+}
+</script>
+</body></html>

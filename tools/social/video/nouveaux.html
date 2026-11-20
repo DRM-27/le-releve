@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><link rel="stylesheet" href="socle.css">
+<style>
+#g{position:absolute;left:112px;top:578px;width:748px;height:748px}
+.cell{position:absolute;width:64px;height:64px;border-radius:12px;background:#1c2634}
+.cell.on{background:var(--c);box-shadow:0 0 18px color-mix(in srgb,var(--c) 55%,transparent)}
+#gc{position:absolute;left:72px;width:828px;top:1346px;text-align:center;font-size:40px;font-weight:700;color:var(--ink2)}
+#gc b{color:var(--c);font-weight:900}
+.rw{position:absolute;left:72px;width:828px;height:80px;border-radius:14px;background:#141d29;display:flex;align-items:center}
+.rw .k{width:88px;text-align:center;font-size:44px;font-weight:900;color:var(--muted)}
+.rw img{flex:none}
+.rw .n{margin-left:18px;font-size:42px;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:470px}
+.rw .tg{position:absolute;right:18px;font-size:36px;font-weight:800;color:var(--c);font-variant-numeric:tabular-nums}
+.rw.vide{background:transparent;border:3px dashed #3a4a5e}
+.rw.vide .n{color:#4a5b70}
+.rw.nv{background:color-mix(in srgb,var(--c) 26%,#141d29);box-shadow:0 0 0 3px var(--c);z-index:3}
+.rw.nv .k{color:var(--c)}
+.rw.nv .n{font-size:40px;line-height:1;margin-top:-30px;max-width:600px}
+.rw.nv .tg{left:184px;right:auto;bottom:6px;font-size:30px;font-weight:700}
+#co{position:absolute;left:100px;width:772px;top:0;padding:22px 30px 26px;border-radius:26px;background:rgba(14,10,24,.95);border:4px solid var(--c);z-index:6;transform-origin:50% 0}
+#co .a{font-size:48px;font-weight:700;color:var(--ink2)}
+#co .b{font-size:170px;color:var(--c);margin-top:6px}
+#co .b small{font-size:72px;font-weight:800;letter-spacing:-.02em}
+</style></head>
+<body>
+<div id="stage">
+  <div id="g"></div>
+  <div id="gc"></div>
+  <div id="lb"></div>
+  <div id="mvs"></div>
+  <div id="co"><div class="a" id="coa"></div><div class="b big"><span id="cob"></span><small> jours</small></div></div>
+</div>
+<script src="socle.js"></script>
+<script>
+DUR = 20.5;
+const TOPL = 578, RH = 86;
+const LIST = [2.6, 3.4], CL = [[3.6, 5.6], [6.0, 8.6], [9.0, 13.4]], CO = [13.6, 16.2], Q = [16.4, 19.2], Y0 = 1364;
+let NEW = [], LIT = [];
+const ry = k => TOPL + k * RH;
+function init(data){
+  D = data;
+  const part = R("recents.nb") / R("n.top100");
+  chrome({couleur: "#b48cff", mot: "NOUVEAUX", sous: dateLongue(D.day),
+          titre: (part > 1 / 3 ? "Plus d’1 jeu sur 3" : `${F("recents.nb")} jeux`) + ` du top ${F("n.top100")} n’existait pas il y a 3 mois.`,
+          taille: 68, maxH: 215, qTop: 1098, question: "Lequel tu as déjà testé ?", source: "classement du jour au pic, API publiques de Roblox · non affilié à Roblox"});
+  // grille : une case par place du top 100, allumée si le jeu a été créé il y a 90 jours ou moins
+  $("g").innerHTML = D.top100.map((on, k) => `<div class="cell${on ? " on" : ""}" id="c${k}" style="left:${(k % 10) * 76}px;top:${Math.floor(k / 10) * 76}px"></div>`).join("");
+  LIT = D.top100.map((on, k) => on ? k : -1).filter(k => k >= 0);
+  $("gc").innerHTML = `<b>${F("recents.nb")} sur ${F("n.top100")}</b> créés il y a ${F("n.recents_jours")} jours ou moins`;
+  // classement : les places des nouveaux sont vides au départ, ils grimpent pour les remplir
+  NEW = D.top10.map((r, k) => ({...r, k})).filter(r => r.nouveau).sort((a, b) => b.rang - a.rang);
+  $("lb").innerHTML = D.top10.map((r, k) => r.nouveau
+    ? `<div class="rw vide" id="l${k}" style="top:${ry(k)}px"><div class="k">${r.rang}</div><div class="n">?</div></div>`
+    : `<div class="rw" id="l${k}" style="top:${ry(k)}px"><div class="k">${r.rang}</div>${ico(r.uid, 60)}<div class="n"></div></div>`).join("");
+  D.top10.forEach((r, k) => { if (!r.nouveau) $("l" + k).querySelector(".n").textContent = court(r.nom); });
+  $("mvs").innerHTML = NEW.map((r, i) => `<div class="rw nv" id="m${i}"><div class="k">${r.rang}</div>${ico(r.uid, 60)}<div class="n"></div><div class="tg val" id="t${i}"></div></div>`).join("");
+  NEW.forEach((r, i) => { $("m" + i).querySelector(".n").textContent = court(r.nom); $("m" + i).classList.add("fort"); setVal("t" + i, `créé il y a ${r.age}\u00a0jours`); });
+  $("co").classList.add("fort");
+  const best = NEW[NEW.length - 1];
+  $("coa").textContent = "créé il y a";
+  split("cob", String(best.age));
+  $("co").style.top = (ry(best.k) + RH + 4) + "px";
+  sfx(.25, "chime"); [0, 8, 16, 24, 32].forEach(i => sfx(.3 + i * .05, "bulle")); sfx(LIST[0], "whoosh");
+  CL.forEach(([a, b], i) => { sfx(a, "rise"); sfx(b, i === CL.length - 1 ? "impact" : "pop"); });
+  sfx(CL[2][1], "flash"); sfx(CO[0] + .1, "pop"); sfx(Q[0], "question"); sfx(DUR - LOOPD, "rewind");
+}
+function render(t){
+  amb(t);
+  const L = loopP(t), li = eio(seg(t, ...LIST)) * (1 - L);          // li : 0 = grille (couverture), 1 = classement
+  // grille et vague sur les cases allumées
+  vis("g", 1 - li); vis("gc", 1 - li);
+  LIT.forEach((k, i) => { const a = .3 + i * .05; $("c" + k).style.transform = `scale(${1 + .3 * Math.sin(Math.PI * seg(t, a, a + .3))})`; });
+  $("g").style.transform = `scale(${(1 + .03 * seg(t, .25, LIST[0]) * (1 - L)) * (1 - .15 * li)})`;
+  // classement : les lignes arrivent de la droite
+  for (let k = 0; k < 10; k++) { const a = LIST[0] + k * .04, p = eo(seg(t, a, a + .45)) * (1 - L); const el = $("l" + k); el.style.opacity = p; el.style.transform = `translateX(${(1 - p) * 300}px)`; }
+  // trois montées
+  const dimOthers = eo(seg(t, CO[0], CO[0] + .4)) * (1 - eo(seg(t, Q[1] - .2, Q[1] + .3)));
+  D.top10.forEach((r, k) => { if (!r.nouveau) $("l" + k).style.opacity *= 1 - .6 * dimOthers; });
+  NEW.forEach((r, i) => {
+    const [a, b] = CL[i], last = i === NEW.length - 1;
+    const p = last ? (t < a ? 0 : 1 - Math.pow(1 - seg(t, a, b), 4)) : eo(seg(t, a, b));   // la dernière : rapide puis ralenti
+    const y = lerp(Y0, ry(r.k), p), el = $("m" + i);
+    el.style.top = y + "px"; el.style.opacity = (t >= a ? Math.min(1, seg(t, a, a + .25) * 1.5) : 0) * (1 - L);
+    el.style.transform = `scale(${1 + .015 * Math.sin(Math.PI * seg(t, b, b + .4))})`;
+    if (t >= b) vis("l" + r.k, 0);
+  });
+  // moment fort : « créé il y a 62 jours » en géant sous la ligne
+  if (t >= CO[0] && t < CO[1]) { pop("co", t, CO[0], .7); drop("cob", t, CO[0] + .15, .08, 70); $("co").style.opacity = 1 - eo(seg(t, CO[1] - .3, CO[1]));
+    $("co").style.transform += ` scale(${1 + .03 * seg(t, CO[0] + .4, CO[1])})`; } else vis("co", 0);
+  setFlash(flash(t, CL[2][1], .35, .5));
+  qcard(t, ...Q);
+  camera(t, 1, [[CL[2][1], 14, .45]]);
+}
+</script>
+</body></html>
