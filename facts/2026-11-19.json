@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-19",
- "genere": "2026-11-20T11:35:49Z",
+ "genere": "2026-11-20T11:49:20Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -8937,111 +8937,111 @@
    "src": "data/jours/2026-11-19.csv#L76"
   },
   "g.10774386745.nom": {
-   "v": "Sandworm Playground",
-   "d": "Sandworm Playground",
-   "l": "Sandworm Playground : nom",
+   "v": "[WORLD 2] Sandworm Playground",
+   "d": "[WORLD 2] Sandworm Playground",
+   "l": "[WORLD 2] Sandworm Playground : nom",
    "src": "data/jours/2026-11-19.csv#L77"
   },
   "g.10774386745.rang": {
    "v": 76,
    "d": "76e",
-   "l": "Sandworm Playground : rang au pic du jour",
+   "l": "[WORLD 2] Sandworm Playground : rang au pic du jour",
    "src": "data/jours/2026-11-19.csv#L77"
   },
   "g.10774386745.pic": {
    "v": 19625,
    "d": "19 625",
-   "l": "Sandworm Playground : pic de joueurs simultanés relevé",
+   "l": "[WORLD 2] Sandworm Playground : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-19.csv#L77"
   },
   "g.10774386745.heure_pic": {
    "v": "00:37",
    "d": "0 h 37",
-   "l": "Sandworm Playground : heure (Paris) du pic relevé",
+   "l": "[WORLD 2] Sandworm Playground : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-19.csv#L77"
   },
   "g.10774386745.moy": {
    "v": 14773,
    "d": "14 773",
-   "l": "Sandworm Playground : moyenne des joueurs simultanés sur la journée",
+   "l": "[WORLD 2] Sandworm Playground : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-19.csv#L77"
   },
   "g.10774386745.createur": {
    "v": "Kami Stuff.",
    "d": "Kami Stuff.",
-   "l": "Sandworm Playground : créateur",
+   "l": "[WORLD 2] Sandworm Playground : créateur",
    "src": "data/jours/2026-11-19.csv#L77"
   },
   "g.10774386745.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "Sandworm Playground : genre",
+   "l": "[WORLD 2] Sandworm Playground : genre",
    "src": "data/jours/2026-11-19.csv#L77"
   },
   "g.10774386745.var_veille": {
    "v": -0.0765,
    "d": "−7,6 %",
-   "l": "Sandworm Playground : variation de la moyenne par rapport à la veille",
+   "l": "[WORLD 2] Sandworm Playground : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-19.csv#L77"
   },
   "g.10774386745.moy_veille": {
    "v": 15996,
    "d": "15 996",
-   "l": "Sandworm Playground : moyenne de la veille",
+   "l": "[WORLD 2] Sandworm Playground : moyenne de la veille",
    "src": "data/jours/2026-11-19.csv#L77"
   },
   "g.10774386745.var_7j": {
    "v": -0.4003,
    "d": "−40,0 %",
-   "l": "Sandworm Playground : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[WORLD 2] Sandworm Playground : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-19.csv#L77"
   },
   "g.10774386745.moy_7j": {
    "v": 24633,
    "d": "24 633",
-   "l": "Sandworm Playground : moyenne des 7 jours précédents",
+   "l": "[WORLD 2] Sandworm Playground : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-19.csv#L77"
   },
   "g.10774386745.visites_24h": {
    "v": 1639963,
    "d": "1,64 million",
-   "l": "Sandworm Playground : visites gagnées en 24 h",
+   "l": "[WORLD 2] Sandworm Playground : visites gagnées en 24 h",
    "src": "data/jours/2026-11-19.csv#L77"
   },
   "g.10774386745.visites_total": {
    "v": 14835243,
    "d": "14,84 millions",
-   "l": "Sandworm Playground : visites cumulées depuis la création",
+   "l": "[WORLD 2] Sandworm Playground : visites cumulées depuis la création",
    "src": "data/jours/2026-11-19.csv#L77"
   },
   "g.10774386745.note": {
    "v": 0.8668,
    "d": "86,7 %",
-   "l": "Sandworm Playground : part de votes positifs",
+   "l": "[WORLD 2] Sandworm Playground : part de votes positifs",
    "src": "data/jours/2026-11-19.csv#L77"
   },
   "g.10774386745.rang_veille": {
    "v": 67,
    "d": "67e",
-   "l": "Sandworm Playground : rang la veille",
+   "l": "[WORLD 2] Sandworm Playground : rang la veille",
    "src": "data/jours/2026-11-19.csv#L77"
   },
   "g.10774386745.rang_moy": {
    "v": 72,
    "d": "72e",
-   "l": "Sandworm Playground : rang à la moyenne du jour",
+   "l": "[WORLD 2] Sandworm Playground : rang à la moyenne du jour",
    "src": "data/jours/2026-11-19.csv#L77"
   },
   "g.10774386745.releves": {
    "v": 24,
    "d": "24",
-   "l": "Sandworm Playground : relevés où le jeu a été mesuré",
+   "l": "[WORLD 2] Sandworm Playground : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-19.csv#L77"
   },
   "g.10774386745.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "Sandworm Playground : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[WORLD 2] Sandworm Playground : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-19.csv#L77"
   },
   "g.10708913337.nom": {
