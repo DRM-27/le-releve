@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-19",
- "genere": "2026-11-20T17:20:23Z",
+ "genere": "2026-11-20T22:52:06Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -2295,111 +2295,111 @@
    "src": "data/jours/2026-11-19.csv#L12"
   },
   "g.5569032992.nom": {
-   "v": "🌻 Dandy's World [ALPHA]",
-   "d": "🌻 Dandy's World [ALPHA]",
-   "l": "🌻 Dandy's World [ALPHA] : nom",
+   "v": "🌻 Dandy's World [1.0]",
+   "d": "🌻 Dandy's World [1.0]",
+   "l": "🌻 Dandy's World [1.0] : nom",
    "src": "data/jours/2026-11-19.csv#L13"
   },
   "g.5569032992.rang": {
    "v": 12,
    "d": "12e",
-   "l": "🌻 Dandy's World [ALPHA] : rang au pic du jour",
+   "l": "🌻 Dandy's World [1.0] : rang au pic du jour",
    "src": "data/jours/2026-11-19.csv#L13"
   },
   "g.5569032992.pic": {
    "v": 81778,
    "d": "81 778",
-   "l": "🌻 Dandy's World [ALPHA] : pic de joueurs simultanés relevé",
+   "l": "🌻 Dandy's World [1.0] : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-19.csv#L13"
   },
   "g.5569032992.heure_pic": {
    "v": "23:35",
    "d": "23 h 35",
-   "l": "🌻 Dandy's World [ALPHA] : heure (Paris) du pic relevé",
+   "l": "🌻 Dandy's World [1.0] : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-19.csv#L13"
   },
   "g.5569032992.moy": {
    "v": 54714,
    "d": "54 714",
-   "l": "🌻 Dandy's World [ALPHA] : moyenne des joueurs simultanés sur la journée",
+   "l": "🌻 Dandy's World [1.0] : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-19.csv#L13"
   },
   "g.5569032992.createur": {
    "v": "BlushCrunch Studio",
    "d": "BlushCrunch Studio",
-   "l": "🌻 Dandy's World [ALPHA] : créateur",
+   "l": "🌻 Dandy's World [1.0] : créateur",
    "src": "data/jours/2026-11-19.csv#L13"
   },
   "g.5569032992.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "🌻 Dandy's World [ALPHA] : genre",
+   "l": "🌻 Dandy's World [1.0] : genre",
    "src": "data/jours/2026-11-19.csv#L13"
   },
   "g.5569032992.var_veille": {
    "v": 0.0975,
    "d": "+9,8 %",
-   "l": "🌻 Dandy's World [ALPHA] : variation de la moyenne par rapport à la veille",
+   "l": "🌻 Dandy's World [1.0] : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-19.csv#L13"
   },
   "g.5569032992.moy_veille": {
    "v": 49853,
    "d": "49 853",
-   "l": "🌻 Dandy's World [ALPHA] : moyenne de la veille",
+   "l": "🌻 Dandy's World [1.0] : moyenne de la veille",
    "src": "data/jours/2026-11-19.csv#L13"
   },
   "g.5569032992.var_7j": {
    "v": -0.2124,
    "d": "−21,2 %",
-   "l": "🌻 Dandy's World [ALPHA] : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "🌻 Dandy's World [1.0] : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-19.csv#L13"
   },
   "g.5569032992.moy_7j": {
    "v": 69467,
    "d": "69 467",
-   "l": "🌻 Dandy's World [ALPHA] : moyenne des 7 jours précédents",
+   "l": "🌻 Dandy's World [1.0] : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-19.csv#L13"
   },
   "g.5569032992.visites_24h": {
    "v": 5137225,
    "d": "5,14 millions",
-   "l": "🌻 Dandy's World [ALPHA] : visites gagnées en 24 h",
+   "l": "🌻 Dandy's World [1.0] : visites gagnées en 24 h",
    "src": "data/jours/2026-11-19.csv#L13"
   },
   "g.5569032992.visites_total": {
    "v": 7988037275,
    "d": "7,99 milliards",
-   "l": "🌻 Dandy's World [ALPHA] : visites cumulées depuis la création",
+   "l": "🌻 Dandy's World [1.0] : visites cumulées depuis la création",
    "src": "data/jours/2026-11-19.csv#L13"
   },
   "g.5569032992.note": {
    "v": 0.8854,
    "d": "88,5 %",
-   "l": "🌻 Dandy's World [ALPHA] : part de votes positifs",
+   "l": "🌻 Dandy's World [1.0] : part de votes positifs",
    "src": "data/jours/2026-11-19.csv#L13"
   },
   "g.5569032992.rang_veille": {
    "v": 14,
    "d": "14e",
-   "l": "🌻 Dandy's World [ALPHA] : rang la veille",
+   "l": "🌻 Dandy's World [1.0] : rang la veille",
    "src": "data/jours/2026-11-19.csv#L13"
   },
   "g.5569032992.rang_moy": {
    "v": 14,
    "d": "14e",
-   "l": "🌻 Dandy's World [ALPHA] : rang à la moyenne du jour",
+   "l": "🌻 Dandy's World [1.0] : rang à la moyenne du jour",
    "src": "data/jours/2026-11-19.csv#L13"
   },
   "g.5569032992.releves": {
    "v": 24,
    "d": "24",
-   "l": "🌻 Dandy's World [ALPHA] : relevés où le jeu a été mesuré",
+   "l": "🌻 Dandy's World [1.0] : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-19.csv#L13"
   },
   "g.5569032992.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "🌻 Dandy's World [ALPHA] : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "🌻 Dandy's World [1.0] : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-19.csv#L13"
   },
   "g.3183403065.nom": {
@@ -3159,111 +3159,111 @@
    "src": "data/jours/2026-11-19.csv#L20"
   },
   "g.7529591378.nom": {
-   "v": "[ALPHA] Practical Basketball",
-   "d": "[ALPHA] Practical Basketball",
-   "l": "[ALPHA] Practical Basketball : nom",
+   "v": "[THANKSGIVING] Practical Basketball",
+   "d": "[THANKSGIVING] Practical Basketball",
+   "l": "[THANKSGIVING] Practical Basketball : nom",
    "src": "data/jours/2026-11-19.csv#L21"
   },
   "g.7529591378.rang": {
    "v": 20,
    "d": "20e",
-   "l": "[ALPHA] Practical Basketball : rang au pic du jour",
+   "l": "[THANKSGIVING] Practical Basketball : rang au pic du jour",
    "src": "data/jours/2026-11-19.csv#L21"
   },
   "g.7529591378.pic": {
    "v": 55176,
    "d": "55 176",
-   "l": "[ALPHA] Practical Basketball : pic de joueurs simultanés relevé",
+   "l": "[THANKSGIVING] Practical Basketball : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-19.csv#L21"
   },
   "g.7529591378.heure_pic": {
    "v": "02:41",
    "d": "2 h 41",
-   "l": "[ALPHA] Practical Basketball : heure (Paris) du pic relevé",
+   "l": "[THANKSGIVING] Practical Basketball : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-19.csv#L21"
   },
   "g.7529591378.moy": {
    "v": 21888,
    "d": "21 888",
-   "l": "[ALPHA] Practical Basketball : moyenne des joueurs simultanés sur la journée",
+   "l": "[THANKSGIVING] Practical Basketball : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-19.csv#L21"
   },
   "g.7529591378.createur": {
    "v": "Practical's Games",
    "d": "Practical's Games",
-   "l": "[ALPHA] Practical Basketball : créateur",
+   "l": "[THANKSGIVING] Practical Basketball : créateur",
    "src": "data/jours/2026-11-19.csv#L21"
   },
   "g.7529591378.genre": {
    "v": "Sports & Racing",
    "d": "Sport et course",
-   "l": "[ALPHA] Practical Basketball : genre",
+   "l": "[THANKSGIVING] Practical Basketball : genre",
    "src": "data/jours/2026-11-19.csv#L21"
   },
   "g.7529591378.var_veille": {
    "v": -0.1002,
    "d": "−10,0 %",
-   "l": "[ALPHA] Practical Basketball : variation de la moyenne par rapport à la veille",
+   "l": "[THANKSGIVING] Practical Basketball : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-19.csv#L21"
   },
   "g.7529591378.moy_veille": {
    "v": 24325,
    "d": "24 325",
-   "l": "[ALPHA] Practical Basketball : moyenne de la veille",
+   "l": "[THANKSGIVING] Practical Basketball : moyenne de la veille",
    "src": "data/jours/2026-11-19.csv#L21"
   },
   "g.7529591378.var_7j": {
    "v": -0.3835,
    "d": "−38,4 %",
-   "l": "[ALPHA] Practical Basketball : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[THANKSGIVING] Practical Basketball : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-19.csv#L21"
   },
   "g.7529591378.moy_7j": {
    "v": 35502,
    "d": "35 502",
-   "l": "[ALPHA] Practical Basketball : moyenne des 7 jours précédents",
+   "l": "[THANKSGIVING] Practical Basketball : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-19.csv#L21"
   },
   "g.7529591378.visites_24h": {
    "v": 1358900,
    "d": "1,36 million",
-   "l": "[ALPHA] Practical Basketball : visites gagnées en 24 h",
+   "l": "[THANKSGIVING] Practical Basketball : visites gagnées en 24 h",
    "src": "data/jours/2026-11-19.csv#L21"
   },
   "g.7529591378.visites_total": {
    "v": 149996467,
    "d": "150 millions",
-   "l": "[ALPHA] Practical Basketball : visites cumulées depuis la création",
+   "l": "[THANKSGIVING] Practical Basketball : visites cumulées depuis la création",
    "src": "data/jours/2026-11-19.csv#L21"
   },
   "g.7529591378.note": {
    "v": 0.9268,
    "d": "92,7 %",
-   "l": "[ALPHA] Practical Basketball : part de votes positifs",
+   "l": "[THANKSGIVING] Practical Basketball : part de votes positifs",
    "src": "data/jours/2026-11-19.csv#L21"
   },
   "g.7529591378.rang_veille": {
    "v": 18,
    "d": "18e",
-   "l": "[ALPHA] Practical Basketball : rang la veille",
+   "l": "[THANKSGIVING] Practical Basketball : rang la veille",
    "src": "data/jours/2026-11-19.csv#L21"
   },
   "g.7529591378.rang_moy": {
    "v": 43,
    "d": "43e",
-   "l": "[ALPHA] Practical Basketball : rang à la moyenne du jour",
+   "l": "[THANKSGIVING] Practical Basketball : rang à la moyenne du jour",
    "src": "data/jours/2026-11-19.csv#L21"
   },
   "g.7529591378.releves": {
    "v": 24,
    "d": "24",
-   "l": "[ALPHA] Practical Basketball : relevés où le jeu a été mesuré",
+   "l": "[THANKSGIVING] Practical Basketball : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-19.csv#L21"
   },
   "g.7529591378.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[ALPHA] Practical Basketball : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[THANKSGIVING] Practical Basketball : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-19.csv#L21"
   },
   "g.6331902150.nom": {
@@ -5907,111 +5907,111 @@
    "src": "data/jours/2026-11-19.csv#L46"
   },
   "g.4839802560.nom": {
-   "v": "LifeTogether 🏠 RP ",
-   "d": "LifeTogether 🏠 RP ",
-   "l": "LifeTogether 🏠 RP  : nom",
+   "v": "LifeTogether 🏠 RP [💃🏻 STEPS]",
+   "d": "LifeTogether 🏠 RP [💃🏻 STEPS]",
+   "l": "LifeTogether 🏠 RP [💃🏻 STEPS] : nom",
    "src": "data/jours/2026-11-19.csv#L47"
   },
   "g.4839802560.rang": {
    "v": 46,
    "d": "46e",
-   "l": "LifeTogether 🏠 RP  : rang au pic du jour",
+   "l": "LifeTogether 🏠 RP [💃🏻 STEPS] : rang au pic du jour",
    "src": "data/jours/2026-11-19.csv#L47"
   },
   "g.4839802560.pic": {
    "v": 30445,
    "d": "30 445",
-   "l": "LifeTogether 🏠 RP  : pic de joueurs simultanés relevé",
+   "l": "LifeTogether 🏠 RP [💃🏻 STEPS] : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-19.csv#L47"
   },
   "g.4839802560.heure_pic": {
    "v": "18:44",
    "d": "18 h 44",
-   "l": "LifeTogether 🏠 RP  : heure (Paris) du pic relevé",
+   "l": "LifeTogether 🏠 RP [💃🏻 STEPS] : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-19.csv#L47"
   },
   "g.4839802560.moy": {
    "v": 21328,
    "d": "21 328",
-   "l": "LifeTogether 🏠 RP  : moyenne des joueurs simultanés sur la journée",
+   "l": "LifeTogether 🏠 RP [💃🏻 STEPS] : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-19.csv#L47"
   },
   "g.4839802560.createur": {
    "v": "Cinnamon Software",
    "d": "Cinnamon Software",
-   "l": "LifeTogether 🏠 RP  : créateur",
+   "l": "LifeTogether 🏠 RP [💃🏻 STEPS] : créateur",
    "src": "data/jours/2026-11-19.csv#L47"
   },
   "g.4839802560.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "LifeTogether 🏠 RP  : genre",
+   "l": "LifeTogether 🏠 RP [💃🏻 STEPS] : genre",
    "src": "data/jours/2026-11-19.csv#L47"
   },
   "g.4839802560.var_veille": {
    "v": -0.0126,
    "d": "−1,3 %",
-   "l": "LifeTogether 🏠 RP  : variation de la moyenne par rapport à la veille",
+   "l": "LifeTogether 🏠 RP [💃🏻 STEPS] : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-19.csv#L47"
   },
   "g.4839802560.moy_veille": {
    "v": 21602,
    "d": "21 602",
-   "l": "LifeTogether 🏠 RP  : moyenne de la veille",
+   "l": "LifeTogether 🏠 RP [💃🏻 STEPS] : moyenne de la veille",
    "src": "data/jours/2026-11-19.csv#L47"
   },
   "g.4839802560.var_7j": {
    "v": -0.2408,
    "d": "−24,1 %",
-   "l": "LifeTogether 🏠 RP  : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "LifeTogether 🏠 RP [💃🏻 STEPS] : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-19.csv#L47"
   },
   "g.4839802560.moy_7j": {
    "v": 28092,
    "d": "28 092",
-   "l": "LifeTogether 🏠 RP  : moyenne des 7 jours précédents",
+   "l": "LifeTogether 🏠 RP [💃🏻 STEPS] : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-19.csv#L47"
   },
   "g.4839802560.visites_24h": {
    "v": 1942168,
    "d": "1,94 million",
-   "l": "LifeTogether 🏠 RP  : visites gagnées en 24 h",
+   "l": "LifeTogether 🏠 RP [💃🏻 STEPS] : visites gagnées en 24 h",
    "src": "data/jours/2026-11-19.csv#L47"
   },
   "g.4839802560.visites_total": {
    "v": 4139254194,
    "d": "4,14 milliards",
-   "l": "LifeTogether 🏠 RP  : visites cumulées depuis la création",
+   "l": "LifeTogether 🏠 RP [💃🏻 STEPS] : visites cumulées depuis la création",
    "src": "data/jours/2026-11-19.csv#L47"
   },
   "g.4839802560.note": {
    "v": 0.9029,
    "d": "90,3 %",
-   "l": "LifeTogether 🏠 RP  : part de votes positifs",
+   "l": "LifeTogether 🏠 RP [💃🏻 STEPS] : part de votes positifs",
    "src": "data/jours/2026-11-19.csv#L47"
   },
   "g.4839802560.rang_veille": {
    "v": 46,
    "d": "46e",
-   "l": "LifeTogether 🏠 RP  : rang la veille",
+   "l": "LifeTogether 🏠 RP [💃🏻 STEPS] : rang la veille",
    "src": "data/jours/2026-11-19.csv#L47"
   },
   "g.4839802560.rang_moy": {
    "v": 44,
    "d": "44e",
-   "l": "LifeTogether 🏠 RP  : rang à la moyenne du jour",
+   "l": "LifeTogether 🏠 RP [💃🏻 STEPS] : rang à la moyenne du jour",
    "src": "data/jours/2026-11-19.csv#L47"
   },
   "g.4839802560.releves": {
    "v": 24,
    "d": "24",
-   "l": "LifeTogether 🏠 RP  : relevés où le jeu a été mesuré",
+   "l": "LifeTogether 🏠 RP [💃🏻 STEPS] : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-19.csv#L47"
   },
   "g.4839802560.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "LifeTogether 🏠 RP  : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "LifeTogether 🏠 RP [💃🏻 STEPS] : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-19.csv#L47"
   },
   "g.10772066587.nom": {
@@ -6093,81 +6093,81 @@
    "src": "data/jours/2026-11-19.csv#L48"
   },
   "g.10772281976.nom": {
-   "v": "Unstable SMP FFA [JAVA PVP!]",
-   "d": "Unstable SMP FFA [JAVA PVP!]",
-   "l": "Unstable SMP FFA [JAVA PVP!] : nom",
+   "v": " [THROWING DISC!] Unstable SMP FFA",
+   "d": " [THROWING DISC!] Unstable SMP FFA",
+   "l": " [THROWING DISC!] Unstable SMP FFA : nom",
    "src": "data/jours/2026-11-19.csv#L49"
   },
   "g.10772281976.rang": {
    "v": 48,
    "d": "48e",
-   "l": "Unstable SMP FFA [JAVA PVP!] : rang au pic du jour",
+   "l": " [THROWING DISC!] Unstable SMP FFA : rang au pic du jour",
    "src": "data/jours/2026-11-19.csv#L49"
   },
   "g.10772281976.pic": {
    "v": 28881,
    "d": "28 881",
-   "l": "Unstable SMP FFA [JAVA PVP!] : pic de joueurs simultanés relevé",
+   "l": " [THROWING DISC!] Unstable SMP FFA : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-19.csv#L49"
   },
   "g.10772281976.heure_pic": {
    "v": "17:50",
    "d": "17 h 50",
-   "l": "Unstable SMP FFA [JAVA PVP!] : heure (Paris) du pic relevé",
+   "l": " [THROWING DISC!] Unstable SMP FFA : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-19.csv#L49"
   },
   "g.10772281976.moy": {
    "v": 20193,
    "d": "20 193",
-   "l": "Unstable SMP FFA [JAVA PVP!] : moyenne des joueurs simultanés sur la journée",
+   "l": " [THROWING DISC!] Unstable SMP FFA : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-19.csv#L49"
   },
   "g.10772281976.createur": {
    "v": "[IS] Insomnia Studios",
    "d": "[IS] Insomnia Studios",
-   "l": "Unstable SMP FFA [JAVA PVP!] : créateur",
+   "l": " [THROWING DISC!] Unstable SMP FFA : créateur",
    "src": "data/jours/2026-11-19.csv#L49"
   },
   "g.10772281976.genre": {
    "v": "Action",
    "d": "Action",
-   "l": "Unstable SMP FFA [JAVA PVP!] : genre",
+   "l": " [THROWING DISC!] Unstable SMP FFA : genre",
    "src": "data/jours/2026-11-19.csv#L49"
   },
   "g.10772281976.visites_24h": {
    "v": 2145886,
    "d": "2,15 millions",
-   "l": "Unstable SMP FFA [JAVA PVP!] : visites gagnées en 24 h",
+   "l": " [THROWING DISC!] Unstable SMP FFA : visites gagnées en 24 h",
    "src": "data/jours/2026-11-19.csv#L49"
   },
   "g.10772281976.visites_total": {
    "v": 33476571,
    "d": "33,48 millions",
-   "l": "Unstable SMP FFA [JAVA PVP!] : visites cumulées depuis la création",
+   "l": " [THROWING DISC!] Unstable SMP FFA : visites cumulées depuis la création",
    "src": "data/jours/2026-11-19.csv#L49"
   },
   "g.10772281976.note": {
    "v": 0.8487,
    "d": "84,9 %",
-   "l": "Unstable SMP FFA [JAVA PVP!] : part de votes positifs",
+   "l": " [THROWING DISC!] Unstable SMP FFA : part de votes positifs",
    "src": "data/jours/2026-11-19.csv#L49"
   },
   "g.10772281976.rang_moy": {
    "v": 47,
    "d": "47e",
-   "l": "Unstable SMP FFA [JAVA PVP!] : rang à la moyenne du jour",
+   "l": " [THROWING DISC!] Unstable SMP FFA : rang à la moyenne du jour",
    "src": "data/jours/2026-11-19.csv#L49"
   },
   "g.10772281976.releves": {
    "v": 15,
    "d": "15",
-   "l": "Unstable SMP FFA [JAVA PVP!] : relevés où le jeu a été mesuré",
+   "l": " [THROWING DISC!] Unstable SMP FFA : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-19.csv#L49"
   },
   "g.10772281976.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "Unstable SMP FFA [JAVA PVP!] : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": " [THROWING DISC!] Unstable SMP FFA : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-19.csv#L49"
   },
   "g.4778845442.nom": {
@@ -6279,111 +6279,111 @@
    "src": "data/jours/2026-11-19.csv#L50"
   },
   "g.1202096104.nom": {
-   "v": "Driving Empire [✨LIMITED + DRIFT✨]",
-   "d": "Driving Empire [✨LIMITED + DRIFT✨]",
-   "l": "Driving Empire [✨LIMITED + DRIFT✨] : nom",
+   "v": "Driving Empire [✨NEW LIMITED ✨]",
+   "d": "Driving Empire [✨NEW LIMITED ✨]",
+   "l": "Driving Empire [✨NEW LIMITED ✨] : nom",
    "src": "data/jours/2026-11-19.csv#L51"
   },
   "g.1202096104.rang": {
    "v": 50,
    "d": "50e",
-   "l": "Driving Empire [✨LIMITED + DRIFT✨] : rang au pic du jour",
+   "l": "Driving Empire [✨NEW LIMITED ✨] : rang au pic du jour",
    "src": "data/jours/2026-11-19.csv#L51"
   },
   "g.1202096104.pic": {
    "v": 27743,
    "d": "27 743",
-   "l": "Driving Empire [✨LIMITED + DRIFT✨] : pic de joueurs simultanés relevé",
+   "l": "Driving Empire [✨NEW LIMITED ✨] : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-19.csv#L51"
   },
   "g.1202096104.heure_pic": {
    "v": "17:50",
    "d": "17 h 50",
-   "l": "Driving Empire [✨LIMITED + DRIFT✨] : heure (Paris) du pic relevé",
+   "l": "Driving Empire [✨NEW LIMITED ✨] : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-19.csv#L51"
   },
   "g.1202096104.moy": {
    "v": 22612,
    "d": "22 612",
-   "l": "Driving Empire [✨LIMITED + DRIFT✨] : moyenne des joueurs simultanés sur la journée",
+   "l": "Driving Empire [✨NEW LIMITED ✨] : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-19.csv#L51"
   },
   "g.1202096104.createur": {
    "v": "Driving Empire by Voldex",
    "d": "Driving Empire by Voldex",
-   "l": "Driving Empire [✨LIMITED + DRIFT✨] : créateur",
+   "l": "Driving Empire [✨NEW LIMITED ✨] : créateur",
    "src": "data/jours/2026-11-19.csv#L51"
   },
   "g.1202096104.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "Driving Empire [✨LIMITED + DRIFT✨] : genre",
+   "l": "Driving Empire [✨NEW LIMITED ✨] : genre",
    "src": "data/jours/2026-11-19.csv#L51"
   },
   "g.1202096104.var_veille": {
    "v": -0.0154,
    "d": "−1,5 %",
-   "l": "Driving Empire [✨LIMITED + DRIFT✨] : variation de la moyenne par rapport à la veille",
+   "l": "Driving Empire [✨NEW LIMITED ✨] : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-19.csv#L51"
   },
   "g.1202096104.moy_veille": {
    "v": 22967,
    "d": "22 967",
-   "l": "Driving Empire [✨LIMITED + DRIFT✨] : moyenne de la veille",
+   "l": "Driving Empire [✨NEW LIMITED ✨] : moyenne de la veille",
    "src": "data/jours/2026-11-19.csv#L51"
   },
   "g.1202096104.var_7j": {
    "v": -0.1152,
    "d": "−11,5 %",
-   "l": "Driving Empire [✨LIMITED + DRIFT✨] : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Driving Empire [✨NEW LIMITED ✨] : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-19.csv#L51"
   },
   "g.1202096104.moy_7j": {
    "v": 25556,
    "d": "25 556",
-   "l": "Driving Empire [✨LIMITED + DRIFT✨] : moyenne des 7 jours précédents",
+   "l": "Driving Empire [✨NEW LIMITED ✨] : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-19.csv#L51"
   },
   "g.1202096104.visites_24h": {
    "v": 2138652,
    "d": "2,14 millions",
-   "l": "Driving Empire [✨LIMITED + DRIFT✨] : visites gagnées en 24 h",
+   "l": "Driving Empire [✨NEW LIMITED ✨] : visites gagnées en 24 h",
    "src": "data/jours/2026-11-19.csv#L51"
   },
   "g.1202096104.visites_total": {
    "v": 3452888426,
    "d": "3,45 milliards",
-   "l": "Driving Empire [✨LIMITED + DRIFT✨] : visites cumulées depuis la création",
+   "l": "Driving Empire [✨NEW LIMITED ✨] : visites cumulées depuis la création",
    "src": "data/jours/2026-11-19.csv#L51"
   },
   "g.1202096104.note": {
    "v": 0.9297,
    "d": "93,0 %",
-   "l": "Driving Empire [✨LIMITED + DRIFT✨] : part de votes positifs",
+   "l": "Driving Empire [✨NEW LIMITED ✨] : part de votes positifs",
    "src": "data/jours/2026-11-19.csv#L51"
   },
   "g.1202096104.rang_veille": {
    "v": 52,
    "d": "52e",
-   "l": "Driving Empire [✨LIMITED + DRIFT✨] : rang la veille",
+   "l": "Driving Empire [✨NEW LIMITED ✨] : rang la veille",
    "src": "data/jours/2026-11-19.csv#L51"
   },
   "g.1202096104.rang_moy": {
    "v": 42,
    "d": "42e",
-   "l": "Driving Empire [✨LIMITED + DRIFT✨] : rang à la moyenne du jour",
+   "l": "Driving Empire [✨NEW LIMITED ✨] : rang à la moyenne du jour",
    "src": "data/jours/2026-11-19.csv#L51"
   },
   "g.1202096104.releves": {
    "v": 24,
    "d": "24",
-   "l": "Driving Empire [✨LIMITED + DRIFT✨] : relevés où le jeu a été mesuré",
+   "l": "Driving Empire [✨NEW LIMITED ✨] : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-19.csv#L51"
   },
   "g.1202096104.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "Driving Empire [✨LIMITED + DRIFT✨] : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "Driving Empire [✨NEW LIMITED ✨] : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-19.csv#L51"
   },
   "g.372226183.nom": {
@@ -6807,111 +6807,111 @@
    "src": "data/jours/2026-11-19.csv#L55"
   },
   "g.9584852943.nom": {
-   "v": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate",
-   "d": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : nom",
+   "v": "+1 Speed Keyboard Escape | Candy & Chocolate",
+   "d": "+1 Speed Keyboard Escape | Candy & Chocolate",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : nom",
    "src": "data/jours/2026-11-19.csv#L56"
   },
   "g.9584852943.rang": {
    "v": 55,
    "d": "55e",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
    "src": "data/jours/2026-11-19.csv#L56"
   },
   "g.9584852943.pic": {
    "v": 24910,
    "d": "24 910",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-19.csv#L56"
   },
   "g.9584852943.heure_pic": {
    "v": "18:44",
    "d": "18 h 44",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-19.csv#L56"
   },
   "g.9584852943.moy": {
    "v": 16842,
    "d": "16 842",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-19.csv#L56"
   },
   "g.9584852943.createur": {
    "v": "SecretVerse Studio",
    "d": "SecretVerse Studio",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : créateur",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : créateur",
    "src": "data/jours/2026-11-19.csv#L56"
   },
   "g.9584852943.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : genre",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : genre",
    "src": "data/jours/2026-11-19.csv#L56"
   },
   "g.9584852943.var_veille": {
    "v": -0.0078,
    "d": "−0,8 %",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport à la veille",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-19.csv#L56"
   },
   "g.9584852943.moy_veille": {
    "v": 16974,
    "d": "16 974",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne de la veille",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : moyenne de la veille",
    "src": "data/jours/2026-11-19.csv#L56"
   },
   "g.9584852943.var_7j": {
    "v": -0.3413,
    "d": "−34,1 %",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-19.csv#L56"
   },
   "g.9584852943.moy_7j": {
    "v": 25568,
    "d": "25 568",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des 7 jours précédents",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-19.csv#L56"
   },
   "g.9584852943.visites_24h": {
    "v": 2782265,
    "d": "2,78 millions",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : visites gagnées en 24 h",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : visites gagnées en 24 h",
    "src": "data/jours/2026-11-19.csv#L56"
   },
   "g.9584852943.visites_total": {
    "v": 6715740979,
    "d": "6,72 milliards",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
    "src": "data/jours/2026-11-19.csv#L56"
   },
   "g.9584852943.note": {
    "v": 0.9668,
    "d": "96,7 %",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
    "src": "data/jours/2026-11-19.csv#L56"
   },
   "g.9584852943.rang_veille": {
    "v": 50,
    "d": "50e",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : rang la veille",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : rang la veille",
    "src": "data/jours/2026-11-19.csv#L56"
   },
   "g.9584852943.rang_moy": {
    "v": 57,
    "d": "57e",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : rang à la moyenne du jour",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : rang à la moyenne du jour",
    "src": "data/jours/2026-11-19.csv#L56"
   },
   "g.9584852943.releves": {
    "v": 24,
    "d": "24",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : relevés où le jeu a été mesuré",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-19.csv#L56"
   },
   "g.9584852943.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-19.csv#L56"
   },
   "g.7174773198.nom": {
@@ -10197,111 +10197,111 @@
    "src": "data/jours/2026-11-19.csv#L88"
   },
   "g.7436755782.nom": {
-   "v": "[🏺] Grow a Garden 🌶️",
-   "d": "[🏺] Grow a Garden 🌶️",
-   "l": "[🏺] Grow a Garden 🌶️ : nom",
+   "v": "[⚖️] Grow a Garden 🌶️",
+   "d": "[⚖️] Grow a Garden 🌶️",
+   "l": "[⚖️] Grow a Garden 🌶️ : nom",
    "src": "data/jours/2026-11-19.csv#L89"
   },
   "g.7436755782.rang": {
    "v": 88,
    "d": "88e",
-   "l": "[🏺] Grow a Garden 🌶️ : rang au pic du jour",
+   "l": "[⚖️] Grow a Garden 🌶️ : rang au pic du jour",
    "src": "data/jours/2026-11-19.csv#L89"
   },
   "g.7436755782.pic": {
    "v": 18243,
    "d": "18 243",
-   "l": "[🏺] Grow a Garden 🌶️ : pic de joueurs simultanés relevé",
+   "l": "[⚖️] Grow a Garden 🌶️ : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-19.csv#L89"
   },
   "g.7436755782.heure_pic": {
    "v": "15:05",
    "d": "15 h 05",
-   "l": "[🏺] Grow a Garden 🌶️ : heure (Paris) du pic relevé",
+   "l": "[⚖️] Grow a Garden 🌶️ : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-19.csv#L89"
   },
   "g.7436755782.moy": {
    "v": 14310,
    "d": "14 310",
-   "l": "[🏺] Grow a Garden 🌶️ : moyenne des joueurs simultanés sur la journée",
+   "l": "[⚖️] Grow a Garden 🌶️ : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-19.csv#L89"
   },
   "g.7436755782.createur": {
    "v": "The Garden Game",
    "d": "The Garden Game",
-   "l": "[🏺] Grow a Garden 🌶️ : créateur",
+   "l": "[⚖️] Grow a Garden 🌶️ : créateur",
    "src": "data/jours/2026-11-19.csv#L89"
   },
   "g.7436755782.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🏺] Grow a Garden 🌶️ : genre",
+   "l": "[⚖️] Grow a Garden 🌶️ : genre",
    "src": "data/jours/2026-11-19.csv#L89"
   },
   "g.7436755782.var_veille": {
    "v": -0.0072,
    "d": "−0,7 %",
-   "l": "[🏺] Grow a Garden 🌶️ : variation de la moyenne par rapport à la veille",
+   "l": "[⚖️] Grow a Garden 🌶️ : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-19.csv#L89"
   },
   "g.7436755782.moy_veille": {
    "v": 14414,
    "d": "14 414",
-   "l": "[🏺] Grow a Garden 🌶️ : moyenne de la veille",
+   "l": "[⚖️] Grow a Garden 🌶️ : moyenne de la veille",
    "src": "data/jours/2026-11-19.csv#L89"
   },
   "g.7436755782.var_7j": {
    "v": -0.1299,
    "d": "−13,0 %",
-   "l": "[🏺] Grow a Garden 🌶️ : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[⚖️] Grow a Garden 🌶️ : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-19.csv#L89"
   },
   "g.7436755782.moy_7j": {
    "v": 16445,
    "d": "16 445",
-   "l": "[🏺] Grow a Garden 🌶️ : moyenne des 7 jours précédents",
+   "l": "[⚖️] Grow a Garden 🌶️ : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-19.csv#L89"
   },
   "g.7436755782.visites_24h": {
    "v": 994911,
    "d": "994 911",
-   "l": "[🏺] Grow a Garden 🌶️ : visites gagnées en 24 h",
+   "l": "[⚖️] Grow a Garden 🌶️ : visites gagnées en 24 h",
    "src": "data/jours/2026-11-19.csv#L89"
   },
   "g.7436755782.visites_total": {
    "v": 36025146949,
    "d": "36,03 milliards",
-   "l": "[🏺] Grow a Garden 🌶️ : visites cumulées depuis la création",
+   "l": "[⚖️] Grow a Garden 🌶️ : visites cumulées depuis la création",
    "src": "data/jours/2026-11-19.csv#L89"
   },
   "g.7436755782.note": {
    "v": 0.8994,
    "d": "89,9 %",
-   "l": "[🏺] Grow a Garden 🌶️ : part de votes positifs",
+   "l": "[⚖️] Grow a Garden 🌶️ : part de votes positifs",
    "src": "data/jours/2026-11-19.csv#L89"
   },
   "g.7436755782.rang_veille": {
    "v": 80,
    "d": "80e",
-   "l": "[🏺] Grow a Garden 🌶️ : rang la veille",
+   "l": "[⚖️] Grow a Garden 🌶️ : rang la veille",
    "src": "data/jours/2026-11-19.csv#L89"
   },
   "g.7436755782.rang_moy": {
    "v": 78,
    "d": "78e",
-   "l": "[🏺] Grow a Garden 🌶️ : rang à la moyenne du jour",
+   "l": "[⚖️] Grow a Garden 🌶️ : rang à la moyenne du jour",
    "src": "data/jours/2026-11-19.csv#L89"
   },
   "g.7436755782.releves": {
    "v": 24,
    "d": "24",
-   "l": "[🏺] Grow a Garden 🌶️ : relevés où le jeu a été mesuré",
+   "l": "[⚖️] Grow a Garden 🌶️ : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-19.csv#L89"
   },
   "g.7436755782.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[🏺] Grow a Garden 🌶️ : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[⚖️] Grow a Garden 🌶️ : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-19.csv#L89"
   },
   "g.245662005.nom": {
@@ -11325,111 +11325,111 @@
    "src": "data/jours/2026-11-19.csv#L99"
   },
   "g.10733617110.nom": {
-   "v": "[🚨 LOCKDOWN] Fatal Baboons",
-   "d": "[🚨 LOCKDOWN] Fatal Baboons",
-   "l": "[🚨 LOCKDOWN] Fatal Baboons : nom",
+   "v": "[BE THE MONSTER] Fatal Baboons",
+   "d": "[BE THE MONSTER] Fatal Baboons",
+   "l": "[BE THE MONSTER] Fatal Baboons : nom",
    "src": "data/jours/2026-11-19.csv#L100"
   },
   "g.10733617110.rang": {
    "v": 99,
    "d": "99e",
-   "l": "[🚨 LOCKDOWN] Fatal Baboons : rang au pic du jour",
+   "l": "[BE THE MONSTER] Fatal Baboons : rang au pic du jour",
    "src": "data/jours/2026-11-19.csv#L100"
   },
   "g.10733617110.pic": {
    "v": 16701,
    "d": "16 701",
-   "l": "[🚨 LOCKDOWN] Fatal Baboons : pic de joueurs simultanés relevé",
+   "l": "[BE THE MONSTER] Fatal Baboons : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-19.csv#L100"
   },
   "g.10733617110.heure_pic": {
    "v": "01:41",
    "d": "1 h 41",
-   "l": "[🚨 LOCKDOWN] Fatal Baboons : heure (Paris) du pic relevé",
+   "l": "[BE THE MONSTER] Fatal Baboons : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-19.csv#L100"
   },
   "g.10733617110.moy": {
    "v": 12355,
    "d": "12 355",
-   "l": "[🚨 LOCKDOWN] Fatal Baboons : moyenne des joueurs simultanés sur la journée",
+   "l": "[BE THE MONSTER] Fatal Baboons : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-19.csv#L100"
   },
   "g.10733617110.createur": {
    "v": "VertexLabs",
    "d": "VertexLabs",
-   "l": "[🚨 LOCKDOWN] Fatal Baboons : créateur",
+   "l": "[BE THE MONSTER] Fatal Baboons : créateur",
    "src": "data/jours/2026-11-19.csv#L100"
   },
   "g.10733617110.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "[🚨 LOCKDOWN] Fatal Baboons : genre",
+   "l": "[BE THE MONSTER] Fatal Baboons : genre",
    "src": "data/jours/2026-11-19.csv#L100"
   },
   "g.10733617110.var_veille": {
    "v": 0.0053,
    "d": "+0,5 %",
-   "l": "[🚨 LOCKDOWN] Fatal Baboons : variation de la moyenne par rapport à la veille",
+   "l": "[BE THE MONSTER] Fatal Baboons : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-19.csv#L100"
   },
   "g.10733617110.moy_veille": {
    "v": 12290,
    "d": "12 290",
-   "l": "[🚨 LOCKDOWN] Fatal Baboons : moyenne de la veille",
+   "l": "[BE THE MONSTER] Fatal Baboons : moyenne de la veille",
    "src": "data/jours/2026-11-19.csv#L100"
   },
   "g.10733617110.var_7j": {
    "v": -0.2474,
    "d": "−24,7 %",
-   "l": "[🚨 LOCKDOWN] Fatal Baboons : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[BE THE MONSTER] Fatal Baboons : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-19.csv#L100"
   },
   "g.10733617110.moy_7j": {
    "v": 16416,
    "d": "16 416",
-   "l": "[🚨 LOCKDOWN] Fatal Baboons : moyenne des 7 jours précédents",
+   "l": "[BE THE MONSTER] Fatal Baboons : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-19.csv#L100"
   },
   "g.10733617110.visites_24h": {
    "v": 1773043,
    "d": "1,77 million",
-   "l": "[🚨 LOCKDOWN] Fatal Baboons : visites gagnées en 24 h",
+   "l": "[BE THE MONSTER] Fatal Baboons : visites gagnées en 24 h",
    "src": "data/jours/2026-11-19.csv#L100"
   },
   "g.10733617110.visites_total": {
    "v": 50717352,
    "d": "50,72 millions",
-   "l": "[🚨 LOCKDOWN] Fatal Baboons : visites cumulées depuis la création",
+   "l": "[BE THE MONSTER] Fatal Baboons : visites cumulées depuis la création",
    "src": "data/jours/2026-11-19.csv#L100"
   },
   "g.10733617110.note": {
    "v": 0.8718,
    "d": "87,2 %",
-   "l": "[🚨 LOCKDOWN] Fatal Baboons : part de votes positifs",
+   "l": "[BE THE MONSTER] Fatal Baboons : part de votes positifs",
    "src": "data/jours/2026-11-19.csv#L100"
   },
   "g.10733617110.rang_veille": {
    "v": 82,
    "d": "82e",
-   "l": "[🚨 LOCKDOWN] Fatal Baboons : rang la veille",
+   "l": "[BE THE MONSTER] Fatal Baboons : rang la veille",
    "src": "data/jours/2026-11-19.csv#L100"
   },
   "g.10733617110.rang_moy": {
    "v": 94,
    "d": "94e",
-   "l": "[🚨 LOCKDOWN] Fatal Baboons : rang à la moyenne du jour",
+   "l": "[BE THE MONSTER] Fatal Baboons : rang à la moyenne du jour",
    "src": "data/jours/2026-11-19.csv#L100"
   },
   "g.10733617110.releves": {
    "v": 24,
    "d": "24",
-   "l": "[🚨 LOCKDOWN] Fatal Baboons : relevés où le jeu a été mesuré",
+   "l": "[BE THE MONSTER] Fatal Baboons : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-19.csv#L100"
   },
   "g.10733617110.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[🚨 LOCKDOWN] Fatal Baboons : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[BE THE MONSTER] Fatal Baboons : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-19.csv#L100"
   },
   "g.10701622575.nom": {
@@ -11805,8 +11805,8 @@
    "src": "data/jours/2026-11-19.csv#L625"
   },
   "baisse.3.nom": {
-   "v": "[🍥W3] +1 Sukuna Evolution",
-   "d": "[🍥W3] +1 Sukuna Evolution",
+   "v": "[🏴‍☠️W4] +1 Sukuna Evolution",
+   "d": "[🏴‍☠️W4] +1 Sukuna Evolution",
    "l": "Baisse n° 3 : nom",
    "src": "data/jours/2026-11-19.csv#L302"
   },
@@ -11919,8 +11919,8 @@
    "src": "data/jours/2026-11-19.csv"
   },
   "entree.1.nom": {
-   "v": "Driving Empire [✨LIMITED + DRIFT✨]",
-   "d": "Driving Empire [✨LIMITED + DRIFT✨]",
+   "v": "Driving Empire [✨NEW LIMITED ✨]",
+   "d": "Driving Empire [✨NEW LIMITED ✨]",
    "l": "Entrée n° 1 : nom",
    "src": "data/jours/2026-11-19.csv#L51"
   },
@@ -12009,8 +12009,8 @@
    "src": "data/jours/2026-11-19.csv#L48"
   },
   "retour.2.nom": {
-   "v": "Unstable SMP FFA [JAVA PVP!]",
-   "d": "Unstable SMP FFA [JAVA PVP!]",
+   "v": " [THROWING DISC!] Unstable SMP FFA",
+   "d": " [THROWING DISC!] Unstable SMP FFA",
    "l": "Retour n° 2 : nom",
    "src": "data/jours/2026-11-19.csv#L49"
   },
@@ -12307,7 +12307,7 @@
      "valeur": -0.6917
     },
     {
-     "nom": "[🍥W3] +1 Sukuna Evolution",
+     "nom": "[🏴‍☠️W4] +1 Sukuna Evolution",
      "valeur": -0.7194
     },
     {
