@@ -1,25 +1,25 @@
 {
- "genere": "2026-11-21T04:05:16Z",
+ "genere": "2026-11-21T11:52:24Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/",
-   "vues": 35
+   "vues": 48
   },
   {
    "path": "/le-releve/",
-   "vues": 12
-  },
-  {
-   "path": "/le-releve/explorer/",
-   "vues": 3
+   "vues": 13
   },
   {
    "path": "/articles/2026-11-19-jailbreak-quotidien/",
    "vues": 3
   },
   {
-   "path": "/le-releve/alertes/",
+   "path": "/le-releve/explorer/",
+   "vues": 3
+  },
+  {
+   "path": "/classement/",
    "vues": 2
   },
   {
@@ -27,11 +27,15 @@
    "vues": 2
   },
   {
+   "path": "/le-releve/classement/",
+   "vues": 2
+  },
+  {
    "path": "/le-releve/articles/2026-11-17-volley-bomb-quotidien/",
    "vues": 2
   },
   {
-   "path": "/le-releve/classement/",
+   "path": "/le-releve/alertes/",
    "vues": 2
   },
   {
@@ -39,11 +43,19 @@
    "vues": 1
   },
   {
-   "path": "/classement/",
+   "path": "/jeux/climb-the-rake-tower-10769120871/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/rapport/",
    "vues": 1
   },
   {
    "path": "/le-releve/jeux/s8-1-speed-keyboard-escape-candy-chocolate-9584852943/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/articles/2026-11-18-hyper-realistic-ragdoll-quotidien/",
    "vues": 1
   },
   {
@@ -55,23 +67,11 @@
    "vues": 1
   },
   {
-   "path": "/le-releve/rapport/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/confidentialite/",
-   "vues": 1
-  },
-  {
    "path": "/le-releve/articles/2026-11-19-jailbreak-quotidien/",
    "vues": 1
   },
   {
-   "path": "/le-releve/source/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/jeux/steal-an-egg-10563114921/",
+   "path": "/le-releve/records/",
    "vues": 1
   },
   {
@@ -79,7 +79,7 @@
    "vues": 1
   },
   {
-   "path": "/le-releve/methode/",
+   "path": "/le-releve/source/",
    "vues": 1
   }
  ]

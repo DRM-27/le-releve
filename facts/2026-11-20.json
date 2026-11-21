@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-20",
- "genere": "2026-11-21T04:05:18Z",
+ "genere": "2026-11-21T11:52:26Z",
  "couverture": {
   "releves": 19,
   "attendus": 24
@@ -6699,111 +6699,111 @@
    "src": "data/jours/2026-11-20.csv#L54"
   },
   "g.9584852943.nom": {
-   "v": "+1 Speed Keyboard Escape | Candy & Chocolate",
-   "d": "+1 Speed Keyboard Escape | Candy & Chocolate",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : nom",
+   "v": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "d": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : nom",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.rang": {
    "v": 54,
    "d": "54e",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.pic": {
    "v": 31433,
    "d": "31 433",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.heure_pic": {
    "v": "17:45",
    "d": "17 h 45",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.moy": {
    "v": 19813,
    "d": "19 813",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.createur": {
    "v": "SecretVerse Studio",
    "d": "SecretVerse Studio",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : créateur",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : créateur",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : genre",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : genre",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.var_veille": {
    "v": 0.1764,
    "d": "+17,6 %",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport à la veille",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.moy_veille": {
    "v": 16842,
    "d": "16 842",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : moyenne de la veille",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne de la veille",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.var_7j": {
    "v": -0.2204,
    "d": "−22,0 %",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.moy_7j": {
    "v": 25414,
    "d": "25 414",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : moyenne des 7 jours précédents",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.visites_24h": {
    "v": 3382337,
    "d": "3,38 millions",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : visites gagnées en 24 h",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : visites gagnées en 24 h",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.visites_total": {
    "v": 6719123316,
    "d": "6,72 milliards",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.note": {
    "v": 0.9668,
    "d": "96,7 %",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.rang_veille": {
    "v": 55,
    "d": "55e",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : rang la veille",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : rang la veille",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.rang_moy": {
    "v": 63,
    "d": "63e",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : rang à la moyenne du jour",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : rang à la moyenne du jour",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.releves": {
    "v": 19,
    "d": "19",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : relevés où le jeu a été mesuré",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.1176784616.nom": {
@@ -11265,111 +11265,111 @@
    "src": "data/jours/2026-11-20.csv#L98"
   },
   "g.10769464063.nom": {
-   "v": "[🌍UPD 5] +1 Venom Evolution",
-   "d": "[🌍UPD 5] +1 Venom Evolution",
-   "l": "[🌍UPD 5] +1 Venom Evolution : nom",
+   "v": "+1 Venom Evolution",
+   "d": "+1 Venom Evolution",
+   "l": "+1 Venom Evolution : nom",
    "src": "data/jours/2026-11-20.csv#L99"
   },
   "g.10769464063.rang": {
    "v": 98,
    "d": "98e",
-   "l": "[🌍UPD 5] +1 Venom Evolution : rang au pic du jour",
+   "l": "+1 Venom Evolution : rang au pic du jour",
    "src": "data/jours/2026-11-20.csv#L99"
   },
   "g.10769464063.pic": {
    "v": 19268,
    "d": "19 268",
-   "l": "[🌍UPD 5] +1 Venom Evolution : pic de joueurs simultanés relevé",
+   "l": "+1 Venom Evolution : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-20.csv#L99"
   },
   "g.10769464063.heure_pic": {
    "v": "14:41",
    "d": "14 h 41",
-   "l": "[🌍UPD 5] +1 Venom Evolution : heure (Paris) du pic relevé",
+   "l": "+1 Venom Evolution : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-20.csv#L99"
   },
   "g.10769464063.moy": {
    "v": 14301,
    "d": "14 301",
-   "l": "[🌍UPD 5] +1 Venom Evolution : moyenne des joueurs simultanés sur la journée",
+   "l": "+1 Venom Evolution : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-20.csv#L99"
   },
   "g.10769464063.createur": {
    "v": "Bottled Potential",
    "d": "Bottled Potential",
-   "l": "[🌍UPD 5] +1 Venom Evolution : créateur",
+   "l": "+1 Venom Evolution : créateur",
    "src": "data/jours/2026-11-20.csv#L99"
   },
   "g.10769464063.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🌍UPD 5] +1 Venom Evolution : genre",
+   "l": "+1 Venom Evolution : genre",
    "src": "data/jours/2026-11-20.csv#L99"
   },
   "g.10769464063.var_veille": {
    "v": 0.2146,
    "d": "+21,5 %",
-   "l": "[🌍UPD 5] +1 Venom Evolution : variation de la moyenne par rapport à la veille",
+   "l": "+1 Venom Evolution : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-20.csv#L99"
   },
   "g.10769464063.moy_veille": {
    "v": 11774,
    "d": "11 774",
-   "l": "[🌍UPD 5] +1 Venom Evolution : moyenne de la veille",
+   "l": "+1 Venom Evolution : moyenne de la veille",
    "src": "data/jours/2026-11-20.csv#L99"
   },
   "g.10769464063.var_7j": {
    "v": -0.2869,
    "d": "−28,7 %",
-   "l": "[🌍UPD 5] +1 Venom Evolution : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "+1 Venom Evolution : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L99"
   },
   "g.10769464063.moy_7j": {
    "v": 20055,
    "d": "20 055",
-   "l": "[🌍UPD 5] +1 Venom Evolution : moyenne des 7 jours précédents",
+   "l": "+1 Venom Evolution : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L99"
   },
   "g.10769464063.visites_24h": {
    "v": 1307579,
    "d": "1,31 million",
-   "l": "[🌍UPD 5] +1 Venom Evolution : visites gagnées en 24 h",
+   "l": "+1 Venom Evolution : visites gagnées en 24 h",
    "src": "data/jours/2026-11-20.csv#L99"
   },
   "g.10769464063.visites_total": {
    "v": 73966614,
    "d": "73,97 millions",
-   "l": "[🌍UPD 5] +1 Venom Evolution : visites cumulées depuis la création",
+   "l": "+1 Venom Evolution : visites cumulées depuis la création",
    "src": "data/jours/2026-11-20.csv#L99"
   },
   "g.10769464063.note": {
    "v": 0.967,
    "d": "96,7 %",
-   "l": "[🌍UPD 5] +1 Venom Evolution : part de votes positifs",
+   "l": "+1 Venom Evolution : part de votes positifs",
    "src": "data/jours/2026-11-20.csv#L99"
   },
   "g.10769464063.rang_veille": {
    "v": 115,
    "d": "115e",
-   "l": "[🌍UPD 5] +1 Venom Evolution : rang la veille",
+   "l": "+1 Venom Evolution : rang la veille",
    "src": "data/jours/2026-11-20.csv#L99"
   },
   "g.10769464063.rang_moy": {
    "v": 90,
    "d": "90e",
-   "l": "[🌍UPD 5] +1 Venom Evolution : rang à la moyenne du jour",
+   "l": "+1 Venom Evolution : rang à la moyenne du jour",
    "src": "data/jours/2026-11-20.csv#L99"
   },
   "g.10769464063.releves": {
    "v": 19,
    "d": "19",
-   "l": "[🌍UPD 5] +1 Venom Evolution : relevés où le jeu a été mesuré",
+   "l": "+1 Venom Evolution : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-20.csv#L99"
   },
   "g.10769464063.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[🌍UPD 5] +1 Venom Evolution : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "+1 Venom Evolution : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-20.csv#L99"
   },
   "g.7554119808.nom": {
