@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-20",
- "genere": "2026-11-20T23:13:44Z",
+ "genere": "2026-11-21T03:41:34Z",
  "couverture": {
   "releves": 19,
   "attendus": 24
@@ -831,8 +831,8 @@
    "src": "data/jours/2026-11-20.csv#L8"
   },
   "top.8.nom": {
-   "v": "[🎯] RIVALS",
-   "d": "[🎯] RIVALS",
+   "v": "[🛡️] RIVALS",
+   "d": "[🛡️] RIVALS",
    "l": "N° 8 du jour : nom",
    "src": "data/jours/2026-11-20.csv#L9"
   },
@@ -1899,111 +1899,111 @@
    "src": "data/jours/2026-11-20.csv#L8"
   },
   "g.6035872082.nom": {
-   "v": "[🎯] RIVALS",
-   "d": "[🎯] RIVALS",
-   "l": "[🎯] RIVALS : nom",
+   "v": "[🛡️] RIVALS",
+   "d": "[🛡️] RIVALS",
+   "l": "[🛡️] RIVALS : nom",
    "src": "data/jours/2026-11-20.csv#L9"
   },
   "g.6035872082.rang": {
    "v": 8,
    "d": "8e",
-   "l": "[🎯] RIVALS : rang au pic du jour",
+   "l": "[🛡️] RIVALS : rang au pic du jour",
    "src": "data/jours/2026-11-20.csv#L9"
   },
   "g.6035872082.pic": {
    "v": 191451,
    "d": "191 451",
-   "l": "[🎯] RIVALS : pic de joueurs simultanés relevé",
+   "l": "[🛡️] RIVALS : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-20.csv#L9"
   },
   "g.6035872082.heure_pic": {
    "v": "14:41",
    "d": "14 h 41",
-   "l": "[🎯] RIVALS : heure (Paris) du pic relevé",
+   "l": "[🛡️] RIVALS : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-20.csv#L9"
   },
   "g.6035872082.moy": {
    "v": 135142,
    "d": "135 142",
-   "l": "[🎯] RIVALS : moyenne des joueurs simultanés sur la journée",
+   "l": "[🛡️] RIVALS : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-20.csv#L9"
   },
   "g.6035872082.createur": {
    "v": "Nosniy Games",
    "d": "Nosniy Games",
-   "l": "[🎯] RIVALS : créateur",
+   "l": "[🛡️] RIVALS : créateur",
    "src": "data/jours/2026-11-20.csv#L9"
   },
   "g.6035872082.genre": {
    "v": "Shooter",
    "d": "Tir",
-   "l": "[🎯] RIVALS : genre",
+   "l": "[🛡️] RIVALS : genre",
    "src": "data/jours/2026-11-20.csv#L9"
   },
   "g.6035872082.var_veille": {
    "v": 0.2379,
    "d": "+23,8 %",
-   "l": "[🎯] RIVALS : variation de la moyenne par rapport à la veille",
+   "l": "[🛡️] RIVALS : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-20.csv#L9"
   },
   "g.6035872082.moy_veille": {
    "v": 109170,
    "d": "109 170",
-   "l": "[🎯] RIVALS : moyenne de la veille",
+   "l": "[🛡️] RIVALS : moyenne de la veille",
    "src": "data/jours/2026-11-20.csv#L9"
   },
   "g.6035872082.var_7j": {
    "v": -0.0674,
    "d": "−6,7 %",
-   "l": "[🎯] RIVALS : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🛡️] RIVALS : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L9"
   },
   "g.6035872082.moy_7j": {
    "v": 144904,
    "d": "144 904",
-   "l": "[🎯] RIVALS : moyenne des 7 jours précédents",
+   "l": "[🛡️] RIVALS : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L9"
   },
   "g.6035872082.visites_24h": {
    "v": 15105542,
    "d": "15,11 millions",
-   "l": "[🎯] RIVALS : visites gagnées en 24 h",
+   "l": "[🛡️] RIVALS : visites gagnées en 24 h",
    "src": "data/jours/2026-11-20.csv#L9"
   },
   "g.6035872082.visites_total": {
    "v": 19398809900,
    "d": "19,4 milliards",
-   "l": "[🎯] RIVALS : visites cumulées depuis la création",
+   "l": "[🛡️] RIVALS : visites cumulées depuis la création",
    "src": "data/jours/2026-11-20.csv#L9"
   },
   "g.6035872082.note": {
    "v": 0.9361,
    "d": "93,6 %",
-   "l": "[🎯] RIVALS : part de votes positifs",
+   "l": "[🛡️] RIVALS : part de votes positifs",
    "src": "data/jours/2026-11-20.csv#L9"
   },
   "g.6035872082.rang_veille": {
    "v": 8,
    "d": "8e",
-   "l": "[🎯] RIVALS : rang la veille",
+   "l": "[🛡️] RIVALS : rang la veille",
    "src": "data/jours/2026-11-20.csv#L9"
   },
   "g.6035872082.rang_moy": {
    "v": 7,
    "d": "7e",
-   "l": "[🎯] RIVALS : rang à la moyenne du jour",
+   "l": "[🛡️] RIVALS : rang à la moyenne du jour",
    "src": "data/jours/2026-11-20.csv#L9"
   },
   "g.6035872082.releves": {
    "v": 19,
    "d": "19",
-   "l": "[🎯] RIVALS : relevés où le jeu a été mesuré",
+   "l": "[🛡️] RIVALS : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-20.csv#L9"
   },
   "g.6035872082.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[🎯] RIVALS : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[🛡️] RIVALS : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-20.csv#L9"
   },
   "g.66654135.nom": {
@@ -9969,111 +9969,111 @@
    "src": "data/jours/2026-11-20.csv#L85"
   },
   "g.5995470825.nom": {
-   "v": "🔥Hypershot",
-   "d": "🔥Hypershot",
-   "l": "🔥Hypershot : nom",
+   "v": "[🔥CLANS] Hypershot",
+   "d": "[🔥CLANS] Hypershot",
+   "l": "[🔥CLANS] Hypershot : nom",
    "src": "data/jours/2026-11-20.csv#L86"
   },
   "g.5995470825.rang": {
    "v": 85,
    "d": "85e",
-   "l": "🔥Hypershot : rang au pic du jour",
+   "l": "[🔥CLANS] Hypershot : rang au pic du jour",
    "src": "data/jours/2026-11-20.csv#L86"
   },
   "g.5995470825.pic": {
    "v": 22204,
    "d": "22 204",
-   "l": "🔥Hypershot : pic de joueurs simultanés relevé",
+   "l": "[🔥CLANS] Hypershot : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-20.csv#L86"
   },
   "g.5995470825.heure_pic": {
    "v": "16:58",
    "d": "16 h 58",
-   "l": "🔥Hypershot : heure (Paris) du pic relevé",
+   "l": "[🔥CLANS] Hypershot : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-20.csv#L86"
   },
   "g.5995470825.moy": {
    "v": 17525,
    "d": "17 525",
-   "l": "🔥Hypershot : moyenne des joueurs simultanés sur la journée",
+   "l": "[🔥CLANS] Hypershot : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-20.csv#L86"
   },
   "g.5995470825.createur": {
    "v": "Frosted Studio",
    "d": "Frosted Studio",
-   "l": "🔥Hypershot : créateur",
+   "l": "[🔥CLANS] Hypershot : créateur",
    "src": "data/jours/2026-11-20.csv#L86"
   },
   "g.5995470825.genre": {
    "v": "Shooter",
    "d": "Tir",
-   "l": "🔥Hypershot : genre",
+   "l": "[🔥CLANS] Hypershot : genre",
    "src": "data/jours/2026-11-20.csv#L86"
   },
   "g.5995470825.var_veille": {
    "v": 0.1207,
    "d": "+12,1 %",
-   "l": "🔥Hypershot : variation de la moyenne par rapport à la veille",
+   "l": "[🔥CLANS] Hypershot : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-20.csv#L86"
   },
   "g.5995470825.moy_veille": {
    "v": 15638,
    "d": "15 638",
-   "l": "🔥Hypershot : moyenne de la veille",
+   "l": "[🔥CLANS] Hypershot : moyenne de la veille",
    "src": "data/jours/2026-11-20.csv#L86"
   },
   "g.5995470825.var_7j": {
    "v": -0.0771,
    "d": "−7,7 %",
-   "l": "🔥Hypershot : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🔥CLANS] Hypershot : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L86"
   },
   "g.5995470825.moy_7j": {
    "v": 18989,
    "d": "18 989",
-   "l": "🔥Hypershot : moyenne des 7 jours précédents",
+   "l": "[🔥CLANS] Hypershot : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L86"
   },
   "g.5995470825.visites_24h": {
    "v": 1781267,
    "d": "1,78 million",
-   "l": "🔥Hypershot : visites gagnées en 24 h",
+   "l": "[🔥CLANS] Hypershot : visites gagnées en 24 h",
    "src": "data/jours/2026-11-20.csv#L86"
   },
   "g.5995470825.visites_total": {
    "v": 1441753865,
    "d": "1,44 milliard",
-   "l": "🔥Hypershot : visites cumulées depuis la création",
+   "l": "[🔥CLANS] Hypershot : visites cumulées depuis la création",
    "src": "data/jours/2026-11-20.csv#L86"
   },
   "g.5995470825.note": {
    "v": 0.9438,
    "d": "94,4 %",
-   "l": "🔥Hypershot : part de votes positifs",
+   "l": "[🔥CLANS] Hypershot : part de votes positifs",
    "src": "data/jours/2026-11-20.csv#L86"
   },
   "g.5995470825.rang_veille": {
    "v": 82,
    "d": "82e",
-   "l": "🔥Hypershot : rang la veille",
+   "l": "[🔥CLANS] Hypershot : rang la veille",
    "src": "data/jours/2026-11-20.csv#L86"
   },
   "g.5995470825.rang_moy": {
    "v": 74,
    "d": "74e",
-   "l": "🔥Hypershot : rang à la moyenne du jour",
+   "l": "[🔥CLANS] Hypershot : rang à la moyenne du jour",
    "src": "data/jours/2026-11-20.csv#L86"
   },
   "g.5995470825.releves": {
    "v": 19,
    "d": "19",
-   "l": "🔥Hypershot : relevés où le jeu a été mesuré",
+   "l": "[🔥CLANS] Hypershot : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-20.csv#L86"
   },
   "g.5995470825.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "🔥Hypershot : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[🔥CLANS] Hypershot : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-20.csv#L86"
   },
   "g.10733617110.nom": {
@@ -12439,7 +12439,7 @@
      "valeur": 219628
     },
     {
-     "nom": "[🎯] RIVALS",
+     "nom": "[🛡️] RIVALS",
      "valeur": 191451
     },
     {
