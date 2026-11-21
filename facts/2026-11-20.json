@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-20",
- "genere": "2026-11-21T18:23:19Z",
+ "genere": "2026-11-21T20:11:20Z",
  "couverture": {
   "releves": 19,
   "attendus": 24
@@ -2955,111 +2955,111 @@
    "src": "data/jours/2026-11-20.csv#L18"
   },
   "g.6701277882.nom": {
-   "v": "[6 HRS] Fish It! 🐟",
-   "d": "[6 HRS] Fish It! 🐟",
-   "l": "[6 HRS] Fish It! 🐟 : nom",
+   "v": "[4 HRS] Fish It! 🐟",
+   "d": "[4 HRS] Fish It! 🐟",
+   "l": "[4 HRS] Fish It! 🐟 : nom",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.rang": {
    "v": 18,
    "d": "18e",
-   "l": "[6 HRS] Fish It! 🐟 : rang au pic du jour",
+   "l": "[4 HRS] Fish It! 🐟 : rang au pic du jour",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.pic": {
    "v": 66703,
    "d": "66 703",
-   "l": "[6 HRS] Fish It! 🐟 : pic de joueurs simultanés relevé",
+   "l": "[4 HRS] Fish It! 🐟 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.heure_pic": {
    "v": "17:45",
    "d": "17 h 45",
-   "l": "[6 HRS] Fish It! 🐟 : heure (Paris) du pic relevé",
+   "l": "[4 HRS] Fish It! 🐟 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.moy": {
    "v": 64554,
    "d": "64 554",
-   "l": "[6 HRS] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
+   "l": "[4 HRS] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.createur": {
    "v": "Fish Atelier",
    "d": "Fish Atelier",
-   "l": "[6 HRS] Fish It! 🐟 : créateur",
+   "l": "[4 HRS] Fish It! 🐟 : créateur",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[6 HRS] Fish It! 🐟 : genre",
+   "l": "[4 HRS] Fish It! 🐟 : genre",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.var_veille": {
    "v": 0.0101,
    "d": "+1,0 %",
-   "l": "[6 HRS] Fish It! 🐟 : variation de la moyenne par rapport à la veille",
+   "l": "[4 HRS] Fish It! 🐟 : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.moy_veille": {
    "v": 63908,
    "d": "63 908",
-   "l": "[6 HRS] Fish It! 🐟 : moyenne de la veille",
+   "l": "[4 HRS] Fish It! 🐟 : moyenne de la veille",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.var_7j": {
    "v": -0.0057,
    "d": "−0,6 %",
-   "l": "[6 HRS] Fish It! 🐟 : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[4 HRS] Fish It! 🐟 : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.moy_7j": {
    "v": 64924,
    "d": "64 924",
-   "l": "[6 HRS] Fish It! 🐟 : moyenne des 7 jours précédents",
+   "l": "[4 HRS] Fish It! 🐟 : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.visites_24h": {
    "v": 1045056,
    "d": "1,05 million",
-   "l": "[6 HRS] Fish It! 🐟 : visites gagnées en 24 h",
+   "l": "[4 HRS] Fish It! 🐟 : visites gagnées en 24 h",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.visites_total": {
    "v": 4833955019,
    "d": "4,83 milliards",
-   "l": "[6 HRS] Fish It! 🐟 : visites cumulées depuis la création",
+   "l": "[4 HRS] Fish It! 🐟 : visites cumulées depuis la création",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.note": {
    "v": 0.8283,
    "d": "82,8 %",
-   "l": "[6 HRS] Fish It! 🐟 : part de votes positifs",
+   "l": "[4 HRS] Fish It! 🐟 : part de votes positifs",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.rang_veille": {
    "v": 14,
    "d": "14e",
-   "l": "[6 HRS] Fish It! 🐟 : rang la veille",
+   "l": "[4 HRS] Fish It! 🐟 : rang la veille",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.rang_moy": {
    "v": 13,
    "d": "13e",
-   "l": "[6 HRS] Fish It! 🐟 : rang à la moyenne du jour",
+   "l": "[4 HRS] Fish It! 🐟 : rang à la moyenne du jour",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.releves": {
    "v": 19,
    "d": "19",
-   "l": "[6 HRS] Fish It! 🐟 : relevés où le jeu a été mesuré",
+   "l": "[4 HRS] Fish It! 🐟 : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[6 HRS] Fish It! 🐟 : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[4 HRS] Fish It! 🐟 : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.10770526777.nom": {
@@ -6699,111 +6699,111 @@
    "src": "data/jours/2026-11-20.csv#L54"
   },
   "g.9584852943.nom": {
-   "v": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate",
-   "d": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : nom",
+   "v": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "d": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : nom",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.rang": {
    "v": 54,
    "d": "54e",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
+   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.pic": {
    "v": 31433,
    "d": "31 433",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
+   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.heure_pic": {
    "v": "17:45",
    "d": "17 h 45",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
+   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.moy": {
    "v": 19813,
    "d": "19 813",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
+   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.createur": {
    "v": "SecretVerse Studio",
    "d": "SecretVerse Studio",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : créateur",
+   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : créateur",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : genre",
+   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : genre",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.var_veille": {
    "v": 0.1764,
    "d": "+17,6 %",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport à la veille",
+   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.moy_veille": {
    "v": 16842,
    "d": "16 842",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne de la veille",
+   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne de la veille",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.var_7j": {
    "v": -0.2204,
    "d": "−22,0 %",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.moy_7j": {
    "v": 25414,
    "d": "25 414",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des 7 jours précédents",
+   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.visites_24h": {
    "v": 3382337,
    "d": "3,38 millions",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : visites gagnées en 24 h",
+   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : visites gagnées en 24 h",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.visites_total": {
    "v": 6719123316,
    "d": "6,72 milliards",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
+   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.note": {
    "v": 0.9668,
    "d": "96,7 %",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
+   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.rang_veille": {
    "v": 55,
    "d": "55e",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : rang la veille",
+   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : rang la veille",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.rang_moy": {
    "v": 63,
    "d": "63e",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : rang à la moyenne du jour",
+   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : rang à la moyenne du jour",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.releves": {
    "v": 19,
    "d": "19",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : relevés où le jeu a été mesuré",
+   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.1176784616.nom": {
@@ -7119,105 +7119,105 @@
    "src": "data/jours/2026-11-20.csv#L58"
   },
   "g.10770463307.nom": {
-   "v": "Stop The Tsunami!",
-   "d": "Stop The Tsunami!",
-   "l": "Stop The Tsunami! : nom",
+   "v": "[UPD] Stop The Tsunami!",
+   "d": "[UPD] Stop The Tsunami!",
+   "l": "[UPD] Stop The Tsunami! : nom",
    "src": "data/jours/2026-11-20.csv#L59"
   },
   "g.10770463307.rang": {
    "v": 58,
    "d": "58e",
-   "l": "Stop The Tsunami! : rang au pic du jour",
+   "l": "[UPD] Stop The Tsunami! : rang au pic du jour",
    "src": "data/jours/2026-11-20.csv#L59"
   },
   "g.10770463307.pic": {
    "v": 30533,
    "d": "30 533",
-   "l": "Stop The Tsunami! : pic de joueurs simultanés relevé",
+   "l": "[UPD] Stop The Tsunami! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-20.csv#L59"
   },
   "g.10770463307.heure_pic": {
    "v": "14:41",
    "d": "14 h 41",
-   "l": "Stop The Tsunami! : heure (Paris) du pic relevé",
+   "l": "[UPD] Stop The Tsunami! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-20.csv#L59"
   },
   "g.10770463307.moy": {
    "v": 19573,
    "d": "19 573",
-   "l": "Stop The Tsunami! : moyenne des joueurs simultanés sur la journée",
+   "l": "[UPD] Stop The Tsunami! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-20.csv#L59"
   },
   "g.10770463307.createur": {
    "v": "Beach Defenders!",
    "d": "Beach Defenders!",
-   "l": "Stop The Tsunami! : créateur",
+   "l": "[UPD] Stop The Tsunami! : créateur",
    "src": "data/jours/2026-11-20.csv#L59"
   },
   "g.10770463307.var_veille": {
    "v": 0.2299,
    "d": "+23,0 %",
-   "l": "Stop The Tsunami! : variation de la moyenne par rapport à la veille",
+   "l": "[UPD] Stop The Tsunami! : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-20.csv#L59"
   },
   "g.10770463307.moy_veille": {
    "v": 15914,
    "d": "15 914",
-   "l": "Stop The Tsunami! : moyenne de la veille",
+   "l": "[UPD] Stop The Tsunami! : moyenne de la veille",
    "src": "data/jours/2026-11-20.csv#L59"
   },
   "g.10770463307.var_7j": {
    "v": 0.1557,
    "d": "+15,6 %",
-   "l": "Stop The Tsunami! : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[UPD] Stop The Tsunami! : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L59"
   },
   "g.10770463307.moy_7j": {
    "v": 16936,
    "d": "16 936",
-   "l": "Stop The Tsunami! : moyenne des 7 jours précédents",
+   "l": "[UPD] Stop The Tsunami! : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L59"
   },
   "g.10770463307.visites_24h": {
    "v": 3451812,
    "d": "3,45 millions",
-   "l": "Stop The Tsunami! : visites gagnées en 24 h",
+   "l": "[UPD] Stop The Tsunami! : visites gagnées en 24 h",
    "src": "data/jours/2026-11-20.csv#L59"
   },
   "g.10770463307.visites_total": {
    "v": 25489698,
    "d": "25,49 millions",
-   "l": "Stop The Tsunami! : visites cumulées depuis la création",
+   "l": "[UPD] Stop The Tsunami! : visites cumulées depuis la création",
    "src": "data/jours/2026-11-20.csv#L59"
   },
   "g.10770463307.note": {
    "v": 0.8608,
    "d": "86,1 %",
-   "l": "Stop The Tsunami! : part de votes positifs",
+   "l": "[UPD] Stop The Tsunami! : part de votes positifs",
    "src": "data/jours/2026-11-20.csv#L59"
   },
   "g.10770463307.rang_veille": {
    "v": 64,
    "d": "64e",
-   "l": "Stop The Tsunami! : rang la veille",
+   "l": "[UPD] Stop The Tsunami! : rang la veille",
    "src": "data/jours/2026-11-20.csv#L59"
   },
   "g.10770463307.rang_moy": {
    "v": 66,
    "d": "66e",
-   "l": "Stop The Tsunami! : rang à la moyenne du jour",
+   "l": "[UPD] Stop The Tsunami! : rang à la moyenne du jour",
    "src": "data/jours/2026-11-20.csv#L59"
   },
   "g.10770463307.releves": {
    "v": 19,
    "d": "19",
-   "l": "Stop The Tsunami! : relevés où le jeu a été mesuré",
+   "l": "[UPD] Stop The Tsunami! : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-20.csv#L59"
   },
   "g.10770463307.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "Stop The Tsunami! : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[UPD] Stop The Tsunami! : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-20.csv#L59"
   },
   "g.10771053183.nom": {

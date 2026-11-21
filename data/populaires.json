@@ -1,21 +1,21 @@
 {
- "genere": "2026-11-21T18:23:17Z",
+ "genere": "2026-11-21T20:11:18Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/",
-   "vues": 57
+   "vues": 59
   },
   {
    "path": "/le-releve/",
    "vues": 13
   },
   {
-   "path": "/le-releve/explorer/",
+   "path": "/articles/2026-11-19-jailbreak-quotidien/",
    "vues": 3
   },
   {
-   "path": "/articles/2026-11-19-jailbreak-quotidien/",
+   "path": "/le-releve/explorer/",
    "vues": 3
   },
   {
@@ -27,11 +27,15 @@
    "vues": 2
   },
   {
+   "path": "/le-releve/classement/",
+   "vues": 2
+  },
+  {
    "path": "/articles/2026-11-18-hyper-realistic-ragdoll-quotidien/",
    "vues": 2
   },
   {
-   "path": "/le-releve/classement/",
+   "path": "/es/joueurs-roblox-en-ce-moment/",
    "vues": 2
   },
   {
@@ -39,39 +43,7 @@
    "vues": 2
   },
   {
-   "path": "/le-releve/partenaires/",
-   "vues": 1
-  },
-  {
-   "path": "/confidentialite/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/rapport/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/jeux/s8-1-speed-keyboard-escape-candy-chocolate-9584852943/",
-   "vues": 1
-  },
-  {
-   "path": "/jeux/climb-the-rake-tower-10769120871/",
-   "vues": 1
-  },
-  {
-   "path": "/explorer/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/donnees/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/records/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/confidentialite/",
+   "path": "/en/jeux/upd-11-part-1-king-legacy-1451439645/",
    "vues": 1
   },
   {
@@ -79,7 +51,35 @@
    "vues": 1
   },
   {
+   "path": "/le-releve/donnees/",
+   "vues": 1
+  },
+  {
+   "path": "/explorer/",
+   "vues": 1
+  },
+  {
+   "path": "/jeux/climb-the-rake-tower-10769120871/",
+   "vues": 1
+  },
+  {
    "path": "/le-releve/methode/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/rapport/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/partenaires/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/jeux/s8-1-speed-keyboard-escape-candy-chocolate-9584852943/",
+   "vues": 1
+  },
+  {
+   "path": "/confidentialite/",
    "vues": 1
   }
  ]
