@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-20",
- "genere": "2026-11-21T12:51:28Z",
+ "genere": "2026-11-21T18:23:19Z",
  "couverture": {
   "releves": 19,
   "attendus": 24
@@ -2739,111 +2739,111 @@
    "src": "data/jours/2026-11-20.csv#L16"
   },
   "g.5750914919.nom": {
-   "v": "Fisch 🎩 [COMPANION HATS]",
-   "d": "Fisch 🎩 [COMPANION HATS]",
-   "l": "Fisch 🎩 [COMPANION HATS] : nom",
+   "v": "Fisch 🧶 [FELINA]",
+   "d": "Fisch 🧶 [FELINA]",
+   "l": "Fisch 🧶 [FELINA] : nom",
    "src": "data/jours/2026-11-20.csv#L17"
   },
   "g.5750914919.rang": {
    "v": 16,
    "d": "16e",
-   "l": "Fisch 🎩 [COMPANION HATS] : rang au pic du jour",
+   "l": "Fisch 🧶 [FELINA] : rang au pic du jour",
    "src": "data/jours/2026-11-20.csv#L17"
   },
   "g.5750914919.pic": {
    "v": 67189,
    "d": "67 189",
-   "l": "Fisch 🎩 [COMPANION HATS] : pic de joueurs simultanés relevé",
+   "l": "Fisch 🧶 [FELINA] : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-20.csv#L17"
   },
   "g.5750914919.heure_pic": {
    "v": "15:15",
    "d": "15 h 15",
-   "l": "Fisch 🎩 [COMPANION HATS] : heure (Paris) du pic relevé",
+   "l": "Fisch 🧶 [FELINA] : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-20.csv#L17"
   },
   "g.5750914919.moy": {
    "v": 52327,
    "d": "52 327",
-   "l": "Fisch 🎩 [COMPANION HATS] : moyenne des joueurs simultanés sur la journée",
+   "l": "Fisch 🧶 [FELINA] : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-20.csv#L17"
   },
   "g.5750914919.createur": {
    "v": "Fisching",
    "d": "Fisching",
-   "l": "Fisch 🎩 [COMPANION HATS] : créateur",
+   "l": "Fisch 🧶 [FELINA] : créateur",
    "src": "data/jours/2026-11-20.csv#L17"
   },
   "g.5750914919.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "Fisch 🎩 [COMPANION HATS] : genre",
+   "l": "Fisch 🧶 [FELINA] : genre",
    "src": "data/jours/2026-11-20.csv#L17"
   },
   "g.5750914919.var_veille": {
    "v": 0.1253,
    "d": "+12,5 %",
-   "l": "Fisch 🎩 [COMPANION HATS] : variation de la moyenne par rapport à la veille",
+   "l": "Fisch 🧶 [FELINA] : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-20.csv#L17"
   },
   "g.5750914919.moy_veille": {
    "v": 46501,
    "d": "46 501",
-   "l": "Fisch 🎩 [COMPANION HATS] : moyenne de la veille",
+   "l": "Fisch 🧶 [FELINA] : moyenne de la veille",
    "src": "data/jours/2026-11-20.csv#L17"
   },
   "g.5750914919.var_7j": {
    "v": -0.1501,
    "d": "−15,0 %",
-   "l": "Fisch 🎩 [COMPANION HATS] : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Fisch 🧶 [FELINA] : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L17"
   },
   "g.5750914919.moy_7j": {
    "v": 61569,
    "d": "61 569",
-   "l": "Fisch 🎩 [COMPANION HATS] : moyenne des 7 jours précédents",
+   "l": "Fisch 🧶 [FELINA] : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L17"
   },
   "g.5750914919.visites_24h": {
    "v": 2509993,
    "d": "2,51 millions",
-   "l": "Fisch 🎩 [COMPANION HATS] : visites gagnées en 24 h",
+   "l": "Fisch 🧶 [FELINA] : visites gagnées en 24 h",
    "src": "data/jours/2026-11-20.csv#L17"
   },
   "g.5750914919.visites_total": {
    "v": 5156775441,
    "d": "5,16 milliards",
-   "l": "Fisch 🎩 [COMPANION HATS] : visites cumulées depuis la création",
+   "l": "Fisch 🧶 [FELINA] : visites cumulées depuis la création",
    "src": "data/jours/2026-11-20.csv#L17"
   },
   "g.5750914919.note": {
    "v": 0.9084,
    "d": "90,8 %",
-   "l": "Fisch 🎩 [COMPANION HATS] : part de votes positifs",
+   "l": "Fisch 🧶 [FELINA] : part de votes positifs",
    "src": "data/jours/2026-11-20.csv#L17"
   },
   "g.5750914919.rang_veille": {
    "v": 18,
    "d": "18e",
-   "l": "Fisch 🎩 [COMPANION HATS] : rang la veille",
+   "l": "Fisch 🧶 [FELINA] : rang la veille",
    "src": "data/jours/2026-11-20.csv#L17"
   },
   "g.5750914919.rang_moy": {
    "v": 16,
    "d": "16e",
-   "l": "Fisch 🎩 [COMPANION HATS] : rang à la moyenne du jour",
+   "l": "Fisch 🧶 [FELINA] : rang à la moyenne du jour",
    "src": "data/jours/2026-11-20.csv#L17"
   },
   "g.5750914919.releves": {
    "v": 19,
    "d": "19",
-   "l": "Fisch 🎩 [COMPANION HATS] : relevés où le jeu a été mesuré",
+   "l": "Fisch 🧶 [FELINA] : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-20.csv#L17"
   },
   "g.5750914919.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "Fisch 🎩 [COMPANION HATS] : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "Fisch 🧶 [FELINA] : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-20.csv#L17"
   },
   "g.5203828273.nom": {
@@ -2955,111 +2955,111 @@
    "src": "data/jours/2026-11-20.csv#L18"
   },
   "g.6701277882.nom": {
-   "v": "[🏝️UPD] Fish It! 🐟",
-   "d": "[🏝️UPD] Fish It! 🐟",
-   "l": "[🏝️UPD] Fish It! 🐟 : nom",
+   "v": "[6 HRS] Fish It! 🐟",
+   "d": "[6 HRS] Fish It! 🐟",
+   "l": "[6 HRS] Fish It! 🐟 : nom",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.rang": {
    "v": 18,
    "d": "18e",
-   "l": "[🏝️UPD] Fish It! 🐟 : rang au pic du jour",
+   "l": "[6 HRS] Fish It! 🐟 : rang au pic du jour",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.pic": {
    "v": 66703,
    "d": "66 703",
-   "l": "[🏝️UPD] Fish It! 🐟 : pic de joueurs simultanés relevé",
+   "l": "[6 HRS] Fish It! 🐟 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.heure_pic": {
    "v": "17:45",
    "d": "17 h 45",
-   "l": "[🏝️UPD] Fish It! 🐟 : heure (Paris) du pic relevé",
+   "l": "[6 HRS] Fish It! 🐟 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.moy": {
    "v": 64554,
    "d": "64 554",
-   "l": "[🏝️UPD] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
+   "l": "[6 HRS] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.createur": {
    "v": "Fish Atelier",
    "d": "Fish Atelier",
-   "l": "[🏝️UPD] Fish It! 🐟 : créateur",
+   "l": "[6 HRS] Fish It! 🐟 : créateur",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🏝️UPD] Fish It! 🐟 : genre",
+   "l": "[6 HRS] Fish It! 🐟 : genre",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.var_veille": {
    "v": 0.0101,
    "d": "+1,0 %",
-   "l": "[🏝️UPD] Fish It! 🐟 : variation de la moyenne par rapport à la veille",
+   "l": "[6 HRS] Fish It! 🐟 : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.moy_veille": {
    "v": 63908,
    "d": "63 908",
-   "l": "[🏝️UPD] Fish It! 🐟 : moyenne de la veille",
+   "l": "[6 HRS] Fish It! 🐟 : moyenne de la veille",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.var_7j": {
    "v": -0.0057,
    "d": "−0,6 %",
-   "l": "[🏝️UPD] Fish It! 🐟 : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[6 HRS] Fish It! 🐟 : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.moy_7j": {
    "v": 64924,
    "d": "64 924",
-   "l": "[🏝️UPD] Fish It! 🐟 : moyenne des 7 jours précédents",
+   "l": "[6 HRS] Fish It! 🐟 : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.visites_24h": {
    "v": 1045056,
    "d": "1,05 million",
-   "l": "[🏝️UPD] Fish It! 🐟 : visites gagnées en 24 h",
+   "l": "[6 HRS] Fish It! 🐟 : visites gagnées en 24 h",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.visites_total": {
    "v": 4833955019,
    "d": "4,83 milliards",
-   "l": "[🏝️UPD] Fish It! 🐟 : visites cumulées depuis la création",
+   "l": "[6 HRS] Fish It! 🐟 : visites cumulées depuis la création",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.note": {
    "v": 0.8283,
    "d": "82,8 %",
-   "l": "[🏝️UPD] Fish It! 🐟 : part de votes positifs",
+   "l": "[6 HRS] Fish It! 🐟 : part de votes positifs",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.rang_veille": {
    "v": 14,
    "d": "14e",
-   "l": "[🏝️UPD] Fish It! 🐟 : rang la veille",
+   "l": "[6 HRS] Fish It! 🐟 : rang la veille",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.rang_moy": {
    "v": 13,
    "d": "13e",
-   "l": "[🏝️UPD] Fish It! 🐟 : rang à la moyenne du jour",
+   "l": "[6 HRS] Fish It! 🐟 : rang à la moyenne du jour",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.releves": {
    "v": 19,
    "d": "19",
-   "l": "[🏝️UPD] Fish It! 🐟 : relevés où le jeu a été mesuré",
+   "l": "[6 HRS] Fish It! 🐟 : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.6701277882.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[🏝️UPD] Fish It! 🐟 : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[6 HRS] Fish It! 🐟 : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-20.csv#L19"
   },
   "g.10770526777.nom": {
@@ -3579,111 +3579,111 @@
    "src": "data/jours/2026-11-20.csv#L24"
   },
   "g.10769671316.nom": {
-   "v": "Survive Your Ideas",
-   "d": "Survive Your Ideas",
-   "l": "Survive Your Ideas : nom",
+   "v": "[🦧 BOSS] Survive Your Ideas",
+   "d": "[🦧 BOSS] Survive Your Ideas",
+   "l": "[🦧 BOSS] Survive Your Ideas : nom",
    "src": "data/jours/2026-11-20.csv#L25"
   },
   "g.10769671316.rang": {
    "v": 24,
    "d": "24e",
-   "l": "Survive Your Ideas : rang au pic du jour",
+   "l": "[🦧 BOSS] Survive Your Ideas : rang au pic du jour",
    "src": "data/jours/2026-11-20.csv#L25"
   },
   "g.10769671316.pic": {
    "v": 58399,
    "d": "58 399",
-   "l": "Survive Your Ideas : pic de joueurs simultanés relevé",
+   "l": "[🦧 BOSS] Survive Your Ideas : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-20.csv#L25"
   },
   "g.10769671316.heure_pic": {
    "v": "14:41",
    "d": "14 h 41",
-   "l": "Survive Your Ideas : heure (Paris) du pic relevé",
+   "l": "[🦧 BOSS] Survive Your Ideas : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-20.csv#L25"
   },
   "g.10769671316.moy": {
    "v": 43207,
    "d": "43 207",
-   "l": "Survive Your Ideas : moyenne des joueurs simultanés sur la journée",
+   "l": "[🦧 BOSS] Survive Your Ideas : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-20.csv#L25"
   },
   "g.10769671316.createur": {
    "v": "Survive Your Ideas",
    "d": "Survive Your Ideas",
-   "l": "Survive Your Ideas : créateur",
+   "l": "[🦧 BOSS] Survive Your Ideas : créateur",
    "src": "data/jours/2026-11-20.csv#L25"
   },
   "g.10769671316.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "Survive Your Ideas : genre",
+   "l": "[🦧 BOSS] Survive Your Ideas : genre",
    "src": "data/jours/2026-11-20.csv#L25"
   },
   "g.10769671316.var_veille": {
    "v": 0.2706,
    "d": "+27,1 %",
-   "l": "Survive Your Ideas : variation de la moyenne par rapport à la veille",
+   "l": "[🦧 BOSS] Survive Your Ideas : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-20.csv#L25"
   },
   "g.10769671316.moy_veille": {
    "v": 34004,
    "d": "34 004",
-   "l": "Survive Your Ideas : moyenne de la veille",
+   "l": "[🦧 BOSS] Survive Your Ideas : moyenne de la veille",
    "src": "data/jours/2026-11-20.csv#L25"
   },
   "g.10769671316.var_7j": {
    "v": -0.1906,
    "d": "−19,1 %",
-   "l": "Survive Your Ideas : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🦧 BOSS] Survive Your Ideas : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L25"
   },
   "g.10769671316.moy_7j": {
    "v": 53385,
    "d": "53 385",
-   "l": "Survive Your Ideas : moyenne des 7 jours précédents",
+   "l": "[🦧 BOSS] Survive Your Ideas : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L25"
   },
   "g.10769671316.visites_24h": {
    "v": 8674742,
    "d": "8,67 millions",
-   "l": "Survive Your Ideas : visites gagnées en 24 h",
+   "l": "[🦧 BOSS] Survive Your Ideas : visites gagnées en 24 h",
    "src": "data/jours/2026-11-20.csv#L25"
   },
   "g.10769671316.visites_total": {
    "v": 143688567,
    "d": "143,69 millions",
-   "l": "Survive Your Ideas : visites cumulées depuis la création",
+   "l": "[🦧 BOSS] Survive Your Ideas : visites cumulées depuis la création",
    "src": "data/jours/2026-11-20.csv#L25"
   },
   "g.10769671316.note": {
    "v": 0.8912,
    "d": "89,1 %",
-   "l": "Survive Your Ideas : part de votes positifs",
+   "l": "[🦧 BOSS] Survive Your Ideas : part de votes positifs",
    "src": "data/jours/2026-11-20.csv#L25"
   },
   "g.10769671316.rang_veille": {
    "v": 31,
    "d": "31e",
-   "l": "Survive Your Ideas : rang la veille",
+   "l": "[🦧 BOSS] Survive Your Ideas : rang la veille",
    "src": "data/jours/2026-11-20.csv#L25"
   },
   "g.10769671316.rang_moy": {
    "v": 21,
    "d": "21e",
-   "l": "Survive Your Ideas : rang à la moyenne du jour",
+   "l": "[🦧 BOSS] Survive Your Ideas : rang à la moyenne du jour",
    "src": "data/jours/2026-11-20.csv#L25"
   },
   "g.10769671316.releves": {
    "v": 19,
    "d": "19",
-   "l": "Survive Your Ideas : relevés où le jeu a été mesuré",
+   "l": "[🦧 BOSS] Survive Your Ideas : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-20.csv#L25"
   },
   "g.10769671316.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "Survive Your Ideas : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[🦧 BOSS] Survive Your Ideas : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-20.csv#L25"
   },
   "g.1451439645.nom": {
@@ -4107,111 +4107,111 @@
    "src": "data/jours/2026-11-20.csv#L29"
   },
   "g.3647333358.nom": {
-   "v": "[🎃HLWN🎃] Evade ",
-   "d": "[🎃HLWN🎃] Evade ",
-   "l": "[🎃HLWN🎃] Evade  : nom",
+   "v": "Evade ",
+   "d": "Evade ",
+   "l": "Evade  : nom",
    "src": "data/jours/2026-11-20.csv#L30"
   },
   "g.3647333358.rang": {
    "v": 29,
    "d": "29e",
-   "l": "[🎃HLWN🎃] Evade  : rang au pic du jour",
+   "l": "Evade  : rang au pic du jour",
    "src": "data/jours/2026-11-20.csv#L30"
   },
   "g.3647333358.pic": {
    "v": 53722,
    "d": "53 722",
-   "l": "[🎃HLWN🎃] Evade  : pic de joueurs simultanés relevé",
+   "l": "Evade  : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-20.csv#L30"
   },
   "g.3647333358.heure_pic": {
    "v": "14:41",
    "d": "14 h 41",
-   "l": "[🎃HLWN🎃] Evade  : heure (Paris) du pic relevé",
+   "l": "Evade  : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-20.csv#L30"
   },
   "g.3647333358.moy": {
    "v": 38052,
    "d": "38 052",
-   "l": "[🎃HLWN🎃] Evade  : moyenne des joueurs simultanés sur la journée",
+   "l": "Evade  : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-20.csv#L30"
   },
   "g.3647333358.createur": {
    "v": "Hexagon Development Community",
    "d": "Hexagon Development Community",
-   "l": "[🎃HLWN🎃] Evade  : créateur",
+   "l": "Evade  : créateur",
    "src": "data/jours/2026-11-20.csv#L30"
   },
   "g.3647333358.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "[🎃HLWN🎃] Evade  : genre",
+   "l": "Evade  : genre",
    "src": "data/jours/2026-11-20.csv#L30"
   },
   "g.3647333358.var_veille": {
    "v": 0.0377,
    "d": "+3,8 %",
-   "l": "[🎃HLWN🎃] Evade  : variation de la moyenne par rapport à la veille",
+   "l": "Evade  : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-20.csv#L30"
   },
   "g.3647333358.moy_veille": {
    "v": 36668,
    "d": "36 668",
-   "l": "[🎃HLWN🎃] Evade  : moyenne de la veille",
+   "l": "Evade  : moyenne de la veille",
    "src": "data/jours/2026-11-20.csv#L30"
   },
   "g.3647333358.var_7j": {
    "v": -0.0784,
    "d": "−7,8 %",
-   "l": "[🎃HLWN🎃] Evade  : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Evade  : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L30"
   },
   "g.3647333358.moy_7j": {
    "v": 41289,
    "d": "41 289",
-   "l": "[🎃HLWN🎃] Evade  : moyenne des 7 jours précédents",
+   "l": "Evade  : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L30"
   },
   "g.3647333358.visites_24h": {
    "v": 4348974,
    "d": "4,35 millions",
-   "l": "[🎃HLWN🎃] Evade  : visites gagnées en 24 h",
+   "l": "Evade  : visites gagnées en 24 h",
    "src": "data/jours/2026-11-20.csv#L30"
   },
   "g.3647333358.visites_total": {
    "v": 9507964721,
    "d": "9,51 milliards",
-   "l": "[🎃HLWN🎃] Evade  : visites cumulées depuis la création",
+   "l": "Evade  : visites cumulées depuis la création",
    "src": "data/jours/2026-11-20.csv#L30"
   },
   "g.3647333358.note": {
    "v": 0.939,
    "d": "93,9 %",
-   "l": "[🎃HLWN🎃] Evade  : part de votes positifs",
+   "l": "Evade  : part de votes positifs",
    "src": "data/jours/2026-11-20.csv#L30"
   },
   "g.3647333358.rang_veille": {
    "v": 22,
    "d": "22e",
-   "l": "[🎃HLWN🎃] Evade  : rang la veille",
+   "l": "Evade  : rang la veille",
    "src": "data/jours/2026-11-20.csv#L30"
   },
   "g.3647333358.rang_moy": {
    "v": 27,
    "d": "27e",
-   "l": "[🎃HLWN🎃] Evade  : rang à la moyenne du jour",
+   "l": "Evade  : rang à la moyenne du jour",
    "src": "data/jours/2026-11-20.csv#L30"
   },
   "g.3647333358.releves": {
    "v": 19,
    "d": "19",
-   "l": "[🎃HLWN🎃] Evade  : relevés où le jeu a été mesuré",
+   "l": "Evade  : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-20.csv#L30"
   },
   "g.3647333358.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[🎃HLWN🎃] Evade  : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "Evade  : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-20.csv#L30"
   },
   "g.10773487349.nom": {
@@ -5175,303 +5175,303 @@
    "src": "data/jours/2026-11-20.csv#L39"
   },
   "g.10629695169.nom": {
-   "v": "[🏰] Tap Simulator REBORN",
-   "d": "[🏰] Tap Simulator REBORN",
-   "l": "[🏰] Tap Simulator REBORN : nom",
+   "v": "[UPD] Tap Simulator REBORN",
+   "d": "[UPD] Tap Simulator REBORN",
+   "l": "[UPD] Tap Simulator REBORN : nom",
    "src": "data/jours/2026-11-20.csv#L40"
   },
   "g.10629695169.rang": {
    "v": 39,
    "d": "39e",
-   "l": "[🏰] Tap Simulator REBORN : rang au pic du jour",
+   "l": "[UPD] Tap Simulator REBORN : rang au pic du jour",
    "src": "data/jours/2026-11-20.csv#L40"
   },
   "g.10629695169.pic": {
    "v": 40650,
    "d": "40 650",
-   "l": "[🏰] Tap Simulator REBORN : pic de joueurs simultanés relevé",
+   "l": "[UPD] Tap Simulator REBORN : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-20.csv#L40"
   },
   "g.10629695169.heure_pic": {
    "v": "16:58",
    "d": "16 h 58",
-   "l": "[🏰] Tap Simulator REBORN : heure (Paris) du pic relevé",
+   "l": "[UPD] Tap Simulator REBORN : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-20.csv#L40"
   },
   "g.10629695169.moy": {
    "v": 38595,
    "d": "38 595",
-   "l": "[🏰] Tap Simulator REBORN : moyenne des joueurs simultanés sur la journée",
+   "l": "[UPD] Tap Simulator REBORN : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-20.csv#L40"
   },
   "g.10629695169.createur": {
    "v": "Cursor Makers",
    "d": "Cursor Makers",
-   "l": "[🏰] Tap Simulator REBORN : créateur",
+   "l": "[UPD] Tap Simulator REBORN : créateur",
    "src": "data/jours/2026-11-20.csv#L40"
   },
   "g.10629695169.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🏰] Tap Simulator REBORN : genre",
+   "l": "[UPD] Tap Simulator REBORN : genre",
    "src": "data/jours/2026-11-20.csv#L40"
   },
   "g.10629695169.var_veille": {
    "v": 0.0191,
    "d": "+1,9 %",
-   "l": "[🏰] Tap Simulator REBORN : variation de la moyenne par rapport à la veille",
+   "l": "[UPD] Tap Simulator REBORN : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-20.csv#L40"
   },
   "g.10629695169.moy_veille": {
    "v": 37871,
    "d": "37 871",
-   "l": "[🏰] Tap Simulator REBORN : moyenne de la veille",
+   "l": "[UPD] Tap Simulator REBORN : moyenne de la veille",
    "src": "data/jours/2026-11-20.csv#L40"
   },
   "g.10629695169.var_7j": {
    "v": -0.027,
    "d": "−2,7 %",
-   "l": "[🏰] Tap Simulator REBORN : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[UPD] Tap Simulator REBORN : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L40"
   },
   "g.10629695169.moy_7j": {
    "v": 39664,
    "d": "39 664",
-   "l": "[🏰] Tap Simulator REBORN : moyenne des 7 jours précédents",
+   "l": "[UPD] Tap Simulator REBORN : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L40"
   },
   "g.10629695169.visites_24h": {
    "v": 1198446,
    "d": "1,2 million",
-   "l": "[🏰] Tap Simulator REBORN : visites gagnées en 24 h",
+   "l": "[UPD] Tap Simulator REBORN : visites gagnées en 24 h",
    "src": "data/jours/2026-11-20.csv#L40"
   },
   "g.10629695169.visites_total": {
    "v": 63588211,
    "d": "63,59 millions",
-   "l": "[🏰] Tap Simulator REBORN : visites cumulées depuis la création",
+   "l": "[UPD] Tap Simulator REBORN : visites cumulées depuis la création",
    "src": "data/jours/2026-11-20.csv#L40"
   },
   "g.10629695169.note": {
    "v": 0.9357,
    "d": "93,6 %",
-   "l": "[🏰] Tap Simulator REBORN : part de votes positifs",
+   "l": "[UPD] Tap Simulator REBORN : part de votes positifs",
    "src": "data/jours/2026-11-20.csv#L40"
   },
   "g.10629695169.rang_veille": {
    "v": 33,
    "d": "33e",
-   "l": "[🏰] Tap Simulator REBORN : rang la veille",
+   "l": "[UPD] Tap Simulator REBORN : rang la veille",
    "src": "data/jours/2026-11-20.csv#L40"
   },
   "g.10629695169.rang_moy": {
    "v": 25,
    "d": "25e",
-   "l": "[🏰] Tap Simulator REBORN : rang à la moyenne du jour",
+   "l": "[UPD] Tap Simulator REBORN : rang à la moyenne du jour",
    "src": "data/jours/2026-11-20.csv#L40"
   },
   "g.10629695169.releves": {
    "v": 19,
    "d": "19",
-   "l": "[🏰] Tap Simulator REBORN : relevés où le jeu a été mesuré",
+   "l": "[UPD] Tap Simulator REBORN : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-20.csv#L40"
   },
   "g.10629695169.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[🏰] Tap Simulator REBORN : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[UPD] Tap Simulator REBORN : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-20.csv#L40"
   },
   "g.3317771874.nom": {
-   "v": "🍁 [TYCOON] Pet Simulator 99! 🍀",
-   "d": "🍁 [TYCOON] Pet Simulator 99! 🍀",
-   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : nom",
+   "v": "🦃 [TURKEY] Pet Simulator 99! 🍁",
+   "d": "🦃 [TURKEY] Pet Simulator 99! 🍁",
+   "l": "🦃 [TURKEY] Pet Simulator 99! 🍁 : nom",
    "src": "data/jours/2026-11-20.csv#L41"
   },
   "g.3317771874.rang": {
    "v": 40,
    "d": "40e",
-   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : rang au pic du jour",
+   "l": "🦃 [TURKEY] Pet Simulator 99! 🍁 : rang au pic du jour",
    "src": "data/jours/2026-11-20.csv#L41"
   },
   "g.3317771874.pic": {
    "v": 39579,
    "d": "39 579",
-   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : pic de joueurs simultanés relevé",
+   "l": "🦃 [TURKEY] Pet Simulator 99! 🍁 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-20.csv#L41"
   },
   "g.3317771874.heure_pic": {
    "v": "17:45",
    "d": "17 h 45",
-   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : heure (Paris) du pic relevé",
+   "l": "🦃 [TURKEY] Pet Simulator 99! 🍁 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-20.csv#L41"
   },
   "g.3317771874.moy": {
    "v": 37582,
    "d": "37 582",
-   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : moyenne des joueurs simultanés sur la journée",
+   "l": "🦃 [TURKEY] Pet Simulator 99! 🍁 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-20.csv#L41"
   },
   "g.3317771874.createur": {
    "v": "BIG Games Pets",
    "d": "BIG Games Pets",
-   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : créateur",
+   "l": "🦃 [TURKEY] Pet Simulator 99! 🍁 : créateur",
    "src": "data/jours/2026-11-20.csv#L41"
   },
   "g.3317771874.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : genre",
+   "l": "🦃 [TURKEY] Pet Simulator 99! 🍁 : genre",
    "src": "data/jours/2026-11-20.csv#L41"
   },
   "g.3317771874.var_veille": {
    "v": -0.1032,
    "d": "−10,3 %",
-   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : variation de la moyenne par rapport à la veille",
+   "l": "🦃 [TURKEY] Pet Simulator 99! 🍁 : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-20.csv#L41"
   },
   "g.3317771874.moy_veille": {
    "v": 41907,
    "d": "41 907",
-   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : moyenne de la veille",
+   "l": "🦃 [TURKEY] Pet Simulator 99! 🍁 : moyenne de la veille",
    "src": "data/jours/2026-11-20.csv#L41"
   },
   "g.3317771874.var_7j": {
    "v": -0.1082,
    "d": "−10,8 %",
-   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "🦃 [TURKEY] Pet Simulator 99! 🍁 : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L41"
   },
   "g.3317771874.moy_7j": {
    "v": 42141,
    "d": "42 141",
-   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : moyenne des 7 jours précédents",
+   "l": "🦃 [TURKEY] Pet Simulator 99! 🍁 : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L41"
   },
   "g.3317771874.visites_24h": {
    "v": 711004,
    "d": "711 004",
-   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : visites gagnées en 24 h",
+   "l": "🦃 [TURKEY] Pet Simulator 99! 🍁 : visites gagnées en 24 h",
    "src": "data/jours/2026-11-20.csv#L41"
   },
   "g.3317771874.visites_total": {
    "v": 2716215002,
    "d": "2,72 milliards",
-   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : visites cumulées depuis la création",
+   "l": "🦃 [TURKEY] Pet Simulator 99! 🍁 : visites cumulées depuis la création",
    "src": "data/jours/2026-11-20.csv#L41"
   },
   "g.3317771874.note": {
    "v": 0.9473,
    "d": "94,7 %",
-   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : part de votes positifs",
+   "l": "🦃 [TURKEY] Pet Simulator 99! 🍁 : part de votes positifs",
    "src": "data/jours/2026-11-20.csv#L41"
   },
   "g.3317771874.rang_veille": {
    "v": 26,
    "d": "26e",
-   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : rang la veille",
+   "l": "🦃 [TURKEY] Pet Simulator 99! 🍁 : rang la veille",
    "src": "data/jours/2026-11-20.csv#L41"
   },
   "g.3317771874.rang_moy": {
    "v": 28,
    "d": "28e",
-   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : rang à la moyenne du jour",
+   "l": "🦃 [TURKEY] Pet Simulator 99! 🍁 : rang à la moyenne du jour",
    "src": "data/jours/2026-11-20.csv#L41"
   },
   "g.3317771874.releves": {
    "v": 19,
    "d": "19",
-   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : relevés où le jeu a été mesuré",
+   "l": "🦃 [TURKEY] Pet Simulator 99! 🍁 : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-20.csv#L41"
   },
   "g.3317771874.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "🍁 [TYCOON] Pet Simulator 99! 🍀 : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "🦃 [TURKEY] Pet Simulator 99! 🍁 : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-20.csv#L41"
   },
   "g.10772066587.nom": {
-   "v": "[KENDURI] MALAM SAMA OPAH ",
-   "d": "[KENDURI] MALAM SAMA OPAH ",
-   "l": "[KENDURI] MALAM SAMA OPAH  : nom",
+   "v": " MALAM SAMA OPAH ",
+   "d": " MALAM SAMA OPAH ",
+   "l": " MALAM SAMA OPAH  : nom",
    "src": "data/jours/2026-11-20.csv#L42"
   },
   "g.10772066587.rang": {
    "v": 41,
    "d": "41e",
-   "l": "[KENDURI] MALAM SAMA OPAH  : rang au pic du jour",
+   "l": " MALAM SAMA OPAH  : rang au pic du jour",
    "src": "data/jours/2026-11-20.csv#L42"
   },
   "g.10772066587.pic": {
    "v": 39230,
    "d": "39 230",
-   "l": "[KENDURI] MALAM SAMA OPAH  : pic de joueurs simultanés relevé",
+   "l": " MALAM SAMA OPAH  : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-20.csv#L42"
   },
   "g.10772066587.heure_pic": {
    "v": "06:48",
    "d": "6 h 48",
-   "l": "[KENDURI] MALAM SAMA OPAH  : heure (Paris) du pic relevé",
+   "l": " MALAM SAMA OPAH  : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-20.csv#L42"
   },
   "g.10772066587.moy": {
    "v": 21584,
    "d": "21 584",
-   "l": "[KENDURI] MALAM SAMA OPAH  : moyenne des joueurs simultanés sur la journée",
+   "l": " MALAM SAMA OPAH  : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-20.csv#L42"
   },
   "g.10772066587.createur": {
    "v": "Sabun Studios",
    "d": "Sabun Studios",
-   "l": "[KENDURI] MALAM SAMA OPAH  : créateur",
+   "l": " MALAM SAMA OPAH  : créateur",
    "src": "data/jours/2026-11-20.csv#L42"
   },
   "g.10772066587.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "[KENDURI] MALAM SAMA OPAH  : genre",
+   "l": " MALAM SAMA OPAH  : genre",
    "src": "data/jours/2026-11-20.csv#L42"
   },
   "g.10772066587.visites_24h": {
    "v": 3276643,
    "d": "3,28 millions",
-   "l": "[KENDURI] MALAM SAMA OPAH  : visites gagnées en 24 h",
+   "l": " MALAM SAMA OPAH  : visites gagnées en 24 h",
    "src": "data/jours/2026-11-20.csv#L42"
   },
   "g.10772066587.visites_total": {
    "v": 79506873,
    "d": "79,51 millions",
-   "l": "[KENDURI] MALAM SAMA OPAH  : visites cumulées depuis la création",
+   "l": " MALAM SAMA OPAH  : visites cumulées depuis la création",
    "src": "data/jours/2026-11-20.csv#L42"
   },
   "g.10772066587.note": {
    "v": 0.8425,
    "d": "84,2 %",
-   "l": "[KENDURI] MALAM SAMA OPAH  : part de votes positifs",
+   "l": " MALAM SAMA OPAH  : part de votes positifs",
    "src": "data/jours/2026-11-20.csv#L42"
   },
   "g.10772066587.rang_veille": {
    "v": 47,
    "d": "47e",
-   "l": "[KENDURI] MALAM SAMA OPAH  : rang la veille",
+   "l": " MALAM SAMA OPAH  : rang la veille",
    "src": "data/jours/2026-11-20.csv#L42"
   },
   "g.10772066587.rang_moy": {
    "v": 54,
    "d": "54e",
-   "l": "[KENDURI] MALAM SAMA OPAH  : rang à la moyenne du jour",
+   "l": " MALAM SAMA OPAH  : rang à la moyenne du jour",
    "src": "data/jours/2026-11-20.csv#L42"
   },
   "g.10772066587.releves": {
    "v": 19,
    "d": "19",
-   "l": "[KENDURI] MALAM SAMA OPAH  : relevés où le jeu a été mesuré",
+   "l": " MALAM SAMA OPAH  : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-20.csv#L42"
   },
   "g.10772066587.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[KENDURI] MALAM SAMA OPAH  : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": " MALAM SAMA OPAH  : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-20.csv#L42"
   },
   "g.10771421858.nom": {
@@ -6075,111 +6075,111 @@
    "src": "data/jours/2026-11-20.csv#L48"
   },
   "g.4778845442.nom": {
-   "v": "[🦃EVENT] Toilet Tower Defense",
-   "d": "[🦃EVENT] Toilet Tower Defense",
-   "l": "[🦃EVENT] Toilet Tower Defense : nom",
+   "v": "[💥UTS 3.0] Toilet Tower Defense",
+   "d": "[💥UTS 3.0] Toilet Tower Defense",
+   "l": "[💥UTS 3.0] Toilet Tower Defense : nom",
    "src": "data/jours/2026-11-20.csv#L49"
   },
   "g.4778845442.rang": {
    "v": 48,
    "d": "48e",
-   "l": "[🦃EVENT] Toilet Tower Defense : rang au pic du jour",
+   "l": "[💥UTS 3.0] Toilet Tower Defense : rang au pic du jour",
    "src": "data/jours/2026-11-20.csv#L49"
   },
   "g.4778845442.pic": {
    "v": 34201,
    "d": "34 201",
-   "l": "[🦃EVENT] Toilet Tower Defense : pic de joueurs simultanés relevé",
+   "l": "[💥UTS 3.0] Toilet Tower Defense : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-20.csv#L49"
   },
   "g.4778845442.heure_pic": {
    "v": "14:41",
    "d": "14 h 41",
-   "l": "[🦃EVENT] Toilet Tower Defense : heure (Paris) du pic relevé",
+   "l": "[💥UTS 3.0] Toilet Tower Defense : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-20.csv#L49"
   },
   "g.4778845442.moy": {
    "v": 24192,
    "d": "24 192",
-   "l": "[🦃EVENT] Toilet Tower Defense : moyenne des joueurs simultanés sur la journée",
+   "l": "[💥UTS 3.0] Toilet Tower Defense : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-20.csv#L49"
   },
   "g.4778845442.createur": {
    "v": "Telanthric Development",
    "d": "Telanthric Development",
-   "l": "[🦃EVENT] Toilet Tower Defense : créateur",
+   "l": "[💥UTS 3.0] Toilet Tower Defense : créateur",
    "src": "data/jours/2026-11-20.csv#L49"
   },
   "g.4778845442.genre": {
    "v": "Strategy",
    "d": "Stratégie",
-   "l": "[🦃EVENT] Toilet Tower Defense : genre",
+   "l": "[💥UTS 3.0] Toilet Tower Defense : genre",
    "src": "data/jours/2026-11-20.csv#L49"
   },
   "g.4778845442.var_veille": {
    "v": 0.2359,
    "d": "+23,6 %",
-   "l": "[🦃EVENT] Toilet Tower Defense : variation de la moyenne par rapport à la veille",
+   "l": "[💥UTS 3.0] Toilet Tower Defense : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-20.csv#L49"
   },
   "g.4778845442.moy_veille": {
    "v": 19574,
    "d": "19 574",
-   "l": "[🦃EVENT] Toilet Tower Defense : moyenne de la veille",
+   "l": "[💥UTS 3.0] Toilet Tower Defense : moyenne de la veille",
    "src": "data/jours/2026-11-20.csv#L49"
   },
   "g.4778845442.var_7j": {
    "v": 0.0573,
    "d": "+5,7 %",
-   "l": "[🦃EVENT] Toilet Tower Defense : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[💥UTS 3.0] Toilet Tower Defense : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L49"
   },
   "g.4778845442.moy_7j": {
    "v": 22882,
    "d": "22 882",
-   "l": "[🦃EVENT] Toilet Tower Defense : moyenne des 7 jours précédents",
+   "l": "[💥UTS 3.0] Toilet Tower Defense : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L49"
   },
   "g.4778845442.visites_24h": {
    "v": 2374731,
    "d": "2,37 millions",
-   "l": "[🦃EVENT] Toilet Tower Defense : visites gagnées en 24 h",
+   "l": "[💥UTS 3.0] Toilet Tower Defense : visites gagnées en 24 h",
    "src": "data/jours/2026-11-20.csv#L49"
   },
   "g.4778845442.visites_total": {
    "v": 6233520268,
    "d": "6,23 milliards",
-   "l": "[🦃EVENT] Toilet Tower Defense : visites cumulées depuis la création",
+   "l": "[💥UTS 3.0] Toilet Tower Defense : visites cumulées depuis la création",
    "src": "data/jours/2026-11-20.csv#L49"
   },
   "g.4778845442.note": {
    "v": 0.8566,
    "d": "85,7 %",
-   "l": "[🦃EVENT] Toilet Tower Defense : part de votes positifs",
+   "l": "[💥UTS 3.0] Toilet Tower Defense : part de votes positifs",
    "src": "data/jours/2026-11-20.csv#L49"
   },
   "g.4778845442.rang_veille": {
    "v": 49,
    "d": "49e",
-   "l": "[🦃EVENT] Toilet Tower Defense : rang la veille",
+   "l": "[💥UTS 3.0] Toilet Tower Defense : rang la veille",
    "src": "data/jours/2026-11-20.csv#L49"
   },
   "g.4778845442.rang_moy": {
    "v": 44,
    "d": "44e",
-   "l": "[🦃EVENT] Toilet Tower Defense : rang à la moyenne du jour",
+   "l": "[💥UTS 3.0] Toilet Tower Defense : rang à la moyenne du jour",
    "src": "data/jours/2026-11-20.csv#L49"
   },
   "g.4778845442.releves": {
    "v": 19,
    "d": "19",
-   "l": "[🦃EVENT] Toilet Tower Defense : relevés où le jeu a été mesuré",
+   "l": "[💥UTS 3.0] Toilet Tower Defense : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-20.csv#L49"
   },
   "g.4778845442.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[🦃EVENT] Toilet Tower Defense : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[💥UTS 3.0] Toilet Tower Defense : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-20.csv#L49"
   },
   "g.7174773198.nom": {
@@ -6591,219 +6591,219 @@
    "src": "data/jours/2026-11-20.csv#L53"
   },
   "g.10762636904.nom": {
-   "v": "[X2🪙] Cameraman Tower Defense",
-   "d": "[X2🪙] Cameraman Tower Defense",
-   "l": "[X2🪙] Cameraman Tower Defense : nom",
+   "v": "[Medal+X2💰] Cameraman Tower Defense",
+   "d": "[Medal+X2💰] Cameraman Tower Defense",
+   "l": "[Medal+X2💰] Cameraman Tower Defense : nom",
    "src": "data/jours/2026-11-20.csv#L54"
   },
   "g.10762636904.rang": {
    "v": 53,
    "d": "53e",
-   "l": "[X2🪙] Cameraman Tower Defense : rang au pic du jour",
+   "l": "[Medal+X2💰] Cameraman Tower Defense : rang au pic du jour",
    "src": "data/jours/2026-11-20.csv#L54"
   },
   "g.10762636904.pic": {
    "v": 32022,
    "d": "32 022",
-   "l": "[X2🪙] Cameraman Tower Defense : pic de joueurs simultanés relevé",
+   "l": "[Medal+X2💰] Cameraman Tower Defense : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-20.csv#L54"
   },
   "g.10762636904.heure_pic": {
    "v": "14:41",
    "d": "14 h 41",
-   "l": "[X2🪙] Cameraman Tower Defense : heure (Paris) du pic relevé",
+   "l": "[Medal+X2💰] Cameraman Tower Defense : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-20.csv#L54"
   },
   "g.10762636904.moy": {
    "v": 22365,
    "d": "22 365",
-   "l": "[X2🪙] Cameraman Tower Defense : moyenne des joueurs simultanés sur la journée",
+   "l": "[Medal+X2💰] Cameraman Tower Defense : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-20.csv#L54"
   },
   "g.10762636904.createur": {
    "v": "Aligators Games",
    "d": "Aligators Games",
-   "l": "[X2🪙] Cameraman Tower Defense : créateur",
+   "l": "[Medal+X2💰] Cameraman Tower Defense : créateur",
    "src": "data/jours/2026-11-20.csv#L54"
   },
   "g.10762636904.genre": {
    "v": "Strategy",
    "d": "Stratégie",
-   "l": "[X2🪙] Cameraman Tower Defense : genre",
+   "l": "[Medal+X2💰] Cameraman Tower Defense : genre",
    "src": "data/jours/2026-11-20.csv#L54"
   },
   "g.10762636904.var_veille": {
    "v": 0.1126,
    "d": "+11,3 %",
-   "l": "[X2🪙] Cameraman Tower Defense : variation de la moyenne par rapport à la veille",
+   "l": "[Medal+X2💰] Cameraman Tower Defense : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-20.csv#L54"
   },
   "g.10762636904.moy_veille": {
    "v": 20101,
    "d": "20 101",
-   "l": "[X2🪙] Cameraman Tower Defense : moyenne de la veille",
+   "l": "[Medal+X2💰] Cameraman Tower Defense : moyenne de la veille",
    "src": "data/jours/2026-11-20.csv#L54"
   },
   "g.10762636904.var_7j": {
    "v": -0.3869,
    "d": "−38,7 %",
-   "l": "[X2🪙] Cameraman Tower Defense : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[Medal+X2💰] Cameraman Tower Defense : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L54"
   },
   "g.10762636904.moy_7j": {
    "v": 36480,
    "d": "36 480",
-   "l": "[X2🪙] Cameraman Tower Defense : moyenne des 7 jours précédents",
+   "l": "[Medal+X2💰] Cameraman Tower Defense : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L54"
   },
   "g.10762636904.visites_24h": {
    "v": 2518020,
    "d": "2,52 millions",
-   "l": "[X2🪙] Cameraman Tower Defense : visites gagnées en 24 h",
+   "l": "[Medal+X2💰] Cameraman Tower Defense : visites gagnées en 24 h",
    "src": "data/jours/2026-11-20.csv#L54"
   },
   "g.10762636904.visites_total": {
    "v": 151236377,
    "d": "151,24 millions",
-   "l": "[X2🪙] Cameraman Tower Defense : visites cumulées depuis la création",
+   "l": "[Medal+X2💰] Cameraman Tower Defense : visites cumulées depuis la création",
    "src": "data/jours/2026-11-20.csv#L54"
   },
   "g.10762636904.note": {
    "v": 0.9798,
    "d": "98,0 %",
-   "l": "[X2🪙] Cameraman Tower Defense : part de votes positifs",
+   "l": "[Medal+X2💰] Cameraman Tower Defense : part de votes positifs",
    "src": "data/jours/2026-11-20.csv#L54"
   },
   "g.10762636904.rang_veille": {
    "v": 45,
    "d": "45e",
-   "l": "[X2🪙] Cameraman Tower Defense : rang la veille",
+   "l": "[Medal+X2💰] Cameraman Tower Defense : rang la veille",
    "src": "data/jours/2026-11-20.csv#L54"
   },
   "g.10762636904.rang_moy": {
    "v": 50,
    "d": "50e",
-   "l": "[X2🪙] Cameraman Tower Defense : rang à la moyenne du jour",
+   "l": "[Medal+X2💰] Cameraman Tower Defense : rang à la moyenne du jour",
    "src": "data/jours/2026-11-20.csv#L54"
   },
   "g.10762636904.releves": {
    "v": 19,
    "d": "19",
-   "l": "[X2🪙] Cameraman Tower Defense : relevés où le jeu a été mesuré",
+   "l": "[Medal+X2💰] Cameraman Tower Defense : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-20.csv#L54"
   },
   "g.10762636904.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[X2🪙] Cameraman Tower Defense : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[Medal+X2💰] Cameraman Tower Defense : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-20.csv#L54"
   },
   "g.9584852943.nom": {
-   "v": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate",
-   "d": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : nom",
+   "v": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "d": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : nom",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.rang": {
    "v": 54,
    "d": "54e",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.pic": {
    "v": 31433,
    "d": "31 433",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.heure_pic": {
    "v": "17:45",
    "d": "17 h 45",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.moy": {
    "v": 19813,
    "d": "19 813",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.createur": {
    "v": "SecretVerse Studio",
    "d": "SecretVerse Studio",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : créateur",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : créateur",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : genre",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : genre",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.var_veille": {
    "v": 0.1764,
    "d": "+17,6 %",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport à la veille",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.moy_veille": {
    "v": 16842,
    "d": "16 842",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne de la veille",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne de la veille",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.var_7j": {
    "v": -0.2204,
    "d": "−22,0 %",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.moy_7j": {
    "v": 25414,
    "d": "25 414",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des 7 jours précédents",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.visites_24h": {
    "v": 3382337,
    "d": "3,38 millions",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : visites gagnées en 24 h",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : visites gagnées en 24 h",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.visites_total": {
    "v": 6719123316,
    "d": "6,72 milliards",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.note": {
    "v": 0.9668,
    "d": "96,7 %",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.rang_veille": {
    "v": 55,
    "d": "55e",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : rang la veille",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : rang la veille",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.rang_moy": {
    "v": 63,
    "d": "63e",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : rang à la moyenne du jour",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : rang à la moyenne du jour",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.releves": {
    "v": 19,
    "d": "19",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : relevés où le jeu a été mesuré",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.9584852943.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[X10] +1 Speed Keyboard Escape | Candy & Chocolate : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-20.csv#L55"
   },
   "g.1176784616.nom": {
@@ -10617,87 +10617,87 @@
    "src": "data/jours/2026-11-20.csv#L91"
   },
   "g.10772284025.nom": {
-   "v": "[⚡ UPD 2] Be The Biggest Streamer",
-   "d": "[⚡ UPD 2] Be The Biggest Streamer",
-   "l": "[⚡ UPD 2] Be The Biggest Streamer : nom",
+   "v": "[🚗 UPD 3] Be The Biggest Streamer",
+   "d": "[🚗 UPD 3] Be The Biggest Streamer",
+   "l": "[🚗 UPD 3] Be The Biggest Streamer : nom",
    "src": "data/jours/2026-11-20.csv#L92"
   },
   "g.10772284025.rang": {
    "v": 91,
    "d": "91e",
-   "l": "[⚡ UPD 2] Be The Biggest Streamer : rang au pic du jour",
+   "l": "[🚗 UPD 3] Be The Biggest Streamer : rang au pic du jour",
    "src": "data/jours/2026-11-20.csv#L92"
   },
   "g.10772284025.pic": {
    "v": 20532,
    "d": "20 532",
-   "l": "[⚡ UPD 2] Be The Biggest Streamer : pic de joueurs simultanés relevé",
+   "l": "[🚗 UPD 3] Be The Biggest Streamer : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-20.csv#L92"
   },
   "g.10772284025.heure_pic": {
    "v": "17:45",
    "d": "17 h 45",
-   "l": "[⚡ UPD 2] Be The Biggest Streamer : heure (Paris) du pic relevé",
+   "l": "[🚗 UPD 3] Be The Biggest Streamer : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-20.csv#L92"
   },
   "g.10772284025.moy": {
    "v": 13275,
    "d": "13 275",
-   "l": "[⚡ UPD 2] Be The Biggest Streamer : moyenne des joueurs simultanés sur la journée",
+   "l": "[🚗 UPD 3] Be The Biggest Streamer : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-20.csv#L92"
   },
   "g.10772284025.createur": {
    "v": "Cool Game Only",
    "d": "Cool Game Only",
-   "l": "[⚡ UPD 2] Be The Biggest Streamer : créateur",
+   "l": "[🚗 UPD 3] Be The Biggest Streamer : créateur",
    "src": "data/jours/2026-11-20.csv#L92"
   },
   "g.10772284025.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[⚡ UPD 2] Be The Biggest Streamer : genre",
+   "l": "[🚗 UPD 3] Be The Biggest Streamer : genre",
    "src": "data/jours/2026-11-20.csv#L92"
   },
   "g.10772284025.visites_24h": {
    "v": 1299945,
    "d": "1,3 million",
-   "l": "[⚡ UPD 2] Be The Biggest Streamer : visites gagnées en 24 h",
+   "l": "[🚗 UPD 3] Be The Biggest Streamer : visites gagnées en 24 h",
    "src": "data/jours/2026-11-20.csv#L92"
   },
   "g.10772284025.visites_total": {
    "v": 5033287,
    "d": "5,03 millions",
-   "l": "[⚡ UPD 2] Be The Biggest Streamer : visites cumulées depuis la création",
+   "l": "[🚗 UPD 3] Be The Biggest Streamer : visites cumulées depuis la création",
    "src": "data/jours/2026-11-20.csv#L92"
   },
   "g.10772284025.note": {
    "v": 0.7971,
    "d": "79,7 %",
-   "l": "[⚡ UPD 2] Be The Biggest Streamer : part de votes positifs",
+   "l": "[🚗 UPD 3] Be The Biggest Streamer : part de votes positifs",
    "src": "data/jours/2026-11-20.csv#L92"
   },
   "g.10772284025.rang_veille": {
    "v": 95,
    "d": "95e",
-   "l": "[⚡ UPD 2] Be The Biggest Streamer : rang la veille",
+   "l": "[🚗 UPD 3] Be The Biggest Streamer : rang la veille",
    "src": "data/jours/2026-11-20.csv#L92"
   },
   "g.10772284025.rang_moy": {
    "v": 99,
    "d": "99e",
-   "l": "[⚡ UPD 2] Be The Biggest Streamer : rang à la moyenne du jour",
+   "l": "[🚗 UPD 3] Be The Biggest Streamer : rang à la moyenne du jour",
    "src": "data/jours/2026-11-20.csv#L92"
   },
   "g.10772284025.releves": {
    "v": 19,
    "d": "19",
-   "l": "[⚡ UPD 2] Be The Biggest Streamer : relevés où le jeu a été mesuré",
+   "l": "[🚗 UPD 3] Be The Biggest Streamer : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-20.csv#L92"
   },
   "g.10772284025.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[⚡ UPD 2] Be The Biggest Streamer : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[🚗 UPD 3] Be The Biggest Streamer : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-20.csv#L92"
   },
   "g.10769149947.nom": {
@@ -11925,8 +11925,8 @@
    "src": "data/jours/2026-11-20.csv#L600"
   },
   "baisse.5.nom": {
-   "v": "🌪️Tornado Physics Sandbox",
-   "d": "🌪️Tornado Physics Sandbox",
+   "v": "[🌪️MULTIPLAYER] Tornado Physics Sandbox",
+   "d": "[🌪️MULTIPLAYER] Tornado Physics Sandbox",
    "l": "Baisse n° 5 : nom",
    "src": "data/jours/2026-11-20.csv#L629"
   },
@@ -12479,7 +12479,7 @@
      "valeur": 0.6639
     },
     {
-     "nom": "🌪️Tornado Physics Sandbox",
+     "nom": "[🌪️MULTIPLAYER] Tornado Physics Sandbox",
      "valeur": -0.6317
     },
     {

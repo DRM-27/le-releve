@@ -1,25 +1,29 @@
 {
- "genere": "2026-11-21T12:51:26Z",
+ "genere": "2026-11-21T18:23:17Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/",
-   "vues": 48
+   "vues": 57
   },
   {
    "path": "/le-releve/",
    "vues": 13
   },
   {
-   "path": "/articles/2026-11-19-jailbreak-quotidien/",
-   "vues": 3
-  },
-  {
    "path": "/le-releve/explorer/",
    "vues": 3
   },
   {
+   "path": "/articles/2026-11-19-jailbreak-quotidien/",
+   "vues": 3
+  },
+  {
    "path": "/classement/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/articles/2026-11-17-volley-bomb-quotidien/",
    "vues": 2
   },
   {
@@ -31,10 +35,6 @@
    "vues": 2
   },
   {
-   "path": "/le-releve/articles/2026-11-17-volley-bomb-quotidien/",
-   "vues": 2
-  },
-  {
    "path": "/le-releve/alertes/",
    "vues": 2
   },
@@ -43,7 +43,7 @@
    "vues": 1
   },
   {
-   "path": "/jeux/climb-the-rake-tower-10769120871/",
+   "path": "/confidentialite/",
    "vues": 1
   },
   {
@@ -55,7 +55,7 @@
    "vues": 1
   },
   {
-   "path": "/le-releve/articles/2026-11-18-hyper-realistic-ragdoll-quotidien/",
+   "path": "/jeux/climb-the-rake-tower-10769120871/",
    "vues": 1
   },
   {
@@ -67,19 +67,19 @@
    "vues": 1
   },
   {
-   "path": "/le-releve/articles/2026-11-19-jailbreak-quotidien/",
-   "vues": 1
-  },
-  {
    "path": "/le-releve/records/",
    "vues": 1
   },
   {
-   "path": "/le-releve/heures-de-pointe/",
+   "path": "/le-releve/confidentialite/",
    "vues": 1
   },
   {
-   "path": "/le-releve/source/",
+   "path": "/le-releve/articles/2026-11-19-jailbreak-quotidien/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/methode/",
    "vues": 1
   }
  ]
