@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-21",
- "genere": "2026-11-22T16:04:34Z",
+ "genere": "2026-11-22T16:29:15Z",
  "couverture": {
   "releves": 7,
   "attendus": 24
@@ -4209,105 +4209,105 @@
    "src": "data/jours/2026-11-21.csv#L32"
   },
   "g.7660436108.nom": {
-   "v": "[5 HOURS] Anime Crusaders X",
-   "d": "[5 HOURS] Anime Crusaders X",
-   "l": "[5 HOURS] Anime Crusaders X : nom",
+   "v": "[3 HOURS] Anime Crusaders X",
+   "d": "[3 HOURS] Anime Crusaders X",
+   "l": "[3 HOURS] Anime Crusaders X : nom",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.rang": {
    "v": 32,
    "d": "32e",
-   "l": "[5 HOURS] Anime Crusaders X : rang au pic du jour",
+   "l": "[3 HOURS] Anime Crusaders X : rang au pic du jour",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.pic": {
    "v": 65136,
    "d": "65 136",
-   "l": "[5 HOURS] Anime Crusaders X : pic de joueurs simultanés relevé",
+   "l": "[3 HOURS] Anime Crusaders X : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.heure_pic": {
    "v": "13:50",
    "d": "13 h 50",
-   "l": "[5 HOURS] Anime Crusaders X : heure (Paris) du pic relevé",
+   "l": "[3 HOURS] Anime Crusaders X : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.moy": {
    "v": 61110,
    "d": "61 110",
-   "l": "[5 HOURS] Anime Crusaders X : moyenne des joueurs simultanés sur la journée",
+   "l": "[3 HOURS] Anime Crusaders X : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.createur": {
    "v": "32x",
    "d": "32x",
-   "l": "[5 HOURS] Anime Crusaders X : créateur",
+   "l": "[3 HOURS] Anime Crusaders X : créateur",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.genre": {
    "v": "Strategy",
    "d": "Stratégie",
-   "l": "[5 HOURS] Anime Crusaders X : genre",
+   "l": "[3 HOURS] Anime Crusaders X : genre",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.var_veille": {
    "v": 0.2587,
    "d": "+25,9 %",
-   "l": "[5 HOURS] Anime Crusaders X : variation de la moyenne par rapport à la veille",
+   "l": "[3 HOURS] Anime Crusaders X : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.moy_veille": {
    "v": 48551,
    "d": "48 551",
-   "l": "[5 HOURS] Anime Crusaders X : moyenne de la veille",
+   "l": "[3 HOURS] Anime Crusaders X : moyenne de la veille",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.var_7j": {
    "v": 0.5611,
    "d": "+56,1 %",
-   "l": "[5 HOURS] Anime Crusaders X : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[3 HOURS] Anime Crusaders X : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.moy_7j": {
    "v": 39146,
    "d": "39 146",
-   "l": "[5 HOURS] Anime Crusaders X : moyenne des 7 jours précédents",
+   "l": "[3 HOURS] Anime Crusaders X : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.visites_total": {
    "v": 128417267,
    "d": "128,42 millions",
-   "l": "[5 HOURS] Anime Crusaders X : visites cumulées depuis la création",
+   "l": "[3 HOURS] Anime Crusaders X : visites cumulées depuis la création",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.note": {
    "v": 0.9808,
    "d": "98,1 %",
-   "l": "[5 HOURS] Anime Crusaders X : part de votes positifs",
+   "l": "[3 HOURS] Anime Crusaders X : part de votes positifs",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.rang_veille": {
    "v": 26,
    "d": "26e",
-   "l": "[5 HOURS] Anime Crusaders X : rang la veille",
+   "l": "[3 HOURS] Anime Crusaders X : rang la veille",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.rang_moy": {
    "v": 21,
    "d": "21e",
-   "l": "[5 HOURS] Anime Crusaders X : rang à la moyenne du jour",
+   "l": "[3 HOURS] Anime Crusaders X : rang à la moyenne du jour",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.releves": {
    "v": 7,
    "d": "7",
-   "l": "[5 HOURS] Anime Crusaders X : relevés où le jeu a été mesuré",
+   "l": "[3 HOURS] Anime Crusaders X : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[5 HOURS] Anime Crusaders X : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[3 HOURS] Anime Crusaders X : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7219654364.nom": {
@@ -6111,99 +6111,99 @@
    "src": "data/jours/2026-11-21.csv#L51"
   },
   "g.10770463307.nom": {
-   "v": "[UPD] Stop The Tsunami!",
-   "d": "[UPD] Stop The Tsunami!",
-   "l": "[UPD] Stop The Tsunami! : nom",
+   "v": "[FIXED] Stop The Tsunami!",
+   "d": "[FIXED] Stop The Tsunami!",
+   "l": "[FIXED] Stop The Tsunami! : nom",
    "src": "data/jours/2026-11-21.csv#L52"
   },
   "g.10770463307.rang": {
    "v": 51,
    "d": "51e",
-   "l": "[UPD] Stop The Tsunami! : rang au pic du jour",
+   "l": "[FIXED] Stop The Tsunami! : rang au pic du jour",
    "src": "data/jours/2026-11-21.csv#L52"
   },
   "g.10770463307.pic": {
    "v": 42873,
    "d": "42 873",
-   "l": "[UPD] Stop The Tsunami! : pic de joueurs simultanés relevé",
+   "l": "[FIXED] Stop The Tsunami! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-21.csv#L52"
   },
   "g.10770463307.heure_pic": {
    "v": "19:22",
    "d": "19 h 22",
-   "l": "[UPD] Stop The Tsunami! : heure (Paris) du pic relevé",
+   "l": "[FIXED] Stop The Tsunami! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-21.csv#L52"
   },
   "g.10770463307.moy": {
    "v": 32202,
    "d": "32 202",
-   "l": "[UPD] Stop The Tsunami! : moyenne des joueurs simultanés sur la journée",
+   "l": "[FIXED] Stop The Tsunami! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-21.csv#L52"
   },
   "g.10770463307.createur": {
    "v": "Beach Defenders!",
    "d": "Beach Defenders!",
-   "l": "[UPD] Stop The Tsunami! : créateur",
+   "l": "[FIXED] Stop The Tsunami! : créateur",
    "src": "data/jours/2026-11-21.csv#L52"
   },
   "g.10770463307.var_veille": {
    "v": 0.6452,
    "d": "+64,5 %",
-   "l": "[UPD] Stop The Tsunami! : variation de la moyenne par rapport à la veille",
+   "l": "[FIXED] Stop The Tsunami! : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-21.csv#L52"
   },
   "g.10770463307.moy_veille": {
    "v": 19573,
    "d": "19 573",
-   "l": "[UPD] Stop The Tsunami! : moyenne de la veille",
+   "l": "[FIXED] Stop The Tsunami! : moyenne de la veille",
    "src": "data/jours/2026-11-21.csv#L52"
   },
   "g.10770463307.var_7j": {
    "v": 0.8533,
    "d": "+85,3 %",
-   "l": "[UPD] Stop The Tsunami! : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[FIXED] Stop The Tsunami! : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-21.csv#L52"
   },
   "g.10770463307.moy_7j": {
    "v": 17376,
    "d": "17 376",
-   "l": "[UPD] Stop The Tsunami! : moyenne des 7 jours précédents",
+   "l": "[FIXED] Stop The Tsunami! : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-21.csv#L52"
   },
   "g.10770463307.visites_total": {
    "v": 30379970,
    "d": "30,38 millions",
-   "l": "[UPD] Stop The Tsunami! : visites cumulées depuis la création",
+   "l": "[FIXED] Stop The Tsunami! : visites cumulées depuis la création",
    "src": "data/jours/2026-11-21.csv#L52"
   },
   "g.10770463307.note": {
    "v": 0.8564,
    "d": "85,6 %",
-   "l": "[UPD] Stop The Tsunami! : part de votes positifs",
+   "l": "[FIXED] Stop The Tsunami! : part de votes positifs",
    "src": "data/jours/2026-11-21.csv#L52"
   },
   "g.10770463307.rang_veille": {
    "v": 58,
    "d": "58e",
-   "l": "[UPD] Stop The Tsunami! : rang la veille",
+   "l": "[FIXED] Stop The Tsunami! : rang la veille",
    "src": "data/jours/2026-11-21.csv#L52"
   },
   "g.10770463307.rang_moy": {
    "v": 48,
    "d": "48e",
-   "l": "[UPD] Stop The Tsunami! : rang à la moyenne du jour",
+   "l": "[FIXED] Stop The Tsunami! : rang à la moyenne du jour",
    "src": "data/jours/2026-11-21.csv#L52"
   },
   "g.10770463307.releves": {
    "v": 7,
    "d": "7",
-   "l": "[UPD] Stop The Tsunami! : relevés où le jeu a été mesuré",
+   "l": "[FIXED] Stop The Tsunami! : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-21.csv#L52"
   },
   "g.10770463307.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[UPD] Stop The Tsunami! : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[FIXED] Stop The Tsunami! : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-21.csv#L52"
   },
   "g.10771053183.nom": {
@@ -9975,105 +9975,105 @@
    "src": "data/jours/2026-11-21.csv#L90"
   },
   "g.9978329815.nom": {
-   "v": "Mukbang Game [Testing]🥤🎍!",
-   "d": "Mukbang Game [Testing]🥤🎍!",
-   "l": "Mukbang Game [Testing]🥤🎍! : nom",
+   "v": "Mukbang Game [Testing]🍚🏮!",
+   "d": "Mukbang Game [Testing]🍚🏮!",
+   "l": "Mukbang Game [Testing]🍚🏮! : nom",
    "src": "data/jours/2026-11-21.csv#L91"
   },
   "g.9978329815.rang": {
    "v": 90,
    "d": "90e",
-   "l": "Mukbang Game [Testing]🥤🎍! : rang au pic du jour",
+   "l": "Mukbang Game [Testing]🍚🏮! : rang au pic du jour",
    "src": "data/jours/2026-11-21.csv#L91"
   },
   "g.9978329815.pic": {
    "v": 26071,
    "d": "26 071",
-   "l": "Mukbang Game [Testing]🥤🎍! : pic de joueurs simultanés relevé",
+   "l": "Mukbang Game [Testing]🍚🏮! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-21.csv#L91"
   },
   "g.9978329815.heure_pic": {
    "v": "04:38",
    "d": "4 h 38",
-   "l": "Mukbang Game [Testing]🥤🎍! : heure (Paris) du pic relevé",
+   "l": "Mukbang Game [Testing]🍚🏮! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-21.csv#L91"
   },
   "g.9978329815.moy": {
    "v": 22302,
    "d": "22 302",
-   "l": "Mukbang Game [Testing]🥤🎍! : moyenne des joueurs simultanés sur la journée",
+   "l": "Mukbang Game [Testing]🍚🏮! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-21.csv#L91"
   },
   "g.9978329815.createur": {
    "v": "sorynn22",
    "d": "sorynn22",
-   "l": "Mukbang Game [Testing]🥤🎍! : créateur",
+   "l": "Mukbang Game [Testing]🍚🏮! : créateur",
    "src": "data/jours/2026-11-21.csv#L91"
   },
   "g.9978329815.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "Mukbang Game [Testing]🥤🎍! : genre",
+   "l": "Mukbang Game [Testing]🍚🏮! : genre",
    "src": "data/jours/2026-11-21.csv#L91"
   },
   "g.9978329815.var_veille": {
    "v": 0.2678,
    "d": "+26,8 %",
-   "l": "Mukbang Game [Testing]🥤🎍! : variation de la moyenne par rapport à la veille",
+   "l": "Mukbang Game [Testing]🍚🏮! : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-21.csv#L91"
   },
   "g.9978329815.moy_veille": {
    "v": 17590,
    "d": "17 590",
-   "l": "Mukbang Game [Testing]🥤🎍! : moyenne de la veille",
+   "l": "Mukbang Game [Testing]🍚🏮! : moyenne de la veille",
    "src": "data/jours/2026-11-21.csv#L91"
   },
   "g.9978329815.var_7j": {
    "v": 0.3588,
    "d": "+35,9 %",
-   "l": "Mukbang Game [Testing]🥤🎍! : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Mukbang Game [Testing]🍚🏮! : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-21.csv#L91"
   },
   "g.9978329815.moy_7j": {
    "v": 16413,
    "d": "16 413",
-   "l": "Mukbang Game [Testing]🥤🎍! : moyenne des 7 jours précédents",
+   "l": "Mukbang Game [Testing]🍚🏮! : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-21.csv#L91"
   },
   "g.9978329815.visites_total": {
    "v": 603818979,
    "d": "603,82 millions",
-   "l": "Mukbang Game [Testing]🥤🎍! : visites cumulées depuis la création",
+   "l": "Mukbang Game [Testing]🍚🏮! : visites cumulées depuis la création",
    "src": "data/jours/2026-11-21.csv#L91"
   },
   "g.9978329815.note": {
    "v": 0.9255,
    "d": "92,5 %",
-   "l": "Mukbang Game [Testing]🥤🎍! : part de votes positifs",
+   "l": "Mukbang Game [Testing]🍚🏮! : part de votes positifs",
    "src": "data/jours/2026-11-21.csv#L91"
   },
   "g.9978329815.rang_veille": {
    "v": 83,
    "d": "83e",
-   "l": "Mukbang Game [Testing]🥤🎍! : rang la veille",
+   "l": "Mukbang Game [Testing]🍚🏮! : rang la veille",
    "src": "data/jours/2026-11-21.csv#L91"
   },
   "g.9978329815.rang_moy": {
    "v": 77,
    "d": "77e",
-   "l": "Mukbang Game [Testing]🥤🎍! : rang à la moyenne du jour",
+   "l": "Mukbang Game [Testing]🍚🏮! : rang à la moyenne du jour",
    "src": "data/jours/2026-11-21.csv#L91"
   },
   "g.9978329815.releves": {
    "v": 7,
    "d": "7",
-   "l": "Mukbang Game [Testing]🥤🎍! : relevés où le jeu a été mesuré",
+   "l": "Mukbang Game [Testing]🍚🏮! : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-21.csv#L91"
   },
   "g.9978329815.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "Mukbang Game [Testing]🥤🎍! : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "Mukbang Game [Testing]🍚🏮! : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-21.csv#L91"
   },
   "g.10771881861.nom": {
