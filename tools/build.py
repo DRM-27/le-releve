@@ -69,8 +69,29 @@ def jsonld(obj):
     return '<script type="application/ld+json">' + json.dumps(obj, ensure_ascii=False).replace("</", "<\\/") + "</script>"
 
 
+RESEAUX = {"tiktok": ("TikTok", "https://www.tiktok.com/@{}")}
+
+
+def reseaux_liens():
+    """Comptes du média renseignés dans config.json › reseaux (nom d'utilisateur sans @)."""
+    out = []
+    for cle, (nom, modele) in RESEAUX.items():
+        pseudo = (CONFIG.get("reseaux") or {}).get(cle, "").strip().lstrip("@")
+        if pseudo:
+            out.append((nom, modele.format(pseudo)))
+    return out
+
+
+def reseaux_html():
+    liens = reseaux_liens()
+    if not liens:
+        return ""
+    return '<p class="foot-social">' + " · ".join(f'<a href="{esc(u)}" rel="me noopener" target="_blank">{esc(n)}</a>' for n, u in liens) + "</p>"
+
+
 def org():
     return {"@type": "NewsMediaOrganization", "name": NAME, "url": abs_url(""), "logo": abs_url("assets/icon.svg"),
+            "sameAs": [u for _, u in reseaux_liens()],
             "description": description(), "publishingPrinciples": abs_url("methode/"), "correctionsPolicy": abs_url("corrections/")}
 
 
@@ -158,6 +179,7 @@ def page(title, body, desc="", path="", extra_head="", og_type="website", ld=Non
     <div class="foot-about">
       <a class="wordmark" href="{url()}"><span class="mark" aria-hidden="true"></span>{esc(NAME)}</a>
       <p>{esc(tagline())}.</p>
+      {reseaux_html()}
       <p class="foot-small">{t("Média indépendant, non affilié à Roblox Corporation. Roblox est une marque de Roblox Corporation. Articles rédigés automatiquement à partir de données publiques, chiffres vérifiés par programme. Mesure d’audience anonyme, sans cookie.")}</p>
     </div>
     {foot_cols}
