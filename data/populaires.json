@@ -1,10 +1,10 @@
 {
- "genere": "2026-11-22T12:03:08Z",
+ "genere": "2026-11-22T13:44:03Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/",
-   "vues": 68
+   "vues": 72
   },
   {
    "path": "/le-releve/",
@@ -12,14 +12,14 @@
   },
   {
    "path": "/classement/",
-   "vues": 4
-  },
-  {
-   "path": "/le-releve/explorer/",
-   "vues": 3
+   "vues": 5
   },
   {
    "path": "/en/jeux/uts-3-0-toilet-tower-defense-4778845442/",
+   "vues": 5
+  },
+  {
+   "path": "/le-releve/explorer/",
    "vues": 3
   },
   {
@@ -31,6 +31,10 @@
    "vues": 2
   },
   {
+   "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
+   "vues": 2
+  },
+  {
    "path": "/le-releve/classement/",
    "vues": 2
   },
@@ -39,16 +43,20 @@
    "vues": 2
   },
   {
-   "path": "/articles/2026-11-18-hyper-realistic-ragdoll-quotidien/",
+   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
    "vues": 2
   },
   {
-   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
+   "path": "/articles/2026-11-18-hyper-realistic-ragdoll-quotidien/",
    "vues": 2
   },
   {
    "path": "/le-releve/alertes/",
    "vues": 2
+  },
+  {
+   "path": "/le-releve/heures-de-pointe/",
+   "vues": 1
   },
   {
    "path": "/en/jeux/he-ate-them-horror-6635513269/",
@@ -59,7 +67,7 @@
    "vues": 1
   },
   {
-   "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
+   "path": "/le-releve/donnees/",
    "vues": 1
   },
   {
@@ -72,14 +80,6 @@
   },
   {
    "path": "/le-releve/articles/2026-11-19-jailbreak-quotidien/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/donnees/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/partenaires/",
    "vues": 1
   }
  ]
