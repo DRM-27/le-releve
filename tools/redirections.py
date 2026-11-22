@@ -25,10 +25,10 @@ for f in src.rglob("*"):
               f"location.replace('{new}'+p+location.search+location.hash);") if rel == "404.html" else \
              f"location.replace('{new}/{path}'+location.search+location.hash);"
         dest.write_text(
-            f'<!doctype html><html><head><meta charset="utf-8"><title>PlayLedger a déménagé</title>'
+            f'<!doctype html><html><head><meta charset="utf-8"><title>PlayLedgers a déménagé</title>'
             f'<link rel="canonical" href="{url}">'
             f'<meta http-equiv="refresh" content="0; url={url}"><script>{js}</script></head>'
-            f'<body><p>PlayLedger est maintenant sur <a href="{url}">{url}</a>.</p></body></html>', encoding="utf-8")
+            f'<body><p>PlayLedgers est maintenant sur <a href="{url}">{url}</a>.</p></body></html>', encoding="utf-8")
         n += 1
     elif f.suffix in (".xml", ".json", ".txt", ".csv", ".svg", ".ico", ".png", ".webmanifest"):
         shutil.copy2(f, dest)

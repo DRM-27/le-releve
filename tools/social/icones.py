@@ -11,7 +11,7 @@ import urllib.request
 from pathlib import Path
 
 API = "https://thumbnails.roblox.com/v1/games/icons?universeIds={ids}&returnPolicy=PlaceHolder&size=512x512&format=Png&isCircular=false"
-UA = "PlayLedger/1.0 (+https://playledgers.com/)"
+UA = "PlayLedgers/1.0 (+https://playledgers.com/)"
 
 
 def get(url, binary=False, tries=5):

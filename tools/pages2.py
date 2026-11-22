@@ -335,8 +335,8 @@ def explorer_page(page, url, extra=()):
         cards = "".join(f'<li class="card"><a href="{url(p)}"><h3>{esc(t(x))}</h3><p>{esc(t(d))}</p></a></li>' for p, x, d in items)
         groups += (f'<section class="ex-group" aria-labelledby="ex-{gid}"><div class="ex-head"><h2 id="ex-{gid}">{esc(t(title))}</h2>'
                    f'<p>{esc(t(sub))}</p></div><ol class="cards grid-ex n{len(items)}">{cards}</ol></section>')
-    return page(t("Explorer les données de Roblox"), f'<div class="wide"><h1>{t("Explorer")}</h1><p class="lede">{t("Tous les outils de PlayLedger, calculés à partir de nos relevés horaires.")}</p>'
-                f'{groups}</div>', t("Tous les outils de PlayLedger pour explorer les données de Roblox."), "explorer/")
+    return page(t("Explorer les données de Roblox"), f'<div class="wide"><h1>{t("Explorer")}</h1><p class="lede">{t("Tous les outils de PlayLedgers, calculés à partir de nos relevés horaires.")}</p>'
+                f'{groups}</div>', t("Tous les outils de PlayLedgers pour explorer les données de Roblox."), "explorer/")
 
 
 # ------------------------------------------------------------------ monétisation (game passes)

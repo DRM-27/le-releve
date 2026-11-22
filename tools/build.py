@@ -589,7 +589,7 @@ def newsletter_box(variant="article"):
     fid = CONFIG.get("newsletter", {}).get("beehiivFormId")
     if not fid:
         return ""
-    title = {"article": t("Recevoir PlayLedger par e-mail"), "home": t("La newsletter"), "rapport": t("Recevoir le rapport")}[variant]
+    title = {"article": t("Recevoir PlayLedgers par e-mail"), "home": t("La newsletter"), "rapport": t("Recevoir le rapport")}[variant]
     text = {"article": t("Les chiffres clés de Roblox, une fois par semaine, et le rapport mensuel « État de Roblox » en PDF. Gratuit, désinscription en un clic."),
             "home": t("Les chiffres clés de la semaine et le rapport mensuel, dans votre boîte. Gratuit."),
             "rapport": t("Inscrivez-vous : vous recevrez chaque édition dès sa sortie, puis la newsletter hebdomadaire. Gratuit, désinscription en un clic.")}[variant]
@@ -899,7 +899,7 @@ def build(drafts=False):
                 figs = "".join(f'<figure class="carte"><a href="{url("cartes/" + f)}" download><img src="{url("cartes/" + f)}" alt="{esc(x)}" loading="lazy" width="1080" height="1350"></a>'
                                f'<figcaption>{esc(x)} · <a href="{url("cartes/" + f)}" download>Télécharger</a></figcaption></figure>' for f, x in made)
                 write("cartes/index.html", page("Cartes à partager", f'<div class="wide"><h1>Cartes à partager</h1><p class="lede">Les chiffres clés de Roblox en images (1080 × 1350), '
-                                                f'régénérées à chaque relevé horaire. Libres de reprise en citant PlayLedger.</p><div class="cartes">{figs}</div></div>',
+                                                f'régénérées à chaque relevé horaire. Libres de reprise en citant PlayLedgers.</p><div class="cartes">{figs}</div></div>',
                                                 "Les chiffres clés de Roblox en images à partager.", "cartes/", extra_head='<meta name="robots" content="noindex">', alts=["fr"]),
                       shared=True)
             except Exception as e:

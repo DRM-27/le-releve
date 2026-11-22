@@ -62,4 +62,4 @@ une vidéo figée plus d'1 s, hors de 19 à 25 s, ou dont la dernière image ne 
 
 Regarder ensuite quelques images (`ffmpeg -i $O/video.mp4 -vf "fps=1/4,scale=270:480,tile=6x1" /tmp/apercu.png`), puis écrire
 `$O/legende.md` : une phrase, la question de la vidéo, « Abonne-toi : le classement Roblox chaque jour, chiffres vérifiés. »,
-la source (« API publiques de Roblox, PlayLedger »), le lien du site et 3 à 5 mots-clés. Pousser `video.mp4` et `legende.md`.
+la source (« API publiques de Roblox, PlayLedgers »), le lien du site et 3 à 5 mots-clés. Pousser `video.mp4` et `legende.md`.

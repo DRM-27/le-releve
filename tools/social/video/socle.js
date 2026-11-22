@@ -1,4 +1,4 @@
-/* Socle des vidéos PlayLedger (voir README.md).
+/* Socle des vidéos PlayLedgers (voir README.md).
    Règles : la 1re image est la couverture (lisible, vrais chiffres) ; dès 0,25 s quelque chose bouge ; jamais plus d'1 s figé ;
    le titre reste épinglé pendant que le visuel raconte ; la question arrive pendant le moment fort (2 à 3 s) ;
    la dernière seconde ramène à la couverture pour que la vidéo boucle. Aucun chiffre intermédiaire inventé :
@@ -28,7 +28,7 @@ const dateCourte = iso => { const j = jourDe(iso); return `${j.d === 1 ? "1er" :
 const dateMoy = iso => { const j = jourDe(iso); return `${j.d === 1 ? "1er" : j.d} ${j.mois}`; };
 const Maj = s => s.replace(/^./, c => c.toUpperCase());
 const typo = s => String(s).replace(/ ([?!:;%»])/g, "\u00a0$1").replace(/« /g, "«\u00a0");   // espaces insécables du français
-const ICON = '<svg viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#1b2a41" stroke="#3a4f73" stroke-width="1"/><rect x="7" y="16" width="5" height="10" rx="1" fill="#86a9ff"/><rect x="13.5" y="6" width="5" height="20" rx="1" fill="#86a9ff"/><rect x="20" y="11" width="5" height="15" rx="1" fill="#86a9ff"/></svg>';
+const ICON = '<svg viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#1b2a41" stroke="#3a4f73" stroke-width="1"/><rect x="7" y="16" width="5" height="10" rx="1" fill="#3cc46e"/><rect x="13.5" y="6" width="5" height="20" rx="1" fill="#3cc46e"/><rect x="20" y="11" width="5" height="15" rx="1" fill="#3cc46e"/></svg>';
 const ico = (uid, size, extra = "") => `<img class="ico" src="icones/${uid}.png" style="width:${size}px;height:${size}px;${extra}" alt="">`;
 
 window.SFX = [];
@@ -44,7 +44,7 @@ function chrome(opt){
   <div class="band" id="band"><b>${opt.mot}</b><span>${opt.sous || ""}</span></div>
   <div id="title"></div>
   <div id="qc"><div class="qq" id="qq"></div><div class="qs">Réponds en commentaire 👇</div></div>
-  <div id="foot">${ICON}<span><b>PlayLedger</b> · ${opt.source}</span></div>
+  <div id="foot">${ICON}<span><b>PlayLedgers</b> · ${opt.source}</span></div>
   <div id="flash"></div>`);
   const ti = $("title"); ti.innerHTML = typo(opt.titre); ti.style.fontSize = (opt.taille || 76) + "px";
   if (opt.maxH) { let s = opt.taille || 76; while (ti.offsetHeight > opt.maxH && s > 44) { s -= 2; ti.style.fontSize = s + "px"; } }

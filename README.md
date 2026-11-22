@@ -1,4 +1,4 @@
-# PlayLedger
+# PlayLedgers
 
 Média de données indépendant sur Roblox, en français. Chaque chiffre publié est calculé par programme à partir de relevés publics et relié à sa source.
 
