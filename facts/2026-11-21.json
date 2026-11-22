@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-21",
- "genere": "2026-11-21T23:37:30Z",
+ "genere": "2026-11-22T00:32:58Z",
  "couverture": {
   "releves": 7,
   "attendus": 24
@@ -3699,105 +3699,105 @@
    "src": "data/jours/2026-11-21.csv#L27"
   },
   "g.6701277882.nom": {
-   "v": "[2 HRS] Fish It! 🐟",
-   "d": "[2 HRS] Fish It! 🐟",
-   "l": "[2 HRS] Fish It! 🐟 : nom",
+   "v": "[1 HOUR] Fish It! 🐟",
+   "d": "[1 HOUR] Fish It! 🐟",
+   "l": "[1 HOUR] Fish It! 🐟 : nom",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.rang": {
    "v": 27,
    "d": "27e",
-   "l": "[2 HRS] Fish It! 🐟 : rang au pic du jour",
+   "l": "[1 HOUR] Fish It! 🐟 : rang au pic du jour",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.pic": {
    "v": 68878,
    "d": "68 878",
-   "l": "[2 HRS] Fish It! 🐟 : pic de joueurs simultanés relevé",
+   "l": "[1 HOUR] Fish It! 🐟 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.heure_pic": {
    "v": "19:22",
    "d": "19 h 22",
-   "l": "[2 HRS] Fish It! 🐟 : heure (Paris) du pic relevé",
+   "l": "[1 HOUR] Fish It! 🐟 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.moy": {
    "v": 66792,
    "d": "66 792",
-   "l": "[2 HRS] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
+   "l": "[1 HOUR] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.createur": {
    "v": "Fish Atelier",
    "d": "Fish Atelier",
-   "l": "[2 HRS] Fish It! 🐟 : créateur",
+   "l": "[1 HOUR] Fish It! 🐟 : créateur",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[2 HRS] Fish It! 🐟 : genre",
+   "l": "[1 HOUR] Fish It! 🐟 : genre",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.var_veille": {
    "v": 0.0347,
    "d": "+3,5 %",
-   "l": "[2 HRS] Fish It! 🐟 : variation de la moyenne par rapport à la veille",
+   "l": "[1 HOUR] Fish It! 🐟 : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.moy_veille": {
    "v": 64554,
    "d": "64 554",
-   "l": "[2 HRS] Fish It! 🐟 : moyenne de la veille",
+   "l": "[1 HOUR] Fish It! 🐟 : moyenne de la veille",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.var_7j": {
    "v": 0.0266,
    "d": "+2,7 %",
-   "l": "[2 HRS] Fish It! 🐟 : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[1 HOUR] Fish It! 🐟 : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.moy_7j": {
    "v": 65061,
    "d": "65 061",
-   "l": "[2 HRS] Fish It! 🐟 : moyenne des 7 jours précédents",
+   "l": "[1 HOUR] Fish It! 🐟 : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.visites_total": {
    "v": 4834937194,
    "d": "4,83 milliards",
-   "l": "[2 HRS] Fish It! 🐟 : visites cumulées depuis la création",
+   "l": "[1 HOUR] Fish It! 🐟 : visites cumulées depuis la création",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.note": {
    "v": 0.8283,
    "d": "82,8 %",
-   "l": "[2 HRS] Fish It! 🐟 : part de votes positifs",
+   "l": "[1 HOUR] Fish It! 🐟 : part de votes positifs",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.rang_veille": {
    "v": 18,
    "d": "18e",
-   "l": "[2 HRS] Fish It! 🐟 : rang la veille",
+   "l": "[1 HOUR] Fish It! 🐟 : rang la veille",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.rang_moy": {
    "v": 18,
    "d": "18e",
-   "l": "[2 HRS] Fish It! 🐟 : rang à la moyenne du jour",
+   "l": "[1 HOUR] Fish It! 🐟 : rang à la moyenne du jour",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.releves": {
    "v": 7,
    "d": "7",
-   "l": "[2 HRS] Fish It! 🐟 : relevés où le jeu a été mesuré",
+   "l": "[1 HOUR] Fish It! 🐟 : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[2 HRS] Fish It! 🐟 : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[1 HOUR] Fish It! 🐟 : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6331902150.nom": {

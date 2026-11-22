@@ -25,7 +25,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 24,10775182046,Throw a Seed,Fish Time Studios,Simulation,77990,13:50,36549,7,19897,0.837,14563,1.5098,,10737844,0.9482,72,1,0,43
 25,7529591378,[THANKSGIVING] Practical Basketball,Practical's Games,Sports & Racing,75619,00:12,55294,7,22014,1.5118,33900,0.6311,,153951517,0.927,32,1,0,24
 26,3240075297,Berry Avenue 🏠 RP,Amberry Games,Roleplay & Avatar Sim,69410,21:10,47356,7,25756,0.8387,35845,0.3212,,9005286988,0.8604,34,1,0,29
-27,6701277882,[2 HRS] Fish It! 🐟,Fish Atelier,Simulation,68878,19:22,66792,7,64554,0.0347,65061,0.0266,,4834937194,0.8283,18,1,0,18
+27,6701277882,[1 HOUR] Fish It! 🐟,Fish Atelier,Simulation,68878,19:22,66792,7,64554,0.0347,65061,0.0266,,4834937194,0.8283,18,1,0,18
 28,6331902150,Forsaken,Forsaken Dev Team,Survival,66530,19:22,61868,7,47847,0.293,56381,0.0973,,5973018203,0.8439,23,1,0,20
 29,6325068386,[OG BLR] Blue Lock: Rivals,Blue Lock Rivals Unofficial Fans,Sports & Racing,66213,19:22,22917,7,12140,0.8878,13130,0.7454,,5050530548,0.9663,127,1,1,74
 30,10766620257,Bike For Egg!,Huron Games,Simulation,66180,13:50,18187,7,8899,1.0437,11322,0.6063,,78263803,0.9424,164,1,1,97
@@ -174,7 +174,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 173,10768284407,🦃 [UPD] Bike Universe,Bike Universe,Simulation,14280,19:22,11405,7,8750,0.3034,12084,-0.0562,,100981079,0.8816,177,1,0,161
 174,9837612476,[X2] Mini War,M&M Community,Simulation,14237,21:10,9067,7,6245,0.4518,6723,0.3488,,374827227,0.9643,273,1,0,197
 175,10772237634,Symphony Orchestra Simulator,merpug01,Action,14177,21:10,8987,7,4846,0.8545,,,,4204974,0.9555,256,1,0,198
-176,10768383600,[PHYSICS] Ragdoll Playground,Speedwagon Gaming Foundation,Simulation,14079,19:22,11671,7,8913,0.3095,11299,0.0329,,36157225,0.9437,169,1,0,159
+176,10768383600,Ragdoll Playground,Speedwagon Gaming Foundation,Simulation,14079,19:22,11671,7,8913,0.3095,11299,0.0329,,36157225,0.9437,169,1,0,159
 177,10771586944,+1 Boxing Battle Evolution,BOX FOR CCU,Simulation,14012,13:50,10912,7,10092,0.0813,,,,19026737,0.894,148,1,0,169
 178,10771290199,[2x WEEKEND] Farm Evolution,Just for Fun Experiences,Simulation,14004,13:50,10773,7,10988,-0.0196,,,,24557506,0.9378,137,1,0,170
 179,10770932189,[UPD 2] Barber Simulator,67 Studio Games,Simulation,13962,19:22,10712,7,7157,0.4966,,,,11402746,0.8914,175,1,0,171
@@ -322,7 +322,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 321,10770104321,[UPD] Draw a Flag!,Meow Forge,Party & Casual,6731,19:22,4749,7,3743,0.2687,4517,0.0514,,13354961,0.5966,307,1,0,341
 322,10775270346,[UPD] JAWS BELOW,Jadova Studio,Obby & Platformer,6661,21:10,5156,7,2133,1.417,,,,3724474,0.3699,404,1,0,325
 323,10771362432,Build and Sell Houses! 🏠,Zingo Labs,Simulation,6653,19:22,4642,7,2456,0.8898,,,,3154639,0.7886,395,1,0,351
-324,9491545867,[🍂SOON] Break a Brainrot Egg!,Brainrot Game by BadPirate,Simulation,6629,13:50,5433,7,4902,0.1082,5068,0.0719,,166976928,0.8191,296,1,0,312
+324,9491545867,[🍂NOW] Break a Brainrot Egg!,Brainrot Game by BadPirate,Simulation,6629,13:50,5433,7,4902,0.1082,5068,0.0719,,166976928,0.8191,296,1,0,312
 325,7729422550,obby but you get smaller every stage,Ewwer Inc.,Obby & Platformer,6598,12:50,5580,7,3300,0.6906,5720,-0.0245,,27205566,0.3398,352,1,0,303
 326,5841858050, [UPD] Strideway,Strideway,Roleplay & Avatar Sim,6597,19:22,3964,7,2293,0.7289,1532,1.5867,,43076657,0.8705,299,1,0,373
 327,10775160561,My Little Pony Card Opening,Pony Card Club,Simulation,6562,19:22,5567,7,3590,0.5504,,,,1305086,0.989,365,1,0,304
@@ -338,7 +338,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 337,10769787444,ABOVE [🐴],Above Game,Simulation,6248,19:22,5106,7,4107,0.2432,4592,0.1118,,3098266,0.852,370,1,0,329
 338,9747855189,[UPD] Highway Racing 🚗,Highway Racers,Simulation,6231,19:22,5228,7,4395,0.1895,,,,2955981,0.9078,311,1,0,319
 339,10772200970,+1 Glow Up Evolution,Made by Toon,Simulation,6229,00:12,5207,7,3831,0.3593,,,,5962869,0.742,313,1,0,323
-340,10768628464,[UPD2!] Anime Brawlers Simulator,Some Random Games Studio,Simulation,6204,21:10,5536,7,4402,0.2577,,,,1008200,0.9553,332,1,0,307
+340,10768628464,[UPD3!] Anime Brawlers Simulator,Some Random Games Studio,Simulation,6204,21:10,5536,7,4402,0.2577,,,,1008200,0.9553,332,1,0,307
 341,10768661782,🍗[TURKEY] Newton's Sandbox,Creative Conceptualists,Simulation,6143,19:22,4788,7,3657,0.3094,,,,3080715,0.7602,359,1,0,338
 342,6097519616,[3+ CHARACTER] Jujutsu Beatdown,Accel Grounds,Action,6132,19:22,5317,7,,,,,,130964831,0.9101,,1,0,316
 343,6749060816,[UPD] Asylum Life 🔊,Asylum Life Community,Roleplay & Avatar Sim,6122,19:22,5745,7,3863,0.4872,4458,0.2887,,313878791,0.8322,327,1,0,298
@@ -382,7 +382,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 381,10770915307,[🧠] Ball Knowledge,Gray Games Official,Party & Casual,5052,21:10,3959,7,2462,0.6081,,,,4646545,0.7089,373,1,0,374
 382,10771508240,[UPD🏁] Simple Drift,Drift and Have Fun!,Sports & Racing,5050,13:50,3939,7,3250,0.2118,,,,5121188,0.8518,358,1,0,375
 383,10769043472,Superstellar: Next Generation,Stellar Secrets,Roleplay & Avatar Sim,5048,19:22,3717,7,2442,0.5221,2635,0.4103,,9844705,0.9498,393,1,0,386
-384,10770933473,[⚔️PVP] +1 Anime Eyes,Bando Interactive,Simulation,5038,13:50,4623,7,4122,0.1215,,,,25305833,0.9558,326,1,0,352
+384,10770933473,[🌎W13] +1 Anime Eyes,Bando Interactive,Simulation,5038,13:50,4623,7,4122,0.1215,,,,25305833,0.9558,326,1,0,352
 385,10765938934,[🦃] Roll A Stickman!,Ultrain Studios,Simulation,5014,21:10,4283,7,4030,0.0628,4743,-0.0969,,16864463,0.9588,385,1,0,360
 386,6324644175,Death Order: Simon Says,Voxq Enterprises,Survival,4997,19:22,4246,7,3573,0.1882,3619,0.1732,,85900478,0.8698,374,1,0,361
 387,10773200083,[NOW] Anime Ragdoll🩸,Think HUGE,Simulation,4991,13:50,3871,7,2841,0.3629,,,,3385807,0.8867,394,1,0,378
@@ -653,7 +653,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 652,10772041805,[UPD] Ragdoll MMA🥊,MattValidd,Action,614,19:22,504,7,356,0.4139,,,,22733935,0.5448,647,1,0,650
 653,98839997,[🐓Fearsome Fowl!] Dinosaur Simulator,ChickenEngineer,Roleplay & Avatar Sim,610,00:12,544,7,224,1.429,270,1.0137,,337776585,0.8053,662,1,0,646
 654,16876831,[Italy] Blood and Iron,CoderQwerty,Shooter,608,13:50,436,7,285,0.5319,344,0.2705,,122583700,0.8609,665,1,0,660
-655,10529769390,[🦃THANKSGIVING🦃] Slop Tower Defense! 💔,Sloppy Studios!!,Strategy,593,13:50,504,7,551,-0.0853,634,-0.2055,,34447200,0.7532,648,1,0,651
+655,10529769390,[🦃THANKSGIVING - PT 2🎉] Slop Tower Defense! 💔,Sloppy Studios!!,Strategy,593,13:50,504,7,551,-0.0853,634,-0.2055,,34447200,0.7532,648,1,0,651
 656,10772027067,[UPD] Ragdoll Robot Boxing,Ragdoll Physics Experiences,Action,586,13:50,501,7,400,0.2525,,,,4224181,0.8381,642,1,0,652
 657,2408700413,[NEW MAP] Kaiju Paradise,LAMINAX CO.,Survival,585,21:10,432,7,308,0.4047,324,0.3343,,308076561,0.7666,677,1,0,661
 658,10769735087,[UPD] Ship The Cargo 🚢,Big Boat Small Boat,Simulation,575,13:50,426,7,352,0.2127,760,-0.4388,,3157836,0.958,661,1,0,663
