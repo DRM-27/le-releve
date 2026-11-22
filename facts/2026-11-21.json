@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-21",
- "genere": "2026-11-22T14:04:18Z",
+ "genere": "2026-11-22T15:04:39Z",
  "couverture": {
   "releves": 7,
   "attendus": 24
@@ -4209,105 +4209,105 @@
    "src": "data/jours/2026-11-21.csv#L32"
   },
   "g.7660436108.nom": {
-   "v": "[8 HOURS] Anime Crusaders X",
-   "d": "[8 HOURS] Anime Crusaders X",
-   "l": "[8 HOURS] Anime Crusaders X : nom",
+   "v": "[5 HOURS] Anime Crusaders X",
+   "d": "[5 HOURS] Anime Crusaders X",
+   "l": "[5 HOURS] Anime Crusaders X : nom",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.rang": {
    "v": 32,
    "d": "32e",
-   "l": "[8 HOURS] Anime Crusaders X : rang au pic du jour",
+   "l": "[5 HOURS] Anime Crusaders X : rang au pic du jour",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.pic": {
    "v": 65136,
    "d": "65 136",
-   "l": "[8 HOURS] Anime Crusaders X : pic de joueurs simultanés relevé",
+   "l": "[5 HOURS] Anime Crusaders X : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.heure_pic": {
    "v": "13:50",
    "d": "13 h 50",
-   "l": "[8 HOURS] Anime Crusaders X : heure (Paris) du pic relevé",
+   "l": "[5 HOURS] Anime Crusaders X : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.moy": {
    "v": 61110,
    "d": "61 110",
-   "l": "[8 HOURS] Anime Crusaders X : moyenne des joueurs simultanés sur la journée",
+   "l": "[5 HOURS] Anime Crusaders X : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.createur": {
    "v": "32x",
    "d": "32x",
-   "l": "[8 HOURS] Anime Crusaders X : créateur",
+   "l": "[5 HOURS] Anime Crusaders X : créateur",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.genre": {
    "v": "Strategy",
    "d": "Stratégie",
-   "l": "[8 HOURS] Anime Crusaders X : genre",
+   "l": "[5 HOURS] Anime Crusaders X : genre",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.var_veille": {
    "v": 0.2587,
    "d": "+25,9 %",
-   "l": "[8 HOURS] Anime Crusaders X : variation de la moyenne par rapport à la veille",
+   "l": "[5 HOURS] Anime Crusaders X : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.moy_veille": {
    "v": 48551,
    "d": "48 551",
-   "l": "[8 HOURS] Anime Crusaders X : moyenne de la veille",
+   "l": "[5 HOURS] Anime Crusaders X : moyenne de la veille",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.var_7j": {
    "v": 0.5611,
    "d": "+56,1 %",
-   "l": "[8 HOURS] Anime Crusaders X : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[5 HOURS] Anime Crusaders X : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.moy_7j": {
    "v": 39146,
    "d": "39 146",
-   "l": "[8 HOURS] Anime Crusaders X : moyenne des 7 jours précédents",
+   "l": "[5 HOURS] Anime Crusaders X : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.visites_total": {
    "v": 128417267,
    "d": "128,42 millions",
-   "l": "[8 HOURS] Anime Crusaders X : visites cumulées depuis la création",
+   "l": "[5 HOURS] Anime Crusaders X : visites cumulées depuis la création",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.note": {
    "v": 0.9808,
    "d": "98,1 %",
-   "l": "[8 HOURS] Anime Crusaders X : part de votes positifs",
+   "l": "[5 HOURS] Anime Crusaders X : part de votes positifs",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.rang_veille": {
    "v": 26,
    "d": "26e",
-   "l": "[8 HOURS] Anime Crusaders X : rang la veille",
+   "l": "[5 HOURS] Anime Crusaders X : rang la veille",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.rang_moy": {
    "v": 21,
    "d": "21e",
-   "l": "[8 HOURS] Anime Crusaders X : rang à la moyenne du jour",
+   "l": "[5 HOURS] Anime Crusaders X : rang à la moyenne du jour",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.releves": {
    "v": 7,
    "d": "7",
-   "l": "[8 HOURS] Anime Crusaders X : relevés où le jeu a été mesuré",
+   "l": "[5 HOURS] Anime Crusaders X : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7660436108.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[8 HOURS] Anime Crusaders X : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[5 HOURS] Anime Crusaders X : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-21.csv#L33"
   },
   "g.7219654364.nom": {
@@ -5319,105 +5319,105 @@
    "src": "data/jours/2026-11-21.csv#L43"
   },
   "g.10762636904.nom": {
-   "v": "[Medal+X2💰] Cameraman Tower Defense",
-   "d": "[Medal+X2💰] Cameraman Tower Defense",
-   "l": "[Medal+X2💰] Cameraman Tower Defense : nom",
+   "v": "[👀2 HR] Cameraman Tower Defense",
+   "d": "[👀2 HR] Cameraman Tower Defense",
+   "l": "[👀2 HR] Cameraman Tower Defense : nom",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.rang": {
    "v": 43,
    "d": "43e",
-   "l": "[Medal+X2💰] Cameraman Tower Defense : rang au pic du jour",
+   "l": "[👀2 HR] Cameraman Tower Defense : rang au pic du jour",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.pic": {
    "v": 47852,
    "d": "47 852",
-   "l": "[Medal+X2💰] Cameraman Tower Defense : pic de joueurs simultanés relevé",
+   "l": "[👀2 HR] Cameraman Tower Defense : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.heure_pic": {
    "v": "13:50",
    "d": "13 h 50",
-   "l": "[Medal+X2💰] Cameraman Tower Defense : heure (Paris) du pic relevé",
+   "l": "[👀2 HR] Cameraman Tower Defense : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.moy": {
    "v": 28858,
    "d": "28 858",
-   "l": "[Medal+X2💰] Cameraman Tower Defense : moyenne des joueurs simultanés sur la journée",
+   "l": "[👀2 HR] Cameraman Tower Defense : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.createur": {
    "v": "Aligators Games",
    "d": "Aligators Games",
-   "l": "[Medal+X2💰] Cameraman Tower Defense : créateur",
+   "l": "[👀2 HR] Cameraman Tower Defense : créateur",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.genre": {
    "v": "Strategy",
    "d": "Stratégie",
-   "l": "[Medal+X2💰] Cameraman Tower Defense : genre",
+   "l": "[👀2 HR] Cameraman Tower Defense : genre",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.var_veille": {
    "v": 0.2903,
    "d": "+29,0 %",
-   "l": "[Medal+X2💰] Cameraman Tower Defense : variation de la moyenne par rapport à la veille",
+   "l": "[👀2 HR] Cameraman Tower Defense : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.moy_veille": {
    "v": 22365,
    "d": "22 365",
-   "l": "[Medal+X2💰] Cameraman Tower Defense : moyenne de la veille",
+   "l": "[👀2 HR] Cameraman Tower Defense : moyenne de la veille",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.var_7j": {
    "v": -0.1181,
    "d": "−11,8 %",
-   "l": "[Medal+X2💰] Cameraman Tower Defense : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[👀2 HR] Cameraman Tower Defense : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.moy_7j": {
    "v": 32724,
    "d": "32 724",
-   "l": "[Medal+X2💰] Cameraman Tower Defense : moyenne des 7 jours précédents",
+   "l": "[👀2 HR] Cameraman Tower Defense : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.visites_total": {
    "v": 154785005,
    "d": "154,79 millions",
-   "l": "[Medal+X2💰] Cameraman Tower Defense : visites cumulées depuis la création",
+   "l": "[👀2 HR] Cameraman Tower Defense : visites cumulées depuis la création",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.note": {
    "v": 0.9796,
    "d": "98,0 %",
-   "l": "[Medal+X2💰] Cameraman Tower Defense : part de votes positifs",
+   "l": "[👀2 HR] Cameraman Tower Defense : part de votes positifs",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.rang_veille": {
    "v": 53,
    "d": "53e",
-   "l": "[Medal+X2💰] Cameraman Tower Defense : rang la veille",
+   "l": "[👀2 HR] Cameraman Tower Defense : rang la veille",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.rang_moy": {
    "v": 53,
    "d": "53e",
-   "l": "[Medal+X2💰] Cameraman Tower Defense : rang à la moyenne du jour",
+   "l": "[👀2 HR] Cameraman Tower Defense : rang à la moyenne du jour",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.releves": {
    "v": 7,
    "d": "7",
-   "l": "[Medal+X2💰] Cameraman Tower Defense : relevés où le jeu a été mesuré",
+   "l": "[👀2 HR] Cameraman Tower Defense : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[Medal+X2💰] Cameraman Tower Defense : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[👀2 HR] Cameraman Tower Defense : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.601130232.nom": {
@@ -10473,105 +10473,105 @@
    "src": "data/jours/2026-11-21.csv#L95"
   },
   "g.10769464063.nom": {
-   "v": "+1 Venom Evolution",
-   "d": "+1 Venom Evolution",
-   "l": "+1 Venom Evolution : nom",
+   "v": "[UPD🧬] +1 Venom Evolution",
+   "d": "[UPD🧬] +1 Venom Evolution",
+   "l": "[UPD🧬] +1 Venom Evolution : nom",
    "src": "data/jours/2026-11-21.csv#L96"
   },
   "g.10769464063.rang": {
    "v": 95,
    "d": "95e",
-   "l": "+1 Venom Evolution : rang au pic du jour",
+   "l": "[UPD🧬] +1 Venom Evolution : rang au pic du jour",
    "src": "data/jours/2026-11-21.csv#L96"
   },
   "g.10769464063.pic": {
    "v": 24579,
    "d": "24 579",
-   "l": "+1 Venom Evolution : pic de joueurs simultanés relevé",
+   "l": "[UPD🧬] +1 Venom Evolution : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-21.csv#L96"
   },
   "g.10769464063.heure_pic": {
    "v": "13:50",
    "d": "13 h 50",
-   "l": "+1 Venom Evolution : heure (Paris) du pic relevé",
+   "l": "[UPD🧬] +1 Venom Evolution : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-21.csv#L96"
   },
   "g.10769464063.moy": {
    "v": 19834,
    "d": "19 834",
-   "l": "+1 Venom Evolution : moyenne des joueurs simultanés sur la journée",
+   "l": "[UPD🧬] +1 Venom Evolution : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-21.csv#L96"
   },
   "g.10769464063.createur": {
    "v": "Bottled Potential",
    "d": "Bottled Potential",
-   "l": "+1 Venom Evolution : créateur",
+   "l": "[UPD🧬] +1 Venom Evolution : créateur",
    "src": "data/jours/2026-11-21.csv#L96"
   },
   "g.10769464063.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "+1 Venom Evolution : genre",
+   "l": "[UPD🧬] +1 Venom Evolution : genre",
    "src": "data/jours/2026-11-21.csv#L96"
   },
   "g.10769464063.var_veille": {
    "v": 0.3869,
    "d": "+38,7 %",
-   "l": "+1 Venom Evolution : variation de la moyenne par rapport à la veille",
+   "l": "[UPD🧬] +1 Venom Evolution : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-21.csv#L96"
   },
   "g.10769464063.moy_veille": {
    "v": 14301,
    "d": "14 301",
-   "l": "+1 Venom Evolution : moyenne de la veille",
+   "l": "[UPD🧬] +1 Venom Evolution : moyenne de la veille",
    "src": "data/jours/2026-11-21.csv#L96"
   },
   "g.10769464063.var_7j": {
    "v": 0.0538,
    "d": "+5,4 %",
-   "l": "+1 Venom Evolution : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[UPD🧬] +1 Venom Evolution : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-21.csv#L96"
   },
   "g.10769464063.moy_7j": {
    "v": 18821,
    "d": "18 821",
-   "l": "+1 Venom Evolution : moyenne des 7 jours précédents",
+   "l": "[UPD🧬] +1 Venom Evolution : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-21.csv#L96"
   },
   "g.10769464063.visites_total": {
    "v": 75611875,
    "d": "75,61 millions",
-   "l": "+1 Venom Evolution : visites cumulées depuis la création",
+   "l": "[UPD🧬] +1 Venom Evolution : visites cumulées depuis la création",
    "src": "data/jours/2026-11-21.csv#L96"
   },
   "g.10769464063.note": {
    "v": 0.9669,
    "d": "96,7 %",
-   "l": "+1 Venom Evolution : part de votes positifs",
+   "l": "[UPD🧬] +1 Venom Evolution : part de votes positifs",
    "src": "data/jours/2026-11-21.csv#L96"
   },
   "g.10769464063.rang_veille": {
    "v": 98,
    "d": "98e",
-   "l": "+1 Venom Evolution : rang la veille",
+   "l": "[UPD🧬] +1 Venom Evolution : rang la veille",
    "src": "data/jours/2026-11-21.csv#L96"
   },
   "g.10769464063.rang_moy": {
    "v": 89,
    "d": "89e",
-   "l": "+1 Venom Evolution : rang à la moyenne du jour",
+   "l": "[UPD🧬] +1 Venom Evolution : rang à la moyenne du jour",
    "src": "data/jours/2026-11-21.csv#L96"
   },
   "g.10769464063.releves": {
    "v": 7,
    "d": "7",
-   "l": "+1 Venom Evolution : relevés où le jeu a été mesuré",
+   "l": "[UPD🧬] +1 Venom Evolution : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-21.csv#L96"
   },
   "g.10769464063.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "+1 Venom Evolution : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[UPD🧬] +1 Venom Evolution : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-21.csv#L96"
   },
   "g.10148749921.nom": {

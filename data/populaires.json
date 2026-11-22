@@ -1,10 +1,10 @@
 {
- "genere": "2026-11-22T14:04:15Z",
+ "genere": "2026-11-22T15:04:36Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/",
-   "vues": 73
+   "vues": 75
   },
   {
    "path": "/le-releve/",
@@ -75,11 +75,11 @@
    "vues": 1
   },
   {
-   "path": "/explorer/",
+   "path": "/le-releve/articles/2026-11-19-jailbreak-quotidien/",
    "vues": 1
   },
   {
-   "path": "/le-releve/articles/2026-11-19-jailbreak-quotidien/",
+   "path": "/explorer/",
    "vues": 1
   }
  ]
