@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-21",
- "genere": "2026-11-22T01:04:49Z",
+ "genere": "2026-11-22T02:23:01Z",
  "couverture": {
   "releves": 7,
   "attendus": 24
@@ -2115,105 +2115,105 @@
    "src": "data/jours/2026-11-21.csv#L11"
   },
   "g.9584852943.nom": {
-   "v": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate",
-   "d": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : nom",
+   "v": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "d": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : nom",
    "src": "data/jours/2026-11-21.csv#L12"
   },
   "g.9584852943.rang": {
    "v": 11,
    "d": "11e",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
    "src": "data/jours/2026-11-21.csv#L12"
   },
   "g.9584852943.pic": {
    "v": 188850,
    "d": "188 850",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-21.csv#L12"
   },
   "g.9584852943.heure_pic": {
    "v": "21:10",
    "d": "21 h 10",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-21.csv#L12"
   },
   "g.9584852943.moy": {
    "v": 68175,
    "d": "68 175",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-21.csv#L12"
   },
   "g.9584852943.createur": {
    "v": "SecretVerse Studio",
    "d": "SecretVerse Studio",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : créateur",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : créateur",
    "src": "data/jours/2026-11-21.csv#L12"
   },
   "g.9584852943.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : genre",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : genre",
    "src": "data/jours/2026-11-21.csv#L12"
   },
   "g.9584852943.var_veille": {
    "v": 2.441,
    "d": "+244,1 %",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport à la veille",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-21.csv#L12"
   },
   "g.9584852943.moy_veille": {
    "v": 19813,
    "d": "19 813",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne de la veille",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne de la veille",
    "src": "data/jours/2026-11-21.csv#L12"
   },
   "g.9584852943.var_7j": {
    "v": 1.7016,
    "d": "+170,2 %",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-21.csv#L12"
   },
   "g.9584852943.moy_7j": {
    "v": 25235,
    "d": "25 235",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des 7 jours précédents",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-21.csv#L12"
   },
   "g.9584852943.visites_total": {
    "v": 6725948458,
    "d": "6,73 milliards",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
    "src": "data/jours/2026-11-21.csv#L12"
   },
   "g.9584852943.note": {
    "v": 0.9667,
    "d": "96,7 %",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
    "src": "data/jours/2026-11-21.csv#L12"
   },
   "g.9584852943.rang_veille": {
    "v": 54,
    "d": "54e",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : rang la veille",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : rang la veille",
    "src": "data/jours/2026-11-21.csv#L12"
   },
   "g.9584852943.rang_moy": {
    "v": 17,
    "d": "17e",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : rang à la moyenne du jour",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : rang à la moyenne du jour",
    "src": "data/jours/2026-11-21.csv#L12"
   },
   "g.9584852943.releves": {
    "v": 7,
    "d": "7",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : relevés où le jeu a été mesuré",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-21.csv#L12"
   },
   "g.9584852943.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-21.csv#L12"
   },
   "g.10773618503.nom": {
@@ -3699,105 +3699,105 @@
    "src": "data/jours/2026-11-21.csv#L27"
   },
   "g.6701277882.nom": {
-   "v": "[1 HOUR] Fish It! 🐟",
-   "d": "[1 HOUR] Fish It! 🐟",
-   "l": "[1 HOUR] Fish It! 🐟 : nom",
+   "v": "[NOW] Fish It! 🐟",
+   "d": "[NOW] Fish It! 🐟",
+   "l": "[NOW] Fish It! 🐟 : nom",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.rang": {
    "v": 27,
    "d": "27e",
-   "l": "[1 HOUR] Fish It! 🐟 : rang au pic du jour",
+   "l": "[NOW] Fish It! 🐟 : rang au pic du jour",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.pic": {
    "v": 68878,
    "d": "68 878",
-   "l": "[1 HOUR] Fish It! 🐟 : pic de joueurs simultanés relevé",
+   "l": "[NOW] Fish It! 🐟 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.heure_pic": {
    "v": "19:22",
    "d": "19 h 22",
-   "l": "[1 HOUR] Fish It! 🐟 : heure (Paris) du pic relevé",
+   "l": "[NOW] Fish It! 🐟 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.moy": {
    "v": 66792,
    "d": "66 792",
-   "l": "[1 HOUR] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
+   "l": "[NOW] Fish It! 🐟 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.createur": {
    "v": "Fish Atelier",
    "d": "Fish Atelier",
-   "l": "[1 HOUR] Fish It! 🐟 : créateur",
+   "l": "[NOW] Fish It! 🐟 : créateur",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[1 HOUR] Fish It! 🐟 : genre",
+   "l": "[NOW] Fish It! 🐟 : genre",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.var_veille": {
    "v": 0.0347,
    "d": "+3,5 %",
-   "l": "[1 HOUR] Fish It! 🐟 : variation de la moyenne par rapport à la veille",
+   "l": "[NOW] Fish It! 🐟 : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.moy_veille": {
    "v": 64554,
    "d": "64 554",
-   "l": "[1 HOUR] Fish It! 🐟 : moyenne de la veille",
+   "l": "[NOW] Fish It! 🐟 : moyenne de la veille",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.var_7j": {
    "v": 0.0266,
    "d": "+2,7 %",
-   "l": "[1 HOUR] Fish It! 🐟 : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[NOW] Fish It! 🐟 : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.moy_7j": {
    "v": 65061,
    "d": "65 061",
-   "l": "[1 HOUR] Fish It! 🐟 : moyenne des 7 jours précédents",
+   "l": "[NOW] Fish It! 🐟 : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.visites_total": {
    "v": 4834937194,
    "d": "4,83 milliards",
-   "l": "[1 HOUR] Fish It! 🐟 : visites cumulées depuis la création",
+   "l": "[NOW] Fish It! 🐟 : visites cumulées depuis la création",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.note": {
    "v": 0.8283,
    "d": "82,8 %",
-   "l": "[1 HOUR] Fish It! 🐟 : part de votes positifs",
+   "l": "[NOW] Fish It! 🐟 : part de votes positifs",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.rang_veille": {
    "v": 18,
    "d": "18e",
-   "l": "[1 HOUR] Fish It! 🐟 : rang la veille",
+   "l": "[NOW] Fish It! 🐟 : rang la veille",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.rang_moy": {
    "v": 18,
    "d": "18e",
-   "l": "[1 HOUR] Fish It! 🐟 : rang à la moyenne du jour",
+   "l": "[NOW] Fish It! 🐟 : rang à la moyenne du jour",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.releves": {
    "v": 7,
    "d": "7",
-   "l": "[1 HOUR] Fish It! 🐟 : relevés où le jeu a été mesuré",
+   "l": "[NOW] Fish It! 🐟 : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6701277882.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[1 HOUR] Fish It! 🐟 : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[NOW] Fish It! 🐟 : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-21.csv#L28"
   },
   "g.6331902150.nom": {
@@ -6501,105 +6501,105 @@
    "src": "data/jours/2026-11-21.csv#L55"
   },
   "g.10629695169.nom": {
-   "v": "[UPD] Tap Simulator REBORN",
-   "d": "[UPD] Tap Simulator REBORN",
-   "l": "[UPD] Tap Simulator REBORN : nom",
+   "v": "[WILD WEST] Tap Simulator REBORN",
+   "d": "[WILD WEST] Tap Simulator REBORN",
+   "l": "[WILD WEST] Tap Simulator REBORN : nom",
    "src": "data/jours/2026-11-21.csv#L56"
   },
   "g.10629695169.rang": {
    "v": 55,
    "d": "55e",
-   "l": "[UPD] Tap Simulator REBORN : rang au pic du jour",
+   "l": "[WILD WEST] Tap Simulator REBORN : rang au pic du jour",
    "src": "data/jours/2026-11-21.csv#L56"
   },
   "g.10629695169.pic": {
    "v": 40265,
    "d": "40 265",
-   "l": "[UPD] Tap Simulator REBORN : pic de joueurs simultanés relevé",
+   "l": "[WILD WEST] Tap Simulator REBORN : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-21.csv#L56"
   },
   "g.10629695169.heure_pic": {
    "v": "19:22",
    "d": "19 h 22",
-   "l": "[UPD] Tap Simulator REBORN : heure (Paris) du pic relevé",
+   "l": "[WILD WEST] Tap Simulator REBORN : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-21.csv#L56"
   },
   "g.10629695169.moy": {
    "v": 38331,
    "d": "38 331",
-   "l": "[UPD] Tap Simulator REBORN : moyenne des joueurs simultanés sur la journée",
+   "l": "[WILD WEST] Tap Simulator REBORN : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-21.csv#L56"
   },
   "g.10629695169.createur": {
    "v": "Cursor Makers",
    "d": "Cursor Makers",
-   "l": "[UPD] Tap Simulator REBORN : créateur",
+   "l": "[WILD WEST] Tap Simulator REBORN : créateur",
    "src": "data/jours/2026-11-21.csv#L56"
   },
   "g.10629695169.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[UPD] Tap Simulator REBORN : genre",
+   "l": "[WILD WEST] Tap Simulator REBORN : genre",
    "src": "data/jours/2026-11-21.csv#L56"
   },
   "g.10629695169.var_veille": {
    "v": -0.0068,
    "d": "−0,7 %",
-   "l": "[UPD] Tap Simulator REBORN : variation de la moyenne par rapport à la veille",
+   "l": "[WILD WEST] Tap Simulator REBORN : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-21.csv#L56"
   },
   "g.10629695169.moy_veille": {
    "v": 38595,
    "d": "38 595",
-   "l": "[UPD] Tap Simulator REBORN : moyenne de la veille",
+   "l": "[WILD WEST] Tap Simulator REBORN : moyenne de la veille",
    "src": "data/jours/2026-11-21.csv#L56"
   },
   "g.10629695169.var_7j": {
    "v": -0.0312,
    "d": "−3,1 %",
-   "l": "[UPD] Tap Simulator REBORN : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[WILD WEST] Tap Simulator REBORN : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-21.csv#L56"
   },
   "g.10629695169.moy_7j": {
    "v": 39566,
    "d": "39 566",
-   "l": "[UPD] Tap Simulator REBORN : moyenne des 7 jours précédents",
+   "l": "[WILD WEST] Tap Simulator REBORN : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-21.csv#L56"
   },
   "g.10629695169.visites_total": {
    "v": 64771784,
    "d": "64,77 millions",
-   "l": "[UPD] Tap Simulator REBORN : visites cumulées depuis la création",
+   "l": "[WILD WEST] Tap Simulator REBORN : visites cumulées depuis la création",
    "src": "data/jours/2026-11-21.csv#L56"
   },
   "g.10629695169.note": {
    "v": 0.9355,
    "d": "93,5 %",
-   "l": "[UPD] Tap Simulator REBORN : part de votes positifs",
+   "l": "[WILD WEST] Tap Simulator REBORN : part de votes positifs",
    "src": "data/jours/2026-11-21.csv#L56"
   },
   "g.10629695169.rang_veille": {
    "v": 39,
    "d": "39e",
-   "l": "[UPD] Tap Simulator REBORN : rang la veille",
+   "l": "[WILD WEST] Tap Simulator REBORN : rang la veille",
    "src": "data/jours/2026-11-21.csv#L56"
   },
   "g.10629695169.rang_moy": {
    "v": 38,
    "d": "38e",
-   "l": "[UPD] Tap Simulator REBORN : rang à la moyenne du jour",
+   "l": "[WILD WEST] Tap Simulator REBORN : rang à la moyenne du jour",
    "src": "data/jours/2026-11-21.csv#L56"
   },
   "g.10629695169.releves": {
    "v": 7,
    "d": "7",
-   "l": "[UPD] Tap Simulator REBORN : relevés où le jeu a été mesuré",
+   "l": "[WILD WEST] Tap Simulator REBORN : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-21.csv#L56"
   },
   "g.10629695169.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[UPD] Tap Simulator REBORN : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[WILD WEST] Tap Simulator REBORN : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-21.csv#L56"
   },
   "g.10774204862.nom": {
@@ -11217,8 +11217,8 @@
    "src": "data/jours/2026-11-21.csv#L4"
   },
   "hausse.5.nom": {
-   "v": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate",
-   "d": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "v": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "d": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate",
    "l": "Hausse n° 5 : nom",
    "src": "data/jours/2026-11-21.csv#L12"
   },
@@ -11433,8 +11433,8 @@
    "src": "data/jours/2026-11-21.csv"
   },
   "entree.1.nom": {
-   "v": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate",
-   "d": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "v": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate",
+   "d": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate",
    "l": "Entrée n° 1 : nom",
    "src": "data/jours/2026-11-21.csv#L12"
   },
@@ -11965,7 +11965,7 @@
      "valeur": 2.1631
     },
     {
-     "nom": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate",
+     "nom": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate",
      "valeur": 1.7016
     },
     {
