@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-21",
- "genere": "2026-11-22T19:04:48Z",
+ "genere": "2026-11-22T20:00:46Z",
  "couverture": {
   "releves": 7,
   "attendus": 24
@@ -5817,105 +5817,105 @@
    "src": "data/jours/2026-11-21.csv#L48"
   },
   "g.8172250815.nom": {
-   "v": "STAND OUT",
-   "d": "STAND OUT",
-   "l": "STAND OUT : nom",
+   "v": "[UPD 1] STAND OUT",
+   "d": "[UPD 1] STAND OUT",
+   "l": "[UPD 1] STAND OUT : nom",
    "src": "data/jours/2026-11-21.csv#L49"
   },
   "g.8172250815.rang": {
    "v": 48,
    "d": "48e",
-   "l": "STAND OUT : rang au pic du jour",
+   "l": "[UPD 1] STAND OUT : rang au pic du jour",
    "src": "data/jours/2026-11-21.csv#L49"
   },
   "g.8172250815.pic": {
    "v": 44515,
    "d": "44 515",
-   "l": "STAND OUT : pic de joueurs simultanés relevé",
+   "l": "[UPD 1] STAND OUT : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-21.csv#L49"
   },
   "g.8172250815.heure_pic": {
    "v": "19:22",
    "d": "19 h 22",
-   "l": "STAND OUT : heure (Paris) du pic relevé",
+   "l": "[UPD 1] STAND OUT : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-21.csv#L49"
   },
   "g.8172250815.moy": {
    "v": 35620,
    "d": "35 620",
-   "l": "STAND OUT : moyenne des joueurs simultanés sur la journée",
+   "l": "[UPD 1] STAND OUT : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-21.csv#L49"
   },
   "g.8172250815.createur": {
    "v": "Studio Umbra: Europa",
    "d": "Studio Umbra: Europa",
-   "l": "STAND OUT : créateur",
+   "l": "[UPD 1] STAND OUT : créateur",
    "src": "data/jours/2026-11-21.csv#L49"
   },
   "g.8172250815.genre": {
    "v": "RPG",
    "d": "RPG",
-   "l": "STAND OUT : genre",
+   "l": "[UPD 1] STAND OUT : genre",
    "src": "data/jours/2026-11-21.csv#L49"
   },
   "g.8172250815.var_veille": {
    "v": 0.3539,
    "d": "+35,4 %",
-   "l": "STAND OUT : variation de la moyenne par rapport à la veille",
+   "l": "[UPD 1] STAND OUT : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-21.csv#L49"
   },
   "g.8172250815.moy_veille": {
    "v": 26309,
    "d": "26 309",
-   "l": "STAND OUT : moyenne de la veille",
+   "l": "[UPD 1] STAND OUT : moyenne de la veille",
    "src": "data/jours/2026-11-21.csv#L49"
   },
   "g.8172250815.var_7j": {
    "v": 0.0392,
    "d": "+3,9 %",
-   "l": "STAND OUT : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[UPD 1] STAND OUT : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-21.csv#L49"
   },
   "g.8172250815.moy_7j": {
    "v": 34276,
    "d": "34 276",
-   "l": "STAND OUT : moyenne des 7 jours précédents",
+   "l": "[UPD 1] STAND OUT : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-21.csv#L49"
   },
   "g.8172250815.visites_total": {
    "v": 20722573,
    "d": "20,72 millions",
-   "l": "STAND OUT : visites cumulées depuis la création",
+   "l": "[UPD 1] STAND OUT : visites cumulées depuis la création",
    "src": "data/jours/2026-11-21.csv#L49"
   },
   "g.8172250815.note": {
    "v": 0.9685,
    "d": "96,9 %",
-   "l": "STAND OUT : part de votes positifs",
+   "l": "[UPD 1] STAND OUT : part de votes positifs",
    "src": "data/jours/2026-11-21.csv#L49"
   },
   "g.8172250815.rang_veille": {
    "v": 43,
    "d": "43e",
-   "l": "STAND OUT : rang la veille",
+   "l": "[UPD 1] STAND OUT : rang la veille",
    "src": "data/jours/2026-11-21.csv#L49"
   },
   "g.8172250815.rang_moy": {
    "v": 45,
    "d": "45e",
-   "l": "STAND OUT : rang à la moyenne du jour",
+   "l": "[UPD 1] STAND OUT : rang à la moyenne du jour",
    "src": "data/jours/2026-11-21.csv#L49"
   },
   "g.8172250815.releves": {
    "v": 7,
    "d": "7",
-   "l": "STAND OUT : relevés où le jeu a été mesuré",
+   "l": "[UPD 1] STAND OUT : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-21.csv#L49"
   },
   "g.8172250815.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "STAND OUT : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[UPD 1] STAND OUT : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-21.csv#L49"
   },
   "g.10004244222.nom": {
