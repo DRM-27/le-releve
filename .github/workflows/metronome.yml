@@ -1,0 +1,51 @@
+name: Métronome du relevé (une collecte par heure, garantie)
+
+# Pourquoi : GitHub saute beaucoup d'exécutions planifiées (le 21/11, 7 relevés sur 24, donc pas de quotidien).
+# Ce travail reste allumé près de 6 heures et vérifie toutes les 10 minutes que l'heure en cours a son relevé
+# (data/snapshots/AAAA/MM/JJ/HH.csv, heure UTC). S'il manque et qu'aucun relevé ne tourne, il lance releve.yml.
+# Il suffit qu'une seule de ses exécutions planifiées parte toutes les 6 heures pour couvrir toute la journée :
+# les suivantes attendent leur tour (concurrence) et prennent le relais dès que la précédente s'arrête.
+# Dépôt public : les minutes GitHub Actions sont gratuites.
+
+on:
+  schedule:
+    - cron: "11 */2 * * *"
+    - cron: "41 */3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/metronome.yml"]
+
+permissions:
+  actions: write
+  contents: read
+
+concurrency:
+  group: metronome
+  cancel-in-progress: false
+
+jobs:
+  metronome:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - name: Veiller sur le relevé horaire pendant près de 6 heures
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          FIN=$(( $(date +%s) + 345 * 60 ))
+          while [ "$(date +%s)" -lt "$FIN" ]; do
+            H=$(date -u +%Y/%m/%d/%H)
+            MIN=$(date -u +%M)
+            if [ "$MIN" -ge 3 ] && ! gh api "repos/$REPO/contents/data/snapshots/$H.csv?ref=main" >/dev/null 2>&1; then
+              EN_COURS=$(gh run list -R "$REPO" -w releve.yml --limit 10 --json status --jq '[.[] | select(.status != "completed")] | length' 2>/dev/null || echo 1)
+              if [ "$EN_COURS" = "0" ]; then
+                echo "$(date -u +%H:%M) : relevé de $H absent, lancement de releve.yml"
+                gh workflow run releve.yml -R "$REPO" --ref main || echo "lancement refusé, nouvel essai dans 10 min"
+              else
+                echo "$(date -u +%H:%M) : relevé de $H absent, un relevé est déjà en cours"
+              fi
+            fi
+            sleep 600
+          done
