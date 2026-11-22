@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-21",
- "genere": "2026-11-22T08:16:13Z",
+ "genere": "2026-11-22T12:03:11Z",
  "couverture": {
   "releves": 7,
   "attendus": 24
@@ -6021,93 +6021,93 @@
    "src": "data/jours/2026-11-21.csv#L50"
   },
   "g.10772066587.nom": {
-   "v": " MALAM SAMA OPAH ",
-   "d": " MALAM SAMA OPAH ",
-   "l": " MALAM SAMA OPAH  : nom",
+   "v": "NIGHT WITH OPAH",
+   "d": "NIGHT WITH OPAH",
+   "l": "NIGHT WITH OPAH : nom",
    "src": "data/jours/2026-11-21.csv#L51"
   },
   "g.10772066587.rang": {
    "v": 50,
    "d": "50e",
-   "l": " MALAM SAMA OPAH  : rang au pic du jour",
+   "l": "NIGHT WITH OPAH : rang au pic du jour",
    "src": "data/jours/2026-11-21.csv#L51"
   },
   "g.10772066587.pic": {
    "v": 43891,
    "d": "43 891",
-   "l": " MALAM SAMA OPAH  : pic de joueurs simultanés relevé",
+   "l": "NIGHT WITH OPAH : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-21.csv#L51"
   },
   "g.10772066587.heure_pic": {
    "v": "05:04",
    "d": "5 h 04",
-   "l": " MALAM SAMA OPAH  : heure (Paris) du pic relevé",
+   "l": "NIGHT WITH OPAH : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-21.csv#L51"
   },
   "g.10772066587.moy": {
    "v": 23664,
    "d": "23 664",
-   "l": " MALAM SAMA OPAH  : moyenne des joueurs simultanés sur la journée",
+   "l": "NIGHT WITH OPAH : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-21.csv#L51"
   },
   "g.10772066587.createur": {
    "v": "Sabun Studios",
    "d": "Sabun Studios",
-   "l": " MALAM SAMA OPAH  : créateur",
+   "l": "NIGHT WITH OPAH : créateur",
    "src": "data/jours/2026-11-21.csv#L51"
   },
   "g.10772066587.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": " MALAM SAMA OPAH  : genre",
+   "l": "NIGHT WITH OPAH : genre",
    "src": "data/jours/2026-11-21.csv#L51"
   },
   "g.10772066587.var_veille": {
    "v": 0.0964,
    "d": "+9,6 %",
-   "l": " MALAM SAMA OPAH  : variation de la moyenne par rapport à la veille",
+   "l": "NIGHT WITH OPAH : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-21.csv#L51"
   },
   "g.10772066587.moy_veille": {
    "v": 21584,
    "d": "21 584",
-   "l": " MALAM SAMA OPAH  : moyenne de la veille",
+   "l": "NIGHT WITH OPAH : moyenne de la veille",
    "src": "data/jours/2026-11-21.csv#L51"
   },
   "g.10772066587.visites_total": {
    "v": 83513152,
    "d": "83,51 millions",
-   "l": " MALAM SAMA OPAH  : visites cumulées depuis la création",
+   "l": "NIGHT WITH OPAH : visites cumulées depuis la création",
    "src": "data/jours/2026-11-21.csv#L51"
   },
   "g.10772066587.note": {
    "v": 0.8453,
    "d": "84,5 %",
-   "l": " MALAM SAMA OPAH  : part de votes positifs",
+   "l": "NIGHT WITH OPAH : part de votes positifs",
    "src": "data/jours/2026-11-21.csv#L51"
   },
   "g.10772066587.rang_veille": {
    "v": 41,
    "d": "41e",
-   "l": " MALAM SAMA OPAH  : rang la veille",
+   "l": "NIGHT WITH OPAH : rang la veille",
    "src": "data/jours/2026-11-21.csv#L51"
   },
   "g.10772066587.rang_moy": {
    "v": 73,
    "d": "73e",
-   "l": " MALAM SAMA OPAH  : rang à la moyenne du jour",
+   "l": "NIGHT WITH OPAH : rang à la moyenne du jour",
    "src": "data/jours/2026-11-21.csv#L51"
   },
   "g.10772066587.releves": {
    "v": 7,
    "d": "7",
-   "l": " MALAM SAMA OPAH  : relevés où le jeu a été mesuré",
+   "l": "NIGHT WITH OPAH : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-21.csv#L51"
   },
   "g.10772066587.pic_isole": {
    "v": false,
    "d": "non",
-   "l": " MALAM SAMA OPAH  : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "NIGHT WITH OPAH : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-21.csv#L51"
   },
   "g.10770463307.nom": {

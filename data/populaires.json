@@ -1,10 +1,10 @@
 {
- "genere": "2026-11-22T08:16:11Z",
+ "genere": "2026-11-22T12:03:08Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/",
-   "vues": 64
+   "vues": 68
   },
   {
    "path": "/le-releve/",
@@ -19,12 +19,12 @@
    "vues": 3
   },
   {
-   "path": "/articles/2026-11-19-jailbreak-quotidien/",
+   "path": "/en/jeux/uts-3-0-toilet-tower-defense-4778845442/",
    "vues": 3
   },
   {
-   "path": "/le-releve/alertes/",
-   "vues": 2
+   "path": "/articles/2026-11-19-jailbreak-quotidien/",
+   "vues": 3
   },
   {
    "path": "/le-releve/articles/2026-11-17-volley-bomb-quotidien/",
@@ -39,39 +39,23 @@
    "vues": 2
   },
   {
-   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
-   "vues": 2
-  },
-  {
    "path": "/articles/2026-11-18-hyper-realistic-ragdoll-quotidien/",
    "vues": 2
   },
   {
-   "path": "/en/jeux/upd-11-part-1-king-legacy-1451439645/",
+   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/alertes/",
+   "vues": 2
+  },
+  {
+   "path": "/en/jeux/he-ate-them-horror-6635513269/",
    "vues": 1
   },
   {
-   "path": "/le-releve/partenaires/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/rapport/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/jeux/s8-1-speed-keyboard-escape-candy-chocolate-9584852943/",
-   "vues": 1
-  },
-  {
-   "path": "/en/jeux/uts-3-0-toilet-tower-defense-4778845442/",
-   "vues": 1
-  },
-  {
-   "path": "/explorer/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/donnees/",
+   "path": "/en/studios/emo-playworks/",
    "vues": 1
   },
   {
@@ -79,7 +63,23 @@
    "vues": 1
   },
   {
-   "path": "/le-releve/confidentialite/",
+   "path": "/en/jeux/upd-11-part-1-king-legacy-1451439645/",
+   "vues": 1
+  },
+  {
+   "path": "/explorer/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/articles/2026-11-19-jailbreak-quotidien/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/donnees/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/partenaires/",
    "vues": 1
   }
  ]
