@@ -30,7 +30,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 29,6325068386,[OG BLR] Blue Lock: Rivals,Blue Lock Rivals Unofficial Fans,Sports & Racing,66213,19:22,22917,7,12140,0.8878,13130,0.7454,,5050530548,0.9663,127,1,1,74
 30,10766620257,Bike For Egg!,Huron Games,Simulation,66180,13:50,18187,7,8899,1.0437,11322,0.6063,,78263803,0.9424,164,1,1,97
 31,6739698191,[WEEK 4 🎃 x BUTCHER] Violence District,VIOLENCE DISTRICT,Survival,65762,13:50,49758,7,43497,0.1439,44028,0.1301,,1746964495,0.929,20,1,0,28
-32,7660436108,[1 HOUR] Anime Crusaders X,32x,Strategy,65136,13:50,61110,7,48551,0.2587,39146,0.5611,,128417267,0.9808,26,1,0,21
+32,7660436108,[NOW] Anime Crusaders X,32x,Strategy,65136,13:50,61110,7,48551,0.2587,39146,0.5611,,128417267,0.9808,26,1,0,21
 33,7219654364,[💀DUELS] Murderers VS Sheriffs,MVS Duels Community,Action,64185,21:10,45829,7,29084,0.5758,37037,0.2374,,2118535262,0.8646,21,1,0,31
 34,10769671316,[🦧 BOSS] Survive Your Ideas,Survive Your Ideas,Survival,63142,19:22,51091,7,43207,0.1825,51064,0.0005,,152797195,0.8904,24,1,0,27
 35,1451439645,[🐉UPD 11 PART 1🎃] King Legacy,Sea King Games,RPG,59658,13:50,45827,7,38978,0.1757,39295,0.1662,,4110343485,0.9154,25,1,0,32
@@ -242,7 +242,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 241,10769969117,Low Range: Offroad 4x4 [EARLY ACCESS],MTBAce Studios,Simulation,9693,13:50,7116,7,7125,-0.0013,10697,-0.3348,,16870595,0.9245,184,1,0,248
 242,10775016983,Mechs vs Kaiju's Ragdoll | [DRILL UPDATE],Mechs vs Kaiju Studios,Action,9690,04:38,7252,7,5050,0.4359,,,,5207285,0.9783,289,1,0,245
 243,10774141738,[😈TROLL] Drive a Bed Downhill!,Bedrotting Drivers,Obby & Platformer,9681,13:50,7858,7,7232,0.0865,,,,4934273,0.774,190,1,0,227
-244,10774066980,[Lots of Fixes] Cambria - Creature Survival,Cambria Official,Survival,9679,19:22,7721,7,5116,0.5092,,,,1779701,0.8181,285,1,0,232
+244,10774066980,[OCEAN] Cambria - Creature Survival,Cambria Official,Survival,9679,19:22,7721,7,5116,0.5092,,,,1779701,0.8181,285,1,0,232
 245,1235188606,[GUILD WARS] Dragon Adventures 🐉,Sonar Studios,RPG,9656,04:38,8894,7,6176,0.44,7514,0.1836,,1757050054,0.934,216,1,0,201
 246,10773502711,[NEW NPC] BoneBox Engine 🩸,SW33R Game Studio,Simulation,9626,19:22,7642,7,7007,0.0906,7511,0.0175,,7599396,0.8388,202,1,0,235
 247,1278035280,Warrior Cats: Ultimate Edition,WarriorCatsRP,Roleplay & Avatar Sim,9602,21:10,6600,7,3849,0.7147,5262,0.2544,,801338154,0.9311,300,1,0,265
@@ -293,7 +293,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 292,10768409236,World of Nukes💥,Build. Defend. Nuke.,Simulation,7713,19:22,5210,7,4034,0.2915,4622,0.1273,,11412092,0.9314,330,1,0,322
 293,6069634717,Sorcerer Tower Defense [2nd Anniversary],Peanut Butter Entertainment,Strategy,7646,05:04,6749,7,4941,0.3657,5405,0.2485,,206815694,0.9721,270,1,0,258
 294,10765841403,👁️Steal Or Die [BIG UPDATE🔥!],Vantage Gameworks,Survival,7570,19:22,6256,7,4476,0.3976,5966,0.0486,,21113843,0.9173,292,1,0,277
-295,10770036109,God Simulator 🌋 [LIFE UPDATE],God Simulator Official,Simulation,7558,19:22,6186,7,3993,0.5493,5019,0.2325,,4946879,0.8602,322,1,0,282
+295,10770036109,God Simulator 🌋 ,God Simulator Official,Simulation,7558,19:22,6186,7,3993,0.5493,5019,0.2325,,4946879,0.8602,322,1,0,282
 296,10526853622,[UPD] Deep Fishing🎣,LazyGames.,Simulation,7554,19:22,6931,7,5331,0.3,5678,0.2207,,30940874,0.9704,302,1,0,257
 297,10774452423,Ragdoll Frenzy,JustEvolve,Simulation,7552,19:22,6984,7,5639,0.2383,5139,0.359,,14781548,0.8315,286,1,0,255
 298,1946714362,[🎃] Bloodlines,-Bloodlines-,RPG,7533,21:10,5721,7,3970,0.4411,4922,0.1622,,75063903,0.8214,287,1,0,299
@@ -303,7 +303,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 302,10774639404,Pixel Z [UPDATE],That One Fighting Game,Action,7452,00:12,6281,7,5063,0.2405,5132,0.2239,,4348743,0.9179,267,1,0,275
 303,10770628276,Sell a Million Sushi,Popular Marketplace,Simulation,7389,13:50,6042,7,5058,0.1947,,,,16823464,0.99,293,1,0,286
 304,10775483673,[🦃] Defeat Ragdolls for Powers!,Yukky Toast,Simulation,7351,19:22,5946,4,,,,,,801150,0.8792,,0,0,289
-305,9910794201,Chaos Battlegrounds,Neumatic Arts,Action,7339,19:22,6194,7,4628,0.3384,5972,0.0372,,10869116,0.8522,303,1,0,280
+305,9910794201,[UPD 1] Chaos Battlegrounds,Neumatic Arts,Action,7339,19:22,6194,7,4628,0.3384,5972,0.0372,,10869116,0.8522,303,1,0,280
 306,10771997908,+1 Spider Arm🕷️,This Time For Sure,Simulation,7314,13:50,5894,7,4617,0.2766,,,,59429167,0.9757,298,1,0,292
 307,10771328092,Walls 🏹 [new!],Hook Inc,Survival,7239,13:50,5436,7,4380,0.2411,,,,2604304,0.748,294,1,0,311
 308,10770198813,[🤪] Wacky Games,Tyhjan_Toimittaja,Party & Casual,7219,19:22,5757,7,4061,0.4175,4879,0.1798,,12186022,0.7616,318,1,0,296
