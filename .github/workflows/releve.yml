@@ -154,7 +154,8 @@ jobs:
         run: |
           printf '/le-releve/* /:splat 301\n' > _site/_redirects
           npx --yes wrangler@4 pages project create playledgers --production-branch=main 2>/dev/null || true
-          npx --yes wrangler@4 pages deploy _site --project-name=playledgers --branch=main --commit-dirty=true
+          # Cloudflare renvoie parfois une erreur passagère (code 8000000) : 3 essais
+          for i in 1 2 3; do npx --yes wrangler@4 pages deploy _site --project-name=playledgers --branch=main --commit-dirty=true && break; [ $i = 3 ] && exit 1; sleep 30; done
           # Domaine et DNS : idempotent, les erreurs « existe déjà » sont ignorées
           API=https://api.cloudflare.com/client/v4; H="Authorization: Bearer $CLOUDFLARE_API_TOKEN"
           for d in playledgers.com www.playledgers.com; do

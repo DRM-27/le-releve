@@ -55,9 +55,13 @@ def base():
     for y in range(0, H, 40):
         d.line([(0, y), (W, y)], fill="#0f1520")
     # marque
-    for i, h in enumerate((14, 30, 22)):
-        d.rounded_rectangle((60 + i * 12, 70 - h, 69 + i * 12, 70), radius=2, fill=BLUE)
-    d.text((104, 40), "PlayLedgers", font=font(30, "ExtraBold"), fill=INK)
+    # logo : carré bleu nuit #1b2a41, trois barres vertes #3cc46e (comme assets/icon.svg)
+    x0, y0, s = 56, 34, 44
+    d.rounded_rectangle((x0, y0, x0 + s, y0 + s), radius=10, fill="#1b2a41")
+    k = s / 32
+    for bx, by, bh in ((7, 16, 10), (13.5, 6, 20), (20, 11, 15)):
+        d.rounded_rectangle((x0 + bx * k, y0 + by * k, x0 + (bx + 5) * k, y0 + (by + bh) * k), radius=2, fill="#3cc46e")
+    d.text((112, 40), "PlayLedgers", font=font(30, "ExtraBold"), fill=INK)
     d.text((W - 60, 46), "Chiffres vérifiables", font=font(22, "Medium"), fill=MUTED, anchor="ra")
     return im, d
 

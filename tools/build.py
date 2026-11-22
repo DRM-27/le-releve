@@ -90,7 +90,7 @@ def reseaux_html():
 
 
 def org():
-    return {"@type": "NewsMediaOrganization", "name": NAME, "url": abs_url(""), "logo": abs_url("assets/icon.svg"),
+    return {"@type": "NewsMediaOrganization", "name": NAME, "url": abs_url(""), "logo": {"@type": "ImageObject", "url": abs_url("assets/icon-512.png"), "width": 512, "height": 512},
             "sameAs": [u for _, u in reseaux_liens()],
             "description": description(), "publishingPrinciples": abs_url("methode/"), "correctionsPolicy": abs_url("corrections/")}
 
@@ -161,6 +161,10 @@ def page(title, body, desc="", path="", extra_head="", og_type="website", ld=Non
 <link rel="preload" href="{url('assets/fonts/schibsted-grotesk-latin-wght-normal.woff2')}" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{url('assets/style.css')}">
 <link rel="icon" href="{url('assets/icon.svg')}" type="image/svg+xml">
+<link rel="icon" href="{url('favicon.ico')}" sizes="48x48">
+<link rel="apple-touch-icon" href="{url('assets/apple-touch-icon.png')}">
+<link rel="manifest" href="{url('assets/site.webmanifest')}">
+<meta name="theme-color" content="#1b2a41">
 {extra_head}
 </head>
 <body>
@@ -740,6 +744,7 @@ def build(drafts=False):
         shutil.rmtree(OUT)
     (OUT / "assets").mkdir(parents=True)
     shutil.copytree(ROOT / "assets", OUT / "assets", dirs_exist_ok=True)
+    shutil.copy2(ROOT / "assets" / "favicon.ico", OUT / "favicon.ico")
     live = live_data()
     status = json.loads((DATA / "status.json").read_text()) if (DATA / "status.json").exists() else {}
     ICONS_BY_SLUG.update({explore.game_slug(u, g.get("name", u)): g.get("icon", "") for u, g in load_games().items()})
