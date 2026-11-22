@@ -1362,3 +1362,4 @@ ts_utc,type,universe_id,nom,avant,maintenant,variation,rang,rang_avant,releve
 2026-11-22T01:03:56Z,forte_hausse,10685282333,Ball VS Ball [Fusion Mode],7388,11134,0.507,166,222,data/snapshots/2026/11/22/01.csv
 2026-11-22T02:22:02Z,forte_hausse,9141743926,[NOW] Catch a Monster,3811,6948,0.8231,246,378,data/snapshots/2026/11/22/02.csv
 2026-11-22T02:22:02Z,forte_hausse,8292068736,The Block,1875,3803,1.0283,382,509,data/snapshots/2026/11/22/02.csv
+2026-11-22T03:33:12Z,forte_hausse,10422038064,Launch a Lucky Block,1288,2356,0.8292,464,564,data/snapshots/2026/11/22/03.csv
