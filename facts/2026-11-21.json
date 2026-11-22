@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-21",
- "genere": "2026-11-22T16:29:15Z",
+ "genere": "2026-11-22T17:04:29Z",
  "couverture": {
   "releves": 7,
   "attendus": 24
@@ -5919,105 +5919,105 @@
    "src": "data/jours/2026-11-21.csv#L49"
   },
   "g.10004244222.nom": {
-   "v": "[X8🦃] Kick a Lucky Block",
-   "d": "[X8🦃] Kick a Lucky Block",
-   "l": "[X8🦃] Kick a Lucky Block : nom",
+   "v": "[🦃] Kick a Lucky Block",
+   "d": "[🦃] Kick a Lucky Block",
+   "l": "[🦃] Kick a Lucky Block : nom",
    "src": "data/jours/2026-11-21.csv#L50"
   },
   "g.10004244222.rang": {
    "v": 49,
    "d": "49e",
-   "l": "[X8🦃] Kick a Lucky Block : rang au pic du jour",
+   "l": "[🦃] Kick a Lucky Block : rang au pic du jour",
    "src": "data/jours/2026-11-21.csv#L50"
   },
   "g.10004244222.pic": {
    "v": 44494,
    "d": "44 494",
-   "l": "[X8🦃] Kick a Lucky Block : pic de joueurs simultanés relevé",
+   "l": "[🦃] Kick a Lucky Block : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-21.csv#L50"
   },
   "g.10004244222.heure_pic": {
    "v": "13:50",
    "d": "13 h 50",
-   "l": "[X8🦃] Kick a Lucky Block : heure (Paris) du pic relevé",
+   "l": "[🦃] Kick a Lucky Block : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-21.csv#L50"
   },
   "g.10004244222.moy": {
    "v": 19354,
    "d": "19 354",
-   "l": "[X8🦃] Kick a Lucky Block : moyenne des joueurs simultanés sur la journée",
+   "l": "[🦃] Kick a Lucky Block : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-21.csv#L50"
   },
   "g.10004244222.createur": {
    "v": "No More Flops",
    "d": "No More Flops",
-   "l": "[X8🦃] Kick a Lucky Block : créateur",
+   "l": "[🦃] Kick a Lucky Block : créateur",
    "src": "data/jours/2026-11-21.csv#L50"
   },
   "g.10004244222.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[X8🦃] Kick a Lucky Block : genre",
+   "l": "[🦃] Kick a Lucky Block : genre",
    "src": "data/jours/2026-11-21.csv#L50"
   },
   "g.10004244222.var_veille": {
    "v": 0.661,
    "d": "+66,1 %",
-   "l": "[X8🦃] Kick a Lucky Block : variation de la moyenne par rapport à la veille",
+   "l": "[🦃] Kick a Lucky Block : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-21.csv#L50"
   },
   "g.10004244222.moy_veille": {
    "v": 11652,
    "d": "11 652",
-   "l": "[X8🦃] Kick a Lucky Block : moyenne de la veille",
+   "l": "[🦃] Kick a Lucky Block : moyenne de la veille",
    "src": "data/jours/2026-11-21.csv#L50"
   },
   "g.10004244222.var_7j": {
    "v": 0.7784,
    "d": "+77,8 %",
-   "l": "[X8🦃] Kick a Lucky Block : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🦃] Kick a Lucky Block : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-21.csv#L50"
   },
   "g.10004244222.moy_7j": {
    "v": 10883,
    "d": "10 883",
-   "l": "[X8🦃] Kick a Lucky Block : moyenne des 7 jours précédents",
+   "l": "[🦃] Kick a Lucky Block : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-21.csv#L50"
   },
   "g.10004244222.visites_total": {
    "v": 1974202444,
    "d": "1,97 milliard",
-   "l": "[X8🦃] Kick a Lucky Block : visites cumulées depuis la création",
+   "l": "[🦃] Kick a Lucky Block : visites cumulées depuis la création",
    "src": "data/jours/2026-11-21.csv#L50"
   },
   "g.10004244222.note": {
    "v": 0.9493,
    "d": "94,9 %",
-   "l": "[X8🦃] Kick a Lucky Block : part de votes positifs",
+   "l": "[🦃] Kick a Lucky Block : part de votes positifs",
    "src": "data/jours/2026-11-21.csv#L50"
   },
   "g.10004244222.rang_veille": {
    "v": 135,
    "d": "135e",
-   "l": "[X8🦃] Kick a Lucky Block : rang la veille",
+   "l": "[🦃] Kick a Lucky Block : rang la veille",
    "src": "data/jours/2026-11-21.csv#L50"
   },
   "g.10004244222.rang_moy": {
    "v": 93,
    "d": "93e",
-   "l": "[X8🦃] Kick a Lucky Block : rang à la moyenne du jour",
+   "l": "[🦃] Kick a Lucky Block : rang à la moyenne du jour",
    "src": "data/jours/2026-11-21.csv#L50"
   },
   "g.10004244222.releves": {
    "v": 7,
    "d": "7",
-   "l": "[X8🦃] Kick a Lucky Block : relevés où le jeu a été mesuré",
+   "l": "[🦃] Kick a Lucky Block : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-21.csv#L50"
   },
   "g.10004244222.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[X8🦃] Kick a Lucky Block : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[🦃] Kick a Lucky Block : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-21.csv#L50"
   },
   "g.10772066587.nom": {
