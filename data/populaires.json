@@ -1,14 +1,18 @@
 {
- "genere": "2026-11-22T00:32:56Z",
+ "genere": "2026-11-22T00:54:41Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/",
-   "vues": 60
+   "vues": 61
   },
   {
    "path": "/le-releve/",
    "vues": 13
+  },
+  {
+   "path": "/classement/",
+   "vues": 3
   },
   {
    "path": "/articles/2026-11-19-jailbreak-quotidien/",
@@ -17,10 +21,6 @@
   {
    "path": "/le-releve/explorer/",
    "vues": 3
-  },
-  {
-   "path": "/classement/",
-   "vues": 2
   },
   {
    "path": "/le-releve/articles/2026-11-17-volley-bomb-quotidien/",
@@ -35,6 +35,10 @@
    "vues": 2
   },
   {
+   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
+   "vues": 2
+  },
+  {
    "path": "/es/joueurs-roblox-en-ce-moment/",
    "vues": 2
   },
@@ -43,11 +47,11 @@
    "vues": 2
   },
   {
-   "path": "/en/jeux/upd-11-part-1-king-legacy-1451439645/",
+   "path": "/le-releve/articles/2026-11-19-jailbreak-quotidien/",
    "vues": 1
   },
   {
-   "path": "/le-releve/articles/2026-11-19-jailbreak-quotidien/",
+   "path": "/en/jeux/upd-11-part-1-king-legacy-1451439645/",
    "vues": 1
   },
   {
@@ -63,7 +67,11 @@
    "vues": 1
   },
   {
-   "path": "/le-releve/source/",
+   "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
+   "vues": 1
+  },
+  {
+   "path": "/le-releve/jeux/s8-1-speed-keyboard-escape-candy-chocolate-9584852943/",
    "vues": 1
   },
   {
@@ -72,14 +80,6 @@
   },
   {
    "path": "/le-releve/partenaires/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/jeux/s8-1-speed-keyboard-escape-candy-chocolate-9584852943/",
-   "vues": 1
-  },
-  {
-   "path": "/confidentialite/",
    "vues": 1
   }
  ]
