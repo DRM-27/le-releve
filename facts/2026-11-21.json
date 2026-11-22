@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-21",
- "genere": "2026-11-22T15:04:39Z",
+ "genere": "2026-11-22T16:04:34Z",
  "couverture": {
   "releves": 7,
   "attendus": 24
@@ -5319,105 +5319,105 @@
    "src": "data/jours/2026-11-21.csv#L43"
   },
   "g.10762636904.nom": {
-   "v": "[👀2 HR] Cameraman Tower Defense",
-   "d": "[👀2 HR] Cameraman Tower Defense",
-   "l": "[👀2 HR] Cameraman Tower Defense : nom",
+   "v": "[🦃UPD] Cameraman Tower Defense",
+   "d": "[🦃UPD] Cameraman Tower Defense",
+   "l": "[🦃UPD] Cameraman Tower Defense : nom",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.rang": {
    "v": 43,
    "d": "43e",
-   "l": "[👀2 HR] Cameraman Tower Defense : rang au pic du jour",
+   "l": "[🦃UPD] Cameraman Tower Defense : rang au pic du jour",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.pic": {
    "v": 47852,
    "d": "47 852",
-   "l": "[👀2 HR] Cameraman Tower Defense : pic de joueurs simultanés relevé",
+   "l": "[🦃UPD] Cameraman Tower Defense : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.heure_pic": {
    "v": "13:50",
    "d": "13 h 50",
-   "l": "[👀2 HR] Cameraman Tower Defense : heure (Paris) du pic relevé",
+   "l": "[🦃UPD] Cameraman Tower Defense : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.moy": {
    "v": 28858,
    "d": "28 858",
-   "l": "[👀2 HR] Cameraman Tower Defense : moyenne des joueurs simultanés sur la journée",
+   "l": "[🦃UPD] Cameraman Tower Defense : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.createur": {
    "v": "Aligators Games",
    "d": "Aligators Games",
-   "l": "[👀2 HR] Cameraman Tower Defense : créateur",
+   "l": "[🦃UPD] Cameraman Tower Defense : créateur",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.genre": {
    "v": "Strategy",
    "d": "Stratégie",
-   "l": "[👀2 HR] Cameraman Tower Defense : genre",
+   "l": "[🦃UPD] Cameraman Tower Defense : genre",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.var_veille": {
    "v": 0.2903,
    "d": "+29,0 %",
-   "l": "[👀2 HR] Cameraman Tower Defense : variation de la moyenne par rapport à la veille",
+   "l": "[🦃UPD] Cameraman Tower Defense : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.moy_veille": {
    "v": 22365,
    "d": "22 365",
-   "l": "[👀2 HR] Cameraman Tower Defense : moyenne de la veille",
+   "l": "[🦃UPD] Cameraman Tower Defense : moyenne de la veille",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.var_7j": {
    "v": -0.1181,
    "d": "−11,8 %",
-   "l": "[👀2 HR] Cameraman Tower Defense : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🦃UPD] Cameraman Tower Defense : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.moy_7j": {
    "v": 32724,
    "d": "32 724",
-   "l": "[👀2 HR] Cameraman Tower Defense : moyenne des 7 jours précédents",
+   "l": "[🦃UPD] Cameraman Tower Defense : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.visites_total": {
    "v": 154785005,
    "d": "154,79 millions",
-   "l": "[👀2 HR] Cameraman Tower Defense : visites cumulées depuis la création",
+   "l": "[🦃UPD] Cameraman Tower Defense : visites cumulées depuis la création",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.note": {
    "v": 0.9796,
    "d": "98,0 %",
-   "l": "[👀2 HR] Cameraman Tower Defense : part de votes positifs",
+   "l": "[🦃UPD] Cameraman Tower Defense : part de votes positifs",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.rang_veille": {
    "v": 53,
    "d": "53e",
-   "l": "[👀2 HR] Cameraman Tower Defense : rang la veille",
+   "l": "[🦃UPD] Cameraman Tower Defense : rang la veille",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.rang_moy": {
    "v": 53,
    "d": "53e",
-   "l": "[👀2 HR] Cameraman Tower Defense : rang à la moyenne du jour",
+   "l": "[🦃UPD] Cameraman Tower Defense : rang à la moyenne du jour",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.releves": {
    "v": 7,
    "d": "7",
-   "l": "[👀2 HR] Cameraman Tower Defense : relevés où le jeu a été mesuré",
+   "l": "[🦃UPD] Cameraman Tower Defense : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.10762636904.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[👀2 HR] Cameraman Tower Defense : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[🦃UPD] Cameraman Tower Defense : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-21.csv#L44"
   },
   "g.601130232.nom": {
@@ -10779,93 +10779,93 @@
    "src": "data/jours/2026-11-21.csv#L98"
   },
   "g.10772284025.nom": {
-   "v": "[🚗 UPD 3] Be The Biggest Streamer",
-   "d": "[🚗 UPD 3] Be The Biggest Streamer",
-   "l": "[🚗 UPD 3] Be The Biggest Streamer : nom",
+   "v": "[X2🍀] Be The Biggest Streamer",
+   "d": "[X2🍀] Be The Biggest Streamer",
+   "l": "[X2🍀] Be The Biggest Streamer : nom",
    "src": "data/jours/2026-11-21.csv#L99"
   },
   "g.10772284025.rang": {
    "v": 98,
    "d": "98e",
-   "l": "[🚗 UPD 3] Be The Biggest Streamer : rang au pic du jour",
+   "l": "[X2🍀] Be The Biggest Streamer : rang au pic du jour",
    "src": "data/jours/2026-11-21.csv#L99"
   },
   "g.10772284025.pic": {
    "v": 24433,
    "d": "24 433",
-   "l": "[🚗 UPD 3] Be The Biggest Streamer : pic de joueurs simultanés relevé",
+   "l": "[X2🍀] Be The Biggest Streamer : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-21.csv#L99"
   },
   "g.10772284025.heure_pic": {
    "v": "19:22",
    "d": "19 h 22",
-   "l": "[🚗 UPD 3] Be The Biggest Streamer : heure (Paris) du pic relevé",
+   "l": "[X2🍀] Be The Biggest Streamer : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-21.csv#L99"
   },
   "g.10772284025.moy": {
    "v": 17140,
    "d": "17 140",
-   "l": "[🚗 UPD 3] Be The Biggest Streamer : moyenne des joueurs simultanés sur la journée",
+   "l": "[X2🍀] Be The Biggest Streamer : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-21.csv#L99"
   },
   "g.10772284025.createur": {
    "v": "Cool Game Only",
    "d": "Cool Game Only",
-   "l": "[🚗 UPD 3] Be The Biggest Streamer : créateur",
+   "l": "[X2🍀] Be The Biggest Streamer : créateur",
    "src": "data/jours/2026-11-21.csv#L99"
   },
   "g.10772284025.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[🚗 UPD 3] Be The Biggest Streamer : genre",
+   "l": "[X2🍀] Be The Biggest Streamer : genre",
    "src": "data/jours/2026-11-21.csv#L99"
   },
   "g.10772284025.var_veille": {
    "v": 0.2911,
    "d": "+29,1 %",
-   "l": "[🚗 UPD 3] Be The Biggest Streamer : variation de la moyenne par rapport à la veille",
+   "l": "[X2🍀] Be The Biggest Streamer : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-21.csv#L99"
   },
   "g.10772284025.moy_veille": {
    "v": 13275,
    "d": "13 275",
-   "l": "[🚗 UPD 3] Be The Biggest Streamer : moyenne de la veille",
+   "l": "[X2🍀] Be The Biggest Streamer : moyenne de la veille",
    "src": "data/jours/2026-11-21.csv#L99"
   },
   "g.10772284025.visites_total": {
    "v": 6331377,
    "d": "6,33 millions",
-   "l": "[🚗 UPD 3] Be The Biggest Streamer : visites cumulées depuis la création",
+   "l": "[X2🍀] Be The Biggest Streamer : visites cumulées depuis la création",
    "src": "data/jours/2026-11-21.csv#L99"
   },
   "g.10772284025.note": {
    "v": 0.8017,
    "d": "80,2 %",
-   "l": "[🚗 UPD 3] Be The Biggest Streamer : part de votes positifs",
+   "l": "[X2🍀] Be The Biggest Streamer : part de votes positifs",
    "src": "data/jours/2026-11-21.csv#L99"
   },
   "g.10772284025.rang_veille": {
    "v": 91,
    "d": "91e",
-   "l": "[🚗 UPD 3] Be The Biggest Streamer : rang la veille",
+   "l": "[X2🍀] Be The Biggest Streamer : rang la veille",
    "src": "data/jours/2026-11-21.csv#L99"
   },
   "g.10772284025.rang_moy": {
    "v": 106,
    "d": "106e",
-   "l": "[🚗 UPD 3] Be The Biggest Streamer : rang à la moyenne du jour",
+   "l": "[X2🍀] Be The Biggest Streamer : rang à la moyenne du jour",
    "src": "data/jours/2026-11-21.csv#L99"
   },
   "g.10772284025.releves": {
    "v": 7,
    "d": "7",
-   "l": "[🚗 UPD 3] Be The Biggest Streamer : relevés où le jeu a été mesuré",
+   "l": "[X2🍀] Be The Biggest Streamer : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-21.csv#L99"
   },
   "g.10772284025.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[🚗 UPD 3] Be The Biggest Streamer : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[X2🍀] Be The Biggest Streamer : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-21.csv#L99"
   },
   "g.10774444233.nom": {
