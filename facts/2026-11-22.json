@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-22",
- "genere": "2026-11-23T08:13:06Z",
+ "genere": "2026-11-23T09:13:29Z",
  "couverture": {
   "releves": 17,
   "attendus": 24
@@ -7641,75 +7641,75 @@
    "src": "data/jours/2026-11-22.csv#L83"
   },
   "g.10772284025.nom": {
-   "v": "[X2🍀] Be The Biggest Streamer",
-   "d": "[X2🍀] Be The Biggest Streamer",
-   "l": "[X2🍀] Be The Biggest Streamer : nom",
+   "v": "[⚡️UPD 3] Be The Biggest Streamer",
+   "d": "[⚡️UPD 3] Be The Biggest Streamer",
+   "l": "[⚡️UPD 3] Be The Biggest Streamer : nom",
    "src": "data/jours/2026-11-22.csv#L84"
   },
   "g.10772284025.rang": {
    "v": 83,
    "d": "83e",
-   "l": "[X2🍀] Be The Biggest Streamer : rang au pic du jour",
+   "l": "[⚡️UPD 3] Be The Biggest Streamer : rang au pic du jour",
    "src": "data/jours/2026-11-22.csv#L84"
   },
   "g.10772284025.pic": {
    "v": 28641,
    "d": "28 641",
-   "l": "[X2🍀] Be The Biggest Streamer : pic de joueurs simultanés relevé",
+   "l": "[⚡️UPD 3] Be The Biggest Streamer : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-22.csv#L84"
   },
   "g.10772284025.heure_pic": {
    "v": "19:03",
    "d": "19 h 03",
-   "l": "[X2🍀] Be The Biggest Streamer : heure (Paris) du pic relevé",
+   "l": "[⚡️UPD 3] Be The Biggest Streamer : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-22.csv#L84"
   },
   "g.10772284025.moy": {
    "v": 21853,
    "d": "21 853",
-   "l": "[X2🍀] Be The Biggest Streamer : moyenne des joueurs simultanés sur la journée",
+   "l": "[⚡️UPD 3] Be The Biggest Streamer : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-22.csv#L84"
   },
   "g.10772284025.createur": {
    "v": "Cool Game Only",
    "d": "Cool Game Only",
-   "l": "[X2🍀] Be The Biggest Streamer : créateur",
+   "l": "[⚡️UPD 3] Be The Biggest Streamer : créateur",
    "src": "data/jours/2026-11-22.csv#L84"
   },
   "g.10772284025.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[X2🍀] Be The Biggest Streamer : genre",
+   "l": "[⚡️UPD 3] Be The Biggest Streamer : genre",
    "src": "data/jours/2026-11-22.csv#L84"
   },
   "g.10772284025.visites_total": {
    "v": 8371446,
    "d": "8,37 millions",
-   "l": "[X2🍀] Be The Biggest Streamer : visites cumulées depuis la création",
+   "l": "[⚡️UPD 3] Be The Biggest Streamer : visites cumulées depuis la création",
    "src": "data/jours/2026-11-22.csv#L84"
   },
   "g.10772284025.note": {
    "v": 0.8042,
    "d": "80,4 %",
-   "l": "[X2🍀] Be The Biggest Streamer : part de votes positifs",
+   "l": "[⚡️UPD 3] Be The Biggest Streamer : part de votes positifs",
    "src": "data/jours/2026-11-22.csv#L84"
   },
   "g.10772284025.rang_moy": {
    "v": 79,
    "d": "79e",
-   "l": "[X2🍀] Be The Biggest Streamer : rang à la moyenne du jour",
+   "l": "[⚡️UPD 3] Be The Biggest Streamer : rang à la moyenne du jour",
    "src": "data/jours/2026-11-22.csv#L84"
   },
   "g.10772284025.releves": {
    "v": 17,
    "d": "17",
-   "l": "[X2🍀] Be The Biggest Streamer : relevés où le jeu a été mesuré",
+   "l": "[⚡️UPD 3] Be The Biggest Streamer : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-22.csv#L84"
   },
   "g.10772284025.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[X2🍀] Be The Biggest Streamer : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[⚡️UPD 3] Be The Biggest Streamer : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-22.csv#L84"
   },
   "g.10774810800.nom": {
