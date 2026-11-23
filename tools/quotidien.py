@@ -239,6 +239,10 @@ def ecrire(lang, angle, i, F, jour, publie):
 def completer(texte, lang, F):
     """Ajoute les phrases que les chiffres rendent obligatoires : journée incomplète, pics ponctuels."""
     tete, corps = texte.split("\n---\n", 1)
+    # visites sur 24 h : absentes quand les relevés comparés ne sont pas à 23-25 h d'écart (heures sautées) ; on retire la phrase
+    for m in set(re.findall(r"\{\{([\w.]+\.visites_24h)\}\}", corps)):
+        if v(F, m) is None:
+            corps = re.sub(r" [^.{}\n]*\{\{" + re.escape(m) + r"\}\}[^.\n]*\.", "", corps)
     if (v(F, "releves.nb") or 0) < SEUIL_COMPLET:   # après le paragraphe des relevés
         corps = corps.replace("\n\n", f"\n\n{INCOMPLET[lang]}\n\n", 1)
     for pref in sorted({m.group(1) for m in re.finditer(r"\{\{((?:top|entree|retour|hausse)\.\d+)\.pic\}\}", corps)}):
