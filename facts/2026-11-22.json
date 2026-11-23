@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-22",
- "genere": "2026-11-23T03:12:54Z",
+ "genere": "2026-11-23T03:50:55Z",
  "couverture": {
   "releves": 17,
   "attendus": 24
@@ -7089,87 +7089,87 @@
    "src": "data/jours/2026-11-22.csv#L76"
   },
   "g.6774320049.nom": {
-   "v": "Dubai 🏡 RP [Pets! 🐶🐱]",
-   "d": "Dubai 🏡 RP [Pets! 🐶🐱]",
-   "l": "Dubai 🏡 RP [Pets! 🐶🐱] : nom",
+   "v": "Dubai 🏡 RP [Pets! 🐶]",
+   "d": "Dubai 🏡 RP [Pets! 🐶]",
+   "l": "Dubai 🏡 RP [Pets! 🐶] : nom",
    "src": "data/jours/2026-11-22.csv#L77"
   },
   "g.6774320049.rang": {
    "v": 76,
    "d": "76e",
-   "l": "Dubai 🏡 RP [Pets! 🐶🐱] : rang au pic du jour",
+   "l": "Dubai 🏡 RP [Pets! 🐶] : rang au pic du jour",
    "src": "data/jours/2026-11-22.csv#L77"
   },
   "g.6774320049.pic": {
    "v": 29852,
    "d": "29 852",
-   "l": "Dubai 🏡 RP [Pets! 🐶🐱] : pic de joueurs simultanés relevé",
+   "l": "Dubai 🏡 RP [Pets! 🐶] : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-22.csv#L77"
   },
   "g.6774320049.heure_pic": {
    "v": "17:28",
    "d": "17 h 28",
-   "l": "Dubai 🏡 RP [Pets! 🐶🐱] : heure (Paris) du pic relevé",
+   "l": "Dubai 🏡 RP [Pets! 🐶] : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-22.csv#L77"
   },
   "g.6774320049.moy": {
    "v": 22353,
    "d": "22 353",
-   "l": "Dubai 🏡 RP [Pets! 🐶🐱] : moyenne des joueurs simultanés sur la journée",
+   "l": "Dubai 🏡 RP [Pets! 🐶] : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-22.csv#L77"
   },
   "g.6774320049.createur": {
    "v": "GameOver Productions.",
    "d": "GameOver Productions.",
-   "l": "Dubai 🏡 RP [Pets! 🐶🐱] : créateur",
+   "l": "Dubai 🏡 RP [Pets! 🐶] : créateur",
    "src": "data/jours/2026-11-22.csv#L77"
   },
   "g.6774320049.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "Dubai 🏡 RP [Pets! 🐶🐱] : genre",
+   "l": "Dubai 🏡 RP [Pets! 🐶] : genre",
    "src": "data/jours/2026-11-22.csv#L77"
   },
   "g.6774320049.var_7j": {
    "v": 0.7781,
    "d": "+77,8 %",
-   "l": "Dubai 🏡 RP [Pets! 🐶🐱] : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Dubai 🏡 RP [Pets! 🐶] : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-22.csv#L77"
   },
   "g.6774320049.moy_7j": {
    "v": 12571,
    "d": "12 571",
-   "l": "Dubai 🏡 RP [Pets! 🐶🐱] : moyenne des 7 jours précédents",
+   "l": "Dubai 🏡 RP [Pets! 🐶] : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-22.csv#L77"
   },
   "g.6774320049.visites_total": {
    "v": 338888700,
    "d": "338,89 millions",
-   "l": "Dubai 🏡 RP [Pets! 🐶🐱] : visites cumulées depuis la création",
+   "l": "Dubai 🏡 RP [Pets! 🐶] : visites cumulées depuis la création",
    "src": "data/jours/2026-11-22.csv#L77"
   },
   "g.6774320049.note": {
    "v": 0.8955,
    "d": "89,5 %",
-   "l": "Dubai 🏡 RP [Pets! 🐶🐱] : part de votes positifs",
+   "l": "Dubai 🏡 RP [Pets! 🐶] : part de votes positifs",
    "src": "data/jours/2026-11-22.csv#L77"
   },
   "g.6774320049.rang_moy": {
    "v": 77,
    "d": "77e",
-   "l": "Dubai 🏡 RP [Pets! 🐶🐱] : rang à la moyenne du jour",
+   "l": "Dubai 🏡 RP [Pets! 🐶] : rang à la moyenne du jour",
    "src": "data/jours/2026-11-22.csv#L77"
   },
   "g.6774320049.releves": {
    "v": 17,
    "d": "17",
-   "l": "Dubai 🏡 RP [Pets! 🐶🐱] : relevés où le jeu a été mesuré",
+   "l": "Dubai 🏡 RP [Pets! 🐶] : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-22.csv#L77"
   },
   "g.6774320049.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "Dubai 🏡 RP [Pets! 🐶🐱] : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "Dubai 🏡 RP [Pets! 🐶] : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-22.csv#L77"
   },
   "g.10733617110.nom": {

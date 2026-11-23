@@ -1,7 +1,7 @@
 {
  "echecsConsecutifs": 0,
- "dernierSucces": "2026-11-23T03:11:56Z",
- "lastRunAt": "2026-11-23T03:11:56Z",
+ "dernierSucces": "2026-11-23T03:50:06Z",
+ "lastRunAt": "2026-11-23T03:50:06Z",
  "ok": true,
  "sorts": {
   "top-trending": 99,
@@ -10,21 +10,20 @@
   "fun-with-friends": 94,
   "top-revisited": 89
  },
- "gamesTracked": 748,
- "gamesMeasured": 739,
+ "gamesTracked": 746,
+ "gamesMeasured": 738,
  "jeuxNonMesures": {
   "nb": 0,
   "part": 0.0,
   "ids": []
  },
  "jeuxIndisponibles": {
-  "nb": 9,
+  "nb": 8,
   "ids": [
    "10245012052",
    "10482727168",
    "10752743876",
    "10759401628",
-   "10770204379",
    "10770605947",
    "10770934840",
    "10772700948",
