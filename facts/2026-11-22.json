@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-22",
- "genere": "2026-11-23T16:14:20Z",
+ "genere": "2026-11-23T17:13:52Z",
  "couverture": {
   "releves": 17,
   "attendus": 24
@@ -5439,87 +5439,87 @@
    "src": "data/jours/2026-11-22.csv#L56"
   },
   "g.10769464063.nom": {
-   "v": "[UPD🧬] +1 Venom Evolution",
-   "d": "[UPD🧬] +1 Venom Evolution",
-   "l": "[UPD🧬] +1 Venom Evolution : nom",
+   "v": "[🧬] +1 Venom Evolution",
+   "d": "[🧬] +1 Venom Evolution",
+   "l": "[🧬] +1 Venom Evolution : nom",
    "src": "data/jours/2026-11-22.csv#L57"
   },
   "g.10769464063.rang": {
    "v": 56,
    "d": "56e",
-   "l": "[UPD🧬] +1 Venom Evolution : rang au pic du jour",
+   "l": "[🧬] +1 Venom Evolution : rang au pic du jour",
    "src": "data/jours/2026-11-22.csv#L57"
   },
   "g.10769464063.pic": {
    "v": 37036,
    "d": "37 036",
-   "l": "[UPD🧬] +1 Venom Evolution : pic de joueurs simultanés relevé",
+   "l": "[🧬] +1 Venom Evolution : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-22.csv#L57"
   },
   "g.10769464063.heure_pic": {
    "v": "17:28",
    "d": "17 h 28",
-   "l": "[UPD🧬] +1 Venom Evolution : heure (Paris) du pic relevé",
+   "l": "[🧬] +1 Venom Evolution : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-22.csv#L57"
   },
   "g.10769464063.moy": {
    "v": 23721,
    "d": "23 721",
-   "l": "[UPD🧬] +1 Venom Evolution : moyenne des joueurs simultanés sur la journée",
+   "l": "[🧬] +1 Venom Evolution : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-22.csv#L57"
   },
   "g.10769464063.createur": {
    "v": "Bottled Potential",
    "d": "Bottled Potential",
-   "l": "[UPD🧬] +1 Venom Evolution : créateur",
+   "l": "[🧬] +1 Venom Evolution : créateur",
    "src": "data/jours/2026-11-22.csv#L57"
   },
   "g.10769464063.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[UPD🧬] +1 Venom Evolution : genre",
+   "l": "[🧬] +1 Venom Evolution : genre",
    "src": "data/jours/2026-11-22.csv#L57"
   },
   "g.10769464063.var_7j": {
    "v": 0.4465,
    "d": "+44,6 %",
-   "l": "[UPD🧬] +1 Venom Evolution : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🧬] +1 Venom Evolution : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-22.csv#L57"
   },
   "g.10769464063.moy_7j": {
    "v": 16398,
    "d": "16 398",
-   "l": "[UPD🧬] +1 Venom Evolution : moyenne des 7 jours précédents",
+   "l": "[🧬] +1 Venom Evolution : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-22.csv#L57"
   },
   "g.10769464063.visites_total": {
    "v": 77687754,
    "d": "77,69 millions",
-   "l": "[UPD🧬] +1 Venom Evolution : visites cumulées depuis la création",
+   "l": "[🧬] +1 Venom Evolution : visites cumulées depuis la création",
    "src": "data/jours/2026-11-22.csv#L57"
   },
   "g.10769464063.note": {
    "v": 0.9667,
    "d": "96,7 %",
-   "l": "[UPD🧬] +1 Venom Evolution : part de votes positifs",
+   "l": "[🧬] +1 Venom Evolution : part de votes positifs",
    "src": "data/jours/2026-11-22.csv#L57"
   },
   "g.10769464063.rang_moy": {
    "v": 74,
    "d": "74e",
-   "l": "[UPD🧬] +1 Venom Evolution : rang à la moyenne du jour",
+   "l": "[🧬] +1 Venom Evolution : rang à la moyenne du jour",
    "src": "data/jours/2026-11-22.csv#L57"
   },
   "g.10769464063.releves": {
    "v": 17,
    "d": "17",
-   "l": "[UPD🧬] +1 Venom Evolution : relevés où le jeu a été mesuré",
+   "l": "[🧬] +1 Venom Evolution : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-22.csv#L57"
   },
   "g.10769464063.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[UPD🧬] +1 Venom Evolution : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[🧬] +1 Venom Evolution : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-22.csv#L57"
   },
   "g.7174773198.nom": {
