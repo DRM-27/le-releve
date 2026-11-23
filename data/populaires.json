@@ -1,10 +1,10 @@
 {
- "genere": "2026-11-23T20:04:20Z",
+ "genere": "2026-11-23T21:04:32Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/",
-   "vues": 107
+   "vues": 108
   },
   {
    "path": "/le-releve/",
@@ -19,11 +19,11 @@
    "vues": 5
   },
   {
-   "path": "/articles/2026-11-19-jailbreak-quotidien/",
+   "path": "/es/joueurs-roblox-en-ce-moment/",
    "vues": 3
   },
   {
-   "path": "/es/joueurs-roblox-en-ce-moment/",
+   "path": "/articles/2026-11-19-jailbreak-quotidien/",
    "vues": 3
   },
   {
@@ -35,30 +35,6 @@
    "vues": 2
   },
   {
-   "path": "/le-releve/classement/",
-   "vues": 2
-  },
-  {
-   "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
-   "vues": 2
-  },
-  {
-   "path": "/explorer/",
-   "vues": 2
-  },
-  {
-   "path": "/en/studios/emo-playworks/",
-   "vues": 2
-  },
-  {
-   "path": "/en/articles/2026-11-22-save-the-krusty-krab-quotidien/",
-   "vues": 2
-  },
-  {
-   "path": "/articles/2026-11-18-hyper-realistic-ragdoll-quotidien/",
-   "vues": 2
-  },
-  {
    "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
    "vues": 2
   },
@@ -67,19 +43,43 @@
    "vues": 2
   },
   {
+   "path": "/explorer/",
+   "vues": 2
+  },
+  {
+   "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/classement/",
+   "vues": 2
+  },
+  {
+   "path": "/articles/2026-11-18-hyper-realistic-ragdoll-quotidien/",
+   "vues": 2
+  },
+  {
+   "path": "/en/articles/2026-11-22-save-the-krusty-krab-quotidien/",
+   "vues": 2
+  },
+  {
    "path": "/le-releve/alertes/",
    "vues": 2
   },
   {
-   "path": "/le-releve/confidentialite/",
+   "path": "/en/studios/emo-playworks/",
+   "vues": 2
+  },
+  {
+   "path": "/jeux-roblox-les-plus-joues/",
    "vues": 1
   },
   {
-   "path": "/source/",
+   "path": "/le-releve/donnees/",
    "vues": 1
   },
   {
-   "path": "/le-releve/partenaires/",
+   "path": "/corrections/",
    "vues": 1
   }
  ]
