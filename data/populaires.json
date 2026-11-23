@@ -1,10 +1,10 @@
 {
- "genere": "2026-11-23T18:14:12Z",
+ "genere": "2026-11-23T19:14:21Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/",
-   "vues": 99
+   "vues": 105
   },
   {
    "path": "/le-releve/",
@@ -27,10 +27,6 @@
    "vues": 3
   },
   {
-   "path": "/explorer/",
-   "vues": 2
-  },
-  {
    "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
    "vues": 2
   },
@@ -47,11 +43,15 @@
    "vues": 2
   },
   {
-   "path": "/en/articles/2026-11-22-save-the-krusty-krab-quotidien/",
+   "path": "/explorer/",
    "vues": 2
   },
   {
-   "path": "/le-releve/articles/2026-11-17-volley-bomb-quotidien/",
+   "path": "/en/studios/emo-playworks/",
+   "vues": 2
+  },
+  {
+   "path": "/en/articles/2026-11-22-save-the-krusty-krab-quotidien/",
    "vues": 2
   },
   {
@@ -59,11 +59,11 @@
    "vues": 2
   },
   {
-   "path": "/le-releve/alertes/",
+   "path": "/le-releve/articles/2026-11-17-volley-bomb-quotidien/",
    "vues": 2
   },
   {
-   "path": "/en/studios/emo-playworks/",
+   "path": "/le-releve/alertes/",
    "vues": 2
   },
   {
@@ -75,11 +75,11 @@
    "vues": 1
   },
   {
-   "path": "/en/studios/frosted-studio/",
+   "path": "/le-releve/partenaires/",
    "vues": 1
   },
   {
-   "path": "/le-releve/partenaires/",
+   "path": "/en/jeux/upd-11-part-1-king-legacy-1451439645/",
    "vues": 1
   }
  ]
