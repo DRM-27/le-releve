@@ -1419,3 +1419,6 @@ ts_utc,type,universe_id,nom,avant,maintenant,variation,rang,rang_avant,releve
 2026-11-23T09:52:35Z,forte_hausse,5125369493,Driving Simulator,3074,4742,0.5426,208,289,data/snapshots/2026/11/23/09.csv
 2026-11-23T09:52:35Z,forte_hausse,10767494536,Hike For Eggs,2342,3754,0.6029,254,340,data/snapshots/2026/11/23/09.csv
 2026-11-23T09:52:35Z,forte_hausse,7787359931,Kingdom World,1953,3124,0.5996,294,377,data/snapshots/2026/11/23/09.csv
+2026-11-23T10:12:31Z,forte_hausse,10769149947,صيد الضبّان,6323,10504,0.6612,92,145,data/snapshots/2026/11/23/10.csv
+2026-11-23T10:12:31Z,forte_hausse,10771508240,[UPD🏁] Simple Drift,2024,3167,0.5647,298,368,data/snapshots/2026/11/23/10.csv
+2026-11-23T10:12:31Z,forte_hausse,10775377114,[🥊] Tumble Dash,1464,2221,0.5171,365,436,data/snapshots/2026/11/23/10.csv
