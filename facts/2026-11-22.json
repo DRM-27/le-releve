@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-22",
- "genere": "2026-11-23T12:13:29Z",
+ "genere": "2026-11-23T13:13:37Z",
  "couverture": {
   "releves": 17,
   "attendus": 24
@@ -3975,87 +3975,87 @@
    "src": "data/jours/2026-11-22.csv#L38"
   },
   "g.3647333358.nom": {
-   "v": "Evade ",
-   "d": "Evade ",
-   "l": "Evade  : nom",
+   "v": "[🦃 SOON] Evade ",
+   "d": "[🦃 SOON] Evade ",
+   "l": "[🦃 SOON] Evade  : nom",
    "src": "data/jours/2026-11-22.csv#L39"
   },
   "g.3647333358.rang": {
    "v": 38,
    "d": "38e",
-   "l": "Evade  : rang au pic du jour",
+   "l": "[🦃 SOON] Evade  : rang au pic du jour",
    "src": "data/jours/2026-11-22.csv#L39"
   },
   "g.3647333358.pic": {
    "v": 54752,
    "d": "54 752",
-   "l": "Evade  : pic de joueurs simultanés relevé",
+   "l": "[🦃 SOON] Evade  : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-22.csv#L39"
   },
   "g.3647333358.heure_pic": {
    "v": "14:43",
    "d": "14 h 43",
-   "l": "Evade  : heure (Paris) du pic relevé",
+   "l": "[🦃 SOON] Evade  : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-22.csv#L39"
   },
   "g.3647333358.moy": {
    "v": 41858,
    "d": "41 858",
-   "l": "Evade  : moyenne des joueurs simultanés sur la journée",
+   "l": "[🦃 SOON] Evade  : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-22.csv#L39"
   },
   "g.3647333358.createur": {
    "v": "Hexagon Development Community",
    "d": "Hexagon Development Community",
-   "l": "Evade  : créateur",
+   "l": "[🦃 SOON] Evade  : créateur",
    "src": "data/jours/2026-11-22.csv#L39"
   },
   "g.3647333358.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "Evade  : genre",
+   "l": "[🦃 SOON] Evade  : genre",
    "src": "data/jours/2026-11-22.csv#L39"
   },
   "g.3647333358.var_7j": {
    "v": 0.0674,
    "d": "+6,7 %",
-   "l": "Evade  : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🦃 SOON] Evade  : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-22.csv#L39"
   },
   "g.3647333358.moy_7j": {
    "v": 39213,
    "d": "39 213",
-   "l": "Evade  : moyenne des 7 jours précédents",
+   "l": "[🦃 SOON] Evade  : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-22.csv#L39"
   },
   "g.3647333358.visites_total": {
    "v": 9517991276,
    "d": "9,52 milliards",
-   "l": "Evade  : visites cumulées depuis la création",
+   "l": "[🦃 SOON] Evade  : visites cumulées depuis la création",
    "src": "data/jours/2026-11-22.csv#L39"
   },
   "g.3647333358.note": {
    "v": 0.939,
    "d": "93,9 %",
-   "l": "Evade  : part de votes positifs",
+   "l": "[🦃 SOON] Evade  : part de votes positifs",
    "src": "data/jours/2026-11-22.csv#L39"
   },
   "g.3647333358.rang_moy": {
    "v": 38,
    "d": "38e",
-   "l": "Evade  : rang à la moyenne du jour",
+   "l": "[🦃 SOON] Evade  : rang à la moyenne du jour",
    "src": "data/jours/2026-11-22.csv#L39"
   },
   "g.3647333358.releves": {
    "v": 17,
    "d": "17",
-   "l": "Evade  : relevés où le jeu a été mesuré",
+   "l": "[🦃 SOON] Evade  : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-22.csv#L39"
   },
   "g.3647333358.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "Evade  : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[🦃 SOON] Evade  : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-22.csv#L39"
   },
   "g.10772066587.nom": {

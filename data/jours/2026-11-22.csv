@@ -36,7 +36,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 35,3317771874,🦃 [TURKEY] Pet Simulator 99! 🍁,BIG Games Pets,Simulation,56640,17:28,48926,17,,,43930,0.1137,,2718114635,0.9473,,1,0,30
 36,1451439645,[🐉UPD 11 PART 1🎃] King Legacy,Sea King Games,RPG,56573,04:33,43558,17,,,37190,0.1712,,4113064439,0.9154,,1,0,37
 37,10769671316,[🦧 BOSS] Survive Your Ideas,Survive Your Ideas,Survival,56430,14:43,48377,17,,,46636,0.0373,,164707894,0.8885,,1,0,31
-38,3647333358,Evade ,Hexagon Development Community,Survival,54752,14:43,41858,17,,,39213,0.0674,,9517991276,0.939,,1,0,38
+38,3647333358,[🦃 SOON] Evade ,Hexagon Development Community,Survival,54752,14:43,41858,17,,,39213,0.0674,,9517991276,0.939,,1,0,38
 39,10772066587,NIGHT WITH OPAH,Sabun Studios,Survival,53757,04:33,18405,17,,,,,,88045816,0.8454,,1,0,100
 40,601130232,Bee Swarm Simulator,Onett,Simulation,50345,17:28,46784,17,,,35532,0.3167,,4690415974,0.9562,,1,0,32
 41,4658598196,Attack on Titan Revolution,AoTR [PI],RPG,50009,16:03,45445,17,,,41243,0.1019,,1243414151,0.9592,,1,0,33
@@ -360,7 +360,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 359,9908641400,Football Fusion 3,XSTNS GAMES,Sports & Racing,5973,03:22,3815,17,,,2454,0.5545,,98805549,0.8394,,1,0,395
 360,10414383300,Ishin,luure,Action,5939,18:03,5321,17,,,3546,0.5005,,5671046,0.9121,,1,0,329
 361,79301772,🔨Plane Crazy🔨 [UPDATE],Plane Crazy Developers,Simulation,5933,15:03,5116,17,,,3525,0.4514,,516022108,0.802,,1,0,337
-362,10771766545,[NEW MAP] РейлСайд [БЕТА],Krein228777,Simulation,5919,15:03,3130,17,,,,,,9767719,0.8263,,1,0,438
+362,10771766545,[Big Upd] РейлСайд [Бета-версия],Krein228777,Simulation,5919,15:03,3130,17,,,,,,9767719,0.8263,,1,0,438
 363,10773167150,evil crawling things,:WaitForCat(),Survival,5862,19:03,4961,17,,,,,,1807365,0.8146,,1,0,340
 364,10770104321,[UPD] Draw a Flag!,Meow Forge,Party & Casual,5693,19:03,4354,17,,,4249,0.0248,,13937308,0.5973,,1,0,362
 365,10775270346,[UPD] JAWS BELOW,Jadova Studio,Obby & Platformer,5676,19:03,4470,17,,,,,,4508015,0.3669,,1,0,355
@@ -642,7 +642,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 641,10772490127,Respect PVP [BETA],VOLL Games Inc,Shooter,830,19:03,660,17,,,,,,4098654,0.9088,,1,0,632
 642,123956318,Kaizen [RP],Fate Forge,Roleplay & Avatar Sim,826,04:33,528,17,,,299,0.7685,,34489053,0.8164,,1,0,651
 643,5926918873,[UTTV PART 1] Toilet Universe Roleplay,Protonic Development,Roleplay & Avatar Sim,813,17:28,649,17,,,393,0.6524,,63029685,0.8429,,1,0,633
-644,7037673488,[THE MEN+2X] Crazy Skeleton RNG,Crazy Skeleton RNG,Simulation,793,00:36,629,17,,,500,0.2581,,6365630,0.8327,,1,0,636
+644,7037673488,[THE MEN] Crazy Skeleton RNG,Crazy Skeleton RNG,Simulation,793,00:36,629,17,,,500,0.2581,,6365630,0.8327,,1,0,636
 645,3634139746,Hood Customs,Hood Customs Entertainment,Action,792,04:33,621,17,,,543,0.1434,,166707209,0.7161,,1,0,638
 646,1958807588,[⚔️RANKED⚔️] Hood Modded,HM Entertainment,Action,756,21:41,224,17,,,106,1.1253,,289634880,0.7151,,1,0,697
 647,10771110187,[UPD🏎️] Build a Car Company 🚗,Sunset Entertainment,Simulation,700,16:03,569,17,,,,,,1501584,0.8164,,1,0,645
@@ -701,7 +701,7 @@ rang,universe_id,nom,createur,genre,pic,heure_pic_paris,moyenne,releves,moyenne_
 700,7172023529,Waterloo at home,helIespont,Action,294,20:59,223,17,,,141,0.5802,,1594181,0.7634,,1,0,698
 701,9865604662,VEF,[VEF] Virtual European Football,Sports & Racing,291,22:11,179,17,,,105,0.701,,4119680,0.8455,,1,0,705
 702,10756305102,[BETA] BuddyTime,Bingus Development,RPG,264,15:03,170,15,,,200,-0.1519,21627,3710738,0.9625,,1,0,708
-703,10008450782,[🐴] Old Multiverse Tower Defense,The ROBO Studio!,Strategy,239,16:03,181,17,,,197,-0.0784,,14461605,0.7785,,1,0,702
+703,10008450782,[🦃] Old Multiverse Tower Defense,The ROBO Studio!,Strategy,239,16:03,181,17,,,197,-0.0784,,14461605,0.7785,,1,0,702
 704,10770161916,[CHAPTER 2] DAMNED,Ashlight Studio,Survival,231,03:22,178,17,,,484,-0.632,,1965033,0.888,,1,0,706
 705,10773727134,🚗 LAST CALL [BETA],TAZ Syndicate,Simulation,231,17:28,118,17,,,149,-0.2106,,1775502,0.7042,,1,0,717
 706,10464566605,[🎃] BLITZ FPS,Atlas Creative Games,Shooter,230,01:53,186,17,,,515,-0.6385,,7947796,0.9077,,1,0,701
