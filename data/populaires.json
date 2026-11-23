@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-23T10:13:29Z",
+ "genere": "2026-11-23T11:13:22Z",
  "periode_jours": 7,
  "pages": [
   {
@@ -11,11 +11,11 @@
    "vues": 13
   },
   {
-   "path": "/classement/",
+   "path": "/en/jeux/uts-3-0-toilet-tower-defense-4778845442/",
    "vues": 5
   },
   {
-   "path": "/en/jeux/uts-3-0-toilet-tower-defense-4778845442/",
+   "path": "/classement/",
    "vues": 5
   },
   {
@@ -59,11 +59,7 @@
    "vues": 2
   },
   {
-   "path": "/explorer/",
-   "vues": 1
-  },
-  {
-   "path": "/en/jeux/update-2-1-30-floors-up-10772879271/",
+   "path": "/en/studios/frosted-studio/",
    "vues": 1
   },
   {
@@ -71,7 +67,11 @@
    "vues": 1
   },
   {
-   "path": "/le-releve/donnees/",
+   "path": "/en/jeux/update-2-1-30-floors-up-10772879271/",
+   "vues": 1
+  },
+  {
+   "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
    "vues": 1
   },
   {
@@ -79,7 +79,7 @@
    "vues": 1
   },
   {
-   "path": "/en/studios/frosted-studio/",
+   "path": "/en/jeux/ball-vs-ball-fusion-mode-10685282333/",
    "vues": 1
   }
  ]
