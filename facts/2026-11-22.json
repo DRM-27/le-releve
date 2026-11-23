@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-22",
- "genere": "2026-11-23T01:11:20Z",
+ "genere": "2026-11-23T02:12:43Z",
  "couverture": {
   "releves": 17,
   "attendus": 24
@@ -1995,87 +1995,87 @@
    "src": "data/jours/2026-11-22.csv#L14"
   },
   "g.3183403065.nom": {
-   "v": "[☀️UPD 21🏖️] Anime Adventures",
-   "d": "[☀️UPD 21🏖️] Anime Adventures",
-   "l": "[☀️UPD 21🏖️] Anime Adventures : nom",
+   "v": "[🩷UPD 21.5⛩️] Anime Adventures",
+   "d": "[🩷UPD 21.5⛩️] Anime Adventures",
+   "l": "[🩷UPD 21.5⛩️] Anime Adventures : nom",
    "src": "data/jours/2026-11-22.csv#L15"
   },
   "g.3183403065.rang": {
    "v": 14,
    "d": "14e",
-   "l": "[☀️UPD 21🏖️] Anime Adventures : rang au pic du jour",
+   "l": "[🩷UPD 21.5⛩️] Anime Adventures : rang au pic du jour",
    "src": "data/jours/2026-11-22.csv#L15"
   },
   "g.3183403065.pic": {
    "v": 93289,
    "d": "93 289",
-   "l": "[☀️UPD 21🏖️] Anime Adventures : pic de joueurs simultanés relevé",
+   "l": "[🩷UPD 21.5⛩️] Anime Adventures : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-22.csv#L15"
   },
   "g.3183403065.heure_pic": {
    "v": "15:03",
    "d": "15 h 03",
-   "l": "[☀️UPD 21🏖️] Anime Adventures : heure (Paris) du pic relevé",
+   "l": "[🩷UPD 21.5⛩️] Anime Adventures : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-22.csv#L15"
   },
   "g.3183403065.moy": {
    "v": 83048,
    "d": "83 048",
-   "l": "[☀️UPD 21🏖️] Anime Adventures : moyenne des joueurs simultanés sur la journée",
+   "l": "[🩷UPD 21.5⛩️] Anime Adventures : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-22.csv#L15"
   },
   "g.3183403065.createur": {
    "v": "Gomu",
    "d": "Gomu",
-   "l": "[☀️UPD 21🏖️] Anime Adventures : créateur",
+   "l": "[🩷UPD 21.5⛩️] Anime Adventures : créateur",
    "src": "data/jours/2026-11-22.csv#L15"
   },
   "g.3183403065.genre": {
    "v": "Strategy",
    "d": "Stratégie",
-   "l": "[☀️UPD 21🏖️] Anime Adventures : genre",
+   "l": "[🩷UPD 21.5⛩️] Anime Adventures : genre",
    "src": "data/jours/2026-11-22.csv#L15"
   },
   "g.3183403065.var_7j": {
    "v": 0.1665,
    "d": "+16,7 %",
-   "l": "[☀️UPD 21🏖️] Anime Adventures : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🩷UPD 21.5⛩️] Anime Adventures : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-22.csv#L15"
   },
   "g.3183403065.moy_7j": {
    "v": 71196,
    "d": "71 196",
-   "l": "[☀️UPD 21🏖️] Anime Adventures : moyenne des 7 jours précédents",
+   "l": "[🩷UPD 21.5⛩️] Anime Adventures : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-22.csv#L15"
   },
   "g.3183403065.visites_total": {
    "v": 2661053063,
    "d": "2,66 milliards",
-   "l": "[☀️UPD 21🏖️] Anime Adventures : visites cumulées depuis la création",
+   "l": "[🩷UPD 21.5⛩️] Anime Adventures : visites cumulées depuis la création",
    "src": "data/jours/2026-11-22.csv#L15"
   },
   "g.3183403065.note": {
    "v": 0.9207,
    "d": "92,1 %",
-   "l": "[☀️UPD 21🏖️] Anime Adventures : part de votes positifs",
+   "l": "[🩷UPD 21.5⛩️] Anime Adventures : part de votes positifs",
    "src": "data/jours/2026-11-22.csv#L15"
   },
   "g.3183403065.rang_moy": {
    "v": 13,
    "d": "13e",
-   "l": "[☀️UPD 21🏖️] Anime Adventures : rang à la moyenne du jour",
+   "l": "[🩷UPD 21.5⛩️] Anime Adventures : rang à la moyenne du jour",
    "src": "data/jours/2026-11-22.csv#L15"
   },
   "g.3183403065.releves": {
    "v": 17,
    "d": "17",
-   "l": "[☀️UPD 21🏖️] Anime Adventures : relevés où le jeu a été mesuré",
+   "l": "[🩷UPD 21.5⛩️] Anime Adventures : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-22.csv#L15"
   },
   "g.3183403065.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[☀️UPD 21🏖️] Anime Adventures : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[🩷UPD 21.5⛩️] Anime Adventures : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-22.csv#L15"
   },
   "g.5750914919.nom": {
@@ -5847,87 +5847,87 @@
    "src": "data/jours/2026-11-22.csv#L61"
   },
   "g.9584852943.nom": {
-   "v": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate",
-   "d": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : nom",
+   "v": "+1 Speed Keyboard Escape | Candy & Chocolate",
+   "d": "+1 Speed Keyboard Escape | Candy & Chocolate",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : nom",
    "src": "data/jours/2026-11-22.csv#L62"
   },
   "g.9584852943.rang": {
    "v": 61,
    "d": "61e",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : rang au pic du jour",
    "src": "data/jours/2026-11-22.csv#L62"
   },
   "g.9584852943.pic": {
    "v": 34987,
    "d": "34 987",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-22.csv#L62"
   },
   "g.9584852943.heure_pic": {
    "v": "16:03",
    "d": "16 h 03",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-22.csv#L62"
   },
   "g.9584852943.moy": {
    "v": 27377,
    "d": "27 377",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-22.csv#L62"
   },
   "g.9584852943.createur": {
    "v": "SecretVerse Studio",
    "d": "SecretVerse Studio",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : créateur",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : créateur",
    "src": "data/jours/2026-11-22.csv#L62"
   },
   "g.9584852943.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : genre",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : genre",
    "src": "data/jours/2026-11-22.csv#L62"
   },
   "g.9584852943.var_7j": {
    "v": 0.4103,
    "d": "+41,0 %",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-22.csv#L62"
   },
   "g.9584852943.moy_7j": {
    "v": 19412,
    "d": "19 412",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : moyenne des 7 jours précédents",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-22.csv#L62"
   },
   "g.9584852943.visites_total": {
    "v": 6730866189,
    "d": "6,73 milliards",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : visites cumulées depuis la création",
    "src": "data/jours/2026-11-22.csv#L62"
   },
   "g.9584852943.note": {
    "v": 0.9667,
    "d": "96,7 %",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : part de votes positifs",
    "src": "data/jours/2026-11-22.csv#L62"
   },
   "g.9584852943.rang_moy": {
    "v": 62,
    "d": "62e",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : rang à la moyenne du jour",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : rang à la moyenne du jour",
    "src": "data/jours/2026-11-22.csv#L62"
   },
   "g.9584852943.releves": {
    "v": 17,
    "d": "17",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : relevés où le jeu a été mesuré",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-22.csv#L62"
   },
   "g.9584852943.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "+1 Speed Keyboard Escape | Candy & Chocolate : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-22.csv#L62"
   },
   "g.2619619496.nom": {
