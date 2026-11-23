@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-23T22:14:30Z",
+ "genere": "2026-11-23T23:04:32Z",
  "periode_jours": 7,
  "pages": [
   {
@@ -19,11 +19,11 @@
    "vues": 5
   },
   {
-   "path": "/es/joueurs-roblox-en-ce-moment/",
+   "path": "/articles/2026-11-19-jailbreak-quotidien/",
    "vues": 3
   },
   {
-   "path": "/articles/2026-11-19-jailbreak-quotidien/",
+   "path": "/es/joueurs-roblox-en-ce-moment/",
    "vues": 3
   },
   {
@@ -31,23 +31,11 @@
    "vues": 3
   },
   {
+   "path": "/en/studios/emo-playworks/",
+   "vues": 2
+  },
+  {
    "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
-   "vues": 2
-  },
-  {
-   "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/articles/2026-11-17-volley-bomb-quotidien/",
-   "vues": 2
-  },
-  {
-   "path": "/explorer/",
-   "vues": 2
-  },
-  {
-   "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
    "vues": 2
   },
   {
@@ -55,7 +43,11 @@
    "vues": 2
   },
   {
-   "path": "/articles/2026-11-18-hyper-realistic-ragdoll-quotidien/",
+   "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
+   "vues": 2
+  },
+  {
+   "path": "/explorer/",
    "vues": 2
   },
   {
@@ -67,19 +59,27 @@
    "vues": 2
   },
   {
-   "path": "/en/studios/emo-playworks/",
+   "path": "/articles/2026-11-18-hyper-realistic-ragdoll-quotidien/",
    "vues": 2
   },
   {
-   "path": "/jeux-roblox-les-plus-joues/",
+   "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/articles/2026-11-17-volley-bomb-quotidien/",
+   "vues": 2
+  },
+  {
+   "path": "/source/",
    "vues": 1
   },
   {
-   "path": "/le-releve/donnees/",
+   "path": "/le-releve/confidentialite/",
    "vues": 1
   },
   {
-   "path": "/corrections/",
+   "path": "/le-releve/partenaires/",
    "vues": 1
   }
  ]
