@@ -1,49 +1,49 @@
 {
- "date": "2026-11-16T06:44Z",
+ "date": "2026-11-23T06:29Z",
  "source": "Google Trends via pytrends, 5 ans, hebdo ; Wikimedia pageviews",
  "trends": [
   {
    "pays": "FR",
    "mot": "facture électronique",
    "trends": {
-    "niveau_3m": 43.7,
-    "an_dernier_3m": 11.5,
-    "evol_1an_pct": 279,
-    "vs_moyenne_5ans": 4.38,
+    "niveau_3m": 40.4,
+    "an_dernier_3m": 12.6,
+    "evol_1an_pct": 220,
+    "vs_moyenne_5ans": 3.97,
     "pic": 100
    },
    "requetes_en_hausse": [
     {
-     "query": "facturation électronique 2026",
-     "value": 240100
+     "query": "annuaire facture électronique",
+     "value": 233750
     },
     {
      "query": "plateforme facture électronique gratuite",
-     "value": 235050
+     "value": 225700
     },
     {
-     "query": "annuaire facture électronique",
-     "value": 233200
+     "query": "henrri facture électronique",
+     "value": 133900
     },
     {
-     "query": "facturation électronique gratuite",
-     "value": 206350
+     "query": "facture électronique gratuite",
+     "value": 1950
     },
     {
-     "query": "plateforme agréée facturation électronique",
-     "value": 157100
+     "query": "tiime facture électronique",
+     "value": 1150
     },
     {
-     "query": "pennylane",
-     "value": 150700
+     "query": "facture électronique auto entrepreneur",
+     "value": 1000
     },
     {
-     "query": "indy",
-     "value": 149800
+     "query": "facture électronique 2024",
+     "value": 400
     },
     {
-     "query": "report facture électronique",
-     "value": 112650
+     "query": "la facture électronique",
+     "value": 50
     }
    ]
   },
@@ -51,44 +51,44 @@
    "pays": "FR",
    "mot": "plateforme agréée",
    "trends": {
-    "niveau_3m": 39.7,
-    "an_dernier_3m": 5.0,
-    "evol_1an_pct": 694,
-    "vs_moyenne_5ans": 5.64,
+    "niveau_3m": 38.0,
+    "an_dernier_3m": 5.5,
+    "evol_1an_pct": 586,
+    "vs_moyenne_5ans": 5.27,
     "pic": 100
    },
    "requetes_en_hausse": [
     {
-     "query": "facturation électronique",
-     "value": 3811600
-    },
-    {
      "query": "plateforme agréée facturation électronique",
-     "value": 3803300
+     "value": 3793600
     },
     {
      "query": "plateforme agréée gratuite",
-     "value": 1118900
-    },
-    {
-     "query": "plateforme facturation électronique gratuite",
-     "value": 833900
-    },
-    {
-     "query": "facturation electronique",
-     "value": 813200
+     "value": 1100450
     },
     {
      "query": "annuaire plateforme agréée",
-     "value": 719950
+     "value": 704950
     },
     {
-     "query": "plateforme facture electronique",
-     "value": 561350
+     "query": "liste plateforme agréée facturation électronique",
+     "value": 435150
     },
     {
-     "query": "facture electronique",
-     "value": 561050
+     "query": "indy plateforme agréée",
+     "value": 421350
+    },
+    {
+     "query": "pennylane plateforme agréée",
+     "value": 360550
+    },
+    {
+     "query": "plateforme de facturation électronique agréée gratuite",
+     "value": 226200
+    },
+    {
+     "query": "shine plateforme agréée",
+     "value": 208100
     }
    ]
   },
@@ -96,16 +96,16 @@
    "pays": "FR",
    "mot": "accessibilité numérique",
    "trends": {
-    "niveau_3m": 27.8,
-    "an_dernier_3m": 32.1,
-    "evol_1an_pct": -13,
-    "vs_moyenne_5ans": 1.11,
+    "niveau_3m": 15.3,
+    "an_dernier_3m": 38.8,
+    "evol_1an_pct": -61,
+    "vs_moyenne_5ans": 0.71,
     "pic": 100
    },
    "requetes_en_hausse": [
     {
      "query": "loi accessibilité numérique 2025",
-     "value": 276150
+     "value": 245100
     }
    ]
   },
@@ -113,56 +113,61 @@
    "pays": "FR",
    "mot": "RGAA",
    "trends": {
-    "niveau_3m": 55.0,
-    "an_dernier_3m": 65.7,
-    "evol_1an_pct": -16,
-    "vs_moyenne_5ans": 1.33,
+    "niveau_3m": 60.5,
+    "an_dernier_3m": 70.5,
+    "evol_1an_pct": -14,
+    "vs_moyenne_5ans": 1.38,
     "pic": 100
    },
-   "requetes_en_hausse": []
+   "requetes_en_hausse": [
+    {
+     "query": "rgaa c'est quoi",
+     "value": 350
+    }
+   ]
   },
   {
    "pays": "FR",
    "mot": "AI Act",
    "trends": {
-    "niveau_3m": 13.7,
-    "an_dernier_3m": 31.8,
-    "evol_1an_pct": -57,
-    "vs_moyenne_5ans": 0.94,
+    "niveau_3m": 14.3,
+    "an_dernier_3m": 38.5,
+    "evol_1an_pct": -63,
+    "vs_moyenne_5ans": 0.97,
     "pic": 100
    },
    "requetes_en_hausse": [
     {
-     "query": "ai act news",
-     "value": 1750650
-    },
-    {
-     "query": "ai news",
-     "value": 1710100
+     "query": "ai act 2024",
+     "value": 1947300
     },
     {
      "query": "ai act pdf",
-     "value": 895850
+     "value": 910250
     },
     {
      "query": "eu ai act news",
-     "value": 838900
+     "value": 843700
     },
     {
      "query": "ai news today",
-     "value": 767950
+     "value": 769250
     },
     {
-     "query": "ia act",
-     "value": 529400
+     "query": "ai act european commission",
+     "value": 559000
     },
     {
-     "query": "ai act text",
-     "value": 466000
+     "query": "ai act regulation",
+     "value": 439150
     },
     {
-     "query": "open ai",
-     "value": 425600
+     "query": "eu ai act pdf",
+     "value": 369500
+    },
+    {
+     "query": "eu ai act text",
+     "value": 211650
     }
    ]
   },
@@ -170,47 +175,44 @@
    "pays": "FR",
    "mot": "NIS2",
    "trends": {
-    "niveau_3m": 46.2,
-    "an_dernier_3m": 45.4,
-    "evol_1an_pct": 2,
-    "vs_moyenne_5ans": 1.69,
+    "niveau_3m": 51.6,
+    "an_dernier_3m": 52.2,
+    "evol_1an_pct": -1,
+    "vs_moyenne_5ans": 1.82,
     "pic": 100
    },
    "requetes_en_hausse": [
     {
-     "query": "dora",
-     "value": 480500
+     "query": "nis2 pdf",
+     "value": 321600
     },
     {
-     "query": "nis 2",
-     "value": 458800
+     "query": "nis2 eu",
+     "value": 316300
+    },
+    {
+     "query": "nis2 compliance",
+     "value": 184350
     },
     {
      "query": "nis2 requirements",
-     "value": 174450
+     "value": 176400
     },
     {
-     "query": "enisa nis2",
-     "value": 159950
-    },
-    {
-     "query": "enisa",
-     "value": 148150
-    },
-    {
-     "query": "iso 27001",
-     "value": 128150
+     "query": "nis2 directive pdf",
+     "value": 131750
     }
    ]
   },
   {
    "pays": "FR",
    "mot": "bilan carbone",
+   "erreur": "The request failed: Google returned a response with code 429",
    "trends": {
-    "niveau_3m": 24.2,
-    "an_dernier_3m": 32.8,
-    "evol_1an_pct": -26,
-    "vs_moyenne_5ans": 0.59,
+    "niveau_3m": 25.2,
+    "an_dernier_3m": 33.0,
+    "evol_1an_pct": -24,
+    "vs_moyenne_5ans": 0.61,
     "pic": 100
    },
    "requetes_en_hausse": [
@@ -219,20 +221,20 @@
      "value": 160
     },
     {
-     "query": "bilan carbone individuel",
+     "query": "scope 3 bilan carbone",
      "value": 150
     },
     {
-     "query": "calculer son bilan carbone ademe",
-     "value": 120
+     "query": "bilan carbone individuel",
+     "value": 140
     },
     {
-     "query": "calculer mon bilan carbone",
-     "value": 100
+     "query": "calcul bilan carbone individuel",
+     "value": 110
     },
     {
      "query": "mon bilan carbone",
-     "value": 80
+     "value": 70
     },
     {
      "query": "formation bilan carbone",
@@ -244,85 +246,56 @@
    "pays": "FR",
    "mot": "DPE",
    "trends": {
-    "niveau_3m": 46.3,
-    "an_dernier_3m": 53.4,
-    "evol_1an_pct": -13,
-    "vs_moyenne_5ans": 1.0,
+    "niveau_3m": 47.6,
+    "an_dernier_3m": 52.5,
+    "evol_1an_pct": -9,
+    "vs_moyenne_5ans": 1.03,
     "pic": 100
    },
-   "requetes_en_hausse": [
-    {
-     "query": "interdiction location dpe e",
-     "value": 3900
-    },
-    {
-     "query": "location dpe e",
-     "value": 1400
-    },
-    {
-     "query": "ademe nouveau dpe",
-     "value": 1000
-    },
-    {
-     "query": "ademe",
-     "value": 550
-    },
-    {
-     "query": "dpe collectif",
-     "value": 200
-    },
-    {
-     "query": "dpe location",
-     "value": 140
-    },
-    {
-     "query": "faire un dpe",
-     "value": 60
-    }
-   ]
+   "requetes_en_hausse": []
   },
   {
    "pays": "FR",
    "mot": "audit énergétique",
    "trends": {
-    "niveau_3m": 16.5,
-    "an_dernier_3m": 26.2,
-    "evol_1an_pct": -37,
-    "vs_moyenne_5ans": 0.65,
+    "niveau_3m": 17.6,
+    "an_dernier_3m": 26.9,
+    "evol_1an_pct": -35,
+    "vs_moyenne_5ans": 0.67,
     "pic": 100
    },
    "requetes_en_hausse": [
     {
-     "query": "audit énergétique obligatoire vente",
-     "value": 154400
-    },
-    {
      "query": "audit énergétique avril 2023",
-     "value": 145800
+     "value": 146800
     },
     {
      "query": "audit énergétique 1er avril 2023",
-     "value": 121950
+     "value": 121150
     },
     {
      "query": "audit énergétique obligatoire 2023",
-     "value": 71850
+     "value": 69850
     },
     {
-     "query": "audit énergétique 1er janvier 2025",
-     "value": 34800
+     "query": "audit énergétique obligatoire 2022",
+     "value": 45350
     },
     {
      "query": "combien coute un audit énergétique",
-     "value": 250
+     "value": 41900
+    },
+    {
+     "query": "audit énergétique 1er janvier 2025",
+     "value": 34250
     },
     {
      "query": "audit énergétique appartement",
-     "value": 200
+     "value": 350
     },
     {
-     "query": "dpe audit énergétique",
-     "value": 170
+     "query": "audit énergétique obligatoire vente",
+     "value": 350
     }
    ]
   },
@@ -330,56 +303,89 @@
    "pays": "FR",
    "mot": "MaPrimeRénov",
    "trends": {
-    "niveau_3m": 30.8,
-    "an_dernier_3m": 20.8,
-    "evol_1an_pct": 48,
-    "vs_moyenne_5ans": 0.98,
+    "niveau_3m": 28.8,
+    "an_dernier_3m": 25.3,
+    "evol_1an_pct": 14,
+    "vs_moyenne_5ans": 0.95,
     "pic": 100
    },
-   "requetes_en_hausse": []
+   "requetes_en_hausse": [
+    {
+     "query": "maprimerénov 2024",
+     "value": 572350
+    },
+    {
+     "query": "maprimerénov 2023",
+     "value": 387800
+    },
+    {
+     "query": "maprimerénov suspension",
+     "value": 53350
+    },
+    {
+     "query": "maprimerénov 2026",
+     "value": 5350
+    },
+    {
+     "query": "maprimerénov sérénité",
+     "value": 2500
+    },
+    {
+     "query": "maprimerénov 2022",
+     "value": 2500
+    },
+    {
+     "query": "maprimerénov conditions",
+     "value": 550
+    },
+    {
+     "query": "maprimerénov contact",
+     "value": 350
+    }
+   ]
   },
   {
    "pays": "FR",
    "mot": "LMNP",
    "trends": {
-    "niveau_3m": 41.8,
-    "an_dernier_3m": 44.7,
-    "evol_1an_pct": -6,
+    "niveau_3m": 42.5,
+    "an_dernier_3m": 45.5,
+    "evol_1an_pct": -7,
     "vs_moyenne_5ans": 0.94,
     "pic": 100
    },
    "requetes_en_hausse": [
     {
      "query": "lmnp 2025",
-     "value": 351250
+     "value": 363200
     },
     {
-     "query": "inpi",
-     "value": 204400
-    },
-    {
-     "query": "inpi lmnp",
-     "value": 25250
+     "query": "lmnp 2024",
+     "value": 199200
     },
     {
      "query": "lmnp 2026",
-     "value": 14450
+     "value": 54150
     },
     {
-     "query": "lmnp siret",
-     "value": 90
+     "query": "inpi lmnp",
+     "value": 49050
     },
     {
-     "query": "micro bic",
-     "value": 50
+     "query": "lmnp loi de finance 2025",
+     "value": 16950
     },
     {
-     "query": "lmnp micro bic",
-     "value": 50
+     "query": "lmnp facture ou ticket de caisse",
+     "value": 7600
     },
     {
-     "query": "micro lmnp",
-     "value": 40
+     "query": "lmnp c'est quoi",
+     "value": 200
+    },
+    {
+     "query": "déclaration lmnp en ligne",
+     "value": 180
     }
    ]
   },
@@ -387,44 +393,24 @@
    "pays": "FR",
    "mot": "agent IA",
    "trends": {
-    "niveau_3m": 50.2,
-    "an_dernier_3m": 20.2,
-    "evol_1an_pct": 149,
-    "vs_moyenne_5ans": 4.16,
+    "niveau_3m": 52.6,
+    "an_dernier_3m": 20.8,
+    "evol_1an_pct": 153,
+    "vs_moyenne_5ans": 4.29,
     "pic": 100
    },
    "requetes_en_hausse": [
     {
-     "query": "agent ia claude",
-     "value": 591150
-    },
-    {
-     "query": "claude ia",
-     "value": 589100
-    },
-    {
-     "query": "claude",
-     "value": 586150
-    },
-    {
-     "query": "n8n",
-     "value": 436650
-    },
-    {
      "query": "formation agent ia",
-     "value": 329500
-    },
-    {
-     "query": "formation ia",
-     "value": 327300
+     "value": 319100
     },
     {
      "query": "agent ia chatgpt",
-     "value": 312350
+     "value": 311450
     },
     {
-     "query": "agent gpt",
-     "value": 256350
+     "query": "agent ia c'est quoi",
+     "value": 183450
     }
    ]
   },
@@ -432,44 +418,44 @@
    "pays": "FR",
    "mot": "n8n",
    "trends": {
-    "niveau_3m": 22.2,
-    "an_dernier_3m": 65.8,
-    "evol_1an_pct": -66,
-    "vs_moyenne_5ans": 1.08,
+    "niveau_3m": 22.7,
+    "an_dernier_3m": 68.3,
+    "evol_1an_pct": -67,
+    "vs_moyenne_5ans": 1.1,
     "pic": 100
    },
    "requetes_en_hausse": [
     {
      "query": "n8n ai",
-     "value": 851500
+     "value": 836800
     },
     {
      "query": "n8n agent",
-     "value": 407950
-    },
-    {
-     "query": "n8n price",
-     "value": 356350
+     "value": 429700
     },
     {
      "query": "n8n docs",
-     "value": 259100
-    },
-    {
-     "query": "n8n free",
-     "value": 258500
-    },
-    {
-     "query": "n8n news",
-     "value": 246700
+     "value": 257250
     },
     {
      "query": "n8n documentation",
-     "value": 241350
+     "value": 240850
     },
     {
      "query": "make",
-     "value": 230200
+     "value": 229200
+    },
+    {
+     "query": "what is n8n",
+     "value": 222800
+    },
+    {
+     "query": "n8n pricing",
+     "value": 211250
+    },
+    {
+     "query": "n8n local",
+     "value": 193100
     }
    ]
   },
@@ -477,28 +463,24 @@
    "pays": "FR",
    "mot": "automatisation",
    "trends": {
-    "niveau_3m": 58.2,
-    "an_dernier_3m": 60.0,
-    "evol_1an_pct": -3,
-    "vs_moyenne_5ans": 1.14,
+    "niveau_3m": 61.7,
+    "an_dernier_3m": 61.3,
+    "evol_1an_pct": 1,
+    "vs_moyenne_5ans": 1.22,
     "pic": 100
    },
    "requetes_en_hausse": [
     {
      "query": "automatisation pour la maison du futur",
-     "value": 300
+     "value": 6100
     },
     {
      "query": "youtube automatisation",
-     "value": 130
-    },
-    {
-     "query": "automatisation iphone",
-     "value": 110
+     "value": 120
     },
     {
      "query": "automatisation marketing",
-     "value": 60
+     "value": 70
     }
    ]
   },
@@ -506,44 +488,32 @@
    "pays": "FR",
    "mot": "formation IA",
    "trends": {
-    "niveau_3m": 29.6,
-    "an_dernier_3m": 19.8,
+    "niveau_3m": 30.3,
+    "an_dernier_3m": 20.4,
     "evol_1an_pct": 49,
-    "vs_moyenne_5ans": 2.44,
+    "vs_moyenne_5ans": 2.47,
     "pic": 100
    },
    "requetes_en_hausse": [
     {
-     "query": "claude ia",
-     "value": 214700
+     "query": "formation agent ia",
+     "value": 160500
     },
     {
-     "query": "cegos",
-     "value": 76850
+     "query": "formation ia comundi",
+     "value": 2700
     },
     {
-     "query": "cpf",
-     "value": 500
-    },
-    {
-     "query": "google ia",
-     "value": 100
-    },
-    {
-     "query": "formation en ligne",
-     "value": 80
+     "query": "formation ia cpf",
+     "value": 250
     },
     {
      "query": "formation ia en ligne",
-     "value": 70
-    },
-    {
-     "query": "ia gratuite",
      "value": 60
     },
     {
      "query": "formation ia gratuite",
-     "value": 50
+     "value": 40
     }
    ]
   },
@@ -551,10 +521,10 @@
    "pays": "FR",
    "mot": "ChatGPT entreprise",
    "trends": {
-    "niveau_3m": 40.8,
-    "an_dernier_3m": 80.6,
-    "evol_1an_pct": -49,
-    "vs_moyenne_5ans": 1.07,
+    "niveau_3m": 39.3,
+    "an_dernier_3m": 83.1,
+    "evol_1an_pct": -53,
+    "vs_moyenne_5ans": 1.04,
     "pic": 100
    },
    "requetes_en_hausse": []
@@ -563,44 +533,44 @@
    "pays": "FR",
    "mot": "marchés publics",
    "trends": {
-    "niveau_3m": 58.7,
-    "an_dernier_3m": 73.9,
-    "evol_1an_pct": -21,
-    "vs_moyenne_5ans": 0.84,
+    "niveau_3m": 59.6,
+    "an_dernier_3m": 73.0,
+    "evol_1an_pct": -18,
+    "vs_moyenne_5ans": 0.86,
     "pic": 100
    },
    "requetes_en_hausse": [
     {
      "query": "seuils marchés publics 2024",
-     "value": 89650
-    },
-    {
-     "query": "seuils marchés publics 2023",
-     "value": 67400
-    },
-    {
-     "query": "seuil marchés publics 2024",
-     "value": 53100
-    },
-    {
-     "query": "seuil des marchés publics 2022",
-     "value": 38800
-    },
-    {
-     "query": "code des marchés publics 2023",
-     "value": 24000
-    },
-    {
-     "query": "seuil des marchés publics 2023",
-     "value": 17900
+     "value": 90350
     },
     {
      "query": "seuils marchés publics 2026",
-     "value": 15000
+     "value": 67200
+    },
+    {
+     "query": "seuils marchés publics 2023",
+     "value": 66700
+    },
+    {
+     "query": "seuil marchés publics 2024",
+     "value": 53700
+    },
+    {
+     "query": "code des marchés publics 2022",
+     "value": 32050
+    },
+    {
+     "query": "code des marchés publics 2023",
+     "value": 23750
     },
     {
      "query": "tableau seuils marchés publics 2022",
-     "value": 12100
+     "value": 12000
+    },
+    {
+     "query": "tableau seuils marchés publics 2023",
+     "value": 9550
     }
    ]
   },
@@ -608,16 +578,16 @@
    "pays": "FR",
    "mot": "appel d'offres",
    "trends": {
-    "niveau_3m": 63.0,
-    "an_dernier_3m": 78.0,
+    "niveau_3m": 60.6,
+    "an_dernier_3m": 74.5,
     "evol_1an_pct": -19,
-    "vs_moyenne_5ans": 1.02,
+    "vs_moyenne_5ans": 1.05,
     "pic": 100
    },
    "requetes_en_hausse": [
     {
      "query": "dematis appel d'offres",
-     "value": 120
+     "value": 90
     }
    ]
   },
@@ -625,44 +595,32 @@
    "pays": "FR",
    "mot": "création entreprise",
    "trends": {
-    "niveau_3m": 63.2,
-    "an_dernier_3m": 77.2,
+    "niveau_3m": 64.2,
+    "an_dernier_3m": 78.5,
     "evol_1an_pct": -18,
-    "vs_moyenne_5ans": 0.87,
+    "vs_moyenne_5ans": 0.88,
     "pic": 100
    },
    "requetes_en_hausse": [
     {
-     "query": "guichet unique",
-     "value": 2200
+     "query": "création micro entreprise inpi",
+     "value": 5500
     },
     {
-     "query": "inpi",
-     "value": 1400
+     "query": "les 5 étapes de la création d'une entreprise",
+     "value": 600
     },
     {
-     "query": "legalplace",
-     "value": 550
-    },
-    {
-     "query": "création micro-entreprise gratuit",
-     "value": 500
-    },
-    {
-     "query": "urssaf création entreprise",
-     "value": 80
-    },
-    {
-     "query": "urssaf",
-     "value": 80
-    },
-    {
-     "query": "mon entreprise",
-     "value": 70
+     "query": "urssaf création micro entreprise",
+     "value": 110
     },
     {
      "query": "création de micro entreprise",
-     "value": 60
+     "value": 80
+    },
+    {
+     "query": "création micro entreprise",
+     "value": 50
     }
    ]
   },
@@ -670,89 +628,89 @@
    "pays": "FR",
    "mot": "micro-entreprise",
    "trends": {
-    "niveau_3m": 46.4,
-    "an_dernier_3m": 40.6,
-    "evol_1an_pct": 14,
-    "vs_moyenne_5ans": 1.24,
-    "pic": 100
-   },
-   "requetes_en_hausse": [
-    {
-     "query": "plafond micro-entreprise 2023",
-     "value": 28500
-    },
-    {
-     "query": "plafond micro-entreprise prestation de service",
-     "value": 1450
-    },
-    {
-     "query": "création micro-entreprise gratuit",
-     "value": 200
-    },
-    {
-     "query": "micro-entreprise plafond",
-     "value": 70
-    },
-    {
-     "query": "tva micro-entreprise",
-     "value": 50
-    }
-   ]
-  },
-  {
-   "pays": "FR",
-   "mot": "Jesmonite",
-   "trends": {
-    "niveau_3m": 28.0,
-    "an_dernier_3m": 42.6,
-    "evol_1an_pct": -34,
-    "vs_moyenne_5ans": 0.94,
+    "niveau_3m": 46.2,
+    "an_dernier_3m": 42.5,
+    "evol_1an_pct": 9,
+    "vs_moyenne_5ans": 1.19,
     "pic": 100
    },
    "requetes_en_hausse": []
   },
   {
    "pays": "FR",
-   "mot": "moule silicone",
+   "mot": "Jesmonite",
    "trends": {
-    "niveau_3m": 56.8,
-    "an_dernier_3m": 56.5,
-    "evol_1an_pct": 1,
-    "vs_moyenne_5ans": 1.11,
+    "niveau_3m": 30.2,
+    "an_dernier_3m": 44.2,
+    "evol_1an_pct": -32,
+    "vs_moyenne_5ans": 0.99,
     "pic": 100
    },
    "requetes_en_hausse": [
     {
-     "query": "moule silicone air fryer action",
-     "value": 25450
+     "query": "jesmonite pas cher",
+     "value": 115350
     },
     {
+     "query": "jesmonite leroy merlin",
+     "value": 97900
+    },
+    {
+     "query": "jesmonite calculator",
+     "value": 77850
+    },
+    {
+     "query": "melange jesmonite",
+     "value": 61050
+    },
+    {
+     "query": "kit jesmonite",
+     "value": 40
+    }
+   ]
+  },
+  {
+   "pays": "FR",
+   "mot": "moule silicone",
+   "trends": {
+    "niveau_3m": 60.3,
+    "an_dernier_3m": 58.6,
+    "evol_1an_pct": 3,
+    "vs_moyenne_5ans": 1.17,
+    "pic": 100
+   },
+   "requetes_en_hausse": [
+    {
      "query": "moule silicone air fryer",
-     "value": 20400
+     "value": 246500
+    },
+    {
+     "query": "moule silicone air fryer action",
+     "value": 27200
     },
     {
      "query": "moule silicone bougie",
      "value": 200
     },
     {
-     "query": "action moule silicone",
+     "query": "moule bougie silicone",
      "value": 200
     },
     {
-     "query": "temps de cuisson cannelés moule silicone",
-     "value": 120
+     "query": "moule silicone action",
+     "value": 200
     },
     {
      "query": "moule silicone pour resine epoxy",
+     "value": 110
+    },
+    {
+     "query": "moule a muffin en silicone",
      "value": 100
     },
     {
-     "query": "moule silicone resine",
-     "value": 60
-    },
-    {
-     "query": "moule silicone danger",
-     "value": 60
+     "query": "moule à bûche silicone",
+     "value": 90
     }
    ]
   },
@@ -760,36 +718,40 @@
    "pays": "FR",
    "mot": "impression 3D",
    "trends": {
-    "niveau_3m": 77.6,
-    "an_dernier_3m": 60.2,
+    "niveau_3m": 80.7,
+    "an_dernier_3m": 62.7,
     "evol_1an_pct": 29,
-    "vs_moyenne_5ans": 1.48,
+    "vs_moyenne_5ans": 1.51,
     "pic": 100
    },
    "requetes_en_hausse": [
     {
-     "query": "bambulab",
-     "value": 53050
-    },
-    {
-     "query": "maker world",
-     "value": 5750
-    },
-    {
      "query": "modèle impression 3d gratuit",
-     "value": 300
+     "value": 350
     },
     {
-     "query": "cult 3d",
-     "value": 110
+     "query": "site impression 3d gratuit",
+     "value": 130
     },
     {
-     "query": "petg",
-     "value": 90
+     "query": "impression 3d gratuit",
+     "value": 80
+    },
+    {
+     "query": "impression 3d résine",
+     "value": 80
+    },
+    {
+     "query": "impression 3d modèle",
+     "value": 80
     },
     {
      "query": "impression 3d resine",
-     "value": 80
+     "value": 70
+    },
+    {
+     "query": "fichier impression 3d",
+     "value": 50
     }
    ]
   },
@@ -797,10 +759,10 @@
    "pays": "FR",
    "mot": "statue plâtre",
    "trends": {
-    "niveau_3m": 2.6,
+    "niveau_3m": 6.5,
     "an_dernier_3m": 0.0,
     "evol_1an_pct": null,
-    "vs_moyenne_5ans": 2.47,
+    "vs_moyenne_5ans": 9.26,
     "pic": 100
    },
    "requetes_en_hausse": []
@@ -809,44 +771,44 @@
    "pays": "FR",
    "mot": "reconditionné",
    "trends": {
-    "niveau_3m": 54.0,
-    "an_dernier_3m": 45.6,
-    "evol_1an_pct": 18,
-    "vs_moyenne_5ans": 1.35,
+    "niveau_3m": 60.0,
+    "an_dernier_3m": 51.7,
+    "evol_1an_pct": 16,
+    "vs_moyenne_5ans": 1.36,
     "pic": 100
    },
    "requetes_en_hausse": [
     {
-     "query": "iphone 15 pro max reconditionné",
-     "value": 27250
-    },
-    {
      "query": "iphone 14 pro reconditionné",
-     "value": 26400
+     "value": 33200
     },
     {
      "query": "iphone 14 pro max reconditionné",
-     "value": 23750
+     "value": 31150
     },
     {
-     "query": "iphone 15 pro reconditionné",
-     "value": 19500
+     "query": "iphone 15 pro max reconditionné",
+     "value": 25300
     },
     {
      "query": "iphone 17 pro reconditionné",
-     "value": 17700
+     "value": 21700
+    },
+    {
+     "query": "iphone 15 pro reconditionné",
+     "value": 21300
     },
     {
      "query": "iphone 16 pro reconditionné",
-     "value": 16400
+     "value": 16200
     },
     {
      "query": "steam deck reconditionné",
-     "value": 9150
+     "value": 15950
     },
     {
      "query": "iphone 14 reconditionné",
-     "value": 8350
+     "value": 8650
     }
    ]
   },
@@ -854,44 +816,44 @@
    "pays": "FR",
    "mot": "seconde main",
    "trends": {
-    "niveau_3m": 79.0,
-    "an_dernier_3m": 74.3,
+    "niveau_3m": 80.9,
+    "an_dernier_3m": 76.2,
     "evol_1an_pct": 6,
-    "vs_moyenne_5ans": 1.19,
+    "vs_moyenne_5ans": 1.17,
     "pic": 100
    },
    "requetes_en_hausse": [
     {
-     "query": "seconde main trelissac",
-     "value": 61900
-    },
-    {
-     "query": "la seconde main trelissac",
-     "value": 33550
-    },
-    {
-     "query": "smala seconde main",
-     "value": 33400
-    },
-    {
-     "query": "ba&sh seconde main",
-     "value": 21600
-    },
-    {
      "query": "paradigme seconde main",
-     "value": 19700
-    },
-    {
-     "query": "bash seconde main",
-     "value": 1650
+     "value": 19400
     },
     {
      "query": "magasin seconde main autour de moi",
-     "value": 1150
+     "value": 15950
     },
     {
-     "query": "maje seconde main",
-     "value": 750
+     "query": "seconde main cluses",
+     "value": 15900
+    },
+    {
+     "query": "seconde main trelissac",
+     "value": 4600
+    },
+    {
+     "query": "la seconde main trelissac",
+     "value": 2300
+    },
+    {
+     "query": "smala seconde main",
+     "value": 2300
+    },
+    {
+     "query": "bash seconde main",
+     "value": 1450
+    },
+    {
+     "query": "ba&sh seconde main",
+     "value": 1050
     }
    ]
   },
@@ -899,44 +861,44 @@
    "pays": "FR",
    "mot": "complément alimentaire",
    "trends": {
-    "niveau_3m": 85.3,
-    "an_dernier_3m": 84.3,
-    "evol_1an_pct": 1,
-    "vs_moyenne_5ans": 1.17,
+    "niveau_3m": 83.5,
+    "an_dernier_3m": 84.0,
+    "evol_1an_pct": -1,
+    "vs_moyenne_5ans": 1.15,
     "pic": 100
    },
    "requetes_en_hausse": [
     {
      "query": "complément alimentaire pour baisser le cortisol",
-     "value": 5000
+     "value": 1650
     },
     {
      "query": "top 10 marque de complément alimentaire",
-     "value": 350
-    },
-    {
-     "query": "cuure",
-     "value": 300
-    },
-    {
-     "query": "bulk",
-     "value": 200
-    },
-    {
-     "query": "aroma zone",
-     "value": 190
-    },
-    {
-     "query": "nac complément alimentaire",
-     "value": 170
+     "value": 250
     },
     {
      "query": "safran complément alimentaire",
-     "value": 170
+     "value": 160
+    },
+    {
+     "query": "nac complément alimentaire",
+     "value": 150
+    },
+    {
+     "query": "complément alimentaire cholestérol",
+     "value": 120
     },
     {
      "query": "complément alimentaire anti inflammatoire",
-     "value": 120
+     "value": 110
+    },
+    {
+     "query": "quel complément alimentaire",
+     "value": 110
+    },
+    {
+     "query": "dim complément alimentaire",
+     "value": 100
     }
    ]
   },
@@ -944,44 +906,44 @@
    "pays": "FR",
    "mot": "GLP-1",
    "trends": {
-    "niveau_3m": 19.1,
-    "an_dernier_3m": 34.8,
-    "evol_1an_pct": -45,
-    "vs_moyenne_5ans": 1.5,
+    "niveau_3m": 17.8,
+    "an_dernier_3m": 37.8,
+    "evol_1an_pct": -53,
+    "vs_moyenne_5ans": 1.4,
     "pic": 100
    },
    "requetes_en_hausse": [
     {
      "query": "glp-1 news",
-     "value": 1186800
+     "value": 1170950
     },
     {
      "query": "what is glp-1",
-     "value": 900300
+     "value": 882100
     },
     {
      "query": "glp-1 weight loss",
-     "value": 814950
+     "value": 807650
     },
     {
      "query": "tirzepatide",
-     "value": 511150
-    },
-    {
-     "query": "glp-1 ozempic",
-     "value": 452100
-    },
-    {
-     "query": "wegovy",
-     "value": 397250
+     "value": 501600
     },
     {
      "query": "mounjaro",
-     "value": 304100
+     "value": 311200
     },
     {
      "query": "glp-1 what is it",
-     "value": 289650
+     "value": 282350
+    },
+    {
+     "query": "glp-1 medications",
+     "value": 225750
+    },
+    {
+     "query": "glp-1 patch",
+     "value": 118750
     }
    ]
   },
@@ -989,40 +951,32 @@
    "pays": "FR",
    "mot": "mutuelle chien",
    "trends": {
-    "niveau_3m": 79.6,
-    "an_dernier_3m": 50.2,
-    "evol_1an_pct": 59,
-    "vs_moyenne_5ans": 1.27,
+    "niveau_3m": 74.2,
+    "an_dernier_3m": 48.7,
+    "evol_1an_pct": 52,
+    "vs_moyenne_5ans": 1.23,
     "pic": 100
    },
    "requetes_en_hausse": [
     {
      "query": "comparateur mutuelle chien flexmind",
-     "value": 285950
-    },
-    {
-     "query": "agria mutuelle chien",
-     "value": 550
+     "value": 294550
     },
     {
      "query": "meilleure mutuelle chien 60 millions de consommateur",
-     "value": 190
+     "value": 170
     },
     {
      "query": "mutuelle chien sans carence",
      "value": 90
     },
     {
-     "query": "mutuelle chien tarif",
-     "value": 80
-    },
-    {
      "query": "meilleure mutuelle chien",
-     "value": 60
+     "value": 50
     },
     {
-     "query": "comparateur mutuelle chien",
-     "value": 40
+     "query": "mutuelle pour chien tarif",
+     "value": 50
     }
    ]
   },
@@ -1030,44 +984,44 @@
    "pays": "FR",
    "mot": "pompe à chaleur",
    "trends": {
-    "niveau_3m": 69.4,
-    "an_dernier_3m": 46.7,
-    "evol_1an_pct": 49,
-    "vs_moyenne_5ans": 1.49,
+    "niveau_3m": 70.1,
+    "an_dernier_3m": 48.0,
+    "evol_1an_pct": 46,
+    "vs_moyenne_5ans": 1.55,
     "pic": 100
    },
    "requetes_en_hausse": [
     {
      "query": "aide pompe à chaleur 2023",
-     "value": 35100
+     "value": 34850
     },
     {
      "query": "aide pompe à chaleur 2024",
-     "value": 20050
+     "value": 20450
     },
     {
      "query": "aide pompe à chaleur 2022",
-     "value": 1450
+     "value": 1200
     },
     {
      "query": "prix pompe à chaleur maison 150m2",
      "value": 300
     },
     {
-     "query": "prix pompe à chaleur air-air pour 120m2",
-     "value": 300
-    },
-    {
      "query": "prix pompe à chaleur maison 120m2",
-     "value": 180
+     "value": 190
     },
     {
-     "query": "sèche-linge pompe à chaleur ou condensation",
-     "value": 160
+     "query": "pompe à chaleur lg",
+     "value": 130
     },
     {
-     "query": "prime renov",
-     "value": 150
+     "query": "combien coûte une pompe à chaleur",
+     "value": 130
+    },
+    {
+     "query": "pompe à chaleur appartement",
+     "value": 120
     }
    ]
   },
@@ -1075,44 +1029,44 @@
    "pays": "FR",
    "mot": "panneaux solaires",
    "trends": {
-    "niveau_3m": 63.9,
-    "an_dernier_3m": 45.8,
-    "evol_1an_pct": 39,
-    "vs_moyenne_5ans": 1.17,
+    "niveau_3m": 62.6,
+    "an_dernier_3m": 45.2,
+    "evol_1an_pct": 38,
+    "vs_moyenne_5ans": 1.15,
     "pic": 100
    },
    "requetes_en_hausse": [
     {
      "query": "groupe verlaine panneaux solaires",
-     "value": 20850
-    },
-    {
-     "query": "aides panneaux solaires 2024",
-     "value": 19350
-    },
-    {
-     "query": "ecosunenergy.fr panneaux solaires",
-     "value": 16050
-    },
-    {
-     "query": "materfrance",
-     "value": 15000
-    },
-    {
-     "query": "panneaux solaires plug and play",
-     "value": 5900
+     "value": 20550
     },
     {
      "query": "carteborne.fr panneaux solaires",
-     "value": 2200
+     "value": 20450
     },
     {
-     "query": "ecoflow",
-     "value": 2150
+     "query": "aides panneaux solaires 2024",
+     "value": 19400
+    },
+    {
+     "query": "ecosunenergy.fr panneaux solaires",
+     "value": 16950
+    },
+    {
+     "query": "panneaux solaires plug and play",
+     "value": 5200
     },
     {
      "query": "123 panneaux solaires",
-     "value": 1650
+     "value": 2450
+    },
+    {
+     "query": "batterie virtuelle panneaux solaires",
+     "value": 1350
+    },
+    {
+     "query": "kit nettoyage panneaux solaires photovoltaïques",
+     "value": 600
     }
    ]
   },
@@ -1120,10 +1074,10 @@
    "pays": "FR",
    "mot": "batterie domestique",
    "trends": {
-    "niveau_3m": 60.8,
-    "an_dernier_3m": 28.8,
-    "evol_1an_pct": 111,
-    "vs_moyenne_5ans": 2.76,
+    "niveau_3m": 70.3,
+    "an_dernier_3m": 40.4,
+    "evol_1an_pct": 74,
+    "vs_moyenne_5ans": 3.09,
     "pic": 100
    },
    "requetes_en_hausse": []
@@ -1132,10 +1086,10 @@
    "pays": "FR",
    "mot": "cybersécurité PME",
    "trends": {
-    "niveau_3m": 13.7,
+    "niveau_3m": 15.0,
     "an_dernier_3m": 0.0,
     "evol_1an_pct": null,
-    "vs_moyenne_5ans": 20.15,
+    "vs_moyenne_5ans": 15.66,
     "pic": 100
    },
    "requetes_en_hausse": []
@@ -1144,56 +1098,89 @@
    "pays": "FR",
    "mot": "RGPD",
    "trends": {
-    "niveau_3m": 68.5,
-    "an_dernier_3m": 78.7,
-    "evol_1an_pct": -13,
-    "vs_moyenne_5ans": 0.92,
+    "niveau_3m": 70.5,
+    "an_dernier_3m": 80.4,
+    "evol_1an_pct": -12,
+    "vs_moyenne_5ans": 0.95,
     "pic": 100
    },
-   "requetes_en_hausse": []
+   "requetes_en_hausse": [
+    {
+     "query": "c'est quoi le rgpd",
+     "value": 200
+    },
+    {
+     "query": "def rgpd",
+     "value": 180
+    },
+    {
+     "query": "article 15 rgpd",
+     "value": 180
+    },
+    {
+     "query": "que signifie rgpd",
+     "value": 170
+    },
+    {
+     "query": "rgpd c'est quoi",
+     "value": 160
+    },
+    {
+     "query": "dpa rgpd",
+     "value": 160
+    },
+    {
+     "query": "article 5 rgpd",
+     "value": 140
+    },
+    {
+     "query": "juriste rgpd",
+     "value": 130
+    }
+   ]
   },
   {
    "pays": "monde",
    "mot": "AI agent",
    "trends": {
-    "niveau_3m": 26.6,
-    "an_dernier_3m": 24.5,
-    "evol_1an_pct": 9,
-    "vs_moyenne_5ans": 1.85,
+    "niveau_3m": 26.1,
+    "an_dernier_3m": 26.6,
+    "evol_1an_pct": -2,
+    "vs_moyenne_5ans": 1.81,
     "pic": 100
    },
    "requetes_en_hausse": [
     {
-     "query": "ai news",
-     "value": 784600
+     "query": "what is ai agent",
+     "value": 734400
     },
     {
-     "query": "github",
-     "value": 617100
-    },
-    {
-     "query": "claude",
-     "value": 480200
+     "query": "github ai agent",
+     "value": 619700
     },
     {
      "query": "claude ai",
-     "value": 479300
+     "value": 483450
     },
     {
-     "query": "claude agent",
-     "value": 479100
+     "query": "claude",
+     "value": 483150
     },
     {
-     "query": "n8n",
-     "value": 404900
+     "query": "claude ai agent",
+     "value": 481800
     },
     {
-     "query": "n8n ai agent",
-     "value": 402300
+     "query": "chatgpt agent",
+     "value": 280200
     },
     {
-     "query": "openai",
-     "value": 392600
+     "query": "hermes agent",
+     "value": 271250
+    },
+    {
+     "query": "hermes ai agent",
+     "value": 271200
     }
    ]
   },
@@ -1201,44 +1188,44 @@
    "pays": "monde",
    "mot": "n8n",
    "trends": {
-    "niveau_3m": 22.2,
-    "an_dernier_3m": 65.8,
-    "evol_1an_pct": -66,
-    "vs_moyenne_5ans": 1.07,
+    "niveau_3m": 22.7,
+    "an_dernier_3m": 68.3,
+    "evol_1an_pct": -67,
+    "vs_moyenne_5ans": 1.1,
     "pic": 100
    },
    "requetes_en_hausse": [
     {
      "query": "n8n ai",
-     "value": 851500
+     "value": 824400
     },
     {
      "query": "n8n agent",
-     "value": 407950
-    },
-    {
-     "query": "n8n price",
-     "value": 356350
+     "value": 423350
     },
     {
      "query": "n8n docs",
-     "value": 259100
-    },
-    {
-     "query": "n8n free",
-     "value": 258500
-    },
-    {
-     "query": "n8n news",
-     "value": 246700
+     "value": 253450
     },
     {
      "query": "n8n documentation",
-     "value": 241350
+     "value": 237250
     },
     {
      "query": "make",
-     "value": 230200
+     "value": 225800
+    },
+    {
+     "query": "what is n8n",
+     "value": 219500
+    },
+    {
+     "query": "n8n pricing",
+     "value": 208100
+    },
+    {
+     "query": "n8n local",
+     "value": 190250
     }
    ]
   },
@@ -1246,44 +1233,44 @@
    "pays": "monde",
    "mot": "vibe coding",
    "trends": {
-    "niveau_3m": 26.5,
-    "an_dernier_3m": 17.5,
-    "evol_1an_pct": 51,
-    "vs_moyenne_5ans": 3.31,
+    "niveau_3m": 27.8,
+    "an_dernier_3m": 18.5,
+    "evol_1an_pct": 50,
+    "vs_moyenne_5ans": 3.4,
     "pic": 100
    },
    "requetes_en_hausse": [
     {
      "query": "vibe coding ai",
-     "value": 1002750
+     "value": 1000500
     },
     {
      "query": "vibe code",
-     "value": 716350
+     "value": 718450
     },
     {
      "query": "claude vibe coding",
-     "value": 494200
+     "value": 494550
     },
     {
      "query": "claude",
-     "value": 493950
+     "value": 492600
     },
     {
      "query": "what is vibe coding",
-     "value": 433000
+     "value": 426150
     },
     {
-     "query": "vibe coding google",
-     "value": 403050
+     "query": "google vibe coding",
+     "value": 405250
     },
     {
      "query": "vibe coding app",
-     "value": 388850
+     "value": 398900
     },
     {
      "query": "vibe coding meaning",
-     "value": 328100
+     "value": 309100
     }
    ]
   },
@@ -1291,10 +1278,10 @@
    "pays": "monde",
    "mot": "AI automation agency",
    "trends": {
-    "niveau_3m": 0.5,
+    "niveau_3m": 5.3,
     "an_dernier_3m": 0.0,
     "evol_1an_pct": null,
-    "vs_moyenne_5ans": 0.13,
+    "vs_moyenne_5ans": 3.17,
     "pic": 100
    },
    "requetes_en_hausse": []
@@ -1306,17 +1293,13 @@
     "niveau_3m": 0.4,
     "an_dernier_3m": 0.0,
     "evol_1an_pct": null,
-    "vs_moyenne_5ans": 0.4,
+    "vs_moyenne_5ans": 0.29,
     "pic": 100
    },
    "requetes_en_hausse": [
     {
      "query": "european accessibility act 2025",
-     "value": 4324150
-    },
-    {
-     "query": "eaa",
-     "value": 816650
+     "value": 100
     }
    ]
   },
@@ -1324,30 +1307,13 @@
    "pays": "monde",
    "mot": "e-invoicing",
    "trends": {
-    "niveau_3m": 9.7,
-    "an_dernier_3m": 17.6,
-    "evol_1an_pct": -45,
-    "vs_moyenne_5ans": 0.95,
+    "niveau_3m": 7.9,
+    "an_dernier_3m": 18.7,
+    "evol_1an_pct": -58,
+    "vs_moyenne_5ans": 0.84,
     "pic": 100
    },
-   "requetes_en_hausse": [
-    {
-     "query": "edicom e-invoicing",
-     "value": 136850
-    },
-    {
-     "query": "sap drc e-invoicing",
-     "value": 116250
-    },
-    {
-     "query": "e-invoicing france",
-     "value": 650
-    },
-    {
-     "query": "peppol e-invoicing",
-     "value": 250
-    }
-   ]
+   "requetes_en_hausse": []
   }
  ],
  "wikipedia": {
@@ -1375,8 +1341,8 @@
    "202606": 16,
    "202607": 22,
    "202608": 36,
-   "202609": 29,
-   "202610": 14,
+   "202609": 19,
+   "202610": 5,
    "202611": 0
   },
   "fr:Accessibilité du web": {
@@ -1403,8 +1369,8 @@
    "202606": 242,
    "202607": 131,
    "202608": 151,
-   "202609": 1077,
-   "202610": 514,
+   "202609": 948,
+   "202610": 403,
    "202611": 5
   },
   "fr:Règlement sur l'intelligence artificielle": {
@@ -1418,8 +1384,8 @@
    "202606": 663,
    "202607": 458,
    "202608": 561,
-   "202609": 1110,
-   "202610": 746,
+   "202609": 878,
+   "202610": 622,
    "202611": 5
   },
   "fr:Diagnostic de performance énergétique": {
@@ -1446,8 +1412,8 @@
    "202606": 1621,
    "202607": 1406,
    "202608": 1019,
-   "202609": 1617,
-   "202610": 947,
+   "202609": 1332,
+   "202610": 847,
    "202611": 15
   },
   "en:Jesmonite": {
@@ -1474,8 +1440,8 @@
    "202606": 1099,
    "202607": 985,
    "202608": 976,
-   "202609": 1252,
-   "202610": 1123,
+   "202609": 1226,
+   "202610": 1082,
    "202611": 21
   },
   "en:N8n": {
@@ -1492,8 +1458,8 @@
    "202606": 12962,
    "202607": 10004,
    "202608": 9901,
-   "202609": 11721,
-   "202610": 11738,
+   "202609": 10651,
+   "202610": 10564,
    "202611": 224
   },
   "fr:Impression 3D": {
@@ -1520,8 +1486,8 @@
    "202606": 1611,
    "202607": 1233,
    "202608": 996,
-   "202609": 1775,
-   "202610": 1830,
+   "202609": 1664,
+   "202610": 1736,
    "202611": 36
   },
   "fr:Directive NIS 2": {
@@ -1533,8 +1499,8 @@
    "202606": 1415,
    "202607": 927,
    "202608": 488,
-   "202609": 92,
-   "202610": 122,
+   "202609": 74,
+   "202610": 113,
    "202611": 0
   },
   "en:Vibe coding": {
@@ -1556,8 +1522,8 @@
    "202606": 52692,
    "202607": 41490,
    "202608": 35281,
-   "202609": 45037,
-   "202610": 67878,
+   "202609": 40987,
+   "202610": 64916,
    "202611": 1544
   }
  }
