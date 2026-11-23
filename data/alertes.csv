@@ -1415,3 +1415,7 @@ ts_utc,type,universe_id,nom,avant,maintenant,variation,rang,rang_avant,releve
 2026-11-23T05:12:13Z,forte_hausse,10771440209,[UPDATE 3.1 & EXPANDED MAP] Onthel Purwodadi,1771,3186,0.799,312,446,data/snapshots/2026/11/23/05.csv
 2026-11-23T06:12:08Z,forte_hausse,8292068736,The Block,649,2492,2.8398,352,586,data/snapshots/2026/11/23/06.csv
 2026-11-23T06:59:16Z,forte_hausse,10775316033,[QUESTS] RoofLine [ALPHA],1680,3068,0.8262,294,437,data/snapshots/2026/11/23/06.csv
+2026-11-23T09:52:35Z,forte_hausse,10774769300,[EVENT] River Hunter,6161,10134,0.6449,91,153,data/snapshots/2026/11/23/09.csv
+2026-11-23T09:52:35Z,forte_hausse,5125369493,Driving Simulator,3074,4742,0.5426,208,289,data/snapshots/2026/11/23/09.csv
+2026-11-23T09:52:35Z,forte_hausse,10767494536,Hike For Eggs,2342,3754,0.6029,254,340,data/snapshots/2026/11/23/09.csv
+2026-11-23T09:52:35Z,forte_hausse,7787359931,Kingdom World,1953,3124,0.5996,294,377,data/snapshots/2026/11/23/09.csv
