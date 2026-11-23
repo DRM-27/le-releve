@@ -1,10 +1,10 @@
 {
- "genere": "2026-11-23T07:13:08Z",
+ "genere": "2026-11-23T08:13:03Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/",
-   "vues": 81
+   "vues": 85
   },
   {
    "path": "/le-releve/",
@@ -47,11 +47,11 @@
    "vues": 2
   },
   {
-   "path": "/le-releve/alertes/",
+   "path": "/le-releve/articles/2026-11-17-volley-bomb-quotidien/",
    "vues": 2
   },
   {
-   "path": "/le-releve/articles/2026-11-17-volley-bomb-quotidien/",
+   "path": "/le-releve/alertes/",
    "vues": 2
   },
   {
@@ -67,6 +67,10 @@
    "vues": 1
   },
   {
+   "path": "/source/",
+   "vues": 1
+  },
+  {
    "path": "/explorer/",
    "vues": 1
   },
@@ -76,10 +80,6 @@
   },
   {
    "path": "/en/jeux/upd-11-part-1-king-legacy-1451439645/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/jeux/s8-1-speed-keyboard-escape-candy-chocolate-9584852943/",
    "vues": 1
   }
  ]
