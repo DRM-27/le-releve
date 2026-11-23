@@ -1422,3 +1422,4 @@ ts_utc,type,universe_id,nom,avant,maintenant,variation,rang,rang_avant,releve
 2026-11-23T10:12:31Z,forte_hausse,10769149947,صيد الضبّان,6323,10504,0.6612,92,145,data/snapshots/2026/11/23/10.csv
 2026-11-23T10:12:31Z,forte_hausse,10771508240,[UPD🏁] Simple Drift,2024,3167,0.5647,298,368,data/snapshots/2026/11/23/10.csv
 2026-11-23T10:12:31Z,forte_hausse,10775377114,[🥊] Tumble Dash,1464,2221,0.5171,365,436,data/snapshots/2026/11/23/10.csv
+2026-11-23T12:12:37Z,forte_hausse,8292068736,The Block,697,2909,3.1736,349,568,data/snapshots/2026/11/23/12.csv

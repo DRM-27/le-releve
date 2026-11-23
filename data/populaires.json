@@ -1,21 +1,21 @@
 {
- "genere": "2026-11-23T11:13:22Z",
+ "genere": "2026-11-23T12:13:27Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/",
-   "vues": 88
+   "vues": 90
   },
   {
    "path": "/le-releve/",
-   "vues": 13
-  },
-  {
-   "path": "/en/jeux/uts-3-0-toilet-tower-defense-4778845442/",
-   "vues": 5
+   "vues": 11
   },
   {
    "path": "/classement/",
+   "vues": 6
+  },
+  {
+   "path": "/en/jeux/uts-3-0-toilet-tower-defense-4778845442/",
    "vues": 5
   },
   {
@@ -25,6 +25,10 @@
   {
    "path": "/le-releve/explorer/",
    "vues": 3
+  },
+  {
+   "path": "/explorer/",
+   "vues": 2
   },
   {
    "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
@@ -43,11 +47,7 @@
    "vues": 2
   },
   {
-   "path": "/articles/2026-11-18-hyper-realistic-ragdoll-quotidien/",
-   "vues": 2
-  },
-  {
-   "path": "/en/studios/emo-playworks/",
+   "path": "/en/articles/2026-11-22-save-the-krusty-krab-quotidien/",
    "vues": 2
   },
   {
@@ -55,11 +55,19 @@
    "vues": 2
   },
   {
+   "path": "/articles/2026-11-18-hyper-realistic-ragdoll-quotidien/",
+   "vues": 2
+  },
+  {
    "path": "/le-releve/alertes/",
    "vues": 2
   },
   {
-   "path": "/en/studios/frosted-studio/",
+   "path": "/en/studios/emo-playworks/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/confidentialite/",
    "vues": 1
   },
   {
@@ -67,19 +75,11 @@
    "vues": 1
   },
   {
-   "path": "/en/jeux/update-2-1-30-floors-up-10772879271/",
-   "vues": 1
-  },
-  {
-   "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
+   "path": "/en/studios/frosted-studio/",
    "vues": 1
   },
   {
    "path": "/le-releve/partenaires/",
-   "vues": 1
-  },
-  {
-   "path": "/en/jeux/ball-vs-ball-fusion-mode-10685282333/",
    "vues": 1
   }
  ]
