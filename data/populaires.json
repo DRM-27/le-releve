@@ -1,10 +1,10 @@
 {
- "genere": "2026-11-24T19:06:38Z",
+ "genere": "2026-11-24T20:07:16Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/",
-   "vues": 122
+   "vues": 126
   },
   {
    "path": "/le-releve/",
@@ -23,55 +23,27 @@
    "vues": 5
   },
   {
-   "path": "/articles/2026-11-19-jailbreak-quotidien/",
+   "path": "/explorer/",
    "vues": 4
   },
   {
-   "path": "/le-releve/explorer/",
-   "vues": 3
+   "path": "/articles/2026-11-19-jailbreak-quotidien/",
+   "vues": 4
   },
   {
    "path": "/en/comparer/",
    "vues": 3
   },
   {
-   "path": "/explorer/",
+   "path": "/alertes/",
    "vues": 3
   },
   {
-   "path": "/en/joueurs-roblox-en-ce-moment/",
-   "vues": 2
+   "path": "/le-releve/explorer/",
+   "vues": 3
   },
   {
-   "path": "/articles/2026-11-16-steal-an-egg-quotidien/",
-   "vues": 2
-  },
-  {
-   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
-   "vues": 2
-  },
-  {
-   "path": "/source/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/classement/",
-   "vues": 2
-  },
-  {
-   "path": "/en/studios/emo-playworks/",
-   "vues": 2
-  },
-  {
-   "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
-   "vues": 2
-  },
-  {
-   "path": "/en/articles/2026-11-22-save-the-krusty-krab-quotidien/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/alertes/",
+   "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
    "vues": 2
   },
   {
@@ -79,7 +51,35 @@
    "vues": 2
   },
   {
-   "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
+   "path": "/comparer/",
+   "vues": 2
+  },
+  {
+   "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/classement/",
+   "vues": 2
+  },
+  {
+   "path": "/source/",
+   "vues": 2
+  },
+  {
+   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
+   "vues": 2
+  },
+  {
+   "path": "/articles/2026-11-16-steal-an-egg-quotidien/",
+   "vues": 2
+  },
+  {
+   "path": "/methode/",
+   "vues": 2
+  },
+  {
+   "path": "/en/joueurs-roblox-en-ce-moment/",
    "vues": 2
   }
  ]
