@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-24T16:32:13Z",
+ "genere": "2026-11-24T17:06:36Z",
  "periode_jours": 7,
  "pages": [
   {
@@ -11,11 +11,11 @@
    "vues": 11
   },
   {
-   "path": "/classement/",
-   "vues": 7
+   "path": "/en/jeux/uts-3-0-toilet-tower-defense-4778845442/",
+   "vues": 9
   },
   {
-   "path": "/en/jeux/uts-3-0-toilet-tower-defense-4778845442/",
+   "path": "/classement/",
    "vues": 7
   },
   {
@@ -39,11 +39,19 @@
    "vues": 3
   },
   {
-   "path": "/en/studios/emo-playworks/",
+   "path": "/en/joueurs-roblox-en-ce-moment/",
+   "vues": 2
+  },
+  {
+   "path": "/articles/2026-11-16-steal-an-egg-quotidien/",
    "vues": 2
   },
   {
    "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
+   "vues": 2
+  },
+  {
+   "path": "/source/",
    "vues": 2
   },
   {
@@ -55,10 +63,6 @@
    "vues": 2
   },
   {
-   "path": "/en/joueurs-roblox-en-ce-moment/",
-   "vues": 2
-  },
-  {
    "path": "/en/articles/2026-11-22-save-the-krusty-krab-quotidien/",
    "vues": 2
   },
@@ -67,20 +71,16 @@
    "vues": 2
   },
   {
-   "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
+   "path": "/le-releve/alertes/",
    "vues": 2
   },
   {
-   "path": "/le-releve/alertes/",
+   "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
    "vues": 2
   },
   {
    "path": "/articles/2026-11-18-hyper-realistic-ragdoll-quotidien/",
    "vues": 2
-  },
-  {
-   "path": "/en/jeux/update-2-1-30-floors-up-10772879271/",
-   "vues": 1
   }
  ]
 }
