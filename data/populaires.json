@@ -1,10 +1,10 @@
 {
- "genere": "2026-11-24T17:06:36Z",
+ "genere": "2026-11-24T18:06:45Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/",
-   "vues": 120
+   "vues": 122
   },
   {
    "path": "/le-releve/",
@@ -16,7 +16,7 @@
   },
   {
    "path": "/classement/",
-   "vues": 7
+   "vues": 8
   },
   {
    "path": "/es/joueurs-roblox-en-ce-moment/",
@@ -59,6 +59,10 @@
    "vues": 2
   },
   {
+   "path": "/en/studios/emo-playworks/",
+   "vues": 2
+  },
+  {
    "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
    "vues": 2
   },
@@ -67,19 +71,15 @@
    "vues": 2
   },
   {
-   "path": "/le-releve/articles/2026-11-17-volley-bomb-quotidien/",
-   "vues": 2
-  },
-  {
    "path": "/le-releve/alertes/",
    "vues": 2
   },
   {
-   "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
+   "path": "/le-releve/articles/2026-11-17-volley-bomb-quotidien/",
    "vues": 2
   },
   {
-   "path": "/articles/2026-11-18-hyper-realistic-ragdoll-quotidien/",
+   "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
    "vues": 2
   }
  ]

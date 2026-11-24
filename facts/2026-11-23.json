@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-23",
- "genere": "2026-11-24T17:06:39Z",
+ "genere": "2026-11-24T18:06:49Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -2403,93 +2403,93 @@
    "src": "data/jours/2026-11-23.csv#L17"
   },
   "g.5750914919.nom": {
-   "v": "Fisch 🦃 [NOW]",
-   "d": "Fisch 🦃 [NOW]",
-   "l": "Fisch 🦃 [NOW] : nom",
+   "v": "Fisch 🦃 [FISCHGIVING]",
+   "d": "Fisch 🦃 [FISCHGIVING]",
+   "l": "Fisch 🦃 [FISCHGIVING] : nom",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.5750914919.rang": {
    "v": 17,
    "d": "17e",
-   "l": "Fisch 🦃 [NOW] : rang au pic du jour",
+   "l": "Fisch 🦃 [FISCHGIVING] : rang au pic du jour",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.5750914919.pic": {
    "v": 69875,
    "d": "69 875",
-   "l": "Fisch 🦃 [NOW] : pic de joueurs simultanés relevé",
+   "l": "Fisch 🦃 [FISCHGIVING] : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.5750914919.heure_pic": {
    "v": "15:59",
    "d": "15 h 59",
-   "l": "Fisch 🦃 [NOW] : heure (Paris) du pic relevé",
+   "l": "Fisch 🦃 [FISCHGIVING] : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.5750914919.moy": {
    "v": 58666,
    "d": "58 666",
-   "l": "Fisch 🦃 [NOW] : moyenne des joueurs simultanés sur la journée",
+   "l": "Fisch 🦃 [FISCHGIVING] : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.5750914919.createur": {
    "v": "Fisching",
    "d": "Fisching",
-   "l": "Fisch 🦃 [NOW] : créateur",
+   "l": "Fisch 🦃 [FISCHGIVING] : créateur",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.5750914919.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "Fisch 🦃 [NOW] : genre",
+   "l": "Fisch 🦃 [FISCHGIVING] : genre",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.5750914919.var_7j": {
    "v": 0.1816,
    "d": "+18,2 %",
-   "l": "Fisch 🦃 [NOW] : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Fisch 🦃 [FISCHGIVING] : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.5750914919.moy_7j": {
    "v": 49649,
    "d": "49 649",
-   "l": "Fisch 🦃 [NOW] : moyenne des 7 jours précédents",
+   "l": "Fisch 🦃 [FISCHGIVING] : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.5750914919.visites_24h": {
    "v": 2762599,
    "d": "2,76 millions",
-   "l": "Fisch 🦃 [NOW] : visites gagnées en 24 h",
+   "l": "Fisch 🦃 [FISCHGIVING] : visites gagnées en 24 h",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.5750914919.visites_total": {
    "v": 5168033326,
    "d": "5,17 milliards",
-   "l": "Fisch 🦃 [NOW] : visites cumulées depuis la création",
+   "l": "Fisch 🦃 [FISCHGIVING] : visites cumulées depuis la création",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.5750914919.note": {
    "v": 0.9085,
    "d": "90,8 %",
-   "l": "Fisch 🦃 [NOW] : part de votes positifs",
+   "l": "Fisch 🦃 [FISCHGIVING] : part de votes positifs",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.5750914919.rang_moy": {
    "v": 15,
    "d": "15e",
-   "l": "Fisch 🦃 [NOW] : rang à la moyenne du jour",
+   "l": "Fisch 🦃 [FISCHGIVING] : rang à la moyenne du jour",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.5750914919.releves": {
    "v": 24,
    "d": "24",
-   "l": "Fisch 🦃 [NOW] : relevés où le jeu a été mesuré",
+   "l": "Fisch 🦃 [FISCHGIVING] : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.5750914919.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "Fisch 🦃 [NOW] : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "Fisch 🦃 [FISCHGIVING] : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.6701277882.nom": {
