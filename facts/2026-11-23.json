@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-23",
- "genere": "2026-11-24T02:25:07Z",
+ "genere": "2026-11-24T03:05:22Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -345,8 +345,8 @@
    "src": "data/jours/2026-11-23.csv#L4"
   },
   "top.4.nom": {
-   "v": "[🎃] Blox Fruits",
-   "d": "[🎃] Blox Fruits",
+   "v": "Blox Fruits",
+   "d": "Blox Fruits",
    "l": "N° 4 du jour : nom",
    "src": "data/jours/2026-11-23.csv#L5"
   },
@@ -1245,93 +1245,93 @@
    "src": "data/jours/2026-11-23.csv#L4"
   },
   "g.994732206.nom": {
-   "v": "[🎃] Blox Fruits",
-   "d": "[🎃] Blox Fruits",
-   "l": "[🎃] Blox Fruits : nom",
+   "v": "Blox Fruits",
+   "d": "Blox Fruits",
+   "l": "Blox Fruits : nom",
    "src": "data/jours/2026-11-23.csv#L5"
   },
   "g.994732206.rang": {
    "v": 4,
    "d": "4e",
-   "l": "[🎃] Blox Fruits : rang au pic du jour",
+   "l": "Blox Fruits : rang au pic du jour",
    "src": "data/jours/2026-11-23.csv#L5"
   },
   "g.994732206.pic": {
    "v": 315461,
    "d": "315 461",
-   "l": "[🎃] Blox Fruits : pic de joueurs simultanés relevé",
+   "l": "Blox Fruits : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-23.csv#L5"
   },
   "g.994732206.heure_pic": {
    "v": "15:59",
    "d": "15 h 59",
-   "l": "[🎃] Blox Fruits : heure (Paris) du pic relevé",
+   "l": "Blox Fruits : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-23.csv#L5"
   },
   "g.994732206.moy": {
    "v": 258334,
    "d": "258 334",
-   "l": "[🎃] Blox Fruits : moyenne des joueurs simultanés sur la journée",
+   "l": "Blox Fruits : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-23.csv#L5"
   },
   "g.994732206.createur": {
    "v": "Gamer Robot Inc",
    "d": "Gamer Robot Inc",
-   "l": "[🎃] Blox Fruits : créateur",
+   "l": "Blox Fruits : créateur",
    "src": "data/jours/2026-11-23.csv#L5"
   },
   "g.994732206.genre": {
    "v": "RPG",
    "d": "RPG",
-   "l": "[🎃] Blox Fruits : genre",
+   "l": "Blox Fruits : genre",
    "src": "data/jours/2026-11-23.csv#L5"
   },
   "g.994732206.var_7j": {
    "v": 0.1226,
    "d": "+12,3 %",
-   "l": "[🎃] Blox Fruits : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Blox Fruits : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-23.csv#L5"
   },
   "g.994732206.moy_7j": {
    "v": 230124,
    "d": "230 124",
-   "l": "[🎃] Blox Fruits : moyenne des 7 jours précédents",
+   "l": "Blox Fruits : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-23.csv#L5"
   },
   "g.994732206.visites_24h": {
    "v": 14151731,
    "d": "14,15 millions",
-   "l": "[🎃] Blox Fruits : visites gagnées en 24 h",
+   "l": "Blox Fruits : visites gagnées en 24 h",
    "src": "data/jours/2026-11-23.csv#L5"
   },
   "g.994732206.visites_total": {
    "v": 65633842454,
    "d": "65,63 milliards",
-   "l": "[🎃] Blox Fruits : visites cumulées depuis la création",
+   "l": "Blox Fruits : visites cumulées depuis la création",
    "src": "data/jours/2026-11-23.csv#L5"
   },
   "g.994732206.note": {
    "v": 0.9231,
    "d": "92,3 %",
-   "l": "[🎃] Blox Fruits : part de votes positifs",
+   "l": "Blox Fruits : part de votes positifs",
    "src": "data/jours/2026-11-23.csv#L5"
   },
   "g.994732206.rang_moy": {
    "v": 4,
    "d": "4e",
-   "l": "[🎃] Blox Fruits : rang à la moyenne du jour",
+   "l": "Blox Fruits : rang à la moyenne du jour",
    "src": "data/jours/2026-11-23.csv#L5"
   },
   "g.994732206.releves": {
    "v": 24,
    "d": "24",
-   "l": "[🎃] Blox Fruits : relevés où le jeu a été mesuré",
+   "l": "Blox Fruits : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-23.csv#L5"
   },
   "g.994732206.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[🎃] Blox Fruits : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "Blox Fruits : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-23.csv#L5"
   },
   "g.10766972131.nom": {
@@ -10275,7 +10275,7 @@
      "valeur": 317853
     },
     {
-     "nom": "[🎃] Blox Fruits",
+     "nom": "Blox Fruits",
      "valeur": 315461
     },
     {
