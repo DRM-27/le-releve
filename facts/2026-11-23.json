@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-23",
- "genere": "2026-11-24T14:16:22Z",
+ "genere": "2026-11-24T15:06:31Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -2403,93 +2403,93 @@
    "src": "data/jours/2026-11-23.csv#L17"
   },
   "g.5750914919.nom": {
-   "v": "Fisch 🧶 [FELINA]",
-   "d": "Fisch 🧶 [FELINA]",
-   "l": "Fisch 🧶 [FELINA] : nom",
+   "v": "Fisch 🧶 [SOON]",
+   "d": "Fisch 🧶 [SOON]",
+   "l": "Fisch 🧶 [SOON] : nom",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.5750914919.rang": {
    "v": 17,
    "d": "17e",
-   "l": "Fisch 🧶 [FELINA] : rang au pic du jour",
+   "l": "Fisch 🧶 [SOON] : rang au pic du jour",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.5750914919.pic": {
    "v": 69875,
    "d": "69 875",
-   "l": "Fisch 🧶 [FELINA] : pic de joueurs simultanés relevé",
+   "l": "Fisch 🧶 [SOON] : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.5750914919.heure_pic": {
    "v": "15:59",
    "d": "15 h 59",
-   "l": "Fisch 🧶 [FELINA] : heure (Paris) du pic relevé",
+   "l": "Fisch 🧶 [SOON] : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.5750914919.moy": {
    "v": 58666,
    "d": "58 666",
-   "l": "Fisch 🧶 [FELINA] : moyenne des joueurs simultanés sur la journée",
+   "l": "Fisch 🧶 [SOON] : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.5750914919.createur": {
    "v": "Fisching",
    "d": "Fisching",
-   "l": "Fisch 🧶 [FELINA] : créateur",
+   "l": "Fisch 🧶 [SOON] : créateur",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.5750914919.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "Fisch 🧶 [FELINA] : genre",
+   "l": "Fisch 🧶 [SOON] : genre",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.5750914919.var_7j": {
    "v": 0.1816,
    "d": "+18,2 %",
-   "l": "Fisch 🧶 [FELINA] : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Fisch 🧶 [SOON] : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.5750914919.moy_7j": {
    "v": 49649,
    "d": "49 649",
-   "l": "Fisch 🧶 [FELINA] : moyenne des 7 jours précédents",
+   "l": "Fisch 🧶 [SOON] : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.5750914919.visites_24h": {
    "v": 2762599,
    "d": "2,76 millions",
-   "l": "Fisch 🧶 [FELINA] : visites gagnées en 24 h",
+   "l": "Fisch 🧶 [SOON] : visites gagnées en 24 h",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.5750914919.visites_total": {
    "v": 5168033326,
    "d": "5,17 milliards",
-   "l": "Fisch 🧶 [FELINA] : visites cumulées depuis la création",
+   "l": "Fisch 🧶 [SOON] : visites cumulées depuis la création",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.5750914919.note": {
    "v": 0.9085,
    "d": "90,8 %",
-   "l": "Fisch 🧶 [FELINA] : part de votes positifs",
+   "l": "Fisch 🧶 [SOON] : part de votes positifs",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.5750914919.rang_moy": {
    "v": 15,
    "d": "15e",
-   "l": "Fisch 🧶 [FELINA] : rang à la moyenne du jour",
+   "l": "Fisch 🧶 [SOON] : rang à la moyenne du jour",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.5750914919.releves": {
    "v": 24,
    "d": "24",
-   "l": "Fisch 🧶 [FELINA] : relevés où le jeu a été mesuré",
+   "l": "Fisch 🧶 [SOON] : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.5750914919.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "Fisch 🧶 [FELINA] : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "Fisch 🧶 [SOON] : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-23.csv#L18"
   },
   "g.6701277882.nom": {
@@ -9273,87 +9273,87 @@
    "src": "data/jours/2026-11-23.csv#L96"
   },
   "g.10770463307.nom": {
-   "v": "[FIXED] Stop The Tsunami!",
-   "d": "[FIXED] Stop The Tsunami!",
-   "l": "[FIXED] Stop The Tsunami! : nom",
+   "v": "Stop The Tsunami!",
+   "d": "Stop The Tsunami!",
+   "l": "Stop The Tsunami! : nom",
    "src": "data/jours/2026-11-23.csv#L97"
   },
   "g.10770463307.rang": {
    "v": 96,
    "d": "96e",
-   "l": "[FIXED] Stop The Tsunami! : rang au pic du jour",
+   "l": "Stop The Tsunami! : rang au pic du jour",
    "src": "data/jours/2026-11-23.csv#L97"
   },
   "g.10770463307.pic": {
    "v": 19211,
    "d": "19 211",
-   "l": "[FIXED] Stop The Tsunami! : pic de joueurs simultanés relevé",
+   "l": "Stop The Tsunami! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-23.csv#L97"
   },
   "g.10770463307.heure_pic": {
    "v": "19:13",
    "d": "19 h 13",
-   "l": "[FIXED] Stop The Tsunami! : heure (Paris) du pic relevé",
+   "l": "Stop The Tsunami! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-23.csv#L97"
   },
   "g.10770463307.moy": {
    "v": 14183,
    "d": "14 183",
-   "l": "[FIXED] Stop The Tsunami! : moyenne des joueurs simultanés sur la journée",
+   "l": "Stop The Tsunami! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-23.csv#L97"
   },
   "g.10770463307.createur": {
    "v": "Beach Defenders!",
    "d": "Beach Defenders!",
-   "l": "[FIXED] Stop The Tsunami! : créateur",
+   "l": "Stop The Tsunami! : créateur",
    "src": "data/jours/2026-11-23.csv#L97"
   },
   "g.10770463307.var_7j": {
    "v": -0.1244,
    "d": "−12,4 %",
-   "l": "[FIXED] Stop The Tsunami! : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Stop The Tsunami! : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-23.csv#L97"
   },
   "g.10770463307.moy_7j": {
    "v": 16199,
    "d": "16 199",
-   "l": "[FIXED] Stop The Tsunami! : moyenne des 7 jours précédents",
+   "l": "Stop The Tsunami! : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-23.csv#L97"
   },
   "g.10770463307.visites_24h": {
    "v": 2448247,
    "d": "2,45 millions",
-   "l": "[FIXED] Stop The Tsunami! : visites gagnées en 24 h",
+   "l": "Stop The Tsunami! : visites gagnées en 24 h",
    "src": "data/jours/2026-11-23.csv#L97"
   },
   "g.10770463307.visites_total": {
    "v": 37875376,
    "d": "37,88 millions",
-   "l": "[FIXED] Stop The Tsunami! : visites cumulées depuis la création",
+   "l": "Stop The Tsunami! : visites cumulées depuis la création",
    "src": "data/jours/2026-11-23.csv#L97"
   },
   "g.10770463307.note": {
    "v": 0.8651,
    "d": "86,5 %",
-   "l": "[FIXED] Stop The Tsunami! : part de votes positifs",
+   "l": "Stop The Tsunami! : part de votes positifs",
    "src": "data/jours/2026-11-23.csv#L97"
   },
   "g.10770463307.rang_moy": {
    "v": 91,
    "d": "91e",
-   "l": "[FIXED] Stop The Tsunami! : rang à la moyenne du jour",
+   "l": "Stop The Tsunami! : rang à la moyenne du jour",
    "src": "data/jours/2026-11-23.csv#L97"
   },
   "g.10770463307.releves": {
    "v": 24,
    "d": "24",
-   "l": "[FIXED] Stop The Tsunami! : relevés où le jeu a été mesuré",
+   "l": "Stop The Tsunami! : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-23.csv#L97"
   },
   "g.10770463307.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[FIXED] Stop The Tsunami! : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "Stop The Tsunami! : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-23.csv#L97"
   },
   "g.184199275.nom": {
