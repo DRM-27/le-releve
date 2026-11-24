@@ -1,10 +1,10 @@
 {
- "genere": "2026-11-24T13:59:53Z",
+ "genere": "2026-11-24T14:16:20Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/",
-   "vues": 119
+   "vues": 120
   },
   {
    "path": "/le-releve/",
@@ -55,6 +55,10 @@
    "vues": 2
   },
   {
+   "path": "/en/joueurs-roblox-en-ce-moment/",
+   "vues": 2
+  },
+  {
    "path": "/en/articles/2026-11-22-save-the-krusty-krab-quotidien/",
    "vues": 2
   },
@@ -75,11 +79,7 @@
    "vues": 2
   },
   {
-   "path": "/en/joueurs-roblox-en-ce-moment/",
-   "vues": 2
-  },
-  {
-   "path": "/source/",
+   "path": "/en/jeux/update-2-1-30-floors-up-10772879271/",
    "vues": 1
   }
  ]
