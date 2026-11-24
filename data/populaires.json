@@ -1,25 +1,29 @@
 {
- "genere": "2026-11-24T04:05:22Z",
+ "genere": "2026-11-24T05:05:31Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/",
-   "vues": 113
+   "vues": 114
   },
   {
    "path": "/le-releve/",
    "vues": 11
   },
   {
+   "path": "/classement/",
+   "vues": 7
+  },
+  {
    "path": "/en/jeux/uts-3-0-toilet-tower-defense-4778845442/",
    "vues": 7
   },
   {
-   "path": "/classement/",
-   "vues": 6
+   "path": "/le-releve/explorer/",
+   "vues": 3
   },
   {
-   "path": "/le-releve/explorer/",
+   "path": "/explorer/",
    "vues": 3
   },
   {
@@ -47,7 +51,7 @@
    "vues": 2
   },
   {
-   "path": "/explorer/",
+   "path": "/articles/2026-11-18-hyper-realistic-ragdoll-quotidien/",
    "vues": 2
   },
   {
@@ -56,10 +60,6 @@
   },
   {
    "path": "/le-releve/classement/",
-   "vues": 2
-  },
-  {
-   "path": "/articles/2026-11-18-hyper-realistic-ragdoll-quotidien/",
    "vues": 2
   },
   {
@@ -79,7 +79,7 @@
    "vues": 1
   },
   {
-   "path": "/pt-br/jeux/volley-bomb-10774204862/",
+   "path": "/en/jeux/he-ate-them-horror-6635513269/",
    "vues": 1
   }
  ]
