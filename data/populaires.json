@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-24T08:05:47Z",
+ "genere": "2026-11-24T09:05:45Z",
  "periode_jours": 7,
  "pages": [
   {
@@ -19,11 +19,11 @@
    "vues": 7
   },
   {
-   "path": "/le-releve/explorer/",
+   "path": "/articles/2026-11-19-jailbreak-quotidien/",
    "vues": 3
   },
   {
-   "path": "/explorer/",
+   "path": "/le-releve/explorer/",
    "vues": 3
   },
   {
@@ -31,35 +31,15 @@
    "vues": 3
   },
   {
-   "path": "/articles/2026-11-19-jailbreak-quotidien/",
-   "vues": 3
-  },
-  {
    "path": "/en/comparer/",
    "vues": 3
   },
   {
-   "path": "/le-releve/alertes/",
-   "vues": 2
+   "path": "/explorer/",
+   "vues": 3
   },
   {
-   "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/articles/2026-11-17-volley-bomb-quotidien/",
-   "vues": 2
-  },
-  {
-   "path": "/articles/2026-11-18-hyper-realistic-ragdoll-quotidien/",
-   "vues": 2
-  },
-  {
-   "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/classement/",
+   "path": "/en/studios/emo-playworks/",
    "vues": 2
   },
   {
@@ -67,19 +47,39 @@
    "vues": 2
   },
   {
+   "path": "/le-releve/classement/",
+   "vues": 2
+  },
+  {
+   "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
+   "vues": 2
+  },
+  {
    "path": "/en/articles/2026-11-22-save-the-krusty-krab-quotidien/",
    "vues": 2
   },
   {
-   "path": "/en/studios/emo-playworks/",
+   "path": "/articles/2026-11-18-hyper-realistic-ragdoll-quotidien/",
    "vues": 2
   },
   {
-   "path": "/le-releve/donnees/",
+   "path": "/le-releve/articles/2026-11-17-volley-bomb-quotidien/",
+   "vues": 2
+  },
+  {
+   "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/alertes/",
+   "vues": 2
+  },
+  {
+   "path": "/source/",
    "vues": 1
   },
   {
-   "path": "/en/jeux/he-ate-them-horror-6635513269/",
+   "path": "/en/jeux/update-2-1-30-floors-up-10772879271/",
    "vues": 1
   }
  ]
