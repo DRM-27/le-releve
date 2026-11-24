@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-24T01:04:43Z",
+ "genere": "2026-11-24T02:25:04Z",
  "periode_jours": 7,
  "pages": [
   {
@@ -19,7 +19,7 @@
    "vues": 6
   },
   {
-   "path": "/articles/2026-11-19-jailbreak-quotidien/",
+   "path": "/le-releve/explorer/",
    "vues": 3
   },
   {
@@ -27,39 +27,15 @@
    "vues": 3
   },
   {
-   "path": "/le-releve/explorer/",
+   "path": "/articles/2026-11-19-jailbreak-quotidien/",
    "vues": 3
   },
   {
-   "path": "/en/studios/emo-playworks/",
-   "vues": 2
-  },
-  {
-   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/classement/",
-   "vues": 2
-  },
-  {
-   "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
-   "vues": 2
-  },
-  {
-   "path": "/explorer/",
-   "vues": 2
-  },
-  {
-   "path": "/en/articles/2026-11-22-save-the-krusty-krab-quotidien/",
-   "vues": 2
+   "path": "/en/comparer/",
+   "vues": 3
   },
   {
    "path": "/le-releve/alertes/",
-   "vues": 2
-  },
-  {
-   "path": "/articles/2026-11-18-hyper-realistic-ragdoll-quotidien/",
    "vues": 2
   },
   {
@@ -71,15 +47,39 @@
    "vues": 2
   },
   {
-   "path": "/en/jeux/update-2-1-30-floors-up-10772879271/",
+   "path": "/explorer/",
+   "vues": 2
+  },
+  {
+   "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/classement/",
+   "vues": 2
+  },
+  {
+   "path": "/articles/2026-11-18-hyper-realistic-ragdoll-quotidien/",
+   "vues": 2
+  },
+  {
+   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
+   "vues": 2
+  },
+  {
+   "path": "/en/articles/2026-11-22-save-the-krusty-krab-quotidien/",
+   "vues": 2
+  },
+  {
+   "path": "/en/studios/emo-playworks/",
+   "vues": 2
+  },
+  {
+   "path": "/le-releve/donnees/",
    "vues": 1
   },
   {
-   "path": "/le-releve/confidentialite/",
-   "vues": 1
-  },
-  {
-   "path": "/le-releve/partenaires/",
+   "path": "/pt-br/jeux/volley-bomb-10774204862/",
    "vues": 1
   }
  ]
