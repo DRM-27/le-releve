@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-23",
- "genere": "2026-11-24T06:05:33Z",
+ "genere": "2026-11-24T07:05:38Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -3189,93 +3189,93 @@
    "src": "data/jours/2026-11-23.csv#L26"
   },
   "g.10629695169.nom": {
-   "v": "[WILD WEST] Tap Simulator REBORN",
-   "d": "[WILD WEST] Tap Simulator REBORN",
-   "l": "[WILD WEST] Tap Simulator REBORN : nom",
+   "v": "🤠 Tap Simulator REBORN",
+   "d": "🤠 Tap Simulator REBORN",
+   "l": "🤠 Tap Simulator REBORN : nom",
    "src": "data/jours/2026-11-23.csv#L27"
   },
   "g.10629695169.rang": {
    "v": 26,
    "d": "26e",
-   "l": "[WILD WEST] Tap Simulator REBORN : rang au pic du jour",
+   "l": "🤠 Tap Simulator REBORN : rang au pic du jour",
    "src": "data/jours/2026-11-23.csv#L27"
   },
   "g.10629695169.pic": {
    "v": 53517,
    "d": "53 517",
-   "l": "[WILD WEST] Tap Simulator REBORN : pic de joueurs simultanés relevé",
+   "l": "🤠 Tap Simulator REBORN : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-23.csv#L27"
   },
   "g.10629695169.heure_pic": {
    "v": "20:13",
    "d": "20 h 13",
-   "l": "[WILD WEST] Tap Simulator REBORN : heure (Paris) du pic relevé",
+   "l": "🤠 Tap Simulator REBORN : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-23.csv#L27"
   },
   "g.10629695169.moy": {
    "v": 39310,
    "d": "39 310",
-   "l": "[WILD WEST] Tap Simulator REBORN : moyenne des joueurs simultanés sur la journée",
+   "l": "🤠 Tap Simulator REBORN : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-23.csv#L27"
   },
   "g.10629695169.createur": {
    "v": "Cursor Makers",
    "d": "Cursor Makers",
-   "l": "[WILD WEST] Tap Simulator REBORN : créateur",
+   "l": "🤠 Tap Simulator REBORN : créateur",
    "src": "data/jours/2026-11-23.csv#L27"
   },
   "g.10629695169.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[WILD WEST] Tap Simulator REBORN : genre",
+   "l": "🤠 Tap Simulator REBORN : genre",
    "src": "data/jours/2026-11-23.csv#L27"
   },
   "g.10629695169.var_7j": {
    "v": 0.0237,
    "d": "+2,4 %",
-   "l": "[WILD WEST] Tap Simulator REBORN : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "🤠 Tap Simulator REBORN : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-23.csv#L27"
   },
   "g.10629695169.moy_7j": {
    "v": 38401,
    "d": "38 401",
-   "l": "[WILD WEST] Tap Simulator REBORN : moyenne des 7 jours précédents",
+   "l": "🤠 Tap Simulator REBORN : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-23.csv#L27"
   },
   "g.10629695169.visites_24h": {
    "v": 1086089,
    "d": "1,09 million",
-   "l": "[WILD WEST] Tap Simulator REBORN : visites gagnées en 24 h",
+   "l": "🤠 Tap Simulator REBORN : visites gagnées en 24 h",
    "src": "data/jours/2026-11-23.csv#L27"
   },
   "g.10629695169.visites_total": {
    "v": 67253965,
    "d": "67,25 millions",
-   "l": "[WILD WEST] Tap Simulator REBORN : visites cumulées depuis la création",
+   "l": "🤠 Tap Simulator REBORN : visites cumulées depuis la création",
    "src": "data/jours/2026-11-23.csv#L27"
   },
   "g.10629695169.note": {
    "v": 0.9351,
    "d": "93,5 %",
-   "l": "[WILD WEST] Tap Simulator REBORN : part de votes positifs",
+   "l": "🤠 Tap Simulator REBORN : part de votes positifs",
    "src": "data/jours/2026-11-23.csv#L27"
   },
   "g.10629695169.rang_moy": {
    "v": 23,
    "d": "23e",
-   "l": "[WILD WEST] Tap Simulator REBORN : rang à la moyenne du jour",
+   "l": "🤠 Tap Simulator REBORN : rang à la moyenne du jour",
    "src": "data/jours/2026-11-23.csv#L27"
   },
   "g.10629695169.releves": {
    "v": 24,
    "d": "24",
-   "l": "[WILD WEST] Tap Simulator REBORN : relevés où le jeu a été mesuré",
+   "l": "🤠 Tap Simulator REBORN : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-23.csv#L27"
   },
   "g.10629695169.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[WILD WEST] Tap Simulator REBORN : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "🤠 Tap Simulator REBORN : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-23.csv#L27"
   },
   "g.6331902150.nom": {
