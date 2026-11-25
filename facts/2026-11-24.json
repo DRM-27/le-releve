@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-24",
- "genere": "2026-11-25T03:07:29Z",
+ "genere": "2026-11-25T04:07:27Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -6939,111 +6939,111 @@
    "src": "data/jours/2026-11-24.csv#L55"
   },
   "g.10764627709.nom": {
-   "v": "[💰] Huss Valley",
-   "d": "[💰] Huss Valley",
-   "l": "[💰] Huss Valley : nom",
+   "v": "[🍔] Huss Valley",
+   "d": "[🍔] Huss Valley",
+   "l": "[🍔] Huss Valley : nom",
    "src": "data/jours/2026-11-24.csv#L56"
   },
   "g.10764627709.rang": {
    "v": 55,
    "d": "55e",
-   "l": "[💰] Huss Valley : rang au pic du jour",
+   "l": "[🍔] Huss Valley : rang au pic du jour",
    "src": "data/jours/2026-11-24.csv#L56"
   },
   "g.10764627709.pic": {
    "v": 25809,
    "d": "25 809",
-   "l": "[💰] Huss Valley : pic de joueurs simultanés relevé",
+   "l": "[🍔] Huss Valley : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-24.csv#L56"
   },
   "g.10764627709.heure_pic": {
    "v": "21:06",
    "d": "21 h 06",
-   "l": "[💰] Huss Valley : heure (Paris) du pic relevé",
+   "l": "[🍔] Huss Valley : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-24.csv#L56"
   },
   "g.10764627709.moy": {
    "v": 18724,
    "d": "18 724",
-   "l": "[💰] Huss Valley : moyenne des joueurs simultanés sur la journée",
+   "l": "[🍔] Huss Valley : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-24.csv#L56"
   },
   "g.10764627709.createur": {
    "v": "Huss Valley Official",
    "d": "Huss Valley Official",
-   "l": "[💰] Huss Valley : créateur",
+   "l": "[🍔] Huss Valley : créateur",
    "src": "data/jours/2026-11-24.csv#L56"
   },
   "g.10764627709.genre": {
    "v": "Action",
    "d": "Action",
-   "l": "[💰] Huss Valley : genre",
+   "l": "[🍔] Huss Valley : genre",
    "src": "data/jours/2026-11-24.csv#L56"
   },
   "g.10764627709.var_veille": {
    "v": -0.0229,
    "d": "−2,3 %",
-   "l": "[💰] Huss Valley : variation de la moyenne par rapport à la veille",
+   "l": "[🍔] Huss Valley : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-24.csv#L56"
   },
   "g.10764627709.moy_veille": {
    "v": 19162,
    "d": "19 162",
-   "l": "[💰] Huss Valley : moyenne de la veille",
+   "l": "[🍔] Huss Valley : moyenne de la veille",
    "src": "data/jours/2026-11-24.csv#L56"
   },
   "g.10764627709.var_7j": {
    "v": -0.0689,
    "d": "−6,9 %",
-   "l": "[💰] Huss Valley : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🍔] Huss Valley : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-24.csv#L56"
   },
   "g.10764627709.moy_7j": {
    "v": 20109,
    "d": "20 109",
-   "l": "[💰] Huss Valley : moyenne des 7 jours précédents",
+   "l": "[🍔] Huss Valley : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-24.csv#L56"
   },
   "g.10764627709.visites_24h": {
    "v": 2716899,
    "d": "2,72 millions",
-   "l": "[💰] Huss Valley : visites gagnées en 24 h",
+   "l": "[🍔] Huss Valley : visites gagnées en 24 h",
    "src": "data/jours/2026-11-24.csv#L56"
   },
   "g.10764627709.visites_total": {
    "v": 309443253,
    "d": "309,44 millions",
-   "l": "[💰] Huss Valley : visites cumulées depuis la création",
+   "l": "[🍔] Huss Valley : visites cumulées depuis la création",
    "src": "data/jours/2026-11-24.csv#L56"
   },
   "g.10764627709.note": {
    "v": 0.8693,
    "d": "86,9 %",
-   "l": "[💰] Huss Valley : part de votes positifs",
+   "l": "[🍔] Huss Valley : part de votes positifs",
    "src": "data/jours/2026-11-24.csv#L56"
   },
   "g.10764627709.rang_veille": {
    "v": 65,
    "d": "65e",
-   "l": "[💰] Huss Valley : rang la veille",
+   "l": "[🍔] Huss Valley : rang la veille",
    "src": "data/jours/2026-11-24.csv#L56"
   },
   "g.10764627709.rang_moy": {
    "v": 54,
    "d": "54e",
-   "l": "[💰] Huss Valley : rang à la moyenne du jour",
+   "l": "[🍔] Huss Valley : rang à la moyenne du jour",
    "src": "data/jours/2026-11-24.csv#L56"
   },
   "g.10764627709.releves": {
    "v": 24,
    "d": "24",
-   "l": "[💰] Huss Valley : relevés où le jeu a été mesuré",
+   "l": "[🍔] Huss Valley : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-24.csv#L56"
   },
   "g.10764627709.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[💰] Huss Valley : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[🍔] Huss Valley : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-24.csv#L56"
   },
   "g.10774784939.nom": {
@@ -9693,111 +9693,111 @@
    "src": "data/jours/2026-11-24.csv#L82"
   },
   "g.5995470825.nom": {
-   "v": "[🔥CLANS] Hypershot",
-   "d": "[🔥CLANS] Hypershot",
-   "l": "[🔥CLANS] Hypershot : nom",
+   "v": "[🔥THANKSGIVING] Hypershot",
+   "d": "[🔥THANKSGIVING] Hypershot",
+   "l": "[🔥THANKSGIVING] Hypershot : nom",
    "src": "data/jours/2026-11-24.csv#L83"
   },
   "g.5995470825.rang": {
    "v": 82,
    "d": "82e",
-   "l": "[🔥CLANS] Hypershot : rang au pic du jour",
+   "l": "[🔥THANKSGIVING] Hypershot : rang au pic du jour",
    "src": "data/jours/2026-11-24.csv#L83"
   },
   "g.5995470825.pic": {
    "v": 20071,
    "d": "20 071",
-   "l": "[🔥CLANS] Hypershot : pic de joueurs simultanés relevé",
+   "l": "[🔥THANKSGIVING] Hypershot : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-24.csv#L83"
   },
   "g.5995470825.heure_pic": {
    "v": "17:31",
    "d": "17 h 31",
-   "l": "[🔥CLANS] Hypershot : heure (Paris) du pic relevé",
+   "l": "[🔥THANKSGIVING] Hypershot : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-24.csv#L83"
   },
   "g.5995470825.moy": {
    "v": 16462,
    "d": "16 462",
-   "l": "[🔥CLANS] Hypershot : moyenne des joueurs simultanés sur la journée",
+   "l": "[🔥THANKSGIVING] Hypershot : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-24.csv#L83"
   },
   "g.5995470825.createur": {
    "v": "Frosted Studio",
    "d": "Frosted Studio",
-   "l": "[🔥CLANS] Hypershot : créateur",
+   "l": "[🔥THANKSGIVING] Hypershot : créateur",
    "src": "data/jours/2026-11-24.csv#L83"
   },
   "g.5995470825.genre": {
    "v": "Shooter",
    "d": "Tir",
-   "l": "[🔥CLANS] Hypershot : genre",
+   "l": "[🔥THANKSGIVING] Hypershot : genre",
    "src": "data/jours/2026-11-24.csv#L83"
   },
   "g.5995470825.var_veille": {
    "v": -0.0046,
    "d": "−0,5 %",
-   "l": "[🔥CLANS] Hypershot : variation de la moyenne par rapport à la veille",
+   "l": "[🔥THANKSGIVING] Hypershot : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-24.csv#L83"
   },
   "g.5995470825.moy_veille": {
    "v": 16538,
    "d": "16 538",
-   "l": "[🔥CLANS] Hypershot : moyenne de la veille",
+   "l": "[🔥THANKSGIVING] Hypershot : moyenne de la veille",
    "src": "data/jours/2026-11-24.csv#L83"
   },
   "g.5995470825.var_7j": {
    "v": 0.0034,
    "d": "+0,3 %",
-   "l": "[🔥CLANS] Hypershot : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🔥THANKSGIVING] Hypershot : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-24.csv#L83"
   },
   "g.5995470825.moy_7j": {
    "v": 16406,
    "d": "16 406",
-   "l": "[🔥CLANS] Hypershot : moyenne des 7 jours précédents",
+   "l": "[🔥THANKSGIVING] Hypershot : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-24.csv#L83"
   },
   "g.5995470825.visites_24h": {
    "v": 1644912,
    "d": "1,64 million",
-   "l": "[🔥CLANS] Hypershot : visites gagnées en 24 h",
+   "l": "[🔥THANKSGIVING] Hypershot : visites gagnées en 24 h",
    "src": "data/jours/2026-11-24.csv#L83"
   },
   "g.5995470825.visites_total": {
    "v": 1449235916,
    "d": "1,45 milliard",
-   "l": "[🔥CLANS] Hypershot : visites cumulées depuis la création",
+   "l": "[🔥THANKSGIVING] Hypershot : visites cumulées depuis la création",
    "src": "data/jours/2026-11-24.csv#L83"
   },
   "g.5995470825.note": {
    "v": 0.9437,
    "d": "94,4 %",
-   "l": "[🔥CLANS] Hypershot : part de votes positifs",
+   "l": "[🔥THANKSGIVING] Hypershot : part de votes positifs",
    "src": "data/jours/2026-11-24.csv#L83"
   },
   "g.5995470825.rang_veille": {
    "v": 91,
    "d": "91e",
-   "l": "[🔥CLANS] Hypershot : rang la veille",
+   "l": "[🔥THANKSGIVING] Hypershot : rang la veille",
    "src": "data/jours/2026-11-24.csv#L83"
   },
   "g.5995470825.rang_moy": {
    "v": 67,
    "d": "67e",
-   "l": "[🔥CLANS] Hypershot : rang à la moyenne du jour",
+   "l": "[🔥THANKSGIVING] Hypershot : rang à la moyenne du jour",
    "src": "data/jours/2026-11-24.csv#L83"
   },
   "g.5995470825.releves": {
    "v": 24,
    "d": "24",
-   "l": "[🔥CLANS] Hypershot : relevés où le jeu a été mesuré",
+   "l": "[🔥THANKSGIVING] Hypershot : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-24.csv#L83"
   },
   "g.5995470825.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[🔥CLANS] Hypershot : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[🔥THANKSGIVING] Hypershot : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-24.csv#L83"
   },
   "g.10773926254.nom": {
