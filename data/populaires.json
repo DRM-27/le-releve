@@ -1,10 +1,14 @@
 {
- "genere": "2026-11-25T14:07:25Z",
+ "genere": "2026-11-25T15:07:39Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/",
-   "vues": 134
+   "vues": 135
+  },
+  {
+   "path": "/classement/",
+   "vues": 9
   },
   {
    "path": "/le-releve/",
@@ -15,20 +19,20 @@
    "vues": 9
   },
   {
-   "path": "/classement/",
-   "vues": 8
+   "path": "/articles/2026-11-19-jailbreak-quotidien/",
+   "vues": 5
   },
   {
    "path": "/es/joueurs-roblox-en-ce-moment/",
    "vues": 5
   },
   {
-   "path": "/articles/2026-11-19-jailbreak-quotidien/",
-   "vues": 4
+   "path": "/explorer/",
+   "vues": 5
   },
   {
-   "path": "/explorer/",
-   "vues": 4
+   "path": "/source/",
+   "vues": 3
   },
   {
    "path": "/methode/",
@@ -59,10 +63,6 @@
    "vues": 2
   },
   {
-   "path": "/source/",
-   "vues": 2
-  },
-  {
    "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
    "vues": 2
   },
@@ -71,15 +71,15 @@
    "vues": 2
   },
   {
-   "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
-   "vues": 2
-  },
-  {
    "path": "/articles/2026-11-23-steal-an-egg-quotidien/",
    "vues": 2
   },
   {
    "path": "/comparer/",
+   "vues": 2
+  },
+  {
+   "path": "/jeux/steal-an-egg-10563114921/",
    "vues": 2
   }
  ]
