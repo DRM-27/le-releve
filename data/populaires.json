@@ -1,10 +1,10 @@
 {
- "genere": "2026-11-25T09:06:56Z",
+ "genere": "2026-11-25T10:07:03Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/",
-   "vues": 133
+   "vues": 134
   },
   {
    "path": "/le-releve/",
@@ -23,12 +23,20 @@
    "vues": 5
   },
   {
+   "path": "/articles/2026-11-19-jailbreak-quotidien/",
+   "vues": 4
+  },
+  {
    "path": "/explorer/",
    "vues": 4
   },
   {
-   "path": "/articles/2026-11-19-jailbreak-quotidien/",
-   "vues": 4
+   "path": "/le-releve/explorer/",
+   "vues": 3
+  },
+  {
+   "path": "/methode/",
+   "vues": 3
   },
   {
    "path": "/en/comparer/",
@@ -39,35 +47,11 @@
    "vues": 3
   },
   {
-   "path": "/le-releve/explorer/",
-   "vues": 3
-  },
-  {
-   "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/articles/2026-11-17-volley-bomb-quotidien/",
-   "vues": 2
-  },
-  {
-   "path": "/comparer/",
-   "vues": 2
-  },
-  {
-   "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
-   "vues": 2
-  },
-  {
    "path": "/le-releve/classement/",
    "vues": 2
   },
   {
-   "path": "/source/",
-   "vues": 2
-  },
-  {
-   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
+   "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
    "vues": 2
   },
   {
@@ -75,11 +59,27 @@
    "vues": 2
   },
   {
-   "path": "/methode/",
+   "path": "/le-releve/articles/2026-11-17-volley-bomb-quotidien/",
    "vues": 2
   },
   {
-   "path": "/en/studios/emo-playworks/",
+   "path": "/en/mises-a-jour/",
+   "vues": 2
+  },
+  {
+   "path": "/source/",
+   "vues": 2
+  },
+  {
+   "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
+   "vues": 2
+  },
+  {
+   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
+   "vues": 2
+  },
+  {
+   "path": "/comparer/",
    "vues": 2
   }
  ]
