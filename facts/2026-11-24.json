@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-24",
- "genere": "2026-11-25T15:07:45Z",
+ "genere": "2026-11-25T16:28:05Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -3303,111 +3303,111 @@
    "src": "data/jours/2026-11-24.csv#L21"
   },
   "g.5203828273.nom": {
-   "v": "[🎃] Dress To Impress",
-   "d": "[🎃] Dress To Impress",
-   "l": "[🎃] Dress To Impress : nom",
+   "v": "[🦃SALE] Dress To Impress",
+   "d": "[🦃SALE] Dress To Impress",
+   "l": "[🦃SALE] Dress To Impress : nom",
    "src": "data/jours/2026-11-24.csv#L22"
   },
   "g.5203828273.rang": {
    "v": 21,
    "d": "21e",
-   "l": "[🎃] Dress To Impress : rang au pic du jour",
+   "l": "[🦃SALE] Dress To Impress : rang au pic du jour",
    "src": "data/jours/2026-11-24.csv#L22"
   },
   "g.5203828273.pic": {
    "v": 65626,
    "d": "65 626",
-   "l": "[🎃] Dress To Impress : pic de joueurs simultanés relevé",
+   "l": "[🦃SALE] Dress To Impress : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-24.csv#L22"
   },
   "g.5203828273.heure_pic": {
    "v": "20:05",
    "d": "20 h 05",
-   "l": "[🎃] Dress To Impress : heure (Paris) du pic relevé",
+   "l": "[🦃SALE] Dress To Impress : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-24.csv#L22"
   },
   "g.5203828273.moy": {
    "v": 43696,
    "d": "43 696",
-   "l": "[🎃] Dress To Impress : moyenne des joueurs simultanés sur la journée",
+   "l": "[🦃SALE] Dress To Impress : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-24.csv#L22"
   },
   "g.5203828273.createur": {
    "v": "Dress To Impress Group",
    "d": "Dress To Impress Group",
-   "l": "[🎃] Dress To Impress : créateur",
+   "l": "[🦃SALE] Dress To Impress : créateur",
    "src": "data/jours/2026-11-24.csv#L22"
   },
   "g.5203828273.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "[🎃] Dress To Impress : genre",
+   "l": "[🦃SALE] Dress To Impress : genre",
    "src": "data/jours/2026-11-24.csv#L22"
   },
   "g.5203828273.var_veille": {
    "v": -0.0045,
    "d": "−0,4 %",
-   "l": "[🎃] Dress To Impress : variation de la moyenne par rapport à la veille",
+   "l": "[🦃SALE] Dress To Impress : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-24.csv#L22"
   },
   "g.5203828273.moy_veille": {
    "v": 43891,
    "d": "43 891",
-   "l": "[🎃] Dress To Impress : moyenne de la veille",
+   "l": "[🦃SALE] Dress To Impress : moyenne de la veille",
    "src": "data/jours/2026-11-24.csv#L22"
   },
   "g.5203828273.var_7j": {
    "v": 0.0394,
    "d": "+3,9 %",
-   "l": "[🎃] Dress To Impress : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🦃SALE] Dress To Impress : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-24.csv#L22"
   },
   "g.5203828273.moy_7j": {
    "v": 42038,
    "d": "42 038",
-   "l": "[🎃] Dress To Impress : moyenne des 7 jours précédents",
+   "l": "[🦃SALE] Dress To Impress : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-24.csv#L22"
   },
   "g.5203828273.visites_24h": {
    "v": 3735212,
    "d": "3,74 millions",
-   "l": "[🎃] Dress To Impress : visites gagnées en 24 h",
+   "l": "[🦃SALE] Dress To Impress : visites gagnées en 24 h",
    "src": "data/jours/2026-11-24.csv#L22"
   },
   "g.5203828273.visites_total": {
    "v": 11390155752,
    "d": "11,39 milliards",
-   "l": "[🎃] Dress To Impress : visites cumulées depuis la création",
+   "l": "[🦃SALE] Dress To Impress : visites cumulées depuis la création",
    "src": "data/jours/2026-11-24.csv#L22"
   },
   "g.5203828273.note": {
    "v": 0.9054,
    "d": "90,5 %",
-   "l": "[🎃] Dress To Impress : part de votes positifs",
+   "l": "[🦃SALE] Dress To Impress : part de votes positifs",
    "src": "data/jours/2026-11-24.csv#L22"
   },
   "g.5203828273.rang_veille": {
    "v": 20,
    "d": "20e",
-   "l": "[🎃] Dress To Impress : rang la veille",
+   "l": "[🦃SALE] Dress To Impress : rang la veille",
    "src": "data/jours/2026-11-24.csv#L22"
   },
   "g.5203828273.rang_moy": {
    "v": 19,
    "d": "19e",
-   "l": "[🎃] Dress To Impress : rang à la moyenne du jour",
+   "l": "[🦃SALE] Dress To Impress : rang à la moyenne du jour",
    "src": "data/jours/2026-11-24.csv#L22"
   },
   "g.5203828273.releves": {
    "v": 24,
    "d": "24",
-   "l": "[🎃] Dress To Impress : relevés où le jeu a été mesuré",
+   "l": "[🦃SALE] Dress To Impress : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-24.csv#L22"
   },
   "g.5203828273.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[🎃] Dress To Impress : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[🦃SALE] Dress To Impress : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-24.csv#L22"
   },
   "g.10770730129.nom": {
