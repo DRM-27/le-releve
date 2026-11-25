@@ -1515,3 +1515,5 @@ ts_utc,type,universe_id,nom,avant,maintenant,variation,rang,rang_avant,releve
 2026-11-25T10:33:46Z,forte_hausse,5125369493,Driving Simulator,2896,4529,0.5639,229,295,data/snapshots/2026/11/25/10.csv
 2026-11-25T10:33:46Z,forte_hausse,7787359931,Kingdom World,2128,3334,0.5667,279,353,data/snapshots/2026/11/25/10.csv
 2026-11-25T11:06:15Z,forte_hausse,6069634717,Sorcerer Tower Defense [2nd Anniversary],3267,5308,0.6247,209,288,data/snapshots/2026/11/25/11.csv
+2026-11-25T12:06:22Z,forte_hausse,10771440209,[UPDATE 3.1 & EXPANDED MAP] Onthel Purwodadi,1802,11038,5.1254,120,412,data/snapshots/2026/11/25/12.csv
+2026-11-25T12:06:22Z,forte_hausse,10769407594,Detect and Steal an Egg,2398,4287,0.7877,271,356,data/snapshots/2026/11/25/12.csv

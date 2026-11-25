@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-25T11:07:11Z",
+ "genere": "2026-11-25T12:07:14Z",
  "periode_jours": 7,
  "pages": [
   {
@@ -8,7 +8,7 @@
   },
   {
    "path": "/le-releve/",
-   "vues": 11
+   "vues": 10
   },
   {
    "path": "/en/jeux/uts-3-0-toilet-tower-defense-4778845442/",
@@ -31,14 +31,6 @@
    "vues": 4
   },
   {
-   "path": "/en/mises-a-jour/",
-   "vues": 3
-  },
-  {
-   "path": "/le-releve/explorer/",
-   "vues": 3
-  },
-  {
    "path": "/methode/",
    "vues": 3
   },
@@ -51,23 +43,15 @@
    "vues": 3
   },
   {
-   "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
-   "vues": 2
-  },
-  {
-   "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
-   "vues": 2
+   "path": "/en/mises-a-jour/",
+   "vues": 3
   },
   {
    "path": "/articles/2026-11-16-steal-an-egg-quotidien/",
    "vues": 2
   },
   {
-   "path": "/le-releve/articles/2026-11-17-volley-bomb-quotidien/",
-   "vues": 2
-  },
-  {
-   "path": "/le-releve/classement/",
+   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
    "vues": 2
   },
   {
@@ -75,11 +59,27 @@
    "vues": 2
   },
   {
-   "path": "/comparer/",
+   "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
    "vues": 2
   },
   {
-   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
+   "path": "/en/joueurs-roblox-en-ce-moment/",
+   "vues": 2
+  },
+  {
+   "path": "/articles/2026-11-23-steal-an-egg-quotidien/",
+   "vues": 2
+  },
+  {
+   "path": "/en/articles/2026-11-22-save-the-krusty-krab-quotidien/",
+   "vues": 2
+  },
+  {
+   "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
+   "vues": 2
+  },
+  {
+   "path": "/comparer/",
    "vues": 2
   }
  ]
