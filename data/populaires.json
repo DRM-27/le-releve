@@ -1,10 +1,10 @@
 {
- "genere": "2026-11-25T19:27:46Z",
+ "genere": "2026-11-25T20:08:32Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/",
-   "vues": 136
+   "vues": 140
   },
   {
    "path": "/classement/",
@@ -20,7 +20,7 @@
   },
   {
    "path": "/articles/2026-11-19-jailbreak-quotidien/",
-   "vues": 5
+   "vues": 6
   },
   {
    "path": "/es/joueurs-roblox-en-ce-moment/",
@@ -31,11 +31,11 @@
    "vues": 5
   },
   {
-   "path": "/source/",
-   "vues": 3
+   "path": "/methode/",
+   "vues": 4
   },
   {
-   "path": "/methode/",
+   "path": "/source/",
    "vues": 3
   },
   {
