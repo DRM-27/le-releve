@@ -1,10 +1,10 @@
 {
- "genere": "2026-11-25T07:07:42Z",
+ "genere": "2026-11-25T08:53:50Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/",
-   "vues": 131
+   "vues": 133
   },
   {
    "path": "/le-releve/",
@@ -79,7 +79,7 @@
    "vues": 2
   },
   {
-   "path": "/en/joueurs-roblox-en-ce-moment/",
+   "path": "/en/studios/emo-playworks/",
    "vues": 2
   }
  ]
