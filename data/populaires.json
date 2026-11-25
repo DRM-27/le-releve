@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-25T10:07:03Z",
+ "genere": "2026-11-25T10:34:39Z",
  "periode_jours": 7,
  "pages": [
   {
@@ -31,6 +31,10 @@
    "vues": 4
   },
   {
+   "path": "/en/mises-a-jour/",
+   "vues": 3
+  },
+  {
    "path": "/le-releve/explorer/",
    "vues": 3
   },
@@ -47,7 +51,7 @@
    "vues": 3
   },
   {
-   "path": "/le-releve/classement/",
+   "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
    "vues": 2
   },
   {
@@ -63,7 +67,7 @@
    "vues": 2
   },
   {
-   "path": "/en/mises-a-jour/",
+   "path": "/le-releve/classement/",
    "vues": 2
   },
   {
@@ -71,15 +75,11 @@
    "vues": 2
   },
   {
-   "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
+   "path": "/comparer/",
    "vues": 2
   },
   {
    "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
-   "vues": 2
-  },
-  {
-   "path": "/comparer/",
    "vues": 2
   }
  ]
