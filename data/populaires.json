@@ -1,14 +1,14 @@
 {
- "genere": "2026-11-26T20:10:26Z",
+ "genere": "2026-11-26T21:10:42Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/",
-   "vues": 145
+   "vues": 149
   },
   {
    "path": "/classement/",
-   "vues": 9
+   "vues": 10
   },
   {
    "path": "/en/jeux/uts-3-0-toilet-tower-defense-4778845442/",
@@ -27,11 +27,11 @@
    "vues": 5
   },
   {
-   "path": "/methode/",
+   "path": "/le-releve/",
    "vues": 4
   },
   {
-   "path": "/le-releve/",
+   "path": "/methode/",
    "vues": 4
   },
   {
@@ -39,23 +39,7 @@
    "vues": 3
   },
   {
-   "path": "/en/joueurs-roblox-en-ce-moment/",
-   "vues": 3
-  },
-  {
-   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
-   "vues": 3
-  },
-  {
-   "path": "/en/monetisation/",
-   "vues": 3
-  },
-  {
-   "path": "/source/",
-   "vues": 3
-  },
-  {
-   "path": "/en/comparer/",
+   "path": "/en/tendances/",
    "vues": 3
   },
   {
@@ -63,11 +47,27 @@
    "vues": 3
   },
   {
-   "path": "/en/tendances/",
+   "path": "/source/",
    "vues": 3
   },
   {
-   "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
+   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
+   "vues": 3
+  },
+  {
+   "path": "/en/comparer/",
+   "vues": 3
+  },
+  {
+   "path": "/en/joueurs-roblox-en-ce-moment/",
+   "vues": 3
+  },
+  {
+   "path": "/en/monetisation/",
+   "vues": 3
+  },
+  {
+   "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
    "vues": 2
   },
   {
@@ -75,11 +75,11 @@
    "vues": 2
   },
   {
-   "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
+   "path": "/articles/2026-11-16-steal-an-egg-quotidien/",
    "vues": 2
   },
   {
-   "path": "/articles/2026-11-23-steal-an-egg-quotidien/",
+   "path": "/en/studios/emo-playworks/",
    "vues": 2
   }
  ]
