@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-26T08:09:30Z",
+ "genere": "2026-11-26T09:09:52Z",
  "periode_jours": 7,
  "pages": [
   {
@@ -35,6 +35,10 @@
    "vues": 4
   },
   {
+   "path": "/en/tendances/",
+   "vues": 3
+  },
+  {
    "path": "/alertes/",
    "vues": 3
   },
@@ -59,10 +63,6 @@
    "vues": 2
   },
   {
-   "path": "/en/tendances/",
-   "vues": 2
-  },
-  {
    "path": "/comparer/",
    "vues": 2
   },
@@ -79,7 +79,7 @@
    "vues": 2
   },
   {
-   "path": "/en/studios/emo-playworks/",
+   "path": "/en/joueurs-roblox-en-ce-moment/",
    "vues": 2
   }
  ]
