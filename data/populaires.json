@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-26T21:10:42Z",
+ "genere": "2026-11-26T22:10:32Z",
  "periode_jours": 7,
  "pages": [
   {
@@ -27,11 +27,11 @@
    "vues": 5
   },
   {
-   "path": "/le-releve/",
+   "path": "/methode/",
    "vues": 4
   },
   {
-   "path": "/methode/",
+   "path": "/le-releve/",
    "vues": 4
   },
   {
@@ -39,15 +39,7 @@
    "vues": 3
   },
   {
-   "path": "/en/tendances/",
-   "vues": 3
-  },
-  {
-   "path": "/alertes/",
-   "vues": 3
-  },
-  {
-   "path": "/source/",
+   "path": "/en/joueurs-roblox-en-ce-moment/",
    "vues": 3
   },
   {
@@ -55,19 +47,27 @@
    "vues": 3
   },
   {
-   "path": "/en/comparer/",
-   "vues": 3
-  },
-  {
-   "path": "/en/joueurs-roblox-en-ce-moment/",
-   "vues": 3
-  },
-  {
    "path": "/en/monetisation/",
    "vues": 3
   },
   {
-   "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
+   "path": "/source/",
+   "vues": 3
+  },
+  {
+   "path": "/en/comparer/",
+   "vues": 3
+  },
+  {
+   "path": "/alertes/",
+   "vues": 3
+  },
+  {
+   "path": "/en/tendances/",
+   "vues": 3
+  },
+  {
+   "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
    "vues": 2
   },
   {
@@ -75,11 +75,11 @@
    "vues": 2
   },
   {
-   "path": "/articles/2026-11-16-steal-an-egg-quotidien/",
+   "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
    "vues": 2
   },
   {
-   "path": "/en/studios/emo-playworks/",
+   "path": "/articles/2026-11-23-steal-an-egg-quotidien/",
    "vues": 2
   }
  ]
