@@ -1621,3 +1621,5 @@ ts_utc,type,universe_id,nom,avant,maintenant,variation,rang,rang_avant,releve
 2026-11-26T22:28:53Z,forte_hausse,10772066587,NIGHT WITH OPAH,559,2506,3.483,399,614,data/snapshots/2026/11/26/22.csv
 2026-11-26T22:44:13Z,forte_hausse,10771643321,Steal A Balut,1413,2179,0.5421,427,517,data/snapshots/2026/11/26/22.csv
 2026-11-26T22:44:13Z,forte_hausse,10774769300,[EVENT] River Hunter,854,2169,1.5398,428,581,data/snapshots/2026/11/26/22.csv
+2026-11-26T23:09:53Z,forte_hausse,10770703729,🎃 KRN: Crosshair,3932,12190,2.1002,104,327,data/snapshots/2026/11/26/23.csv
+2026-11-26T23:09:53Z,forte_hausse,10766620257,Bike For Egg!,2126,3284,0.5447,348,438,data/snapshots/2026/11/26/23.csv
