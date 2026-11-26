@@ -95,7 +95,7 @@ def build(d):
             row["moyenne_veille"] = round(prev[u]["avg"])
             row["var_veille"] = round(s["avg"] / prev[u]["avg"] - 1, 4)
         base = [w[u]["avg"] for w in week if u in w and w[u]["complete"]]
-        if s["complete"] and len(week) >= 5 and len(base) >= 5:
+        if s["complete"] and len(week) >= 5 and len(base) >= 5 and mean(base) > 0:
             row["moyenne_7j_avant"] = round(mean(base))
             row["var_7j"] = round(s["avg"] / mean(base) - 1, 4)
         # visites sur 24 h : dernier relevé du jour moins dernier relevé de la veille (écart de 23 à 25 h)
