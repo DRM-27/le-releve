@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-26T11:09:47Z",
+ "genere": "2026-11-26T12:09:43Z",
  "periode_jours": 7,
  "pages": [
   {
@@ -35,11 +35,11 @@
    "vues": 4
   },
   {
-   "path": "/source/",
+   "path": "/en/joueurs-roblox-en-ce-moment/",
    "vues": 3
   },
   {
-   "path": "/en/comparer/",
+   "path": "/source/",
    "vues": 3
   },
   {
@@ -51,11 +51,11 @@
    "vues": 3
   },
   {
-   "path": "/en/mises-a-jour/",
+   "path": "/en/comparer/",
    "vues": 3
   },
   {
-   "path": "/en/joueurs-roblox-en-ce-moment/",
+   "path": "/en/mises-a-jour/",
    "vues": 3
   },
   {
@@ -71,15 +71,15 @@
    "vues": 2
   },
   {
-   "path": "/articles/2026-11-23-steal-an-egg-quotidien/",
-   "vues": 2
-  },
-  {
    "path": "/en/articles/2026-11-22-save-the-krusty-krab-quotidien/",
    "vues": 2
   },
   {
-   "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
+   "path": "/comparer/",
+   "vues": 2
+  },
+  {
+   "path": "/jeux/steal-an-egg-10563114921/",
    "vues": 2
   }
  ]
