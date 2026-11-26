@@ -1537,3 +1537,6 @@ ts_utc,type,universe_id,nom,avant,maintenant,variation,rang,rang_avant,releve
 2026-11-25T22:07:48Z,forte_hausse,7089588429,(TOWING x LIMITED UPDATE 🎃) Drag Drive Simulator,1363,2398,0.7594,407,529,data/snapshots/2026/11/25/22.csv
 2026-11-25T23:07:51Z,forte_hausse,10772066587,NIGHT WITH OPAH,1677,3857,1.2999,309,487,data/snapshots/2026/11/25/23.csv
 2026-11-25T23:07:51Z,forte_hausse,10774769300,[EVENT] River Hunter,968,3256,2.3636,355,560,data/snapshots/2026/11/25/23.csv
+2026-11-26T00:07:52Z,forte_hausse,6325068386,[OG BLR] Blue Lock: Rivals,14147,23304,0.6473,48,91,data/snapshots/2026/11/26/00.csv
+2026-11-26T00:07:52Z,forte_hausse,4130569984,[ANNIVERSARY] Jurassic Blocky,1261,6103,3.8398,217,528,data/snapshots/2026/11/26/00.csv
+2026-11-26T00:07:52Z,forte_hausse,10771935715,MAHANAKHON RACING,1516,2657,0.7526,388,501,data/snapshots/2026/11/26/00.csv
