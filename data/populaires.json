@@ -1,50 +1,86 @@
 {
- "genere": "2026-11-26T17:10:24Z",
+ "genere": "2026-11-26T18:10:13Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/",
-   "vues": 220
+   "vues": 145
   },
   {
-   "path": "/methode/",
-   "vues": 20
-  },
-  {
-   "path": "/jeux/steal-an-egg-10563114921/",
-   "vues": 10
-  },
-  {
-   "path": "/en/monetisation/",
-   "vues": 10
-  },
-  {
-   "path": "/en/studios/emo-playworks/",
-   "vues": 10
-  },
-  {
-   "path": "/jeux/ragdoll-soccer-10770730129/",
-   "vues": 10
-  },
-  {
-   "path": "/en/studios/sabun-studios/",
-   "vues": 10
-  },
-  {
-   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
-   "vues": 10
-  },
-  {
-   "path": "/le-releve/",
-   "vues": 10
-  },
-  {
-   "path": "/actus-officielles/",
-   "vues": 10
+   "path": "/classement/",
+   "vues": 9
   },
   {
    "path": "/en/jeux/uts-3-0-toilet-tower-defense-4778845442/",
-   "vues": 10
+   "vues": 9
+  },
+  {
+   "path": "/articles/2026-11-19-jailbreak-quotidien/",
+   "vues": 6
+  },
+  {
+   "path": "/explorer/",
+   "vues": 5
+  },
+  {
+   "path": "/es/joueurs-roblox-en-ce-moment/",
+   "vues": 5
+  },
+  {
+   "path": "/le-releve/",
+   "vues": 4
+  },
+  {
+   "path": "/methode/",
+   "vues": 4
+  },
+  {
+   "path": "/en/mises-a-jour/",
+   "vues": 3
+  },
+  {
+   "path": "/en/tendances/",
+   "vues": 3
+  },
+  {
+   "path": "/alertes/",
+   "vues": 3
+  },
+  {
+   "path": "/source/",
+   "vues": 3
+  },
+  {
+   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
+   "vues": 3
+  },
+  {
+   "path": "/en/comparer/",
+   "vues": 3
+  },
+  {
+   "path": "/en/joueurs-roblox-en-ce-moment/",
+   "vues": 3
+  },
+  {
+   "path": "/en/monetisation/",
+   "vues": 3
+  },
+  {
+   "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
+   "vues": 2
+  },
+  {
+   "path": "/comparer/",
+   "vues": 2
+  },
+  {
+   "path": "/articles/2026-11-16-steal-an-egg-quotidien/",
+   "vues": 2
+  },
+  {
+   "path": "/en/studios/emo-playworks/",
+   "vues": 2
   }
  ]
 }
