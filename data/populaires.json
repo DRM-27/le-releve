@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-26T13:22:33Z",
+ "genere": "2026-11-26T14:09:59Z",
  "periode_jours": 7,
  "pages": [
   {
@@ -35,6 +35,14 @@
    "vues": 4
   },
   {
+   "path": "/en/joueurs-roblox-en-ce-moment/",
+   "vues": 3
+  },
+  {
+   "path": "/source/",
+   "vues": 3
+  },
+  {
    "path": "/en/comparer/",
    "vues": 3
   },
@@ -47,20 +55,8 @@
    "vues": 3
   },
   {
-   "path": "/source/",
-   "vues": 3
-  },
-  {
    "path": "/en/mises-a-jour/",
    "vues": 3
-  },
-  {
-   "path": "/en/joueurs-roblox-en-ce-moment/",
-   "vues": 3
-  },
-  {
-   "path": "/en/studios/emo-playworks/",
-   "vues": 2
   },
   {
    "path": "/articles/2026-11-16-steal-an-egg-quotidien/",
@@ -71,7 +67,11 @@
    "vues": 2
   },
   {
-   "path": "/articles/2026-11-23-steal-an-egg-quotidien/",
+   "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
+   "vues": 2
+  },
+  {
+   "path": "/en/studios/emo-playworks/",
    "vues": 2
   },
   {
@@ -79,7 +79,7 @@
    "vues": 2
   },
   {
-   "path": "/jeux/steal-an-egg-10563114921/",
+   "path": "/confidentialite/",
    "vues": 2
   }
  ]
