@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-26",
- "genere": "2026-11-27T15:14:43Z",
+ "genere": "2026-11-27T15:31:28Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -7419,111 +7419,111 @@
    "src": "data/jours/2026-11-26.csv#L60"
   },
   "g.10764627709.nom": {
-   "v": "[🍔] Huss Valley",
-   "d": "[🍔] Huss Valley",
-   "l": "[🍔] Huss Valley : nom",
+   "v": "[🍗] Huss Valley",
+   "d": "[🍗] Huss Valley",
+   "l": "[🍗] Huss Valley : nom",
    "src": "data/jours/2026-11-26.csv#L61"
   },
   "g.10764627709.rang": {
    "v": 60,
    "d": "60e",
-   "l": "[🍔] Huss Valley : rang au pic du jour",
+   "l": "[🍗] Huss Valley : rang au pic du jour",
    "src": "data/jours/2026-11-26.csv#L61"
   },
   "g.10764627709.pic": {
    "v": 27317,
    "d": "27 317",
-   "l": "[🍔] Huss Valley : pic de joueurs simultanés relevé",
+   "l": "[🍗] Huss Valley : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-26.csv#L61"
   },
   "g.10764627709.heure_pic": {
    "v": "21:09",
    "d": "21 h 09",
-   "l": "[🍔] Huss Valley : heure (Paris) du pic relevé",
+   "l": "[🍗] Huss Valley : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-26.csv#L61"
   },
   "g.10764627709.moy": {
    "v": 18825,
    "d": "18 825",
-   "l": "[🍔] Huss Valley : moyenne des joueurs simultanés sur la journée",
+   "l": "[🍗] Huss Valley : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-26.csv#L61"
   },
   "g.10764627709.createur": {
    "v": "Huss Valley Official",
    "d": "Huss Valley Official",
-   "l": "[🍔] Huss Valley : créateur",
+   "l": "[🍗] Huss Valley : créateur",
    "src": "data/jours/2026-11-26.csv#L61"
   },
   "g.10764627709.genre": {
    "v": "Action",
    "d": "Action",
-   "l": "[🍔] Huss Valley : genre",
+   "l": "[🍗] Huss Valley : genre",
    "src": "data/jours/2026-11-26.csv#L61"
   },
   "g.10764627709.var_veille": {
    "v": -0.0127,
    "d": "−1,3 %",
-   "l": "[🍔] Huss Valley : variation de la moyenne par rapport à la veille",
+   "l": "[🍗] Huss Valley : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-26.csv#L61"
   },
   "g.10764627709.moy_veille": {
    "v": 19067,
    "d": "19 067",
-   "l": "[🍔] Huss Valley : moyenne de la veille",
+   "l": "[🍗] Huss Valley : moyenne de la veille",
    "src": "data/jours/2026-11-26.csv#L61"
   },
   "g.10764627709.var_7j": {
    "v": -0.0406,
    "d": "−4,1 %",
-   "l": "[🍔] Huss Valley : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🍗] Huss Valley : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-26.csv#L61"
   },
   "g.10764627709.moy_7j": {
    "v": 19621,
    "d": "19 621",
-   "l": "[🍔] Huss Valley : moyenne des 7 jours précédents",
+   "l": "[🍗] Huss Valley : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-26.csv#L61"
   },
   "g.10764627709.visites_24h": {
    "v": 2904406,
    "d": "2,9 millions",
-   "l": "[🍔] Huss Valley : visites gagnées en 24 h",
+   "l": "[🍗] Huss Valley : visites gagnées en 24 h",
    "src": "data/jours/2026-11-26.csv#L61"
   },
   "g.10764627709.visites_total": {
    "v": 315148260,
    "d": "315,15 millions",
-   "l": "[🍔] Huss Valley : visites cumulées depuis la création",
+   "l": "[🍗] Huss Valley : visites cumulées depuis la création",
    "src": "data/jours/2026-11-26.csv#L61"
   },
   "g.10764627709.note": {
    "v": 0.8684,
    "d": "86,8 %",
-   "l": "[🍔] Huss Valley : part de votes positifs",
+   "l": "[🍗] Huss Valley : part de votes positifs",
    "src": "data/jours/2026-11-26.csv#L61"
   },
   "g.10764627709.rang_veille": {
    "v": 64,
    "d": "64e",
-   "l": "[🍔] Huss Valley : rang la veille",
+   "l": "[🍗] Huss Valley : rang la veille",
    "src": "data/jours/2026-11-26.csv#L61"
   },
   "g.10764627709.rang_moy": {
    "v": 58,
    "d": "58e",
-   "l": "[🍔] Huss Valley : rang à la moyenne du jour",
+   "l": "[🍗] Huss Valley : rang à la moyenne du jour",
    "src": "data/jours/2026-11-26.csv#L61"
   },
   "g.10764627709.releves": {
    "v": 24,
    "d": "24",
-   "l": "[🍔] Huss Valley : relevés où le jeu a été mesuré",
+   "l": "[🍗] Huss Valley : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-26.csv#L61"
   },
   "g.10764627709.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[🍔] Huss Valley : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[🍗] Huss Valley : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-26.csv#L61"
   },
   "g.10772281976.nom": {
