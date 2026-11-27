@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-26",
- "genere": "2026-11-27T20:05:15Z",
+ "genere": "2026-11-27T21:05:24Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -4689,111 +4689,111 @@
    "src": "data/jours/2026-11-26.csv#L34"
   },
   "g.3647333358.nom": {
-   "v": "[🦃] Evade",
-   "d": "[🦃] Evade",
-   "l": "[🦃] Evade : nom",
+   "v": "[💰] Evade",
+   "d": "[💰] Evade",
+   "l": "[💰] Evade : nom",
    "src": "data/jours/2026-11-26.csv#L35"
   },
   "g.3647333358.rang": {
    "v": 34,
    "d": "34e",
-   "l": "[🦃] Evade : rang au pic du jour",
+   "l": "[💰] Evade : rang au pic du jour",
    "src": "data/jours/2026-11-26.csv#L35"
   },
   "g.3647333358.pic": {
    "v": 47122,
    "d": "47 122",
-   "l": "[🦃] Evade : pic de joueurs simultanés relevé",
+   "l": "[💰] Evade : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-26.csv#L35"
   },
   "g.3647333358.heure_pic": {
    "v": "14:21",
    "d": "14 h 21",
-   "l": "[🦃] Evade : heure (Paris) du pic relevé",
+   "l": "[💰] Evade : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-26.csv#L35"
   },
   "g.3647333358.moy": {
    "v": 32750,
    "d": "32 750",
-   "l": "[🦃] Evade : moyenne des joueurs simultanés sur la journée",
+   "l": "[💰] Evade : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-26.csv#L35"
   },
   "g.3647333358.createur": {
    "v": "Hexagon Development Community",
    "d": "Hexagon Development Community",
-   "l": "[🦃] Evade : créateur",
+   "l": "[💰] Evade : créateur",
    "src": "data/jours/2026-11-26.csv#L35"
   },
   "g.3647333358.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "[🦃] Evade : genre",
+   "l": "[💰] Evade : genre",
    "src": "data/jours/2026-11-26.csv#L35"
   },
   "g.3647333358.var_veille": {
    "v": -0.0276,
    "d": "−2,8 %",
-   "l": "[🦃] Evade : variation de la moyenne par rapport à la veille",
+   "l": "[💰] Evade : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-26.csv#L35"
   },
   "g.3647333358.moy_veille": {
    "v": 33680,
    "d": "33 680",
-   "l": "[🦃] Evade : moyenne de la veille",
+   "l": "[💰] Evade : moyenne de la veille",
    "src": "data/jours/2026-11-26.csv#L35"
   },
   "g.3647333358.var_7j": {
    "v": -0.0679,
    "d": "−6,8 %",
-   "l": "[🦃] Evade : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[💰] Evade : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-26.csv#L35"
   },
   "g.3647333358.moy_7j": {
    "v": 35137,
    "d": "35 137",
-   "l": "[🦃] Evade : moyenne des 7 jours précédents",
+   "l": "[💰] Evade : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-26.csv#L35"
   },
   "g.3647333358.visites_24h": {
    "v": 3974005,
    "d": "3,97 millions",
-   "l": "[🦃] Evade : visites gagnées en 24 h",
+   "l": "[💰] Evade : visites gagnées en 24 h",
    "src": "data/jours/2026-11-26.csv#L35"
   },
   "g.3647333358.visites_total": {
    "v": 9533906824,
    "d": "9,53 milliards",
-   "l": "[🦃] Evade : visites cumulées depuis la création",
+   "l": "[💰] Evade : visites cumulées depuis la création",
    "src": "data/jours/2026-11-26.csv#L35"
   },
   "g.3647333358.note": {
    "v": 0.939,
    "d": "93,9 %",
-   "l": "[🦃] Evade : part de votes positifs",
+   "l": "[💰] Evade : part de votes positifs",
    "src": "data/jours/2026-11-26.csv#L35"
   },
   "g.3647333358.rang_veille": {
    "v": 34,
    "d": "34e",
-   "l": "[🦃] Evade : rang la veille",
+   "l": "[💰] Evade : rang la veille",
    "src": "data/jours/2026-11-26.csv#L35"
   },
   "g.3647333358.rang_moy": {
    "v": 37,
    "d": "37e",
-   "l": "[🦃] Evade : rang à la moyenne du jour",
+   "l": "[💰] Evade : rang à la moyenne du jour",
    "src": "data/jours/2026-11-26.csv#L35"
   },
   "g.3647333358.releves": {
    "v": 24,
    "d": "24",
-   "l": "[🦃] Evade : relevés où le jeu a été mesuré",
+   "l": "[💰] Evade : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-26.csv#L35"
   },
   "g.3647333358.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[🦃] Evade : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[💰] Evade : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-26.csv#L35"
   },
   "g.6331902150.nom": {
