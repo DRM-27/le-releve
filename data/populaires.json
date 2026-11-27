@@ -1,26 +1,22 @@
 {
- "genere": "2026-11-27T16:04:46Z",
+ "genere": "2026-11-27T17:04:49Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/",
-   "vues": 149
+   "vues": 140
   },
   {
    "path": "/classement/",
-   "vues": 10
+   "vues": 9
   },
   {
    "path": "/en/jeux/uts-3-0-toilet-tower-defense-4778845442/",
    "vues": 9
   },
   {
-   "path": "/explorer/",
-   "vues": 6
-  },
-  {
-   "path": "/articles/2026-11-19-jailbreak-quotidien/",
-   "vues": 6
+   "path": "/methode/",
+   "vues": 5
   },
   {
    "path": "/es/joueurs-roblox-en-ce-moment/",
@@ -31,27 +27,19 @@
    "vues": 5
   },
   {
-   "path": "/methode/",
+   "path": "/explorer/",
    "vues": 5
-  },
-  {
-   "path": "/alertes/",
-   "vues": 4
   },
   {
    "path": "/en/monetisation/",
    "vues": 4
   },
   {
-   "path": "/en/mises-a-jour/",
-   "vues": 3
+   "path": "/alertes/",
+   "vues": 4
   },
   {
-   "path": "/en/tendances/",
-   "vues": 3
-  },
-  {
-   "path": "/source/",
+   "path": "/en/joueurs-roblox-en-ce-moment/",
    "vues": 3
   },
   {
@@ -59,15 +47,27 @@
    "vues": 3
   },
   {
+   "path": "/en/mises-a-jour/",
+   "vues": 3
+  },
+  {
    "path": "/en/comparer/",
    "vues": 3
   },
   {
-   "path": "/en/joueurs-roblox-en-ce-moment/",
+   "path": "/source/",
    "vues": 3
   },
   {
-   "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
+   "path": "/en/tendances/",
+   "vues": 3
+  },
+  {
+   "path": "/articles/2026-11-19-jailbreak-quotidien/",
+   "vues": 3
+  },
+  {
+   "path": "/jeux-roblox-les-plus-joues/",
    "vues": 2
   },
   {
@@ -75,11 +75,11 @@
    "vues": 2
   },
   {
-   "path": "/heures-de-pointe/",
+   "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
    "vues": 2
   },
   {
-   "path": "/mises-a-jour/",
+   "path": "/en/articles/2026-11-22-save-the-krusty-krab-quotidien/",
    "vues": 2
   }
  ]

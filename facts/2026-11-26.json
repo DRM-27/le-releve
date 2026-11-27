@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-26",
- "genere": "2026-11-27T16:04:48Z",
+ "genere": "2026-11-27T17:04:51Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -9405,111 +9405,111 @@
    "src": "data/jours/2026-11-26.csv#L79"
   },
   "g.10775166914.nom": {
-   "v": "[REVAMP] Dummy Lab🩸",
-   "d": "[REVAMP] Dummy Lab🩸",
-   "l": "[REVAMP] Dummy Lab🩸 : nom",
+   "v": "[ARENA] Dummy Lab 🐂",
+   "d": "[ARENA] Dummy Lab 🐂",
+   "l": "[ARENA] Dummy Lab 🐂 : nom",
    "src": "data/jours/2026-11-26.csv#L80"
   },
   "g.10775166914.rang": {
    "v": 79,
    "d": "79e",
-   "l": "[REVAMP] Dummy Lab🩸 : rang au pic du jour",
+   "l": "[ARENA] Dummy Lab 🐂 : rang au pic du jour",
    "src": "data/jours/2026-11-26.csv#L80"
   },
   "g.10775166914.pic": {
    "v": 21185,
    "d": "21 185",
-   "l": "[REVAMP] Dummy Lab🩸 : pic de joueurs simultanés relevé",
+   "l": "[ARENA] Dummy Lab 🐂 : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-26.csv#L80"
   },
   "g.10775166914.heure_pic": {
    "v": "19:09",
    "d": "19 h 09",
-   "l": "[REVAMP] Dummy Lab🩸 : heure (Paris) du pic relevé",
+   "l": "[ARENA] Dummy Lab 🐂 : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-26.csv#L80"
   },
   "g.10775166914.moy": {
    "v": 15019,
    "d": "15 019",
-   "l": "[REVAMP] Dummy Lab🩸 : moyenne des joueurs simultanés sur la journée",
+   "l": "[ARENA] Dummy Lab 🐂 : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-26.csv#L80"
   },
   "g.10775166914.createur": {
    "v": "Dummy Lab Community",
    "d": "Dummy Lab Community",
-   "l": "[REVAMP] Dummy Lab🩸 : créateur",
+   "l": "[ARENA] Dummy Lab 🐂 : créateur",
    "src": "data/jours/2026-11-26.csv#L80"
   },
   "g.10775166914.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[REVAMP] Dummy Lab🩸 : genre",
+   "l": "[ARENA] Dummy Lab 🐂 : genre",
    "src": "data/jours/2026-11-26.csv#L80"
   },
   "g.10775166914.var_veille": {
    "v": 0.0335,
    "d": "+3,4 %",
-   "l": "[REVAMP] Dummy Lab🩸 : variation de la moyenne par rapport à la veille",
+   "l": "[ARENA] Dummy Lab 🐂 : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-26.csv#L80"
   },
   "g.10775166914.moy_veille": {
    "v": 14532,
    "d": "14 532",
-   "l": "[REVAMP] Dummy Lab🩸 : moyenne de la veille",
+   "l": "[ARENA] Dummy Lab 🐂 : moyenne de la veille",
    "src": "data/jours/2026-11-26.csv#L80"
   },
   "g.10775166914.var_7j": {
    "v": 0.6049,
    "d": "+60,5 %",
-   "l": "[REVAMP] Dummy Lab🩸 : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[ARENA] Dummy Lab 🐂 : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-26.csv#L80"
   },
   "g.10775166914.moy_7j": {
    "v": 9358,
    "d": "9 358",
-   "l": "[REVAMP] Dummy Lab🩸 : moyenne des 7 jours précédents",
+   "l": "[ARENA] Dummy Lab 🐂 : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-26.csv#L80"
   },
   "g.10775166914.visites_24h": {
    "v": 3263818,
    "d": "3,26 millions",
-   "l": "[REVAMP] Dummy Lab🩸 : visites gagnées en 24 h",
+   "l": "[ARENA] Dummy Lab 🐂 : visites gagnées en 24 h",
    "src": "data/jours/2026-11-26.csv#L80"
   },
   "g.10775166914.visites_total": {
    "v": 21027869,
    "d": "21,03 millions",
-   "l": "[REVAMP] Dummy Lab🩸 : visites cumulées depuis la création",
+   "l": "[ARENA] Dummy Lab 🐂 : visites cumulées depuis la création",
    "src": "data/jours/2026-11-26.csv#L80"
   },
   "g.10775166914.note": {
    "v": 0.7717,
    "d": "77,2 %",
-   "l": "[REVAMP] Dummy Lab🩸 : part de votes positifs",
+   "l": "[ARENA] Dummy Lab 🐂 : part de votes positifs",
    "src": "data/jours/2026-11-26.csv#L80"
   },
   "g.10775166914.rang_veille": {
    "v": 60,
    "d": "60e",
-   "l": "[REVAMP] Dummy Lab🩸 : rang la veille",
+   "l": "[ARENA] Dummy Lab 🐂 : rang la veille",
    "src": "data/jours/2026-11-26.csv#L80"
   },
   "g.10775166914.rang_moy": {
    "v": 79,
    "d": "79e",
-   "l": "[REVAMP] Dummy Lab🩸 : rang à la moyenne du jour",
+   "l": "[ARENA] Dummy Lab 🐂 : rang à la moyenne du jour",
    "src": "data/jours/2026-11-26.csv#L80"
   },
   "g.10775166914.releves": {
    "v": 24,
    "d": "24",
-   "l": "[REVAMP] Dummy Lab🩸 : relevés où le jeu a été mesuré",
+   "l": "[ARENA] Dummy Lab 🐂 : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-26.csv#L80"
   },
   "g.10775166914.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[REVAMP] Dummy Lab🩸 : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[ARENA] Dummy Lab 🐂 : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-26.csv#L80"
   },
   "g.184199275.nom": {
