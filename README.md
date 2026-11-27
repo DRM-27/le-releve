@@ -1,6 +1,10 @@
 # PlayLedgers
 
-Média de données indépendant sur Roblox, en français. Chaque chiffre publié est calculé par programme à partir de relevés publics et relié à sa source.
+**Site : [playledgers.com](https://playledgers.com)** · [English](https://playledgers.com/en/) · [Live Roblox rankings](https://playledgers.com/en/classement/) · [Open data](https://playledgers.com/en/donnees/)
+
+Independent data media about Roblox: the most-played games, measured every hour from Roblox's public APIs, with every number linked to its source. Available in English, French, Spanish and Brazilian Portuguese. The raw hourly readings are in `data/` (see the methodology on the site).
+
+Média de données indépendant sur Roblox. Chaque chiffre publié est calculé par programme à partir de relevés publics et relié à sa source.
 
 Non affilié à Roblox Corporation.
 
