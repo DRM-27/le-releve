@@ -153,6 +153,7 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           printf '/le-releve/* /:splat 301\n' > _site/_redirects
+          python tools/indexnow.py cle
           npx --yes wrangler@4 pages project create playledgers --production-branch=main 2>/dev/null || true
           # Cloudflare renvoie parfois une erreur passagère (code 8000000) : 3 essais
           for i in 1 2 3; do npx --yes wrangler@4 pages deploy _site --project-name=playledgers --branch=main --commit-dirty=true && break; [ $i = 3 ] && exit 1; sleep 30; done
@@ -174,6 +175,10 @@ jobs:
           else
             echo "::warning::Zone playledgers.com introuvable avec ce jeton (permission Zone › Zone › Read manquante ?). DNS à vérifier à la main."
           fi
+
+      - name: Prévenir Bing et les moteurs IndexNow des nouvelles pages
+        if: env.HEBERGEMENT == 'cloudflare'
+        run: python tools/indexnow.py envoyer || true
 
       - name: Préparer GitHub Pages (le site, ou des redirections vers playledgers.com)
         run: |
