@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-26",
- "genere": "2026-11-27T15:31:28Z",
+ "genere": "2026-11-27T16:04:48Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -723,8 +723,8 @@
    "src": "data/jours/2026-11-26.csv#L7"
   },
   "top.7.nom": {
-   "v": "[🐶] Adopt Me!",
-   "d": "[🐶] Adopt Me!",
+   "v": "[🍪] Adopt Me!",
+   "d": "[🍪] Adopt Me!",
    "l": "N° 7 du jour : nom",
    "src": "data/jours/2026-11-26.csv#L8"
   },
@@ -1803,111 +1803,111 @@
    "src": "data/jours/2026-11-26.csv#L7"
   },
   "g.383310974.nom": {
-   "v": "[🐶] Adopt Me!",
-   "d": "[🐶] Adopt Me!",
-   "l": "[🐶] Adopt Me! : nom",
+   "v": "[🍪] Adopt Me!",
+   "d": "[🍪] Adopt Me!",
+   "l": "[🍪] Adopt Me! : nom",
    "src": "data/jours/2026-11-26.csv#L8"
   },
   "g.383310974.rang": {
    "v": 7,
    "d": "7e",
-   "l": "[🐶] Adopt Me! : rang au pic du jour",
+   "l": "[🍪] Adopt Me! : rang au pic du jour",
    "src": "data/jours/2026-11-26.csv#L8"
   },
   "g.383310974.pic": {
    "v": 197585,
    "d": "197 585",
-   "l": "[🐶] Adopt Me! : pic de joueurs simultanés relevé",
+   "l": "[🍪] Adopt Me! : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-26.csv#L8"
   },
   "g.383310974.heure_pic": {
    "v": "18:09",
    "d": "18 h 09",
-   "l": "[🐶] Adopt Me! : heure (Paris) du pic relevé",
+   "l": "[🍪] Adopt Me! : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-26.csv#L8"
   },
   "g.383310974.moy": {
    "v": 170839,
    "d": "170 839",
-   "l": "[🐶] Adopt Me! : moyenne des joueurs simultanés sur la journée",
+   "l": "[🍪] Adopt Me! : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-26.csv#L8"
   },
   "g.383310974.createur": {
    "v": "Uplift Games",
    "d": "Uplift Games",
-   "l": "[🐶] Adopt Me! : créateur",
+   "l": "[🍪] Adopt Me! : créateur",
    "src": "data/jours/2026-11-26.csv#L8"
   },
   "g.383310974.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "[🐶] Adopt Me! : genre",
+   "l": "[🍪] Adopt Me! : genre",
    "src": "data/jours/2026-11-26.csv#L8"
   },
   "g.383310974.var_veille": {
    "v": -0.044,
    "d": "−4,4 %",
-   "l": "[🐶] Adopt Me! : variation de la moyenne par rapport à la veille",
+   "l": "[🍪] Adopt Me! : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-26.csv#L8"
   },
   "g.383310974.moy_veille": {
    "v": 178706,
    "d": "178 706",
-   "l": "[🐶] Adopt Me! : moyenne de la veille",
+   "l": "[🍪] Adopt Me! : moyenne de la veille",
    "src": "data/jours/2026-11-26.csv#L8"
   },
   "g.383310974.var_7j": {
    "v": -0.2702,
    "d": "−27,0 %",
-   "l": "[🐶] Adopt Me! : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🍪] Adopt Me! : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-26.csv#L8"
   },
   "g.383310974.moy_7j": {
    "v": 234080,
    "d": "234 080",
-   "l": "[🐶] Adopt Me! : moyenne des 7 jours précédents",
+   "l": "[🍪] Adopt Me! : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-26.csv#L8"
   },
   "g.383310974.visites_24h": {
    "v": 7558101,
    "d": "7,56 millions",
-   "l": "[🐶] Adopt Me! : visites gagnées en 24 h",
+   "l": "[🍪] Adopt Me! : visites gagnées en 24 h",
    "src": "data/jours/2026-11-26.csv#L8"
   },
   "g.383310974.visites_total": {
    "v": 45514892143,
    "d": "45,51 milliards",
-   "l": "[🐶] Adopt Me! : visites cumulées depuis la création",
+   "l": "[🍪] Adopt Me! : visites cumulées depuis la création",
    "src": "data/jours/2026-11-26.csv#L8"
   },
   "g.383310974.note": {
    "v": 0.8642,
    "d": "86,4 %",
-   "l": "[🐶] Adopt Me! : part de votes positifs",
+   "l": "[🍪] Adopt Me! : part de votes positifs",
    "src": "data/jours/2026-11-26.csv#L8"
   },
   "g.383310974.rang_veille": {
    "v": 7,
    "d": "7e",
-   "l": "[🐶] Adopt Me! : rang la veille",
+   "l": "[🍪] Adopt Me! : rang la veille",
    "src": "data/jours/2026-11-26.csv#L8"
   },
   "g.383310974.rang_moy": {
    "v": 5,
    "d": "5e",
-   "l": "[🐶] Adopt Me! : rang à la moyenne du jour",
+   "l": "[🍪] Adopt Me! : rang à la moyenne du jour",
    "src": "data/jours/2026-11-26.csv#L8"
   },
   "g.383310974.releves": {
    "v": 24,
    "d": "24",
-   "l": "[🐶] Adopt Me! : relevés où le jeu a été mesuré",
+   "l": "[🍪] Adopt Me! : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-26.csv#L8"
   },
   "g.383310974.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[🐶] Adopt Me! : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[🍪] Adopt Me! : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-26.csv#L8"
   },
   "g.6035872082.nom": {
@@ -12387,7 +12387,7 @@
      "valeur": 221140
     },
     {
-     "nom": "[🐶] Adopt Me!",
+     "nom": "[🍪] Adopt Me!",
      "valeur": 197585
     },
     {
