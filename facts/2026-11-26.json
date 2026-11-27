@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-26",
- "genere": "2026-11-27T18:04:59Z",
+ "genere": "2026-11-27T19:05:13Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -4581,111 +4581,111 @@
    "src": "data/jours/2026-11-26.csv#L33"
   },
   "g.7709344486.nom": {
-   "v": "[💀] Steal a Brainrot",
-   "d": "[💀] Steal a Brainrot",
-   "l": "[💀] Steal a Brainrot : nom",
+   "v": "Steal a Brainrot",
+   "d": "Steal a Brainrot",
+   "l": "Steal a Brainrot : nom",
    "src": "data/jours/2026-11-26.csv#L34"
   },
   "g.7709344486.rang": {
    "v": 33,
    "d": "33e",
-   "l": "[💀] Steal a Brainrot : rang au pic du jour",
+   "l": "Steal a Brainrot : rang au pic du jour",
    "src": "data/jours/2026-11-26.csv#L34"
   },
   "g.7709344486.pic": {
    "v": 48027,
    "d": "48 027",
-   "l": "[💀] Steal a Brainrot : pic de joueurs simultanés relevé",
+   "l": "Steal a Brainrot : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-26.csv#L34"
   },
   "g.7709344486.heure_pic": {
    "v": "19:09",
    "d": "19 h 09",
-   "l": "[💀] Steal a Brainrot : heure (Paris) du pic relevé",
+   "l": "Steal a Brainrot : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-26.csv#L34"
   },
   "g.7709344486.moy": {
    "v": 35280,
    "d": "35 280",
-   "l": "[💀] Steal a Brainrot : moyenne des joueurs simultanés sur la journée",
+   "l": "Steal a Brainrot : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-26.csv#L34"
   },
   "g.7709344486.createur": {
    "v": "BRAZILIAN SPYDER",
    "d": "BRAZILIAN SPYDER",
-   "l": "[💀] Steal a Brainrot : créateur",
+   "l": "Steal a Brainrot : créateur",
    "src": "data/jours/2026-11-26.csv#L34"
   },
   "g.7709344486.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "[💀] Steal a Brainrot : genre",
+   "l": "Steal a Brainrot : genre",
    "src": "data/jours/2026-11-26.csv#L34"
   },
   "g.7709344486.var_veille": {
    "v": -0.3705,
    "d": "−37,0 %",
-   "l": "[💀] Steal a Brainrot : variation de la moyenne par rapport à la veille",
+   "l": "Steal a Brainrot : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-26.csv#L34"
   },
   "g.7709344486.moy_veille": {
    "v": 56045,
    "d": "56 045",
-   "l": "[💀] Steal a Brainrot : moyenne de la veille",
+   "l": "Steal a Brainrot : moyenne de la veille",
    "src": "data/jours/2026-11-26.csv#L34"
   },
   "g.7709344486.var_7j": {
    "v": -0.1362,
    "d": "−13,6 %",
-   "l": "[💀] Steal a Brainrot : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Steal a Brainrot : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-26.csv#L34"
   },
   "g.7709344486.moy_7j": {
    "v": 40840,
    "d": "40 840",
-   "l": "[💀] Steal a Brainrot : moyenne des 7 jours précédents",
+   "l": "Steal a Brainrot : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-26.csv#L34"
   },
   "g.7709344486.visites_24h": {
    "v": 7260328,
    "d": "7,26 millions",
-   "l": "[💀] Steal a Brainrot : visites gagnées en 24 h",
+   "l": "Steal a Brainrot : visites gagnées en 24 h",
    "src": "data/jours/2026-11-26.csv#L34"
   },
   "g.7709344486.visites_total": {
    "v": 74573671089,
    "d": "74,57 milliards",
-   "l": "[💀] Steal a Brainrot : visites cumulées depuis la création",
+   "l": "Steal a Brainrot : visites cumulées depuis la création",
    "src": "data/jours/2026-11-26.csv#L34"
   },
   "g.7709344486.note": {
    "v": 0.851,
    "d": "85,1 %",
-   "l": "[💀] Steal a Brainrot : part de votes positifs",
+   "l": "Steal a Brainrot : part de votes positifs",
    "src": "data/jours/2026-11-26.csv#L34"
   },
   "g.7709344486.rang_veille": {
    "v": 3,
    "d": "3e",
-   "l": "[💀] Steal a Brainrot : rang la veille",
+   "l": "Steal a Brainrot : rang la veille",
    "src": "data/jours/2026-11-26.csv#L34"
   },
   "g.7709344486.rang_moy": {
    "v": 34,
    "d": "34e",
-   "l": "[💀] Steal a Brainrot : rang à la moyenne du jour",
+   "l": "Steal a Brainrot : rang à la moyenne du jour",
    "src": "data/jours/2026-11-26.csv#L34"
   },
   "g.7709344486.releves": {
    "v": 24,
    "d": "24",
-   "l": "[💀] Steal a Brainrot : relevés où le jeu a été mesuré",
+   "l": "Steal a Brainrot : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-26.csv#L34"
   },
   "g.7709344486.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[💀] Steal a Brainrot : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "Steal a Brainrot : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-26.csv#L34"
   },
   "g.3647333358.nom": {
@@ -10341,111 +10341,111 @@
    "src": "data/jours/2026-11-26.csv#L88"
   },
   "g.10701622575.nom": {
-   "v": "Steal an Anime Pack",
-   "d": "Steal an Anime Pack",
-   "l": "Steal an Anime Pack : nom",
+   "v": "[⏳] Steal an Anime Pack",
+   "d": "[⏳] Steal an Anime Pack",
+   "l": "[⏳] Steal an Anime Pack : nom",
    "src": "data/jours/2026-11-26.csv#L89"
   },
   "g.10701622575.rang": {
    "v": 88,
    "d": "88e",
-   "l": "Steal an Anime Pack : rang au pic du jour",
+   "l": "[⏳] Steal an Anime Pack : rang au pic du jour",
    "src": "data/jours/2026-11-26.csv#L89"
   },
   "g.10701622575.pic": {
    "v": 19915,
    "d": "19 915",
-   "l": "Steal an Anime Pack : pic de joueurs simultanés relevé",
+   "l": "[⏳] Steal an Anime Pack : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-26.csv#L89"
   },
   "g.10701622575.heure_pic": {
    "v": "17:09",
    "d": "17 h 09",
-   "l": "Steal an Anime Pack : heure (Paris) du pic relevé",
+   "l": "[⏳] Steal an Anime Pack : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-26.csv#L89"
   },
   "g.10701622575.moy": {
    "v": 17412,
    "d": "17 412",
-   "l": "Steal an Anime Pack : moyenne des joueurs simultanés sur la journée",
+   "l": "[⏳] Steal an Anime Pack : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-26.csv#L89"
   },
   "g.10701622575.createur": {
    "v": "Anime Tuff Games",
    "d": "Anime Tuff Games",
-   "l": "Steal an Anime Pack : créateur",
+   "l": "[⏳] Steal an Anime Pack : créateur",
    "src": "data/jours/2026-11-26.csv#L89"
   },
   "g.10701622575.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "Steal an Anime Pack : genre",
+   "l": "[⏳] Steal an Anime Pack : genre",
    "src": "data/jours/2026-11-26.csv#L89"
   },
   "g.10701622575.var_veille": {
    "v": 0.0981,
    "d": "+9,8 %",
-   "l": "Steal an Anime Pack : variation de la moyenne par rapport à la veille",
+   "l": "[⏳] Steal an Anime Pack : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-26.csv#L89"
   },
   "g.10701622575.moy_veille": {
    "v": 15856,
    "d": "15 856",
-   "l": "Steal an Anime Pack : moyenne de la veille",
+   "l": "[⏳] Steal an Anime Pack : moyenne de la veille",
    "src": "data/jours/2026-11-26.csv#L89"
   },
   "g.10701622575.var_7j": {
    "v": 0.254,
    "d": "+25,4 %",
-   "l": "Steal an Anime Pack : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[⏳] Steal an Anime Pack : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-26.csv#L89"
   },
   "g.10701622575.moy_7j": {
    "v": 13884,
    "d": "13 884",
-   "l": "Steal an Anime Pack : moyenne des 7 jours précédents",
+   "l": "[⏳] Steal an Anime Pack : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-26.csv#L89"
   },
   "g.10701622575.visites_24h": {
    "v": 856433,
    "d": "856 433",
-   "l": "Steal an Anime Pack : visites gagnées en 24 h",
+   "l": "[⏳] Steal an Anime Pack : visites gagnées en 24 h",
    "src": "data/jours/2026-11-26.csv#L89"
   },
   "g.10701622575.visites_total": {
    "v": 26970101,
    "d": "26,97 millions",
-   "l": "Steal an Anime Pack : visites cumulées depuis la création",
+   "l": "[⏳] Steal an Anime Pack : visites cumulées depuis la création",
    "src": "data/jours/2026-11-26.csv#L89"
   },
   "g.10701622575.note": {
    "v": 0.961,
    "d": "96,1 %",
-   "l": "Steal an Anime Pack : part de votes positifs",
+   "l": "[⏳] Steal an Anime Pack : part de votes positifs",
    "src": "data/jours/2026-11-26.csv#L89"
   },
   "g.10701622575.rang_veille": {
    "v": 47,
    "d": "47e",
-   "l": "Steal an Anime Pack : rang la veille",
+   "l": "[⏳] Steal an Anime Pack : rang la veille",
    "src": "data/jours/2026-11-26.csv#L89"
   },
   "g.10701622575.rang_moy": {
    "v": 65,
    "d": "65e",
-   "l": "Steal an Anime Pack : rang à la moyenne du jour",
+   "l": "[⏳] Steal an Anime Pack : rang à la moyenne du jour",
    "src": "data/jours/2026-11-26.csv#L89"
   },
   "g.10701622575.releves": {
    "v": 24,
    "d": "24",
-   "l": "Steal an Anime Pack : relevés où le jeu a été mesuré",
+   "l": "[⏳] Steal an Anime Pack : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-26.csv#L89"
   },
   "g.10701622575.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "Steal an Anime Pack : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[⏳] Steal an Anime Pack : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-26.csv#L89"
   },
   "g.10774303559.nom": {
