@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-27T05:11:16Z",
+ "genere": "2026-11-27T05:23:58Z",
  "periode_jours": 7,
  "pages": [
   {
@@ -31,27 +31,7 @@
    "vues": 4
   },
   {
-   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
-   "vues": 3
-  },
-  {
-   "path": "/en/joueurs-roblox-en-ce-moment/",
-   "vues": 3
-  },
-  {
-   "path": "/en/comparer/",
-   "vues": 3
-  },
-  {
-   "path": "/en/monetisation/",
-   "vues": 3
-  },
-  {
    "path": "/en/mises-a-jour/",
-   "vues": 3
-  },
-  {
-   "path": "/source/",
    "vues": 3
   },
   {
@@ -63,15 +43,35 @@
    "vues": 3
   },
   {
-   "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
-   "vues": 2
+   "path": "/source/",
+   "vues": 3
   },
   {
-   "path": "/articles/2026-11-23-steal-an-egg-quotidien/",
-   "vues": 2
+   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
+   "vues": 3
+  },
+  {
+   "path": "/en/comparer/",
+   "vues": 3
+  },
+  {
+   "path": "/en/joueurs-roblox-en-ce-moment/",
+   "vues": 3
+  },
+  {
+   "path": "/en/monetisation/",
+   "vues": 3
   },
   {
    "path": "/comparer/",
+   "vues": 2
+  },
+  {
+   "path": "/articles/2026-11-18-hyper-realistic-ragdoll-quotidien/",
+   "vues": 2
+  },
+  {
+   "path": "/confidentialite/",
    "vues": 2
   },
   {
