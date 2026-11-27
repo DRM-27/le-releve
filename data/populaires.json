@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-27T02:10:55Z",
+ "genere": "2026-11-27T03:11:00Z",
  "periode_jours": 7,
  "pages": [
   {
@@ -19,11 +19,11 @@
    "vues": 6
   },
   {
-   "path": "/explorer/",
+   "path": "/es/joueurs-roblox-en-ce-moment/",
    "vues": 5
   },
   {
-   "path": "/es/joueurs-roblox-en-ce-moment/",
+   "path": "/explorer/",
    "vues": 5
   },
   {
@@ -31,7 +31,7 @@
    "vues": 4
   },
   {
-   "path": "/en/mises-a-jour/",
+   "path": "/en/comparer/",
    "vues": 3
   },
   {
@@ -39,23 +39,15 @@
    "vues": 3
   },
   {
-   "path": "/alertes/",
-   "vues": 3
-  },
-  {
    "path": "/source/",
    "vues": 3
   },
   {
-   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
+   "path": "/alertes/",
    "vues": 3
   },
   {
-   "path": "/en/comparer/",
-   "vues": 3
-  },
-  {
-   "path": "/en/joueurs-roblox-en-ce-moment/",
+   "path": "/en/mises-a-jour/",
    "vues": 3
   },
   {
@@ -63,19 +55,27 @@
    "vues": 3
   },
   {
-   "path": "/comparer/",
-   "vues": 2
+   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
+   "vues": 3
   },
   {
-   "path": "/articles/2026-11-18-hyper-realistic-ragdoll-quotidien/",
-   "vues": 2
+   "path": "/en/joueurs-roblox-en-ce-moment/",
+   "vues": 3
   },
   {
-   "path": "/confidentialite/",
+   "path": "/en/articles/2026-11-22-save-the-krusty-krab-quotidien/",
    "vues": 2
   },
   {
    "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
+   "vues": 2
+  },
+  {
+   "path": "/en/studios/emo-playworks/",
+   "vues": 2
+  },
+  {
+   "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
    "vues": 2
   },
   {
