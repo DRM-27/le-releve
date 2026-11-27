@@ -1,10 +1,10 @@
 {
- "genere": "2026-11-27T11:04:22Z",
+ "genere": "2026-11-27T12:05:02Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/",
-   "vues": 149
+   "vues": 151
   },
   {
    "path": "/classement/",
@@ -15,6 +15,10 @@
    "vues": 9
   },
   {
+   "path": "/explorer/",
+   "vues": 6
+  },
+  {
    "path": "/articles/2026-11-19-jailbreak-quotidien/",
    "vues": 6
   },
@@ -23,11 +27,15 @@
    "vues": 5
   },
   {
-   "path": "/explorer/",
+   "path": "/jeux/steal-an-egg-10563114921/",
    "vues": 5
   },
   {
    "path": "/methode/",
+   "vues": 5
+  },
+  {
+   "path": "/alertes/",
    "vues": 4
   },
   {
@@ -35,23 +43,7 @@
    "vues": 4
   },
   {
-   "path": "/en/comparer/",
-   "vues": 3
-  },
-  {
-   "path": "/source/",
-   "vues": 3
-  },
-  {
    "path": "/en/mises-a-jour/",
-   "vues": 3
-  },
-  {
-   "path": "/en/joueurs-roblox-en-ce-moment/",
-   "vues": 3
-  },
-  {
-   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
    "vues": 3
   },
   {
@@ -59,27 +51,35 @@
    "vues": 3
   },
   {
-   "path": "/alertes/",
+   "path": "/source/",
    "vues": 3
   },
   {
-   "path": "/articles/2026-11-23-steal-an-egg-quotidien/",
+   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
+   "vues": 3
+  },
+  {
+   "path": "/en/comparer/",
+   "vues": 3
+  },
+  {
+   "path": "/en/joueurs-roblox-en-ce-moment/",
+   "vues": 3
+  },
+  {
+   "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
    "vues": 2
   },
   {
-   "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
+   "path": "/articles/2026-11-16-steal-an-egg-quotidien/",
    "vues": 2
   },
   {
-   "path": "/articles/2026-11-18-hyper-realistic-ragdoll-quotidien/",
+   "path": "/heures-de-pointe/",
    "vues": 2
   },
   {
-   "path": "/en/",
-   "vues": 2
-  },
-  {
-   "path": "/en/articles/2026-11-22-save-the-krusty-krab-quotidien/",
+   "path": "/mises-a-jour/",
    "vues": 2
   }
  ]
