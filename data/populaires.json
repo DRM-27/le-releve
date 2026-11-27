@@ -1,10 +1,10 @@
 {
- "genere": "2026-11-27T17:04:49Z",
+ "genere": "2026-11-27T18:04:56Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/",
-   "vues": 140
+   "vues": 137
   },
   {
    "path": "/classement/",
@@ -55,7 +55,7 @@
    "vues": 3
   },
   {
-   "path": "/source/",
+   "path": "/articles/2026-11-19-jailbreak-quotidien/",
    "vues": 3
   },
   {
@@ -63,7 +63,7 @@
    "vues": 3
   },
   {
-   "path": "/articles/2026-11-19-jailbreak-quotidien/",
+   "path": "/source/",
    "vues": 3
   },
   {

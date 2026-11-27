@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-26",
- "genere": "2026-11-27T17:04:51Z",
+ "genere": "2026-11-27T18:04:59Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -6189,111 +6189,111 @@
    "src": "data/jours/2026-11-26.csv#L48"
   },
   "g.1202096104.nom": {
-   "v": "Driving Empire [✨NEW LIMITED ✨]",
-   "d": "Driving Empire [✨NEW LIMITED ✨]",
-   "l": "Driving Empire [✨NEW LIMITED ✨] : nom",
+   "v": "Driving Empire [✨PORSCHE LIMITED ✨]",
+   "d": "Driving Empire [✨PORSCHE LIMITED ✨]",
+   "l": "Driving Empire [✨PORSCHE LIMITED ✨] : nom",
    "src": "data/jours/2026-11-26.csv#L49"
   },
   "g.1202096104.rang": {
    "v": 48,
    "d": "48e",
-   "l": "Driving Empire [✨NEW LIMITED ✨] : rang au pic du jour",
+   "l": "Driving Empire [✨PORSCHE LIMITED ✨] : rang au pic du jour",
    "src": "data/jours/2026-11-26.csv#L49"
   },
   "g.1202096104.pic": {
    "v": 34421,
    "d": "34 421",
-   "l": "Driving Empire [✨NEW LIMITED ✨] : pic de joueurs simultanés relevé",
+   "l": "Driving Empire [✨PORSCHE LIMITED ✨] : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-26.csv#L49"
   },
   "g.1202096104.heure_pic": {
    "v": "18:09",
    "d": "18 h 09",
-   "l": "Driving Empire [✨NEW LIMITED ✨] : heure (Paris) du pic relevé",
+   "l": "Driving Empire [✨PORSCHE LIMITED ✨] : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-26.csv#L49"
   },
   "g.1202096104.moy": {
    "v": 25254,
    "d": "25 254",
-   "l": "Driving Empire [✨NEW LIMITED ✨] : moyenne des joueurs simultanés sur la journée",
+   "l": "Driving Empire [✨PORSCHE LIMITED ✨] : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-26.csv#L49"
   },
   "g.1202096104.createur": {
    "v": "Driving Empire by Voldex",
    "d": "Driving Empire by Voldex",
-   "l": "Driving Empire [✨NEW LIMITED ✨] : créateur",
+   "l": "Driving Empire [✨PORSCHE LIMITED ✨] : créateur",
    "src": "data/jours/2026-11-26.csv#L49"
   },
   "g.1202096104.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "Driving Empire [✨NEW LIMITED ✨] : genre",
+   "l": "Driving Empire [✨PORSCHE LIMITED ✨] : genre",
    "src": "data/jours/2026-11-26.csv#L49"
   },
   "g.1202096104.var_veille": {
    "v": 0.0172,
    "d": "+1,7 %",
-   "l": "Driving Empire [✨NEW LIMITED ✨] : variation de la moyenne par rapport à la veille",
+   "l": "Driving Empire [✨PORSCHE LIMITED ✨] : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-26.csv#L49"
   },
   "g.1202096104.moy_veille": {
    "v": 24828,
    "d": "24 828",
-   "l": "Driving Empire [✨NEW LIMITED ✨] : moyenne de la veille",
+   "l": "Driving Empire [✨PORSCHE LIMITED ✨] : moyenne de la veille",
    "src": "data/jours/2026-11-26.csv#L49"
   },
   "g.1202096104.var_7j": {
    "v": 0.058,
    "d": "+5,8 %",
-   "l": "Driving Empire [✨NEW LIMITED ✨] : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Driving Empire [✨PORSCHE LIMITED ✨] : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-26.csv#L49"
   },
   "g.1202096104.moy_7j": {
    "v": 23870,
    "d": "23 870",
-   "l": "Driving Empire [✨NEW LIMITED ✨] : moyenne des 7 jours précédents",
+   "l": "Driving Empire [✨PORSCHE LIMITED ✨] : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-26.csv#L49"
   },
   "g.1202096104.visites_24h": {
    "v": 2698298,
    "d": "2,7 millions",
-   "l": "Driving Empire [✨NEW LIMITED ✨] : visites gagnées en 24 h",
+   "l": "Driving Empire [✨PORSCHE LIMITED ✨] : visites gagnées en 24 h",
    "src": "data/jours/2026-11-26.csv#L49"
   },
   "g.1202096104.visites_total": {
    "v": 3472164256,
    "d": "3,47 milliards",
-   "l": "Driving Empire [✨NEW LIMITED ✨] : visites cumulées depuis la création",
+   "l": "Driving Empire [✨PORSCHE LIMITED ✨] : visites cumulées depuis la création",
    "src": "data/jours/2026-11-26.csv#L49"
   },
   "g.1202096104.note": {
    "v": 0.9296,
    "d": "93,0 %",
-   "l": "Driving Empire [✨NEW LIMITED ✨] : part de votes positifs",
+   "l": "Driving Empire [✨PORSCHE LIMITED ✨] : part de votes positifs",
    "src": "data/jours/2026-11-26.csv#L49"
   },
   "g.1202096104.rang_veille": {
    "v": 51,
    "d": "51e",
-   "l": "Driving Empire [✨NEW LIMITED ✨] : rang la veille",
+   "l": "Driving Empire [✨PORSCHE LIMITED ✨] : rang la veille",
    "src": "data/jours/2026-11-26.csv#L49"
   },
   "g.1202096104.rang_moy": {
    "v": 48,
    "d": "48e",
-   "l": "Driving Empire [✨NEW LIMITED ✨] : rang à la moyenne du jour",
+   "l": "Driving Empire [✨PORSCHE LIMITED ✨] : rang à la moyenne du jour",
    "src": "data/jours/2026-11-26.csv#L49"
   },
   "g.1202096104.releves": {
    "v": 24,
    "d": "24",
-   "l": "Driving Empire [✨NEW LIMITED ✨] : relevés où le jeu a été mesuré",
+   "l": "Driving Empire [✨PORSCHE LIMITED ✨] : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-26.csv#L49"
   },
   "g.1202096104.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "Driving Empire [✨NEW LIMITED ✨] : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "Driving Empire [✨PORSCHE LIMITED ✨] : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-26.csv#L49"
   },
   "g.10768905764.nom": {
@@ -12111,8 +12111,8 @@
    "src": "data/games.csv"
   },
   "entree.2.nom": {
-   "v": "Driving Empire [✨NEW LIMITED ✨]",
-   "d": "Driving Empire [✨NEW LIMITED ✨]",
+   "v": "Driving Empire [✨PORSCHE LIMITED ✨]",
+   "d": "Driving Empire [✨PORSCHE LIMITED ✨]",
    "l": "Entrée n° 2 : nom",
    "src": "data/jours/2026-11-26.csv#L49"
   },
