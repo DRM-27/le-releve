@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-27T09:14:05Z",
+ "genere": "2026-11-27T10:04:04Z",
  "periode_jours": 7,
  "pages": [
   {
@@ -27,23 +27,15 @@
    "vues": 5
   },
   {
-   "path": "/en/monetisation/",
-   "vues": 4
-  },
-  {
    "path": "/methode/",
    "vues": 4
   },
   {
+   "path": "/en/monetisation/",
+   "vues": 4
+  },
+  {
    "path": "/en/comparer/",
-   "vues": 3
-  },
-  {
-   "path": "/en/tendances/",
-   "vues": 3
-  },
-  {
-   "path": "/alertes/",
    "vues": 3
   },
   {
@@ -55,31 +47,39 @@
    "vues": 3
   },
   {
-   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
-   "vues": 3
-  },
-  {
    "path": "/en/joueurs-roblox-en-ce-moment/",
    "vues": 3
   },
   {
-   "path": "/en/articles/2026-11-22-save-the-krusty-krab-quotidien/",
-   "vues": 2
+   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
+   "vues": 3
   },
   {
-   "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
-   "vues": 2
+   "path": "/en/tendances/",
+   "vues": 3
+  },
+  {
+   "path": "/alertes/",
+   "vues": 3
   },
   {
    "path": "/en/studios/emo-playworks/",
    "vues": 2
   },
   {
-   "path": "/confidentialite/",
+   "path": "/en/",
+   "vues": 2
+  },
+  {
+   "path": "/articles/2026-11-18-hyper-realistic-ragdoll-quotidien/",
    "vues": 2
   },
   {
    "path": "/articles/2026-11-16-steal-an-egg-quotidien/",
+   "vues": 2
+  },
+  {
+   "path": "/en/articles/2026-11-22-save-the-krusty-krab-quotidien/",
    "vues": 2
   }
  ]
