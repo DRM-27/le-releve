@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-26",
- "genere": "2026-11-27T14:53:11Z",
+ "genere": "2026-11-27T15:14:43Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -10137,99 +10137,99 @@
    "src": "data/jours/2026-11-26.csv#L86"
   },
   "g.10771881861.nom": {
-   "v": "FERAL 🐺 Animal Survival",
-   "d": "FERAL 🐺 Animal Survival",
-   "l": "FERAL 🐺 Animal Survival : nom",
+   "v": "[LION🦁] FERAL 🐺 Animal Survival",
+   "d": "[LION🦁] FERAL 🐺 Animal Survival",
+   "l": "[LION🦁] FERAL 🐺 Animal Survival : nom",
    "src": "data/jours/2026-11-26.csv#L87"
   },
   "g.10771881861.rang": {
    "v": 86,
    "d": "86e",
-   "l": "FERAL 🐺 Animal Survival : rang au pic du jour",
+   "l": "[LION🦁] FERAL 🐺 Animal Survival : rang au pic du jour",
    "src": "data/jours/2026-11-26.csv#L87"
   },
   "g.10771881861.pic": {
    "v": 20183,
    "d": "20 183",
-   "l": "FERAL 🐺 Animal Survival : pic de joueurs simultanés relevé",
+   "l": "[LION🦁] FERAL 🐺 Animal Survival : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-26.csv#L87"
   },
   "g.10771881861.heure_pic": {
    "v": "18:09",
    "d": "18 h 09",
-   "l": "FERAL 🐺 Animal Survival : heure (Paris) du pic relevé",
+   "l": "[LION🦁] FERAL 🐺 Animal Survival : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-26.csv#L87"
   },
   "g.10771881861.moy": {
    "v": 14252,
    "d": "14 252",
-   "l": "FERAL 🐺 Animal Survival : moyenne des joueurs simultanés sur la journée",
+   "l": "[LION🦁] FERAL 🐺 Animal Survival : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-26.csv#L87"
   },
   "g.10771881861.createur": {
    "v": "Elasmonian Games",
    "d": "Elasmonian Games",
-   "l": "FERAL 🐺 Animal Survival : créateur",
+   "l": "[LION🦁] FERAL 🐺 Animal Survival : créateur",
    "src": "data/jours/2026-11-26.csv#L87"
   },
   "g.10771881861.genre": {
    "v": "Roleplay & Avatar Sim",
    "d": "Jeu de rôle et avatar",
-   "l": "FERAL 🐺 Animal Survival : genre",
+   "l": "[LION🦁] FERAL 🐺 Animal Survival : genre",
    "src": "data/jours/2026-11-26.csv#L87"
   },
   "g.10771881861.var_veille": {
    "v": -0.0614,
    "d": "−6,1 %",
-   "l": "FERAL 🐺 Animal Survival : variation de la moyenne par rapport à la veille",
+   "l": "[LION🦁] FERAL 🐺 Animal Survival : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-26.csv#L87"
   },
   "g.10771881861.moy_veille": {
    "v": 15185,
    "d": "15 185",
-   "l": "FERAL 🐺 Animal Survival : moyenne de la veille",
+   "l": "[LION🦁] FERAL 🐺 Animal Survival : moyenne de la veille",
    "src": "data/jours/2026-11-26.csv#L87"
   },
   "g.10771881861.visites_24h": {
    "v": 1282379,
    "d": "1,28 million",
-   "l": "FERAL 🐺 Animal Survival : visites gagnées en 24 h",
+   "l": "[LION🦁] FERAL 🐺 Animal Survival : visites gagnées en 24 h",
    "src": "data/jours/2026-11-26.csv#L87"
   },
   "g.10771881861.visites_total": {
    "v": 23652130,
    "d": "23,65 millions",
-   "l": "FERAL 🐺 Animal Survival : visites cumulées depuis la création",
+   "l": "[LION🦁] FERAL 🐺 Animal Survival : visites cumulées depuis la création",
    "src": "data/jours/2026-11-26.csv#L87"
   },
   "g.10771881861.note": {
    "v": 0.8239,
    "d": "82,4 %",
-   "l": "FERAL 🐺 Animal Survival : part de votes positifs",
+   "l": "[LION🦁] FERAL 🐺 Animal Survival : part de votes positifs",
    "src": "data/jours/2026-11-26.csv#L87"
   },
   "g.10771881861.rang_veille": {
    "v": 88,
    "d": "88e",
-   "l": "FERAL 🐺 Animal Survival : rang la veille",
+   "l": "[LION🦁] FERAL 🐺 Animal Survival : rang la veille",
    "src": "data/jours/2026-11-26.csv#L87"
   },
   "g.10771881861.rang_moy": {
    "v": 84,
    "d": "84e",
-   "l": "FERAL 🐺 Animal Survival : rang à la moyenne du jour",
+   "l": "[LION🦁] FERAL 🐺 Animal Survival : rang à la moyenne du jour",
    "src": "data/jours/2026-11-26.csv#L87"
   },
   "g.10771881861.releves": {
    "v": 24,
    "d": "24",
-   "l": "FERAL 🐺 Animal Survival : relevés où le jeu a été mesuré",
+   "l": "[LION🦁] FERAL 🐺 Animal Survival : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-26.csv#L87"
   },
   "g.10771881861.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "FERAL 🐺 Animal Survival : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[LION🦁] FERAL 🐺 Animal Survival : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-26.csv#L87"
   },
   "g.10773487349.nom": {
