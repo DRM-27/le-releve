@@ -1,10 +1,10 @@
 {
- "genere": "2026-11-28T06:05:53Z",
+ "genere": "2026-11-28T07:05:45Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/",
-   "vues": 130
+   "vues": 131
   },
   {
    "path": "/classement/",
@@ -15,11 +15,11 @@
    "vues": 9
   },
   {
-   "path": "/explorer/",
+   "path": "/methode/",
    "vues": 5
   },
   {
-   "path": "/es/joueurs-roblox-en-ce-moment/",
+   "path": "/explorer/",
    "vues": 5
   },
   {
@@ -27,7 +27,7 @@
    "vues": 5
   },
   {
-   "path": "/methode/",
+   "path": "/es/joueurs-roblox-en-ce-moment/",
    "vues": 5
   },
   {
@@ -39,11 +39,19 @@
    "vues": 4
   },
   {
-   "path": "/en/mises-a-jour/",
+   "path": "/en/comparer/",
    "vues": 3
   },
   {
    "path": "/en/tendances/",
+   "vues": 3
+  },
+  {
+   "path": "/en/mises-a-jour/",
+   "vues": 3
+  },
+  {
+   "path": "/en/joueurs-roblox-en-ce-moment/",
    "vues": 3
   },
   {
@@ -59,15 +67,11 @@
    "vues": 3
   },
   {
-   "path": "/en/comparer/",
-   "vues": 3
+   "path": "/articles/2026-11-16-steal-an-egg-quotidien/",
+   "vues": 2
   },
   {
-   "path": "/en/joueurs-roblox-en-ce-moment/",
-   "vues": 3
-  },
-  {
-   "path": "/jeux/uts-3-0-toilet-tower-defense-4778845442/",
+   "path": "/en/",
    "vues": 2
   },
   {
@@ -75,11 +79,7 @@
    "vues": 2
   },
   {
-   "path": "/heures-de-pointe/",
-   "vues": 2
-  },
-  {
-   "path": "/confidentialite/",
+   "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
    "vues": 2
   }
  ]
