@@ -1,18 +1,18 @@
 {
- "genere": "2026-11-28T10:06:09Z",
+ "genere": "2026-11-28T11:06:11Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/",
-   "vues": 129
-  },
-  {
-   "path": "/classement/",
-   "vues": 9
+   "vues": 120
   },
   {
    "path": "/en/jeux/uts-3-0-toilet-tower-defense-4778845442/",
    "vues": 9
+  },
+  {
+   "path": "/classement/",
+   "vues": 8
   },
   {
    "path": "/methode/",
@@ -31,27 +31,15 @@
    "vues": 5
   },
   {
-   "path": "/en/monetisation/",
-   "vues": 4
-  },
-  {
    "path": "/alertes/",
    "vues": 4
   },
   {
-   "path": "/source/",
-   "vues": 3
-  },
-  {
-   "path": "/en/tendances/",
-   "vues": 3
+   "path": "/en/monetisation/",
+   "vues": 4
   },
   {
    "path": "/en/comparer/",
-   "vues": 3
-  },
-  {
-   "path": "/articles/2026-11-19-jailbreak-quotidien/",
    "vues": 3
   },
   {
@@ -59,19 +47,27 @@
    "vues": 3
   },
   {
-   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
-   "vues": 3
-  },
-  {
    "path": "/en/mises-a-jour/",
    "vues": 3
   },
   {
-   "path": "/en/studios/emo-playworks/",
-   "vues": 2
+   "path": "/articles/2026-11-19-jailbreak-quotidien/",
+   "vues": 3
+  },
+  {
+   "path": "/en/tendances/",
+   "vues": 3
+  },
+  {
+   "path": "/source/",
+   "vues": 3
   },
   {
    "path": "/en/articles/2026-11-22-save-the-krusty-krab-quotidien/",
+   "vues": 2
+  },
+  {
+   "path": "/jeux-roblox-les-plus-joues/",
    "vues": 2
   },
   {
@@ -79,7 +75,11 @@
    "vues": 2
   },
   {
-   "path": "/jeux-roblox-les-plus-joues/",
+   "path": "/articles/2026-11-15-towing-x-limited-update-drag-drive-simulator-quotidien/",
+   "vues": 2
+  },
+  {
+   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
    "vues": 2
   }
  ]
