@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-27",
- "genere": "2026-11-28T08:06:47Z",
+ "genere": "2026-11-28T08:21:14Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -6099,111 +6099,111 @@
    "src": "data/jours/2026-11-27.csv#L47"
   },
   "g.5361032378.nom": {
-   "v": "Sol's RNG [ PREPARING ]",
-   "d": "Sol's RNG [ PREPARING ]",
-   "l": "Sol's RNG [ PREPARING ] : nom",
+   "v": "Sol's RNG x Ado",
+   "d": "Sol's RNG x Ado",
+   "l": "Sol's RNG x Ado : nom",
    "src": "data/jours/2026-11-27.csv#L48"
   },
   "g.5361032378.rang": {
    "v": 47,
    "d": "47e",
-   "l": "Sol's RNG [ PREPARING ] : rang au pic du jour",
+   "l": "Sol's RNG x Ado : rang au pic du jour",
    "src": "data/jours/2026-11-27.csv#L48"
   },
   "g.5361032378.pic": {
    "v": 43020,
    "d": "43 020",
-   "l": "Sol's RNG [ PREPARING ] : pic de joueurs simultanés relevé",
+   "l": "Sol's RNG x Ado : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-27.csv#L48"
   },
   "g.5361032378.heure_pic": {
    "v": "14:03",
    "d": "14 h 03",
-   "l": "Sol's RNG [ PREPARING ] : heure (Paris) du pic relevé",
+   "l": "Sol's RNG x Ado : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-27.csv#L48"
   },
   "g.5361032378.moy": {
    "v": 39375,
    "d": "39 375",
-   "l": "Sol's RNG [ PREPARING ] : moyenne des joueurs simultanés sur la journée",
+   "l": "Sol's RNG x Ado : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-27.csv#L48"
   },
   "g.5361032378.createur": {
    "v": "Sol's Studio",
    "d": "Sol's Studio",
-   "l": "Sol's RNG [ PREPARING ] : créateur",
+   "l": "Sol's RNG x Ado : créateur",
    "src": "data/jours/2026-11-27.csv#L48"
   },
   "g.5361032378.genre": {
    "v": "Simulation",
    "d": "Simulation",
-   "l": "Sol's RNG [ PREPARING ] : genre",
+   "l": "Sol's RNG x Ado : genre",
    "src": "data/jours/2026-11-27.csv#L48"
   },
   "g.5361032378.var_veille": {
    "v": 0.052,
    "d": "+5,2 %",
-   "l": "Sol's RNG [ PREPARING ] : variation de la moyenne par rapport à la veille",
+   "l": "Sol's RNG x Ado : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-27.csv#L48"
   },
   "g.5361032378.moy_veille": {
    "v": 37430,
    "d": "37 430",
-   "l": "Sol's RNG [ PREPARING ] : moyenne de la veille",
+   "l": "Sol's RNG x Ado : moyenne de la veille",
    "src": "data/jours/2026-11-27.csv#L48"
   },
   "g.5361032378.var_7j": {
    "v": 0.0818,
    "d": "+8,2 %",
-   "l": "Sol's RNG [ PREPARING ] : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "Sol's RNG x Ado : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-27.csv#L48"
   },
   "g.5361032378.moy_7j": {
    "v": 36397,
    "d": "36 397",
-   "l": "Sol's RNG [ PREPARING ] : moyenne des 7 jours précédents",
+   "l": "Sol's RNG x Ado : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-27.csv#L48"
   },
   "g.5361032378.visites_24h": {
    "v": 1773586,
    "d": "1,77 million",
-   "l": "Sol's RNG [ PREPARING ] : visites gagnées en 24 h",
+   "l": "Sol's RNG x Ado : visites gagnées en 24 h",
    "src": "data/jours/2026-11-27.csv#L48"
   },
   "g.5361032378.visites_total": {
    "v": 2320147836,
    "d": "2,32 milliards",
-   "l": "Sol's RNG [ PREPARING ] : visites cumulées depuis la création",
+   "l": "Sol's RNG x Ado : visites cumulées depuis la création",
    "src": "data/jours/2026-11-27.csv#L48"
   },
   "g.5361032378.note": {
    "v": 0.9145,
    "d": "91,5 %",
-   "l": "Sol's RNG [ PREPARING ] : part de votes positifs",
+   "l": "Sol's RNG x Ado : part de votes positifs",
    "src": "data/jours/2026-11-27.csv#L48"
   },
   "g.5361032378.rang_veille": {
    "v": 42,
    "d": "42e",
-   "l": "Sol's RNG [ PREPARING ] : rang la veille",
+   "l": "Sol's RNG x Ado : rang la veille",
    "src": "data/jours/2026-11-27.csv#L48"
   },
   "g.5361032378.rang_moy": {
    "v": 31,
    "d": "31e",
-   "l": "Sol's RNG [ PREPARING ] : rang à la moyenne du jour",
+   "l": "Sol's RNG x Ado : rang à la moyenne du jour",
    "src": "data/jours/2026-11-27.csv#L48"
   },
   "g.5361032378.releves": {
    "v": 24,
    "d": "24",
-   "l": "Sol's RNG [ PREPARING ] : relevés où le jeu a été mesuré",
+   "l": "Sol's RNG x Ado : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-27.csv#L48"
   },
   "g.5361032378.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "Sol's RNG [ PREPARING ] : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "Sol's RNG x Ado : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-27.csv#L48"
   },
   "g.10768905764.nom": {
