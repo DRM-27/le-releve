@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-27",
- "genere": "2026-11-28T01:05:30Z",
+ "genere": "2026-11-28T02:05:36Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -723,8 +723,8 @@
    "src": "data/jours/2026-11-27.csv#L7"
   },
   "top.7.nom": {
-   "v": "[🤑] RIVALS",
-   "d": "[🤑] RIVALS",
+   "v": "[🎉] RIVALS",
+   "d": "[🎉] RIVALS",
    "l": "N° 7 du jour : nom",
    "src": "data/jours/2026-11-27.csv#L8"
   },
@@ -1803,111 +1803,111 @@
    "src": "data/jours/2026-11-27.csv#L7"
   },
   "g.6035872082.nom": {
-   "v": "[🤑] RIVALS",
-   "d": "[🤑] RIVALS",
-   "l": "[🤑] RIVALS : nom",
+   "v": "[🎉] RIVALS",
+   "d": "[🎉] RIVALS",
+   "l": "[🎉] RIVALS : nom",
    "src": "data/jours/2026-11-27.csv#L8"
   },
   "g.6035872082.rang": {
    "v": 7,
    "d": "7e",
-   "l": "[🤑] RIVALS : rang au pic du jour",
+   "l": "[🎉] RIVALS : rang au pic du jour",
    "src": "data/jours/2026-11-27.csv#L8"
   },
   "g.6035872082.pic": {
    "v": 210514,
    "d": "210 514",
-   "l": "[🤑] RIVALS : pic de joueurs simultanés relevé",
+   "l": "[🎉] RIVALS : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-27.csv#L8"
   },
   "g.6035872082.heure_pic": {
    "v": "18:03",
    "d": "18 h 03",
-   "l": "[🤑] RIVALS : heure (Paris) du pic relevé",
+   "l": "[🎉] RIVALS : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-27.csv#L8"
   },
   "g.6035872082.moy": {
    "v": 149782,
    "d": "149 782",
-   "l": "[🤑] RIVALS : moyenne des joueurs simultanés sur la journée",
+   "l": "[🎉] RIVALS : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-27.csv#L8"
   },
   "g.6035872082.createur": {
    "v": "Nosniy Games",
    "d": "Nosniy Games",
-   "l": "[🤑] RIVALS : créateur",
+   "l": "[🎉] RIVALS : créateur",
    "src": "data/jours/2026-11-27.csv#L8"
   },
   "g.6035872082.genre": {
    "v": "Shooter",
    "d": "Tir",
-   "l": "[🤑] RIVALS : genre",
+   "l": "[🎉] RIVALS : genre",
    "src": "data/jours/2026-11-27.csv#L8"
   },
   "g.6035872082.var_veille": {
    "v": 0.1773,
    "d": "+17,7 %",
-   "l": "[🤑] RIVALS : variation de la moyenne par rapport à la veille",
+   "l": "[🎉] RIVALS : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-27.csv#L8"
   },
   "g.6035872082.moy_veille": {
    "v": 127221,
    "d": "127 221",
-   "l": "[🤑] RIVALS : moyenne de la veille",
+   "l": "[🎉] RIVALS : moyenne de la veille",
    "src": "data/jours/2026-11-27.csv#L8"
   },
   "g.6035872082.var_7j": {
    "v": 0.2007,
    "d": "+20,1 %",
-   "l": "[🤑] RIVALS : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🎉] RIVALS : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-27.csv#L8"
   },
   "g.6035872082.moy_7j": {
    "v": 124748,
    "d": "124 748",
-   "l": "[🤑] RIVALS : moyenne des 7 jours précédents",
+   "l": "[🎉] RIVALS : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-27.csv#L8"
   },
   "g.6035872082.visites_24h": {
    "v": 16603794,
    "d": "16,6 millions",
-   "l": "[🤑] RIVALS : visites gagnées en 24 h",
+   "l": "[🎉] RIVALS : visites gagnées en 24 h",
    "src": "data/jours/2026-11-27.csv#L8"
   },
   "g.6035872082.visites_total": {
    "v": 19510988628,
    "d": "19,51 milliards",
-   "l": "[🤑] RIVALS : visites cumulées depuis la création",
+   "l": "[🎉] RIVALS : visites cumulées depuis la création",
    "src": "data/jours/2026-11-27.csv#L8"
   },
   "g.6035872082.note": {
    "v": 0.9359,
    "d": "93,6 %",
-   "l": "[🤑] RIVALS : part de votes positifs",
+   "l": "[🎉] RIVALS : part de votes positifs",
    "src": "data/jours/2026-11-27.csv#L8"
   },
   "g.6035872082.rang_veille": {
    "v": 8,
    "d": "8e",
-   "l": "[🤑] RIVALS : rang la veille",
+   "l": "[🎉] RIVALS : rang la veille",
    "src": "data/jours/2026-11-27.csv#L8"
   },
   "g.6035872082.rang_moy": {
    "v": 7,
    "d": "7e",
-   "l": "[🤑] RIVALS : rang à la moyenne du jour",
+   "l": "[🎉] RIVALS : rang à la moyenne du jour",
    "src": "data/jours/2026-11-27.csv#L8"
   },
   "g.6035872082.releves": {
    "v": 24,
    "d": "24",
-   "l": "[🤑] RIVALS : relevés où le jeu a été mesuré",
+   "l": "[🎉] RIVALS : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-27.csv#L8"
   },
   "g.6035872082.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[🤑] RIVALS : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[🎉] RIVALS : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-27.csv#L8"
   },
   "g.66654135.nom": {
@@ -2235,111 +2235,111 @@
    "src": "data/jours/2026-11-27.csv#L11"
   },
   "g.7660436108.nom": {
-   "v": "[🦃Thanksgiving🦃] Anime Crusaders X",
-   "d": "[🦃Thanksgiving🦃] Anime Crusaders X",
-   "l": "[🦃Thanksgiving🦃] Anime Crusaders X : nom",
+   "v": "[🦃] Anime Crusaders X",
+   "d": "[🦃] Anime Crusaders X",
+   "l": "[🦃] Anime Crusaders X : nom",
    "src": "data/jours/2026-11-27.csv#L12"
   },
   "g.7660436108.rang": {
    "v": 11,
    "d": "11e",
-   "l": "[🦃Thanksgiving🦃] Anime Crusaders X : rang au pic du jour",
+   "l": "[🦃] Anime Crusaders X : rang au pic du jour",
    "src": "data/jours/2026-11-27.csv#L12"
   },
   "g.7660436108.pic": {
    "v": 124261,
    "d": "124 261",
-   "l": "[🦃Thanksgiving🦃] Anime Crusaders X : pic de joueurs simultanés relevé",
+   "l": "[🦃] Anime Crusaders X : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-27.csv#L12"
   },
   "g.7660436108.heure_pic": {
    "v": "16:30",
    "d": "16 h 30",
-   "l": "[🦃Thanksgiving🦃] Anime Crusaders X : heure (Paris) du pic relevé",
+   "l": "[🦃] Anime Crusaders X : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-27.csv#L12"
   },
   "g.7660436108.moy": {
    "v": 113323,
    "d": "113 323",
-   "l": "[🦃Thanksgiving🦃] Anime Crusaders X : moyenne des joueurs simultanés sur la journée",
+   "l": "[🦃] Anime Crusaders X : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-27.csv#L12"
   },
   "g.7660436108.createur": {
    "v": "32x",
    "d": "32x",
-   "l": "[🦃Thanksgiving🦃] Anime Crusaders X : créateur",
+   "l": "[🦃] Anime Crusaders X : créateur",
    "src": "data/jours/2026-11-27.csv#L12"
   },
   "g.7660436108.genre": {
    "v": "Strategy",
    "d": "Stratégie",
-   "l": "[🦃Thanksgiving🦃] Anime Crusaders X : genre",
+   "l": "[🦃] Anime Crusaders X : genre",
    "src": "data/jours/2026-11-27.csv#L12"
   },
   "g.7660436108.var_veille": {
    "v": 0.0578,
    "d": "+5,8 %",
-   "l": "[🦃Thanksgiving🦃] Anime Crusaders X : variation de la moyenne par rapport à la veille",
+   "l": "[🦃] Anime Crusaders X : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-27.csv#L12"
   },
   "g.7660436108.moy_veille": {
    "v": 107135,
    "d": "107 135",
-   "l": "[🦃Thanksgiving🦃] Anime Crusaders X : moyenne de la veille",
+   "l": "[🦃] Anime Crusaders X : moyenne de la veille",
    "src": "data/jours/2026-11-27.csv#L12"
   },
   "g.7660436108.var_7j": {
    "v": 0.2539,
    "d": "+25,4 %",
-   "l": "[🦃Thanksgiving🦃] Anime Crusaders X : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🦃] Anime Crusaders X : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-27.csv#L12"
   },
   "g.7660436108.moy_7j": {
    "v": 90379,
    "d": "90 379",
-   "l": "[🦃Thanksgiving🦃] Anime Crusaders X : moyenne des 7 jours précédents",
+   "l": "[🦃] Anime Crusaders X : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-27.csv#L12"
   },
   "g.7660436108.visites_24h": {
    "v": 3703938,
    "d": "3,7 millions",
-   "l": "[🦃Thanksgiving🦃] Anime Crusaders X : visites gagnées en 24 h",
+   "l": "[🦃] Anime Crusaders X : visites gagnées en 24 h",
    "src": "data/jours/2026-11-27.csv#L12"
   },
   "g.7660436108.visites_total": {
    "v": 151322567,
    "d": "151,32 millions",
-   "l": "[🦃Thanksgiving🦃] Anime Crusaders X : visites cumulées depuis la création",
+   "l": "[🦃] Anime Crusaders X : visites cumulées depuis la création",
    "src": "data/jours/2026-11-27.csv#L12"
   },
   "g.7660436108.note": {
    "v": 0.9807,
    "d": "98,1 %",
-   "l": "[🦃Thanksgiving🦃] Anime Crusaders X : part de votes positifs",
+   "l": "[🦃] Anime Crusaders X : part de votes positifs",
    "src": "data/jours/2026-11-27.csv#L12"
   },
   "g.7660436108.rang_veille": {
    "v": 11,
    "d": "11e",
-   "l": "[🦃Thanksgiving🦃] Anime Crusaders X : rang la veille",
+   "l": "[🦃] Anime Crusaders X : rang la veille",
    "src": "data/jours/2026-11-27.csv#L12"
   },
   "g.7660436108.rang_moy": {
    "v": 10,
    "d": "10e",
-   "l": "[🦃Thanksgiving🦃] Anime Crusaders X : rang à la moyenne du jour",
+   "l": "[🦃] Anime Crusaders X : rang à la moyenne du jour",
    "src": "data/jours/2026-11-27.csv#L12"
   },
   "g.7660436108.releves": {
    "v": 24,
    "d": "24",
-   "l": "[🦃Thanksgiving🦃] Anime Crusaders X : relevés où le jeu a été mesuré",
+   "l": "[🦃] Anime Crusaders X : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-27.csv#L12"
   },
   "g.7660436108.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[🦃Thanksgiving🦃] Anime Crusaders X : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[🦃] Anime Crusaders X : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-27.csv#L12"
   },
   "g.3508322461.nom": {
@@ -12693,7 +12693,7 @@
      "valeur": 242641
     },
     {
-     "nom": "[🤑] RIVALS",
+     "nom": "[🎉] RIVALS",
      "valeur": 210514
     },
     {
