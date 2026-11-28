@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-27",
- "genere": "2026-11-27T23:38:12Z",
+ "genere": "2026-11-28T00:07:42Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -4395,111 +4395,111 @@
    "src": "data/jours/2026-11-27.csv#L31"
   },
   "g.6331902150.nom": {
-   "v": "Forsaken",
-   "d": "Forsaken",
-   "l": "Forsaken : nom",
+   "v": "[✨UPD] Forsaken",
+   "d": "[✨UPD] Forsaken",
+   "l": "[✨UPD] Forsaken : nom",
    "src": "data/jours/2026-11-27.csv#L32"
   },
   "g.6331902150.rang": {
    "v": 31,
    "d": "31e",
-   "l": "Forsaken : rang au pic du jour",
+   "l": "[✨UPD] Forsaken : rang au pic du jour",
    "src": "data/jours/2026-11-27.csv#L32"
   },
   "g.6331902150.pic": {
    "v": 58102,
    "d": "58 102",
-   "l": "Forsaken : pic de joueurs simultanés relevé",
+   "l": "[✨UPD] Forsaken : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-27.csv#L32"
   },
   "g.6331902150.heure_pic": {
    "v": "20:04",
    "d": "20 h 04",
-   "l": "Forsaken : heure (Paris) du pic relevé",
+   "l": "[✨UPD] Forsaken : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-27.csv#L32"
   },
   "g.6331902150.moy": {
    "v": 44462,
    "d": "44 462",
-   "l": "Forsaken : moyenne des joueurs simultanés sur la journée",
+   "l": "[✨UPD] Forsaken : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-27.csv#L32"
   },
   "g.6331902150.createur": {
    "v": "Forsaken Dev Team",
    "d": "Forsaken Dev Team",
-   "l": "Forsaken : créateur",
+   "l": "[✨UPD] Forsaken : créateur",
    "src": "data/jours/2026-11-27.csv#L32"
   },
   "g.6331902150.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "Forsaken : genre",
+   "l": "[✨UPD] Forsaken : genre",
    "src": "data/jours/2026-11-27.csv#L32"
   },
   "g.6331902150.var_veille": {
    "v": 0.1499,
    "d": "+15,0 %",
-   "l": "Forsaken : variation de la moyenne par rapport à la veille",
+   "l": "[✨UPD] Forsaken : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-27.csv#L32"
   },
   "g.6331902150.moy_veille": {
    "v": 38666,
    "d": "38 666",
-   "l": "Forsaken : moyenne de la veille",
+   "l": "[✨UPD] Forsaken : moyenne de la veille",
    "src": "data/jours/2026-11-27.csv#L32"
   },
   "g.6331902150.var_7j": {
    "v": 0.0843,
    "d": "+8,4 %",
-   "l": "Forsaken : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[✨UPD] Forsaken : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-27.csv#L32"
   },
   "g.6331902150.moy_7j": {
    "v": 41007,
    "d": "41 007",
-   "l": "Forsaken : moyenne des 7 jours précédents",
+   "l": "[✨UPD] Forsaken : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-27.csv#L32"
   },
   "g.6331902150.visites_24h": {
    "v": 2984121,
    "d": "2,98 millions",
-   "l": "Forsaken : visites gagnées en 24 h",
+   "l": "[✨UPD] Forsaken : visites gagnées en 24 h",
    "src": "data/jours/2026-11-27.csv#L32"
   },
   "g.6331902150.visites_total": {
    "v": 5990924960,
    "d": "5,99 milliards",
-   "l": "Forsaken : visites cumulées depuis la création",
+   "l": "[✨UPD] Forsaken : visites cumulées depuis la création",
    "src": "data/jours/2026-11-27.csv#L32"
   },
   "g.6331902150.note": {
    "v": 0.8438,
    "d": "84,4 %",
-   "l": "Forsaken : part de votes positifs",
+   "l": "[✨UPD] Forsaken : part de votes positifs",
    "src": "data/jours/2026-11-27.csv#L32"
   },
   "g.6331902150.rang_veille": {
    "v": 35,
    "d": "35e",
-   "l": "Forsaken : rang la veille",
+   "l": "[✨UPD] Forsaken : rang la veille",
    "src": "data/jours/2026-11-27.csv#L32"
   },
   "g.6331902150.rang_moy": {
    "v": 24,
    "d": "24e",
-   "l": "Forsaken : rang à la moyenne du jour",
+   "l": "[✨UPD] Forsaken : rang à la moyenne du jour",
    "src": "data/jours/2026-11-27.csv#L32"
   },
   "g.6331902150.releves": {
    "v": 24,
    "d": "24",
-   "l": "Forsaken : relevés où le jeu a été mesuré",
+   "l": "[✨UPD] Forsaken : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-27.csv#L32"
   },
   "g.6331902150.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "Forsaken : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[✨UPD] Forsaken : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-27.csv#L32"
   },
   "g.2440500124.nom": {
