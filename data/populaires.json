@@ -1,10 +1,10 @@
 {
- "genere": "2026-11-28T12:06:23Z",
+ "genere": "2026-11-28T13:06:23Z",
  "periode_jours": 7,
  "pages": [
   {
    "path": "/",
-   "vues": 120
+   "vues": 118
   },
   {
    "path": "/en/jeux/uts-3-0-toilet-tower-defense-4778845442/",
@@ -23,23 +23,39 @@
    "vues": 5
   },
   {
-   "path": "/jeux/steal-an-egg-10563114921/",
-   "vues": 5
-  },
-  {
    "path": "/explorer/",
    "vues": 5
   },
   {
-   "path": "/alertes/",
-   "vues": 4
+   "path": "/jeux/steal-an-egg-10563114921/",
+   "vues": 5
   },
   {
    "path": "/en/monetisation/",
    "vues": 4
   },
   {
+   "path": "/alertes/",
+   "vues": 4
+  },
+  {
+   "path": "/articles/2026-11-19-jailbreak-quotidien/",
+   "vues": 3
+  },
+  {
+   "path": "/en/classement/",
+   "vues": 3
+  },
+  {
    "path": "/en/comparer/",
+   "vues": 3
+  },
+  {
+   "path": "/source/",
+   "vues": 3
+  },
+  {
+   "path": "/en/tendances/",
    "vues": 3
   },
   {
@@ -51,27 +67,11 @@
    "vues": 3
   },
   {
-   "path": "/articles/2026-11-19-jailbreak-quotidien/",
-   "vues": 3
-  },
-  {
-   "path": "/en/tendances/",
-   "vues": 3
-  },
-  {
-   "path": "/source/",
-   "vues": 3
-  },
-  {
-   "path": "/en/articles/2026-11-22-save-the-krusty-krab-quotidien/",
+   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
    "vues": 2
   },
   {
-   "path": "/jeux-roblox-les-plus-joues/",
-   "vues": 2
-  },
-  {
-   "path": "/articles/2026-11-16-steal-an-egg-quotidien/",
+   "path": "/articles/2026-11-23-steal-an-egg-quotidien/",
    "vues": 2
   },
   {
@@ -79,7 +79,7 @@
    "vues": 2
   },
   {
-   "path": "/articles/2026-11-20-shoot-arrows-for-animals-quotidien/",
+   "path": "/jeux-roblox-les-plus-joues/",
    "vues": 2
   }
  ]
