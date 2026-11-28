@@ -1,6 +1,6 @@
 {
  "jour": "2026-11-27",
- "genere": "2026-11-28T09:06:06Z",
+ "genere": "2026-11-28T10:06:12Z",
  "couverture": {
   "releves": 24,
   "attendus": 24
@@ -4287,111 +4287,111 @@
    "src": "data/jours/2026-11-27.csv#L30"
   },
   "g.6739698191.nom": {
-   "v": "[WEEK 4 🎃 x BUTCHER] Violence District",
-   "d": "[WEEK 4 🎃 x BUTCHER] Violence District",
-   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : nom",
+   "v": "[🦃SALE!] Violence District",
+   "d": "[🦃SALE!] Violence District",
+   "l": "[🦃SALE!] Violence District : nom",
    "src": "data/jours/2026-11-27.csv#L31"
   },
   "g.6739698191.rang": {
    "v": 30,
    "d": "30e",
-   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : rang au pic du jour",
+   "l": "[🦃SALE!] Violence District : rang au pic du jour",
    "src": "data/jours/2026-11-27.csv#L31"
   },
   "g.6739698191.pic": {
    "v": 58243,
    "d": "58 243",
-   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : pic de joueurs simultanés relevé",
+   "l": "[🦃SALE!] Violence District : pic de joueurs simultanés relevé",
    "src": "data/jours/2026-11-27.csv#L31"
   },
   "g.6739698191.heure_pic": {
    "v": "15:52",
    "d": "15 h 52",
-   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : heure (Paris) du pic relevé",
+   "l": "[🦃SALE!] Violence District : heure (Paris) du pic relevé",
    "src": "data/jours/2026-11-27.csv#L31"
   },
   "g.6739698191.moy": {
    "v": 39469,
    "d": "39 469",
-   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : moyenne des joueurs simultanés sur la journée",
+   "l": "[🦃SALE!] Violence District : moyenne des joueurs simultanés sur la journée",
    "src": "data/jours/2026-11-27.csv#L31"
   },
   "g.6739698191.createur": {
    "v": "VIOLENCE DISTRICT",
    "d": "VIOLENCE DISTRICT",
-   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : créateur",
+   "l": "[🦃SALE!] Violence District : créateur",
    "src": "data/jours/2026-11-27.csv#L31"
   },
   "g.6739698191.genre": {
    "v": "Survival",
    "d": "Survie",
-   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : genre",
+   "l": "[🦃SALE!] Violence District : genre",
    "src": "data/jours/2026-11-27.csv#L31"
   },
   "g.6739698191.var_veille": {
    "v": 0.0999,
    "d": "+10,0 %",
-   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : variation de la moyenne par rapport à la veille",
+   "l": "[🦃SALE!] Violence District : variation de la moyenne par rapport à la veille",
    "src": "data/jours/2026-11-27.csv#L31"
   },
   "g.6739698191.moy_veille": {
    "v": 35885,
    "d": "35 885",
-   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : moyenne de la veille",
+   "l": "[🦃SALE!] Violence District : moyenne de la veille",
    "src": "data/jours/2026-11-27.csv#L31"
   },
   "g.6739698191.var_7j": {
    "v": 0.0475,
    "d": "+4,8 %",
-   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : variation de la moyenne par rapport aux 7 jours précédents",
+   "l": "[🦃SALE!] Violence District : variation de la moyenne par rapport aux 7 jours précédents",
    "src": "data/jours/2026-11-27.csv#L31"
   },
   "g.6739698191.moy_7j": {
    "v": 37679,
    "d": "37 679",
-   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : moyenne des 7 jours précédents",
+   "l": "[🦃SALE!] Violence District : moyenne des 7 jours précédents",
    "src": "data/jours/2026-11-27.csv#L31"
   },
   "g.6739698191.visites_24h": {
    "v": 3226279,
    "d": "3,23 millions",
-   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : visites gagnées en 24 h",
+   "l": "[🦃SALE!] Violence District : visites gagnées en 24 h",
    "src": "data/jours/2026-11-27.csv#L31"
   },
   "g.6739698191.visites_total": {
    "v": 1766524763,
    "d": "1,77 milliard",
-   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : visites cumulées depuis la création",
+   "l": "[🦃SALE!] Violence District : visites cumulées depuis la création",
    "src": "data/jours/2026-11-27.csv#L31"
   },
   "g.6739698191.note": {
    "v": 0.9289,
    "d": "92,9 %",
-   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : part de votes positifs",
+   "l": "[🦃SALE!] Violence District : part de votes positifs",
    "src": "data/jours/2026-11-27.csv#L31"
   },
   "g.6739698191.rang_veille": {
    "v": 27,
    "d": "27e",
-   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : rang la veille",
+   "l": "[🦃SALE!] Violence District : rang la veille",
    "src": "data/jours/2026-11-27.csv#L31"
   },
   "g.6739698191.rang_moy": {
    "v": 29,
    "d": "29e",
-   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : rang à la moyenne du jour",
+   "l": "[🦃SALE!] Violence District : rang à la moyenne du jour",
    "src": "data/jours/2026-11-27.csv#L31"
   },
   "g.6739698191.releves": {
    "v": 24,
    "d": "24",
-   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : relevés où le jeu a été mesuré",
+   "l": "[🦃SALE!] Violence District : relevés où le jeu a été mesuré",
    "src": "data/jours/2026-11-27.csv#L31"
   },
   "g.6739698191.pic_isole": {
    "v": false,
    "d": "non",
-   "l": "[WEEK 4 🎃 x BUTCHER] Violence District : pic ponctuel (plus de 3 fois les relevés voisins)",
+   "l": "[🦃SALE!] Violence District : pic ponctuel (plus de 3 fois les relevés voisins)",
    "src": "data/jours/2026-11-27.csv#L31"
   },
   "g.6331902150.nom": {
